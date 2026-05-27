@@ -33,6 +33,63 @@
     }
     #chart-container { position: relative; max-width: 960px; }
     canvas { width: 100% !important; }
+
+    /* Vorfreude section */
+    #vorfreude-section {
+      margin-top: 3rem;
+      max-width: 960px;
+    }
+    #vorfreude-section h2 {
+      font-size: 1.1rem;
+      margin-bottom: 0.25rem;
+    }
+    #vorfreude-subtitle {
+      font-size: 0.85rem;
+      color: #999;
+      margin-bottom: 1rem;
+    }
+    #vorfreude-month-filter,
+    #vorfreude-category-filter,
+    #vorfreude-editor-filter {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.75rem;
+    }
+    .filter-btn {
+      padding: 0.3rem 0.8rem;
+      border: 1px solid #555;
+      border-radius: 4px;
+      background: #222;
+      color: #ccc;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+    .filter-btn.active {
+      background: #4fc3f7;
+      border-color: #4fc3f7;
+      color: #111;
+      font-weight: bold;
+    }
+    #vorfreude-chart-container {
+      position: relative;
+      max-width: 960px;
+    }
+    #vorfreude-empty {
+      color: #888;
+      font-size: 0.9rem;
+      margin-top: 1rem;
+    }
+    #vorfreude-csv-link {
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      color: #4fc3f7;
+      text-decoration: none;
+    }
+    #vorfreude-csv-link:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -40,6 +97,19 @@
   <div id="year-filter"></div>
   <div id="chart-container">
     <canvas id="chart"></canvas>
+  </div>
+
+  <div id="vorfreude-section">
+    <h2>Vorfreude-Radar</h2>
+    <p id="vorfreude-subtitle"></p>
+    <div id="vorfreude-month-filter"></div>
+    <div id="vorfreude-category-filter"></div>
+    <div id="vorfreude-editor-filter"></div>
+    <div id="vorfreude-chart-container">
+      <canvas id="vorfreude-chart"></canvas>
+    </div>
+    <p id="vorfreude-empty" style="display:none;"></p>
+    <a id="vorfreude-csv-link" href="data/vorfreude.csv">CSV herunterladen</a>
   </div>
 
   <script>
@@ -166,6 +236,232 @@
     }
 
     main();
+
+    // ── Vorfreude-Radar ──────────────────────────────────────────────────────
+
+    const EDITOR_NAMES = {
+      'editor:joerg_langer':    'Jörg Langer (Red.)',
+      'editor:michael_trier':   'Michael Trier (Red.)',
+      'editor:benjamin_braun':  'Benjamin Braun (Red.)',
+      'editor:mark_wrba':       'Mark Wrba (Red.)',
+      'editor:natalie_grosse':  'Natalie Grosse (Red.)',
+      'editor:peter_bathge':    'Peter Bathge (Red.)',
+      'editor:christoph_vent':  'Christoph Vent (Red.)',
+    };
+
+    function formatMentioner(key) {
+      if (EDITOR_NAMES[key]) return EDITOR_NAMES[key];
+      if (key.startsWith('editor:')) return key.slice(7).replace(/_/g, ' ') + ' (Red.)';
+      if (key.startsWith('user:'))   return key.slice(5) + ' (User)';
+      return key;
+    }
+
+    const CATEGORY_COLOR = {
+      game:        '#4a90d9',
+      film_series: '#e05c5c',
+      misc:        '#6bbf6b',
+      unknown:     '#aaa',
+    };
+
+    function categoryColor(cat) {
+      return CATEGORY_COLOR[cat] || CATEGORY_COLOR.unknown;
+    }
+
+    let vorfreudeChartInstance = null;
+
+    function renderVorfreudeChart(monthData, categoryFilter, editorsOnly) {
+      const emptyEl  = document.getElementById('vorfreude-empty');
+      const canvasEl = document.getElementById('vorfreude-chart');
+
+      const stats = monthData.item_stats || {};
+      const keys  = Object.keys(stats);
+
+      if (keys.length === 0) {
+        emptyEl.textContent = 'Noch keine Daten für diesen Monat.';
+        emptyEl.style.display = 'block';
+        if (vorfreudeChartInstance) { vorfreudeChartInstance.destroy(); vorfreudeChartInstance = null; }
+        canvasEl.style.display = 'none';
+        return;
+      }
+
+      // Apply category filter
+      const filtered = keys.filter(k => {
+        const cat = stats[k].category || 'unknown';
+        if (categoryFilter === 'games')  return cat === 'game';
+        if (categoryFilter === 'films')  return cat === 'film_series';
+        if (categoryFilter === 'misc')   return cat !== 'game' && cat !== 'film_series';
+        return true; // 'all'
+      });
+
+      // Compute counts (editor-only filter)
+      const items = filtered.map(k => {
+        const entry = stats[k];
+        let count;
+        if (editorsOnly) {
+          count = (entry.mentioners || []).filter(m => m.startsWith('editor:')).length;
+        } else {
+          count = entry.count != null ? entry.count : (entry.mentioners || []).length;
+        }
+        return { name: k, count, category: entry.category || 'unknown', mentioners: entry.mentioners || [] };
+      }).filter(item => item.count > 0);
+
+      // Sort descending, top 15
+      items.sort((a, b) => b.count - a.count);
+      const top = items.slice(0, 15);
+
+      if (top.length === 0) {
+        emptyEl.textContent = 'Noch keine Daten für diese Auswahl.';
+        emptyEl.style.display = 'block';
+        if (vorfreudeChartInstance) { vorfreudeChartInstance.destroy(); vorfreudeChartInstance = null; }
+        canvasEl.style.display = 'none';
+        return;
+      }
+
+      emptyEl.style.display = 'none';
+      canvasEl.style.display = 'block';
+
+      const labels     = top.map(i => i.name);
+      const counts     = top.map(i => i.count);
+      const colors     = top.map(i => categoryColor(i.category));
+      const mentioners = top.map(i => i.mentioners);
+
+      const chartData = {
+        labels,
+        datasets: [{
+          label: 'Nennungen',
+          data: counts,
+          backgroundColor: colors,
+          borderColor: colors.map(c => c + 'cc'),
+          borderWidth: 1,
+        }],
+      };
+
+      const chartOptions = {
+        indexAxis: 'y',
+        responsive: true,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              afterLabel: (ctx) => {
+                const list = mentioners[ctx.dataIndex];
+                if (!list || list.length === 0) return '';
+                return list.map(formatMentioner).join('\n');
+              },
+            },
+          },
+        },
+        scales: {
+          x: {
+            ticks: { color: '#999' },
+            grid:  { color: '#333' },
+            title: { display: true, text: 'Nennungen', color: '#999' },
+          },
+          y: {
+            ticks: { color: '#ccc', font: { size: 12 } },
+            grid:  { color: '#333' },
+          },
+        },
+      };
+
+      if (vorfreudeChartInstance) vorfreudeChartInstance.destroy();
+      vorfreudeChartInstance = new Chart(canvasEl, { type: 'bar', data: chartData, options: chartOptions });
+    }
+
+    async function initVorfreude() {
+      const section = document.getElementById('vorfreude-section');
+
+      let months;
+      try {
+        months = await fetch('data/vorfreude.json').then(r => {
+          if (!r.ok) throw new Error('not found');
+          return r.json();
+        });
+      } catch (_) {
+        section.innerHTML = '<h2>Vorfreude-Radar</h2><p id="vorfreude-empty" style="color:#888;font-size:0.9rem;">Vorfreude-Daten noch nicht vorhanden.</p>';
+        return;
+      }
+
+      if (!months || months.length === 0) {
+        section.innerHTML = '<h2>Vorfreude-Radar</h2><p id="vorfreude-empty" style="color:#888;font-size:0.9rem;">Vorfreude-Daten noch nicht vorhanden.</p>';
+        return;
+      }
+
+      // Sort months descending
+      months.sort((a, b) => (b.month || '').localeCompare(a.month || ''));
+
+      let activeMonth      = months[0].month;
+      let activeCategoryFilter = 'all';
+      let editorsOnly      = false;
+
+      // Month buttons
+      const monthFilterEl = document.getElementById('vorfreude-month-filter');
+      months.forEach(m => {
+        const btn = document.createElement('button');
+        btn.className = 'year-btn' + (m.month === activeMonth ? ' active' : '');
+        btn.textContent = m.month;
+        btn.dataset.month = m.month;
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('#vorfreude-month-filter .year-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeMonth = m.month;
+          const md = months.find(x => x.month === activeMonth);
+          document.getElementById('vorfreude-subtitle').textContent = md ? md.title : '';
+          renderVorfreudeChart(md, activeCategoryFilter, editorsOnly);
+        });
+        monthFilterEl.appendChild(btn);
+      });
+
+      // Subtitle
+      document.getElementById('vorfreude-subtitle').textContent = months[0].title || '';
+
+      // Category filter buttons
+      const categoryDefs = [
+        { key: 'all',   label: 'Alle' },
+        { key: 'games', label: 'Spiele' },
+        { key: 'films', label: 'Filme & Serien' },
+        { key: 'misc',  label: 'Sonstiges' },
+      ];
+      const catFilterEl = document.getElementById('vorfreude-category-filter');
+      categoryDefs.forEach(def => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn' + (def.key === activeCategoryFilter ? ' active' : '');
+        btn.textContent = def.label;
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('#vorfreude-category-filter .filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeCategoryFilter = def.key;
+          const md = months.find(x => x.month === activeMonth);
+          renderVorfreudeChart(md, activeCategoryFilter, editorsOnly);
+        });
+        catFilterEl.appendChild(btn);
+      });
+
+      // Editor toggle buttons
+      const editorDefs = [
+        { key: false, label: 'Auch User' },
+        { key: true,  label: 'Nur Redakteure' },
+      ];
+      const editorFilterEl = document.getElementById('vorfreude-editor-filter');
+      editorDefs.forEach(def => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn' + (def.key === editorsOnly ? ' active' : '');
+        btn.textContent = def.label;
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('#vorfreude-editor-filter .filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          editorsOnly = def.key;
+          const md = months.find(x => x.month === activeMonth);
+          renderVorfreudeChart(md, activeCategoryFilter, editorsOnly);
+        });
+        editorFilterEl.appendChild(btn);
+      });
+
+      // Initial render
+      renderVorfreudeChart(months[0], activeCategoryFilter, editorsOnly);
+    }
+
+    initVorfreude();
   </script>
 </body>
 </html>
