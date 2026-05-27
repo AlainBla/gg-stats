@@ -14894,8 +14894,8 @@
             "category": "game"
           },
           {
-            "title": "The Last of Us 2",
-            "category": "game"
+            "title": "The Last of Us Staffel 2",
+            "category": "film_series"
           },
           {
             "title": "Maneater",
@@ -15091,8 +15091,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:dennis_hilla",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:dennis_hilla"
         ]
       },
       "Mount & Blade 2 - Bannerlord": {
@@ -15120,8 +15120,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "editor:benjamin_braun"
         ]
       },
       "Star Wars Resistance": {
@@ -15140,10 +15140,10 @@
       },
       "Maneater": {
         "count": 2,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "editor:benjamin_braun"
         ]
       },
       "The Wonderful 101 Remastered": {
@@ -15265,9 +15265,9 @@
           "editor:benjamin_braun"
         ]
       },
-      "The Last of Us 2": {
+      "The Last of Us Staffel 2": {
         "count": 1,
-        "category": "game",
+        "category": "film_series",
         "mentioners": [
           "editor:benjamin_braun"
         ]
@@ -16648,8 +16648,8 @@
             "category": "game"
           },
           {
-            "title": "The Last of Us 2",
-            "category": "game"
+            "title": "The Last of Us Staffel 2",
+            "category": "film_series"
           },
           {
             "title": "Down in the Weeds, Where the World Once Was",
@@ -16755,8 +16755,8 @@
             "category": "game"
           },
           {
-            "title": "The Last of Us 2",
-            "category": "game"
+            "title": "The Last of Us Staffel 2",
+            "category": "film_series"
           },
           {
             "title": "Necromanus",
@@ -17033,8 +17033,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:thomas_schmitz"
+          "editor:thomas_schmitz",
+          "editor:benjamin_braun"
         ]
       },
       "Zoey's Extraordinary Playlist": {
@@ -17072,12 +17072,12 @@
           "editor:thomas_schmitz"
         ]
       },
-      "The Last of Us 2": {
+      "The Last of Us Staffel 2": {
         "count": 2,
-        "category": "game",
+        "category": "film_series",
         "mentioners": [
-          "editor:karsten_scholz",
-          "editor:thomas_schmitz"
+          "editor:thomas_schmitz",
+          "editor:karsten_scholz"
         ]
       },
       "Down in the Weeds, Where the World Once Was": {
@@ -56462,7 +56462,7 @@
         "name": "Jörg Langer",
         "items": [
           {
-            "title": "Star Wars – Andor (Staffel 2)",
+            "title": "Star Wars – Andor Staffel 2",
             "category": "film_series"
           },
           {
@@ -57025,7 +57025,7 @@
       }
     ],
     "item_stats": {
-      "Star Wars – Andor (Staffel 2)": {
+      "Star Wars – Andor Staffel 2": {
         "count": 1,
         "category": "film_series",
         "mentioners": [
@@ -58676,16 +58676,16 @@
         "name": "Jörg Langer",
         "items": [
           {
-            "title": "The Last Of Us",
+            "title": "The Last of Us Staffel 2",
             "category": "film_series"
           },
           {
-            "title": "(Staffel 2)",
+            "title": "The Last of Us Staffel 2",
             "category": "film_series"
           },
           {
-            "title": "The Last of Us 2",
-            "category": "game"
+            "title": "The Last of Us Staffel 2",
+            "category": "film_series"
           },
           {
             "title": "Borderlands",
@@ -59287,25 +59287,14 @@
       }
     ],
     "item_stats": {
-      "The Last Of Us": {
-        "count": 1,
+      "The Last of Us Staffel 2": {
+        "count": 4,
         "category": "film_series",
         "mentioners": [
-          "editor:jörg_langer"
-        ]
-      },
-      "(Staffel 2)": {
-        "count": 1,
-        "category": "film_series",
-        "mentioners": [
-          "editor:jörg_langer"
-        ]
-      },
-      "The Last of Us 2": {
-        "count": 1,
-        "category": "game",
-        "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:funrox",
+          "user:Q-Bert",
+          "user:euph"
         ]
       },
       "Borderlands": {
@@ -59621,15 +59610,6 @@
         "category": "game",
         "mentioners": [
           "editor:michael_hengst"
-        ]
-      },
-      "The Last of Us Staffel 2": {
-        "count": 3,
-        "category": "film_series",
-        "mentioners": [
-          "user:funrox",
-          "user:Q-Bert",
-          "user:euph"
         ]
       },
       "Counting Crows Album": {
@@ -70929,7 +70909,7 @@
     "month": "2026-04",
     "url": "/news/342446/darauf-freut-sich-die-redaktion-im-april-2026",
     "title": "Darauf freut sich die Redaktion im... April 2026",
-    "last_updated": "2026-05-27T22:48:19Z",
+    "last_updated": "2026-05-27T22:51:47Z",
     "comment_count": 57,
     "editors": [
       {
@@ -72545,7 +72525,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-05-27T22:48:18Z",
+    "last_updated": "2026-05-27T22:51:46Z",
     "comment_count": 62,
     "editors": [
       {

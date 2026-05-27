@@ -9,18 +9,25 @@
     ],
     "Clair Obscur: Expedition 33": [
       "Clair Obscur - Expedition 33",
-      "Clair Obscur - Expedition 33"
+      "Clair Obscur - Expedition 33"
     ],
     "Doom: The Dark Ages": [
       "Doom - The Dark Ages",
-      "Doom - The Dark Ages",
       "Doom Dark Ages"
     ],
     "Metal Gear Solid Delta - Snake Eater": [
-      "MGS Snake Eater"
+      "MGS Snake Eater",
+      "Metal Gear Solid Delta: Snake Water"
+    ],
+    "The Last of Us Staffel 2": [
+      "The Last of Us 2",
+      "(Staffel 2)",
+      "Staffel 2",
+      "The Last Of Us"
     ]
   },
   "categories": {
-    "Pragmata": "game"
+    "Pragmata": "game",
+    "The Last of Us Staffel 2": "film_series"
   }
 }

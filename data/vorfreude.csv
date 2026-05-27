@@ -820,7 +820,7 @@ month,item_title,category,count,editor_count,user_count
 2020-05,Bosch,film_series,2,2,0
 2020-05,Star Wars Resistance,film_series,1,1,0
 2020-05,The Last of Us - Part 2,game,1,1,0
-2020-05,Maneater,game,2,2,0
+2020-05,Maneater,misc,2,2,0
 2020-05,The Wonderful 101 Remastered,misc,1,1,0
 2020-05,Call of Duty - Modern Warfare,game,1,1,0
 2020-05,Valorant,game,1,1,0
@@ -838,7 +838,7 @@ month,item_title,category,count,editor_count,user_count
 2020-05,Billy Bob Thornton,film_series,1,1,0
 2020-05,The Man Who Wasn’t There,film_series,1,1,0
 2020-05,Alf,game,1,1,0
-2020-05,The Last of Us 2,game,1,1,0
+2020-05,The Last of Us Staffel 2,film_series,1,1,0
 2020-05,Postal,game,1,1,0
 2020-05,Xenoblade Chronicles,game,1,1,0
 2020-05,Oculus,film_series,1,1,0
@@ -933,7 +933,7 @@ month,item_title,category,count,editor_count,user_count
 2020-08,The Witcher,film_series,1,1,0
 2020-08,Tell Me Why,game,1,1,0
 2020-08,Life Is Strange 2,game,1,1,0
-2020-08,The Last of Us 2,game,2,2,0
+2020-08,The Last of Us Staffel 2,film_series,2,2,0
 2020-08,"Down in the Weeds, Where the World Once Was",misc,1,1,0
 2020-08,Bright Eyes,misc,1,1,0
 2020-08,Castle,film_series,1,1,0
@@ -3465,7 +3465,7 @@ month,item_title,category,count,editor_count,user_count
 2025-02,The Monkey,film_series,1,0,1
 2025-02,Cobra Kai,film_series,1,0,1
 2025-02,Yellowjackets,film_series,1,0,1
-2025-03,Star Wars – Andor (Staffel 2),film_series,1,1,0
+2025-03,Star Wars – Andor Staffel 2,film_series,1,1,0
 2025-03,Zero Day,film_series,3,1,2
 2025-03,Robert de Niro,film_series,1,1,0
 2025-03,Cassandra,film_series,1,1,0
@@ -3610,9 +3610,7 @@ month,item_title,category,count,editor_count,user_count
 2025-04,Xenoblade Chronicles X: Definitive Edition,game,1,0,1
 2025-04,Indiana Jones and the Great Circle,game,2,0,2
 2025-04,Days Gone Remastered,game,1,0,1
-2025-05,The Last Of Us,film_series,1,1,0
-2025-05,(Staffel 2),film_series,1,1,0
-2025-05,The Last of Us 2,game,1,1,0
+2025-05,The Last of Us Staffel 2,film_series,4,1,3
 2025-05,Borderlands,game,1,1,0
 2025-05,Spieleveteranen,game,1,1,0
 2025-05,Doom: The Dark Ages,game,6,4,2
@@ -3655,7 +3653,6 @@ month,item_title,category,count,editor_count,user_count
 2025-05,Das Rad der Zeit,game,1,1,0
 2025-05,The Pale Knight,game,1,1,0
 2025-05,Peter Milligan,game,1,1,0
-2025-05,The Last of Us Staffel 2,film_series,3,0,3
 2025-05,Counting Crows Album,misc,1,0,1
 2025-05,Old Skies,game,1,0,1
 2025-05,Indiana Jones and the Great Circle,game,1,0,1

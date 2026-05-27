@@ -95,6 +95,19 @@ def compute_stats(editors, user_items):
     return stats
 
 
+def strip_staffel_parens(entry) -> bool:
+    """Convert 'Title (Staffel N)' → 'Title Staffel N' in editors + user_items."""
+    changed = False
+    pattern = re.compile(r'\s*\(Staffel\s+(\d+)\)')
+    for src in [*entry.get("editors", []), *[{"items": u["items"]} for u in entry.get("user_items", [])]]:
+        for item in src["items"]:
+            clean = pattern.sub(r' Staffel \1', item["title"]).strip()
+            if clean != item["title"]:
+                item["title"] = clean
+                changed = True
+    return changed
+
+
 def strip_trailing_commas(entry) -> bool:
     """Remove trailing commas from item titles in editors + user_items."""
     changed = False
@@ -159,6 +172,7 @@ def main():
     for entry in data:
         changed  = strip_trailing_commas(entry)
         changed |= apply_aliases(entry, alias_map)
+        changed |= strip_staffel_parens(entry)
         changed |= apply_categories(entry, cat_fixes)
         if changed:
             entry["item_stats"] = compute_stats(entry["editors"], entry.get("user_items", []))
