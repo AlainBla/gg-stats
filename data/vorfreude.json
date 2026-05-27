@@ -67312,7 +67312,7 @@
             "category": "film_series"
           },
           {
-            "title": "Spider-Noir",
+            "title": "Spider-Man Noir",
             "category": "film_series"
           },
           {
@@ -67390,8 +67390,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:christian_burtchen",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:christian_burtchen"
         ]
       },
       "The Expanse – Osiris Reborn": {
@@ -67405,24 +67405,24 @@
         "count": 10,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:hagen_gehritz",
           "editor:jörg_langer",
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun",
           "editor:michael_hengst",
-          "user:Berndor",
+          "user:Olphas",
           "user:Flooraimer",
           "user:Ganon",
-          "user:Hannes Herrmann",
+          "user:Berndor",
           "user:Moe90",
-          "user:Olphas"
+          "user:Hannes Herrmann"
         ]
       },
       "Caggtus": {
         "count": 2,
         "category": "misc",
         "mentioners": [
-          "editor:hagen_gehritz",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:hagen_gehritz"
         ]
       },
       "Scrubs": {
@@ -67471,21 +67471,21 @@
         "count": 7,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:hagen_gehritz",
+          "editor:benjamin_braun",
           "editor:kai_schmidt",
+          "user:Olphas",
           "user:Green Yoshi",
-          "user:John of Gaunt",
           "user:Moe90",
-          "user:Olphas"
+          "user:John of Gaunt"
         ]
       },
       "Returnal": {
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun"
         ]
       },
       "Replaced": {
@@ -67531,11 +67531,11 @@
           "editor:benjamin_braun",
           "user:Funatic",
           "user:Ganon",
-          "user:Gucky",
           "user:Hannes Herrmann",
-          "user:KampfPlauze",
           "user:Maestro84",
-          "user:Thomas Schmitz"
+          "user:Gucky",
+          "user:Thomas Schmitz",
+          "user:KampfPlauze"
         ]
       },
       "Malcolm in the Middle: Life's Still Unfair": {
@@ -67678,8 +67678,8 @@
           "editor:christian_burtchen",
           "user:Bruno Lawrie",
           "user:Crizzo",
-          "user:Maestro84",
-          "user:Moe90"
+          "user:Moe90",
+          "user:Maestro84"
         ]
       },
       "The Pitt": {
@@ -67791,8 +67791,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "user:Berndor",
           "user:Bruno Lawrie",
+          "user:Berndor",
           "user:Hannes Herrmann"
         ]
       },
@@ -67843,16 +67843,16 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Flooraimer",
-          "user:Q-Bert"
+          "user:Q-Bert",
+          "user:Flooraimer"
         ]
       },
       "Samson": {
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Flooraimer",
-          "user:Olphas"
+          "user:Olphas",
+          "user:Flooraimer"
         ]
       },
       "Beef S2": {
@@ -67873,10 +67873,10 @@
         "count": 4,
         "category": "film_series",
         "mentioners": [
+          "user:Olphas",
           "user:Ganon",
           "user:Hannes Herrmann",
-          "user:Henmann",
-          "user:Olphas"
+          "user:Henmann"
         ]
       },
       "Ready or Not - Here I Come": {
@@ -67912,12 +67912,12 @@
         "count": 6,
         "category": "film_series",
         "mentioners": [
-          "user:DerBesserwisser",
           "user:Flooraimer",
-          "user:Henmann",
+          "user:Sokar",
           "user:John of Gaunt",
-          "user:KampfPlauze",
-          "user:Sokar"
+          "user:DerBesserwisser",
+          "user:Henmann",
+          "user:KampfPlauze"
         ]
       },
       "Lee Cronin's The Mummy": {
@@ -67988,8 +67988,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "user:Klexter",
-          "user:Moe90"
+          "user:Moe90",
+          "user:Klexter"
         ]
       },
       "Screamer": {
@@ -68069,7 +68069,7 @@
           "user:Gucky"
         ]
       },
-      "Spider-Noir": {
+      "Spider-Man Noir": {
         "count": 1,
         "category": "film_series",
         "mentioners": [
@@ -68212,7 +68212,7 @@
             "category": "film_series"
           },
           {
-            "title": "Spider-Noir",
+            "title": "Spider-Man Noir",
             "category": "film_series"
           },
           {
@@ -68611,7 +68611,7 @@
             "category": "film_series"
           },
           {
-            "title": "Spider-Noir",
+            "title": "Spider-Man Noir",
             "category": "film_series"
           },
           {
@@ -68665,7 +68665,7 @@
             "category": "film_series"
           },
           {
-            "title": "Spider-Noir",
+            "title": "Spider-Man Noir",
             "category": "film_series"
           },
           {
@@ -68987,8 +68987,8 @@
         "mentioners": [
           "editor:jörg_langer",
           "user:John of Gaunt",
-          "user:Moe90",
           "user:euph",
+          "user:Moe90",
           "user:yesnocancel"
         ]
       },
@@ -68998,8 +68998,8 @@
         "mentioners": [
           "editor:hagen_gehritz",
           "user:Funatic",
-          "user:Hyperbolic",
-          "user:Moe90"
+          "user:Moe90",
+          "user:Hyperbolic"
         ]
       },
       "Inkonbini - One Store, Many Stories": {
@@ -69051,9 +69051,9 @@
         "mentioners": [
           "editor:benjamin_braun",
           "editor:michael_hengst",
-          "user:Flooraimer",
           "user:Funatic",
-          "user:Ganon"
+          "user:Ganon",
+          "user:Flooraimer"
         ]
       },
       "Karl Urban": {
@@ -69069,8 +69069,8 @@
         "mentioners": [
           "editor:benjamin_braun",
           "editor:kai_schmidt",
-          "user:Bruno Lawrie",
-          "user:Olphas"
+          "user:Olphas",
+          "user:Bruno Lawrie"
         ]
       },
       "007 - First Light": {
@@ -69078,15 +69078,15 @@
         "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
-          "editor:jens_bremicker",
           "editor:kai_schmidt",
-          "user:Baumkuchen",
-          "user:Danywilde",
-          "user:Green Yoshi",
+          "editor:jens_bremicker",
+          "user:Olphas",
           "user:John of Gaunt",
           "user:Käpt'n Iglo",
-          "user:Maverick",
-          "user:Olphas"
+          "user:Green Yoshi",
+          "user:Baumkuchen",
+          "user:Danywilde",
+          "user:Maverick"
         ]
       },
       "Hitman": {
@@ -69131,11 +69131,13 @@
           "editor:christian_burtchen"
         ]
       },
-      "Spider-Noir": {
-        "count": 3,
+      "Spider-Man Noir": {
+        "count": 5,
         "category": "film_series",
         "mentioners": [
           "editor:christian_burtchen",
+          "user:Olphas",
+          "user:Funatic",
           "user:Ganon",
           "user:Käpt'n Iglo"
         ]
@@ -69194,11 +69196,11 @@
         "category": "film_series",
         "mentioners": [
           "editor:michael_hengst",
-          "user:AlexCartman",
-          "user:Crizzo",
           "user:Ganon",
+          "user:Crizzo",
+          "user:Hyperbolic",
           "user:Hermann Nasenweier",
-          "user:Hyperbolic"
+          "user:AlexCartman"
         ]
       },
       "William Goldings": {
@@ -69262,8 +69264,8 @@
         "category": "game",
         "mentioners": [
           "editor:michael_hengst",
-          "user:Baumkuchen",
-          "user:Ganon"
+          "user:Ganon",
+          "user:Baumkuchen"
         ]
       },
       "Nitro Gen Omega": {
@@ -69372,16 +69374,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Flooraimer",
-          "user:Klexter"
-        ]
-      },
-      "Spider-Man Noir": {
-        "count": 2,
-        "category": "film_series",
-        "mentioners": [
-          "user:Funatic",
-          "user:Olphas"
+          "user:Klexter",
+          "user:Flooraimer"
         ]
       },
       "The Last Contract of Isako": {
@@ -69473,8 +69467,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "user:Crizzo",
-          "user:Funatic"
+          "user:Funatic",
+          "user:Crizzo"
         ]
       },
       "Rick & Morty Staffel 9": {

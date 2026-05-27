@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
-"""Reclassify item categories in vorfreude.json and recompute item_stats.
+"""Apply overrides from data/overrides.json to vorfreude.json and recompute item_stats.
 
-Add entries to FIXES below, then run:
+overrides.json schema:
+  aliases:    { canonical_title: [variant, ...] }  — merge variants into canonical
+  categories: { title: category }                  — fix wrong category
+
+Run:
     python3 scripts/fix_categories.py
 """
 import json
 import re
 from pathlib import Path
 
-DATA = Path("data/vorfreude.json")
-
-# title → correct category ("game", "film_series", "misc", "unknown")
-FIXES = {
-    "Pragmata": "game",
-}
+DATA_FILE      = Path("data/vorfreude.json")
+OVERRIDES_FILE = Path("data/overrides.json")
 
 
 def compute_stats(editors, user_items):
@@ -39,30 +39,50 @@ def compute_stats(editors, user_items):
     return stats
 
 
+def apply_aliases(entry, alias_map):
+    """Rename variant titles to canonical in editors + user_items. Returns True if changed."""
+    changed = False
+    for src in [*entry.get("editors", []), *[{"items": u["items"]} for u in entry.get("user_items", [])]]:
+        for item in src["items"]:
+            if item["title"] in alias_map:
+                item["title"] = alias_map[item["title"]]
+                changed = True
+    return changed
+
+
+def apply_categories(entry, cat_fixes):
+    """Fix category for named titles in editors + user_items. Returns True if changed."""
+    changed = False
+    for src in [*entry.get("editors", []), *[{"items": u["items"]} for u in entry.get("user_items", [])]]:
+        for item in src["items"]:
+            correct = cat_fixes.get(item["title"])
+            if correct and item["category"] != correct:
+                item["category"] = correct
+                changed = True
+    return changed
+
+
 def main():
-    data = json.loads(DATA.read_text())
-    total = 0
+    overrides   = json.loads(OVERRIDES_FILE.read_text())
+    alias_map   = {}  # variant → canonical
+    for canonical, variants in overrides.get("aliases", {}).items():
+        for v in variants:
+            alias_map[v] = canonical
+    cat_fixes = overrides.get("categories", {})
+
+    data = json.loads(DATA_FILE.read_text())
+    months_changed = 0
 
     for entry in data:
-        changed = False
-        sources = [
-            *[{"items": ed["items"]} for ed in entry.get("editors", [])],
-            *[{"items": u["items"]} for u in entry.get("user_items", [])],
-        ]
-        for src in sources:
-            for item in src["items"]:
-                correct = FIXES.get(item["title"])
-                if correct and item["category"] != correct:
-                    item["category"] = correct
-                    total += 1
-                    changed = True
-
+        changed  = apply_aliases(entry, alias_map)
+        changed |= apply_categories(entry, cat_fixes)
         if changed:
             entry["item_stats"] = compute_stats(entry["editors"], entry.get("user_items", []))
+            months_changed += 1
             print(f"  {entry['month']}: recomputed item_stats")
 
-    DATA.write_text(json.dumps(data, ensure_ascii=False, indent=2))
-    print(f"Done. {total} item(s) reclassified.")
+    DATA_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2))
+    print(f"Done. {months_changed} month(s) updated.")
 
 
 if __name__ == "__main__":
