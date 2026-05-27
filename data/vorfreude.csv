@@ -159,7 +159,7 @@ month,item_title,category,count,editor_count,user_count
 2018-06,GG-Grillfest in Salmdorf,game,1,1,0
 2018-06,Deadpool 2,film_series,1,1,0
 2018-06,Tote Mädchen lügen nicht,game,1,1,0
-2018-06,Detroit – Become Human,game,1,1,0
+2018-06,Detroit - Become Human,game,1,1,0
 2018-06,Safe,film_series,1,1,0
 2018-06,The Terror,film_series,1,1,0
 2018-06,Bosch,film_series,1,1,0
@@ -328,7 +328,7 @@ month,item_title,category,count,editor_count,user_count
 2018-11,Tenacious D,misc,1,1,0
 2018-12,Das Boot,film_series,1,1,0
 2018-12,Mutant Year Zero,game,1,1,0
-2018-12,"Strategic Command WWII World at War,",game,1,1,0
+2018-12,Strategic Command WWII World at War,game,1,1,0
 2018-12,Jagged Alliance Rage,game,1,1,0
 2018-12,Suits,film_series,1,1,0
 2018-12,Bumblebee,film_series,1,1,0
@@ -359,7 +359,7 @@ month,item_title,category,count,editor_count,user_count
 2018-12,Spider-Man,game,1,1,0
 2019-02,Ted Bundy – Portrait eines Serienmörders,film_series,1,1,0
 2019-02,Anthem,game,3,3,0
-2019-02,Far Cry – New Dawn,game,1,1,0
+2019-02,Far Cry - New Dawn,game,2,2,0
 2019-02,Far Cry 5,game,1,1,0
 2019-02,Ghostemane,misc,1,1,0
 2019-02,Mindhunter,film_series,1,1,0
@@ -369,7 +369,6 @@ month,item_title,category,count,editor_count,user_count
 2019-02,Trials Rising,game,1,1,0
 2019-02,Shameless,film_series,1,1,0
 2019-02,One-Punch Man,film_series,1,1,0
-2019-02,Far Cry - New Dawn,game,1,1,0
 2019-02,Foundation,game,1,1,0
 2019-02,Varshons 2,misc,1,1,0
 2019-02,The Lemonheads,misc,1,1,0
@@ -383,7 +382,7 @@ month,item_title,category,count,editor_count,user_count
 2019-03,Iron Sky – The Coming Race,film_series,2,2,0
 2019-03,Bloodborne,game,1,1,0
 2019-03,The Old Hunters,game,1,1,0
-2019-03,Sekiro – Shadows Die Twice,game,1,1,0
+2019-03,Sekiro - Shadows Die Twice,game,1,1,0
 2019-03,Dark Souls,game,1,1,0
 2019-03,Perturbator,misc,1,1,0
 2019-03,Masters of Hardcore,misc,1,1,0
@@ -431,13 +430,12 @@ month,item_title,category,count,editor_count,user_count
 2019-05,GDC Doku,film_series,1,1,0
 2019-05,Game of Thrones,film_series,4,4,0
 2019-05,Detektiv Pikachu,film_series,1,1,0
-2019-05,A Plague Tale – Innocence,game,1,1,0
+2019-05,A Plague Tale - Innocence,game,3,3,0
 2019-05,Super Meat Boy Forever,game,2,2,0
 2019-05,Rage 2,game,4,4,0
 2019-05,Brujeria,misc,1,1,0
 2019-05,Days 'N' Daze,misc,1,1,0
 2019-05,Life in Pieces,film_series,1,1,0
-2019-05,A Plague Tale - Innocence,game,2,2,0
 2019-05,Mad Max,game,1,1,0
 2019-05,Aladdin,film_series,1,1,0
 2019-05,Mamoru Hosoda,film_series,1,1,0
@@ -500,7 +498,7 @@ month,item_title,category,count,editor_count,user_count
 2019-08,Leberkäsjunkie,film_series,1,1,0
 2019-08,Quantum Break,game,1,1,0
 2019-08,Control,game,4,4,0
-2019-08,The Dark Pictures – Man of Medan,game,1,1,0
+2019-08,The Dark Pictures - Man of Medan,game,2,2,0
 2019-08,Until Dawn,game,3,3,0
 2019-08,Soulfly,misc,1,1,0
 2019-08,Combichrist,misc,1,1,0
@@ -516,7 +514,6 @@ month,item_title,category,count,editor_count,user_count
 2019-08,Simon Scarrow,misc,1,1,0
 2019-08,Der dunkle Kristall: Ära des Widerstands,film_series,1,1,0
 2019-08,Jim Henson,film_series,1,1,0
-2019-08,The Dark Pictures - Man of Medan,game,1,1,0
 2019-08,World of Warcraft Classic,game,1,1,0
 2019-09,The Terror - Infamy,film_series,1,1,0
 2019-09,Another Life,film_series,1,1,0
@@ -546,8 +543,8 @@ month,item_title,category,count,editor_count,user_count
 2019-09,WoW Classic,film_series,1,1,0
 2019-10,Disenchantment,film_series,1,1,0
 2019-10,4 Blocks,film_series,1,1,0
-2019-10,Joker,film_series,2,2,0
-2019-10,"The Outer Worlds,",game,1,1,0
+2019-10,Joker,game,2,2,0
+2019-10,The Outer Worlds,game,4,4,0
 2019-10,Ghost Recon Breakpoint,game,1,1,0
 2019-10,Breaking Bad,film_series,1,1,0
 2019-10,El Camino,film_series,1,1,0
@@ -561,7 +558,6 @@ month,item_title,category,count,editor_count,user_count
 2019-10,Doom Patrol,film_series,1,1,0
 2019-10,Euphoria,film_series,1,1,0
 2019-10,The Handmaid's Tale,film_series,1,1,0
-2019-10,The Outer Worlds,game,3,3,0
 2019-10,Disco Elysium,game,1,1,0
 2019-10,Concrete Genie,game,1,1,0
 2019-10,Josin,misc,1,1,0
@@ -626,7 +622,7 @@ month,item_title,category,count,editor_count,user_count
 2019-11,Blacksad - Under the Skin,game,1,1,0
 2019-11,Need for Speed,game,1,1,0
 2019-11,NfS Heat,game,1,1,0
-2019-11,Terminator – Resistance,game,1,1,0
+2019-11,Terminator - Resistance,game,1,1,0
 2019-11,Kengan Ashura,film_series,1,1,0
 2019-11,Tekken,film_series,1,1,0
 2019-11,Metal Gear Solid,game,1,1,0
@@ -854,13 +850,12 @@ month,item_title,category,count,editor_count,user_count
 2020-06,Steve Carell,film_series,1,1,0
 2020-06,John Malkovich,film_series,1,1,0
 2020-06,Upload,game,1,1,0
-2020-06,The Last of Us - Part 2,game,4,4,0
+2020-06,The Last of Us - Part 2,game,5,5,0
 2020-06,Die 100 besten Retrospiele,game,1,1,0
 2020-06,Star Control 2,game,1,1,0
 2020-06,Command & Conquer Remastered,game,1,1,0
 2020-06,F is for Family,film_series,1,1,0
 2020-06,Avatar – Herr der Elemente,film_series,1,1,0
-2020-06,The Last of Us – Part 2,game,1,1,0
 2020-06,Valorant,game,1,1,0
 2020-06,Counter-Strike,game,1,1,0
 2020-06,Overwatch,game,1,1,0
@@ -1040,7 +1035,7 @@ month,item_title,category,count,editor_count,user_count
 2020-10,Ghost of Tsushima,game,1,1,0
 2020-11,Barbaren,film_series,2,2,0
 2020-11,Suburra,film_series,1,1,0
-2020-11,Yakuza - Like A Dragon,game,1,1,0
+2020-11,Yakuza - Like A Dragon,game,2,2,0
 2020-11,Assassin's Creed Valhalla,game,3,3,0
 2020-11,Total War - Warhammer 2,game,1,1,0
 2020-11,Xbox Series X/S,misc,1,1,0
@@ -1052,7 +1047,6 @@ month,item_title,category,count,editor_count,user_count
 2020-11,Bloodborne,game,1,1,0
 2020-11,Breaking Bad,film_series,1,1,0
 2020-11,Sackboy - A Big Adventure,game,1,1,0
-2020-11,Yakuza - Like a Dragon,game,1,1,0
 2020-11,The Pathless,game,1,1,0
 2020-11,Cyberpunk 2077,game,1,1,0
 2020-11,Lambchop,misc,1,1,0
@@ -1518,7 +1512,7 @@ month,item_title,category,count,editor_count,user_count
 2021-09,Diablo 2 Resurrected,game,2,2,0
 2021-09,No Time To Die,film_series,1,1,0
 2021-09,Bond,film_series,1,1,0
-2021-09,Kena - Bridge of Spirits,film_series,2,2,0
+2021-09,Kena - Bridge of Spirits,game,2,2,0
 2021-09,Sex Education,film_series,1,1,0
 2021-09,Denis Villeneuve,film_series,3,3,0
 2021-09,James Bond 007: Keine Zeit zu sterben,film_series,1,1,0
@@ -1526,7 +1520,7 @@ month,item_title,category,count,editor_count,user_count
 2021-09,Tell Me Why,game,1,1,0
 2021-09,Hades,game,1,1,0
 2021-09,Closed Hands,game,1,1,0
-2021-09,Life is Strange - True Colors,game,2,2,0
+2021-09,Life Is Strange - True Colors,game,2,2,0
 2021-09,Local Valley,misc,1,1,0
 2021-09,José González,misc,1,1,0
 2021-09,Niels Frevert,misc,1,1,0
@@ -1575,7 +1569,7 @@ month,item_title,category,count,editor_count,user_count
 2021-10,Darkest Dungeon 2,game,1,1,0
 2021-10,TGS 2021,misc,1,1,0
 2021-10,Modern Family,film_series,2,2,0
-2021-10,Venom - Let there be Carnage,film_series,1,1,0
+2021-10,Venom - Let There Be Carnage,film_series,2,2,0
 2021-10,Ted Lasso,film_series,2,2,0
 2021-10,Back 4 Blood,game,1,1,0
 2021-10,Moscow Death Brigade,misc,1,1,0
@@ -1605,7 +1599,6 @@ month,item_title,category,count,editor_count,user_count
 2021-10,Star Trek,film_series,1,1,0
 2021-10,Lower Decks,film_series,1,1,0
 2021-10,Legends of Tomorrow,film_series,1,1,0
-2021-10,Venom - Let There Be Carnage,film_series,1,1,0
 2021-10,Prime,game,1,1,0
 2021-10,Age of Empire 4,game,1,1,0
 2021-10,Out,misc,1,1,0
@@ -1625,7 +1618,7 @@ month,item_title,category,count,editor_count,user_count
 2021-11,Carole Baskin,film_series,1,1,0
 2021-11,Joe Exotic,film_series,1,1,0
 2021-11,Forza Horizon 5,game,2,2,0
-2021-11,Yakuza - Like a Dragon,game,1,1,0
+2021-11,Yakuza - Like A Dragon,game,1,1,0
 2021-11,Guardians of the Galaxy,game,1,1,0
 2021-11,Call of Duty - Vanguard,game,2,2,0
 2021-11,Bond,film_series,2,2,0
@@ -1744,7 +1737,7 @@ month,item_title,category,count,editor_count,user_count
 2022-02,Uncharted,film_series,2,2,0
 2022-02,The Cuphead Show,film_series,1,1,0
 2022-02,Pokémon Legenden Arceus,game,1,1,0
-2022-02,Horizon - Forbidden West,game,1,1,0
+2022-02,Horizon - Forbidden West,game,2,2,0
 2022-02,Licorice Pizza,film_series,1,1,0
 2022-02,Paul Thomas Anderson,film_series,1,1,0
 2022-02,The Marvelous Mrs. Maisel,film_series,1,1,0
@@ -1766,7 +1759,6 @@ month,item_title,category,count,editor_count,user_count
 2022-02,Scrubs,game,1,1,0
 2022-02,Cougar Town,game,1,1,0
 2022-02,Dark Souls,game,1,1,0
-2022-02,Horizon – Forbidden West,game,1,1,0
 2022-02,Le Morte d‘Arthur,misc,1,1,0
 2022-02,Sir Thomas Mallory,misc,1,1,0
 2022-02,Regeln für einen Ritter,misc,1,1,0
@@ -1936,7 +1928,7 @@ month,item_title,category,count,editor_count,user_count
 2022-05,Obi-Wan Kenobi,film_series,3,3,0
 2022-05,Brooklyn Nine-Nine,film_series,1,1,0
 2022-05,Zombie Army,game,1,1,0
-2022-05,Vampire the Masquerade - Swansong,game,2,2,0
+2022-05,Vampire the Masquerade - Swansong,game,3,3,0
 2022-05,Spy x Family,film_series,1,1,0
 2022-05,Dr. Strange,game,1,1,0
 2022-05,Spider-Man,film_series,1,1,0
@@ -1954,7 +1946,6 @@ month,item_title,category,count,editor_count,user_count
 2022-05,Forspoken,game,1,1,0
 2022-05,Kurosawa,game,1,1,0
 2022-05,Die sieben Samurai,game,1,1,0
-2022-05,Vampire the Masquerade – Swansong,game,1,1,0
 2022-05,Summer Game Fest,misc,1,1,0
 2022-05,Indie Live Expo,misc,1,1,0
 2022-05,The Eternals,film_series,1,1,0
@@ -2449,7 +2440,7 @@ month,item_title,category,count,editor_count,user_count
 2023-03,Sons of the Forest,game,1,1,0
 2023-03,The Last Starship,game,1,1,0
 2023-03,Conan Exiles,game,1,1,0
-2023-03,The Great War – Western Front,game,1,1,0
+2023-03,The Great War - Western Front,game,2,2,0
 2023-03,Berserk: Golden Age Arc - Memorial Edition,film_series,1,1,0
 2023-03,Resident Evil 4,game,2,2,0
 2023-03,Project Zero - Die Maske der Mondfinsternis,game,1,1,0
@@ -2480,7 +2471,6 @@ month,item_title,category,count,editor_count,user_count
 2023-03,Black Adam,film_series,1,1,0
 2023-03,Ted Lasso,film_series,1,1,0
 2023-03,Max Payne 3,game,1,1,0
-2023-03,The Great War - Western Front,game,1,1,0
 2023-03,Paperback,game,1,1,0
 2023-03,Erlend Loe,misc,1,1,0
 2023-03,Pete Buttigieg,misc,1,1,0
@@ -2491,7 +2481,7 @@ month,item_title,category,count,editor_count,user_count
 2023-04,Makoto Shinkai,film_series,1,1,0
 2023-04,Fauda,film_series,1,1,0
 2023-04,Wartales,game,2,2,0
-2023-04,Dead Island 2,game,4,4,0
+2023-04,Dead Island 2,game,5,5,0
 2023-04,Jedi Survivor,game,1,1,0
 2023-04,Advance Wars 1+2 Re-Boot-Camp,game,1,1,0
 2023-04,"Japan-Doku, Folge 5",misc,1,1,0
@@ -2500,7 +2490,6 @@ month,item_title,category,count,editor_count,user_count
 2023-04,Gordon Ramsay,film_series,1,1,0
 2023-04,Der Schwarm,film_series,1,1,0
 2023-04,Everspace 2,game,2,2,0
-2023-04,"Dead Island 2,",game,1,1,0
 2023-04,John Wick 4,film_series,1,1,0
 2023-04,Sherlock Holmes and the Awakended,game,1,1,0
 2023-04,H.P. Lovecraft,game,1,1,0
@@ -2550,7 +2539,7 @@ month,item_title,category,count,editor_count,user_count
 2023-04,Star Wars Jedi - Survivor.,game,1,1,0
 2023-04,Horizon Forbidden West: Burning Shores,game,1,1,0
 2023-05,Tokio bei Tag,film_series,1,1,0
-2023-05,The Legend of Zelda – Tears of the Kingdom,game,1,1,0
+2023-05,The Legend of Zelda - Tears of the Kingdom,game,1,1,0
 2023-05,System Shock,game,1,1,0
 2023-05,"Japandoku 2022, Folge 6",misc,1,1,0
 2023-05,Die Redaktion 2022/2023,misc,1,1,0
@@ -2629,10 +2618,10 @@ month,item_title,category,count,editor_count,user_count
 2023-07,Silo,film_series,1,1,0
 2023-07,Seven Kings Must Die,film_series,1,1,0
 2023-07,The Last Kingdom,film_series,1,1,0
-2023-07,"The Witcher,",film_series,1,1,0
+2023-07,The Witcher,film_series,2,2,0
 2023-07,Wartales,game,1,1,0
 2023-07,Jagged Alliance 3,game,1,1,0
-2023-07,Aliens – Dark Descent,game,1,1,0
+2023-07,Aliens - Dark Descent,game,1,1,0
 2023-07,Japandoku,misc,1,1,0
 2023-07,Aggretsuko,film_series,1,1,0
 2023-07,Record of Ragnarok,film_series,1,1,0
@@ -2659,8 +2648,7 @@ month,item_title,category,count,editor_count,user_count
 2023-07,Cillian Murphy,film_series,1,1,0
 2023-07,Marvel’s Secret Invasion,film_series,1,1,0
 2023-07,The Lincoln Lawyer,film_series,1,1,0
-2023-07,"Michael Connell,",film_series,1,1,0
-2023-07,The Witcher,film_series,1,1,0
+2023-07,Michael Connell,film_series,1,1,0
 2023-07,The Legend of Zelda – Tears of the Kingdom,game,1,1,0
 2023-07,Pikmin,game,1,1,0
 2023-07,Nobunaga’s Ambition,game,1,1,0
@@ -2687,7 +2675,7 @@ month,item_title,category,count,editor_count,user_count
 2023-08,Die letzte Fahrt der Demeter,film_series,1,1,0
 2023-08,Bram Stokers,film_series,1,1,0
 2023-08,Divinity - Original Sin 2,game,1,1,0
-2023-08,Armored Core 6 - Fires of Rubicon,game,1,1,0
+2023-08,Armored Core 6 - Fires of Rubicon,game,2,2,0
 2023-08,Battletech,game,1,1,0
 2023-08,Wolfstride,game,1,1,0
 2023-08,En Garde! –,game,1,1,0
@@ -2714,7 +2702,6 @@ month,item_title,category,count,editor_count,user_count
 2023-08,Foundation,film_series,1,1,0
 2023-08,Baldur’s Gate 3,game,1,1,0
 2023-08,Fort Solis,game,1,1,0
-2023-08,Armored Core 6  - Fires of Rubicon,game,1,1,0
 2023-08,Under The Waves,game,1,1,0
 2023-08,Immortals of Aveum,game,1,1,0
 2023-08,Atlas Fallen,game,1,1,0
@@ -2783,7 +2770,7 @@ month,item_title,category,count,editor_count,user_count
 2023-10,Mirage,game,1,1,0
 2023-10,Forza Motorsport,game,1,1,0
 2023-10,Spider-Man 2,game,1,1,0
-2023-10,"Kraven the Hunter,",film_series,1,1,0
+2023-10,Kraven the Hunter,film_series,1,1,0
 2023-10,The Fall of the House Usher,film_series,1,1,0
 2023-10,Loki,film_series,1,1,0
 2023-10,The Crown,film_series,1,1,0
@@ -3141,7 +3128,7 @@ month,item_title,category,count,editor_count,user_count
 2024-09,Alien Romulus,film_series,1,1,0
 2024-09,Skald,game,1,1,0
 2024-09,House of the Dragon,game,1,1,0
-2024-09,Herr der Ringe – Ringe der Macht,game,1,1,0
+2024-09,Herr der Ringe - Ringe der Macht,game,1,1,0
 2024-09,Age of Mythology Retold,game,2,2,0
 2024-09,Space Marine 2,game,1,1,0
 2024-09,15jährigen Bestehen von GamersGlobal.de,misc,1,1,0
@@ -3300,7 +3287,7 @@ month,item_title,category,count,editor_count,user_count
 2024-12,Diablo 4,game,1,1,0
 2024-12,Black Doves,film_series,1,1,0
 2024-12,Keira Knightley,game,1,1,0
-2024-12,"The Return,",game,1,1,0
+2024-12,The Return,game,1,1,0
 2024-12,Ralph Fiennes,game,1,1,0
 2024-12,Homer,game,1,1,0
 2024-12,Rings of Power,game,1,1,0
@@ -3449,7 +3436,7 @@ month,item_title,category,count,editor_count,user_count
 2025-04,Invincible,film_series,1,1,0
 2025-04,"Gute Zeiten, Schlechte Zeiten",film_series,1,1,0
 2025-04,The Last of Us,film_series,2,2,0
-2025-04,Daredevil - Born Again,film_series,1,1,0
+2025-04,Daredevil: Born Again,film_series,1,1,0
 2025-04,The Holdovers,film_series,1,1,0
 2025-04,Nosferatu,film_series,1,1,0
 2025-04,Commandos - Origins,game,1,1,0
@@ -3561,8 +3548,8 @@ month,item_title,category,count,editor_count,user_count
 2025-05,Death Stranding 2,game,2,0,2
 2025-06,The Last of Us,film_series,2,2,0
 2025-06,The Bear,film_series,2,2,0
-2025-06,Dune – Awakening,game,1,1,0
-2025-06,Death Stranding 2 – On the Beach,game,1,1,0
+2025-06,Dune - Awakening,game,2,2,0
+2025-06,Death Stranding 2 - On the Beach,game,2,2,0
 2025-06,Switch 2,game,6,1,5
 2025-06,Diamant-Usertreffen,misc,1,1,0
 2025-06,Squid Game,film_series,1,1,0
@@ -3588,7 +3575,6 @@ month,item_title,category,count,editor_count,user_count
 2025-06,Leverage: Redemption,film_series,1,1,0
 2025-06,The Pitt,film_series,1,1,0
 2025-06,System Shock 2,game,1,1,0
-2025-06,Dune - Awakening,game,1,1,0
 2025-06,Tron: Catalyst,game,1,1,0
 2025-06,28 Days Later,film_series,1,1,0
 2025-06,28 Weeks Later,film_series,1,1,0
@@ -3599,7 +3585,6 @@ month,item_title,category,count,editor_count,user_count
 2025-06,Jules Verne,film_series,1,1,0
 2025-06,Breath of the Wild,game,1,1,0
 2025-06,Tears of the Kingdom,game,1,1,0
-2025-06,Death Stranding 2 - On the Beach,game,1,1,0
 2025-06,Rune Factory - Guardians of Azuma,game,1,1,0
 2025-06,Fantastic Four,misc,1,1,0
 2025-06,Jonathan Hickman,misc,1,1,0
@@ -3685,7 +3670,7 @@ month,item_title,category,count,editor_count,user_count
 2025-07,Date Everything,game,1,0,1
 2025-07,Diablo 4,game,1,0,1
 2025-08,Foundation,film_series,1,1,0
-2025-08,Mafia – The Old Country,game,1,1,0
+2025-08,Mafia - The Old Country,game,2,2,0
 2025-08,Gamescom,game,6,3,3
 2025-08,MGS Snake Eater,game,1,1,0
 2025-08,Gradius Origins,game,2,2,0
@@ -3703,7 +3688,6 @@ month,item_title,category,count,editor_count,user_count
 2025-08,Mafia,game,1,1,0
 2025-08,Mafia 2,game,2,2,0
 2025-08,Mafia 3,game,1,1,0
-2025-08,Mafia - The Old Country,game,1,1,0
 2025-08,Shinobi - Art of Vengeance,game,1,1,0
 2025-08,Kirby und das vergessene Land,game,2,1,1
 2025-08,Donkey Kong Bananza,game,3,1,2
@@ -3761,7 +3745,7 @@ month,item_title,category,count,editor_count,user_count
 2025-09,Wrestlers,film_series,1,1,0
 2025-09,Cheer,film_series,1,1,0
 2025-09,America's Sweethearts: Dallas Cowboys Cheerleaders,film_series,1,1,0
-2025-09,Metal Gear Solid Delta  – Snake Eater,game,1,1,0
+2025-09,Metal Gear Solid Delta - Snake Eater,game,1,1,0
 2025-09,Voyagers,game,1,1,0
 2025-09,No Man's Sky,game,1,1,0
 2025-09,Gamescom,misc,3,3,0
@@ -3799,7 +3783,7 @@ month,item_title,category,count,editor_count,user_count
 2025-09,Jurassic Park - Survival,film_series,1,1,0
 2025-09,Borderlands 4,game,2,1,1
 2025-09,EA Sports FC 26,game,1,1,0
-2025-09,Dying Light - The Beast,game,1,1,0
+2025-09,Dying Light: The Beast,game,1,1,0
 2025-09,Two Point Campus,game,1,1,0
 2025-09,Only Murders in the Building,film_series,1,1,0
 2025-09,Die Rosenschlacht,film_series,1,1,0
@@ -3966,12 +3950,12 @@ month,item_title,category,count,editor_count,user_count
 2025-11,Gamescom,game,1,1,0
 2025-11,Project Cars,game,1,1,0
 2025-11,SpongeBob Schwammkopf - Giganten der Gezeiten,game,1,1,0
-2025-11,Predator: Badlands,film_series,1,1,0
+2025-11,Predator: Badlands,film_series,3,1,2
 2025-11,Prey,film_series,1,1,0
 2025-11,Stephen King,film_series,1,1,0
 2025-11,Mortal Kombat Legacy Kollection,game,1,1,0
 2025-11,Mortal Kombat 2,game,1,1,0
-2025-11,Call of Duty - Black Ops 7,game,1,1,0
+2025-11,Call of Duty: Black Ops 7,game,2,1,1
 2025-11,Gundam,film_series,1,1,0
 2025-11,High Potential,film_series,1,1,0
 2025-11,schaut in die Notizen,film_series,1,1,0
@@ -4013,7 +3997,6 @@ month,item_title,category,count,editor_count,user_count
 2025-11,Europa Universalis 5,game,1,0,1
 2025-11,Flashpoint Campaigns: Cold War,game,1,0,1
 2025-11,Age of Wonders 4 DLC,game,1,0,1
-2025-11,Call of Duty: Black Ops 7,game,1,0,1
 2025-11,Planescape: Torment,game,1,0,1
 2025-11,Kingdom Come Deliverance 2 – Mysteria Ecclesia,game,1,0,1
 2025-11,Tulsa King neue Staffel,film_series,1,0,1
@@ -4025,7 +4008,6 @@ month,item_title,category,count,editor_count,user_count
 2025-11,Jackie Chan Filme,film_series,1,0,1
 2025-11,Ranma ½,film_series,1,0,1
 2025-11,Sakamoto Days,film_series,1,0,1
-2025-11,Predator: Badlands,film_series,2,0,2
 2025-11,Robin Hood Serie,film_series,1,0,1
 2025-11,Eddington,film_series,1,0,1
 2025-11,Hogwarts Legacy,game,1,0,1
@@ -4052,7 +4034,7 @@ month,item_title,category,count,editor_count,user_count
 2025-12,Horses,game,1,1,0
 2025-12,Unbeatable,game,1,1,0
 2025-12,Avatar: Fire and Ash,film_series,3,2,1
-2025-12,"Stromberg,",film_series,1,1,0
+2025-12,Stromberg,film_series,1,1,0
 2025-12,Der Name der Rose,film_series,1,1,0
 2025-12,The Legend of Zelda - Breath of the Wild,game,1,1,0
 2025-12,Metroid Prime 4 - Beyond,game,1,1,0
@@ -4063,8 +4045,8 @@ month,item_title,category,count,editor_count,user_count
 2025-12,Stirb langsam,film_series,1,1,0
 2025-12,The Long Kiss Goodnight,film_series,1,1,0
 2025-12,Lethal Weapon,film_series,1,1,0
-2025-12,Marvel - Cosmic Invasion,game,1,1,0
-2025-12,Metroid Prime 4 - Beyond,game,2,2,0
+2025-12,Marvel: Cosmic Invasion,game,3,1,2
+2025-12,Metroid Prime 4: Beyond,game,6,2,4
 2025-12,Terminator 2D - No Fate,game,1,1,0
 2025-12,Berserk,misc,1,1,0
 2025-12,The West Wing,film_series,1,1,0
@@ -4092,14 +4074,12 @@ month,item_title,category,count,editor_count,user_count
 2025-12,Call My Agent,film_series,1,0,1
 2025-12,Clair Obscur: Expedition 33,game,1,0,1
 2025-12,Death Stranding 2,game,1,0,1
-2025-12,Metroid Prime 4: Beyond,game,4,0,4
 2025-12,Kingdom Come Deliverance 2 – Mysteria Ecclesia,game,1,0,1
 2025-12,Warfare,film_series,1,0,1
 2025-12,Anora,film_series,1,0,1
 2025-12,A House of Dynamite,film_series,2,0,2
 2025-12,Monster: The Ed Gein Story,film_series,1,0,1
 2025-12,Retro Gamer Sonderheft 90er,misc,1,0,1
-2025-12,Marvel: Cosmic Invasion,game,2,0,2
 2025-12,Vierschanzentournee,misc,1,0,1
 2025-12,Thief VR: Legacy of Shadow,game,1,0,1
 2025-12,Troll 2,film_series,1,0,1
@@ -4247,7 +4227,7 @@ month,item_title,category,count,editor_count,user_count
 2026-03,James Rollins,misc,1,1,0
 2026-03,Indiana Jones,misc,1,1,0
 2026-03,Project Hail Mary,film_series,2,1,1
-2026-03,"The Paradise,",film_series,1,1,0
+2026-03,The Paradise,film_series,1,1,0
 2026-03,The Pitt,film_series,1,1,0
 2026-03,Heated Rivalry,film_series,1,1,0
 2026-03,Hi/Jack,film_series,1,1,0
