@@ -409,8 +409,152 @@ def test_compute_stats_editor_key_format():
 # discover_articles tests (basic URL construction)
 # ---------------------------------------------------------------------------
 
-from scrape_freude import _month_to_slug, _slug_to_month
+from scrape_freude import _month_to_slug, _slug_to_month, _scrape_article
 
+
+# ---------------------------------------------------------------------------
+# _scrape_article enrichment-skip tests (F1 fix)
+# ---------------------------------------------------------------------------
+
+class _FakeHTML:
+    """Minimal HTML for a single-editor article with zero comments."""
+    ARTICLE = """
+    <div class="node node-news">
+      <h1 class="title">Darauf freut sich die Redaktion im... Juni 2026</h1>
+      <div class="news-body">
+        <u><strong>Jörg Langer</strong></u><br/>
+        [SPIELE/BRETTSPIELE] <strong>My Game</strong>.<br/>
+      </div>
+    </div>
+    """
+
+
+def _make_existing_entry(comment_count: int, user_items: list) -> dict:
+    return {
+        "month": "2026-06",
+        "url": "/news/99999/darauf-freut-sich-die-redaktion-im-juni-2026",
+        "title": "Darauf freut sich die Redaktion im... Juni 2026",
+        "comment_count": comment_count,
+        "editors": [{"name": "Jörg Langer", "items": [{"title": "My Game", "category": "game"}]}],
+        "comments_raw": [],
+        "user_items": user_items,
+        "item_stats": {},
+    }
+
+
+def test_scrape_article_skips_reenrichment_when_count_unchanged_and_user_items_exist(monkeypatch):
+    """F1: When comment_count unchanged AND user_items populated, enrich must NOT be called."""
+    existing_user_items = [{"username": "alice", "items": [{"title": "My Game", "category": "game"}]}]
+    existing_entry = _make_existing_entry(comment_count=3, user_items=existing_user_items)
+
+    enrich_called = []
+
+    def _fake_fetch_html(url):
+        return _FakeHTML.ARTICLE
+
+    def _fake_count_comments(html):
+        return 3  # unchanged
+
+    def _fake_parse_comments(html):
+        return [{"username": "alice", "text": "I love My Game!"}]
+
+    def _fake_enrich_comments(comments, editors, api_key):
+        enrich_called.append(True)
+        return [{"username": "alice", "items": [{"title": "New Item", "category": "game"}]}]
+
+    import scrape_freude
+    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch_html)
+    monkeypatch.setattr(scrape_freude, "_count_comments_in_html", _fake_count_comments)
+    monkeypatch.setattr(scrape_freude, "parse_comments", _fake_parse_comments)
+    monkeypatch.setattr(scrape_freude, "enrich_comments", _fake_enrich_comments)
+
+    result = _scrape_article(
+        url="/news/99999/x",
+        existing_entry=existing_entry,
+        enrich=True,
+        api_key="fake-key",
+    )
+
+    # enrich_comments must NOT have been called
+    assert enrich_called == [], "enrich_comments was called despite unchanged comment_count and populated user_items"
+    # The preserved user_items should be returned unchanged
+    assert result["user_items"] == existing_user_items
+
+
+def test_scrape_article_does_reenrich_when_count_unchanged_but_user_items_empty(monkeypatch):
+    """F1: When comment_count unchanged but user_items is empty, enrich SHOULD run."""
+    existing_entry = _make_existing_entry(comment_count=3, user_items=[])  # no prior user_items
+
+    enrich_called = []
+
+    def _fake_fetch_html(url):
+        return _FakeHTML.ARTICLE
+
+    def _fake_count_comments(html):
+        return 3  # unchanged
+
+    def _fake_parse_comments(html):
+        return [{"username": "alice", "text": "I love My Game!"}]
+
+    def _fake_enrich_comments(comments, editors, api_key):
+        enrich_called.append(True)
+        return [{"username": "alice", "items": [{"title": "My Game", "category": "game"}]}]
+
+    import scrape_freude
+    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch_html)
+    monkeypatch.setattr(scrape_freude, "_count_comments_in_html", _fake_count_comments)
+    monkeypatch.setattr(scrape_freude, "parse_comments", _fake_parse_comments)
+    monkeypatch.setattr(scrape_freude, "enrich_comments", _fake_enrich_comments)
+
+    _scrape_article(
+        url="/news/99999/x",
+        existing_entry=existing_entry,
+        enrich=True,
+        api_key="fake-key",
+    )
+
+    assert enrich_called == [True], "enrich_comments should have been called when user_items was empty"
+
+
+def test_scrape_article_does_reenrich_when_count_changed(monkeypatch):
+    """F1: When comment_count increases, enrich SHOULD run even if user_items exist."""
+    existing_user_items = [{"username": "alice", "items": [{"title": "My Game", "category": "game"}]}]
+    existing_entry = _make_existing_entry(comment_count=3, user_items=existing_user_items)
+
+    enrich_called = []
+
+    def _fake_fetch_html(url):
+        return _FakeHTML.ARTICLE
+
+    def _fake_count_comments(html):
+        return 5  # changed from 3 → 5
+
+    def _fake_parse_comments(html):
+        return [{"username": "alice", "text": "I love My Game!"}, {"username": "bob", "text": "Me too!"}]
+
+    def _fake_enrich_comments(comments, editors, api_key):
+        enrich_called.append(True)
+        return [{"username": "alice", "items": [{"title": "My Game", "category": "game"}]}]
+
+    import scrape_freude
+    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch_html)
+    monkeypatch.setattr(scrape_freude, "_count_comments_in_html", _fake_count_comments)
+    monkeypatch.setattr(scrape_freude, "parse_comments", _fake_parse_comments)
+    monkeypatch.setattr(scrape_freude, "enrich_comments", _fake_enrich_comments)
+
+    _scrape_article(
+        url="/news/99999/x",
+        existing_entry=existing_entry,
+        enrich=True,
+        api_key="fake-key",
+    )
+
+    assert enrich_called == [True], "enrich_comments should run when comment_count changed"
+
+
+# ---------------------------------------------------------------------------
+# discover_articles tests (basic URL construction)
+# ---------------------------------------------------------------------------
 
 def test_month_to_slug_mai():
     assert _month_to_slug("2026-05") == "mai-2026"

@@ -189,14 +189,18 @@ def parse_article(html: str) -> dict:
                     continue
                 if _is_category_label(item_text):
                     continue
-                # Skip editor names (inside a <u><strong>Name</strong></u>)
-                parent = tag.parent
-                if parent and parent.name == "u":
+                # Skip editor names (inside a <u> ancestor, e.g. <u><strong>…</strong></u>
+                # or deeper nesting like <u><strong><em>…</em></strong></u>)
+                if tag.find_parent("u"):
                     continue
 
                 current_items.append({"title": item_text, "category": current_category})
 
         elif isinstance(node, NavigableString):
+            # Skip NavigableString nodes that are children of a <u> tag —
+            # they are editor-name text, not category labels or item titles.
+            if node.parent and node.parent.name == "u":
+                continue
             text = str(node)
             # Category labels live as plain text nodes at the body level
             cat = _detect_category(text)
@@ -515,10 +519,6 @@ def _save_csv(path: Path, data: list[dict]) -> None:
     rows = []
     for entry in data:
         stats = entry.get("item_stats", {})
-        editors_set = {
-            m for m in []  # built below
-        }
-        # Collect all editor mentioner prefixes for counting
         for item_title, stat in stats.items():
             mentioners = stat.get("mentioners", [])
             editor_count = sum(1 for m in mentioners if m.startswith("editor:"))
@@ -555,6 +555,7 @@ def _scrape_article(url: str, existing_entry: dict | None, enrich: bool, api_key
     comments_raw = parse_comments(html)
 
     # Use existing editor items if comment count unchanged and editors already populated
+    reuse_user_items = False
     if (
         existing_entry
         and existing_entry.get("editors")
@@ -562,8 +563,12 @@ def _scrape_article(url: str, existing_entry: dict | None, enrich: bool, api_key
     ):
         print(f"    comment count unchanged ({comment_count}) — reusing editors", flush=True)
         editors = existing_entry["editors"]
-        comments_raw = existing_entry.get("comments_raw", comments_raw)
         user_items = existing_entry.get("user_items", [])
+        # If user_items are already populated, skip re-enrichment and reuse stored comments_raw
+        if user_items:
+            reuse_user_items = True
+            comments_raw = existing_entry.get("comments_raw", comments_raw)
+        # else: keep freshly parsed comments_raw so enrichment can still run
     else:
         editors = parsed["editors"]
         user_items = existing_entry.get("user_items", []) if existing_entry else []
@@ -572,11 +577,16 @@ def _scrape_article(url: str, existing_entry: dict | None, enrich: bool, api_key
             flush=True,
         )
 
-    # LLM enrichment
-    if enrich and comments_raw:
+    # LLM enrichment — skip when comment count is unchanged and user_items already exist
+    if enrich and comments_raw and not reuse_user_items:
         print(f"    enriching {len(comments_raw)} user comments …", flush=True)
         user_items = enrich_comments(comments_raw, editors, api_key)
         print(f"    extracted items from {len(user_items)} users", flush=True)
+    elif enrich and reuse_user_items:
+        print(
+            f"    skipping enrichment — comment count unchanged and user_items already populated",
+            flush=True,
+        )
 
     item_stats = compute_stats(editors, user_items)
 
@@ -680,14 +690,22 @@ def main() -> None:
         help="Use Claude Haiku to extract items from user comments.",
     )
     parser.add_argument(
+        "--no-enrich",
+        action="store_true",
+        help="Explicitly disable enrichment (no-op when --enrich is not set; useful in scripts).",
+    )
+    parser.add_argument(
         "--api-key",
         default="",
         help="Anthropic API key (or set ANTHROPIC_API_KEY env var).",
     )
     args = parser.parse_args()
 
+    # --no-enrich explicitly overrides --enrich if both are somehow passed
+    enrich = args.enrich and not args.no_enrich
+
     api_key = args.api_key
-    if not api_key and args.enrich:
+    if not api_key and enrich:
         import os
         api_key = os.environ.get("ANTHROPIC_API_KEY", "")
         if not api_key:
@@ -695,7 +713,7 @@ def main() -> None:
 
     run(
         backfill=args.backfill,
-        enrich=args.enrich,
+        enrich=enrich,
         api_key=api_key,
     )
 
