@@ -194,6 +194,12 @@ def parse_article(html: str) -> dict:
                 if tag.find_parent("u"):
                     continue
 
+                # Orphaned "(Staffel N)" / "(Season N)" suffix → append to previous item
+                _sfx = re.match(r'^\((Staffel|Season)\s+(\d+)\)$', item_text)
+                if _sfx and current_items:
+                    current_items[-1]["title"] += f" {_sfx.group(1)} {_sfx.group(2)}"
+                    continue
+
                 current_items.append({"title": item_text, "category": current_category})
 
         elif isinstance(node, NavigableString):
