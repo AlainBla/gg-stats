@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GG Sonntagsfrage – Aktive Nutzer</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: system-ui, sans-serif;
+      background: #111;
+      color: #eee;
+      margin: 0;
+      padding: 1.5rem;
+    }
+    h1 { font-size: 1.2rem; margin-bottom: 1rem; }
+    #year-filter { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+    .year-btn {
+      padding: 0.3rem 0.8rem;
+      border: 1px solid #555;
+      border-radius: 4px;
+      background: #222;
+      color: #ccc;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+    .year-btn.active {
+      background: #e8a000;
+      border-color: #e8a000;
+      color: #111;
+      font-weight: bold;
+    }
+    #chart-container { position: relative; max-width: 960px; }
+    canvas { width: 100% !important; }
+  </style>
+</head>
+<body>
+  <h1>GamersGlobal Sonntagsfrage – Abstimmungsbeteiligung</h1>
+  <div id="year-filter"></div>
+  <div id="chart-container">
+    <canvas id="chart"></canvas>
+  </div>
+
+  <script>
+    const WINDOW = 4;
+
+    function rollingAvg(values, w) {
+      return values.map((_, i) => {
+        const slice = values.slice(Math.max(0, i - w + 1), i + 1);
+        return slice.reduce((a, b) => a + b, 0) / slice.length;
+      });
+    }
+
+    function formatDate(iso) {
+      const [y, m, d] = iso.split('-');
+      return `${d}.${m}.${y}`;
+    }
+
+    let chartInstance = null;
+
+    function renderChart(polls, year) {
+      const currentYear = new Date().getFullYear().toString();
+      const filtered = year === 'YtD'
+        ? polls.filter(p => p.date && p.date.startsWith(currentYear))
+        : polls.filter(p => p.date && p.date.startsWith(year));
+
+      const labels = filtered.map(p => formatDate(p.date));
+      const votes  = filtered.map(p => p.votes);
+      const trend  = rollingAvg(votes, WINDOW);
+
+      const data = {
+        labels,
+        datasets: [
+          {
+            type: 'bar',
+            label: 'Stimmen',
+            data: votes,
+            backgroundColor: 'rgba(232,160,0,0.55)',
+            borderColor: 'rgba(232,160,0,0.9)',
+            borderWidth: 1,
+            order: 2,
+          },
+          {
+            type: 'line',
+            label: `${WINDOW}-Wochen-Schnitt`,
+            data: trend,
+            borderColor: '#4fc3f7',
+            backgroundColor: 'transparent',
+            borderWidth: 2,
+            pointRadius: 0,
+            tension: 0.3,
+            order: 1,
+          },
+        ],
+      };
+
+      const options = {
+        responsive: true,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { labels: { color: '#ccc' } },
+          tooltip: {
+            callbacks: {
+              title: (items) => {
+                const idx = items[0].dataIndex;
+                return `${filtered[idx].date} – ${filtered[idx].title}`;
+              },
+            },
+          },
+        },
+        scales: {
+          x: {
+            ticks: { color: '#999', maxRotation: 45, autoSkip: true, maxTicksLimit: 20 },
+            grid: { color: '#333' },
+          },
+          y: {
+            ticks: { color: '#999' },
+            grid: { color: '#333' },
+            title: { display: true, text: 'Abstimmungen', color: '#999' },
+          },
+        },
+      };
+
+      if (chartInstance) chartInstance.destroy();
+      chartInstance = new Chart(document.getElementById('chart'), { type: 'bar', data, options });
+    }
+
+    async function main() {
+      const polls = await fetch('data/polls.json').then(r => r.json());
+
+      const years = [...new Set(
+        polls.filter(p => p.date).map(p => p.date.slice(0, 4))
+      )].sort();
+
+      const currentYear = new Date().getFullYear().toString();
+      let activeYear = years.includes(currentYear) ? 'YtD' : years[years.length - 1];
+
+      const container = document.getElementById('year-filter');
+      ['YtD', ...years].forEach(y => {
+        const btn = document.createElement('button');
+        btn.className = 'year-btn' + (y === activeYear ? ' active' : '');
+        btn.textContent = y;
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.year-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeYear = y;
+          renderChart(polls, activeYear);
+        });
+        container.appendChild(btn);
+      });
+
+      renderChart(polls, activeYear);
+    }
+
+    main();
+  </script>
+</body>
+</html>
