@@ -144,7 +144,7 @@ def run_incremental(data_path: str = str(DATA_PATH)) -> bool:
 
 
 def main() -> None:
-    if not DATA_PATH.exists() or DATA_PATH.stat().st_size <= 2:
+    if not DATA_PATH.exists() or DATA_PATH.stat().st_size <= 4:
         print("No data found — running initial full crawl …")
         run_initial()
     else:

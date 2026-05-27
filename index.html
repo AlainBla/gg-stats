@@ -134,6 +134,10 @@
       )].sort();
 
       const currentYear = new Date().getFullYear().toString();
+      if (!years.length) {
+        document.getElementById('year-filter').textContent = 'Keine Daten vorhanden.';
+        return;
+      }
       let activeYear = years.includes(currentYear) ? 'YtD' : years[years.length - 1];
 
       const container = document.getElementById('year-filter');
