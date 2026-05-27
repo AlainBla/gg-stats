@@ -3274,9 +3274,9 @@ month,item_title,category,count,editor_count,user_count
 2024-12,Gladiator 2,film_series,1,1,0
 2024-12,Dune Prophecy,film_series,1,1,0
 2024-12,Squid Game,film_series,2,2,0
-2024-12,Indiana Jones und der Große Kreis,game,3,3,0
+2024-12,Indiana Jones und der Große Kreis,game,10,3,7
 2024-12,Menace,game,1,1,0
-2024-12,Der kleine Lord,film_series,1,1,0
+2024-12,Der kleine Lord,film_series,2,1,1
 2024-12,E.T.A. Hoffmanns Der Nussknackerprinz,film_series,1,1,0
 2024-12,Furbar,film_series,1,1,0
 2024-12,Schwarzenegger,film_series,1,1,0
@@ -3304,23 +3304,52 @@ month,item_title,category,count,editor_count,user_count
 2024-12,Frederick Forsyth,misc,1,1,0
 2024-12,Tolkien-,misc,1,1,0
 2024-12,Peter F. Hamilton,misc,1,1,0
-2024-12,What We Do in the Shadows,film_series,1,1,0
+2024-12,What We Do in the Shadows,film_series,2,1,1
 2024-12,Man on the Inside,film_series,1,1,0
 2024-12,Ted Danson,film_series,1,1,0
 2024-12,Herr der Ringe,film_series,1,1,0
 2024-12,Schlacht der Rohirrim,film_series,1,1,0
 2024-12,WarCraft,game,1,1,0
 2024-12,Cats 2,misc,1,1,0
+2024-12,Shrinking,film_series,2,0,2
+2024-12,Prim,game,1,0,1
+2024-12,Kena: Bridge of Spirits,game,1,0,1
+2024-12,Tulsa King Staffel 2,film_series,1,0,1
+2024-12,Legacy of Kain: Soul Reaver 1&2 Remastered,game,1,0,1
+2024-12,Loco Motive,game,1,0,1
+2024-12,Astro Bot,game,2,0,2
+2024-12,Silo,film_series,1,0,1
+2024-12,Secret Level,film_series,4,0,4
+2024-12,Neva,game,1,0,1
+2024-12,The Plucky Squire,game,1,0,1
+2024-12,Star Wars: Skeleton Crew,film_series,1,0,1
+2024-12,TopSpin 2K25,game,1,0,1
+2024-12,Alone in the Dark,game,1,0,1
+2024-12,RoboCop: Rogue City,game,1,0,1
+2024-12,James Bond,film_series,1,0,1
+2024-12,RoboCop,film_series,1,0,1
+2024-12,Path of Exile 2,game,2,0,2
+2024-12,Stalker 2: Heart of Chornobyl,game,1,0,1
+2024-12,Subnautica,game,1,0,1
+2024-12,Delicious in Dungeon,film_series,1,0,1
+2024-12,Neon Genesis Evangelion,film_series,1,0,1
+2024-12,Only Murders in the Building,film_series,1,0,1
+2024-12,Der Herr der Ringe,film_series,1,0,1
+2024-12,The Bazaar,game,1,0,1
+2024-12,Dragon Age: The Veilguard,game,1,0,1
+2024-12,Star Wars: Outlaws,game,1,0,1
+2024-12,Persona 3: FES,game,1,0,1
+2024-12,Der Pass,film_series,1,0,1
 2025-02,Asura,film_series,1,1,0
-2025-02,Severance,film_series,2,2,0
+2025-02,Severance,film_series,4,2,2
 2025-02,Space Marine Adventures – Tyranidenangriff,game,1,1,0
 2025-02,Blitz Bowl,game,1,1,0
-2025-02,Civilization 7,game,1,1,0
+2025-02,Civilization 7,game,2,1,1
 2025-02,Kingdom Come Deliverance 2,game,1,1,0
-2025-02,Avowed,game,2,2,0
+2025-02,Avowed,game,3,2,1
 2025-02,Like A Dragon,game,1,1,0
 2025-02,What We Do in the Shadows,film_series,2,2,0
-2025-02,Fallout,game,2,2,0
+2025-02,Fallout,film_series,2,2,0
 2025-02,Like a Dragon - Pirate Yakuza of Hawaii,game,1,1,0
 2025-02,Urban Myth Dissolution Center,game,1,1,0
 2025-02,Vermis,misc,1,1,0
@@ -3337,15 +3366,15 @@ month,item_title,category,count,editor_count,user_count
 2025-02,Harrison Ford,film_series,1,1,0
 2025-02,Old Guy,film_series,1,1,0
 2025-02,Christopher Waltz,film_series,1,1,0
-2025-02,Invincible,film_series,1,1,0
+2025-02,Invincible,film_series,2,1,1
 2025-02,Reacher,film_series,1,1,0
 2025-02,Alan,film_series,1,1,0
 2025-02,Ritchson,film_series,1,1,0
 2025-02,Civilization7,game,1,1,0
 2025-02,Trails ThroughDaybreak2,game,1,1,0
-2025-02,Schitt's Creek,film_series,1,1,0
+2025-02,Schitt's Creek,film_series,2,1,1
 2025-02,Sterling K. Brown,film_series,1,1,0
-2025-02,Paradise,film_series,1,1,0
+2025-02,Paradise,film_series,2,1,1
 2025-02,The West Wing,film_series,1,1,0
 2025-02,The Winter Soldier,film_series,1,1,0
 2025-02,Endgame,film_series,1,1,0
@@ -3353,15 +3382,44 @@ month,item_title,category,count,editor_count,user_count
 2025-02,Tomb Raider 4-6,game,1,1,0
 2025-02,Angel of Darkness,game,1,1,0
 2025-02,Taylor Swift,misc,1,1,0
+2025-02,Star Trek: Prodigy,film_series,1,0,1
+2025-02,Zelda: Echoes of Wisdom,game,1,0,1
+2025-02,FF7 Rebirth,game,1,0,1
+2025-02,Foundation,film_series,1,0,1
+2025-02,Der Graf von Monte Christo,film_series,1,0,1
+2025-02,Kingdom Come: Deliverance 2,game,4,0,4
+2025-02,Dark Matter,film_series,1,0,1
+2025-02,The Brutalist,film_series,1,0,1
+2025-02,Indiana Jones und der Große Kreis,game,2,0,2
+2025-02,Like a Dragon: Pirate Yakuza in Hawaii,game,2,0,2
+2025-02,Paprika,film_series,1,0,1
+2025-02,Perfect Blue,film_series,1,0,1
+2025-02,Millennium Actress,film_series,1,0,1
+2025-02,Tokyo Godfathers,film_series,1,0,1
+2025-02,Silent Hill 2 Remake,game,1,0,1
+2025-02,Tokyo Vice,film_series,1,0,1
+2025-02,Donkey Kong Country Returns HD,game,1,0,1
+2025-02,Little Big Adventure Remake,game,1,0,1
+2025-02,The Penguin,film_series,1,0,1
+2025-02,The Rookie,film_series,1,0,1
+2025-02,The Night Agent Staffel 2,film_series,1,0,1
+2025-02,Reacher Staffel 3,film_series,1,0,1
+2025-02,Captain America: Brave New World,film_series,3,0,3
+2025-02,Star Wars Jedi: Survivor,game,1,0,1
+2025-02,Atomfall,game,1,0,1
+2025-02,Arken Age,game,1,0,1
+2025-02,The Monkey,film_series,1,0,1
+2025-02,Cobra Kai,film_series,1,0,1
+2025-02,Yellowjackets,film_series,1,0,1
 2025-03,Star Wars – Andor (Staffel 2),film_series,1,1,0
-2025-03,Zero Day,film_series,1,1,0
+2025-03,Zero Day,film_series,3,1,2
 2025-03,Robert de Niro,film_series,1,1,0
 2025-03,Cassandra,film_series,1,1,0
 2025-03,LRods,game,1,1,0
 2025-03,Space Marine Adventures: Tyranidenangriff,game,1,1,0
 2025-03,Space Hulk Fourth Edition,game,1,1,0
-2025-03,Monk,game,2,2,0
-2025-03,Assassin's Creed Shadows,game,2,2,0
+2025-03,Monk,film_series,2,2,0
+2025-03,Assassin's Creed Shadows,game,5,2,3
 2025-03,Ghost of Tsushima,game,1,1,0
 2025-03,Wanderstop,game,1,1,0
 2025-03,Davey Wreden,game,1,1,0
@@ -3386,14 +3444,14 @@ month,item_title,category,count,editor_count,user_count
 2025-03,Assassin’s Creed: Shadows,game,1,1,0
 2025-03,Balatro,game,1,1,0
 2025-03,Paradise,film_series,1,1,0
-2025-03,Reacher,film_series,1,1,0
-2025-03,Severance,film_series,1,1,0
+2025-03,Reacher,film_series,3,1,2
+2025-03,Severance,film_series,2,1,1
 2025-03,Sterling K. Brown,film_series,1,1,0
 2025-03,The West Wing,film_series,1,1,0
-2025-03,Mickey 17,film_series,1,1,0
+2025-03,Mickey 17,film_series,2,1,1
 2025-03,Taylor Swift,misc,1,1,0
 2025-03,"Devils roll the dice, angels roll their eyes...",misc,1,1,0
-2025-03,Daredevil: Born Again,film_series,1,1,0
+2025-03,Daredevil: Born Again,film_series,3,1,2
 2025-03,Charlie Cox,film_series,1,1,0
 2025-03,Vincent D’Onofrio,game,1,1,0
 2025-03,Jon Bernthal,game,1,1,0
@@ -3407,6 +3465,23 @@ month,item_title,category,count,editor_count,user_count
 2025-03,Iron Man,misc,1,1,0
 2025-03,Frank Millers,misc,1,1,0
 2025-03,DC Elseworlds,misc,1,1,0
+2025-03,The Gorge,film_series,1,0,1
+2025-03,Lost Records: Bloom & Rage,game,1,0,1
+2025-03,1923,film_series,1,0,1
+2025-03,Tonbandgerät Konzert,misc,1,0,1
+2025-03,Kingdom Come: Deliverance 2,game,2,0,2
+2025-03,The Day of the Jackal,film_series,1,0,1
+2025-03,The Grand Tour,film_series,1,0,1
+2025-03,Old World: Wrath of Gods,game,1,0,1
+2025-03,Xenoblade Chronicles X: Definitive Edition,game,1,0,1
+2025-03,Zelda: Echoes of Wisdom,game,1,0,1
+2025-03,Catquest 3,game,1,0,1
+2025-03,FF7 Rebirth,game,2,0,2
+2025-03,Tesla Effect: A Tex Murphy Adventure,game,2,0,2
+2025-03,Two Point Museum,game,1,0,1
+2025-03,Age of Mythology: Retold,game,1,0,1
+2025-03,X-Out Resurfaced,game,1,0,1
+2025-03,A Complete Unknown,film_series,1,0,1
 2025-04,Lazarus,film_series,1,1,0
 2025-04,Shinichiro Watanabe,film_series,1,1,0
 2025-04,Cowboy Bebop,film_series,1,1,0
@@ -3672,7 +3747,7 @@ month,item_title,category,count,editor_count,user_count
 2025-08,Foundation,film_series,1,1,0
 2025-08,Mafia - The Old Country,game,2,2,0
 2025-08,Gamescom,game,6,3,3
-2025-08,MGS Snake Eater,game,1,1,0
+2025-08,Metal Gear Solid Delta - Snake Eater,game,2,2,0
 2025-08,Gradius Origins,game,2,2,0
 2025-08,Das Kanu des Manitu,film_series,1,1,0
 2025-08,Bob Odenkirk,film_series,1,1,0
@@ -3680,7 +3755,6 @@ month,item_title,category,count,editor_count,user_count
 2025-08,Nobody 2,film_series,1,1,0
 2025-08,Yakuza 0 - Director's Cut,game,1,1,0
 2025-08,Heartworm,game,1,1,0
-2025-08,Metal Gear Solid Delta - Snake Eater,game,1,1,0
 2025-08,Christian Tramitz,film_series,1,1,0
 2025-08,Eine schrecklich nette Familie,film_series,1,1,0
 2025-08,Reacher,film_series,1,1,0
