@@ -1,6 +1,9 @@
+import json
 import re
+import time
 from pathlib import Path
 
+import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.gamersglobal.de"
@@ -57,3 +60,99 @@ def parse_poll_page(html: str) -> dict:
                 date = f"{year:04d}-{month:02d}-{day:02d}"
 
     return {"title": title, "votes": votes, "date": date}
+
+
+def fetch_html(url: str) -> str:
+    time.sleep(0.5)
+    r = requests.get(
+        BASE_URL + url,
+        headers={"User-Agent": "Mozilla/5.0 (gg-stats-bot/1.0)"},
+        timeout=30,
+    )
+    r.raise_for_status()
+    return r.text
+
+
+def run_initial(data_path: str = str(DATA_PATH)) -> list[dict]:
+    """Full crawl — scrapes every page of the archive."""
+    all_polls: list[dict] = []
+    page = 0
+    while True:
+        html = fetch_html(f"/exklusiv/sonntagsfrage?page={page}")
+        entries, has_next = parse_archive_page(html)
+        for e in entries:
+            detail = parse_poll_page(fetch_html(e["url"]))
+            all_polls.append({
+                "date": detail["date"],
+                "title": detail["title"],
+                "votes": detail["votes"],
+                "url": e["url"],
+            })
+            print(f"  scraped {e['url']} ({detail['votes']} votes)", flush=True)
+        print(f"page {page} done ({len(entries)} polls)", flush=True)
+        if not has_next:
+            break
+        page += 1
+
+    all_polls.sort(key=lambda x: x["date"] or "")
+    with open(data_path, "w", encoding="utf-8") as f:
+        json.dump(all_polls, f, indent=2, ensure_ascii=False)
+    print(f"wrote {len(all_polls)} polls to {data_path}")
+    return all_polls
+
+
+def run_incremental(data_path: str = str(DATA_PATH)) -> bool:
+    """Check the 2 most recent polls; update votes/title if not yet [Ergebnis]."""
+    with open(data_path, encoding="utf-8") as f:
+        polls: list[dict] = json.load(f)
+
+    existing = {p["url"]: p for p in polls}
+
+    html = fetch_html("/exklusiv/sonntagsfrage?page=0")
+    latest, _ = parse_archive_page(html)
+    candidates = latest[:2]
+
+    changed = False
+    for c in candidates:
+        if c["url"] in existing and "[Ergebnis]" in existing[c["url"]]["title"]:
+            continue  # already final and known — skip
+
+        detail = parse_poll_page(fetch_html(c["url"]))
+
+        if c["url"] in existing:
+            p = existing[c["url"]]
+            p["title"] = detail["title"]
+            p["votes"] = detail["votes"]
+            changed = True
+        else:
+            polls.append({
+                "date": detail["date"],
+                "title": detail["title"],
+                "votes": detail["votes"],
+                "url": c["url"],
+            })
+            polls.sort(key=lambda x: x["date"] or "")
+            changed = True
+
+    if changed:
+        with open(data_path, "w", encoding="utf-8") as f:
+            json.dump(polls, f, indent=2, ensure_ascii=False)
+
+    return changed
+
+
+def main() -> None:
+    with open(DATA_PATH, encoding="utf-8") as f:
+        existing = json.load(f)
+
+    if not existing:
+        print("No data found — running initial full crawl …")
+        run_initial()
+    else:
+        print("Existing data found — running incremental update …")
+        changed = run_incremental()
+        print("Changed." if changed else "No changes.")
+
+
+if __name__ == "__main__":
+    main()
