@@ -463,6 +463,7 @@ def enrich_comments(
                 ],
             )
             raw = response.content[0].text.strip()
+            raw = re.sub(r'^```[a-z]*\n?|\n?```$', '', raw).strip()
             items = json.loads(raw)
             if not isinstance(items, list):
                 items = []
