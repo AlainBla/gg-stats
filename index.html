@@ -425,13 +425,48 @@
       // Sort months descending
       months.sort((a, b) => (b.month || '').localeCompare(a.month || ''));
 
+      // Build year-aggregate entries (merge item_stats across all months in a year)
+      const yearMap = {};
+      months.forEach(m => {
+        const yr = m.month.slice(0, 4);
+        if (!yearMap[yr]) yearMap[yr] = {};
+        const stats = m.item_stats || {};
+        Object.entries(stats).forEach(([title, s]) => {
+          if (!yearMap[yr][title]) yearMap[yr][title] = { category: s.category, mentioners: new Set() };
+          (s.mentioners || []).forEach(mn => yearMap[yr][title].mentioners.add(mn));
+        });
+      });
+      const yearData = {};
+      Object.entries(yearMap).forEach(([yr, items]) => {
+        const finalStats = {};
+        Object.entries(items).forEach(([title, s]) => {
+          const arr = [...s.mentioners];
+          finalStats[title] = { count: arr.length, category: s.category, mentioners: arr };
+        });
+        yearData[`year:${yr}`] = { month: `year:${yr}`, title: `${yr} – Ganzes Jahr`, item_stats: finalStats };
+      });
+
+      function lookupEntry(val) {
+        if (val.startsWith('year:')) return yearData[val];
+        return months.find(x => x.month === val);
+      }
+
       let activeMonth          = months[0].month;
       let activeCategoryFilter = 'all';
       let sourceFilter         = 'all';
 
-      // Month dropdown
+      // Month dropdown — insert year header before first month of each year
       const monthSelectEl = document.getElementById('vorfreude-month-select');
+      let lastYear = null;
       months.forEach(m => {
+        const yr = m.month.slice(0, 4);
+        if (yr !== lastYear) {
+          lastYear = yr;
+          const yearOpt = document.createElement('option');
+          yearOpt.value = `year:${yr}`;
+          yearOpt.textContent = `${yr} – Ganzes Jahr`;
+          monthSelectEl.appendChild(yearOpt);
+        }
         const opt = document.createElement('option');
         opt.value = m.month;
         opt.textContent = m.month;
@@ -440,13 +475,13 @@
       });
       monthSelectEl.addEventListener('change', () => {
         activeMonth = monthSelectEl.value;
-        const md = months.find(x => x.month === activeMonth);
+        const md = lookupEntry(activeMonth);
         document.getElementById('vorfreude-subtitle').textContent = md ? md.title : '';
         renderVorfreudeChart(md, activeCategoryFilter, sourceFilter);
       });
 
       // Subtitle
-      document.getElementById('vorfreude-subtitle').textContent = months[0].title || '';
+      document.getElementById('vorfreude-subtitle').textContent = lookupEntry(activeMonth)?.title || '';
 
       // Category filter buttons
       const categoryDefs = [
@@ -464,8 +499,7 @@
           document.querySelectorAll('#vorfreude-category-filter .filter-btn').forEach(b => b.classList.remove('active'));
           btn.classList.add('active');
           activeCategoryFilter = def.key;
-          const md = months.find(x => x.month === activeMonth);
-          renderVorfreudeChart(md, activeCategoryFilter, sourceFilter);
+          renderVorfreudeChart(lookupEntry(activeMonth), activeCategoryFilter, sourceFilter);
         });
         catFilterEl.appendChild(btn);
       });
@@ -485,14 +519,13 @@
           document.querySelectorAll('#vorfreude-editor-filter .filter-btn').forEach(b => b.classList.remove('active'));
           btn.classList.add('active');
           sourceFilter = def.key;
-          const md = months.find(x => x.month === activeMonth);
-          renderVorfreudeChart(md, activeCategoryFilter, sourceFilter);
+          renderVorfreudeChart(lookupEntry(activeMonth), activeCategoryFilter, sourceFilter);
         });
         editorFilterEl.appendChild(btn);
       });
 
       // Initial render
-      renderVorfreudeChart(months[0], activeCategoryFilter, sourceFilter);
+      renderVorfreudeChart(lookupEntry(activeMonth), activeCategoryFilter, sourceFilter);
     }
 
     initVorfreude();
