@@ -278,7 +278,7 @@
 
     let vorfreudeChartInstance = null;
 
-    function renderVorfreudeChart(monthData, categoryFilter, editorsOnly) {
+    function renderVorfreudeChart(monthData, categoryFilter, sourceFilter) {
       const emptyEl  = document.getElementById('vorfreude-empty');
       const canvasEl = document.getElementById('vorfreude-chart');
 
@@ -302,16 +302,19 @@
         return true; // 'all'
       });
 
-      // Compute counts (editor-only filter)
+      // Compute counts per source filter
       const items = filtered.map(k => {
         const entry = stats[k];
+        const mentioners = entry.mentioners || [];
         let count;
-        if (editorsOnly) {
-          count = (entry.mentioners || []).filter(m => m.startsWith('editor:')).length;
+        if (sourceFilter === 'editors') {
+          count = mentioners.filter(m => m.startsWith('editor:')).length;
+        } else if (sourceFilter === 'users') {
+          count = mentioners.filter(m => m.startsWith('user:')).length;
         } else {
-          count = entry.count != null ? entry.count : (entry.mentioners || []).length;
+          count = entry.count != null ? entry.count : mentioners.length;
         }
-        return { name: k, count, category: entry.category || 'unknown', mentioners: entry.mentioners || [] };
+        return { name: k, count, category: entry.category || 'unknown', mentioners };
       }).filter(item => item.count > 0);
 
       // Sort descending, top 15
@@ -399,9 +402,9 @@
       // Sort months descending
       months.sort((a, b) => (b.month || '').localeCompare(a.month || ''));
 
-      let activeMonth      = months[0].month;
+      let activeMonth          = months[0].month;
       let activeCategoryFilter = 'all';
-      let editorsOnly      = false;
+      let sourceFilter         = 'all';
 
       // Month dropdown
       const monthSelectEl = document.getElementById('vorfreude-month-select');
@@ -416,7 +419,7 @@
         activeMonth = monthSelectEl.value;
         const md = months.find(x => x.month === activeMonth);
         document.getElementById('vorfreude-subtitle').textContent = md ? md.title : '';
-        renderVorfreudeChart(md, activeCategoryFilter, editorsOnly);
+        renderVorfreudeChart(md, activeCategoryFilter, sourceFilter);
       });
 
       // Subtitle
@@ -439,33 +442,34 @@
           btn.classList.add('active');
           activeCategoryFilter = def.key;
           const md = months.find(x => x.month === activeMonth);
-          renderVorfreudeChart(md, activeCategoryFilter, editorsOnly);
+          renderVorfreudeChart(md, activeCategoryFilter, sourceFilter);
         });
         catFilterEl.appendChild(btn);
       });
 
-      // Editor toggle buttons
-      const editorDefs = [
-        { key: false, label: 'Auch User' },
-        { key: true,  label: 'Nur Redakteure' },
+      // Source toggle buttons
+      const sourceDefs = [
+        { key: 'all',     label: 'Alle' },
+        { key: 'editors', label: 'Nur Redakteure' },
+        { key: 'users',   label: 'Nur User' },
       ];
       const editorFilterEl = document.getElementById('vorfreude-editor-filter');
-      editorDefs.forEach(def => {
+      sourceDefs.forEach(def => {
         const btn = document.createElement('button');
-        btn.className = 'filter-btn' + (def.key === editorsOnly ? ' active' : '');
+        btn.className = 'filter-btn' + (def.key === sourceFilter ? ' active' : '');
         btn.textContent = def.label;
         btn.addEventListener('click', () => {
           document.querySelectorAll('#vorfreude-editor-filter .filter-btn').forEach(b => b.classList.remove('active'));
           btn.classList.add('active');
-          editorsOnly = def.key;
+          sourceFilter = def.key;
           const md = months.find(x => x.month === activeMonth);
-          renderVorfreudeChart(md, activeCategoryFilter, editorsOnly);
+          renderVorfreudeChart(md, activeCategoryFilter, sourceFilter);
         });
         editorFilterEl.appendChild(btn);
       });
 
       // Initial render
-      renderVorfreudeChart(months[0], activeCategoryFilter, editorsOnly);
+      renderVorfreudeChart(months[0], activeCategoryFilter, sourceFilter);
     }
 
     initVorfreude();
