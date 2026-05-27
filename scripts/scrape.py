@@ -1,10 +1,6 @@
-import json
 import re
-import sys
-import time
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.gamersglobal.de"
@@ -21,9 +17,8 @@ def parse_archive_page(html: str) -> tuple[list[dict], bool]:
     """Return (polls, has_next). polls = [{"url": str, "title": str}]."""
     soup = BeautifulSoup(html, "html.parser")
     polls = []
-    for h3 in soup.select("h3.title"):
-        a = h3.find("a")
-        if a and a.get("href"):
+    for a in soup.select("h3.title > a"):
+        if a.get("href"):
             polls.append({"url": a["href"], "title": a.get_text(strip=True)})
     has_next = bool(soup.select_one("li.pager-next a"))
     return polls, has_next
@@ -45,9 +40,9 @@ def parse_poll_page(html: str) -> dict:
     votes = 0
     total_div = soup.select_one("div.total")
     if total_div:
-        m = re.search(r"(\d+)", total_div.get_text())
+        m = re.search(r"([\d.]+)", total_div.get_text())
         if m:
-            votes = int(m.group(1))
+            votes = int(m.group(1).replace(".", ""))
 
     # Date — "24. Mai 2026 - 9:00" in div.voll-wer-wann
     date = None

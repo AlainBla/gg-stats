@@ -42,6 +42,12 @@ POLL_HTML_ZERO = """
 <div class="total">Gesamte Stimmenzahl: 0</div>
 """
 
+POLL_HTML_THOUSANDS = """
+<h1 class="title">Sonntagsfrage: Big?</h1>
+<div class="voll-wer-wann">10. März 2015 - 9:00</div>
+<div class="total">Gesamte Stimmenzahl: 1.234</div>
+"""
+
 
 def test_parse_archive_returns_polls():
     polls, has_next = parse_archive_page(ARCHIVE_HTML)
@@ -85,3 +91,8 @@ def test_parse_poll_title_strips_series_info():
 def test_parse_poll_zero_votes():
     r = parse_poll_page(POLL_HTML_ZERO)
     assert r["votes"] == 0
+
+
+def test_parse_poll_votes_thousands_separator():
+    r = parse_poll_page(POLL_HTML_THOUSANDS)
+    assert r["votes"] == 1234
