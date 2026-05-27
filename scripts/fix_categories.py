@@ -21,7 +21,7 @@ DATA_FILE      = Path("data/vorfreude.json")
 OVERRIDES_FILE = Path("data/overrides.json")
 
 # Matches separator variants: " - ", " – ", " -<NBSP>", " –<NBSP>", ": "
-_SEP_RE    = re.compile(r'\s*[-–—]\xa0?|\s*:\s*')
+_SEP_RE    = re.compile(r'\s*[-–—]\xa0?\s*|\s*:\s*')
 # Detects whether a title actually contains a separator (guards against pure case variants)
 _HAS_SEP   = re.compile(r'\s[-–—]\xa0?|:\s|\s[-–—]$')
 

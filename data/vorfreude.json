@@ -2782,7 +2782,7 @@
         "name": "Hagen Gehritz",
         "items": [
           {
-            "title": "Avatar –Herr der Elemente",
+            "title": "Avatar – Herr der Elemente",
             "category": "film_series"
           },
           {
@@ -3143,7 +3143,7 @@
           "editor:thomas_schmitz"
         ]
       },
-      "Avatar –Herr der Elemente": {
+      "Avatar – Herr der Elemente": {
         "count": 1,
         "category": "film_series",
         "mentioners": [
@@ -8887,7 +8887,7 @@
             "category": "game"
           },
           {
-            "title": "Fire Emblem - Three Houses",
+            "title": "Fire Emblem: Three Houses",
             "category": "game"
           },
           {
@@ -9003,7 +9003,7 @@
             "category": "game"
           },
           {
-            "title": "Fire Emblem - Three Houses",
+            "title": "Fire Emblem: Three Houses",
             "category": "game"
           },
           {
@@ -9149,12 +9149,12 @@
           "editor:jörg_langer"
         ]
       },
-      "Fire Emblem - Three Houses": {
+      "Fire Emblem: Three Houses": {
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:hagen_gehritz"
         ]
       },
       "Awakening": {
@@ -9175,25 +9175,25 @@
         "count": 3,
         "category": "film_series",
         "mentioners": [
+          "editor:dennis_hilla",
           "editor:benjamin_braun",
-          "editor:christoph_vent",
-          "editor:dennis_hilla"
+          "editor:christoph_vent"
         ]
       },
       "Dark": {
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:christoph_vent",
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "editor:christoph_vent"
         ]
       },
       "Orange is the New Black": {
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "editor:benjamin_braun"
         ]
       },
       "Wolfenstein 2": {
@@ -12000,7 +12000,7 @@
             "category": "game"
           },
           {
-            "title": "Fire Emblem - Three Houses",
+            "title": "Fire Emblem: Three Houses",
             "category": "game"
           },
           {
@@ -12366,8 +12366,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:hagen_gehritz"
         ]
       },
       "X-Com.": {
@@ -12388,8 +12388,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "editor:benjamin_braun"
         ]
       },
       "Die dunkle Bedrohung": {
@@ -12483,7 +12483,7 @@
           "editor:dennis_hilla"
         ]
       },
-      "Fire Emblem - Three Houses": {
+      "Fire Emblem: Three Houses": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -13626,7 +13626,7 @@
             "category": "film_series"
           },
           {
-            "title": "Half-Life - Alyx",
+            "title": "Half-Life: Alyx",
             "category": "game"
           },
           {
@@ -13952,8 +13952,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:dennis_hilla",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:dennis_hilla"
         ]
       },
       "Half-Life": {
@@ -13967,8 +13967,8 @@
         "count": 2,
         "category": "misc",
         "mentioners": [
-          "editor:hagen_gehritz",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:hagen_gehritz"
         ]
       },
       "Neuromancer": {
@@ -14003,8 +14003,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "editor:benjamin_braun"
         ]
       },
       "The Amazing World of Gumball": {
@@ -14018,8 +14018,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:dennis_hilla",
+          "editor:benjamin_braun",
           "editor:hagen_gehritz"
         ]
       },
@@ -14101,7 +14101,7 @@
           "editor:thomas_schmitz"
         ]
       },
-      "Half-Life - Alyx": {
+      "Half-Life: Alyx": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -14356,7 +14356,7 @@
             "category": "film_series"
           },
           {
-            "title": "Fire Emblem - Three Houses",
+            "title": "Fire Emblem: Three Houses",
             "category": "game"
           },
           {
@@ -14574,8 +14574,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:dennis_hilla",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:dennis_hilla"
         ]
       },
       "Panzer Corps 2": {
@@ -14625,8 +14625,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "editor:benjamin_braun"
         ]
       },
       "Bosch": {
@@ -14694,7 +14694,7 @@
           "editor:hagen_gehritz"
         ]
       },
-      "Fire Emblem - Three Houses": {
+      "Fire Emblem: Three Houses": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -16070,7 +16070,7 @@
             "category": "game"
           },
           {
-            "title": "The Legend of Zelda - Breath of the Wild",
+            "title": "The Legend of Zelda - Breath of the Wild",
             "category": "game"
           },
           {
@@ -16127,7 +16127,7 @@
             "category": "game"
           },
           {
-            "title": "World of Warcraft - Shadowlands",
+            "title": "World of Warcraft: Shadowlands",
             "category": "misc"
           },
           {
@@ -16310,20 +16310,20 @@
         "count": 6,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:dennis_hilla",
-          "editor:hagen_gehritz",
           "editor:jörg_langer",
-          "editor:karsten_scholz",
-          "editor:thomas_schmitz"
+          "editor:dennis_hilla",
+          "editor:thomas_schmitz",
+          "editor:benjamin_braun",
+          "editor:hagen_gehritz",
+          "editor:karsten_scholz"
         ]
       },
       "Beyond a Steel Sky": {
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:benjamin_braun"
         ]
       },
       "GDC Doku": {
@@ -16351,8 +16351,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "editor:benjamin_braun"
         ]
       },
       "Deadly Premonition 2 - A Blessing in Disguise": {
@@ -16388,8 +16388,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:thomas_schmitz"
+          "editor:thomas_schmitz",
+          "editor:benjamin_braun"
         ]
       },
       "Röki": {
@@ -16455,7 +16455,7 @@
           "editor:hagen_gehritz"
         ]
       },
-      "The Legend of Zelda - Breath of the Wild": {
+      "The Legend of Zelda - Breath of the Wild": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -16532,7 +16532,7 @@
           "editor:karsten_scholz"
         ]
       },
-      "World of Warcraft - Shadowlands": {
+      "World of Warcraft: Shadowlands": {
         "count": 1,
         "category": "misc",
         "mentioners": [
@@ -18569,7 +18569,7 @@
             "category": "film_series"
           },
           {
-            "title": "Spider-Man - Miles Morales",
+            "title": "Spider-Man: Miles Morales",
             "category": "game"
           },
           {
@@ -18602,7 +18602,7 @@
             "category": "game"
           },
           {
-            "title": "Spider-Man - Miles Morales",
+            "title": "Spider-Man: Miles Morales",
             "category": "game"
           },
           {
@@ -18671,7 +18671,7 @@
             "category": "game"
           },
           {
-            "title": "Spider-Man - Miles Morales",
+            "title": "Spider-Man: Miles Morales",
             "category": "game"
           },
           {
@@ -18992,7 +18992,7 @@
           "editor:karsten_scholz"
         ]
       },
-      "Spider-Man - Miles Morales": {
+      "Spider-Man: Miles Morales": {
         "count": 3,
         "category": "game",
         "mentioners": [
@@ -19351,7 +19351,7 @@
             "category": "game"
           },
           {
-            "title": "Spider-Man - Miles Morales",
+            "title": "Spider-Man: Miles Morales",
             "category": "game"
           },
           {
@@ -19607,10 +19607,10 @@
         "count": 4,
         "category": "film_series",
         "mentioners": [
-          "editor:dennis_hilla",
           "editor:jörg_langer",
-          "editor:karsten_scholz",
-          "editor:thomas_schmitz"
+          "editor:dennis_hilla",
+          "editor:thomas_schmitz",
+          "editor:karsten_scholz"
         ]
       },
       "Breaking Bad": {
@@ -19624,11 +19624,11 @@
         "count": 5,
         "category": "game",
         "mentioners": [
-          "editor:dennis_hilla",
-          "editor:hagen_gehritz",
           "editor:jörg_langer",
-          "editor:karsten_scholz",
-          "editor:thomas_schmitz"
+          "editor:dennis_hilla",
+          "editor:thomas_schmitz",
+          "editor:hagen_gehritz",
+          "editor:karsten_scholz"
         ]
       },
       "Sopranos": {
@@ -19750,7 +19750,7 @@
           "editor:benjamin_braun"
         ]
       },
-      "Spider-Man - Miles Morales": {
+      "Spider-Man: Miles Morales": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -21516,7 +21516,7 @@
             "category": "game"
           },
           {
-            "title": "Oddworld - Soulstorm",
+            "title": "Oddworld: Soulstorm",
             "category": "game"
           },
           {
@@ -21897,16 +21897,16 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:hagen_gehritz"
         ]
       },
       "NieR Replicant": {
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:dennis_hilla",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:dennis_hilla"
         ]
       },
       "Sokoban": {
@@ -21976,16 +21976,16 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "editor:benjamin_braun"
         ]
       },
       "Outriders": {
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:dennis_hilla",
+          "editor:benjamin_braun",
           "editor:hagen_gehritz"
         ]
       },
@@ -22080,11 +22080,12 @@
           "editor:thomas_schmitz"
         ]
       },
-      "Oddworld - Soulstorm": {
-        "count": 1,
+      "Oddworld: Soulstorm": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:thomas_schmitz"
+          "editor:thomas_schmitz",
+          "editor:karsten_scholz"
         ]
       },
       "Earthworm Jim 4": {
@@ -22293,13 +22294,6 @@
         ]
       },
       "WoW Burning Crusade Classic": {
-        "count": 1,
-        "category": "game",
-        "mentioners": [
-          "editor:karsten_scholz"
-        ]
-      },
-      "Oddworld: Soulstorm": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -23434,7 +23428,7 @@
             "category": "game"
           },
           {
-            "title": "Ratchet & Clank - Rift Apart",
+            "title": "Ratchet & Clank: Rift Apart",
             "category": "game"
           }
         ]
@@ -23926,11 +23920,12 @@
           "editor:dennis_hilla"
         ]
       },
-      "Ratchet & Clank - Rift Apart": {
-        "count": 1,
+      "Ratchet & Clank: Rift Apart": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "editor:benjamin_braun"
         ]
       },
       "It's a Sin": {
@@ -24053,13 +24048,6 @@
         ]
       },
       "Mario Golf": {
-        "count": 1,
-        "category": "game",
-        "mentioners": [
-          "editor:benjamin_braun"
-        ]
-      },
-      "Ratchet & Clank: Rift Apart": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -24520,7 +24508,7 @@
             "category": "game"
           },
           {
-            "title": "World of Warcraft - Shadowlands",
+            "title": "World of Warcraft: Shadowlands",
             "category": "game"
           }
         ]
@@ -24743,8 +24731,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:benjamin_braun"
         ]
       },
       "Nomadland": {
@@ -24822,8 +24810,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "editor:benjamin_braun"
         ]
       },
       "Zelda - Skyword Sword HD": {
@@ -24851,8 +24839,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:karsten_scholz",
-          "editor:thomas_schmitz"
+          "editor:thomas_schmitz",
+          "editor:karsten_scholz"
         ]
       },
       "Cash Truck": {
@@ -25023,7 +25011,7 @@
           "editor:karsten_scholz"
         ]
       },
-      "World of Warcraft - Shadowlands": {
+      "World of Warcraft: Shadowlands": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -25879,7 +25867,7 @@
             "category": "game"
           },
           {
-            "title": "Kena - Bridge of Spirits",
+            "title": "Kena: Bridge of Spirits",
             "category": "game"
           }
         ]
@@ -26014,7 +26002,7 @@
             "category": "game"
           },
           {
-            "title": "Kena - Bridge of Spirits",
+            "title": "Kena: Bridge of Spirits",
             "category": "film_series"
           },
           {
@@ -26385,12 +26373,13 @@
           "editor:dennis_hilla"
         ]
       },
-      "Kena - Bridge of Spirits": {
-        "count": 2,
+      "Kena: Bridge of Spirits": {
+        "count": 3,
         "category": "game",
         "mentioners": [
           "editor:dennis_hilla",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:michael_hengst"
         ]
       },
       "Sex Education": {
@@ -26670,13 +26659,6 @@
         ]
       },
       "Tales of Arise": {
-        "count": 1,
-        "category": "game",
-        "mentioners": [
-          "editor:michael_hengst"
-        ]
-      },
-      "Kena: Bridge of Spirits": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -30965,7 +30947,7 @@
             "category": "film_series"
           },
           {
-            "title": "Kena - Bridge of Spirits",
+            "title": "Kena: Bridge of Spirits",
             "category": "game"
           },
           {
@@ -31426,9 +31408,9 @@
         "count": 4,
         "category": "game",
         "mentioners": [
+          "editor:jörg_langer",
           "editor:dennis_hilla",
           "editor:hagen_gehritz",
-          "editor:jörg_langer",
           "editor:michael_hengst"
         ]
       },
@@ -31470,7 +31452,7 @@
       },
       "Star Wars": {
         "count": 2,
-        "category": "game",
+        "category": "film_series",
         "mentioners": [
           "editor:dennis_hilla",
           "editor:michael_hengst"
@@ -31546,7 +31528,7 @@
           "editor:thomas_schmitz"
         ]
       },
-      "Kena - Bridge of Spirits": {
+      "Kena: Bridge of Spirits": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -33079,7 +33061,7 @@
             "category": "game"
           },
           {
-            "title": "Terminator - Dark Fate",
+            "title": "Terminator: Dark Fate",
             "category": "game"
           },
           {
@@ -33128,11 +33110,11 @@
             "category": "game"
           },
           {
-            "title": "Fire Emblem - Three Houses",
+            "title": "Fire Emblem: Three Houses",
             "category": "game"
           },
           {
-            "title": "Fire Emblem Warriors - Three Hopes",
+            "title": "Fire Emblem Warriors: Three Hopes",
             "category": "game"
           },
           {
@@ -33534,8 +33516,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:dennis_hilla",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:dennis_hilla"
         ]
       },
       "Top Gun": {
@@ -33632,7 +33614,7 @@
           "editor:benjamin_braun"
         ]
       },
-      "Terminator - Dark Fate": {
+      "Terminator: Dark Fate": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -33709,18 +33691,19 @@
           "editor:hagen_gehritz"
         ]
       },
-      "Fire Emblem - Three Houses": {
+      "Fire Emblem: Three Houses": {
         "count": 1,
         "category": "game",
         "mentioners": [
           "editor:hagen_gehritz"
         ]
       },
-      "Fire Emblem Warriors - Three Hopes": {
-        "count": 1,
+      "Fire Emblem Warriors: Three Hopes": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:michael_hengst"
         ]
       },
       "Xbox & Bethesda Showcase": {
@@ -33909,13 +33892,6 @@
       "Michael Crichton": {
         "count": 1,
         "category": "film_series",
-        "mentioners": [
-          "editor:michael_hengst"
-        ]
-      },
-      "Fire Emblem Warriors: Three Hopes": {
-        "count": 1,
-        "category": "game",
         "mentioners": [
           "editor:michael_hengst"
         ]
@@ -36293,7 +36269,7 @@
             "category": "game"
           },
           {
-            "title": "Mario + Rabbids - Sparks of Hope",
+            "title": "Mario + Rabbids: Sparks of Hope",
             "category": "film_series"
           },
           {
@@ -36691,8 +36667,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:christian_burtchen",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:christian_burtchen"
         ]
       },
       "Mario + Rabbids Sparks of Hope": {
@@ -36744,7 +36720,7 @@
           "editor:hagen_gehritz"
         ]
       },
-      "Mario + Rabbids - Sparks of Hope": {
+      "Mario + Rabbids: Sparks of Hope": {
         "count": 1,
         "category": "film_series",
         "mentioners": [
@@ -38951,7 +38927,7 @@
             "category": "game"
           },
           {
-            "title": "Pharaoh – A New Era",
+            "title": "Pharaoh: A New Era",
             "category": "game"
           },
           {
@@ -39306,17 +39282,17 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:hagen_gehritz",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:hagen_gehritz"
         ]
       },
       "Hogwarts Legacy": {
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:jörg_langer",
-          "editor:ramona_kiuntke"
+          "editor:ramona_kiuntke",
+          "editor:benjamin_braun"
         ]
       },
       "Company of Heroes 3": {
@@ -39373,15 +39349,16 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:michael_hengst",
-          "editor:ramona_kiuntke"
+          "editor:ramona_kiuntke",
+          "editor:michael_hengst"
         ]
       },
-      "Pharaoh – A New Era": {
-        "count": 1,
+      "Pharaoh: A New Era": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:ramona_kiuntke"
+          "editor:ramona_kiuntke",
+          "editor:christian_burtchen"
         ]
       },
       "Sons of the Forest": {
@@ -39587,13 +39564,6 @@
           "editor:christian_burtchen"
         ]
       },
-      "Pharaoh: A New Era": {
-        "count": 1,
-        "category": "game",
-        "mentioners": [
-          "editor:christian_burtchen"
-        ]
-      },
       "Caesar": {
         "count": 1,
         "category": "game",
@@ -39740,7 +39710,7 @@
             "category": "game"
           },
           {
-            "title": "The Great War - Western Front",
+            "title": "The Great War: Western Front",
             "category": "game"
           }
         ]
@@ -39851,7 +39821,7 @@
             "category": "film_series"
           },
           {
-            "title": "Atelier Ryza 3 - Alchemist of the End and the Secret Key",
+            "title": "Atelier Ryza 3: Alchemist of the End and the Secret Key",
             "category": "game"
           },
           {
@@ -39904,7 +39874,7 @@
             "category": "game"
           },
           {
-            "title": "The Great War - Western Front",
+            "title": "The Great War: Western Front",
             "category": "game"
           },
           {
@@ -40104,10 +40074,12 @@
         ]
       },
       "The Great War: Western Front": {
-        "count": 1,
+        "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:ramona_kiuntke",
+          "editor:christian_burtchen"
         ]
       },
       "System Shock": {
@@ -40188,14 +40160,6 @@
         "category": "game",
         "mentioners": [
           "editor:ramona_kiuntke"
-        ]
-      },
-      "The Great War - Western Front": {
-        "count": 2,
-        "category": "game",
-        "mentioners": [
-          "editor:ramona_kiuntke",
-          "editor:christian_burtchen"
         ]
       },
       "Berserk: Golden Age Arc - Memorial Edition": {
@@ -40325,7 +40289,7 @@
           "editor:michael_hengst"
         ]
       },
-      "Atelier Ryza 3 - Alchemist of the End and the Secret Key": {
+      "Atelier Ryza 3: Alchemist of the End and the Secret Key": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -40597,7 +40561,7 @@
             "category": "game"
           },
           {
-            "title": "Star Wars Jedi - Survivor",
+            "title": "Star Wars Jedi: Survivor",
             "category": "game"
           }
         ]
@@ -41085,7 +41049,7 @@
           "editor:benjamin_braun"
         ]
       },
-      "Star Wars Jedi - Survivor": {
+      "Star Wars Jedi: Survivor": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -42023,7 +41987,7 @@
             "category": "film_series"
           },
           {
-            "title": "The Legend of Zelda - The Tears of the Kingdom",
+            "title": "The Legend of Zelda - The Tears of the Kingdom",
             "category": "game"
           },
           {
@@ -42268,8 +42232,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:benjamin_braun"
         ]
       },
       "Diablo 4": {
@@ -42277,17 +42241,17 @@
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
-          "editor:karsten_scholz",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "editor:karsten_scholz"
         ]
       },
       "Final Fantasy 16": {
         "count": 4,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:hagen_gehritz",
           "editor:jörg_langer",
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun",
           "editor:michael_hengst"
         ]
       },
@@ -42468,7 +42432,7 @@
           "editor:michael_hengst"
         ]
       },
-      "The Legend of Zelda - The Tears of the Kingdom": {
+      "The Legend of Zelda - The Tears of the Kingdom": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -42738,7 +42702,7 @@
             "category": "film_series"
           },
           {
-            "title": "The Legend of Zelda – Tears of the Kingdom",
+            "title": "The Legend of Zelda - Tears of the Kingdom",
             "category": "game"
           },
           {
@@ -43231,7 +43195,7 @@
           "editor:michael_hengst"
         ]
       },
-      "The Legend of Zelda – Tears of the Kingdom": {
+      "The Legend of Zelda - Tears of the Kingdom": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -43405,7 +43369,7 @@
             "category": "game"
           },
           {
-            "title": "Divinity - Original Sin 2",
+            "title": "Divinity: Original Sin 2",
             "category": "game"
           },
           {
@@ -43867,7 +43831,7 @@
           "editor:hagen_gehritz"
         ]
       },
-      "Divinity - Original Sin 2": {
+      "Divinity: Original Sin 2": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -47061,7 +47025,7 @@
             "category": "game"
           },
           {
-            "title": "Banishers - Ghosts of New Eden",
+            "title": "Banishers: Ghosts of New Eden",
             "category": "game"
           },
           {
@@ -47436,8 +47400,8 @@
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
-          "editor:karsten_scholz",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "editor:karsten_scholz"
         ]
       },
       "Fire Emblem Awakening": {
@@ -47486,8 +47450,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:hagen_gehritz",
+          "editor:benjamin_braun",
           "editor:michael_hengst"
         ]
       },
@@ -47540,7 +47504,7 @@
           "editor:benjamin_braun"
         ]
       },
-      "Banishers - Ghosts of New Eden": {
+      "Banishers: Ghosts of New Eden": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -50419,7 +50383,7 @@
             "category": "game"
           },
           {
-            "title": "Star Wars - Outlaws",
+            "title": "Star Wars: Outlaws",
             "category": "game"
           }
         ]
@@ -50575,8 +50539,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:benjamin_braun"
         ]
       },
       "Ultima IV": {
@@ -50590,9 +50554,9 @@
         "count": 4,
         "category": "misc",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:hagen_gehritz",
           "editor:jörg_langer",
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun",
           "editor:michael_hengst"
         ]
       },
@@ -50698,8 +50662,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "editor:christian_burtchen"
         ]
       },
       "Cate Blanchett": {
@@ -50793,7 +50757,7 @@
           "editor:christian_burtchen"
         ]
       },
-      "Star Wars - Outlaws": {
+      "Star Wars: Outlaws": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -50850,7 +50814,7 @@
             "category": "film_series"
           },
           {
-            "title": "Zelda - Echoes of Wisdom",
+            "title": "Zelda: Echoes of Wisdom",
             "category": "game"
           },
           {
@@ -51260,7 +51224,7 @@
           "editor:hagen_gehritz"
         ]
       },
-      "Zelda - Echoes of Wisdom": {
+      "Zelda: Echoes of Wisdom": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -52222,7 +52186,7 @@
             "category": "film_series"
           },
           {
-            "title": "Dragon Age - The Veilguard",
+            "title": "Dragon Age: The Veilguard",
             "category": "game"
           },
           {
@@ -52630,7 +52594,7 @@
           "editor:jörg_langer"
         ]
       },
-      "Dragon Age - The Veilguard": {
+      "Dragon Age: The Veilguard": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -52641,10 +52605,10 @@
         "count": 4,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:christian_burtchen",
+          "editor:jörg_langer",
           "editor:hagen_gehritz",
-          "editor:jörg_langer"
+          "editor:benjamin_braun",
+          "editor:christian_burtchen"
         ]
       },
       "Songs of Silence": {
@@ -52778,8 +52742,8 @@
         "category": "film_series",
         "mentioners": [
           "editor:benjamin_braun",
-          "editor:christian_burtchen",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "editor:christian_burtchen"
         ]
       },
       "Pedro Pascal": {
@@ -53069,7 +53033,7 @@
             "category": "game"
           },
           {
-            "title": "Dragon Age - The Veilguard",
+            "title": "Dragon Age: The Veilguard",
             "category": "game"
           },
           {
@@ -53716,11 +53680,12 @@
           "editor:benjamin_braun"
         ]
       },
-      "Dragon Age - The Veilguard": {
-        "count": 1,
+      "Dragon Age: The Veilguard": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Maverick"
         ]
       },
       "Dragon's Dogma 2": {
@@ -54101,13 +54066,6 @@
           "user:Calmon"
         ]
       },
-      "Dragon Age: The Veilguard": {
-        "count": 1,
-        "category": "game",
-        "mentioners": [
-          "user:Maverick"
-        ]
-      },
       "Star Wars: Outlaws": {
         "count": 1,
         "category": "game",
@@ -54150,7 +54108,7 @@
             "category": "film_series"
           },
           {
-            "title": "Space Marine Adventures – Tyranidenangriff",
+            "title": "Space Marine Adventures: Tyranidenangriff",
             "category": "game"
           },
           {
@@ -54212,7 +54170,7 @@
             "category": "film_series"
           },
           {
-            "title": "Kingdom Come - Deliverance 2",
+            "title": "Kingdom Come: Deliverance 2",
             "category": "game"
           },
           {
@@ -54743,7 +54701,7 @@
           "user:Bishamon"
         ]
       },
-      "Space Marine Adventures – Tyranidenangriff": {
+      "Space Marine Adventures: Tyranidenangriff": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -54839,11 +54797,15 @@
           "editor:benjamin_braun"
         ]
       },
-      "Kingdom Come - Deliverance 2": {
-        "count": 1,
+      "Kingdom Come: Deliverance 2": {
+        "count": 5,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:euph",
+          "user:Moe90",
+          "user:Zickendetightbombe",
+          "user:Crizzo"
         ]
       },
       "Pillars of Eternity": {
@@ -55065,16 +55027,6 @@
         "category": "film_series",
         "mentioners": [
           "user:Maestro84"
-        ]
-      },
-      "Kingdom Come: Deliverance 2": {
-        "count": 4,
-        "category": "game",
-        "mentioners": [
-          "user:euph",
-          "user:Moe90",
-          "user:Zickendetightbombe",
-          "user:Crizzo"
         ]
       },
       "Dark Matter": {
@@ -57555,7 +57507,7 @@
             "category": "film_series"
           },
           {
-            "title": "Mission: Impossible: The Final Reckoning",
+            "title": "Mission: Impossible – The Final Reckoning",
             "category": "game"
           },
           {
@@ -57575,7 +57527,7 @@
             "category": "game"
           },
           {
-            "title": "Elden Ring - Nightreign",
+            "title": "Elden Ring: Nightreign",
             "category": "game"
           },
           {
@@ -58208,11 +58160,12 @@
           "user:Ganon"
         ]
       },
-      "Mission: Impossible: The Final Reckoning": {
-        "count": 1,
+      "Mission: Impossible – The Final Reckoning": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Ganon"
         ]
       },
       "Der phönizische Meisterstreich": {
@@ -58243,7 +58196,7 @@
           "editor:benjamin_braun"
         ]
       },
-      "Elden Ring - Nightreign": {
+      "Elden Ring: Nightreign": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -58528,13 +58481,6 @@
         "category": "game",
         "mentioners": [
           "user:Alain"
-        ]
-      },
-      "Mission: Impossible – The Final Reckoning": {
-        "count": 1,
-        "category": "film_series",
-        "mentioners": [
-          "user:Ganon"
         ]
       },
       "Karate Kid Legends": {
@@ -59655,7 +59601,7 @@
             "category": "game"
           },
           {
-            "title": "Kingdom Come - Deliverance 2",
+            "title": "Kingdom Come: Deliverance 2",
             "category": "game"
           },
           {
@@ -60202,7 +60148,7 @@
           "user:MicBass"
         ]
       },
-      "Kingdom Come - Deliverance 2": {
+      "Kingdom Come: Deliverance 2": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -60573,7 +60519,7 @@
             "category": "film_series"
           },
           {
-            "title": "Mafia - The Old Country",
+            "title": "Mafia: The Old Country",
             "category": "game"
           },
           {
@@ -60581,7 +60527,7 @@
             "category": "game"
           },
           {
-            "title": "Metal Gear Solid Delta - Snake Eater",
+            "title": "Metal Gear Solid Delta: Snake Eater",
             "category": "game"
           },
           {
@@ -60622,7 +60568,7 @@
             "category": "game"
           },
           {
-            "title": "Metal Gear Solid Delta - Snake Eater",
+            "title": "Metal Gear Solid Delta: Snake Eater",
             "category": "game"
           },
           {
@@ -60663,7 +60609,7 @@
             "category": "game"
           },
           {
-            "title": "Mafia - The Old Country",
+            "title": "Mafia: The Old Country",
             "category": "game"
           },
           {
@@ -61116,12 +61062,16 @@
           "editor:jörg_langer"
         ]
       },
-      "Mafia - The Old Country": {
-        "count": 2,
+      "Mafia: The Old Country": {
+        "count": 6,
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Moe90",
+          "user:Green Yoshi",
+          "user:Flooraimer",
+          "user:funrox"
         ]
       },
       "Gamescom": {
@@ -61136,12 +61086,14 @@
           "user:funrox"
         ]
       },
-      "Metal Gear Solid Delta - Snake Eater": {
-        "count": 2,
+      "Metal Gear Solid Delta: Snake Eater": {
+        "count": 4,
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "user:Baumkuchen",
+          "user:Moe90"
         ]
       },
       "Gradius Origins": {
@@ -61459,14 +61411,6 @@
           "user:Maestro84"
         ]
       },
-      "Metal Gear Solid Delta: Snake Eater": {
-        "count": 2,
-        "category": "game",
-        "mentioners": [
-          "user:Baumkuchen",
-          "user:Moe90"
-        ]
-      },
       "Whisper Mountain Outbreak": {
         "count": 1,
         "category": "game",
@@ -61489,16 +61433,6 @@
           "user:TSH-Lightning",
           "user:funrox",
           "user:Ganon"
-        ]
-      },
-      "Mafia: The Old Country": {
-        "count": 4,
-        "category": "game",
-        "mentioners": [
-          "user:Moe90",
-          "user:Green Yoshi",
-          "user:Flooraimer",
-          "user:funrox"
         ]
       },
       "Eriksholm: The Stolen Child": {
@@ -61656,7 +61590,7 @@
             "category": "film_series"
           },
           {
-            "title": "Metal Gear Solid Delta - Snake Eater",
+            "title": "Metal Gear Solid Delta: Snake Eater",
             "category": "game"
           },
           {
@@ -62281,7 +62215,7 @@
           "editor:jörg_langer"
         ]
       },
-      "Metal Gear Solid Delta - Snake Eater": {
+      "Metal Gear Solid Delta: Snake Eater": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -65655,7 +65589,7 @@
             "category": "game"
           },
           {
-            "title": "Thief VR - Legacy of Shadow",
+            "title": "Thief VR: Legacy of Shadow",
             "category": "game"
           },
           {
@@ -65692,7 +65626,7 @@
             "category": "game"
           },
           {
-            "title": "Metroid Prime 4 - Beyond",
+            "title": "Metroid Prime 4: Beyond",
             "category": "game"
           },
           {
@@ -65778,7 +65712,7 @@
             "category": "film_series"
           },
           {
-            "title": "Anno 117 - Pax Romana",
+            "title": "Anno 117: Pax Romana",
             "category": "game"
           },
           {
@@ -66233,11 +66167,12 @@
           "editor:hagen_gehritz"
         ]
       },
-      "Thief VR - Legacy of Shadow": {
-        "count": 1,
+      "Thief VR: Legacy of Shadow": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "user:Bruno Lawrie"
         ]
       },
       "Routine": {
@@ -66292,11 +66227,17 @@
           "editor:benjamin_braun"
         ]
       },
-      "Metroid Prime 4 - Beyond": {
-        "count": 1,
+      "Metroid Prime 4: Beyond": {
+        "count": 7,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "editor:kai_schmidt",
+          "editor:michael_hengst",
+          "user:euph",
+          "user:Green Yoshi",
+          "user:Bruno Lawrie",
+          "user:KampfPlauze"
         ]
       },
       "Landwirtschafts-Simulator": {
@@ -66355,18 +66296,6 @@
           "editor:kai_schmidt",
           "user:Green Yoshi",
           "user:Flooraimer"
-        ]
-      },
-      "Metroid Prime 4: Beyond": {
-        "count": 6,
-        "category": "game",
-        "mentioners": [
-          "editor:kai_schmidt",
-          "editor:michael_hengst",
-          "user:euph",
-          "user:Green Yoshi",
-          "user:Bruno Lawrie",
-          "user:KampfPlauze"
         ]
       },
       "Terminator 2D - No Fate": {
@@ -66428,7 +66357,7 @@
           "editor:christian_burtchen"
         ]
       },
-      "Anno 117 - Pax Romana": {
+      "Anno 117: Pax Romana": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -66610,13 +66539,6 @@
         "category": "misc",
         "mentioners": [
           "user:Green Yoshi"
-        ]
-      },
-      "Thief VR: Legacy of Shadow": {
-        "count": 1,
-        "category": "game",
-        "mentioners": [
-          "user:Bruno Lawrie"
         ]
       },
       "Troll 2": {
@@ -69752,7 +69674,7 @@
     "month": "2026-04",
     "url": "/news/342446/darauf-freut-sich-die-redaktion-im-april-2026",
     "title": "Darauf freut sich die Redaktion im... April 2026",
-    "last_updated": "2026-05-27T22:30:45Z",
+    "last_updated": "2026-05-27T22:40:38Z",
     "comment_count": 57,
     "editors": [
       {
@@ -71368,7 +71290,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-05-27T22:30:44Z",
+    "last_updated": "2026-05-27T22:40:37Z",
     "comment_count": 62,
     "editors": [
       {
@@ -71445,7 +71367,7 @@
             "category": "game"
           },
           {
-            "title": "007 - First Light",
+            "title": "007: First Light",
             "category": "game"
           },
           {
@@ -71478,7 +71400,7 @@
             "category": "game"
           },
           {
-            "title": "007 - First Light",
+            "title": "007: First Light",
             "category": "game"
           }
         ]
@@ -71515,7 +71437,7 @@
             "category": "game"
           },
           {
-            "title": "Lego Batman - Legacy of the Dark Knight",
+            "title": "Lego Batman: Legacy of the Dark Knight",
             "category": "game"
           },
           {
@@ -71629,7 +71551,7 @@
             "category": "game"
           },
           {
-            "title": "007 - First Light",
+            "title": "007: First Light",
             "category": "game"
           },
           {
@@ -71775,7 +71697,7 @@
         "username": "Olphas",
         "items": [
           {
-            "title": "007 - First Light",
+            "title": "007: First Light",
             "category": "game"
           },
           {
@@ -71923,7 +71845,7 @@
             "category": "game"
           },
           {
-            "title": "007 - First Light",
+            "title": "007: First Light",
             "category": "game"
           },
           {
@@ -71936,7 +71858,7 @@
         "username": "Käpt'n Iglo",
         "items": [
           {
-            "title": "007 - First Light",
+            "title": "007: First Light",
             "category": "game"
           },
           {
@@ -71965,7 +71887,7 @@
             "category": "game"
           },
           {
-            "title": "007 - First Light",
+            "title": "007: First Light",
             "category": "game"
           }
         ]
@@ -72105,7 +72027,7 @@
             "category": "game"
           },
           {
-            "title": "007 - First Light",
+            "title": "007: First Light",
             "category": "game"
           },
           {
@@ -72153,7 +72075,7 @@
         "username": "Danywilde",
         "items": [
           {
-            "title": "007 - First Light",
+            "title": "007: First Light",
             "category": "game"
           }
         ]
@@ -72216,7 +72138,7 @@
             "category": "game"
           },
           {
-            "title": "007 - First Light",
+            "title": "007: First Light",
             "category": "game"
           },
           {
@@ -72352,14 +72274,15 @@
           "user:Olphas"
         ]
       },
-      "007 - First Light": {
-        "count": 10,
+      "007: First Light": {
+        "count": 11,
         "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
           "editor:jens_bremicker",
           "editor:kai_schmidt",
           "user:Baumkuchen",
+          "user:Bruno Lawrie",
           "user:Danywilde",
           "user:Green Yoshi",
           "user:John of Gaunt",
@@ -72456,11 +72379,13 @@
           "editor:christian_burtchen"
         ]
       },
-      "Lego Batman - Legacy of the Dark Knight": {
-        "count": 1,
+      "Lego Batman: Legacy of the Dark Knight": {
+        "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:christian_burtchen"
+          "editor:christian_burtchen",
+          "user:Ganon",
+          "user:John of Gaunt"
         ]
       },
       "Elden Ring": {
@@ -72685,13 +72610,6 @@
           "user:Bruno Lawrie"
         ]
       },
-      "007: First Light": {
-        "count": 1,
-        "category": "game",
-        "mentioners": [
-          "user:Bruno Lawrie"
-        ]
-      },
       "Pragmata": {
         "count": 2,
         "category": "game",
@@ -72784,14 +72702,6 @@
         "mentioners": [
           "user:Ganon",
           "user:Käpt'n Iglo"
-        ]
-      },
-      "Lego Batman: Legacy of the Dark Knight": {
-        "count": 2,
-        "category": "game",
-        "mentioners": [
-          "user:Ganon",
-          "user:John of Gaunt"
         ]
       },
       "The Boys": {
