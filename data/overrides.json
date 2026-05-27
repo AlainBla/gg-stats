@@ -1,7 +1,21 @@
 {
   "aliases": {
-    "Spider-Man Noir": ["Spider-Noir"],
-    "Yakuza Kiwami 3": ["Yakuza 3 Kiwami", "Yakuza Kiwami 3 & Dark Ties"]
+    "Spider-Man Noir": [
+      "Spider-Noir"
+    ],
+    "Yakuza Kiwami 3": [
+      "Yakuza 3 Kiwami",
+      "Yakuza Kiwami 3 & Dark Ties"
+    ],
+    "Clair Obscur: Expedition 33": [
+      "Clair Obscur - Expedition 33",
+      "Clair Obscur - Expedition 33"
+    ],
+    "Doom: The Dark Ages": [
+      "Doom - The Dark Ages",
+      "Doom - The Dark Ages",
+      "Doom Dark Ages"
+    ]
   },
   "categories": {
     "Pragmata": "game"

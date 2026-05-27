@@ -3425,17 +3425,17 @@ month,item_title,category,count,editor_count,user_count
 2025-04,Cowboy Bebop,film_series,1,1,0
 2025-04,John Wick,game,1,1,0
 2025-04,Chad Stahelski,game,1,1,0
-2025-04,Clair Obscur - Expedition 33,game,2,2,0
+2025-04,Clair Obscur: Expedition 33,game,8,3,5
 2025-04,Paper Mario,game,1,1,0
 2025-04,Post Trauma,game,1,1,0
-2025-04,Assassin's Creed Shadows,game,1,1,0
+2025-04,Assassin's Creed Shadows,game,2,1,1
 2025-04,Bladerunner 1972,film_series,1,1,0
 2025-04,D. Villeneuve,film_series,1,1,0
 2025-04,R. Scott,film_series,1,1,0
 2025-04,P.K. Dicks,film_series,1,1,0
 2025-04,Cyberpunk 2088,game,1,1,0
 2025-04,Grillfest,misc,1,1,0
-2025-04,Hausparty 2025,misc,1,1,0
+2025-04,Hausparty 2025,misc,2,1,1
 2025-04,Young Sheldon,film_series,1,1,0
 2025-04,Perception,film_series,1,1,0
 2025-04,LeVar Burton,film_series,1,1,0
@@ -3454,7 +3454,7 @@ month,item_title,category,count,editor_count,user_count
 2025-04,Nosferatu,film_series,1,1,0
 2025-04,Commandos - Origins,game,1,1,0
 2025-04,Command & Conquers,game,1,1,0
-2025-04,Tempest Rising,game,2,2,0
+2025-04,Tempest Rising,game,4,2,2
 2025-04,Steel Seed,game,1,1,0
 2025-04,Assassin's Creed - Shadows,game,1,1,0
 2025-04,WWE 2K25,game,1,1,0
@@ -3474,7 +3474,6 @@ month,item_title,category,count,editor_count,user_count
 2025-04,Andor,film_series,1,1,0
 2025-04,Xenoblade Chronicles X,game,1,1,0
 2025-04,Definitive Edition,game,1,1,0
-2025-04,Clair Obscur - Expedition 33,game,1,1,0
 2025-04,The Hundred Line - Last Defense Academy,game,1,1,0
 2025-04,Lunar Remastered Collection,game,1,1,0
 2025-04,Gabe Barrett,game,1,1,0
@@ -3483,24 +3482,35 @@ month,item_title,category,count,editor_count,user_count
 2025-04,Star Wars Galaxies,game,1,1,0
 2025-04,Hideo Kojimas,game,1,1,0
 2025-04,Theo Hilmer,game,1,1,0
+2025-04,Switch 2 Präsentation,misc,1,0,1
+2025-04,The Last of Us Part II,game,1,0,1
+2025-04,South of Midnight,game,1,0,1
+2025-04,Der Dunkle Turm,film_series,1,0,1
+2025-04,One Piece,film_series,1,0,1
+2025-04,The Last of Us Staffel 2,film_series,2,0,2
+2025-04,Andor Staffel 2,film_series,1,0,1
+2025-04,1923,film_series,1,0,1
+2025-04,Atomfall,game,1,0,1
+2025-04,Xenoblade Chronicles X: Definitive Edition,game,1,0,1
+2025-04,Indiana Jones and the Great Circle,game,2,0,2
+2025-04,Days Gone Remastered,game,1,0,1
 2025-05,The Last Of Us,film_series,1,1,0
 2025-05,(Staffel 2),film_series,1,1,0
 2025-05,The Last of Us 2,game,1,1,0
 2025-05,Borderlands,game,1,1,0
 2025-05,Spieleveteranen,game,1,1,0
-2025-05,Doom Dark Ages,game,1,1,0
+2025-05,Doom: The Dark Ages,game,6,4,2
 2025-05,Bonaparte - A Mechanized Revolution,game,2,2,0
 2025-05,hohen Besuch aus Kanada,misc,1,1,0
 2025-05,Ausflug in ein fernes Land,misc,1,1,0
 2025-05,What We Do In The Shadows,film_series,1,1,0
-2025-05,Doom - The Dark Ages,game,2,2,0
 2025-05,Deck auf Haunts,game,1,1,0
-2025-05,Labyrinth of the Demon King,game,1,1,0
+2025-05,Labyrinth of the Demon King,game,2,1,1
 2025-05,King's Field,game,1,1,0
 2025-05,Post Trauma,game,1,1,0
 2025-05,The Hundred Line - Defense Academy,game,1,1,0
 2025-05,Final Destination,film_series,1,1,0
-2025-05,Final Destination: Bloodlines,film_series,1,1,0
+2025-05,Final Destination: Bloodlines,film_series,3,1,2
 2025-05,Mission: Impossible: The Final Reckoning,game,1,1,0
 2025-05,Der phönizische Meisterstreich,game,1,1,0
 2025-05,Wes Anderson,game,1,1,0
@@ -3514,36 +3524,54 @@ month,item_title,category,count,editor_count,user_count
 2025-05,Achtsam Morden,film_series,1,1,0
 2025-05,Breaking Bad,film_series,1,1,0
 2025-05,The Last of Us,film_series,1,1,0
-2025-05,Doom - The Dark Ages,game,1,1,0
-2025-05,Clair Obscur - Expedition 33,game,1,1,0
+2025-05,Clair Obscur: Expedition 33,game,9,2,7
 2025-05,Pax Augusta,game,1,1,0
-2025-05,Thunderbolts,film_series,2,2,0
+2025-05,Thunderbolts,film_series,4,2,2
 2025-05,Julia Louis-Dreyfus,film_series,1,1,0
 2025-05,Misson Impossible: The Final Reckoning,film_series,1,1,0
 2025-05,The Studio,film_series,1,1,0
 2025-05,Among Us 3D,game,1,1,0
 2025-05,City Tales - Medieval Era,game,1,1,0
 2025-05,"Love, Death & Robots",film_series,1,1,0
-2025-05,Clair Obscur - Expedition 33,game,1,1,0
 2025-05,Arcs,game,1,1,0
 2025-05,Let's Go! To Japan Board Game,game,1,1,0
 2025-05,Frosthaven,game,1,1,0
 2025-05,Das Rad der Zeit,game,1,1,0
 2025-05,The Pale Knight,game,1,1,0
 2025-05,Peter Milligan,game,1,1,0
+2025-05,The Last of Us Staffel 2,film_series,3,0,3
+2025-05,Counting Crows Album,misc,1,0,1
+2025-05,Old Skies,game,1,0,1
+2025-05,Indiana Jones and the Great Circle,game,1,0,1
+2025-05,French Open,misc,1,0,1
+2025-05,South of Midnight,game,1,0,1
+2025-05,Andor Staffel 2,film_series,2,0,2
+2025-05,Wheel of Time Staffel 3,film_series,1,0,1
+2025-05,Last Epoch Season 2,game,1,0,1
+2025-05,The Elder Scrolls IV: Oblivion Remastered,game,1,0,1
+2025-05,Kingdom Come: Deliverance 2 DLC,game,1,0,1
+2025-05,Final Fantasy IX,game,1,0,1
+2025-05,Dredge,game,1,0,1
+2025-05,Ender Magnolia,game,1,0,1
+2025-05,Duck Detective: The Ghost of Glamping,game,1,0,1
+2025-05,Blue Prince,game,1,0,1
+2025-05,Mission: Impossible – The Final Reckoning,film_series,1,0,1
+2025-05,Karate Kid Legends,film_series,1,0,1
+2025-05,Blood & Sinners,film_series,1,0,1
+2025-05,Death Stranding 2,game,2,0,2
 2025-06,The Last of Us,film_series,2,2,0
 2025-06,The Bear,film_series,2,2,0
 2025-06,Dune – Awakening,game,1,1,0
 2025-06,Death Stranding 2 – On the Beach,game,1,1,0
-2025-06,Switch 2,game,1,1,0
+2025-06,Switch 2,game,6,1,5
 2025-06,Diamant-Usertreffen,misc,1,1,0
 2025-06,Squid Game,film_series,1,1,0
 2025-06,Ballerina,film_series,1,1,0
 2025-06,Wick is Pain,film_series,1,1,0
-2025-06,Mario Kart World,game,3,3,0
+2025-06,Mario Kart World,game,8,3,5
 2025-06,Yakuza 0 - Director's Cut,game,1,1,0
 2025-06,Metal Gear Solid,game,1,1,0
-2025-06,Death Stranding 2,game,2,2,0
+2025-06,Death Stranding 2,game,4,2,2
 2025-06,28 Years Later,film_series,2,2,0
 2025-06,Land of the Dead,film_series,1,1,0
 2025-06,Meine wilden Töchter,film_series,1,1,0
@@ -3551,7 +3579,7 @@ month,item_title,category,count,editor_count,user_count
 2025-06,The Alters,game,1,1,0
 2025-06,Astro Bot,game,1,1,0
 2025-06,Nosferatu,film_series,1,1,0
-2025-06,Clair Obscur - Expedition 33,game,1,1,0
+2025-06,Clair Obscur: Expedition 33,game,4,1,3
 2025-06,Headlock,misc,1,1,0
 2025-06,The Residence,film_series,1,1,0
 2025-06,Uzo Aduba,film_series,1,1,0
@@ -3576,6 +3604,23 @@ month,item_title,category,count,editor_count,user_count
 2025-06,Fantastic Four,misc,1,1,0
 2025-06,Jonathan Hickman,misc,1,1,0
 2025-06,Der Herr der Ringe,game,1,1,0
+2025-06,Duru – About Mole Rats and Depression,game,1,0,1
+2025-06,Dept. Q,film_series,1,0,1
+2025-06,Ted Lasso,film_series,1,0,1
+2025-06,Stick,film_series,1,0,1
+2025-06,Indiana Jones and the Great Circle,game,1,0,1
+2025-06,Elden Ring: Nightreign,game,1,0,1
+2025-06,Kingdom Come: Deliverance 2 – Brushes of Death,game,1,0,1
+2025-06,Doom: The Dark Ages,game,2,0,2
+2025-06,Blue Prince,game,1,0,1
+2025-06,Stellaris,game,1,0,1
+2025-06,Bodkins,film_series,1,0,1
+2025-06,The Last of Us Staffel 2,film_series,1,0,1
+2025-06,French Open,misc,1,0,1
+2025-06,Tiny Glade,game,1,0,1
+2025-06,Duster,film_series,1,0,1
+2025-06,Fast Fusion,game,1,0,1
+2025-06,The Eternaut,film_series,1,0,1
 2025-07,America's Sweethearts – Dallas Cowboy Cheerleaders,film_series,1,1,0
 2025-07,Cheer,film_series,1,1,0
 2025-07,Squid Game,film_series,1,1,0
@@ -4067,7 +4112,7 @@ month,item_title,category,count,editor_count,user_count
 2025-12,Pioneers of Pagonia,game,1,0,1
 2025-12,Eddington,film_series,1,0,1
 2026-02,Fallout,film_series,1,1,0
-2026-02,Yakuza 3 Kiwami,game,1,1,0
+2026-02,Yakuza Kiwami 3,game,4,2,2
 2026-02,Menace,game,1,1,0
 2026-02,Total War Attila,game,1,1,0
 2026-02,Dawnless,game,2,1,1
@@ -4079,7 +4124,6 @@ month,item_title,category,count,editor_count,user_count
 2026-02,Pakt der Wölfe,film_series,1,1,0
 2026-02,Scream 5,film_series,1,1,0
 2026-02,Scream 7,film_series,5,2,3
-2026-02,Yakuza Kiwami 3 & Dark Ties,game,1,1,0
 2026-02,Suda 51,game,1,1,0
 2026-02,Romeo is a Dead Man,game,3,1,2
 2026-02,Resident Evil,game,1,1,0
@@ -4150,7 +4194,6 @@ month,item_title,category,count,editor_count,user_count
 2026-02,Clair-Obscur Soundtrack,misc,1,0,1
 2026-02,Cylia Journey,game,1,0,1
 2026-02,Lost Judgment,game,1,0,1
-2026-02,Yakuza Kiwami 3,game,2,0,2
 2026-02,Stalker 2,game,1,0,1
 2026-02,Trails in the Sky 1st Chapter,game,1,0,1
 2026-02,Shadow Warrior 3,game,1,0,1
