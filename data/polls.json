@@ -1,1 +1,2666 @@
-[]
+[
+  {
+    "date": null,
+    "title": "",
+    "votes": 0,
+    "url": "/news/327599/sonntagsfrage-ego-sicht-oder-third-person-was-findet-ihr-besser-in-resident-evil-ergebni"
+  },
+  {
+    "date": null,
+    "title": "",
+    "votes": 0,
+    "url": "/news/200015/sonntagsfrage-wie-originalgetreu-sollte-ein-remake-sein-ergebnis"
+  },
+  {
+    "date": "2014-10-12",
+    "title": "Sonntagsfrage: Welches Wertungssystem wünscht ihr euch?",
+    "votes": 818,
+    "url": "/news/91949/sonntagsfrage-welches-wertungssystem-wuenscht-ihr-euch"
+  },
+  {
+    "date": "2015-01-25",
+    "title": "Sonntagsfrage: Release-Verschiebungen finde ich... [Ergebnis]",
+    "votes": 600,
+    "url": "/news/94924/sonntagsfrage-release-verschiebungen-finde-ich-ergebnis"
+  },
+  {
+    "date": "2015-02-01",
+    "title": "Sonntagsfrage: Was haltet ihr von Releases im Episodenformat?",
+    "votes": 493,
+    "url": "/news/95197/sonntagsfrage-was-haltet-ihr-von-releases-im-episodenformat"
+  },
+  {
+    "date": "2015-02-08",
+    "title": "Sonntagsfrage: Wie steht ihr zu Exklusiv-Deals à la Tomb Raider?",
+    "votes": 571,
+    "url": "/news/95410/sonntagsfrage-wie-steht-ihr-zu-exklusiv-deals-a-la-tomb-raider"
+  },
+  {
+    "date": "2015-02-15",
+    "title": "Sonntagsfrage: Wie seht ihr Mikrotransaktionen in Spielen?",
+    "votes": 645,
+    "url": "/news/95631/sonntagsfrage-wie-seht-ihr-mikrotransaktionen-in-spielen"
+  },
+  {
+    "date": "2015-02-22",
+    "title": "Sonntagsfrage: War das RPS-Interview mit Molyneux zu hart?",
+    "votes": 524,
+    "url": "/news/96017/sonntagsfrage-war-das-rps-interview-mit-molyneux-zu-hart"
+  },
+  {
+    "date": "2015-03-01",
+    "title": "Sonntagsfrage: Mehr Indie-Tests auf GamersGlobal.de?",
+    "votes": 548,
+    "url": "/news/96457/sonntagsfrage-mehr-indie-tests-auf-gamersglobalde"
+  },
+  {
+    "date": "2015-03-08",
+    "title": "Sonntagsfrage: Wie wichtig ist euch deutsche Sprachausgabe?",
+    "votes": 879,
+    "url": "/news/96695/sonntagsfrage-wie-wichtig-ist-euch-deutsche-sprachausgabe"
+  },
+  {
+    "date": "2015-03-22",
+    "title": "Sonntagsfrage: Wie schwer dürfen Spiele für euch sein?",
+    "votes": 766,
+    "url": "/news/97413/sonntagsfrage-wie-schwer-duerfen-spiele-fuer-euch-sein"
+  },
+  {
+    "date": "2015-04-12",
+    "title": "Sonntagsfrage: Wie steht ihr zu Gewalt in Spielen?",
+    "votes": 689,
+    "url": "/news/98509/sonntagsfrage-wie-steht-ihr-zu-gewalt-in-spielen"
+  },
+  {
+    "date": "2015-04-19",
+    "title": "Sonntagsfrage: Valves Download-Plattform Steam ist für mich...",
+    "votes": 807,
+    "url": "/news/99060/sonntagsfrage-valves-download-plattform-steam-ist-fuer-mich"
+  },
+  {
+    "date": "2015-05-03",
+    "title": "Sonntagsfrage: Wie lang müssen Spiele für euch sein?",
+    "votes": 570,
+    "url": "/news/99358/sonntagsfrage-wie-lang-muessen-spiele-fuer-euch-sein"
+  },
+  {
+    "date": "2015-05-10",
+    "title": "Sonntagsfrage: Besitzt ihr Peripherie für PC / Konsole?",
+    "votes": 574,
+    "url": "/news/99835/sonntagsfrage-besitzt-ihr-peripherie-fuer-pc-konsole"
+  },
+  {
+    "date": "2015-05-17",
+    "title": "Sonntagsfrage: Wie seht ihr den \"Grafik-Downgrade\" bei TW3?",
+    "votes": 747,
+    "url": "/news/100059/sonntagsfrage-wie-seht-ihr-den-grafik-downgrade-bei-tw3"
+  },
+  {
+    "date": "2015-05-24",
+    "title": "Die Sonntagsfrage: Was haltet ihr von Pixelgrafik?",
+    "votes": 776,
+    "url": "/news/100288/die-sonntagsfrage-was-haltet-ihr-von-pixelgrafik"
+  },
+  {
+    "date": "2015-05-31",
+    "title": "Sonntagsfrage: Was ist besser: Dragon Age oder The Witcher 3?",
+    "votes": 828,
+    "url": "/news/100509/sonntagsfrage-was-ist-besser-dragon-age-oder-the-witcher-3"
+  },
+  {
+    "date": "2015-06-07",
+    "title": "Sonntagsfrage: Der Trailer zu Fallout 4 ...",
+    "votes": 612,
+    "url": "/news/100753/sonntagsfrage-der-trailer-zu-fallout-4"
+  },
+  {
+    "date": "2015-06-21",
+    "title": "Sonntagsfrage: Wie fandet ihr die E3 2015?",
+    "votes": 518,
+    "url": "/news/101855/sonntagsfrage-wie-fandet-ihr-die-e3-2015"
+  },
+  {
+    "date": "2015-06-28",
+    "title": "Sonntagsfrage: Spiele zum Vollpreis kaufe ich ... [Ergebnis]",
+    "votes": 954,
+    "url": "/news/102154/sonntagsfrage-spiele-zum-vollpreis-kaufe-ich-ergebnis"
+  },
+  {
+    "date": "2015-07-05",
+    "title": "Sonntagsfrage: Was haltet ihr von Piranha Bytes' RPG Elex?",
+    "votes": 575,
+    "url": "/news/102406/sonntagsfrage-was-haltet-ihr-von-piranha-bytes-rpg-elex"
+  },
+  {
+    "date": "2015-07-12",
+    "title": "Sonntagsfrage: Ist Star Citizen überhaupt machbar? [Ergebnis]",
+    "votes": 652,
+    "url": "/news/102629/sonntagsfrage-ist-star-citizen-ueberhaupt-machbar-ergebnis"
+  },
+  {
+    "date": "2015-07-19",
+    "title": "Sonntagsfrage: Im Sommer spiele ich ...",
+    "votes": 497,
+    "url": "/news/102703/sonntagsfrage-im-sommer-spiele-ich"
+  },
+  {
+    "date": "2015-08-02",
+    "title": "Sonntagsfrage: Besucht ihr dieses Jahr die Gamescom? [Ergebnis]",
+    "votes": 530,
+    "url": "/news/103754/sonntagsfrage-besucht-ihr-dieses-jahr-die-gamescom-ergebnis"
+  },
+  {
+    "date": "2015-08-16",
+    "title": "Sonntagsfrage: Was haltet ihr von HD-Remakes?",
+    "votes": 606,
+    "url": "/news/104313/sonntagsfrage-was-haltet-ihr-von-hd-remakes"
+  },
+  {
+    "date": "2015-08-30",
+    "title": "Sonntagsfrage: Wie seht ihr die Zukunft von VR?",
+    "votes": 518,
+    "url": "/news/104641/sonntagsfrage-wie-seht-ihr-die-zukunft-von-vr"
+  },
+  {
+    "date": "2015-09-06",
+    "title": "Sonntagsfrage: Soll Ron Gilbert ein neues Monkey Island machen?",
+    "votes": 593,
+    "url": "/news/104836/sonntagsfrage-soll-ron-gilbert-ein-neues-monkey-island-machen"
+  },
+  {
+    "date": "2015-09-13",
+    "title": "Sonntagsfrage: Die PC-Boxversion von MGS5 muss komplett runtergeladen werden. Wie steht ihr dazu?",
+    "votes": 745,
+    "url": "/news/104953/sonntagsfrage-die-pc-boxversion-von-mgs5-muss-komplett-runtergeladen-werden-wie-steht-ih"
+  },
+  {
+    "date": "2015-09-20",
+    "title": "Sonntagsfrage: Zu welcher \"toten\" Spieleserie wünscht ihr euch eine Fortsetzung?",
+    "votes": 985,
+    "url": "/news/105248/sonntagsfrage-zu-welcher-toten-spieleserie-wuenscht-ihr-euch-eine-fortsetzung"
+  },
+  {
+    "date": "2015-09-27",
+    "title": "Sonntagsfrage: Für einen Tag ein Videospiel-Held, welcher wärt ihr?",
+    "votes": 441,
+    "url": "/news/105471/sonntagsfrage-fuer-einen-tag-ein-videospiel-held-welcher-waert-ihr"
+  },
+  {
+    "date": "2015-10-04",
+    "title": "Sonntagsfrage: Was haltet ihr von Achievements/Erfolgen in Spielen?",
+    "votes": 659,
+    "url": "/news/105826/sonntagsfrage-was-haltet-ihr-von-achievementserfolgen-in-spielen"
+  },
+  {
+    "date": "2015-10-11",
+    "title": "Sonntagsfrage: Welcher ist euer liebster Teil von Assassin's Creed?",
+    "votes": 665,
+    "url": "/news/106050/sonntagsfrage-welcher-ist-euer-liebster-teil-von-assassins-creed"
+  },
+  {
+    "date": "2015-10-25",
+    "title": "Sonntagsfrage: Was ist euch wichtiger – Solomodus oder Multiplayer? [Ergebnis]",
+    "votes": 701,
+    "url": "/news/106398/sonntagsfrage-was-ist-euch-wichtiger-solomodus-oder-multiplayer-ergebnis"
+  },
+  {
+    "date": "2015-11-01",
+    "title": "Sonntagsfrage: Welcher Fallout-Teil ist euer persönlicher Favorit? [Ergebnis]",
+    "votes": 676,
+    "url": "/news/106681/sonntagsfrage-welcher-fallout-teil-ist-euer-persoenlicher-favorit-ergebnis"
+  },
+  {
+    "date": "2015-11-08",
+    "title": "Sonntagsfrage: Spielt ihr Free-to-play-Spiele? [Ergebnis]",
+    "votes": 668,
+    "url": "/news/106971/sonntagsfrage-spielt-ihr-free-to-play-spiele-ergebnis"
+  },
+  {
+    "date": "2015-11-15",
+    "title": "Sonntagsfrage: Kauft ihr Spiele eher physisch oder rein digital? [Ergebnis]",
+    "votes": 855,
+    "url": "/news/107119/sonntagsfrage-kauft-ihr-spiele-eher-physisch-oder-rein-digital-ergebnis"
+  },
+  {
+    "date": "2015-11-22",
+    "title": "Sonntagsfrage: Wie viele Games spielt ihr pro Jahr? [Ergebnis]",
+    "votes": 582,
+    "url": "/news/107276/sonntagsfrage-wie-viele-games-spielt-ihr-pro-jahr-ergebnis"
+  },
+  {
+    "date": "2015-11-29",
+    "title": "Sonntagsfrage: Was haltet ihr von Star Wars - Battlefront? [Ergebnis]",
+    "votes": 693,
+    "url": "/news/107526/sonntagsfrage-was-haltet-ihr-von-star-wars-battlefront-ergebnis"
+  },
+  {
+    "date": "2015-12-06",
+    "title": "Sonntagsfrage: Wer ist der genialste Spielemacher aller Zeiten? [Ergebnis]",
+    "votes": 781,
+    "url": "/news/107762/sonntagsfrage-wer-ist-der-genialste-spielemacher-aller-zeiten-ergebnis"
+  },
+  {
+    "date": "2015-12-13",
+    "title": "Sonntagsfrage: Was haltet ihr vom Crowdfunding? [Ergebnis]",
+    "votes": 545,
+    "url": "/news/107932/sonntagsfrage-was-haltet-ihr-vom-crowdfunding-ergebnis"
+  },
+  {
+    "date": "2015-12-27",
+    "title": "Sonntagsfrage: Wie fandet ihr das Spielejahr 2015?",
+    "votes": 542,
+    "url": "/news/107902/sonntagsfrage-wie-fandet-ihr-das-spielejahr-2015"
+  },
+  {
+    "date": "2016-01-10",
+    "title": "Sonntagsfrage: Das Virtual-Reality-Jahr hat begonnen! (Ergebnis)",
+    "votes": 602,
+    "url": "/news/108621/sonntagsfrage-das-virtual-reality-jahr-hat-begonnen-ergebnis"
+  },
+  {
+    "date": "2016-01-31",
+    "title": "Sonntagsfrage: Was ist euer bevorzugtes Spielegenre? [Ergebnis]",
+    "votes": 653,
+    "url": "/news/109188/sonntagsfrage-was-ist-euer-bevorzugtes-spielegenre-ergebnis"
+  },
+  {
+    "date": "2016-02-14",
+    "title": "Sonntagsfrage: Welcher Gaming-Begriff hängt euch am meisten zum Hals raus? [Ergebnis]",
+    "votes": 821,
+    "url": "/news/109751/sonntagsfrage-welcher-gaming-begriff-haengt-euch-am-meisten-zum-hals-raus-ergebnis"
+  },
+  {
+    "date": "2016-02-21",
+    "title": "Sonntagsfrage: Wie viel Geld ist euch die Anschaffung einer VR-Brille maximal wert? [Ergebnis]",
+    "votes": 759,
+    "url": "/news/109875/sonntagsfrage-wie-viel-geld-ist-euch-die-anschaffung-einer-vr-brille-maximal-wert-ergebn"
+  },
+  {
+    "date": "2016-02-28",
+    "title": "Sonntagsfrage: Muss die USK strenger bei der Alterskennzeichnung sein? [Ergebnis]",
+    "votes": 524,
+    "url": "/news/110353/sonntagsfrage-muss-die-usk-strenger-bei-der-alterskennzeichnung-sein-ergebnis"
+  },
+  {
+    "date": "2016-03-06",
+    "title": "Sonntagsfrage: Was haltet ihr von Let's Plays? [Ergebnis]",
+    "votes": 821,
+    "url": "/news/110612/sonntagsfrage-was-haltet-ihr-von-lets-plays-ergebnis"
+  },
+  {
+    "date": "2016-03-13",
+    "title": "Sonntagsfrage: Wie viel Zeit darf zwischen Spiele-Ankündigung und Release liegen? [Ergebnis]",
+    "votes": 566,
+    "url": "/news/110973/sonntagsfrage-wie-viel-zeit-darf-zwischen-spiele-ankuendigung-und-release-liegen-ergebni"
+  },
+  {
+    "date": "2016-03-20",
+    "title": "Sonntagsfrage: Welcher MMO-Shooter ist der bessere, Destiny oder The Division? [Ergebnis]",
+    "votes": 592,
+    "url": "/news/111239/sonntagsfrage-welcher-mmo-shooter-ist-der-bessere-destiny-oder-the-division-ergebnis"
+  },
+  {
+    "date": "2016-04-03",
+    "title": "Sonntagsfrage: Doppelte Spielzeit bei der Stunde der Kritiker ... [Ergebnis]",
+    "votes": 455,
+    "url": "/news/111461/sonntagsfrage-doppelte-spielzeit-bei-der-stunde-der-kritiker-ergebnis"
+  },
+  {
+    "date": "2016-04-10",
+    "title": "Sonntagsfrage: Welcher Spielekomponist ist euer Favorit? [Ergebnis]",
+    "votes": 494,
+    "url": "/news/111912/sonntagsfrage-welcher-spielekomponist-ist-euer-favorit-ergebnis"
+  },
+  {
+    "date": "2016-04-24",
+    "title": "Sonntagsfrage: In Rollenspielen mit Charakter-Editor wähle ich ... [Ergebnis]",
+    "votes": 721,
+    "url": "/news/112553/sonntagsfrage-in-rollenspielen-mit-charakter-editor-waehle-ich-ergebnis"
+  },
+  {
+    "date": "2016-05-01",
+    "title": "Sonntagsfrage: Wie wichtig ist euch die Grafik in Spielen? [Ergebnis]",
+    "votes": 633,
+    "url": "/news/113324/sonntagsfrage-wie-wichtig-ist-euch-die-grafik-in-spielen-ergebnis"
+  },
+  {
+    "date": "2016-05-08",
+    "title": "Sonntagsfrage: Was haltet ihr von Nintendos NX? [Ergebnis]",
+    "votes": 610,
+    "url": "/news/113561/sonntagsfrage-was-haltet-ihr-von-nintendos-nx-ergebnis"
+  },
+  {
+    "date": "2016-05-15",
+    "title": "Sonntagsfrage: Battlefield 1 spielt im Ersten Weltkrieg, das ...",
+    "votes": 0,
+    "url": "/news/113686/sonntagsfrage-battlefield-1-spielt-im-ersten-weltkrieg-das"
+  },
+  {
+    "date": "2016-05-22",
+    "title": "Sonntagsfrage: Was ist euch lieber, Videos oder geschriebene Artikel? [Ergebnis]",
+    "votes": 624,
+    "url": "/news/113562/sonntagsfrage-was-ist-euch-lieber-videos-oder-geschriebene-artikel-ergebnis"
+  },
+  {
+    "date": "2016-05-29",
+    "title": "Sonntagsfrage: Welchen Schauplatz wollt ihr im nächsten Assassin's Creed? [Ergebnis]",
+    "votes": 520,
+    "url": "/news/113710/sonntagsfrage-welchen-schauplatz-wollt-ihr-im-naechsten-assassins-creed-ergebnis"
+  },
+  {
+    "date": "2016-06-05",
+    "title": "Sonntagsfrage: Wie weit kommt Deutschland bei der Fußball-Europameisterschaft? [Ergebnis]",
+    "votes": 409,
+    "url": "/news/113678/sonntagsfrage-wie-weit-kommt-deutschland-bei-der-fussball-europameisterschaft-ergebnis"
+  },
+  {
+    "date": "2016-06-12",
+    "title": "Sonntagsfrage: Auf welches Spiel auf der E3 2016 freut ihr euch am meisten? [Ergebnis]",
+    "votes": 526,
+    "url": "/news/113682/sonntagsfrage-auf-welches-spiel-auf-der-e3-2016-freut-ihr-euch-am-meisten-ergebnis"
+  },
+  {
+    "date": "2016-06-19",
+    "title": "Sonntagsfrage: Was war euer Highlight der E3 2016? [beendet]",
+    "votes": 609,
+    "url": "/news/115286/sonntagsfrage-was-war-euer-highlight-der-e3-2016-beendet"
+  },
+  {
+    "date": "2016-06-26",
+    "title": "Sonntagsfrage: Welche VR-Brille schafft ihr euch an? [Ergebnis]",
+    "votes": 815,
+    "url": "/news/115472/sonntagsfrage-welche-vr-brille-schafft-ihr-euch-an-ergebnis"
+  },
+  {
+    "date": "2016-07-03",
+    "title": "Sonntagsfrage: Project Scorpio – Verzweifelter letzter Versuch oder Rückkehr zum Erfolg? [Ergebnis]",
+    "votes": 513,
+    "url": "/news/115717/sonntagsfrage-project-scorpio-verzweifelter-letzter-versuch-oder-rueckkehr-zum-erfolg-er"
+  },
+  {
+    "date": "2016-07-10",
+    "title": "Sonntagsfrage: Auf welches Spiel im zweiten Halbjahr 2016 freut ihr euch am meisten? [Ergebnis]",
+    "votes": 581,
+    "url": "/news/116233/sonntagsfrage-auf-welches-spiel-im-zweiten-halbjahr-2016-freut-ihr-euch-am-meisten-ergeb"
+  },
+  {
+    "date": "2016-07-17",
+    "title": "Sonntagsfrage: Sonntagsfrage: Wie steht ihr zu Pokémon Go? [Ergebnis]",
+    "votes": 850,
+    "url": "/news/116923/sonntagsfrage-sonntagsfrage-wie-steht-ihr-zu-pokemon-go-ergebnis"
+  },
+  {
+    "date": "2016-07-24",
+    "title": "Sonntagsfrage: Spielt ihr klassische Adventures? [Ergebnis]",
+    "votes": 696,
+    "url": "/news/117099/sonntagsfrage-spielt-ihr-klassische-adventures-ergebnis"
+  },
+  {
+    "date": "2016-07-31",
+    "title": "Sonntagsfrage: Wie steht ihr zum Thema \"Killerspiele\"? [Ergebnis]",
+    "votes": 659,
+    "url": "/news/117494/sonntagsfrage-wie-steht-ihr-zum-thema-killerspiele-ergebnis"
+  },
+  {
+    "date": "2016-08-07",
+    "title": "Sonntagsfrage: Besucht ihr die gamescom 2016? [Ergebnis]",
+    "votes": 468,
+    "url": "/news/116501/sonntagsfrage-besucht-ihr-die-gamescom-2016-ergebnis"
+  },
+  {
+    "date": "2016-08-14",
+    "title": "Sonntagsfrage: Was haltet ihr von No Man's Sky? [Ergebnis]",
+    "votes": 1016,
+    "url": "/news/117493/sonntagsfrage-was-haltet-ihr-von-no-mans-sky-ergebnis"
+  },
+  {
+    "date": "2016-08-21",
+    "title": "GC2016: Sonntagsfrage: Euer Highlight der gamescom 2016 [Ergebnis]",
+    "votes": 395,
+    "url": "/news/118727/gc2016-sonntagsfrage-euer-highlight-der-gamescom-2016-ergebnis"
+  },
+  {
+    "date": "2016-08-28",
+    "title": "Sonntagsfrage: Deus Ex - Mankind Divided ist... [Ergebnis]",
+    "votes": 567,
+    "url": "/news/119203/sonntagsfrage-deus-ex-mankind-divided-ist-ergebnis"
+  },
+  {
+    "date": "2016-09-04",
+    "title": "Sonntagsfrage: Welches RPG von Piranha Bytes ist euer liebstes? [Ergebnis]",
+    "votes": 661,
+    "url": "/news/117492/sonntagsfrage-welches-rpg-von-piranha-bytes-ist-euer-liebstes-ergebnis"
+  },
+  {
+    "date": "2016-09-11",
+    "title": "Sonntagsfrage: Auf welches Spiel/ Hardware freut ihr euch im Oktober 2016 am meisten? [Ergebnis]",
+    "votes": 535,
+    "url": "/news/119929/sonntagsfrage-auf-welches-spiel-hardware-freut-ihr-euch-im-oktober-2016-am-meisten-ergeb"
+  },
+  {
+    "date": "2016-09-18",
+    "title": "Sonntagsfrage: Zu welchem Spiel im 4. Quartal möchtet ihr ein GG-Let's-Play? [Ergebnis]",
+    "votes": 471,
+    "url": "/news/119864/sonntagsfrage-zu-welchem-spiel-im-4-quartal-moechtet-ihr-ein-gg-lets-play-ergebnis"
+  },
+  {
+    "date": "2016-09-25",
+    "title": "Sonntagsfrage: Sind die Telltale-Adventures überhaupt richtige Spiele? [Ergebnis]",
+    "votes": 554,
+    "url": "/news/120305/sonntagsfrage-sind-die-telltale-adventures-ueberhaupt-richtige-spiele-ergebnis"
+  },
+  {
+    "date": "2016-10-02",
+    "title": "Sonntagsfrage: Spoiler sind... [Ergebnis]",
+    "votes": 565,
+    "url": "/news/120772/sonntagsfrage-spoiler-sind-ergebnis"
+  },
+  {
+    "date": "2016-10-16",
+    "title": "Sonntagsfrage: Wie findet ihr Mafia 3? [Ergebnis]",
+    "votes": 639,
+    "url": "/news/120951/sonntagsfrage-wie-findet-ihr-mafia-3-ergebnis"
+  },
+  {
+    "date": "2016-10-23",
+    "title": "Sonntagsfrage: Reizt euch die Anschaffung der Nintendo Switch? [Ergebnis]",
+    "votes": 942,
+    "url": "/news/121697/sonntagsfrage-reizt-euch-die-anschaffung-der-nintendo-switch-ergebnis"
+  },
+  {
+    "date": "2016-10-30",
+    "title": "Sonntagsfrage: Welcher PSVR-Titel ist euer liebster? [Ergebnis]",
+    "votes": 498,
+    "url": "/news/121419/sonntagsfrage-welcher-psvr-titel-ist-euer-liebster-ergebnis"
+  },
+  {
+    "date": "2016-11-06",
+    "title": "Sonntagsfrage: Worauf würdet ihr eher verzichten, Indie oder Triple-A? [Ergebnis]",
+    "votes": 748,
+    "url": "/news/121830/sonntagsfrage-worauf-wuerdet-ihr-eher-verzichten-indie-oder-triple-a-ergebnis"
+  },
+  {
+    "date": "2016-11-13",
+    "title": "Sonntagsfrage: Was haltet ihr von Dishonored 2? [Ergebnis]",
+    "votes": 639,
+    "url": "/news/121839/sonntagsfrage-was-haltet-ihr-von-dishonored-2-ergebnis"
+  },
+  {
+    "date": "2016-11-20",
+    "title": "Sonntagsfrage: Wie findet ihr Watch Dogs 2? [Ergebnis]",
+    "votes": 494,
+    "url": "/news/122965/sonntagsfrage-wie-findet-ihr-watch-dogs-2-ergebnis"
+  },
+  {
+    "date": "2016-11-27",
+    "title": "Sonntagsfrage: Was ist besser: Pillars of Eternity oder Tyranny? [Ergebnis]",
+    "votes": 637,
+    "url": "/news/123240/sonntagsfrage-was-ist-besser-pillars-of-eternity-oder-tyranny-ergebnis"
+  },
+  {
+    "date": "2016-12-04",
+    "title": "Sonntagsfrage: Hat PlayStation VR bislang eure Erwartungen erfüllt? [Ergebnis]",
+    "votes": 626,
+    "url": "/news/123289/sonntagsfrage-hat-playstation-vr-bislang-eure-erwartungen-erfuellt-ergebnis"
+  },
+  {
+    "date": "2016-12-11",
+    "title": "Sonntagsfrage: Welche Spielwelt würdet ihr gerne mal in VR erkunden? [Ergebnis]",
+    "votes": 546,
+    "url": "/news/123492/sonntagsfrage-welche-spielwelt-wuerdet-ihr-gerne-mal-in-vr-erkunden-ergebnis"
+  },
+  {
+    "date": "2016-12-18",
+    "title": "Sonntagsfrage: Habt ihr bereits ein 4K-TV oder entsprechenden Bildschirm? [Ergebnis]",
+    "votes": 808,
+    "url": "/news/123494/sonntagsfrage-habt-ihr-bereits-ein-4k-tv-oder-entsprechenden-bildschirm-ergebnis"
+  },
+  {
+    "date": "2016-12-24",
+    "title": "Sonntagsfrage: Wie nutzt ihr Feiertage – verreisen, lesen, spielen, ...?",
+    "votes": 594,
+    "url": "/news/124048/sonntagsfrage-wie-nutzt-ihr-feiertage-verreisen-lesen-spielen"
+  },
+  {
+    "date": "2017-01-01",
+    "title": "Sonntagsfrage: Wie fandet ihr das Spielejahr 2016?",
+    "votes": 817,
+    "url": "/news/123604/sonntagsfrage-wie-fandet-ihr-das-spielejahr-2016"
+  },
+  {
+    "date": "2017-01-08",
+    "title": "Sonntagsfrage: Auf welches Spiel freut ihr euch 2017 am meisten? [Ergebnis]",
+    "votes": 796,
+    "url": "/news/123365/sonntagsfrage-auf-welches-spiel-freut-ihr-euch-2017-am-meisten-ergebnis"
+  },
+  {
+    "date": "2017-02-05",
+    "title": "Sonntagsfrage: Auf welcher Plattform spielt ihr am meisten? [Ergebnis]",
+    "votes": 951,
+    "url": "/news/125805/sonntagsfrage-auf-welcher-plattform-spielt-ihr-am-meisten-ergebnis"
+  },
+  {
+    "date": "2017-02-12",
+    "title": "Sonntagsfrage: Wie gefällt euch Resident Evil 7? [beendet]",
+    "votes": 598,
+    "url": "/news/125803/sonntagsfrage-wie-gefaellt-euch-resident-evil-7-beendet"
+  },
+  {
+    "date": "2017-02-19",
+    "title": "Sonntagsfrage: Zu welchem Spiel wünscht ihr euch eine Filmumsetzung? [Ergebnis]",
+    "votes": 586,
+    "url": "/news/126270/sonntagsfrage-zu-welchem-spiel-wuenscht-ihr-euch-eine-filmumsetzung-ergebnis"
+  },
+  {
+    "date": "2017-02-26",
+    "title": "Sonntagsfrage: Kauft ihr die Nintendo Switch? [Ergebnis]",
+    "votes": 1234,
+    "url": "/news/126615/sonntagsfrage-kauft-ihr-die-nintendo-switch-ergebnis"
+  },
+  {
+    "date": "2017-03-05",
+    "title": "Sonntagsfrage: Mass Effect - Andromeda kaufe ich ... [Ergebnis]",
+    "votes": 870,
+    "url": "/news/126905/sonntagsfrage-mass-effect-andromeda-kaufe-ich-ergebnis"
+  },
+  {
+    "date": "2017-03-12",
+    "title": "Sonntagsfrage: Wie wichtig ist euch die Bildrate in Spielen? [Ergebnis]",
+    "votes": 823,
+    "url": "/news/127276/sonntagsfrage-wie-wichtig-ist-euch-die-bildrate-in-spielen-ergebnis"
+  },
+  {
+    "date": "2017-03-19",
+    "title": "Sonntagsfrage: Was haltet ihr von Torment? [Ergebnis]",
+    "votes": 514,
+    "url": "/news/127473/sonntagsfrage-was-haltet-ihr-von-torment-ergebnis"
+  },
+  {
+    "date": "2017-03-26",
+    "title": "Sonntagsfrage: Spieletests sollten ... [Ergebnis]",
+    "votes": 712,
+    "url": "/news/127747/sonntagsfrage-spieletests-sollten-ergebnis"
+  },
+  {
+    "date": "2017-04-02",
+    "title": "Sonntagsfrage: Spieleserien ... [Ergebnis]",
+    "votes": 607,
+    "url": "/news/127835/sonntagsfrage-spieleserien-ergebnis"
+  },
+  {
+    "date": "2017-04-09",
+    "title": "Sonntagsfrage: Welchen Inhalts-Typen auf GG wünscht ihr euch künftig häufiger?",
+    "votes": 628,
+    "url": "/news/128339/sonntagsfrage-welchen-inhalts-typen-auf-gg-wuenscht-ihr-euch-kuenftig-haeufiger"
+  },
+  {
+    "date": "2017-04-23",
+    "title": "Sonntagsfrage: Was haltet ihr von Thimbleweed Park? [Ergebnis]",
+    "votes": 647,
+    "url": "/news/127781/sonntagsfrage-was-haltet-ihr-von-thimbleweed-park-ergebnis"
+  },
+  {
+    "date": "2017-04-30",
+    "title": "Sonntagsfrage: CoD kehrt zum Zweiten Weltkrieg zurück. Was haltet ihr davon?",
+    "votes": 573,
+    "url": "/news/129190/sonntagsfrage-cod-kehrt-zum-zweiten-weltkrieg-zurueck-was-haltet-ihr-davon"
+  },
+  {
+    "date": "2017-05-07",
+    "title": "Sonntagsfrage: Wie nutzt ihr Nintendo Switch überwiegend? [Ergebnis]",
+    "votes": 689,
+    "url": "/news/129320/sonntagsfrage-wie-nutzt-ihr-nintendo-switch-ueberwiegend-ergebnis"
+  },
+  {
+    "date": "2017-05-14",
+    "title": "Sonntagsfrage: Welches war euer Top-Spiel in Q1 2017? [Ergebnis]",
+    "votes": 512,
+    "url": "/news/129674/sonntagsfrage-welches-war-euer-top-spiel-in-q1-2017-ergebnis"
+  },
+  {
+    "date": "2017-05-21",
+    "title": "Sonntagsfrage: DLC-Inhalte kaufe ich ... [Ergebnis]",
+    "votes": 670,
+    "url": "/news/130023/sonntagsfrage-dlc-inhalte-kaufe-ich-ergebnis"
+  },
+  {
+    "date": "2017-05-28",
+    "title": "Sonntagsfrage: Was haltet ihr von Persona 5? [Ergebnis]",
+    "votes": 573,
+    "url": "/news/130380/sonntagsfrage-was-haltet-ihr-von-persona-5-ergebnis"
+  },
+  {
+    "date": "2017-06-04",
+    "title": "Sonntagsfrage: Auf welchen E3-Titel seid ihr am meisten gespannt? [Ergebnis]",
+    "votes": 584,
+    "url": "/news/130378/sonntagsfrage-auf-welchen-e3-titel-seid-ihr-am-meisten-gespannt-ergebnis"
+  },
+  {
+    "date": "2017-06-25",
+    "title": "Sonntagsfrage: Wie fandet ihr Prey? [Ergebnis]",
+    "votes": 504,
+    "url": "/news/131703/sonntagsfrage-wie-fandet-ihr-prey-ergebnis"
+  },
+  {
+    "date": "2017-07-02",
+    "title": "Sonntagsfrage: Reizt euch die Anschaffung einer Xbox One X? [Ergebnis]",
+    "votes": 888,
+    "url": "/news/131910/sonntagsfrage-reizt-euch-die-anschaffung-einer-xbox-one-x-ergebnis"
+  },
+  {
+    "date": "2017-07-09",
+    "title": "Sonntagsfrage: Welchen Klassiker nehmt ihr auf die Insel mit? [beendet]",
+    "votes": 718,
+    "url": "/news/132113/sonntagsfrage-welchen-klassiker-nehmt-ihr-auf-die-insel-mit-beendet"
+  },
+  {
+    "date": "2017-07-16",
+    "title": "Sonntagsfrage: Zu welchem Buch-Bestseller wollt ihr ein Spiel? [Ergebnis]",
+    "votes": 472,
+    "url": "/news/132428/sonntagsfrage-zu-welchem-buch-bestseller-wollt-ihr-ein-spiel-ergebnis"
+  },
+  {
+    "date": "2017-07-23",
+    "title": "Sonntagsfrage: Auf die Spiele welches Publishers würdet ihr nicht verzichten wollen? [Ergebnis]",
+    "votes": 655,
+    "url": "/news/132430/sonntagsfrage-auf-die-spiele-welches-publishers-wuerdet-ihr-nicht-verzichten-wollen-erge"
+  },
+  {
+    "date": "2017-08-06",
+    "title": "Sonntagsfrage: Welcher Teil der GTA-Reihe ist euer liebster? [Ergebnis]",
+    "votes": 683,
+    "url": "/news/133089/sonntagsfrage-welcher-teil-der-gta-reihe-ist-euer-liebster-ergebnis"
+  },
+  {
+    "date": "2017-08-13",
+    "title": "Sonntagsfrage: Wie gut hat euch Outlast 2 gefallen? [Ergebnis]",
+    "votes": 344,
+    "url": "/news/133312/sonntagsfrage-wie-gut-hat-euch-outlast-2-gefallen-ergebnis"
+  },
+  {
+    "date": "2017-08-20",
+    "title": "Sonntagsfrage: Besucht ihr die Gamescom 2017?",
+    "votes": 467,
+    "url": "/news/133314/sonntagsfrage-besucht-ihr-die-gamescom-2017"
+  },
+  {
+    "date": "2017-08-27",
+    "title": "Sonntagsfrage: Was war euer Highlight von der Gamescom 2017? [Ergebnis]",
+    "votes": 503,
+    "url": "/news/133316/sonntagsfrage-was-war-euer-highlight-von-der-gamescom-2017-ergebnis"
+  },
+  {
+    "date": "2017-09-03",
+    "title": "Sonntagsfrage: Wie konsumiert ihr geschriebene Spieletests? [Ergebnis]",
+    "votes": 758,
+    "url": "/news/134201/sonntagsfrage-wie-konsumiert-ihr-geschriebene-spieletests-ergebnis"
+  },
+  {
+    "date": "2017-09-10",
+    "title": "Sonntagsfrage: Geht ihr zur Bundestagswahl 2017? [Ergebnis]",
+    "votes": 778,
+    "url": "/news/134199/sonntagsfrage-geht-ihr-zur-bundestagswahl-2017-ergebnis"
+  },
+  {
+    "date": "2017-09-17",
+    "title": "Sonntagsfrage: Welche aktuelle Konsole ist euer Favorit? [Ergebnis]",
+    "votes": 1117,
+    "url": "/news/134407/sonntagsfrage-welche-aktuelle-konsole-ist-euer-favorit-ergebnis"
+  },
+  {
+    "date": "2017-09-24",
+    "title": "Sonntagsfrage: Wie seht ihr die Zukunft von VR-Geräten? [Ergebnis]",
+    "votes": 565,
+    "url": "/news/134584/sonntagsfrage-wie-seht-ihr-die-zukunft-von-vr-geraeten-ergebnis"
+  },
+  {
+    "date": "2017-10-01",
+    "title": "Sonntagsfrage: 6 Monate Switch – Wie seht ihr die Nintendo-Konsole? [Ergebnis]",
+    "votes": 671,
+    "url": "/news/135258/sonntagsfrage-6-monate-switch-wie-seht-ihr-die-nintendo-konsole-ergebnis"
+  },
+  {
+    "date": "2017-10-08",
+    "title": "Sonntagsfrage: Wie aktiv seid ihr beim Spiele-Crowdfunding? [Ergebnis]",
+    "votes": 709,
+    "url": "/news/135290/sonntagsfrage-wie-aktiv-seid-ihr-beim-spiele-crowdfunding-ergebnis"
+  },
+  {
+    "date": "2017-10-15",
+    "title": "Sonntagsfrage: Welcher war der beste PS4-Exklusivtitel bislang? [Ergebnis]",
+    "votes": 801,
+    "url": "/news/135550/sonntagsfrage-welcher-war-der-beste-ps4-exklusivtitel-bislang-ergebnis"
+  },
+  {
+    "date": "2017-10-22",
+    "title": "Sonntagsfrage: Welcher war der beste Xbox-One-Exklusivtitel bislang? [Ergebnis]",
+    "votes": 543,
+    "url": "/news/135673/sonntagsfrage-welcher-war-der-beste-xbox-one-exklusivtitel-bislang-ergebnis"
+  },
+  {
+    "date": "2017-10-29",
+    "title": "Sonntagsfrage: \"Early Access\"-Phasen nutze ich ...",
+    "votes": 713,
+    "url": "/news/136138/sonntagsfrage-early-access-phasen-nutze-ich"
+  },
+  {
+    "date": "2017-11-12",
+    "title": "Sonntagsfrage: Wie gefällt euch Assassin's Creed Origins? [Ergebnis]",
+    "votes": 765,
+    "url": "/news/137600/sonntagsfrage-wie-gefaellt-euch-assassins-creed-origins-ergebnis"
+  },
+  {
+    "date": "2017-11-19",
+    "title": "Sonntagsfrage: Habt ihr euch eine Xbox One X gegönnt? [Ergebnis]",
+    "votes": 985,
+    "url": "/news/137868/sonntagsfrage-habt-ihr-euch-eine-xbox-one-x-gegoennt-ergebnis"
+  },
+  {
+    "date": "2017-11-26",
+    "title": "Sonntagsfrage: Wie steht ihr zur aktuellen Lootbox-Debatte? [Ergebnis]",
+    "votes": 820,
+    "url": "/news/138113/sonntagsfrage-wie-steht-ihr-zur-aktuellen-lootbox-debatte-ergebnis"
+  },
+  {
+    "date": "2017-12-03",
+    "title": "Sonntagsfrage: Stören euch die Anpassungen in Wolfenstein 2? [Ergebnis]",
+    "votes": 791,
+    "url": "/news/138427/sonntagsfrage-stoeren-euch-die-anpassungen-in-wolfenstein-2-ergebnis"
+  },
+  {
+    "date": "2017-12-10",
+    "title": "Sonntagsfrage: Werdet ihr euch Star Wars - Episode 8 ansehen? [Ergebnis]",
+    "votes": 672,
+    "url": "/news/138697/sonntagsfrage-werdet-ihr-euch-star-wars-episode-8-ansehen-ergebnis"
+  },
+  {
+    "date": "2017-12-17",
+    "title": "Sonntagsfrage: Was haltet ihr von Playerunknown's Battlegrounds? [Ergebnis]",
+    "votes": 635,
+    "url": "/news/138910/sonntagsfrage-was-haltet-ihr-von-playerunknowns-battlegrounds-ergebnis"
+  },
+  {
+    "date": "2018-01-14",
+    "title": "Sonntagsfrage: Euer Spiel des Jahres 2017 [Ergebnis]",
+    "votes": 654,
+    "url": "/news/139608/sonntagsfrage-euer-spiel-des-jahres-2017-ergebnis"
+  },
+  {
+    "date": "2018-01-21",
+    "title": "Sonntagsfrage: Nintendo Labo – Geniestreich oder für die Papiertonne? [Ergebnis]",
+    "votes": 560,
+    "url": "/news/139805/sonntagsfrage-nintendo-labo-geniestreich-oder-fuer-die-papiertonne-ergebnis"
+  },
+  {
+    "date": "2018-01-28",
+    "title": "Sonntagsfrage: Ist der Xbox Game Pass für euch von Interesse? [Ergebnis]",
+    "votes": 552,
+    "url": "/news/140023/sonntagsfrage-ist-der-xbox-game-pass-fuer-euch-von-interesse-ergebnis"
+  },
+  {
+    "date": "2018-02-04",
+    "title": "Sonntagsfrage: Hand aufs Herz – wie hoch ist euer Pile of Shame? [Ergebnis]",
+    "votes": 795,
+    "url": "/news/140251/sonntagsfrage-hand-aufs-herz-wie-hoch-ist-euer-pile-of-shame-ergebnis"
+  },
+  {
+    "date": "2018-02-11",
+    "title": "Sonntagsfrage: Bestellt ihr Spiele vor oder wartet ihr auf Sales? [Ergebnis]",
+    "votes": 804,
+    "url": "/news/140446/sonntagsfrage-bestellt-ihr-spiele-vor-oder-wartet-ihr-auf-sales-ergebnis"
+  },
+  {
+    "date": "2018-02-18",
+    "title": "Sonntagsfrage: Day-1-Patches – Notwendiges Übel oder No-Go? [Ergebnis]",
+    "votes": 576,
+    "url": "/news/140637/sonntagsfrage-day-1-patches-notwendiges-uebel-oder-no-go-ergebnis"
+  },
+  {
+    "date": "2018-02-25",
+    "title": "Sonntagsfrage: Wie gefällt euch Kingdom Come - Deliverance? [Ergebnis]",
+    "votes": 792,
+    "url": "/news/140899/sonntagsfrage-wie-gefaellt-euch-kingdom-come-deliverance-ergebnis"
+  },
+  {
+    "date": "2018-03-04",
+    "title": "Sonntagsfrage: Nutzt ihr euer Smartphone zum Spielen? [Ergebnis]",
+    "votes": 673,
+    "url": "/news/141088/sonntagsfrage-nutzt-ihr-euer-smartphone-zum-spielen-ergebnis"
+  },
+  {
+    "date": "2018-03-11",
+    "title": "Sonntagsfrage: Soll Nintendo den 3DS auslaufen lassen?",
+    "votes": 590,
+    "url": "/news/141299/sonntagsfrage-soll-nintendo-den-3ds-auslaufen-lassen"
+  },
+  {
+    "date": "2018-03-18",
+    "title": "Sonntagsfrage: Kauft ihr Collector's Editions? [Ergebnis]",
+    "votes": 572,
+    "url": "/news/141459/sonntagsfrage-kauft-ihr-collectors-editions-ergebnis"
+  },
+  {
+    "date": "2018-04-08",
+    "title": "Sonntagsfrage: Wie gefällt euch Far Cry 5? [Ergebnis]",
+    "votes": 511,
+    "url": "/news/142383/sonntagsfrage-wie-gefaellt-euch-far-cry-5-ergebnis"
+  },
+  {
+    "date": "2018-04-22",
+    "title": "Sonntagsfrage: Auf welcher Plattform spielt ihr aktuell am liebsten? [Ergebnis]",
+    "votes": 720,
+    "url": "/news/142836/sonntagsfrage-auf-welcher-plattform-spielt-ihr-aktuell-am-liebsten-ergebnis"
+  },
+  {
+    "date": "2018-06-17",
+    "title": "Sonntagsfrage: Welches Spiel war euer Favorit der E3 2018? [Ergebnis]",
+    "votes": 588,
+    "url": "/news/145458/sonntagsfrage-welches-spiel-war-euer-favorit-der-e3-2018-ergebnis"
+  },
+  {
+    "date": "2018-06-24",
+    "title": "Sonntagsfrage: Wie steht ihr zu Battle-Royale-Titeln? [Ergebnis]",
+    "votes": 535,
+    "url": "/news/145635/sonntagsfrage-wie-steht-ihr-zu-battle-royale-titeln-ergebnis"
+  },
+  {
+    "date": "2018-07-01",
+    "title": "Sonntagsfrage: Auf welches Spiel in Q3/2018 freut ihr euch am meisten? [Ergebnis]",
+    "votes": 427,
+    "url": "/news/145735/sonntagsfrage-auf-welches-spiel-in-q32018-freut-ihr-euch-am-meisten-ergebnis"
+  },
+  {
+    "date": "2018-07-08",
+    "title": "Sonntagsfrage: Open-World-Spiele sind... [Ergebnis]",
+    "votes": 507,
+    "url": "/news/146391/sonntagsfrage-open-world-spiele-sind-ergebnis"
+  },
+  {
+    "date": "2018-07-15",
+    "title": "Sonntagsfrage: Was erwartet ihr von Red Dead Redemption 2? [Ergebnis]",
+    "votes": 502,
+    "url": "/news/146657/sonntagsfrage-was-erwartet-ihr-von-red-dead-redemption-2-ergebnis"
+  },
+  {
+    "date": "2018-07-22",
+    "title": "Sonntagsfrage: Haben die VR-Headsets noch eine Chance? [Ergebnis]",
+    "votes": 532,
+    "url": "/news/147150/sonntagsfrage-haben-die-vr-headsets-noch-eine-chance-ergebnis"
+  },
+  {
+    "date": "2018-07-29",
+    "title": "Sonntagsfrage: Wie findet ihr Pillars of Eternity 2 - Deadfire? [Ergebnis]",
+    "votes": 367,
+    "url": "/news/147181/sonntagsfrage-wie-findet-ihr-pillars-of-eternity-2-deadfire-ergebnis"
+  },
+  {
+    "date": "2018-08-05",
+    "title": "Sonntagsfrage: Was ist der bislang beste Switch-Exklusivtitel? [Ergebnis]",
+    "votes": 523,
+    "url": "/news/147701/sonntagsfrage-was-ist-der-bislang-beste-switch-exklusivtitel-ergebnis"
+  },
+  {
+    "date": "2018-08-12",
+    "title": "Sonntagsfrage: Wie findet ihr den neuen Trailer zu Red Dead Redemption 2? [Ergebnis]",
+    "votes": 349,
+    "url": "/news/148047/sonntagsfrage-wie-findet-ihr-den-neuen-trailer-zu-red-dead-redemption-2-ergebnis"
+  },
+  {
+    "date": "2018-08-19",
+    "title": "Sonntagfrage: Besucht ihr die Gamescom 2018? [Ergebnis]",
+    "votes": 389,
+    "url": "/news/147703/sonntagfrage-besucht-ihr-die-gamescom-2018-ergebnis"
+  },
+  {
+    "date": "2018-09-02",
+    "title": "Sonntagsfrage: Was ist euer Highlight von der gamescom 2018? [Ergebnis]",
+    "votes": 397,
+    "url": "/news/149133/sonntagsfrage-was-ist-euer-highlight-von-der-gamescom-2018-ergebnis"
+  },
+  {
+    "date": "2018-09-09",
+    "title": "Sonntagsfrage: Hakenkreuze auch in Spielen in Deutschland, ja oder nein? [Ergebnis]",
+    "votes": 572,
+    "url": "/news/149268/sonntagsfrage-hakenkreuze-auch-in-spielen-in-deutschland-ja-oder-nein-ergebnis"
+  },
+  {
+    "date": "2018-09-23",
+    "title": "Sonntagsfrage: Telltale praktisch am Ende, gut oder schlecht? [Ergebnis]",
+    "votes": 591,
+    "url": "/news/150265/sonntagsfrage-telltale-praktisch-am-ende-gut-oder-schlecht-ergebnis"
+  },
+  {
+    "date": "2018-09-30",
+    "title": "Sonntagsfrage: Welcher Teil von Tomb Raider ist euer Liebling? [Ergebnis]",
+    "votes": 509,
+    "url": "/news/150658/sonntagsfrage-welcher-teil-von-tomb-raider-ist-euer-liebling-ergebnis"
+  },
+  {
+    "date": "2018-10-07",
+    "title": "Sonntagsfrage: Welche Fighting-Game-Reihe mögt ihr am liebsten? [Ergebnis]",
+    "votes": 434,
+    "url": "/news/150794/sonntagsfrage-welche-fighting-game-reihe-moegt-ihr-am-liebsten-ergebnis"
+  },
+  {
+    "date": "2018-10-14",
+    "title": "Sonntagsfrage: Welche Stealth-Actionreihe mögt ihr am liebsten? [Ergebnis]",
+    "votes": 488,
+    "url": "/news/151282/sonntagsfrage-welche-stealth-actionreihe-moegt-ihr-am-liebsten-ergebnis"
+  },
+  {
+    "date": "2018-10-21",
+    "title": "Sonntagsfrage: Welche Spielereihe ist am besten als Film/Serie umgesetzt? [Ergebnis]",
+    "votes": 503,
+    "url": "/news/151746/sonntagsfrage-welche-spielereihe-ist-am-besten-als-filmserie-umgesetzt-ergebnis"
+  },
+  {
+    "date": "2018-10-28",
+    "title": "Sonntagsfrage: Was haltet ihr von Assassin's Creed Odyssey? [Ergebnis]",
+    "votes": 452,
+    "url": "/news/151410/sonntagsfrage-was-haltet-ihr-von-assassins-creed-odyssey-ergebnis"
+  },
+  {
+    "date": "2018-11-04",
+    "title": "Sonntagsfrage: Welcher Teil der Fallout-Reihe ist der beste? [Ergebnis]",
+    "votes": 464,
+    "url": "/news/152112/sonntagsfrage-welcher-teil-der-fallout-reihe-ist-der-beste-ergebnis"
+  },
+  {
+    "date": "2018-11-11",
+    "title": "Sonntagsfrage: Wie steht ihr zum Shitstorm zu Diablo Immortal? [Ergebnis]",
+    "votes": 644,
+    "url": "/news/152447/sonntagsfrage-wie-steht-ihr-zum-shitstorm-zu-diablo-immortal-ergebnis"
+  },
+  {
+    "date": "2018-11-18",
+    "title": "Sonntagsfrage: Wie gefällt euch Red Dead Redemption 2? [Ergebnis]",
+    "votes": 660,
+    "url": "/news/151751/sonntagsfrage-wie-gefaellt-euch-red-dead-redemption-2-ergebnis"
+  },
+  {
+    "date": "2018-11-25",
+    "title": "Sonntagsfrage: Fallout 76 ... [Ergebnis]",
+    "votes": 473,
+    "url": "/news/153094/sonntagsfrage-fallout-76-ergebnis"
+  },
+  {
+    "date": "2018-12-02",
+    "title": "Sonntagsfrage: Welches Wertungssystem ist euch am liebsten? [Ergebnis]",
+    "votes": 587,
+    "url": "/news/152744/sonntagsfrage-welches-wertungssystem-ist-euch-am-liebsten-ergebnis"
+  },
+  {
+    "date": "2018-12-09",
+    "title": "Sonntagsfrage: Was hasst ihr in Spielen am meisten? [Ergebnis]",
+    "votes": 576,
+    "url": "/news/152747/sonntagsfrage-was-hasst-ihr-in-spielen-am-meisten-ergebnis"
+  },
+  {
+    "date": "2018-12-16",
+    "title": "Sonntagfrage: Auf welches Spiel in Q1/2019 freut ihr euch am meisten? [Ergebnis ]",
+    "votes": 499,
+    "url": "/news/153096/sonntagfrage-auf-welches-spiel-in-q12019-freut-ihr-euch-am-meisten-ergebnis"
+  },
+  {
+    "date": "2018-12-23",
+    "title": "Sonntagsfrage: Was macht ihr über Weihnachten primär? [Ergebnis]",
+    "votes": 459,
+    "url": "/news/153773/sonntagsfrage-was-macht-ihr-ueber-weihnachten-primaer-ergebnis"
+  },
+  {
+    "date": "2019-02-10",
+    "title": "Sonntagsfrage: Von welchem Spiel wollt ihr ein echtes Remake?",
+    "votes": 649,
+    "url": "/news/155030/sonntagsfrage-von-welchem-spiel-wollt-ihr-ein-echtes-remake"
+  },
+  {
+    "date": "2019-02-18",
+    "title": "Sonntagsfrage: Wie steht ihr zu Exklusiv-Deals im Epic Games Store? [Ergebnis]",
+    "votes": 560,
+    "url": "/news/155385/sonntagsfrage-wie-steht-ihr-zu-exklusiv-deals-im-epic-games-store-ergebnis"
+  },
+  {
+    "date": "2019-02-24",
+    "title": "Sonntagsfrage: Wie steht ihr zum Weggang von Reggie Fils-Aimé bei Nintendo? [Ergebnis]",
+    "votes": 484,
+    "url": "/news/155637/sonntagsfrage-wie-steht-ihr-zum-weggang-von-reggie-fils-aime-bei-nintendo-ergebnis"
+  },
+  {
+    "date": "2019-03-03",
+    "title": "Sonntagsfrage: Anhaltende Spieleflut schon in Q1/2019 – das ist ... [Ergebnis]",
+    "votes": 443,
+    "url": "/news/155935/sonntagsfrage-anhaltende-spieleflut-schon-in-q12019-das-ist-ergebnis"
+  },
+  {
+    "date": "2019-03-10",
+    "title": "Sonntagsfrage: Streamt ihr selbst Spiele im Netz? [Ergebnis]",
+    "votes": 476,
+    "url": "/news/156232/sonntagsfrage-streamt-ihr-selbst-spiele-im-netz-ergebnis"
+  },
+  {
+    "date": "2019-03-17",
+    "title": "Sonntagsfrage: Welche Spielekonsole war die beste bislang? [Ergebnis]",
+    "votes": 723,
+    "url": "/news/156522/sonntagsfrage-welche-spielekonsole-war-die-beste-bislang-ergebnis"
+  },
+  {
+    "date": "2019-03-25",
+    "title": "Sonntagsfrage: Welcher Souls-Teil war der beste bislang? [Ergebnis]",
+    "votes": 696,
+    "url": "/news/156858/sonntagsfrage-welcher-souls-teil-war-der-beste-bislang-ergebnis"
+  },
+  {
+    "date": "2019-04-07",
+    "title": "Sonntagsfrage: Wie oft nutzt ihr aktuell eure VR-Hardware? [Ergebnis]",
+    "votes": 650,
+    "url": "/news/157388/sonntagsfrage-wie-oft-nutzt-ihr-aktuell-eure-vr-hardware-ergebnis"
+  },
+  {
+    "date": "2019-04-14",
+    "title": "Sonntagsfrage: Nutzt ihr eher männliche oder weibliche Avatare? [Ergebnis]",
+    "votes": 588,
+    "url": "/news/157524/sonntagsfrage-nutzt-ihr-eher-maennliche-oder-weibliche-avatare-ergebnis"
+  },
+  {
+    "date": "2019-04-21",
+    "title": "Sonntagsfrage: Die finale Staffel von Game of Thrones schaue ich ... [Ergebnis]",
+    "votes": 522,
+    "url": "/news/157910/sonntagsfrage-die-finale-staffel-von-game-of-thrones-schaue-ich-ergebnis"
+  },
+  {
+    "date": "2019-04-28",
+    "title": "Sonntagsfrage: Welches Videospieljahrzehnt war das bislang beste? [Ergebnis]",
+    "votes": 603,
+    "url": "/news/158037/sonntagsfrage-welches-videospieljahrzehnt-war-das-bislang-beste-ergebnis"
+  },
+  {
+    "date": "2019-05-05",
+    "title": "Sonntagsfrage: Wie steht ihr zu Sekiro - Shadows Die Twice? [Ergebnis]",
+    "votes": 648,
+    "url": "/news/158172/sonntagsfrage-wie-steht-ihr-zu-sekiro-shadows-die-twice-ergebnis"
+  },
+  {
+    "date": "2019-05-12",
+    "title": "Sonntagsfrage: Welcher männliche Videospielheld ist euer Liebling? [Ergebnis ]",
+    "votes": 630,
+    "url": "/news/158215/sonntagsfrage-welcher-maennliche-videospielheld-ist-euer-liebling-ergebnis"
+  },
+  {
+    "date": "2019-05-19",
+    "title": "Sonntagsfrage: Welcher weibliche Videospielheld ist euer Liebling? [Ergebnis]",
+    "votes": 570,
+    "url": "/news/158828/sonntagsfrage-welcher-weibliche-videospielheld-ist-euer-liebling-ergebnis"
+  },
+  {
+    "date": "2019-05-26",
+    "title": "Sonntagsfrage: Importiert ihr noch Computer- und Videospiele? [Ergebnis]",
+    "votes": 595,
+    "url": "/news/159086/sonntagsfrage-importiert-ihr-noch-computer-und-videospiele-ergebnis"
+  },
+  {
+    "date": "2019-06-02",
+    "title": "Sonntagsfrage: Auf was seid ihr auf der E3 2019 am meisten gespannt? [Ergebnis]",
+    "votes": 440,
+    "url": "/news/159318/sonntagsfrage-auf-was-seid-ihr-auf-der-e3-2019-am-meisten-gespannt-ergebnis"
+  },
+  {
+    "date": "2019-06-09",
+    "title": "Sonntagsfrage: Wieviel darf ein Spiel maximal kosten? [Ergebnis]",
+    "votes": 592,
+    "url": "/news/159138/sonntagsfrage-wieviel-darf-ein-spiel-maximal-kosten-ergebnis"
+  },
+  {
+    "date": "2019-06-30",
+    "title": "Sonntagsfrage: Reizt euch die Anschaffung von Google Stadia? [Ergebnis]",
+    "votes": 674,
+    "url": "/news/160384/sonntagsfrage-reizt-euch-die-anschaffung-von-google-stadia-ergebnis"
+  },
+  {
+    "date": "2019-07-07",
+    "title": "Sonntagsfrage: Zu welcher Spielereihe wünscht ihr euch einen Videorückblick? [Ergebnis]",
+    "votes": 470,
+    "url": "/news/160739/sonntagsfrage-zu-welcher-spielereihe-wuenscht-ihr-euch-einen-videorueckblick-ergebnis"
+  },
+  {
+    "date": "2019-07-14",
+    "title": "Sonntagsfrage: Erwägt ihr den Kauf eines Switch-Lite-Handhelds? [Ergebnis]",
+    "votes": 784,
+    "url": "/news/160996/sonntagsfrage-erwaegt-ihr-den-kauf-eines-switch-lite-handhelds-ergebnis"
+  },
+  {
+    "date": "2019-07-21",
+    "title": "Sonntagsfrage: Besucht ihr die gamescom 2019? [Ergebnis]",
+    "votes": 518,
+    "url": "/news/161270/sonntagsfrage-besucht-ihr-die-gamescom-2019-ergebnis"
+  },
+  {
+    "date": "2019-07-28",
+    "title": "Sonntagsfrage: Welches war das beste Spiel im ersten Halbjahr 2019? [Ergebnis]",
+    "votes": 416,
+    "url": "/news/161555/sonntagsfrage-welches-war-das-beste-spiel-im-ersten-halbjahr-2019-ergebnis"
+  },
+  {
+    "date": "2019-08-04",
+    "title": "Sonntagsfrage: Nutzt ihr HDR in Spielen? [Ergebnis]",
+    "votes": 489,
+    "url": "/news/161862/sonntagsfrage-nutzt-ihr-hdr-in-spielen-ergebnis"
+  },
+  {
+    "date": "2019-08-11",
+    "title": "Sonntagsfrage: Switch-Ports von (fast) allem, gut oder schlecht? [Ergebnis]",
+    "votes": 414,
+    "url": "/news/162151/sonntagsfrage-switch-ports-von-fast-allem-gut-oder-schlecht-ergebnis"
+  },
+  {
+    "date": "2019-08-18",
+    "title": "Sonntagsfrage: Welcher Remedy-Titel ist euer Favorit? [Ergebnis]",
+    "votes": 500,
+    "url": "/news/162422/sonntagsfrage-welcher-remedy-titel-ist-euer-favorit-ergebnis"
+  },
+  {
+    "date": "2019-09-01",
+    "title": "Sonntagsfrage: Ist E-Sport ein „richtiger“ Sport? [Ergebnis]",
+    "votes": 670,
+    "url": "/news/163093/sonntagsfrage-ist-e-sport-ein-richtiger-sport-ergebnis"
+  },
+  {
+    "date": "2019-09-08",
+    "title": "Sonntagsfrage: Welches Borderlands-Spiel ist euer Liebling? [Ergebnis]",
+    "votes": 626,
+    "url": "/news/163385/sonntagsfrage-welches-borderlands-spiel-ist-euer-liebling-ergebnis"
+  },
+  {
+    "date": "2019-09-22",
+    "title": "Sonntagsfrage: Welcher \"Souls-Klon\" war der bislang beste? [Ergebnis]",
+    "votes": 327,
+    "url": "/news/163972/sonntagsfrage-welcher-souls-klon-war-der-bislang-beste-ergebnis"
+  },
+  {
+    "date": "2019-09-29",
+    "title": "Sonntagsfrage: Auf welches Spiel freut ihr euch in Q4/19 am meisten? [Ergebnis]",
+    "votes": 399,
+    "url": "/news/163567/sonntagsfrage-auf-welches-spiel-freut-ihr-euch-in-q419-am-meisten-ergebnis"
+  },
+  {
+    "date": "2019-10-06",
+    "title": "Sonntagsfrage: Welches konsolenexklusive Rockstar-Spiel wollt ihr für PC? [Ergebnis]",
+    "votes": 537,
+    "url": "/news/164621/sonntagsfrage-welches-konsolenexklusive-rockstar-spiel-wollt-ihr-fuer-pc-ergebnis"
+  },
+  {
+    "date": "2019-10-20",
+    "title": "Sonntagsfrage: Auf welcher Plattform spielt ihr aktuell am meisten?",
+    "votes": 686,
+    "url": "/news/165265/sonntagsfrage-auf-welcher-plattform-spielt-ihr-aktuell-am-meisten"
+  },
+  {
+    "date": "2019-10-27",
+    "title": "Sonntagsfrage: Welches Kojima-Spiel ist das bislang beste? [Ergebnis]",
+    "votes": 504,
+    "url": "/news/165636/sonntagsfrage-welches-kojima-spiel-ist-das-bislang-beste-ergebnis"
+  },
+  {
+    "date": "2019-11-10",
+    "title": "Sonntagsfrage: Welche Open-World-Spielreihe ist die beste? [Ergebnis]",
+    "votes": 534,
+    "url": "/news/166372/sonntagsfrage-welche-open-world-spielreihe-ist-die-beste-ergebnis"
+  },
+  {
+    "date": "2019-11-17",
+    "title": "Sonntagsfrage: Deutsche Videospielpreis-Verleihungen ... [Ergebnis]",
+    "votes": 329,
+    "url": "/news/166549/sonntagsfrage-deutsche-videospielpreis-verleihungen-ergebnis"
+  },
+  {
+    "date": "2019-11-24",
+    "title": "Sonntagsfrage: Reizt euch die Witcher-Serie auf Netflix? [Ergebnis]",
+    "votes": 738,
+    "url": "/news/167272/sonntagsfrage-reizt-euch-die-witcher-serie-auf-netflix-ergebnis"
+  },
+  {
+    "date": "2019-12-01",
+    "title": "Sonntagsfrage: Werdet ihr Half-Life - Alyx kaufen? [Ergebnis]",
+    "votes": 597,
+    "url": "/news/167448/sonntagsfrage-werdet-ihr-half-life-alyx-kaufen-ergebnis"
+  },
+  {
+    "date": "2020-02-02",
+    "title": "Sonntagsfrage: Wie steht ihr zu Remastered-Editions von Spielen?",
+    "votes": 460,
+    "url": "/news/170170/sonntagsfrage-wie-steht-ihr-zu-remastered-editions-von-spielen"
+  },
+  {
+    "date": "2020-02-09",
+    "title": "Sonntagsfrage: Hat Daedalic noch eine Zukunft? [beendet]",
+    "votes": 380,
+    "url": "/news/170573/sonntagsfrage-hat-daedalic-noch-eine-zukunft-beendet"
+  },
+  {
+    "date": "2020-02-16",
+    "title": "Sonntagsfrage: Wie steht ihr zu Spielen mit extremer Gewaltdarstellung? [Ergebnis]",
+    "votes": 670,
+    "url": "/news/170986/sonntagsfrage-wie-steht-ihr-zu-spielen-mit-extremer-gewaltdarstellung-ergebnis"
+  },
+  {
+    "date": "2020-02-23",
+    "title": "Sonntagsfrage: Wie steht ihr zum Remake von Gothic? [Ergebnis]",
+    "votes": 554,
+    "url": "/news/171330/sonntagsfrage-wie-steht-ihr-zum-remake-von-gothic-ergebnis"
+  },
+  {
+    "date": "2020-03-01",
+    "title": "Sonntagsfrage: Wie schätzt ihr Baldur's Gate 3 ein? [Ergebnis]",
+    "votes": 659,
+    "url": "/news/171767/sonntagsfrage-wie-schaetzt-ihr-baldurs-gate-3-ein-ergebnis"
+  },
+  {
+    "date": "2020-03-08",
+    "title": "Sonntagsfrage: Welche Freizeitbeschäftigung ist am wenigsten verzichtbar? [Ergebnis]",
+    "votes": 820,
+    "url": "/news/172185/sonntagsfrage-welche-freizeitbeschaeftigung-ist-am-wenigsten-verzichtbar-ergebnis"
+  },
+  {
+    "date": "2020-03-15",
+    "title": "Sonntagsfrage: Werdet ihr die E3 dieses Jahr vermissen? [Ergebnis]",
+    "votes": 545,
+    "url": "/news/172523/sonntagsfrage-werdet-ihr-die-e3-dieses-jahr-vermissen-ergebnis"
+  },
+  {
+    "date": "2020-03-22",
+    "title": "Sonntagsfrage: Welche Next-Gen-Konsole macht euch aktuell mehr an? [Ergebnis]",
+    "votes": 1123,
+    "url": "/news/172784/sonntagsfrage-welche-next-gen-konsole-macht-euch-aktuell-mehr-an-ergebnis"
+  },
+  {
+    "date": "2020-03-29",
+    "title": "Sonntagsfrage: Was wünscht ihr euch für Spiele am meisten? [Ergebnis]",
+    "votes": 0,
+    "url": "/news/173135/sonntagsfrage-was-wuenscht-ihr-euch-fuer-spiele-am-meisten-ergebnis"
+  },
+  {
+    "date": "2020-04-12",
+    "title": "Sonntagsfrage: Nutzt ihr Spieledienst-Abos wie den Game Pass? [Ergebnis]",
+    "votes": 654,
+    "url": "/news/173815/sonntagsfrage-nutzt-ihr-spieledienst-abos-wie-den-game-pass-ergebnis"
+  },
+  {
+    "date": "2020-04-19",
+    "title": "Sonntagsfrage: Spielt ihr in der Corona-Krise mehr oder weniger? [Ergebnis]",
+    "votes": 594,
+    "url": "/news/174152/sonntagsfrage-spielt-ihr-in-der-corona-krise-mehr-oder-weniger-ergebnis"
+  },
+  {
+    "date": "2020-04-26",
+    "title": "Sonntagsfrage: Wie gefällt euch das Remake von Final Fantasy 7? [Ergebnis]",
+    "votes": 791,
+    "url": "/news/174370/sonntagsfrage-wie-gefaellt-euch-das-remake-von-final-fantasy-7-ergebnis"
+  },
+  {
+    "date": "2020-05-03",
+    "title": "Sonntagsfrage: Freut ihr euch auf Assassin's Creed Valhalla? [Ergebnis]",
+    "votes": 504,
+    "url": "/news/174861/sonntagsfrage-freut-ihr-euch-auf-assassins-creed-valhalla-ergebnis"
+  },
+  {
+    "date": "2020-05-10",
+    "title": "Sonntagsfrage: Spielt ihr aktiv einen Battle-Royale-Titel? [Ergebnis]",
+    "votes": 545,
+    "url": "/news/175284/sonntagsfrage-spielt-ihr-aktiv-einen-battle-royale-titel-ergebnis"
+  },
+  {
+    "date": "2020-05-17",
+    "title": "Sonntagsfrage: Freut ihr euch auf das Remake von Mafia? [Ergebnis]",
+    "votes": 490,
+    "url": "/news/175702/sonntagsfrage-freut-ihr-euch-auf-das-remake-von-mafia-ergebnis"
+  },
+  {
+    "date": "2020-05-31",
+    "title": "Sonntagsfrage: Welches Spiel der Arkane Studios ist das bislang beste? [Ergebnis]",
+    "votes": 496,
+    "url": "/news/176467/sonntagsfrage-welches-spiel-der-arkane-studios-ist-das-bislang-beste-ergebnis"
+  },
+  {
+    "date": "2020-06-07",
+    "title": "Sonntagsfrage: Wie stark hängt eure Kaufentscheidung an Wertungen? [Ergebnis]",
+    "votes": 557,
+    "url": "/news/176804/sonntagsfrage-wie-stark-haengt-eure-kaufentscheidung-an-wertungen-ergebnis"
+  },
+  {
+    "date": "2020-06-14",
+    "title": "Sonntagsfrage: Wie gut war Sonys Spielepräsentation zur PS5? [Ergebnis]",
+    "votes": 465,
+    "url": "/news/177044/sonntagsfrage-wie-gut-war-sonys-spielepraesentation-zur-ps5-ergebnis"
+  },
+  {
+    "date": "2020-06-28",
+    "title": "Sonntagsfrage: Auf welches Spiel in Q3 2020 freut ihr euch am meisten? [Ergebnis]",
+    "votes": 0,
+    "url": "/news/178068/sonntagsfrage-auf-welches-spiel-in-q3-2020-freut-ihr-euch-am-meisten-ergebnis"
+  },
+  {
+    "date": "2020-07-05",
+    "title": "Sonntagsfrage: Begrüßt ihr die Rückkehr der Anstoss-Reihe? [Beendet]",
+    "votes": 534,
+    "url": "/news/178317/sonntagsfrage-begruesst-ihr-die-rueckkehr-der-anstoss-reihe-beendet"
+  },
+  {
+    "date": "2020-07-12",
+    "title": "Sonntagsfrage: Welcher deutsche Game-Podcast ist euer liebster? [Ergebnis]",
+    "votes": 683,
+    "url": "/news/178673/sonntagsfrage-welcher-deutsche-game-podcast-ist-euer-liebster-ergebnis"
+  },
+  {
+    "date": "2020-07-19",
+    "title": "Sonntagsfrage: Wie gefällt euch The Last of Us Part 2? [Ergebnis]",
+    "votes": 833,
+    "url": "/news/179151/sonntagsfrage-wie-gefaellt-euch-the-last-of-us-part-2-ergebnis"
+  },
+  {
+    "date": "2020-07-26",
+    "title": "Sonntagsfrage: Wie war das Showcase zur Xbox Series X? [Ergebnis]",
+    "votes": 706,
+    "url": "/news/179684/sonntagsfrage-wie-war-das-showcase-zur-xbox-series-x-ergebnis"
+  },
+  {
+    "date": "2020-08-02",
+    "title": "Sonntagsfrage: Was ist das beste Star-Wars-Spiel bislang? [Ergebnis]",
+    "votes": 766,
+    "url": "/news/180214/sonntagsfrage-was-ist-das-beste-star-wars-spiel-bislang-ergebnis"
+  },
+  {
+    "date": "2020-08-09",
+    "title": "Sonntagsfrage: Zu welcher Serie wünscht ihr euch einen Videorückblick? [Ergebnis]",
+    "votes": 509,
+    "url": "/news/180769/sonntagsfrage-zu-welcher-serie-wuenscht-ihr-euch-einen-videorueckblick-ergebnis"
+  },
+  {
+    "date": "2020-08-16",
+    "title": "Sonntagsfrage: Welches historische Printheft der 80er/90er war euer Hit? [Ergebnis]",
+    "votes": 717,
+    "url": "/news/181348/sonntagsfrage-welches-historische-printheft-der-80er90er-war-euer-hit-ergebnis"
+  },
+  {
+    "date": "2020-08-23",
+    "title": "Sonntagsfrage: Welche GG-Exklusivserie mögt ihr am liebsten? [Ergebnis]",
+    "votes": 466,
+    "url": "/news/181899/sonntagsfrage-welche-gg-exklusivserie-moegt-ihr-am-liebsten-ergebnis"
+  },
+  {
+    "date": "2020-09-06",
+    "title": "Sonntagsfrage: Wie gut gefällt euch Iron Harvest? [Ergebnis]",
+    "votes": 488,
+    "url": "/news/182841/sonntagsfrage-wie-gut-gefaellt-euch-iron-harvest-ergebnis"
+  },
+  {
+    "date": "2020-09-13",
+    "title": "Sonntagsfrage: Welches Spiel im 1. Halbjahr 2020 war das beste? [Ergebnis]",
+    "votes": 460,
+    "url": "/news/183429/sonntagsfrage-welches-spiel-im-1-halbjahr-2020-war-das-beste-ergebnis"
+  },
+  {
+    "date": "2020-11-22",
+    "title": "Sonntagsfrage: Nextgen-Kaufabsicht",
+    "votes": 567,
+    "url": "/news/187604/sonntagsfrage-nextgen-kaufabsicht"
+  },
+  {
+    "date": "2021-03-07",
+    "title": "Sonntagsfrage: Steht ihr auf moderne Spiele nach Oldschool-Machart? [Ergebnis]",
+    "votes": 388,
+    "url": "/news/192515/sonntagsfrage-steht-ihr-auf-moderne-spiele-nach-oldschool-machart-ergebnis"
+  },
+  {
+    "date": "2021-03-14",
+    "title": "Sonntagsfrage: Welche Spiele interessieren euch am meisten bei GG? [Ergebnis]",
+    "votes": 422,
+    "url": "/news/192945/sonntagsfrage-welche-spiele-interessieren-euch-am-meisten-bei-gg-ergebnis"
+  },
+  {
+    "date": "2021-03-21",
+    "title": "Sonntagsfrage: Wer gewinnt das zweite Redi-Rumble? [Ergebnis]",
+    "votes": 246,
+    "url": "/news/193439/sonntagsfrage-wer-gewinnt-das-zweite-redi-rumble-ergebnis"
+  },
+  {
+    "date": "2021-03-28",
+    "title": "Sonntagsfrage: Was wird euer Spiele-Highlight im Q2 2021? [Ergebnis]",
+    "votes": 398,
+    "url": "/news/193920/sonntagsfrage-was-wird-euer-spiele-highlight-im-q2-2021-ergebnis"
+  },
+  {
+    "date": "2021-04-04",
+    "title": "Sonntagsfrage: Welche Social-Media-Plattformen nutzt ihr? [Ergebnis]",
+    "votes": 545,
+    "url": "/news/194305/sonntagsfrage-welche-social-media-plattformen-nutzt-ihr-ergebnis"
+  },
+  {
+    "date": "2021-04-18",
+    "title": "Sonntagsfrage: Reizt euch die zweite Demo von Resident Evil Village? [Ergebnis]",
+    "votes": 335,
+    "url": "/news/195033/sonntagsfrage-reizt-euch-die-zweite-demo-von-resident-evil-village-ergebnis"
+  },
+  {
+    "date": "2021-04-25",
+    "title": "Sonntagsfrage: Kauft ihr Spiele zum Vollpreis? [Ergebnis]",
+    "votes": 886,
+    "url": "/news/195347/sonntagsfrage-kauft-ihr-spiele-zum-vollpreis-ergebnis"
+  },
+  {
+    "date": "2021-05-09",
+    "title": "Sonntagsfrage: Wie wichtig ist euch Wiederspielwert? [Ergebnis]",
+    "votes": 458,
+    "url": "/news/196083/sonntagsfrage-wie-wichtig-ist-euch-wiederspielwert-ergebnis"
+  },
+  {
+    "date": "2021-05-30",
+    "title": "Sonntagsfrage: Wie wichtig ist euch eine deutsche Lokalisation? [Ergebnis]",
+    "votes": 620,
+    "url": "/news/196956/sonntagsfrage-wie-wichtig-ist-euch-eine-deutsche-lokalisation-ergebnis"
+  },
+  {
+    "date": "2021-06-06",
+    "title": "Sonntagsfrage: Worauf freut ihr euch bei der E3 2021 am meisten? [Ergebnis]",
+    "votes": 346,
+    "url": "/news/197287/sonntagsfrage-worauf-freut-ihr-euch-bei-der-e3-2021-am-meisten-ergebnis"
+  },
+  {
+    "date": "2021-06-13",
+    "title": "Sonntagsfrage: Mögt ihr digitalisierte Schauspieler in Spielen? (beendet)",
+    "votes": 353,
+    "url": "/news/197649/sonntagsfrage-moegt-ihr-digitalisierte-schauspieler-in-spielen-beendet"
+  },
+  {
+    "date": "2021-06-20",
+    "title": "Sonntagsfrage: Was war euer Highlight der E3 2021? (Ergebnis)",
+    "votes": 362,
+    "url": "/news/198198/sonntagsfrage-was-war-euer-highlight-der-e3-2021-ergebnis"
+  },
+  {
+    "date": "2021-07-04",
+    "title": "Sonntagsfrage: Was war das beste Spiel im ersten Halbjahr 2021? [Ergebnis]",
+    "votes": 432,
+    "url": "/news/198562/sonntagsfrage-was-war-das-beste-spiel-im-ersten-halbjahr-2021-ergebnis"
+  },
+  {
+    "date": "2021-07-11",
+    "title": "Sonntagsfrage: Ist das OLED-Modell der Switch Top oder Flop? [Ergebnis]",
+    "votes": 479,
+    "url": "/news/199121/sonntagsfrage-ist-das-oled-modell-der-switch-top-oder-flop-ergebnis"
+  },
+  {
+    "date": "2021-07-18",
+    "title": "Sonntagsfrage: Was ist die ideale Länge für einen User-Artikel? [Ergebnis]",
+    "votes": 314,
+    "url": "/news/199100/sonntagsfrage-was-ist-die-ideale-laenge-fuer-einen-user-artikel-ergebnis"
+  },
+  {
+    "date": "2021-08-01",
+    "title": "Sonntagsfrage: Besitzt ihr eine PS5 oder Xbox Series X|S? [Ergebnis]",
+    "votes": 741,
+    "url": "/news/200446/sonntagsfrage-besitzt-ihr-eine-ps5-oder-xbox-series-xs-ergebnis"
+  },
+  {
+    "date": "2021-08-08",
+    "title": "Sonntagsfrage: Story oder Gameplay, was ist euch wichtiger? [Ergebnis]",
+    "votes": 520,
+    "url": "/news/200626/sonntagsfrage-story-oder-gameplay-was-ist-euch-wichtiger-ergebnis"
+  },
+  {
+    "date": "2021-08-15",
+    "title": "Sonntagsfrage: Spielt ihr jedes Spiel durch? [Ergebnis]",
+    "votes": 489,
+    "url": "/news/201466/sonntagsfrage-spielt-ihr-jedes-spiel-durch-ergebnis"
+  },
+  {
+    "date": "2021-08-22",
+    "title": "Sonntagsfrage: Welche VR-Brille besitzt ihr? [Ergebnis]",
+    "votes": 604,
+    "url": "/news/201906/sonntagsfrage-welche-vr-brille-besitzt-ihr-ergebnis"
+  },
+  {
+    "date": "2021-08-29",
+    "title": "Sonntagsfrage: Wie gefiel euch die Gamescom 2021? [Ergebnis]",
+    "votes": 508,
+    "url": "/news/202622/sonntagsfrage-wie-gefiel-euch-die-gamescom-2021-ergebnis"
+  },
+  {
+    "date": "2021-09-05",
+    "title": "Sonntagsfrage: Nischen-Genres, was macht sie aus? [Ergebnis]",
+    "votes": 248,
+    "url": "/news/202972/sonntagsfrage-nischen-genres-was-macht-sie-aus-ergebnis"
+  },
+  {
+    "date": "2021-09-12",
+    "title": "Sonntagsfrage: Wie oft kramt ihr Retro-Titel heraus? [beendet]",
+    "votes": 467,
+    "url": "/news/203395/sonntagsfrage-wie-oft-kramt-ihr-retro-titel-heraus-beendet"
+  },
+  {
+    "date": "2021-09-19",
+    "title": "Sonntagsfrage: Nutzt ihr den Epic Games Store? [Ergebnis]",
+    "votes": 723,
+    "url": "/news/204106/sonntagsfrage-nutzt-ihr-den-epic-games-store-ergebnis"
+  },
+  {
+    "date": "2021-09-26",
+    "title": "Sonntagsfrage: Auf welches Spiel im Q4 2021 freut ihr euch am meisten? [beendet]",
+    "votes": 299,
+    "url": "/news/204526/sonntagsfrage-auf-welches-spiel-im-q4-2021-freut-ihr-euch-am-meisten-beendet"
+  },
+  {
+    "date": "2021-10-10",
+    "title": "Sonntagsfrage: Sollte Elden Ring einen Easy Mode bekommen? [Ergebnis]",
+    "votes": 297,
+    "url": "/news/205662/sonntagsfrage-sollte-elden-ring-einen-easy-mode-bekommen-ergebnis"
+  },
+  {
+    "date": "2021-10-17",
+    "title": "Sonntagsfrage: Wie gefällt euch die neue Startseite von GG? [Ergebnis]",
+    "votes": 427,
+    "url": "/news/204259/sonntagsfrage-wie-gefaellt-euch-die-neue-startseite-von-gg-ergebnis"
+  },
+  {
+    "date": "2021-10-24",
+    "title": "Sonntagsfrage: Nutzt ihr Spiele-Abos? [Ergebnis]",
+    "votes": 465,
+    "url": "/news/206871/sonntagsfrage-nutzt-ihr-spiele-abos-ergebnis"
+  },
+  {
+    "date": "2021-11-02",
+    "title": "Sonntagsfrage: Kauft ihr Spiele im Early Access? [Ergebnis]",
+    "votes": 298,
+    "url": "/news/207414/sonntagsfrage-kauft-ihr-spiele-im-early-access-ergebnis"
+  },
+  {
+    "date": "2021-11-07",
+    "title": "Sonntagsfrage: Was ist euer Lieblingsgenre? [Ergebnis]",
+    "votes": 355,
+    "url": "/news/208234/sonntagsfrage-was-ist-euer-lieblingsgenre-ergebnis"
+  },
+  {
+    "date": "2021-11-14",
+    "title": "Sonntagsfrage: Was ist am besten – GTA 3, Vice City oder San Andreas? [Ergebnis]",
+    "votes": 542,
+    "url": "/news/208713/sonntagsfrage-was-ist-am-besten-gta-3-vice-city-oder-san-andreas-ergebnis"
+  },
+  {
+    "date": "2021-11-21",
+    "title": "Sonntagsfrage: Welches nach 2022 verschobene Spiel wird euer Favorit? [Ergebnis]",
+    "votes": 355,
+    "url": "/news/209218/sonntagsfrage-welches-nach-2022-verschobene-spiel-wird-euer-favorit-ergebnis"
+  },
+  {
+    "date": "2021-11-28",
+    "title": "Sonntagsfrage: Was reizt euch am meisten an Remaster-Fassungen? [Ergebnis]",
+    "votes": 333,
+    "url": "/news/209756/sonntagsfrage-was-reizt-euch-am-meisten-an-remaster-fassungen-ergebnis"
+  },
+  {
+    "date": "2021-12-05",
+    "title": "Sonntagsfrage: Wann habt ihr zuletzt euren Spiele-PC aufgerüstet? [Ergebnis]",
+    "votes": 372,
+    "url": "/news/210221/sonntagsfrage-wann-habt-ihr-zuletzt-euren-spiele-pc-aufgeruestet-ergebnis"
+  },
+  {
+    "date": "2021-12-12",
+    "title": "Sonntagsfrage: Was war die spannendste Ankündigung der Game Awards 21? [Ergebnis]",
+    "votes": 332,
+    "url": "/news/210718/sonntagsfrage-was-war-die-spannendste-ankuendigung-der-game-awards-21-ergebnis"
+  },
+  {
+    "date": "2021-12-19",
+    "title": "Sonntagsfrage: Freut ihr euch auf Staffel 2 von The Witcher? [Ergebnis]",
+    "votes": 314,
+    "url": "/news/211323/sonntagsfrage-freut-ihr-euch-auf-staffel-2-von-the-witcher-ergebnis"
+  },
+  {
+    "date": "2022-01-23",
+    "title": "Sonntagsfrage: Wie steht ihr zur Übernahme von Activision Blizzard? [Ergebnis]",
+    "votes": 416,
+    "url": "/news/213066/sonntagsfrage-wie-steht-ihr-zur-uebernahme-von-activision-blizzard-ergebnis"
+  },
+  {
+    "date": "2022-01-30",
+    "title": "Sonntagsfrage: Welcher Teil von Uncharted ist am besten? [Ergebnis]",
+    "votes": 359,
+    "url": "/news/213537/sonntagsfrage-welcher-teil-von-uncharted-ist-am-besten-ergebnis"
+  },
+  {
+    "date": "2022-02-06",
+    "title": "Sonntagsfrage: Wie groß ist eure physische Spielesammlung? [Ergebnis]",
+    "votes": 377,
+    "url": "/news/214074/sonntagsfrage-wie-gross-ist-eure-physische-spielesammlung-ergebnis"
+  },
+  {
+    "date": "2022-02-13",
+    "title": "Sonntagsfrage: Spürt ihr Open-World-Müdigkeit? [Ergebnis]",
+    "votes": 430,
+    "url": "/news/214528/sonntagsfrage-spuert-ihr-open-world-muedigkeit-ergebnis"
+  },
+  {
+    "date": "2022-02-20",
+    "title": "Sonntagsfrage: Spielt ihr direkt die Nextgen-Fassung von Cyberpunk? [Ergebnis]",
+    "votes": 360,
+    "url": "/news/214968/sonntagsfrage-spielt-ihr-direkt-die-nextgen-fassung-von-cyberpunk-ergebnis"
+  },
+  {
+    "date": "2022-02-27",
+    "title": "Sonntagsfrage: Auf welches Spiel im März freut ihr euch am meisten? [Ergebnis]",
+    "votes": 353,
+    "url": "/news/215417/sonntagsfrage-auf-welches-spiel-im-maerz-freut-ihr-euch-am-meisten-ergebnis"
+  },
+  {
+    "date": "2022-03-07",
+    "title": "Sonntagsfrage: Sollten Politik und Spiele getrennt bleiben? [Ergebnis]",
+    "votes": 339,
+    "url": "/news/215917/sonntagsfrage-sollten-politik-und-spiele-getrennt-bleiben-ergebnis"
+  },
+  {
+    "date": "2022-03-13",
+    "title": "Sonntagsfrage: Werdet ihr euch das Steam Deck holen? [Ergebnis]",
+    "votes": 529,
+    "url": "/news/216613/sonntagsfrage-werdet-ihr-euch-das-steam-deck-holen-ergebnis"
+  },
+  {
+    "date": "2022-03-20",
+    "title": "Sonntagsfrage: Spielt ihr Elden Ring? [Ergebnis]",
+    "votes": 543,
+    "url": "/news/217133/sonntagsfrage-spielt-ihr-elden-ring-ergebnis"
+  },
+  {
+    "date": "2022-03-27",
+    "title": "Sonntagsfrage: Wie häufig spielt ihr ein Spiel mehrfach durch? [Ergebnis]",
+    "votes": 385,
+    "url": "/news/217594/sonntagsfrage-wie-haeufig-spielt-ihr-ein-spiel-mehrfach-durch-ergebnis"
+  },
+  {
+    "date": "2022-04-03",
+    "title": "Sonntagsfrage: Wie lange liegt euer letzter Fehlkauf zurück? [Ergebnis]",
+    "votes": 308,
+    "url": "/news/218028/sonntagsfrage-wie-lange-liegt-euer-letzter-fehlkauf-zurueck-ergebnis"
+  },
+  {
+    "date": "2022-04-10",
+    "title": "Sonntagsfrage: Holt ihr euch den A500 Mini? [Ergebnis]",
+    "votes": 390,
+    "url": "/news/218451/sonntagsfrage-holt-ihr-euch-den-a500-mini-ergebnis"
+  },
+  {
+    "date": "2022-04-17",
+    "title": "Sonntagsfrage: Probiert ihr unbekanntere Titel im Gamepass aus? [Ergebnis]",
+    "votes": 475,
+    "url": "/news/218853/sonntagsfrage-probiert-ihr-unbekanntere-titel-im-gamepass-aus-ergebnis"
+  },
+  {
+    "date": "2022-04-24",
+    "title": "Sonntagsfrage: Welche Social-Media-Plattformen nutzt ihr am häufigsten? [Ergebnis]",
+    "votes": 468,
+    "url": "/news/219404/sonntagsfrage-welche-social-media-plattformen-nutzt-ihr-am-haeufigsten-ergebnis"
+  },
+  {
+    "date": "2022-05-01",
+    "title": "Sonntagsfrage: Welchen Schwierigkeitsgrad bevorzugt ihr? [Ergebnis]",
+    "votes": 456,
+    "url": "/news/219894/sonntagsfrage-welchen-schwierigkeitsgrad-bevorzugt-ihr-ergebnis"
+  },
+  {
+    "date": "2022-05-08",
+    "title": "Sonntagsfrage: Wo liegt die Zukunft von VR?",
+    "votes": 365,
+    "url": "/news/220416/sonntagsfrage-wo-liegt-die-zukunft-von-vr"
+  },
+  {
+    "date": "2022-05-15",
+    "title": "Sonntagsfrage: Hört ihr Spiele-Soundtracks an? [Ergebnis]",
+    "votes": 400,
+    "url": "/news/220882/sonntagsfrage-hoert-ihr-spiele-soundtracks-an-ergebnis"
+  },
+  {
+    "date": "2022-05-22",
+    "title": "Sonntagsfrage: Welches Soulsborne-Spiel ist am besten? [Ergebnis]",
+    "votes": 368,
+    "url": "/news/221454/sonntagsfrage-welches-soulsborne-spiel-ist-am-besten-ergebnis"
+  },
+  {
+    "date": "2022-05-29",
+    "title": "Sonntagsfrage: Welches ist das beste Star-Wars-Spiel? [Ergebnis]",
+    "votes": 363,
+    "url": "/news/221928/sonntagsfrage-welches-ist-das-beste-star-wars-spiel-ergebnis"
+  },
+  {
+    "date": "2022-06-05",
+    "title": "Sonntagsfrage: Welcher Spielertyp seid ihr? [Ergebnis]",
+    "votes": 336,
+    "url": "/news/222505/sonntagsfrage-welcher-spielertyp-seid-ihr-ergebnis"
+  },
+  {
+    "date": "2022-06-12",
+    "title": "Sonntagsfrage: Freut ihr euch auf The Last of Us - Part 1? [Beendet]",
+    "votes": 658,
+    "url": "/news/223214/sonntagsfrage-freut-ihr-euch-auf-the-last-of-us-part-1-beendet"
+  },
+  {
+    "date": "2022-06-19",
+    "title": "Sonntagsfrage: LucasArts vs Sierra – Wer war besser? [Ergebnis]",
+    "votes": 666,
+    "url": "/news/224092/sonntagsfrage-lucasarts-vs-sierra-wer-war-besser-ergebnis"
+  },
+  {
+    "date": "2022-06-26",
+    "title": "Sonntagsfrage: Habt ihr je für einen F2P-Titel Geld ausgegeben?",
+    "votes": 444,
+    "url": "/news/224725/sonntagsfrage-habt-ihr-je-fuer-einen-f2p-titel-geld-ausgegeben"
+  },
+  {
+    "date": "2022-07-03",
+    "title": "Sonntagsfrage: Gefällt euch die Grafik von Return to Monkey Island? [beendet]",
+    "votes": 1104,
+    "url": "/news/225053/sonntagsfrage-gefaellt-euch-die-grafik-von-return-to-monkey-island-beendet"
+  },
+  {
+    "date": "2022-07-17",
+    "title": "Sonntagsfrage: Was ist das beste Spiel aus dem ersten Halbjahr 2022? [Ergebnis]",
+    "votes": 346,
+    "url": "/news/226509/sonntagsfrage-was-ist-das-beste-spiel-aus-dem-ersten-halbjahr-2022-ergebnis"
+  },
+  {
+    "date": "2022-07-24",
+    "title": "Sonntagsfrage: Welches Spielemagazin war in den 2000ern euer Favorit? [Ergebnis]",
+    "votes": 556,
+    "url": "/news/227112/sonntagsfrage-welches-spielemagazin-war-in-den-2000ern-euer-favorit-ergebnis"
+  },
+  {
+    "date": "2022-07-31",
+    "title": "Sonntagsfrage: Freut ihr euch auf die Gamescom 2022? [Ergebnis]",
+    "votes": 422,
+    "url": "/news/227710/sonntagsfrage-freut-ihr-euch-auf-die-gamescom-2022-ergebnis"
+  },
+  {
+    "date": "2022-08-07",
+    "title": "Sonntagsfrage: Welche Spiele-Abos nutzt ihr?",
+    "votes": 494,
+    "url": "/news/228419/sonntagsfrage-welche-spiele-abos-nutzt-ihr"
+  },
+  {
+    "date": "2022-08-21",
+    "title": "Sonntagsfrage: Wie viele Spiele habt ihr auf eurer Wunschliste? [Ergebnis]",
+    "votes": 286,
+    "url": "/news/230052/sonntagsfrage-wie-viele-spiele-habt-ihr-auf-eurer-wunschliste-ergebnis"
+  },
+  {
+    "date": "2022-08-28",
+    "title": "Sonntagsfrage: Welche Neuankündigung der Gamescom 22 ist euer Favorit? [Ergebnis]",
+    "votes": 391,
+    "url": "/news/230704/sonntagsfrage-welche-neuankuendigung-der-gamescom-22-ist-euer-favorit-ergebnis"
+  },
+  {
+    "date": "2022-09-04",
+    "title": "Sonntagsfrage: Wie viele digitale Presse-Angebote habt ihr abonniert? [Update]",
+    "votes": 449,
+    "url": "/news/231471/sonntagsfrage-wie-viele-digitale-presse-angebote-habt-ihr-abonniert-update"
+  },
+  {
+    "date": "2022-09-11",
+    "title": "Sonntagsfrage: Welches neue Assassin's Creed findet ihr interessanter? [Ergebnis]",
+    "votes": 439,
+    "url": "/news/232092/sonntagsfrage-welches-neue-assassins-creed-findet-ihr-interessanter-ergebnis"
+  },
+  {
+    "date": "2022-09-25",
+    "title": "Sonntagsfrage: Habt ihr euch die geleakten Clips von GTA 6 angesehen? [Ergebnis]",
+    "votes": 411,
+    "url": "/news/233841/sonntagsfrage-habt-ihr-euch-die-geleakten-clips-von-gta-6-angesehen-ergebnis"
+  },
+  {
+    "date": "2022-10-02",
+    "title": "Sonntagsfrage: Habt ihr je Google Stadia genutzt? [Ergebnis]",
+    "votes": 493,
+    "url": "/news/234509/sonntagsfrage-habt-ihr-je-google-stadia-genutzt-ergebnis"
+  },
+  {
+    "date": "2022-10-09",
+    "title": "Sonntagsfrage: Spielt ihr Return to Monkey Island? [Ergebnis]",
+    "votes": 550,
+    "url": "/news/235261/sonntagsfrage-spielt-ihr-return-to-monkey-island-ergebnis"
+  },
+  {
+    "date": "2022-10-16",
+    "title": "Sonntagsfrage: Was macht für euch den PC als Plattform attraktiv? [Ergebnis]",
+    "votes": 359,
+    "url": "/news/235861/sonntagsfrage-was-macht-fuer-euch-den-pc-als-plattform-attraktiv-ergebnis"
+  },
+  {
+    "date": "2022-10-23",
+    "title": "Sonntagsfrage: Wie lang sollten Videos zu Spielen sein? [Ergebnis]",
+    "votes": 308,
+    "url": "/news/236439/sonntagsfrage-wie-lang-sollten-videos-zu-spielen-sein-ergebnis"
+  },
+  {
+    "date": "2022-10-30",
+    "title": "Sonntagsfrage: Interessieren euch AAA- oder Indie-Titel mehr? [Ergebnis]",
+    "votes": 395,
+    "url": "/news/237129/sonntagsfrage-interessieren-euch-aaa-oder-indie-titel-mehr-ergebnis"
+  },
+  {
+    "date": "2022-11-11",
+    "title": "Sonntagsfrage: Wollt ihr mehr Stream-Events auf Kosten anderer Inhalte? [Ergebnis]",
+    "votes": 460,
+    "url": "/news/237689/sonntagsfrage-wollt-ihr-mehr-stream-events-auf-kosten-anderer-inhalte-ergebnis"
+  },
+  {
+    "date": "2022-11-13",
+    "title": "Sonntagsfrage: Welches dieser GG-Videoformate ist euer Favorit? [Ergebnis]",
+    "votes": 344,
+    "url": "/news/238442/sonntagsfrage-welches-dieser-gg-videoformate-ist-euer-favorit-ergebnis"
+  },
+  {
+    "date": "2022-11-20",
+    "title": "Sonntagsfrage: Tests habe ich am liebsten als... [Ergebnis]",
+    "votes": 496,
+    "url": "/news/239022/sonntagsfrage-tests-habe-ich-am-liebsten-als-ergebnis"
+  },
+  {
+    "date": "2022-11-27",
+    "title": "Sonntagsfrage: Sind die Tests bei GG nützlich für euch? [Ergebnis]",
+    "votes": 549,
+    "url": "/news/239537/sonntagsfrage-sind-die-tests-bei-gg-nuetzlich-fuer-euch-ergebnis"
+  },
+  {
+    "date": "2022-12-04",
+    "title": "Sonntagsfrage: Viele Tests oder mehr Vertiefung? [Ergebnis]",
+    "votes": 471,
+    "url": "/news/240072/sonntagsfrage-viele-tests-oder-mehr-vertiefung-ergebnis"
+  },
+  {
+    "date": "2022-12-11",
+    "title": "Sonntagsfrage: Welche Neuankündigung der Game Awards 22 ist euer Favorit? [Ergebnis]",
+    "votes": 406,
+    "url": "/news/240734/sonntagsfrage-welche-neuankuendigung-der-game-awards-22-ist-euer-favorit-ergebnis"
+  },
+  {
+    "date": "2022-12-18",
+    "title": "Sonntagsfrage: Seit wann spielt ihr schon Computer- und Videospiele?",
+    "votes": 507,
+    "url": "/news/241251/sonntagsfrage-seit-wann-spielt-ihr-schon-computer-und-videospiele"
+  },
+  {
+    "date": "2023-01-15",
+    "title": "Sonntagsfrage: Habt ihr schonmal für ein Spiel Urlaub genommen? [Ergebnis]",
+    "votes": 550,
+    "url": "/news/242841/sonntagsfrage-habt-ihr-schonmal-fuer-ein-spiel-urlaub-genommen-ergebnis"
+  },
+  {
+    "date": "2023-01-22",
+    "title": "Sonntagsfrage: Werdet ihr die HBO-Serie The Last of Us anschauen? [Ergebnis]",
+    "votes": 491,
+    "url": "/news/243448/sonntagsfrage-werdet-ihr-die-hbo-serie-the-last-of-us-anschauen-ergebnis"
+  },
+  {
+    "date": "2023-01-29",
+    "title": "Sonntagsfrage: Welche Social-Media-Plattformen nutzt ihr am meisten?",
+    "votes": 510,
+    "url": "/news/244178/sonntagsfrage-welche-social-media-plattformen-nutzt-ihr-am-meisten"
+  },
+  {
+    "date": "2023-02-05",
+    "title": "Sonntagsfrage: Nutzt ihr Spiele-Abos wie Gamepass und PS Plus?",
+    "votes": 718,
+    "url": "/news/244782/sonntagsfrage-nutzt-ihr-spiele-abos-wie-gamepass-und-ps-plus"
+  },
+  {
+    "date": "2023-02-12",
+    "title": "Sonntagsfrage: Welches Mini-System sollte es als nächstes geben? [Ergebnis]",
+    "votes": 402,
+    "url": "/news/245413/sonntagsfrage-welches-mini-system-sollte-es-als-naechstes-geben-ergebnis"
+  },
+  {
+    "date": "2023-02-26",
+    "title": "Sonntagsfrage: Wollt ihr euch eine PSVR2 zulegen? [Ergebnis]",
+    "votes": 633,
+    "url": "/news/246642/sonntagsfrage-wollt-ihr-euch-eine-psvr2-zulegen-ergebnis"
+  },
+  {
+    "date": "2023-03-05",
+    "title": "Sonntagsfrage: Wie steht ihr zu aktuellen Cross-Generation-Releases?",
+    "votes": 342,
+    "url": "/news/247306/sonntagsfrage-wie-steht-ihr-zu-aktuellen-cross-generation-releases"
+  },
+  {
+    "date": "2023-03-26",
+    "title": "Sonntagsfrage: Welche Version ist bei Multiplattform-Titeln am wichtigsten? [Ergebnis]",
+    "votes": 402,
+    "url": "/news/249738/sonntagsfrage-welche-version-ist-bei-multiplattform-titeln-am-wichtigsten-ergebnis"
+  },
+  {
+    "date": "2023-04-02",
+    "title": "Sonntagsfrage: Werdet ihr euch Super Mario Bros. im Kino ansehen? [Ergebnis]",
+    "votes": 422,
+    "url": "/news/250472/sonntagsfrage-werdet-ihr-euch-super-mario-bros-im-kino-ansehen-ergebnis"
+  },
+  {
+    "date": "2023-04-09",
+    "title": "Sonntagsfrage: Wollt ihr einen Handheld-PC wie das Steam Deck kaufen? [Ergebnis]",
+    "votes": 396,
+    "url": "/news/250985/sonntagsfrage-wollt-ihr-einen-handheld-pc-wie-das-steam-deck-kaufen-ergebnis"
+  },
+  {
+    "date": "2023-04-16",
+    "title": "Sonntagsfrage: Spielt ihr Titel im Early Access? [Ergebnis]",
+    "votes": 433,
+    "url": "/news/251629/sonntagsfrage-spielt-ihr-titel-im-early-access-ergebnis"
+  },
+  {
+    "date": "2023-04-23",
+    "title": "Sonntagsfrage: Wie hoch ist euer Pile of Shame? [Ergebnis]",
+    "votes": 393,
+    "url": "/news/252264/sonntagsfrage-wie-hoch-ist-euer-pile-of-shame-ergebnis"
+  },
+  {
+    "date": "2023-05-07",
+    "title": "Sonntagsfrage: Was erwartet ihr von Zelda - Tears of the Kingdom? [Ergebnis]",
+    "votes": 263,
+    "url": "/news/253548/sonntagsfrage-was-erwartet-ihr-von-zelda-tears-of-the-kingdom-ergebnis"
+  },
+  {
+    "date": "2023-05-14",
+    "title": "Sonntagsfrage: Nennt ihr eine PS5 oder Xbox Series X|S euer Eigen? [Ergebnis]",
+    "votes": 641,
+    "url": "/news/254165/sonntagsfrage-nennt-ihr-eine-ps5-oder-xbox-series-xs-euer-eigen-ergebnis"
+  },
+  {
+    "date": "2023-05-21",
+    "title": "Sonntagsfrage: Welcher Release im Sommer 2023 ist der spannendste? [Ergebnis]",
+    "votes": 403,
+    "url": "/news/254828/sonntagsfrage-welcher-release-im-sommer-2023-ist-der-spannendste-ergebnis"
+  },
+  {
+    "date": "2023-05-28",
+    "title": "Sonntagsfrage: Macht ihr bei den DU-Galerien mit? [Ergebnis]",
+    "votes": 231,
+    "url": "/news/255524/sonntagsfrage-macht-ihr-bei-den-du-galerien-mit-ergebnis"
+  },
+  {
+    "date": "2023-06-11",
+    "title": "Sonntagsfrage: Schaut ihr bei manchen Genres lieber anderen beim Spielen zu?",
+    "votes": 327,
+    "url": "/news/256866/sonntagsfrage-schaut-ihr-bei-manchen-genres-lieber-anderen-beim-spielen-zu"
+  },
+  {
+    "date": "2023-06-18",
+    "title": "Sonntagsfrage: Sollen User-Checks zu Kurz-Tests mit Wertung werden? [Ergebnis]",
+    "votes": 424,
+    "url": "/news/257526/sonntagsfrage-sollen-user-checks-zu-kurz-tests-mit-wertung-werden-ergebnis"
+  },
+  {
+    "date": "2023-07-16",
+    "title": "Sonntagsfrage: Was ist euch wichtiger – Story oder Gameplay? [Ergebnis]",
+    "votes": 422,
+    "url": "/news/260236/sonntagsfrage-was-ist-euch-wichtiger-story-oder-gameplay-ergebnis"
+  },
+  {
+    "date": "2023-07-23",
+    "title": "Sonntagsfrage: Wie habt ihr GamersGlobal entdeckt?",
+    "votes": 0,
+    "url": "/news/260770/sonntagsfrage-wie-habt-ihr-gamersglobal-entdeckt"
+  },
+  {
+    "date": "2023-07-30",
+    "title": "Sonntagsfrage: Welche Plattform nutzt ihr zum Hören von Podcasts? [Ergebnis]",
+    "votes": 434,
+    "url": "/news/261397/sonntagsfrage-welche-plattform-nutzt-ihr-zum-hoeren-von-podcasts-ergebnis"
+  },
+  {
+    "date": "2023-08-06",
+    "title": "Sonntagsfrage: Was reizt euch besonders an Baldur's Gate 3? [Ergebnis]",
+    "votes": 410,
+    "url": "/news/261979/sonntagsfrage-was-reizt-euch-besonders-an-baldurs-gate-3-ergebnis"
+  },
+  {
+    "date": "2023-09-03",
+    "title": "Sonntagsfrage: Reizt euch früherer Zugang zum Spiel als Pre-Order-Bonus?",
+    "votes": 418,
+    "url": "/news/264380/sonntagsfrage-reizt-euch-frueherer-zugang-zum-spiel-als-pre-order-bonus"
+  },
+  {
+    "date": "2023-09-10",
+    "title": "Sonntagsfrage: Kauft ihr Starfield oder spielt ihr es mit Game Pass?",
+    "votes": 528,
+    "url": "/news/265000/sonntagsfrage-kauft-ihr-starfield-oder-spielt-ihr-es-mit-game-pass"
+  },
+  {
+    "date": "2023-09-17",
+    "title": "Sonntagsfrage: Surft ihr am Desktop auf GamersGlobal oder mobil?",
+    "votes": 552,
+    "url": "/news/265710/sonntagsfrage-surft-ihr-am-desktop-auf-gamersglobal-oder-mobil"
+  },
+  {
+    "date": "2023-10-08",
+    "title": "Sonntagsfrage: Interessieren euch Retro-Themen auf GamersGlobal? [Ergebnis]",
+    "votes": 440,
+    "url": "/news/267825/sonntagsfrage-interessieren-euch-retro-themen-auf-gamersglobal-ergebnis"
+  },
+  {
+    "date": "2023-10-15",
+    "title": "Sonntagsfrage: Stealth oder RPG – wie gefällt euch Assassin's Creed besser? [Ergebnis]",
+    "votes": 364,
+    "url": "/news/268502/sonntagsfrage-stealth-oder-rpg-wie-gefaellt-euch-assassins-creed-besser-ergebnis"
+  },
+  {
+    "date": "2023-10-22",
+    "title": "Sonntagsfrage: Nutzt ihr den Epic Games Store? [Ergebnis]",
+    "votes": 602,
+    "url": "/news/269336/sonntagsfrage-nutzt-ihr-den-epic-games-store-ergebnis"
+  },
+  {
+    "date": "2023-10-29",
+    "title": "Sonntagsfrage: Ist euch ein dynamisch anpassbarer Schwierigkeitsgrad wichtig? [Ergebnis]",
+    "votes": 447,
+    "url": "/news/270138/sonntagsfrage-ist-euch-ein-dynamisch-anpassbarer-schwierigkeitsgrad-wichtig-ergebnis"
+  },
+  {
+    "date": "2023-11-05",
+    "title": "Sonntagsfrage: Wie oft spielt ihr DLCs? [Ergebnis]",
+    "votes": 422,
+    "url": "/news/270883/sonntagsfrage-wie-oft-spielt-ihr-dlcs-ergebnis"
+  },
+  {
+    "date": "2023-11-19",
+    "title": "Sonntagsfrage: Spielt ihr gerne bereits gespielte Titel noch einmal? [Ergebnis]",
+    "votes": 457,
+    "url": "/news/271755/sonntagsfrage-spielt-ihr-gerne-bereits-gespielte-titel-noch-einmal-ergebnis"
+  },
+  {
+    "date": "2023-11-26",
+    "title": "Sonntagsfrage: Wie viele Spiele stehen auf euren Wunschlisten?",
+    "votes": 423,
+    "url": "/news/273108/sonntagsfrage-wie-viele-spiele-stehen-auf-euren-wunschlisten"
+  },
+  {
+    "date": "2023-12-03",
+    "title": "Sonntagsfrage: Seid ihr gespannt auf den ersten Trailer von GTA 6?",
+    "votes": 0,
+    "url": "/news/273896/sonntagsfrage-seid-ihr-gespannt-auf-den-ersten-trailer-von-gta-6"
+  },
+  {
+    "date": "2023-12-17",
+    "title": "Sonntagsfrage: Gibt es ein Spiel, das für euch die Wertung 10 von 10 verdient?",
+    "votes": 377,
+    "url": "/news/275367/sonntagsfrage-gibt-es-ein-spiel-das-fuer-euch-die-wertung-10-von-10-verdient"
+  },
+  {
+    "date": "2024-01-14",
+    "title": "Sonntagsfrage: Was war euer Spiel des Jahres 2023?",
+    "votes": 462,
+    "url": "/news/277631/sonntagsfrage-was-war-euer-spiel-des-jahres-2023"
+  },
+  {
+    "date": "2024-01-21",
+    "title": "Sonntagsfrage: Wie gefällt euch die Ego-Sicht in Indiana Jones und der Große Kreis?",
+    "votes": 421,
+    "url": "/news/278380/sonntagsfrage-wie-gefaellt-euch-die-ego-sicht-in-indiana-jones-und-der-grosse-kreis"
+  },
+  {
+    "date": "2024-01-28",
+    "title": "Sonntagsfrage: Action- oder Rundenkämpfe – wie gefällt euch Like a Dragon besser?",
+    "votes": 292,
+    "url": "/news/279179/sonntagsfrage-action-oder-rundenkaempfe-wie-gefaellt-euch-like-a-dragon-besser"
+  },
+  {
+    "date": "2024-02-04",
+    "title": "Sonntagsfrage: Was war eure erste Computer-Fachzeitschrift?",
+    "votes": 543,
+    "url": "/news/279955/sonntagsfrage-was-war-eure-erste-computer-fachzeitschrift"
+  },
+  {
+    "date": "2024-02-11",
+    "title": "Sonntagsfrage: Welche Version interessiert euch bei Multiplattform-Tests am meisten?",
+    "votes": 510,
+    "url": "/news/280698/sonntagsfrage-welche-version-interessiert-euch-bei-multiplattform-tests-am-meisten"
+  },
+  {
+    "date": "2024-02-18",
+    "title": "Sonntagsfrage: Lasst euch überraschen",
+    "votes": 248,
+    "url": "/news/281401/sonntagsfrage-lasst-euch-ueberraschen"
+  },
+  {
+    "date": "2024-03-03",
+    "title": "Sonntagsfrage: Wie wichtig ist euch eine deutsche Tonspur in Spielen?",
+    "votes": 506,
+    "url": "/news/282899/sonntagsfrage-wie-wichtig-ist-euch-eine-deutsche-tonspur-in-spielen"
+  },
+  {
+    "date": "2024-03-10",
+    "title": "Sonntagsfrage: Werdet ihr die Fallout-Serie anschauen?",
+    "votes": 417,
+    "url": "/news/283667/sonntagsfrage-werdet-ihr-die-fallout-serie-anschauen"
+  },
+  {
+    "date": "2024-03-17",
+    "title": "Sonntagsfrage: Was war eure erste Spielezeitschrift?",
+    "votes": 529,
+    "url": "/news/284479/sonntagsfrage-was-war-eure-erste-spielezeitschrift"
+  },
+  {
+    "date": "2024-04-07",
+    "title": "Sonntagsfrage: Hat euch je ein spezieller Exklusivtitel zum Konsolenkauf verleitet?",
+    "votes": 503,
+    "url": "/news/286604/sonntagsfrage-hat-euch-je-ein-spezieller-exklusivtitel-zum-konsolenkauf-verleitet"
+  },
+  {
+    "date": "2024-04-14",
+    "title": "Sonntagsfrage: Hättet ihr Interesse an einer PS5 Pro?",
+    "votes": 506,
+    "url": "/news/287607/sonntagsfrage-haettet-ihr-interesse-an-einer-ps5-pro"
+  },
+  {
+    "date": "2024-04-21",
+    "title": "Sonntagsfrage: Nutzt ihr den Epic Games Store?",
+    "votes": 460,
+    "url": "/news/288476/sonntagsfrage-nutzt-ihr-den-epic-games-store"
+  },
+  {
+    "date": "2024-04-28",
+    "title": "Sonntagsfrage: Spielt ihr Titel im Early-Access-Zustand?",
+    "votes": 435,
+    "url": "/news/289036/sonntagsfrage-spielt-ihr-titel-im-early-access-zustand"
+  },
+  {
+    "date": "2024-05-12",
+    "title": "Sonntagsfrage: Schaltet ihr in Spielen die Musik aus?",
+    "votes": 476,
+    "url": "/news/290099/sonntagsfrage-schaltet-ihr-in-spielen-die-musik-aus"
+  },
+  {
+    "date": "2024-05-19",
+    "title": "Sonntagsfrage: Welche unter den Konsolen seit 1986 ist euer Favorit?",
+    "votes": 562,
+    "url": "/news/290595/sonntagsfrage-welche-unter-den-konsolen-seit-1986-ist-euer-favorit"
+  },
+  {
+    "date": "2024-05-26",
+    "title": "Sonntagsfrage: Wie spielt ihr am liebsten Retro-Titel?",
+    "votes": 410,
+    "url": "/news/291065/sonntagsfrage-wie-spielt-ihr-am-liebsten-retro-titel"
+  },
+  {
+    "date": "2024-06-02",
+    "title": "Sonntagsfrage: Welches Event rund ums Summer Game Fest 2024 interessiert euch am meisten?",
+    "votes": 283,
+    "url": "/news/291647/sonntagsfrage-welches-event-rund-ums-summer-game-fest-2024-interessiert-euch-am-meisten"
+  },
+  {
+    "date": "2024-06-09",
+    "title": "Sonntagsfrage: Werdet ihr die Serie Yakuza - Like a Dragon schauen?",
+    "votes": 280,
+    "url": "/news/292064/sonntagsfrage-werdet-ihr-die-serie-yakuza-like-a-dragon-schauen"
+  },
+  {
+    "date": "2024-06-23",
+    "title": "Sonntagsfrage: Was war euer Highlight aus der Nintendo Direct im Juni 2024? [Ergebnis]",
+    "votes": 245,
+    "url": "/news/293556/sonntagsfrage-was-war-euer-highlight-aus-der-nintendo-direct-im-juni-2024-ergebnis"
+  },
+  {
+    "date": "2024-06-30",
+    "title": "Sonntagsfrage: Wollt ihr Elden Ring: Shadow of the Erdtree spielen?",
+    "votes": 437,
+    "url": "/news/294196/sonntagsfrage-wollt-ihr-elden-ring-shadow-of-the-erdtree-spielen"
+  },
+  {
+    "date": "2024-07-07",
+    "title": "Sonntagsfrage: Maus + Tastatur oder Controller – was ist euch lieber?",
+    "votes": 382,
+    "url": "/news/294689/sonntagsfrage-maus-tastatur-oder-controller-was-ist-euch-lieber"
+  },
+  {
+    "date": "2024-07-14",
+    "title": "Sonntagsfrage: Wer wird das EM-Finale 2024 gewinnen?",
+    "votes": 370,
+    "url": "/news/295289/sonntagsfrage-wer-wird-das-em-finale-2024-gewinnen"
+  },
+  {
+    "date": "2024-07-21",
+    "title": "Sonntagsfrage: Auf welches Spiel aus der 2. Hälfte 2024 freut ihr euch am meisten? [Ergebnis]",
+    "votes": 382,
+    "url": "/news/295664/sonntagsfrage-auf-welches-spiel-aus-der-2-haelfte-2024-freut-ihr-euch-am-meisten-ergebni"
+  },
+  {
+    "date": "2024-07-28",
+    "title": "Sonntagsfrage: Senkten Verschiebungen schonmal euer Interesse an einem Spiel?",
+    "votes": 322,
+    "url": "/news/296098/sonntagsfrage-senkten-verschiebungen-schonmal-euer-interesse-an-einem-spiel"
+  },
+  {
+    "date": "2024-08-18",
+    "title": "Sonntagsfrage: An welchem Tag würdet ihr auf die Gamescom 2024 gehen?",
+    "votes": 114,
+    "url": "/news/297688/sonntagsfrage-an-welchem-tag-wuerdet-ihr-auf-die-gamescom-2024-gehen"
+  },
+  {
+    "date": "2024-09-01",
+    "title": "Sonntagsfrage: Welche auf der Gamescom 24 gezeigte Neuheit ist euer Favorit? [Ergebnis]",
+    "votes": 329,
+    "url": "/news/299086/sonntagsfrage-welche-auf-der-gamescom-24-gezeigte-neuheit-ist-euer-favorit-ergebnis"
+  },
+  {
+    "date": "2024-09-15",
+    "title": "Sonntagsfrage: Seit wann seid ihr auf GamersGlobal unterwegs? [Ergebnis]",
+    "votes": 404,
+    "url": "/news/300296/sonntagsfrage-seit-wann-seid-ihr-auf-gamersglobal-unterwegs-ergebnis"
+  },
+  {
+    "date": "2024-09-22",
+    "title": "Sonntagsfrage: Wollt ihr euch eine PS5 Pro holen? [Ergebnis]",
+    "votes": 844,
+    "url": "/news/300941/sonntagsfrage-wollt-ihr-euch-eine-ps5-pro-holen-ergebnis"
+  },
+  {
+    "date": "2024-09-29",
+    "title": "Sonntagsfrage: Könnt ihr etwas mit Retro-3D-Grafik in neuen Spielen anfangen? [Ergebnis]",
+    "votes": 372,
+    "url": "/news/301709/sonntagsfrage-koennt-ihr-etwas-mit-retro-3d-grafik-in-neuen-spielen-anfangen-ergebnis"
+  },
+  {
+    "date": "2024-10-06",
+    "title": "Sonntagsfrage: Auf welches Spiel im 4. Quartal 2024 freut ihr euch am meisten? [Ergebnis]",
+    "votes": 0,
+    "url": "/news/302382/sonntagsfrage-auf-welches-spiel-im-4-quartal-2024-freut-ihr-euch-am-meisten-ergebnis"
+  },
+  {
+    "date": "2024-10-13",
+    "title": "Sonntagsfrage: Wie alt sollten Spiele sein, ehe sie Remakes bekommen?",
+    "votes": 430,
+    "url": "/news/303337/sonntagsfrage-wie-alt-sollten-spiele-sein-ehe-sie-remakes-bekommen"
+  },
+  {
+    "date": "2024-10-20",
+    "title": "Sonntagsfrage: Habt ihr je eine Special Edition gekauft, um vor Launch spielen zu können? [Ergebnis]",
+    "votes": 533,
+    "url": "/news/304214/sonntagsfrage-habt-ihr-je-eine-special-edition-gekauft-um-vor-launch-spielen-zu-koennen-"
+  },
+  {
+    "date": "2024-10-27",
+    "title": "Sonntagsfrage: Welchen Schwierigkeitsgrad wählt ihr in der Regel? [Ergebnis]",
+    "votes": 497,
+    "url": "/news/304917/sonntagsfrage-welchen-schwierigkeitsgrad-waehlt-ihr-in-der-regel-ergebnis"
+  },
+  {
+    "date": "2024-11-10",
+    "title": "Sonntagsfrage: Habt ihr euch Spiele je durch Cheats oder Mods leichter gemacht? [Ergebnis]",
+    "votes": 388,
+    "url": "/news/306274/sonntagsfrage-habt-ihr-euch-spiele-je-durch-cheats-oder-mods-leichter-gemacht-ergebnis"
+  },
+  {
+    "date": "2024-11-24",
+    "title": "Sonntagsfrage: Ist Half-Life 2 20 Jahre nach Erscheinen gut gealtert? [Ergebnis]",
+    "votes": 491,
+    "url": "/news/307645/sonntagsfrage-ist-half-life-2-20-jahre-nach-erscheinen-gut-gealtert-ergebnis"
+  },
+  {
+    "date": "2024-12-01",
+    "title": "Sonntagsfrage: Habt ihr Spiele-Flatrates wie Game Pass oder NSO abonniert? [Ergebnis]",
+    "votes": 488,
+    "url": "/news/308281/sonntagsfrage-habt-ihr-spiele-flatrates-wie-game-pass-oder-nso-abonniert-ergebnis"
+  },
+  {
+    "date": "2024-12-08",
+    "title": "Sonntagsfrage: Werdet ihr Indiana Jones und der Große Kreis spielen? [Ergebnis]",
+    "votes": 578,
+    "url": "/news/308869/sonntagsfrage-werdet-ihr-indiana-jones-und-der-grosse-kreis-spielen-ergebnis"
+  },
+  {
+    "date": "2024-12-15",
+    "title": "Sonntagsfrage: Wie bewertet ihr das Spielejahr 2024 im Vergleich mit 2023? [Ergebnis]",
+    "votes": 314,
+    "url": "/news/309531/sonntagsfrage-wie-bewertet-ihr-das-spielejahr-2024-im-vergleich-mit-2023-ergebnis"
+  },
+  {
+    "date": "2025-01-19",
+    "title": "Sonntagsfrage: Wie viel wird die Switch 2 eurer Schätzung nach kosten?",
+    "votes": 406,
+    "url": "/news/311422/sonntagsfrage-wie-viel-wird-die-switch-2-eurer-schaetzung-nach-kosten"
+  },
+  {
+    "date": "2025-01-26",
+    "title": "Sonntagsfrage: Nutzt ihr GG am Desktop oder mit Mobile-Geräten? [Ergebnis]",
+    "votes": 440,
+    "url": "/news/312055/sonntagsfrage-nutzt-ihr-gg-am-desktop-oder-mit-mobile-geraeten-ergebnis"
+  },
+  {
+    "date": "2025-02-02",
+    "title": "Sonntagsfrage: Vermisst ihr gewisse Retro-Titel in den modernen Spiele-Stores? [Ergebnis]",
+    "votes": 0,
+    "url": "/news/312697/sonntagsfrage-vermisst-ihr-gewisse-retro-titel-in-den-modernen-spiele-stores-ergebnis"
+  },
+  {
+    "date": "2025-02-09",
+    "title": "Sonntagsfrage: Habt ihr noch gerne Spiele physisch im Regal stehen?",
+    "votes": 483,
+    "url": "/news/313263/sonntagsfrage-habt-ihr-noch-gerne-spiele-physisch-im-regal-stehen"
+  },
+  {
+    "date": "2025-02-23",
+    "title": "Sonntagsfrage: Seid ihr für ein Ende der Plattformexklusivität? [Ergebnis]",
+    "votes": 376,
+    "url": "/news/314423/sonntagsfrage-seid-ihr-fuer-ein-ende-der-plattformexklusivitaet-ergebnis"
+  },
+  {
+    "date": "2025-03-02",
+    "title": "Sonntagsfrage: Auf welches Spiel im März 2025 seid ihr besonders gespannt? [Ergebnis]",
+    "votes": 355,
+    "url": "/news/315096/sonntagsfrage-auf-welches-spiel-im-maerz-2025-seid-ihr-besonders-gespannt-ergebnis"
+  },
+  {
+    "date": "2025-03-09",
+    "title": "Sonntagsfrage: Würdet ihr GTA 6 zu einem Ladenpreis von 100 Euro kaufen? [Ergebnis]",
+    "votes": 1537,
+    "url": "/news/315788/sonntagsfrage-wuerdet-ihr-gta-6-zu-einem-ladenpreis-von-100-euro-kaufen-ergebnis"
+  },
+  {
+    "date": "2025-03-16",
+    "title": "Sonntagsfrage: Wärt ihr interessiert an einem Steam Deck 2?",
+    "votes": 485,
+    "url": "/news/316403/sonntagsfrage-waert-ihr-interessiert-an-einem-steam-deck-2"
+  },
+  {
+    "date": "2025-03-23",
+    "title": "Sonntagsfrage: Werdet ihr Assassin's Creed Shadows spielen? [Ergebnis]",
+    "votes": 490,
+    "url": "/news/316999/sonntagsfrage-werdet-ihr-assassins-creed-shadows-spielen-ergebnis"
+  },
+  {
+    "date": "2025-03-30",
+    "title": "Sonntagsfrage: Reinigt ihr regelmäßig eure Rechner oder andere Hardware?",
+    "votes": 370,
+    "url": "/news/317583/sonntagsfrage-reinigt-ihr-regelmaessig-eure-rechner-oder-andere-hardware"
+  },
+  {
+    "date": "2025-04-06",
+    "title": "Sonntagsfrage: Ist euch der Preis der Switch 2 zu hoch für einen Day-1-Kauf? [Ergebnis]",
+    "votes": 528,
+    "url": "/news/318239/sonntagsfrage-ist-euch-der-preis-der-switch-2-zu-hoch-fuer-einen-day-1-kauf-ergebnis"
+  },
+  {
+    "date": "2025-04-20",
+    "title": "Sonntagsfrage: Sollte Mario Kart den blauen Panzer in Rente schicken? [Ergebnis]",
+    "votes": 514,
+    "url": "/news/319441/sonntagsfrage-sollte-mario-kart-den-blauen-panzer-in-rente-schicken-ergebnis"
+  },
+  {
+    "date": "2025-04-27",
+    "title": "Sonntagsfrage: Springt ihr bei Videotests schonmal direkt zum Fazit? [Ergebnis]",
+    "votes": 355,
+    "url": "/news/320209/sonntagsfrage-springt-ihr-bei-videotests-schonmal-direkt-zum-fazit-ergebnis"
+  },
+  {
+    "date": "2025-05-04",
+    "title": "Sonntagsfrage: Auf welcher Hardware spielt ihr vor allem mobil? [Ergebnis]",
+    "votes": 479,
+    "url": "/news/320748/sonntagsfrage-auf-welcher-hardware-spielt-ihr-vor-allem-mobil-ergebnis"
+  },
+  {
+    "date": "2025-05-18",
+    "title": "Sonntagsfrage: Welches ist euer liebster Exklusivtitel für Nintendo Switch? [Ergebnis]",
+    "votes": 353,
+    "url": "/news/322063/sonntagsfrage-welches-ist-euer-liebster-exklusivtitel-fuer-nintendo-switch-ergebnis"
+  },
+  {
+    "date": "2025-05-25",
+    "title": "Sonntagsfrage: Wie weit habt ihr The Witcher 3 gespielt? [Ergebnis]",
+    "votes": 602,
+    "url": "/news/322623/sonntagsfrage-wie-weit-habt-ihr-the-witcher-3-gespielt-ergebnis"
+  },
+  {
+    "date": "2025-06-01",
+    "title": "Sonntagsfrage: Was haltet ihr von Zeitdruck in Spielen?",
+    "votes": 484,
+    "url": "/news/323315/sonntagsfrage-was-haltet-ihr-von-zeitdruck-in-spielen"
+  },
+  {
+    "date": "2025-06-08",
+    "title": "Sonntagsfrage: Werdet ihr euch die Nintendo Switch 2 kaufen? [Ergebnis]",
+    "votes": 461,
+    "url": "/news/323317/sonntagsfrage-werdet-ihr-euch-die-nintendo-switch-2-kaufen-ergebnis"
+  },
+  {
+    "date": "2025-06-15",
+    "title": "Sonntagsfrage: Fehlt euch die deutsche Synchro in Oblivion Remastered?",
+    "votes": 957,
+    "url": "/news/324577/sonntagsfrage-fehlt-euch-die-deutsche-synchro-in-oblivion-remastered"
+  },
+  {
+    "date": "2025-06-29",
+    "title": "Sonntagsfrage: Auf welches Spiel im 3. Quartal 2025 freut ihr euch am meisten? [Ergebnis]",
+    "votes": 400,
+    "url": "/news/325251/sonntagsfrage-auf-welches-spiel-im-3-quartal-2025-freut-ihr-euch-am-meisten-ergebnis"
+  },
+  {
+    "date": "2025-07-13",
+    "title": "Sonntagsfrage: Wie hat euch Ghost of Yotei im State of Play gefallen?",
+    "votes": 202,
+    "url": "/news/326013/sonntagsfrage-wie-hat-euch-ghost-of-yotei-im-state-of-play-gefallen"
+  },
+  {
+    "date": "2025-07-20",
+    "title": "Sonntagsfrage: Wie oft spielt ihr Free-2-Play-Spiele? (Ergebnis)",
+    "votes": 410,
+    "url": "/news/326331/sonntagsfrage-wie-oft-spielt-ihr-free-2-play-spiele-ergebnis"
+  },
+  {
+    "date": "2025-07-27",
+    "title": "Sonntagsfrage: Seid ihr übersättigt von Genres, die ihr eigentlich mögt? [Ergebnis]",
+    "votes": 343,
+    "url": "/news/326690/sonntagsfrage-seid-ihr-uebersaettigt-von-genres-die-ihr-eigentlich-moegt-ergebnis"
+  },
+  {
+    "date": "2025-08-03",
+    "title": "Sonntagsfrage: Welches Battlefield war bisher das beste? [Ergebnis]",
+    "votes": 433,
+    "url": "/news/327197/sonntagsfrage-welches-battlefield-war-bisher-das-beste-ergebnis"
+  },
+  {
+    "date": "2025-08-10",
+    "title": "Sonntagsfrage: Wie viele Spiele sind auf euren Store-Wunschlisten? [Ergebnis]",
+    "votes": 387,
+    "url": "/news/327598/sonntagsfrage-wie-viele-spiele-sind-auf-euren-store-wunschlisten-ergebnis"
+  },
+  {
+    "date": "2025-08-31",
+    "title": "Sonntagsfrage: Welche Neuheit auf der Gamescom 2025 ist euer Favorit? [Ergebnis]",
+    "votes": 389,
+    "url": "/news/329279/sonntagsfrage-welche-neuheit-auf-der-gamescom-2025-ist-euer-favorit-ergebnis"
+  },
+  {
+    "date": "2025-09-07",
+    "title": "Sonntagsfrage: Stört es euch, wenn Remaster das Original in Stores ersetzen? [Ergebnis]",
+    "votes": 403,
+    "url": "/news/329850/sonntagsfrage-stoert-es-euch-wenn-remaster-das-original-in-stores-ersetzen-ergebnis"
+  },
+  {
+    "date": "2025-09-14",
+    "title": "Sonntagsfrage: Was macht ihr, wenn der Support für Windows 10 endet? [Ergebnis]",
+    "votes": 469,
+    "url": "/news/330517/sonntagsfrage-was-macht-ihr-wenn-der-support-fuer-windows-10-endet-ergebnis"
+  },
+  {
+    "date": "2025-09-21",
+    "title": "Sonntagsfrage: Seit wann seid ihr auf GamersGlobal aktiv?",
+    "votes": 344,
+    "url": "/news/331066/sonntagsfrage-seit-wann-seid-ihr-auf-gamersglobal-aktiv"
+  },
+  {
+    "date": "2025-09-29",
+    "title": "Sonntagsfrage: Welches Spiel im 4. Quartal 2025 ist das spannendste? [Ergebnis]",
+    "votes": 458,
+    "url": "/news/331070/sonntagsfrage-welches-spiel-im-4-quartal-2025-ist-das-spannendste-ergebnis"
+  },
+  {
+    "date": "2025-10-05",
+    "title": "Sonntagsfrage: Was haltet ihr von Vorabzugang als Feature von Special Editions?",
+    "votes": 405,
+    "url": "/news/332057/sonntagsfrage-was-haltet-ihr-von-vorabzugang-als-feature-von-special-editions"
+  },
+  {
+    "date": "2025-10-12",
+    "title": "Sonntagsfrage: Werdet ihr Battlefield 6 spielen? [Ergebnis]",
+    "votes": 420,
+    "url": "/news/332501/sonntagsfrage-werdet-ihr-battlefield-6-spielen-ergebnis"
+  },
+  {
+    "date": "2025-10-19",
+    "title": "Sonntagsfrage: Sollte es mehr Demos zu AAA-Spielen geben? [Ergebnis]",
+    "votes": 395,
+    "url": "/news/333203/sonntagsfrage-sollte-es-mehr-demos-zu-aaa-spielen-geben-ergebnis"
+  },
+  {
+    "date": "2025-10-26",
+    "title": "Sonntagsfrage: Werdet ihr Staffel 4 von The Witcher sehen? [Ergebnis]",
+    "votes": 438,
+    "url": "/news/333753/sonntagsfrage-werdet-ihr-staffel-4-von-the-witcher-sehen-ergebnis"
+  },
+  {
+    "date": "2025-11-02",
+    "title": "Sonntagsfrage: Kündigt ihr den Game Pass nach der Preiserhöhung? [Ergebnis]",
+    "votes": 602,
+    "url": "/news/334271/sonntagsfrage-kuendigt-ihr-den-game-pass-nach-der-preiserhoehung-ergebnis"
+  },
+  {
+    "date": "2025-11-09",
+    "title": "Sonntagsfrage: Spielt ihr gewisse Titel bevorzugt in bestimmten Jahreszeiten? [Ergebnis]",
+    "votes": 393,
+    "url": "/news/334829/sonntagsfrage-spielt-ihr-gewisse-titel-bevorzugt-in-bestimmten-jahreszeiten-ergebnis"
+  },
+  {
+    "date": "2025-11-16",
+    "title": "Sonntagsfrage: Wie oft spielt ihr Multiplayer-Titel?",
+    "votes": 381,
+    "url": "/news/335385/sonntagsfrage-wie-oft-spielt-ihr-multiplayer-titel"
+  },
+  {
+    "date": "2025-11-23",
+    "title": "Sonntagsfrage: Womit spielt ihr in der Regel Retro-Spiele?",
+    "votes": 371,
+    "url": "/news/335810/sonntagsfrage-womit-spielt-ihr-in-der-regel-retro-spiele"
+  },
+  {
+    "date": "2025-11-30",
+    "title": "Sonntagsfrage: Glaubt ihr, dass Valve jemals noch ein Half-Life 3 veröffentlicht?",
+    "votes": 500,
+    "url": "/news/336285/sonntagsfrage-glaubt-ihr-dass-valve-jemals-noch-ein-half-life-3-veroeffentlicht"
+  },
+  {
+    "date": "2025-12-14",
+    "title": "Sonntagsfrage: Worüber hört ihr meistens den Spiele-Sound? [Ergebnis]",
+    "votes": 413,
+    "url": "/news/337195/sonntagsfrage-worueber-hoert-ihr-meistens-den-spiele-sound-ergebnis"
+  },
+  {
+    "date": "2025-12-21",
+    "title": "Sonntagsfrage: Was ist die spannendste Neuankündigung der Game Awards 2025?",
+    "votes": 343,
+    "url": "/news/337623/sonntagsfrage-was-ist-die-spannendste-neuankuendigung-der-game-awards-2025"
+  },
+  {
+    "date": "2026-01-18",
+    "title": "Sonntagsfrage: Wie schneidet das Spielejahr 2025 im Vergleich zu 2024 ab?",
+    "votes": 319,
+    "url": "/news/338612/sonntagsfrage-wie-schneidet-das-spielejahr-2025-im-vergleich-zu-2024-ab"
+  },
+  {
+    "date": "2026-01-25",
+    "title": "Sonntagsfrage: Nutzt ihr einen Games-Abodienst? [Ergebnis]",
+    "votes": 451,
+    "url": "/news/338998/sonntagsfrage-nutzt-ihr-einen-games-abodienst-ergebnis"
+  },
+  {
+    "date": "2026-02-01",
+    "title": "Sonntagsfrage: Wenn GTA 6 zunächst nur digital erscheinen sollte...",
+    "votes": 385,
+    "url": "/news/339435/sonntagsfrage-wenn-gta-6-zunaechst-nur-digital-erscheinen-sollte"
+  },
+  {
+    "date": "2026-02-08",
+    "title": "Sonntagsfrage: Wie eng sollte sich ein Remake an das Original halten? [Ergebnis]",
+    "votes": 375,
+    "url": "/news/339920/sonntagsfrage-wie-eng-sollte-sich-ein-remake-an-das-original-halten-ergebnis"
+  },
+  {
+    "date": "2026-02-15",
+    "title": "Sonntagsfrage: Mögt ihr die Mario-Charaktere? [Ergebnis]",
+    "votes": 296,
+    "url": "/news/340489/sonntagsfrage-moegt-ihr-die-mario-charaktere-ergebnis"
+  },
+  {
+    "date": "2026-02-22",
+    "title": "Sonntagsfrage: Welcher Teil von The Elder Scrolls ist euer Favorit? [Ergebnis]",
+    "votes": 367,
+    "url": "/news/340948/sonntagsfrage-welcher-teil-von-the-elder-scrolls-ist-euer-favorit-ergebnis"
+  },
+  {
+    "date": "2026-03-01",
+    "title": "Sonntagsfrage: Wollt ihr mehr Spieleadaptionen für Kino und TV sehen? [Ergebnis]",
+    "votes": 314,
+    "url": "/news/341318/sonntagsfrage-wollt-ihr-mehr-spieleadaptionen-fuer-kino-und-tv-sehen-ergebnis"
+  },
+  {
+    "date": "2026-03-08",
+    "title": "Sonntagsfrage: Wie blickt ihr auf Project Helix? [Ergebnis]",
+    "votes": 416,
+    "url": "/news/341618/sonntagsfrage-wie-blickt-ihr-auf-project-helix-ergebnis"
+  },
+  {
+    "date": "2026-03-15",
+    "title": "Sonntagsfrage: Werdet ihr den Super Mario Galaxy Film sehen? [Ergebnis]",
+    "votes": 387,
+    "url": "/news/341975/sonntagsfrage-werdet-ihr-den-super-mario-galaxy-film-sehen-ergebnis"
+  },
+  {
+    "date": "2026-03-29",
+    "title": "Sonntagsfrage: Wie blickt ihr bisher auf DLSS 5? [Ergebnis]",
+    "votes": 371,
+    "url": "/news/342782/sonntagsfrage-wie-blickt-ihr-bisher-auf-dlss-5-ergebnis"
+  },
+  {
+    "date": "2026-04-05",
+    "title": "Sonntagsfrage: Von welchem Genre möchtet ihr in Zukunft viel mehr sehen? [Ergebnis]",
+    "votes": 459,
+    "url": "/news/342997/sonntagsfrage-von-welchem-genre-moechtet-ihr-in-zukunft-viel-mehr-sehen-ergebnis"
+  },
+  {
+    "date": "2026-04-12",
+    "title": "Sonntagsfrage: Interessiert ihr euch für Bücher zu Videospielen? [Ergebnis]",
+    "votes": 393,
+    "url": "/news/343002/sonntagsfrage-interessiert-ihr-euch-fuer-buecher-zu-videospielen-ergebnis"
+  },
+  {
+    "date": "2026-04-26",
+    "title": "Sonntagsfrage: Welches Betriebssystem nutzt ihr beim Spielen? [Ergebnis]",
+    "votes": 567,
+    "url": "/news/344070/sonntagsfrage-welches-betriebssystem-nutzt-ihr-beim-spielen-ergebnis"
+  },
+  {
+    "date": "2026-05-03",
+    "title": "Sonntagsfrage: Seht ihr euch Spiele von der DCP-Nominiertenliste etwas genauer an? [Ergebnis]",
+    "votes": 351,
+    "url": "/news/344449/sonntagsfrage-seht-ihr-euch-spiele-von-der-dcp-nominiertenliste-etwas-genauer-an-ergebni"
+  },
+  {
+    "date": "2026-05-10",
+    "title": "Sonntagsfrage: Welches Gerät nutzt ihr, um mobil zu spielen?",
+    "votes": 436,
+    "url": "/news/344764/sonntagsfrage-welches-geraet-nutzt-ihr-um-mobil-zu-spielen"
+  },
+  {
+    "date": "2026-05-17",
+    "title": "Sonntagsfrage: Besitzt ihr eine Nintendo Switch 2? [Ergebnis]",
+    "votes": 528,
+    "url": "/news/345145/sonntagsfrage-besitzt-ihr-eine-nintendo-switch-2-ergebnis"
+  },
+  {
+    "date": "2026-05-24",
+    "title": "Sonntagsfrage: Braucht es die Gegenwartsebene in Assassin's Creed? [Ergebnis]",
+    "votes": 481,
+    "url": "/news/345516/sonntagsfrage-braucht-es-die-gegenwartsebene-in-assassins-creed-ergebnis"
+  }
+]
