@@ -61751,7 +61751,7 @@
     "month": "2026-02",
     "url": "/news/338708/darauf-freut-sich-die-redaktion-im-februar-2026",
     "title": "Darauf freut sich die Redaktion im... Februar 2026",
-    "last_updated": "2026-05-27T19:44:21Z",
+    "last_updated": "2026-05-27T21:27:43Z",
     "comment_count": 112,
     "editors": [
       {
@@ -62147,7 +62147,440 @@
         "text": "Die erste Staffel von Rings of Power fand ich grässlich. Die zweite Staffel, die ich dennoch jetzt erst geschaut habe, war dann insbesondere zum Ende hin doch ganz ok. Bei weitem nicht auf dem Niveau der Filme, oder gar der Bücher, aber doch ein klar erkennbarer Schritt nach vorne."
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "Lincoln Lawyer",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "Nier Automata",
+            "category": "game"
+          },
+          {
+            "title": "Resident Evil Requiem",
+            "category": "game"
+          },
+          {
+            "title": "Romeo is a Dead Man",
+            "category": "game"
+          },
+          {
+            "title": "No Other Choice",
+            "category": "film_series"
+          },
+          {
+            "title": "Stranger Things S5",
+            "category": "film_series"
+          },
+          {
+            "title": "Fallout S2",
+            "category": "film_series"
+          },
+          {
+            "title": "Dexter: Resurrection",
+            "category": "film_series"
+          },
+          {
+            "title": "Welcome to Derry",
+            "category": "film_series"
+          },
+          {
+            "title": "A Knight of Seven Kingdoms",
+            "category": "film_series"
+          },
+          {
+            "title": "The Pitt",
+            "category": "film_series"
+          },
+          {
+            "title": "Heated Rivalry",
+            "category": "film_series"
+          },
+          {
+            "title": "Marty Supreme",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Flooraimer",
+        "items": [
+          {
+            "title": "Romeo is a Dead Man",
+            "category": "game"
+          },
+          {
+            "title": "Styx: Blades of Greed",
+            "category": "game"
+          },
+          {
+            "title": "Fallout S2",
+            "category": "film_series"
+          },
+          {
+            "title": "Hallow Road",
+            "category": "film_series"
+          },
+          {
+            "title": "Good Fortune",
+            "category": "film_series"
+          },
+          {
+            "title": "Marty Supreme",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "Indiana Jones und der große Kreis",
+            "category": "game"
+          },
+          {
+            "title": "Slay the Spire",
+            "category": "game"
+          },
+          {
+            "title": "Hades 2",
+            "category": "game"
+          },
+          {
+            "title": "Resident Evil 9",
+            "category": "game"
+          },
+          {
+            "title": "Stranger Things",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "Fallout S2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Jonas S.",
+        "items": [
+          {
+            "title": "Indiana Jones und der große Kreis",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Bruno Lawrie",
+        "items": [
+          {
+            "title": "Voxel-Mods für Doom und Duke Nukem 3D",
+            "category": "game"
+          },
+          {
+            "title": "Resident Evil Requiem",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Baumkuchen",
+        "items": [
+          {
+            "title": "Aces of Thunder",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Q-Bert",
+        "items": [
+          {
+            "title": "Shrinking S3",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "JensJuchzer",
+        "items": [
+          {
+            "title": "Scream 7",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Dragon Quest VII",
+            "category": "game"
+          },
+          {
+            "title": "Resident Evil Requiem",
+            "category": "game"
+          },
+          {
+            "title": "Baphomets Fluch - Die Spiegel der Finsternis: Reforged",
+            "category": "game"
+          },
+          {
+            "title": "GEE Magazin",
+            "category": "misc"
+          },
+          {
+            "title": "Retro Gamer",
+            "category": "misc"
+          },
+          {
+            "title": "Winter Olympics 2026",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "AlexCartman",
+        "items": [
+          {
+            "title": "Watch Dogs",
+            "category": "game"
+          },
+          {
+            "title": "Transformers",
+            "category": "film_series"
+          },
+          {
+            "title": "Jack Reacher 2",
+            "category": "film_series"
+          },
+          {
+            "title": "Rivers of London",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "Scream 7",
+            "category": "film_series"
+          },
+          {
+            "title": "Tulsa King S3",
+            "category": "film_series"
+          },
+          {
+            "title": "The Witcher",
+            "category": "film_series"
+          },
+          {
+            "title": "Hollow Knight",
+            "category": "game"
+          },
+          {
+            "title": "Mafia",
+            "category": "game"
+          },
+          {
+            "title": "Donkey Kong Bananza",
+            "category": "game"
+          },
+          {
+            "title": "Clair-Obscur Soundtrack",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "Shrinking S3",
+            "category": "film_series"
+          },
+          {
+            "title": "Fallout S2",
+            "category": "film_series"
+          },
+          {
+            "title": "No Other Choice",
+            "category": "film_series"
+          },
+          {
+            "title": "Cylia Journey",
+            "category": "game"
+          },
+          {
+            "title": "Lost Judgment",
+            "category": "game"
+          },
+          {
+            "title": "Yakuza Kiwami 3",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Olphas",
+        "items": [
+          {
+            "title": "Nioh 3",
+            "category": "game"
+          },
+          {
+            "title": "Yakuza Kiwami 3",
+            "category": "game"
+          },
+          {
+            "title": "No Other Choice",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Berndor",
+        "items": [
+          {
+            "title": "Stalker 2",
+            "category": "game"
+          },
+          {
+            "title": "Trails in the Sky 1st Chapter",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "John of Gaunt",
+        "items": [
+          {
+            "title": "Fallout S2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "Shadow Warrior 3",
+            "category": "game"
+          },
+          {
+            "title": "Evil West",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "KampfPlauze",
+        "items": [
+          {
+            "title": "Scream 7",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Return to Silent Hill",
+            "category": "film_series"
+          },
+          {
+            "title": "Send Help",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "MicBass",
+        "items": [
+          {
+            "title": "Rings of Power S2",
+            "category": "film_series"
+          },
+          {
+            "title": "Fallout S2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Hannes Herrmann",
+        "items": [
+          {
+            "title": "Dragon Quest VII",
+            "category": "game"
+          },
+          {
+            "title": "Nioh 3",
+            "category": "game"
+          },
+          {
+            "title": "EU5 Patch 1.1",
+            "category": "game"
+          },
+          {
+            "title": "Enshrouded",
+            "category": "game"
+          },
+          {
+            "title": "Fallout S2",
+            "category": "film_series"
+          },
+          {
+            "title": "Return to Silent Hill",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "B1ixX0r",
+        "items": [
+          {
+            "title": "Dawnless",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sciron",
+        "items": [
+          {
+            "title": "Warhammer 40.000: Space Marine 2",
+            "category": "game"
+          },
+          {
+            "title": "Call of Duty Black Ops 7 Season 2",
+            "category": "game"
+          },
+          {
+            "title": "Stargate SG-1",
+            "category": "film_series"
+          },
+          {
+            "title": "Stories of Your Life and Others",
+            "category": "misc"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Fallout": {
         "count": 1,
@@ -62178,10 +62611,11 @@
         ]
       },
       "Dawnless": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:B1ixX0r"
         ]
       },
       "Jahresvorschau-Twitch-Event": {
@@ -62206,12 +62640,14 @@
         ]
       },
       "Return to Silent Hill": {
-        "count": 3,
+        "count": 5,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:hagen_gehritz",
-          "editor:kai_schmidt"
+          "editor:benjamin_braun",
+          "editor:kai_schmidt",
+          "user:Ganon",
+          "user:Hannes Herrmann"
         ]
       },
       "Christophe Gans": {
@@ -62236,11 +62672,14 @@
         ]
       },
       "Scream 7": {
-        "count": 2,
+        "count": 5,
         "category": "film_series",
         "mentioners": [
+          "editor:hagen_gehritz",
           "editor:benjamin_braun",
-          "editor:hagen_gehritz"
+          "user:JensJuchzer",
+          "user:funrox",
+          "user:KampfPlauze"
         ]
       },
       "Yakuza Kiwami 3 & Dark Ties": {
@@ -62258,10 +62697,12 @@
         ]
       },
       "Romeo is a Dead Man": {
-        "count": 1,
+        "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "user:Moe90",
+          "user:Flooraimer"
         ]
       },
       "Resident Evil": {
@@ -62275,8 +62716,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun"
         ]
       },
       "Andrzej Sapkowski": {
@@ -62294,18 +62735,23 @@
         ]
       },
       "Nioh 3": {
-        "count": 2,
+        "count": 4,
         "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
-          "editor:kai_schmidt"
+          "editor:kai_schmidt",
+          "user:Olphas",
+          "user:Hannes Herrmann"
         ]
       },
       "Resident Evil Requiem": {
-        "count": 1,
+        "count": 4,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Moe90",
+          "user:Bruno Lawrie",
+          "user:Green Yoshi"
         ]
       },
       "Little Nightmares 3": {
@@ -62351,10 +62797,11 @@
         ]
       },
       "The Pitt": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen"
+          "editor:christian_burtchen",
+          "user:Moe90"
         ]
       },
       "Noah Wyle": {
@@ -62475,6 +62922,376 @@
         "mentioners": [
           "editor:michael_hengst"
         ]
+      },
+      "Lincoln Lawyer": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Nier Automata": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "No Other Choice": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90",
+          "user:Alain",
+          "user:Olphas"
+        ]
+      },
+      "Stranger Things S5": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "Fallout S2": {
+        "count": 7,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90",
+          "user:Flooraimer",
+          "user:Danywilde",
+          "user:Alain",
+          "user:John of Gaunt",
+          "user:MicBass",
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Dexter: Resurrection": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "Welcome to Derry": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "A Knight of Seven Kingdoms": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "Heated Rivalry": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "Marty Supreme": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90",
+          "user:Flooraimer"
+        ]
+      },
+      "Styx: Blades of Greed": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Flooraimer"
+        ]
+      },
+      "Hallow Road": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Flooraimer"
+        ]
+      },
+      "Good Fortune": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Flooraimer"
+        ]
+      },
+      "Indiana Jones und der große Kreis": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:euph",
+          "user:Jonas S."
+        ]
+      },
+      "Slay the Spire": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Hades 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Resident Evil 9": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Stranger Things": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Voxel-Mods für Doom und Duke Nukem 3D": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Aces of Thunder": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Baumkuchen"
+        ]
+      },
+      "Shrinking S3": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Q-Bert",
+          "user:Alain"
+        ]
+      },
+      "Dragon Quest VII": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Green Yoshi",
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Baphomets Fluch - Die Spiegel der Finsternis: Reforged": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "GEE Magazin": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Retro Gamer": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Winter Olympics 2026": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Watch Dogs": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Transformers": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Jack Reacher 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Rivers of London": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Tulsa King S3": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "The Witcher": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Hollow Knight": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Mafia": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Donkey Kong Bananza": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Clair-Obscur Soundtrack": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Cylia Journey": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Lost Judgment": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Yakuza Kiwami 3": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Alain",
+          "user:Olphas"
+        ]
+      },
+      "Stalker 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Berndor"
+        ]
+      },
+      "Trails in the Sky 1st Chapter": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Berndor"
+        ]
+      },
+      "Shadow Warrior 3": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Evil West": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Send Help": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Rings of Power S2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:MicBass"
+        ]
+      },
+      "EU5 Patch 1.1": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Enshrouded": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Warhammer 40.000: Space Marine 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sciron"
+        ]
+      },
+      "Call of Duty Black Ops 7 Season 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sciron"
+        ]
+      },
+      "Stargate SG-1": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Sciron"
+        ]
+      },
+      "Stories of Your Life and Others": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Sciron"
+        ]
       }
     }
   },
@@ -62482,7 +63299,7 @@
     "month": "2026-03",
     "url": "/news/341248/darauf-freut-sich-die-redaktion-im-maerz-2026",
     "title": "Darauf freut sich die Redaktion im... März 2026",
-    "last_updated": "2026-05-27T19:44:22Z",
+    "last_updated": "2026-05-27T21:27:43Z",
     "comment_count": 47,
     "editors": [
       {
@@ -62910,7 +63727,373 @@
         "text": "Ich würde mich ja auf das Star Trek Infection VR-Spiel freuen, aber dazu müsste ich mir mindestens noch den PS VR2-PC Adapter besorgen, also lassen wir das erstmal. Bringt das für die Playsi raus, bitte.\nAnsonsten wohl Crimson Desert. Es sah auf den ersten Blick zumindest ein wenig nach Dragon's Dogma aus. Also vom Feeling her. Kampfsystem und so. Bin gespannt. Aber auch nicht Day 1, Dragon's Dogma 2 schlummert noch immer unangespielt in der Bibi.\nSumerian Six sieht auch ganz gut aus für Freunde vom guten alten Commandos... aber ratet mal, genau. Wie wäre es stattdessen mal mit einem Titel von Mimimi aus der Sammlung.\nAnsonsten hoffe ich, Screamer (damals ja Bleifuß, jetzt aber deutlich anders) macht irgendwie Spaß und vielleicht auch die Mega Man Star Force Legacy Collection. Noch nie von der Reihe gehört. Star Force? Wat?\nSerien und Filme k.a., Amazon Prime irgendwas wohl? Für mehr Abos habe ich keine Lust. Oder endlich mit Battlestar auf BD anfangen, was ich schon ne Weile wollte.\nBei den Büchern beginne ich wohl mit Bas Kasts Ernährungskompass. So ein bisschen Stoff zur Motivation in Richtung gesunderem Ernährungsverhalten"
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "F1 25",
+            "category": "game"
+          },
+          {
+            "title": "Landwirtschafts-Simulator 25",
+            "category": "game"
+          },
+          {
+            "title": "Der Astronaut",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "KampfPlauze",
+        "items": [
+          {
+            "title": "Islets",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Resident Evil Requiem",
+            "category": "game"
+          },
+          {
+            "title": "Gelbe Briefe",
+            "category": "film_series"
+          },
+          {
+            "title": "Marty Supreme",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "Monster",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Maestro84",
+        "items": [
+          {
+            "title": "World of Warcraft Midnight",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Shake_s_beer",
+        "items": [
+          {
+            "title": "Crimson Desert",
+            "category": "game"
+          },
+          {
+            "title": "Greedfall 2",
+            "category": "game"
+          },
+          {
+            "title": "The Outer Worlds 2",
+            "category": "game"
+          },
+          {
+            "title": "Fallout S2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Flooraimer",
+        "items": [
+          {
+            "title": "Scrubs Reboot",
+            "category": "film_series"
+          },
+          {
+            "title": "Esoteric Ebb",
+            "category": "game"
+          },
+          {
+            "title": "Slay the Spire 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "Hollow Knight: Silksong",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Keppel",
+        "items": [
+          {
+            "title": "Scrubs Reboot",
+            "category": "film_series"
+          },
+          {
+            "title": "Daredevil: Born Again S2",
+            "category": "film_series"
+          },
+          {
+            "title": "World of Warcraft Midnight",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "Resident Evil Requiem",
+            "category": "game"
+          },
+          {
+            "title": "Death Stranding 2",
+            "category": "game"
+          },
+          {
+            "title": "Crimson Desert",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "Shrinking",
+            "category": "film_series"
+          },
+          {
+            "title": "Slow Horses",
+            "category": "film_series"
+          },
+          {
+            "title": "Scrubs Reboot",
+            "category": "film_series"
+          },
+          {
+            "title": "Crimson Desert",
+            "category": "game"
+          },
+          {
+            "title": "Death Stranding 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "mrkhfloppy",
+        "items": [
+          {
+            "title": "Replaced",
+            "category": "game"
+          },
+          {
+            "title": "Daredevil: Born Again S2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Calmon",
+        "items": [
+          {
+            "title": "Slay the Spire 2",
+            "category": "game"
+          },
+          {
+            "title": "The Bazaar",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Thomas Schmitz",
+        "items": [
+          {
+            "title": "The Pitt S2",
+            "category": "film_series"
+          },
+          {
+            "title": "Succession",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Bruno Lawrie",
+        "items": [
+          {
+            "title": "Fallout S2",
+            "category": "film_series"
+          },
+          {
+            "title": "Resident Evil Requiem",
+            "category": "game"
+          },
+          {
+            "title": "Kathy Rain",
+            "category": "game"
+          },
+          {
+            "title": "Death Stranding 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "Der Astronaut",
+            "category": "film_series"
+          },
+          {
+            "title": "Stargate SG-1",
+            "category": "film_series"
+          },
+          {
+            "title": "Scrubs Reboot",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Juuunior",
+        "items": [
+          {
+            "title": "Billions",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Wuslon",
+        "items": [
+          {
+            "title": "Dungeon Crawler Carl",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Q-Bert",
+        "items": [
+          {
+            "title": "Dungeon Crawler Carl Buch 8",
+            "category": "misc"
+          },
+          {
+            "title": "Operation Bounce House",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Project Hail Mary",
+            "category": "film_series"
+          },
+          {
+            "title": "Good Luck Have Fun Don't Die",
+            "category": "film_series"
+          },
+          {
+            "title": "Strange New Worlds S3",
+            "category": "film_series"
+          },
+          {
+            "title": "Dexter: Resurrection",
+            "category": "film_series"
+          },
+          {
+            "title": "The Substance",
+            "category": "film_series"
+          },
+          {
+            "title": "Kraftklub Konzert",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "MicBass",
+        "items": [
+          {
+            "title": "Fallout S2",
+            "category": "film_series"
+          },
+          {
+            "title": "Divide & Conquer Mod für Medieval 2 Total War",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "sneaker23",
+        "items": [
+          {
+            "title": "Night Agent S3",
+            "category": "film_series"
+          },
+          {
+            "title": "Karnivool Konzert",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "AlexCartman",
+        "items": [
+          {
+            "title": "The Expanse",
+            "category": "film_series"
+          },
+          {
+            "title": "Persona 3 FES",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Funatic",
+        "items": [
+          {
+            "title": "A Knight of the Seven Kingdoms",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Baumkuchen",
+        "items": [
+          {
+            "title": "Crimson Desert",
+            "category": "game"
+          },
+          {
+            "title": "Sumerian Six",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Game of Thrones": {
         "count": 1,
@@ -62927,10 +64110,11 @@
         ]
       },
       "Succession": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:Thomas Schmitz"
         ]
       },
       "Battletech Extended Tactics": {
@@ -62941,12 +64125,16 @@
         ]
       },
       "Crimson Desert": {
-        "count": 3,
+        "count": 7,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz",
           "editor:jörg_langer",
-          "editor:kai_schmidt"
+          "editor:hagen_gehritz",
+          "editor:kai_schmidt",
+          "user:Shake_s_beer",
+          "user:Moe90",
+          "user:Alain",
+          "user:Baumkuchen"
         ]
       },
       "Battlestar Galactica": {
@@ -63016,8 +64204,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun"
         ]
       },
       "Days Gone": {
@@ -63031,8 +64219,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun"
         ]
       },
       "Bleifuss": {
@@ -63057,10 +64245,12 @@
         ]
       },
       "Der Astronaut": {
-        "count": 1,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Crizzo",
+          "user:Sokar"
         ]
       },
       "Andy Weir": {
@@ -63094,7 +64284,7 @@
       },
       "Sandra Hüller": {
         "count": 2,
-        "category": "film_series",
+        "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
           "editor:christian_burtchen"
@@ -63199,10 +64389,11 @@
         ]
       },
       "Project Hail Mary": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen"
+          "editor:christian_burtchen",
+          "user:Ganon"
         ]
       },
       "The Paradise,": {
@@ -63337,6 +64528,298 @@
         "mentioners": [
           "editor:michael_hengst"
         ]
+      },
+      "F1 25": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Landwirtschafts-Simulator 25": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Islets": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:KampfPlauze"
+        ]
+      },
+      "Resident Evil Requiem": {
+        "count": 3,
+        "category": "game",
+        "mentioners": [
+          "user:Green Yoshi",
+          "user:Moe90",
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Gelbe Briefe": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Marty Supreme": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Monster": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Danywilde"
+        ]
+      },
+      "World of Warcraft Midnight": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Maestro84",
+          "user:Keppel"
+        ]
+      },
+      "Greedfall 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Shake_s_beer"
+        ]
+      },
+      "The Outer Worlds 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Shake_s_beer"
+        ]
+      },
+      "Fallout S2": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "user:Shake_s_beer",
+          "user:Bruno Lawrie",
+          "user:MicBass"
+        ]
+      },
+      "Scrubs Reboot": {
+        "count": 4,
+        "category": "film_series",
+        "mentioners": [
+          "user:Flooraimer",
+          "user:Keppel",
+          "user:Alain",
+          "user:Sokar"
+        ]
+      },
+      "Esoteric Ebb": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Flooraimer"
+        ]
+      },
+      "Slay the Spire 2": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Flooraimer",
+          "user:Calmon"
+        ]
+      },
+      "Hollow Knight: Silksong": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Daredevil: Born Again S2": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Keppel",
+          "user:mrkhfloppy"
+        ]
+      },
+      "Death Stranding 2": {
+        "count": 3,
+        "category": "game",
+        "mentioners": [
+          "user:Moe90",
+          "user:Alain",
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Shrinking": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Slow Horses": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Replaced": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:mrkhfloppy"
+        ]
+      },
+      "The Bazaar": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Calmon"
+        ]
+      },
+      "The Pitt S2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Thomas Schmitz"
+        ]
+      },
+      "Kathy Rain": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Stargate SG-1": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Billions": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Juuunior"
+        ]
+      },
+      "Dungeon Crawler Carl": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Wuslon"
+        ]
+      },
+      "Dungeon Crawler Carl Buch 8": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Q-Bert"
+        ]
+      },
+      "Operation Bounce House": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Q-Bert"
+        ]
+      },
+      "Good Luck Have Fun Don't Die": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Strange New Worlds S3": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Dexter: Resurrection": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "The Substance": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Kraftklub Konzert": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Divide & Conquer Mod für Medieval 2 Total War": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:MicBass"
+        ]
+      },
+      "Night Agent S3": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:sneaker23"
+        ]
+      },
+      "Karnivool Konzert": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:sneaker23"
+        ]
+      },
+      "The Expanse": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Persona 3 FES": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "A Knight of the Seven Kingdoms": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Funatic"
+        ]
+      },
+      "Sumerian Six": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Baumkuchen"
+        ]
       }
     }
   },
@@ -63344,7 +64827,7 @@
     "month": "2026-04",
     "url": "/news/342446/darauf-freut-sich-die-redaktion-im-april-2026",
     "title": "Darauf freut sich die Redaktion im... April 2026",
-    "last_updated": "2026-05-27T19:44:23Z",
+    "last_updated": "2026-05-27T21:27:53Z",
     "comment_count": 57,
     "editors": [
       {
@@ -63776,7 +65259,479 @@
         "text": "Replaced werde ich morgen Abend gleich mal anspielen. ;)"
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "Bruno Lawrie",
+        "items": [
+          {
+            "title": "Crimson Desert",
+            "category": "game"
+          },
+          {
+            "title": "Resident Evil Requiem",
+            "category": "game"
+          },
+          {
+            "title": "Death Stranding 2",
+            "category": "game"
+          },
+          {
+            "title": "Stromberg Kinofilm",
+            "category": "film_series"
+          },
+          {
+            "title": "Der Astronaut",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "For All Mankind",
+            "category": "film_series"
+          },
+          {
+            "title": "Shrinking",
+            "category": "film_series"
+          },
+          {
+            "title": "GameNative",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Q-Bert",
+        "items": [
+          {
+            "title": "Xenonauts 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Olphas",
+        "items": [
+          {
+            "title": "Saros",
+            "category": "game"
+          },
+          {
+            "title": "Pragmata",
+            "category": "game"
+          },
+          {
+            "title": "Samson",
+            "category": "game"
+          },
+          {
+            "title": "Beef S2",
+            "category": "film_series"
+          },
+          {
+            "title": "From S4",
+            "category": "film_series"
+          },
+          {
+            "title": "Project Hail Mary",
+            "category": "film_series"
+          },
+          {
+            "title": "Ready or Not - Here I Come",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Funatic",
+        "items": [
+          {
+            "title": "Slay the Spire 2",
+            "category": "game"
+          },
+          {
+            "title": "Super Mario Galaxy Film",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "Commandos Origins DLC",
+            "category": "game"
+          },
+          {
+            "title": "Der Astronaut",
+            "category": "film_series"
+          },
+          {
+            "title": "Crooks S2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Pragmata",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Flooraimer",
+        "items": [
+          {
+            "title": "Xenonauts 2",
+            "category": "game"
+          },
+          {
+            "title": "Samson",
+            "category": "game"
+          },
+          {
+            "title": "Saros",
+            "category": "game"
+          },
+          {
+            "title": "Scrubs Reboot",
+            "category": "film_series"
+          },
+          {
+            "title": "Malcolm in the Middle: Life's Still Unfair",
+            "category": "film_series"
+          },
+          {
+            "title": "Lee Cronin's The Mummy",
+            "category": "film_series"
+          },
+          {
+            "title": "Michael Jackson Biopic",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Super Mario Galaxy Film",
+            "category": "film_series"
+          },
+          {
+            "title": "Project Hail Mary",
+            "category": "film_series"
+          },
+          {
+            "title": "Kill Bill: The Whole Bloody Affair",
+            "category": "film_series"
+          },
+          {
+            "title": "Malcolm in the Middle: Life's Still Unfair",
+            "category": "film_series"
+          },
+          {
+            "title": "Daredevil: Born Again S2",
+            "category": "film_series"
+          },
+          {
+            "title": "Saros",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Berndor",
+        "items": [
+          {
+            "title": "Saros",
+            "category": "game"
+          },
+          {
+            "title": "Crimson Desert",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "Scrubs Reboot",
+            "category": "film_series"
+          },
+          {
+            "title": "Stargate SG-1",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Enrico Pallazzo",
+        "items": [
+          {
+            "title": "A Knight of the Seven Kingdoms",
+            "category": "film_series"
+          },
+          {
+            "title": "Watchmen",
+            "category": "film_series"
+          },
+          {
+            "title": "Westworld",
+            "category": "film_series"
+          },
+          {
+            "title": "Kingdom Come Deliverance 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "duchess",
+        "items": [
+          {
+            "title": "Death Stranding 2",
+            "category": "game"
+          },
+          {
+            "title": "Kingdom Come Deliverance 1",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "Pragmata",
+            "category": "game"
+          },
+          {
+            "title": "Saros",
+            "category": "game"
+          },
+          {
+            "title": "The Pitt S2",
+            "category": "film_series"
+          },
+          {
+            "title": "Der Astronaut",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Hannes Herrmann",
+        "items": [
+          {
+            "title": "Crimson Desert",
+            "category": "game"
+          },
+          {
+            "title": "Screamer",
+            "category": "game"
+          },
+          {
+            "title": "Slay the Spire 2",
+            "category": "game"
+          },
+          {
+            "title": "Mewgenics",
+            "category": "game"
+          },
+          {
+            "title": "Saros",
+            "category": "game"
+          },
+          {
+            "title": "Red Cliff",
+            "category": "film_series"
+          },
+          {
+            "title": "Project Hail Mary",
+            "category": "film_series"
+          },
+          {
+            "title": "Super Mario Galaxy Film",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "John of Gaunt",
+        "items": [
+          {
+            "title": "Fallout S2",
+            "category": "film_series"
+          },
+          {
+            "title": "Scrubs Reboot",
+            "category": "film_series"
+          },
+          {
+            "title": "Super Meat Boy 3D",
+            "category": "game"
+          },
+          {
+            "title": "Hades 2",
+            "category": "game"
+          },
+          {
+            "title": "Pragmata",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "DerBesserwisser",
+        "items": [
+          {
+            "title": "Scrubs Reboot",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Henmann",
+        "items": [
+          {
+            "title": "Project Hail Mary",
+            "category": "film_series"
+          },
+          {
+            "title": "Scrubs Reboot",
+            "category": "film_series"
+          },
+          {
+            "title": "Malcolm in the Middle: Life's Still Unfair",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "Baudolino",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Maestro84",
+        "items": [
+          {
+            "title": "Super Mario Galaxy Film",
+            "category": "film_series"
+          },
+          {
+            "title": "Der Astronaut",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "sneaker23",
+        "items": [
+          {
+            "title": "Karnivool Konzert",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "AlexCartman",
+        "items": [
+          {
+            "title": "Persona 3 FES",
+            "category": "game"
+          },
+          {
+            "title": "Rivers of London",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Gucky",
+        "items": [
+          {
+            "title": "Star Wars: Maul - Shadow Lord",
+            "category": "film_series"
+          },
+          {
+            "title": "Spider-Noir",
+            "category": "film_series"
+          },
+          {
+            "title": "Super Mario Galaxy Film",
+            "category": "film_series"
+          },
+          {
+            "title": "How to Make a Killing",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Thomas Schmitz",
+        "items": [
+          {
+            "title": "Kingdom Come Deliverance 2",
+            "category": "game"
+          },
+          {
+            "title": "Super Mario Galaxy Film",
+            "category": "film_series"
+          },
+          {
+            "title": "Kill Bill: The Whole Bloody Affair",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "KampfPlauze",
+        "items": [
+          {
+            "title": "Super Mario Galaxy Film",
+            "category": "film_series"
+          },
+          {
+            "title": "Scrubs Reboot",
+            "category": "film_series"
+          },
+          {
+            "title": "Malcolm in the Middle: Life's Still Unfair",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Klexter",
+        "items": [
+          {
+            "title": "The Pitt S2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Maverick",
+        "items": [
+          {
+            "title": "Replaced",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "BattleStar Galactica": {
         "count": 1,
@@ -63801,13 +65756,19 @@
         ]
       },
       "Saros": {
-        "count": 4,
+        "count": 10,
         "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
           "editor:hagen_gehritz",
           "editor:jörg_langer",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Berndor",
+          "user:Flooraimer",
+          "user:Ganon",
+          "user:Hannes Herrmann",
+          "user:Moe90",
+          "user:Olphas"
         ]
       },
       "Caggtus": {
@@ -63861,12 +65822,16 @@
         ]
       },
       "Pragmata": {
-        "count": 3,
-        "category": "film_series",
+        "count": 7,
+        "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
           "editor:hagen_gehritz",
-          "editor:kai_schmidt"
+          "editor:kai_schmidt",
+          "user:Green Yoshi",
+          "user:John of Gaunt",
+          "user:Moe90",
+          "user:Olphas"
         ]
       },
       "Returnal": {
@@ -63878,10 +65843,11 @@
         ]
       },
       "Replaced": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "user:Maverick"
         ]
       },
       "Batman - Arkham Asylum": {
@@ -63913,17 +65879,28 @@
         ]
       },
       "Super Mario Galaxy Film": {
-        "count": 1,
+        "count": 8,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Funatic",
+          "user:Ganon",
+          "user:Gucky",
+          "user:Hannes Herrmann",
+          "user:KampfPlauze",
+          "user:Maestro84",
+          "user:Thomas Schmitz"
         ]
       },
       "Malcolm in the Middle: Life's Still Unfair": {
-        "count": 1,
+        "count": 5,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Flooraimer",
+          "user:Ganon",
+          "user:Henmann",
+          "user:KampfPlauze"
         ]
       },
       "Justin Berfield": {
@@ -64019,10 +65996,12 @@
         ]
       },
       "Kill Bill: The Whole Bloody Affair": {
-        "count": 1,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:kai_schmidt"
+          "editor:kai_schmidt",
+          "user:Ganon",
+          "user:Thomas Schmitz"
         ]
       },
       "Daredevil: Born Again": {
@@ -64047,10 +66026,14 @@
         ]
       },
       "Der Astronaut": {
-        "count": 1,
+        "count": 5,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen"
+          "editor:christian_burtchen",
+          "user:Bruno Lawrie",
+          "user:Crizzo",
+          "user:Maestro84",
+          "user:Moe90"
         ]
       },
       "The Pitt": {
@@ -64157,6 +66140,302 @@
         "mentioners": [
           "editor:michael_hengst"
         ]
+      },
+      "Crimson Desert": {
+        "count": 3,
+        "category": "game",
+        "mentioners": [
+          "user:Berndor",
+          "user:Bruno Lawrie",
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Resident Evil Requiem": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Death Stranding 2": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie",
+          "user:duchess"
+        ]
+      },
+      "Stromberg Kinofilm": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "For All Mankind": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Shrinking": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "GameNative": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Xenonauts 2": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Flooraimer",
+          "user:Q-Bert"
+        ]
+      },
+      "Samson": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Flooraimer",
+          "user:Olphas"
+        ]
+      },
+      "Beef S2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Olphas"
+        ]
+      },
+      "From S4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Olphas"
+        ]
+      },
+      "Project Hail Mary": {
+        "count": 4,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon",
+          "user:Hannes Herrmann",
+          "user:Henmann",
+          "user:Olphas"
+        ]
+      },
+      "Ready or Not - Here I Come": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Olphas"
+        ]
+      },
+      "Slay the Spire 2": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Funatic",
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Commandos Origins DLC": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Crooks S2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Scrubs Reboot": {
+        "count": 6,
+        "category": "film_series",
+        "mentioners": [
+          "user:DerBesserwisser",
+          "user:Flooraimer",
+          "user:Henmann",
+          "user:John of Gaunt",
+          "user:KampfPlauze",
+          "user:Sokar"
+        ]
+      },
+      "Lee Cronin's The Mummy": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Flooraimer"
+        ]
+      },
+      "Michael Jackson Biopic": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Flooraimer"
+        ]
+      },
+      "Daredevil: Born Again S2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Stargate SG-1": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "A Knight of the Seven Kingdoms": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Enrico Pallazzo"
+        ]
+      },
+      "Watchmen": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Enrico Pallazzo"
+        ]
+      },
+      "Westworld": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Enrico Pallazzo"
+        ]
+      },
+      "Kingdom Come Deliverance 2": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Enrico Pallazzo",
+          "user:Thomas Schmitz"
+        ]
+      },
+      "Kingdom Come Deliverance 1": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:duchess"
+        ]
+      },
+      "The Pitt S2": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Klexter",
+          "user:Moe90"
+        ]
+      },
+      "Screamer": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Mewgenics": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Red Cliff": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Fallout S2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:John of Gaunt"
+        ]
+      },
+      "Super Meat Boy 3D": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:John of Gaunt"
+        ]
+      },
+      "Hades 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:John of Gaunt"
+        ]
+      },
+      "Baudolino": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Danywilde"
+        ]
+      },
+      "Karnivool Konzert": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:sneaker23"
+        ]
+      },
+      "Persona 3 FES": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Rivers of London": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Star Wars: Maul - Shadow Lord": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Gucky"
+        ]
+      },
+      "Spider-Noir": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Gucky"
+        ]
+      },
+      "How to Make a Killing": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Gucky"
+        ]
       }
     }
   },
@@ -64164,7 +66443,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-05-27T19:44:24Z",
+    "last_updated": "2026-05-27T21:27:52Z",
     "comment_count": 62,
     "editors": [
       {

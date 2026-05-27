@@ -1,10 +1,10 @@
-"""Tests for scrape_freude.py — inline HTML fixtures, no network calls."""
+"""Tests for scrape_vorfreude.py — inline HTML fixtures, no network calls."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'scripts'))
 
 import json
 import pytest
-from scrape_freude import parse_article, parse_comments, compute_stats
+from scrape_vorfreude import parse_article, parse_comments, compute_stats
 
 
 # ---------------------------------------------------------------------------
@@ -409,7 +409,7 @@ def test_compute_stats_editor_key_format():
 # discover_articles tests (basic URL construction)
 # ---------------------------------------------------------------------------
 
-from scrape_freude import _month_to_slug, _slug_to_month, _scrape_article
+from scrape_vorfreude import _month_to_slug, _slug_to_month, _scrape_article
 
 
 # ---------------------------------------------------------------------------
@@ -462,11 +462,11 @@ def test_scrape_article_skips_reenrichment_when_count_unchanged_and_user_items_e
         enrich_called.append(True)
         return [{"username": "alice", "items": [{"title": "New Item", "category": "game"}]}]
 
-    import scrape_freude
-    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch_html)
-    monkeypatch.setattr(scrape_freude, "_count_comments_in_html", _fake_count_comments)
-    monkeypatch.setattr(scrape_freude, "parse_comments", _fake_parse_comments)
-    monkeypatch.setattr(scrape_freude, "enrich_comments", _fake_enrich_comments)
+    import scrape_vorfreude
+    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch_html)
+    monkeypatch.setattr(scrape_vorfreude, "_count_comments_in_html", _fake_count_comments)
+    monkeypatch.setattr(scrape_vorfreude, "parse_comments", _fake_parse_comments)
+    monkeypatch.setattr(scrape_vorfreude, "enrich_comments", _fake_enrich_comments)
 
     result = _scrape_article(
         url="/news/99999/x",
@@ -500,11 +500,11 @@ def test_scrape_article_does_reenrich_when_count_unchanged_but_user_items_empty(
         enrich_called.append(True)
         return [{"username": "alice", "items": [{"title": "My Game", "category": "game"}]}]
 
-    import scrape_freude
-    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch_html)
-    monkeypatch.setattr(scrape_freude, "_count_comments_in_html", _fake_count_comments)
-    monkeypatch.setattr(scrape_freude, "parse_comments", _fake_parse_comments)
-    monkeypatch.setattr(scrape_freude, "enrich_comments", _fake_enrich_comments)
+    import scrape_vorfreude
+    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch_html)
+    monkeypatch.setattr(scrape_vorfreude, "_count_comments_in_html", _fake_count_comments)
+    monkeypatch.setattr(scrape_vorfreude, "parse_comments", _fake_parse_comments)
+    monkeypatch.setattr(scrape_vorfreude, "enrich_comments", _fake_enrich_comments)
 
     _scrape_article(
         url="/news/99999/x",
@@ -536,11 +536,11 @@ def test_scrape_article_does_reenrich_when_count_changed(monkeypatch):
         enrich_called.append(True)
         return [{"username": "alice", "items": [{"title": "My Game", "category": "game"}]}]
 
-    import scrape_freude
-    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch_html)
-    monkeypatch.setattr(scrape_freude, "_count_comments_in_html", _fake_count_comments)
-    monkeypatch.setattr(scrape_freude, "parse_comments", _fake_parse_comments)
-    monkeypatch.setattr(scrape_freude, "enrich_comments", _fake_enrich_comments)
+    import scrape_vorfreude
+    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch_html)
+    monkeypatch.setattr(scrape_vorfreude, "_count_comments_in_html", _fake_count_comments)
+    monkeypatch.setattr(scrape_vorfreude, "parse_comments", _fake_parse_comments)
+    monkeypatch.setattr(scrape_vorfreude, "enrich_comments", _fake_enrich_comments)
 
     _scrape_article(
         url="/news/99999/x",
@@ -584,7 +584,7 @@ def test_slug_to_month_dezember():
 # discover_articles tests — sitemap-based implementation
 # ---------------------------------------------------------------------------
 
-from scrape_freude import discover_articles
+from scrape_vorfreude import discover_articles
 
 SITEMAP_HTML_MODERN = """<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -608,7 +608,7 @@ SITEMAP_HTML_WITH_FALSE_POSITIVES = """<?xml version="1.0" encoding="UTF-8"?>
 
 def test_discover_articles_finds_modern_format_urls(monkeypatch):
     """discover_articles extracts month/url correctly from modern -im-{month}-{year} URLs."""
-    import scrape_freude
+    import scrape_vorfreude
 
     call_count = [0]
 
@@ -619,7 +619,7 @@ def test_discover_articles_finds_modern_format_urls(monkeypatch):
             return SITEMAP_HTML_MODERN
         return "<urlset></urlset>"
 
-    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch)
+    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch)
 
     result = discover_articles(set(), backfill=False)
 
@@ -632,7 +632,7 @@ def test_discover_articles_finds_modern_format_urls(monkeypatch):
 
 def test_discover_articles_correct_url_paths(monkeypatch):
     """discover_articles stores relative URL paths (not full absolute URLs)."""
-    import scrape_freude
+    import scrape_vorfreude
 
     call_count = [0]
 
@@ -642,7 +642,7 @@ def test_discover_articles_correct_url_paths(monkeypatch):
             return SITEMAP_HTML_MODERN
         return "<urlset></urlset>"
 
-    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch)
+    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch)
 
     result = discover_articles(set(), backfill=False)
 
@@ -656,7 +656,7 @@ def test_discover_articles_correct_url_paths(monkeypatch):
 
 def test_discover_articles_filters_false_positives(monkeypatch):
     """discover_articles excludes press-release and special articles with 'darauf' in slug."""
-    import scrape_freude
+    import scrape_vorfreude
 
     call_count = [0]
 
@@ -666,7 +666,7 @@ def test_discover_articles_filters_false_positives(monkeypatch):
             return SITEMAP_HTML_WITH_FALSE_POSITIVES
         return "<urlset></urlset>"
 
-    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch)
+    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch)
 
     result = discover_articles(set(), backfill=False)
 
@@ -685,7 +685,7 @@ def test_discover_articles_filters_false_positives(monkeypatch):
 
 def test_discover_articles_excludes_existing_months(monkeypatch):
     """discover_articles filters out months already in existing_months."""
-    import scrape_freude
+    import scrape_vorfreude
 
     call_count = [0]
 
@@ -695,7 +695,7 @@ def test_discover_articles_excludes_existing_months(monkeypatch):
             return SITEMAP_HTML_MODERN
         return "<urlset></urlset>"
 
-    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch)
+    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch)
 
     existing = {"2026-05", "2026-04"}
     result = discover_articles(existing, backfill=False)

@@ -3894,31 +3894,31 @@ month,item_title,category,count,editor_count,user_count
 2026-02,Yakuza 3 Kiwami,game,1,1,0
 2026-02,Menace,game,1,1,0
 2026-02,Total War Attila,game,1,1,0
-2026-02,Dawnless,game,1,1,0
+2026-02,Dawnless,game,2,1,1
 2026-02,Jahresvorschau-Twitch-Event,misc,1,1,0
 2026-02,Battletech Extended Tactics,misc,1,1,0
 2026-02,Ghosts,film_series,1,1,0
-2026-02,Return to Silent Hill,film_series,3,3,0
+2026-02,Return to Silent Hill,film_series,5,3,2
 2026-02,Christophe Gans,film_series,1,1,0
 2026-02,Pakt der Wölfe,film_series,1,1,0
 2026-02,Scream 5,film_series,1,1,0
-2026-02,Scream 7,film_series,2,2,0
+2026-02,Scream 7,film_series,5,2,3
 2026-02,Yakuza Kiwami 3 & Dark Ties,game,1,1,0
 2026-02,Suda 51,game,1,1,0
-2026-02,Romeo is a Dead Man,game,1,1,0
+2026-02,Romeo is a Dead Man,game,3,1,2
 2026-02,Resident Evil,game,1,1,0
 2026-02,Reanimal,game,2,2,0
 2026-02,Andrzej Sapkowski,misc,1,1,0
 2026-02,NYPD Blue,film_series,1,1,0
-2026-02,Nioh 3,game,2,2,0
-2026-02,Resident Evil Requiem,game,1,1,0
+2026-02,Nioh 3,game,4,2,2
+2026-02,Resident Evil Requiem,game,4,1,3
 2026-02,Little Nightmares 3,game,1,1,0
 2026-02,Little Nightmares,game,1,1,0
 2026-02,Resident Evil Requiem,game,1,1,0
 2026-02,Resident Evil 6,game,1,1,0
 2026-02,The Franchise,film_series,1,1,0
 2026-02,Armando Iannucci,film_series,1,1,0
-2026-02,The Pitt,film_series,1,1,0
+2026-02,The Pitt,film_series,2,1,1
 2026-02,Noah Wyle,film_series,1,1,0
 2026-02,Take That,film_series,1,1,0
 2026-02,Disciples - Domination,game,1,1,0
@@ -3936,11 +3936,62 @@ month,item_title,category,count,editor_count,user_count
 2026-02,Tales of Berseria,game,1,1,0
 2026-02,Dragon Quest 7,game,1,1,0
 2026-02,Mario Tennis Fever,game,1,1,0
+2026-02,Lincoln Lawyer,film_series,1,0,1
+2026-02,Nier Automata,game,1,0,1
+2026-02,No Other Choice,film_series,3,0,3
+2026-02,Stranger Things S5,film_series,1,0,1
+2026-02,Fallout S2,film_series,7,0,7
+2026-02,Dexter: Resurrection,film_series,1,0,1
+2026-02,Welcome to Derry,film_series,1,0,1
+2026-02,A Knight of Seven Kingdoms,film_series,1,0,1
+2026-02,Heated Rivalry,film_series,1,0,1
+2026-02,Marty Supreme,film_series,2,0,2
+2026-02,Styx: Blades of Greed,game,1,0,1
+2026-02,Hallow Road,film_series,1,0,1
+2026-02,Good Fortune,film_series,1,0,1
+2026-02,Indiana Jones und der große Kreis,game,2,0,2
+2026-02,Slay the Spire,game,1,0,1
+2026-02,Hades 2,game,1,0,1
+2026-02,Resident Evil 9,game,1,0,1
+2026-02,Stranger Things,film_series,1,0,1
+2026-02,Voxel-Mods für Doom und Duke Nukem 3D,game,1,0,1
+2026-02,Aces of Thunder,game,1,0,1
+2026-02,Shrinking S3,film_series,2,0,2
+2026-02,Dragon Quest VII,game,2,0,2
+2026-02,Baphomets Fluch - Die Spiegel der Finsternis: Reforged,game,1,0,1
+2026-02,GEE Magazin,misc,1,0,1
+2026-02,Retro Gamer,misc,1,0,1
+2026-02,Winter Olympics 2026,misc,1,0,1
+2026-02,Watch Dogs,game,1,0,1
+2026-02,Transformers,film_series,1,0,1
+2026-02,Jack Reacher 2,film_series,1,0,1
+2026-02,Rivers of London,misc,1,0,1
+2026-02,Tulsa King S3,film_series,1,0,1
+2026-02,The Witcher,film_series,1,0,1
+2026-02,Hollow Knight,game,1,0,1
+2026-02,Mafia,game,1,0,1
+2026-02,Donkey Kong Bananza,game,1,0,1
+2026-02,Clair-Obscur Soundtrack,misc,1,0,1
+2026-02,Cylia Journey,game,1,0,1
+2026-02,Lost Judgment,game,1,0,1
+2026-02,Yakuza Kiwami 3,game,2,0,2
+2026-02,Stalker 2,game,1,0,1
+2026-02,Trails in the Sky 1st Chapter,game,1,0,1
+2026-02,Shadow Warrior 3,game,1,0,1
+2026-02,Evil West,game,1,0,1
+2026-02,Send Help,film_series,1,0,1
+2026-02,Rings of Power S2,film_series,1,0,1
+2026-02,EU5 Patch 1.1,game,1,0,1
+2026-02,Enshrouded,game,1,0,1
+2026-02,Warhammer 40.000: Space Marine 2,game,1,0,1
+2026-02,Call of Duty Black Ops 7 Season 2,game,1,0,1
+2026-02,Stargate SG-1,film_series,1,0,1
+2026-02,Stories of Your Life and Others,misc,1,0,1
 2026-03,Game of Thrones,film_series,1,1,0
 2026-03,White Lotus,film_series,1,1,0
-2026-03,Succession,film_series,1,1,0
+2026-03,Succession,film_series,2,1,1
 2026-03,Battletech Extended Tactics,game,1,1,0
-2026-03,Crimson Desert,game,3,3,0
+2026-03,Crimson Desert,game,7,3,4
 2026-03,Battlestar Galactica,game,1,1,0
 2026-03,– Scattered Hopes,game,1,1,0
 2026-03,GamersGlobal,misc,1,1,0
@@ -3956,12 +4007,12 @@ month,item_title,category,count,editor_count,user_count
 2026-03,Bleifuss,game,1,1,0
 2026-03,Letsplay Days Gone Remastered,misc,1,1,0
 2026-03,Spieleperlentaucher,misc,1,1,0
-2026-03,Der Astronaut,film_series,1,1,0
+2026-03,Der Astronaut,film_series,3,1,2
 2026-03,Andy Weir,film_series,1,1,0
 2026-03,Der Marsianer,film_series,1,1,0
 2026-03,Ridley Scott,film_series,1,1,0
 2026-03,Ryan Gosling,film_series,2,2,0
-2026-03,Sandra Hüller,film_series,2,2,0
+2026-03,Sandra Hüller,game,2,2,0
 2026-03,The Burbs,game,1,1,0
 2026-03,Meine teuflischen Nachbarn,game,1,1,0
 2026-03,Pokémon Pokopia,game,1,1,0
@@ -3976,7 +4027,7 @@ month,item_title,category,count,editor_count,user_count
 2026-03,Starship Troopers - Ultimate Bug War,game,1,1,0
 2026-03,James Rollins,misc,1,1,0
 2026-03,Indiana Jones,misc,1,1,0
-2026-03,Project Hail Mary,film_series,1,1,0
+2026-03,Project Hail Mary,film_series,2,1,1
 2026-03,"The Paradise,",film_series,1,1,0
 2026-03,The Pitt,film_series,1,1,0
 2026-03,Heated Rivalry,film_series,1,1,0
@@ -3996,10 +4047,50 @@ month,item_title,category,count,editor_count,user_count
 2026-03,Matt Dinniman,film_series,1,1,0
 2026-03,Brandon Sanderson,film_series,1,1,0
 2026-03,Richard Swan,film_series,1,1,0
+2026-03,F1 25,game,1,0,1
+2026-03,Landwirtschafts-Simulator 25,game,1,0,1
+2026-03,Islets,game,1,0,1
+2026-03,Resident Evil Requiem,game,3,0,3
+2026-03,Gelbe Briefe,film_series,1,0,1
+2026-03,Marty Supreme,film_series,1,0,1
+2026-03,Monster,film_series,1,0,1
+2026-03,World of Warcraft Midnight,game,2,0,2
+2026-03,Greedfall 2,game,1,0,1
+2026-03,The Outer Worlds 2,game,1,0,1
+2026-03,Fallout S2,film_series,3,0,3
+2026-03,Scrubs Reboot,film_series,4,0,4
+2026-03,Esoteric Ebb,game,1,0,1
+2026-03,Slay the Spire 2,game,2,0,2
+2026-03,Hollow Knight: Silksong,game,1,0,1
+2026-03,Daredevil: Born Again S2,film_series,2,0,2
+2026-03,Death Stranding 2,game,3,0,3
+2026-03,Shrinking,film_series,1,0,1
+2026-03,Slow Horses,film_series,1,0,1
+2026-03,Replaced,game,1,0,1
+2026-03,The Bazaar,game,1,0,1
+2026-03,The Pitt S2,film_series,1,0,1
+2026-03,Kathy Rain,game,1,0,1
+2026-03,Stargate SG-1,film_series,1,0,1
+2026-03,Billions,film_series,1,0,1
+2026-03,Dungeon Crawler Carl,misc,1,0,1
+2026-03,Dungeon Crawler Carl Buch 8,misc,1,0,1
+2026-03,Operation Bounce House,misc,1,0,1
+2026-03,Good Luck Have Fun Don't Die,film_series,1,0,1
+2026-03,Strange New Worlds S3,film_series,1,0,1
+2026-03,Dexter: Resurrection,film_series,1,0,1
+2026-03,The Substance,film_series,1,0,1
+2026-03,Kraftklub Konzert,misc,1,0,1
+2026-03,Divide & Conquer Mod für Medieval 2 Total War,game,1,0,1
+2026-03,Night Agent S3,film_series,1,0,1
+2026-03,Karnivool Konzert,misc,1,0,1
+2026-03,The Expanse,film_series,1,0,1
+2026-03,Persona 3 FES,game,1,0,1
+2026-03,A Knight of the Seven Kingdoms,film_series,1,0,1
+2026-03,Sumerian Six,game,1,0,1
 2026-04,BattleStar Galactica,film_series,1,1,0
 2026-04,Masters of Albion,game,2,2,0
 2026-04,The Expanse – Osiris Reborn,game,1,1,0
-2026-04,Saros,game,4,4,0
+2026-04,Saros,game,10,4,6
 2026-04,Caggtus,misc,2,2,0
 2026-04,Scrubs,film_series,1,1,0
 2026-04,John C. McGinley,game,1,1,0
@@ -4007,15 +4098,15 @@ month,item_title,category,count,editor_count,user_count
 2026-04,Donald Faison,game,1,1,0
 2026-04,"Fake Doctors, Real Friends",game,1,1,0
 2026-04,Michael,game,1,1,0
-2026-04,Pragmata,film_series,3,3,0
+2026-04,Pragmata,game,7,3,4
 2026-04,Returnal,game,2,2,0
-2026-04,Replaced,game,1,1,0
+2026-04,Replaced,game,2,1,1
 2026-04,Batman - Arkham Asylum,game,1,1,0
 2026-04,Monkey Island,misc,1,1,0
 2026-04,Ninja Sex Party,misc,1,1,0
 2026-04,Super Mario Bros. Film,film_series,1,1,0
-2026-04,Super Mario Galaxy Film,film_series,1,1,0
-2026-04,Malcolm in the Middle: Life's Still Unfair,film_series,1,1,0
+2026-04,Super Mario Galaxy Film,film_series,8,1,7
+2026-04,Malcolm in the Middle: Life's Still Unfair,film_series,5,1,4
 2026-04,Justin Berfield,film_series,1,1,0
 2026-04,Fuller House,film_series,1,1,0
 2026-04,Bodo Wolf,film_series,1,1,0
@@ -4029,11 +4120,11 @@ month,item_title,category,count,editor_count,user_count
 2026-04,Der Unsichtbare,film_series,1,1,0
 2026-04,Wolf Man,film_series,1,1,0
 2026-04,Evil Dead Rise,film_series,1,1,0
-2026-04,Kill Bill: The Whole Bloody Affair,film_series,1,1,0
+2026-04,Kill Bill: The Whole Bloody Affair,film_series,3,1,2
 2026-04,Daredevil: Born Again,film_series,1,1,0
 2026-04,Masters of the Universe - Dragon Pearl of Destruction,game,1,1,0
 2026-04,Barbenheimer,film_series,1,1,0
-2026-04,Der Astronaut,film_series,1,1,0
+2026-04,Der Astronaut,film_series,5,1,4
 2026-04,The Pitt,film_series,1,1,0
 2026-04,Paradise,film_series,1,1,0
 2026-04,High Potential,film_series,1,1,0
@@ -4049,6 +4140,46 @@ month,item_title,category,count,editor_count,user_count
 2026-04,Cleaning Up!,game,1,1,0
 2026-04,Outbound,game,1,1,0
 2026-04,Matthew Quirk,misc,1,1,0
+2026-04,Crimson Desert,game,3,0,3
+2026-04,Resident Evil Requiem,game,1,0,1
+2026-04,Death Stranding 2,game,2,0,2
+2026-04,Stromberg Kinofilm,film_series,1,0,1
+2026-04,For All Mankind,film_series,1,0,1
+2026-04,Shrinking,film_series,1,0,1
+2026-04,GameNative,game,1,0,1
+2026-04,Xenonauts 2,game,2,0,2
+2026-04,Samson,game,2,0,2
+2026-04,Beef S2,film_series,1,0,1
+2026-04,From S4,film_series,1,0,1
+2026-04,Project Hail Mary,film_series,4,0,4
+2026-04,Ready or Not - Here I Come,film_series,1,0,1
+2026-04,Slay the Spire 2,game,2,0,2
+2026-04,Commandos Origins DLC,game,1,0,1
+2026-04,Crooks S2,film_series,1,0,1
+2026-04,Scrubs Reboot,film_series,6,0,6
+2026-04,Lee Cronin's The Mummy,film_series,1,0,1
+2026-04,Michael Jackson Biopic,film_series,1,0,1
+2026-04,Daredevil: Born Again S2,film_series,1,0,1
+2026-04,Stargate SG-1,film_series,1,0,1
+2026-04,A Knight of the Seven Kingdoms,film_series,1,0,1
+2026-04,Watchmen,film_series,1,0,1
+2026-04,Westworld,film_series,1,0,1
+2026-04,Kingdom Come Deliverance 2,game,2,0,2
+2026-04,Kingdom Come Deliverance 1,game,1,0,1
+2026-04,The Pitt S2,film_series,2,0,2
+2026-04,Screamer,game,1,0,1
+2026-04,Mewgenics,game,1,0,1
+2026-04,Red Cliff,film_series,1,0,1
+2026-04,Fallout S2,film_series,1,0,1
+2026-04,Super Meat Boy 3D,game,1,0,1
+2026-04,Hades 2,game,1,0,1
+2026-04,Baudolino,misc,1,0,1
+2026-04,Karnivool Konzert,misc,1,0,1
+2026-04,Persona 3 FES,game,1,0,1
+2026-04,Rivers of London,misc,1,0,1
+2026-04,Star Wars: Maul - Shadow Lord,film_series,1,0,1
+2026-04,Spider-Noir,film_series,1,0,1
+2026-04,How to Make a Killing,film_series,1,0,1
 2026-05,The Boroughs,film_series,1,1,0
 2026-05,Cocoon,film_series,1,1,0
 2026-05,Battlestar Galactica – Scattered Hopes,game,2,1,1
