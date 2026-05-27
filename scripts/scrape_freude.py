@@ -333,64 +333,64 @@ def _count_comments_in_html(html: str) -> int:
 # ---------------------------------------------------------------------------
 
 def discover_articles(existing_months: set[str], backfill: bool = False) -> list[dict]:
-    """Discover new 'Darauf freut sich' articles.
+    """Discover new 'Darauf freut sich' articles via GG sitemaps.
 
     Returns list of ``{"url": str, "month": "YYYY-MM"}`` for months not in
     *existing_months*.
     """
-    found: dict[str, str] = {}  # month → url
+    found: dict[str, str] = {}  # month → url (relative path)
 
-    title_pattern = re.compile(
-        r"darauf\s+freut\s+sich\s+die\s+redaktion", re.IGNORECASE
-    )
-    url_pattern = re.compile(
-        r"/news/(\d+)/darauf-freut-sich-die-redaktion-im-([a-z]+)-(\d{4})"
-    )
+    sitemap_urls = [
+        "https://www.gamersglobal.de/sitemaps_grouped/sitemap_news0.xml",
+        "https://www.gamersglobal.de/sitemaps_grouped/sitemap_news1.xml",
+    ]
 
-    def _try_url(candidate_url: str) -> dict | None:
-        """Try fetching a candidate URL; return {url, month} on success."""
+    # URL slug fragments that identify "Darauf freut sich" articles
+    _INCLUDE_PATTERNS = [
+        "darauf-freut-sich-die-redaktion-im-",
+        "darauf-freuen-wir-uns-im-",
+        "der-gg-monat-darauf-freut-sich-die-redaktion-im-",
+    ]
+
+    for sitemap_url in sitemap_urls:
         try:
-            html = fetch_html(candidate_url)
-            soup = BeautifulSoup(html, "html.parser")
-            h1 = soup.select_one("div.node-news h1.title") or soup.select_one("h1.title")
-            if not h1:
-                return None
-            title_text = h1.get_text(strip=True)
-            if not title_pattern.search(title_text):
-                return None
-            month = _detect_month_from_title(title_text)
-            if not month:
-                return None
-            actual_url = candidate_url
-            # Normalise to relative path
-            if actual_url.startswith(BASE_URL):
-                actual_url = actual_url[len(BASE_URL):]
-            return {"url": actual_url, "month": month}
-        except Exception:
-            return None
+            html = fetch_html(sitemap_url)
+        except Exception as e:
+            print(f"  [warn] sitemap fetch failed: {e}")
+            continue
 
-    def _scan_page(html: str) -> None:
-        """Scan HTML for links matching the vorfreude URL pattern."""
-        for m in url_pattern.finditer(html):
-            slug_month = m.group(2)
-            year = m.group(3)
-            month = _slug_to_month(slug_month, year)
-            url = m.group(0)
-            if month and month not in found:
-                found[month] = url
+        for url in re.findall(r'<loc>(https?://[^<]+)</loc>', html):
+            path = url.replace("https://www.gamersglobal.de", "").replace("http://www.gamersglobal.de", "")
 
-    # 1. Try the GG news listing pages for pattern matches
-    max_pages = 50 if backfill else 5
-    for page in range(max_pages):
+            # Must match one of the known article URL patterns
+            if not any(p in path for p in _INCLUDE_PATTERNS):
+                continue
+
+            # Modern format: /news/{id}/...-im-{month_slug}-{year}[/]
+            m = re.search(r'-im-([a-z]+)-(\d{4})(?:/|$)', path)
+            if m:
+                month = _slug_to_month(m.group(1), m.group(2))
+                if month and month not in found:
+                    found[month] = path
+                continue
+
+            # Old format: no year in URL slug — fetch the page to get year
+            # Only do this during backfill to avoid many HTTP requests on normal runs
+            if backfill:
+                if path not in found.values():
+                    found[f"needs_fetch:{path}"] = path
+
+    # Handle articles that need fetching for year/month detection (backfill only)
+    needs_fetch = {k: v for k, v in found.items() if k.startswith("needs_fetch:")}
+    for key, path in needs_fetch.items():
+        del found[key]
         try:
-            html = fetch_html(f"/news?page={page}")
-            _scan_page(html)
-            soup = BeautifulSoup(html, "html.parser")
-            # Stop paginating if no more pages
-            if not soup.select_one("li.pager-next"):
-                break
-        except Exception:
-            break
+            html = fetch_html(path)
+            parsed = parse_article(html)
+            if parsed["month"] and parsed["month"] not in found:
+                found[parsed["month"]] = path
+        except Exception as e:
+            print(f"  [warn] failed to fetch {path}: {e}")
 
     # Filter out already-known months
     result = [

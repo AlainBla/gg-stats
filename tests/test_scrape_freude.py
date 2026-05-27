@@ -578,3 +578,130 @@ def test_slug_to_month_maerz():
 
 def test_slug_to_month_dezember():
     assert _slug_to_month("dezember", "2025") == "2025-12"
+
+
+# ---------------------------------------------------------------------------
+# discover_articles tests — sitemap-based implementation
+# ---------------------------------------------------------------------------
+
+from scrape_freude import discover_articles
+
+SITEMAP_HTML_MODERN = """<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.gamersglobal.de/news/12345/darauf-freut-sich-die-redaktion-im-mai-2026</loc></url>
+  <url><loc>https://www.gamersglobal.de/news/11111/darauf-freut-sich-die-redaktion-im-april-2026</loc></url>
+  <url><loc>https://www.gamersglobal.de/news/10000/darauf-freuen-wir-uns-im-januar-2017</loc></url>
+  <url><loc>https://www.gamersglobal.de/news/9000/der-gg-monat-darauf-freut-sich-die-redaktion-im-maerz-2015</loc></url>
+</urlset>
+"""
+
+SITEMAP_HTML_WITH_FALSE_POSITIVES = """<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.gamersglobal.de/news/12345/darauf-freut-sich-die-redaktion-im-mai-2026</loc></url>
+  <url><loc>https://www.gamersglobal.de/news/8888/back-to-the-future-30th-anniversary-edition-ab-13-oktober-kurz-darauf-auch-als-boxversio</loc></url>
+  <url><loc>https://www.gamersglobal.de/news/7777/pm-clan-n-wartet-darauf-dass-ihr-beitretet</loc></url>
+  <url><loc>https://www.gamersglobal.de/news/6666/10-jahre-gg-darauf-freut-sich-die-redaktion-das-spielen-unsere-user-alle-folgen</loc></url>
+  <url><loc>https://www.gamersglobal.de/news/5555/wochenend-lesetipps-darauf-freut-sich-der-redakteur</loc></url>
+</urlset>
+"""
+
+
+def test_discover_articles_finds_modern_format_urls(monkeypatch):
+    """discover_articles extracts month/url correctly from modern -im-{month}-{year} URLs."""
+    import scrape_freude
+
+    call_count = [0]
+
+    def _fake_fetch(url):
+        call_count[0] += 1
+        # Return first sitemap for first call, empty for second
+        if call_count[0] == 1:
+            return SITEMAP_HTML_MODERN
+        return "<urlset></urlset>"
+
+    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch)
+
+    result = discover_articles(set(), backfill=False)
+
+    months_found = {r["month"] for r in result}
+    assert "2026-05" in months_found
+    assert "2026-04" in months_found
+    assert "2017-01" in months_found
+    assert "2015-03" in months_found
+
+
+def test_discover_articles_correct_url_paths(monkeypatch):
+    """discover_articles stores relative URL paths (not full absolute URLs)."""
+    import scrape_freude
+
+    call_count = [0]
+
+    def _fake_fetch(url):
+        call_count[0] += 1
+        if call_count[0] == 1:
+            return SITEMAP_HTML_MODERN
+        return "<urlset></urlset>"
+
+    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch)
+
+    result = discover_articles(set(), backfill=False)
+
+    urls = [r["url"] for r in result]
+    # All URLs should be relative paths (no domain)
+    for url in urls:
+        assert not url.startswith("http"), f"Expected relative path, got: {url}"
+    # Verify a specific path
+    assert any("/news/12345/darauf-freut-sich-die-redaktion-im-mai-2026" in u for u in urls)
+
+
+def test_discover_articles_filters_false_positives(monkeypatch):
+    """discover_articles excludes press-release and special articles with 'darauf' in slug."""
+    import scrape_freude
+
+    call_count = [0]
+
+    def _fake_fetch(url):
+        call_count[0] += 1
+        if call_count[0] == 1:
+            return SITEMAP_HTML_WITH_FALSE_POSITIVES
+        return "<urlset></urlset>"
+
+    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch)
+
+    result = discover_articles(set(), backfill=False)
+
+    months_found = {r["month"] for r in result}
+    urls_found = [r["url"] for r in result]
+
+    # Only the valid article should be found
+    assert "2026-05" in months_found
+    assert len(result) == 1, f"Expected 1 result, got {len(result)}: {urls_found}"
+
+    # False positives must be excluded
+    assert not any("back-to-the-future" in u for u in urls_found)
+    assert not any("pm-clan-n-wartet" in u for u in urls_found)
+    assert not any("10-jahre-gg" in u for u in urls_found)
+
+
+def test_discover_articles_excludes_existing_months(monkeypatch):
+    """discover_articles filters out months already in existing_months."""
+    import scrape_freude
+
+    call_count = [0]
+
+    def _fake_fetch(url):
+        call_count[0] += 1
+        if call_count[0] == 1:
+            return SITEMAP_HTML_MODERN
+        return "<urlset></urlset>"
+
+    monkeypatch.setattr(scrape_freude, "fetch_html", _fake_fetch)
+
+    existing = {"2026-05", "2026-04"}
+    result = discover_articles(existing, backfill=False)
+
+    months_found = {r["month"] for r in result}
+    assert "2026-05" not in months_found
+    assert "2026-04" not in months_found
+    # Older months still present
+    assert "2017-01" in months_found
