@@ -333,31 +333,52 @@
       canvasEl.style.display = 'block';
 
       const labels     = top.map(i => i.name);
-      const counts     = top.map(i => i.count);
-      const colors     = top.map(i => categoryColor(i.category));
       const mentioners = top.map(i => i.mentioners);
+      const stacked    = sourceFilter === 'all';
 
-      const chartData = {
-        labels,
-        datasets: [{
+      let datasets;
+      if (stacked) {
+        datasets = [
+          {
+            label: 'Redakteure',
+            data:            top.map(i => i.mentioners.filter(m => m.startsWith('editor:')).length),
+            backgroundColor: top.map(i => categoryColor(i.category)),
+            borderWidth: 0,
+          },
+          {
+            label: 'User',
+            data:            top.map(i => i.mentioners.filter(m => m.startsWith('user:')).length),
+            backgroundColor: top.map(i => categoryColor(i.category) + '70'),
+            borderWidth: 0,
+          },
+        ];
+      } else {
+        const colors = top.map(i => categoryColor(i.category));
+        datasets = [{
           label: 'Nennungen',
-          data: counts,
+          data:            top.map(i => i.count),
           backgroundColor: colors,
-          borderColor: colors.map(c => c + 'cc'),
+          borderColor:     colors.map(c => c + 'cc'),
           borderWidth: 1,
-        }],
-      };
+        }];
+      }
+
+      const chartData = { labels, datasets };
 
       const chartOptions = {
         indexAxis: 'y',
         responsive: true,
         plugins: {
-          legend: { display: false },
+          legend: { display: stacked, labels: { color: '#999', boxWidth: 14 } },
           tooltip: {
             callbacks: {
               afterLabel: (ctx) => {
-                const list = mentioners[ctx.dataIndex];
-                if (!list || list.length === 0) return '';
+                const all = mentioners[ctx.dataIndex];
+                if (!all || all.length === 0) return '';
+                const prefix = ctx.dataset.label === 'Redakteure' ? 'editor:'
+                             : ctx.dataset.label === 'User'       ? 'user:'
+                             : null;
+                const list = prefix ? all.filter(m => m.startsWith(prefix)) : all;
                 return list.map(formatMentioner).join('\n');
               },
             },
@@ -365,11 +386,13 @@
         },
         scales: {
           x: {
+            stacked,
             ticks: { color: '#999' },
             grid:  { color: '#333' },
             title: { display: true, text: 'Nennungen', color: '#999' },
           },
           y: {
+            stacked,
             ticks: { color: '#ccc', font: { size: 12 } },
             grid:  { color: '#333' },
           },
