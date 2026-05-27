@@ -64529,7 +64529,7 @@
             "category": "film_series"
           },
           {
-            "title": "Yakuza 3 Kiwami",
+            "title": "Yakuza Kiwami 3",
             "category": "game"
           },
           {
@@ -64582,7 +64582,7 @@
             "category": "film_series"
           },
           {
-            "title": "Yakuza Kiwami 3 & Dark Ties",
+            "title": "Yakuza Kiwami 3",
             "category": "game"
           },
           {
@@ -65356,11 +65356,14 @@
           "editor:jörg_langer"
         ]
       },
-      "Yakuza 3 Kiwami": {
-        "count": 1,
+      "Yakuza Kiwami 3": {
+        "count": 4,
         "category": "game",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:hagen_gehritz",
+          "user:Alain",
+          "user:Olphas"
         ]
       },
       "Menace": {
@@ -65447,13 +65450,6 @@
           "user:JensJuchzer",
           "user:funrox",
           "user:KampfPlauze"
-        ]
-      },
-      "Yakuza Kiwami 3 & Dark Ties": {
-        "count": 1,
-        "category": "game",
-        "mentioners": [
-          "editor:hagen_gehritz"
         ]
       },
       "Suda 51": {
@@ -65966,14 +65962,6 @@
         "category": "game",
         "mentioners": [
           "user:Alain"
-        ]
-      },
-      "Yakuza Kiwami 3": {
-        "count": 2,
-        "category": "game",
-        "mentioners": [
-          "user:Alain",
-          "user:Olphas"
         ]
       },
       "Stalker 2": {
@@ -67594,7 +67582,7 @@
     "month": "2026-04",
     "url": "/news/342446/darauf-freut-sich-die-redaktion-im-april-2026",
     "title": "Darauf freut sich die Redaktion im... April 2026",
-    "last_updated": "2026-05-27T22:06:08Z",
+    "last_updated": "2026-05-27T22:10:14Z",
     "comment_count": 57,
     "editors": [
       {
@@ -69210,7 +69198,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-05-27T22:06:07Z",
+    "last_updated": "2026-05-27T22:10:14Z",
     "comment_count": 62,
     "editors": [
       {
