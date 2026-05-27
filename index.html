@@ -48,7 +48,16 @@
       color: #999;
       margin-bottom: 1rem;
     }
-    #vorfreude-month-filter,
+    #vorfreude-month-select {
+      background: #222;
+      color: #ccc;
+      border: 1px solid #555;
+      border-radius: 4px;
+      padding: 0.3rem 0.6rem;
+      font-size: 0.9rem;
+      margin-bottom: 0.75rem;
+      cursor: pointer;
+    }
     #vorfreude-category-filter,
     #vorfreude-editor-filter {
       display: flex;
@@ -102,7 +111,7 @@
   <div id="vorfreude-section">
     <h2>Vorfreude-Radar</h2>
     <p id="vorfreude-subtitle"></p>
-    <div id="vorfreude-month-filter"></div>
+    <select id="vorfreude-month-select"></select>
     <div id="vorfreude-category-filter"></div>
     <div id="vorfreude-editor-filter"></div>
     <div id="vorfreude-chart-container">
@@ -394,22 +403,20 @@
       let activeCategoryFilter = 'all';
       let editorsOnly      = false;
 
-      // Month buttons
-      const monthFilterEl = document.getElementById('vorfreude-month-filter');
+      // Month dropdown
+      const monthSelectEl = document.getElementById('vorfreude-month-select');
       months.forEach(m => {
-        const btn = document.createElement('button');
-        btn.className = 'year-btn' + (m.month === activeMonth ? ' active' : '');
-        btn.textContent = m.month;
-        btn.dataset.month = m.month;
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('#vorfreude-month-filter .year-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          activeMonth = m.month;
-          const md = months.find(x => x.month === activeMonth);
-          document.getElementById('vorfreude-subtitle').textContent = md ? md.title : '';
-          renderVorfreudeChart(md, activeCategoryFilter, editorsOnly);
-        });
-        monthFilterEl.appendChild(btn);
+        const opt = document.createElement('option');
+        opt.value = m.month;
+        opt.textContent = m.month;
+        if (m.month === activeMonth) opt.selected = true;
+        monthSelectEl.appendChild(opt);
+      });
+      monthSelectEl.addEventListener('change', () => {
+        activeMonth = monthSelectEl.value;
+        const md = months.find(x => x.month === activeMonth);
+        document.getElementById('vorfreude-subtitle').textContent = md ? md.title : '';
+        renderVorfreudeChart(md, activeCategoryFilter, editorsOnly);
       });
 
       // Subtitle
