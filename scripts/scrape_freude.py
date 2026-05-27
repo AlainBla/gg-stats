@@ -392,26 +392,6 @@ def discover_articles(existing_months: set[str], backfill: bool = False) -> list
         except Exception:
             break
 
-    # 2. Try known URL pattern for current and recent months
-    now = datetime.now(timezone.utc)
-    months_to_try = []
-    for delta in range(0, 3 if not backfill else 24):
-        # Walk backwards month by month
-        year = now.year
-        month_num = now.month - delta
-        while month_num <= 0:
-            month_num += 12
-            year -= 1
-        months_to_try.append(f"{year}-{month_num:02d}")
-
-    for month_str in months_to_try:
-        if month_str in found:
-            continue
-        slug = _month_to_slug(month_str)
-        # We don't know the numeric ID, so we can't construct the full URL.
-        # Skip — we rely on page scan above for ID discovery.
-        # (The spec allows "try known URL pattern" but GG URLs require the numeric ID.)
-
     # Filter out already-known months
     result = [
         {"url": url, "month": month}
@@ -503,7 +483,10 @@ def enrich_comments(
 def _load_data(path: Path) -> list[dict]:
     if path.exists() and path.stat().st_size > 4:
         with open(path, encoding="utf-8") as f:
-            return json.load(f)
+            data = json.load(f)
+            if not isinstance(data, list):
+                return []
+            return data
     return []
 
 
@@ -571,7 +554,7 @@ def _scrape_article(url: str, existing_entry: dict | None, enrich: bool, api_key
         # else: keep freshly parsed comments_raw so enrichment can still run
     else:
         editors = parsed["editors"]
-        user_items = existing_entry.get("user_items", []) if existing_entry else []
+        user_items = []
         print(
             f"    parsed {len(editors)} editors, {comment_count} comments",
             flush=True,
