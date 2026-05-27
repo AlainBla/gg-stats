@@ -129,26 +129,34 @@
     async function main() {
       const polls = await fetch('data/polls.json').then(r => r.json());
 
+      const currentYear = new Date().getFullYear().toString();
       const years = [...new Set(
         polls.filter(p => p.date).map(p => p.date.slice(0, 4))
-      )].sort();
+      )].sort((a, b) => b - a);
 
-      const currentYear = new Date().getFullYear().toString();
       if (!years.length) {
         document.getElementById('year-filter').textContent = 'Keine Daten vorhanden.';
         return;
       }
-      let activeYear = years.includes(currentYear) ? 'YtD' : years[years.length - 1];
+
+      const hasCurrentYear = years.includes(currentYear);
+      const ytdLabel = `YtD (${currentYear})`;
+      let activeYear = hasCurrentYear ? 'YtD' : years[0];
 
       const container = document.getElementById('year-filter');
-      ['YtD', ...years].forEach(y => {
+      const buttons = hasCurrentYear
+        ? [ytdLabel, ...years.filter(y => y !== currentYear)]
+        : years;
+
+      buttons.forEach(y => {
+        const key = y === ytdLabel ? 'YtD' : y;
         const btn = document.createElement('button');
-        btn.className = 'year-btn' + (y === activeYear ? ' active' : '');
+        btn.className = 'year-btn' + (key === activeYear ? ' active' : '');
         btn.textContent = y;
         btn.addEventListener('click', () => {
           document.querySelectorAll('.year-btn').forEach(b => b.classList.remove('active'));
           btn.classList.add('active');
-          activeYear = y;
+          activeYear = key;
           renderChart(polls, activeYear);
         });
         container.appendChild(btn);
