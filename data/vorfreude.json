@@ -65014,7 +65014,7 @@
           },
           {
             "title": "Pragmata",
-            "category": "film_series"
+            "category": "game"
           }
         ]
       },
@@ -65744,8 +65744,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:christian_burtchen",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:christian_burtchen"
         ]
       },
       "The Expanse – Osiris Reborn": {
@@ -65759,24 +65759,24 @@
         "count": 10,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:hagen_gehritz",
           "editor:jörg_langer",
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun",
           "editor:michael_hengst",
-          "user:Berndor",
+          "user:Olphas",
           "user:Flooraimer",
           "user:Ganon",
-          "user:Hannes Herrmann",
+          "user:Berndor",
           "user:Moe90",
-          "user:Olphas"
+          "user:Hannes Herrmann"
         ]
       },
       "Caggtus": {
         "count": 2,
         "category": "misc",
         "mentioners": [
-          "editor:hagen_gehritz",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:hagen_gehritz"
         ]
       },
       "Scrubs": {
@@ -65825,21 +65825,21 @@
         "count": 7,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:hagen_gehritz",
+          "editor:benjamin_braun",
           "editor:kai_schmidt",
+          "user:Olphas",
           "user:Green Yoshi",
-          "user:John of Gaunt",
           "user:Moe90",
-          "user:Olphas"
+          "user:John of Gaunt"
         ]
       },
       "Returnal": {
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun"
         ]
       },
       "Replaced": {
@@ -65885,11 +65885,11 @@
           "editor:benjamin_braun",
           "user:Funatic",
           "user:Ganon",
-          "user:Gucky",
           "user:Hannes Herrmann",
-          "user:KampfPlauze",
           "user:Maestro84",
-          "user:Thomas Schmitz"
+          "user:Gucky",
+          "user:Thomas Schmitz",
+          "user:KampfPlauze"
         ]
       },
       "Malcolm in the Middle: Life's Still Unfair": {
@@ -66032,8 +66032,8 @@
           "editor:christian_burtchen",
           "user:Bruno Lawrie",
           "user:Crizzo",
-          "user:Maestro84",
-          "user:Moe90"
+          "user:Moe90",
+          "user:Maestro84"
         ]
       },
       "The Pitt": {
@@ -66145,8 +66145,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "user:Berndor",
           "user:Bruno Lawrie",
+          "user:Berndor",
           "user:Hannes Herrmann"
         ]
       },
@@ -66197,16 +66197,16 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Flooraimer",
-          "user:Q-Bert"
+          "user:Q-Bert",
+          "user:Flooraimer"
         ]
       },
       "Samson": {
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Flooraimer",
-          "user:Olphas"
+          "user:Olphas",
+          "user:Flooraimer"
         ]
       },
       "Beef S2": {
@@ -66227,10 +66227,10 @@
         "count": 4,
         "category": "film_series",
         "mentioners": [
+          "user:Olphas",
           "user:Ganon",
           "user:Hannes Herrmann",
-          "user:Henmann",
-          "user:Olphas"
+          "user:Henmann"
         ]
       },
       "Ready or Not - Here I Come": {
@@ -66266,12 +66266,12 @@
         "count": 6,
         "category": "film_series",
         "mentioners": [
-          "user:DerBesserwisser",
           "user:Flooraimer",
-          "user:Henmann",
+          "user:Sokar",
           "user:John of Gaunt",
-          "user:KampfPlauze",
-          "user:Sokar"
+          "user:DerBesserwisser",
+          "user:Henmann",
+          "user:KampfPlauze"
         ]
       },
       "Lee Cronin's The Mummy": {
@@ -66342,8 +66342,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "user:Klexter",
-          "user:Moe90"
+          "user:Moe90",
+          "user:Klexter"
         ]
       },
       "Screamer": {
