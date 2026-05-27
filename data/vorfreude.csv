@@ -2607,7 +2607,7 @@ month,item_title,category,count,editor_count,user_count
 2023-06,The Elder Scrolls Online,game,1,1,0
 2023-06,Revival -,game,1,1,0
 2023-06,Recolonization,game,1,1,0
-2023-06,Aliens - Dark Descent,game,1,1,0
+2023-06,Aliens: Dark Descent,game,1,1,0
 2023-06,Starfield,misc,1,1,0
 2023-07,Silo,film_series,1,1,0
 2023-07,Seven Kings Must Die,film_series,1,1,0
@@ -2615,7 +2615,7 @@ month,item_title,category,count,editor_count,user_count
 2023-07,The Witcher,film_series,2,2,0
 2023-07,Wartales,game,1,1,0
 2023-07,Jagged Alliance 3,game,1,1,0
-2023-07,Aliens - Dark Descent,game,1,1,0
+2023-07,Aliens: Dark Descent,game,1,1,0
 2023-07,Japandoku,misc,1,1,0
 2023-07,Aggretsuko,film_series,1,1,0
 2023-07,Record of Ragnarok,film_series,1,1,0
@@ -3029,30 +3029,52 @@ month,item_title,category,count,editor_count,user_count
 2024-06,Bad Boys - Ride or Die,film_series,1,1,0
 2024-06,Will Smiths,film_series,1,1,0
 2024-06,Scrubs,film_series,1,1,0
-2024-06,Elden Ring: Shadow of the Erdtree,game,1,1,0
+2024-06,Elden Ring: Shadow of the Erdtree,game,6,1,5
 2024-06,Still Wakes the Deep,game,1,1,0
 2024-06,Amnesia,game,1,1,0
 2024-06,A Machine for Pigs,game,1,1,0
 2024-06,Inside Out,film_series,1,1,0
-2024-06,The Boys,film_series,1,1,0
+2024-06,The Boys,film_series,2,1,1
 2024-06,Karl Urban,film_series,1,1,0
 2024-06,Jack Quaid,film_series,1,1,0
 2024-06,Star Wars,film_series,1,1,0
-2024-06,The Acolyte,film_series,1,1,0
-2024-06,House of the Dragon,film_series,1,1,0
-2024-06,Shin Megami Tensei 5: Vengeance,game,1,1,0
+2024-06,The Acolyte,film_series,3,1,2
+2024-06,House of the Dragon,film_series,4,1,3
+2024-06,Shin Megami Tensei 5: Vengeance,game,3,1,2
 2024-06,Luigi's Mansion,game,1,1,0
 2024-06,Luigi's Mansion 2 HD,game,1,1,0
 2024-06,Christopher Buehlman,misc,1,1,0
 2024-06,Adrian Tchaikovsky,misc,1,1,0
 2024-06,Charles Ardai,misc,1,1,0
 2024-06,Jennifer Blood,misc,1,1,0
-2024-06,Inside Out 2,film_series,1,1,0
+2024-06,Inside Out 2,film_series,2,1,1
 2024-06,Charmed,film_series,1,1,0
 2024-06,Heroes of Might and Magic 3,game,1,1,0
 2024-06,Destiny 2,game,1,1,0
 2024-06,Fallout - New Vegas,game,1,1,0
 2024-06,Night of the Rabbit,game,1,1,0
+2024-06,Ghost of Tsushima,game,1,0,1
+2024-06,Field of Glory: Kingdoms,game,1,0,1
+2024-06,Age of Wonders 4,game,1,0,1
+2024-06,Rock im Park,misc,1,0,1
+2024-06,EM 2024,misc,4,0,4
+2024-06,A Quiet Place: Day One,film_series,1,0,1
+2024-06,Baldur's Gate 3,game,1,0,1
+2024-06,Victoria 3: Sphere of Influence,game,1,0,1
+2024-06,French Open,misc,1,0,1
+2024-06,X4: Foundations,game,1,0,1
+2024-06,Dune: Part Two,film_series,1,0,1
+2024-06,Elite Dangerous,game,1,0,1
+2024-06,Mass Effect 2,game,1,0,1
+2024-06,Mayor of Kingstown,film_series,1,0,1
+2024-06,Paper Mario: Die Legende vom Äonentor,game,1,0,1
+2024-06,Green Day Konzert,misc,1,0,1
+2024-06,Bramble: The Mountain King,game,1,0,1
+2024-06,Animal Well,game,1,0,1
+2024-06,Shogun,film_series,1,0,1
+2024-06,StarCraft II,game,1,0,1
+2024-06,Stellaris,game,1,0,1
+2024-06,Smashing Pumpkins Konzert,misc,1,0,1
 2024-07,House of the Dragons Season 2,film_series,1,1,0
 2024-07,The Bear,film_series,2,2,0
 2024-07,Ultimate General: American Revolution,game,1,1,0
@@ -3065,8 +3087,8 @@ month,item_title,category,count,editor_count,user_count
 2024-07,Magical Delicacy,game,1,1,0
 2024-07,River City Girls 2,misc,1,1,0
 2024-07,Twister,film_series,1,1,0
-2024-07,Twisters,film_series,1,1,0
-2024-07,Deadpool & Wolverine,film_series,3,3,0
+2024-07,Twisters,film_series,2,1,1
+2024-07,Deadpool & Wolverine,film_series,6,3,3
 2024-07,Ryan Reynolds,film_series,1,1,0
 2024-07,Hugh Jackman,film_series,2,2,0
 2024-07,Batman,film_series,1,1,0
@@ -3079,17 +3101,42 @@ month,item_title,category,count,editor_count,user_count
 2024-07,Barbecue Showdown,film_series,1,1,0
 2024-07,Vikings,film_series,1,1,0
 2024-07,Vikings Valhalla,film_series,1,1,0
-2024-07,The Legend of Heroes - Trails Through Daybreak,game,1,1,0
+2024-07,The Legend of Heroes: Trails Through Daybreak,game,2,1,1
 2024-07,Cold Steel 3,game,1,1,0
 2024-07,Gamescom,misc,1,1,0
 2024-07,Murders in the Building,film_series,1,1,0
 2024-07,Stormgate,game,1,1,0
 2024-07,Kanes Rache,game,1,1,0
-2024-08,Vikings Valhalla,film_series,1,1,0
-2024-08,House of the Dragon,film_series,1,1,0
+2024-07,MaXXXine,film_series,1,0,1
+2024-07,Baldur's Gate 3,game,1,0,1
+2024-07,Demon's Souls,game,1,0,1
+2024-07,Final Fantasy XVI,game,1,0,1
+2024-07,Attack on Titan,film_series,1,0,1
+2024-07,Demon Slayer,film_series,1,0,1
+2024-07,Elden Ring: Shadow of the Erdtree,game,1,0,1
+2024-07,Alan Wake 2,game,2,0,2
+2024-07,TopSpin 2K25,game,1,0,1
+2024-07,Mass Effect 2,game,1,0,1
+2024-07,Elite Dangerous,game,1,0,1
+2024-07,The Orville,film_series,1,0,1
+2024-07,La Zona,film_series,1,0,1
+2024-07,American Arcadia,game,1,0,1
+2024-07,House of the Dragon,film_series,3,0,3
+2024-07,The Acolyte,film_series,2,0,2
+2024-07,Kinds of Kindness,film_series,1,0,1
+2024-07,Paper Mario: Die Legende vom Äonentor,game,1,0,1
+2024-07,Mayor of Kingstown,film_series,1,0,1
+2024-07,Cobra Kai,film_series,1,0,1
+2024-07,Ghost of Tsushima,game,1,0,1
+2024-07,Diplomatische Beziehungen,film_series,1,0,1
+2024-07,Gentlemen,film_series,1,0,1
+2024-07,Aliens: Dark Descent,game,1,0,1
+2024-07,Beverly Hills Cop: Axel F,film_series,1,0,1
+2024-08,Vikings Valhalla,film_series,2,1,1
+2024-08,House of the Dragon,film_series,2,1,1
 2024-08,Star Wars Outlaws,game,2,2,0
 2024-08,Ultima IV,game,1,1,0
-2024-08,Gamescom,misc,4,4,0
+2024-08,Gamescom,misc,5,4,1
 2024-08,Sam Lake,film_series,1,1,0
 2024-08,Longlegs,film_series,1,1,0
 2024-08,Nicolas Cage,film_series,1,1,0
@@ -3098,13 +3145,13 @@ month,item_title,category,count,editor_count,user_count
 2024-08,Famicom Detective Club,misc,1,1,0
 2024-08,Tequila & Bonetti,film_series,1,1,0
 2024-08,Jack Scalia,film_series,1,1,0
-2024-08,Black Myth - Wukong,game,1,1,0
+2024-08,Black Myth: Wukong,game,2,1,1
 2024-08,ederico Álvarez,film_series,1,1,0
-2024-08,Alien: Romulus,film_series,1,1,0
+2024-08,Alien: Romulus,film_series,4,1,3
 2024-08,Alien,film_series,1,1,0
 2024-08,Aliens,film_series,1,1,0
 2024-08,CaileeSpaney,film_series,1,1,0
-2024-08,Borderlands,film_series,2,2,0
+2024-08,Borderlands,film_series,3,2,1
 2024-08,Cate Blanchett,film_series,1,1,0
 2024-08,Jack Black,film_series,1,1,0
 2024-08,Kevin Hart,film_series,1,1,0
@@ -3115,10 +3162,25 @@ month,item_title,category,count,editor_count,user_count
 2024-08,BlackMyth -Wukong,game,1,1,0
 2024-08,VisionsofMana,game,1,1,0
 2024-08,Frederick Forsyth,misc,1,1,0
-2024-08,The Bear,film_series,1,1,0
+2024-08,The Bear,film_series,2,1,1
 2024-08,Only Murders in the Building,film_series,1,1,0
 2024-08,Heroes of Might and Magic 3,game,1,1,0
-2024-08,Star Wars: Outlaws,game,1,1,0
+2024-08,Star Wars: Outlaws,game,5,1,4
+2024-08,Baldur's Gate 3,game,1,0,1
+2024-08,Nintendo World Championships,game,1,0,1
+2024-08,Herr der Ringe: Ringe der Macht,film_series,3,0,3
+2024-08,Fabledom,game,1,0,1
+2024-08,God of War: Ragnarök,game,1,0,1
+2024-08,"Warhammer 40,000: Space Marine 2",game,1,0,1
+2024-08,Elite Dangerous,game,1,0,1
+2024-08,Mass Effect 2,game,1,0,1
+2024-08,Deadpool & Wolverine,film_series,1,0,1
+2024-08,Farming Simulator 22,game,1,0,1
+2024-08,F1 24,game,1,0,1
+2024-08,Dustborn,game,1,0,1
+2024-08,Visions of Mana,game,1,0,1
+2024-08,Time Bandits,film_series,1,0,1
+2024-08,Kleo,film_series,1,0,1
 2024-09,Alien Romulus,film_series,1,1,0
 2024-09,Skald,game,1,1,0
 2024-09,House of the Dragon,game,3,1,2
