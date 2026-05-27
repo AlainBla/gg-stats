@@ -80,6 +80,8 @@ def run_initial(data_path: str = str(DATA_PATH)) -> list[dict]:
     while True:
         html = fetch_html(f"/exklusiv/sonntagsfrage?page={page}")
         entries, has_next = parse_archive_page(html)
+        if not entries:
+            break
         for e in entries:
             detail = parse_poll_page(fetch_html(e["url"]))
             all_polls.append({
@@ -142,16 +144,19 @@ def run_incremental(data_path: str = str(DATA_PATH)) -> bool:
 
 
 def main() -> None:
-    with open(DATA_PATH, encoding="utf-8") as f:
-        existing = json.load(f)
-
-    if not existing:
+    if not DATA_PATH.exists() or DATA_PATH.stat().st_size <= 2:
         print("No data found — running initial full crawl …")
         run_initial()
     else:
-        print("Existing data found — running incremental update …")
-        changed = run_incremental()
-        print("Changed." if changed else "No changes.")
+        with open(DATA_PATH, encoding="utf-8") as f:
+            existing = json.load(f)
+        if not existing:
+            print("No data found — running initial full crawl …")
+            run_initial()
+        else:
+            print("Existing data found — running incremental update …")
+            changed = run_incremental()
+            print("Changed." if changed else "No changes.")
 
 
 if __name__ == "__main__":
