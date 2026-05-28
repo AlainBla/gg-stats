@@ -213,7 +213,7 @@ month,item_title,category,count,editor_count,user_count
 2018-08,Rome 2 - Total War,game,1,1,0
 2018-08,Attila,game,1,1,0
 2018-08,Japan-Dokus 2018,misc,1,1,0
-2018-08,Gamescom,game,3,3,0
+2018-08,Gamescom,misc,3,3,0
 2018-08,Disenchantment,film_series,2,2,0
 2018-08,Sauerkrautkoma,film_series,1,1,0
 2018-08,Bloodborne,game,1,1,0
@@ -1061,7 +1061,7 @@ month,item_title,category,count,editor_count,user_count
 2020-11,Watch Dogs,game,1,1,0
 2020-11,Dirt 5,game,1,1,0
 2020-11,XIII,game,1,1,0
-2020-11,Gamescom,game,1,1,0
+2020-11,Gamescom,misc,1,1,0
 2020-11,Monk,film_series,1,1,0
 2020-11,Assassins's Creed Valhalla,game,1,1,0
 2020-11,The Legend of Zelda - Breath of the Wild,game,1,1,0
@@ -2094,7 +2094,7 @@ month,item_title,category,count,editor_count,user_count
 2022-08,Two Point Campus,game,2,2,0
 2022-08,Saint's Row,game,1,1,0
 2022-08,Hard West 2,game,1,1,0
-2022-08,Gamescom,game,6,6,0
+2022-08,Gamescom,misc,6,6,0
 2022-08,Stranger Things,film_series,1,1,0
 2022-08,Food Wars,film_series,1,1,0
 2022-08,Jujutsu Kaisen,film_series,1,1,0
@@ -2215,7 +2215,7 @@ month,item_title,category,count,editor_count,user_count
 2022-10,George R. R. Martin,misc,1,1,0
 2022-10,Halloween Ends,film_series,1,1,0
 2022-10,Eine schrecklich nette Familie,film_series,1,1,0
-2022-10,Gamescom,game,1,1,0
+2022-10,Gamescom,misc,1,1,0
 2022-10,Black Adam,film_series,1,1,0
 2022-10,The Rock,film_series,1,1,0
 2022-10,Hellraiser,game,1,1,0
@@ -2495,7 +2495,7 @@ month,item_title,category,count,editor_count,user_count
 2023-04,Parker Lewis,film_series,1,1,0
 2023-04,Sledge Hammer,film_series,1,1,0
 2023-04,Super Mario,film_series,1,1,0
-2023-04,Ghostwire – Tokyo,game,1,1,0
+2023-04,GhostWire: Tokyo,game,1,1,0
 2023-04,Homefront - The Revolution,game,1,1,0
 2023-04,Star Wars Jedi: Survivor,game,1,1,0
 2023-04,Star Trek: Lower Decks,film_series,1,1,0
@@ -2609,13 +2609,13 @@ month,item_title,category,count,editor_count,user_count
 2023-06,Recolonization,game,1,1,0
 2023-06,Aliens: Dark Descent,game,1,1,0
 2023-06,Starfield,misc,1,1,0
-2023-07,Silo,film_series,1,1,0
+2023-07,Silo,film_series,2,1,1
 2023-07,Seven Kings Must Die,film_series,1,1,0
 2023-07,The Last Kingdom,film_series,1,1,0
 2023-07,The Witcher,film_series,2,2,0
 2023-07,Wartales,game,1,1,0
 2023-07,Jagged Alliance 3,game,1,1,0
-2023-07,Aliens: Dark Descent,game,1,1,0
+2023-07,Aliens: Dark Descent,game,2,1,1
 2023-07,Japandoku,misc,1,1,0
 2023-07,Aggretsuko,film_series,1,1,0
 2023-07,Record of Ragnarok,film_series,1,1,0
@@ -2624,7 +2624,7 @@ month,item_title,category,count,editor_count,user_count
 2023-07,Lisa,game,1,1,0
 2023-07,Existentially Challenged,misc,1,1,0
 2023-07,"Ben ""Yathzee"" Croshaw",misc,1,1,0
-2023-07,Indiana Jones und das Rad des Schicksals,film_series,2,2,0
+2023-07,Indiana Jones und das Rad des Schicksals,film_series,6,2,4
 2023-07,Harrison Ford,film_series,1,1,0
 2023-07,Rudi Völler,film_series,1,1,0
 2023-07,Spielberg,film_series,1,1,0
@@ -2638,7 +2638,7 @@ month,item_title,category,count,editor_count,user_count
 2023-07,Peter Graves,film_series,1,1,0
 2023-07,Mission Impossible 7,film_series,1,1,0
 2023-07,Christopher Nolans,film_series,1,1,0
-2023-07,Oppenheimer,film_series,1,1,0
+2023-07,Oppenheimer,film_series,4,1,3
 2023-07,Cillian Murphy,film_series,1,1,0
 2023-07,Marvel’s Secret Invasion,film_series,1,1,0
 2023-07,The Lincoln Lawyer,film_series,1,1,0
@@ -2656,13 +2656,27 @@ month,item_title,category,count,editor_count,user_count
 2023-07,Justified,film_series,1,1,0
 2023-07,Timothy Olyphant,game,1,1,0
 2023-07,Secret Invasion,game,1,1,0
-2023-07,Diablo 4,game,1,1,0
+2023-07,Diablo 4,game,2,1,1
 2023-07,Final Fantasy 16,game,1,1,0
 2023-07,The Expanse: A Telltale Series,game,1,1,0
+2023-07,The Witcher Staffel 3,film_series,3,0,3
+2023-07,Hogwarts Legacy,game,1,0,1
+2023-07,A Plague Tale: Requiem,game,1,0,1
+2023-07,Attack on Titan,film_series,1,0,1
+2023-07,One Piece,film_series,1,0,1
+2023-07,F1 23,game,1,0,1
+2023-07,Drive to Survive,film_series,1,0,1
+2023-07,Frauen-WM 2023,misc,1,0,1
+2023-07,Wimbledon,misc,1,0,1
+2023-07,Only Murders in the Building,film_series,1,0,1
+2023-07,Star Wars: Ahsoka,film_series,1,0,1
+2023-07,The Witcher 3: Blood & Wine,game,1,0,1
+2023-07,Far Cry 6,game,1,0,1
+2023-07,The Legend of Heroes: Trails into Reverie,game,1,0,1
 2023-08,The Witcher,film_series,1,1,0
-2023-08,Oppenheimer,film_series,2,2,0
+2023-08,Oppenheimer,film_series,4,2,2
 2023-08,The Bear,film_series,1,1,0
-2023-08,Baldur's Gate 3,game,4,4,0
+2023-08,Baldur's Gate 3,game,8,4,4
 2023-08,Blasphemous 2,game,2,2,0
 2023-08,Starfield,game,1,1,0
 2023-08,Gamescom 2023,misc,2,2,0
@@ -2673,7 +2687,7 @@ month,item_title,category,count,editor_count,user_count
 2023-08,Battletech,game,1,1,0
 2023-08,Wolfstride,game,1,1,0
 2023-08,En Garde! –,game,1,1,0
-2023-08,Gamescom,misc,3,3,0
+2023-08,Gamescom,misc,4,3,1
 2023-08,Games Convention,misc,1,1,0
 2023-08,Blue Beetle,film_series,1,1,0
 2023-08,Teenage Mutant Ninja Turtles - Mutant Mayhem,film_series,1,1,0
@@ -2681,14 +2695,14 @@ month,item_title,category,count,editor_count,user_count
 2023-08,Clone Wars,film_series,1,1,0
 2023-08,Star Wars,film_series,1,1,0
 2023-08,Rosario Dawson,film_series,1,1,0
-2023-08,Sea of Stars,game,2,2,0
+2023-08,Sea of Stars,game,3,2,1
 2023-08,Temi Oh,misc,1,1,0
 2023-08,"""Barbenheimer""",film_series,1,1,0
 2023-08,Only Murders in the Building,film_series,1,1,0
 2023-08,Drei Amigos,film_series,1,1,0
 2023-08,Killing Eve,film_series,1,1,0
 2023-08,Age of Empires 2 Definitive Edition,game,1,1,0
-2023-08,Stray Gods,game,1,1,0
+2023-08,Stray Gods,game,2,1,1
 2023-08,Ted Lasso,film_series,1,1,0
 2023-08,Silo,film_series,1,1,0
 2023-08,Tetris,film_series,1,1,0
@@ -2697,26 +2711,50 @@ month,item_title,category,count,editor_count,user_count
 2023-08,Baldur’s Gate 3,game,1,1,0
 2023-08,Fort Solis,game,1,1,0
 2023-08,Under The Waves,game,1,1,0
-2023-08,Immortals of Aveum,game,1,1,0
-2023-08,Atlas Fallen,game,1,1,0
+2023-08,Immortals of Aveum,game,2,1,1
+2023-08,Atlas Fallen,game,2,1,1
+2023-08,The Bear Staffel 2,film_series,1,0,1
+2023-08,Babylon 5: The Road Home,film_series,2,0,2
+2023-08,AEW All In,misc,1,0,1
+2023-08,Star Wars: Ahsoka,film_series,3,0,3
+2023-08,The Lincoln Lawyer,film_series,1,0,1
+2023-08,Shadow Gambit: The Cursed Crew,game,1,0,1
+2023-08,Wu-Tang: An American Saga,film_series,1,0,1
+2023-08,The Witcher Staffel 3,film_series,1,0,1
+2023-08,Frauen-WM 2023,misc,1,0,1
+2023-08,US Open,misc,1,0,1
+2023-08,Special Ops: Lioness,film_series,1,0,1
+2023-08,Hanabie Konzert,misc,1,0,1
+2023-08,Armored Core VI: Fires of Rubicon,game,1,0,1
+2023-08,Marvel's Midnight Suns,game,1,0,1
+2023-08,Zelda: Tears of the Kingdom,game,1,0,1
+2023-08,A Plague Tale: Requiem,game,1,0,1
+2023-08,Placebo Konzert,misc,1,0,1
+2023-08,Final Fantasy XVI,game,1,0,1
+2023-08,Harrow,film_series,1,0,1
+2023-08,Telltale's The Expanse,game,1,0,1
+2023-08,Broker,film_series,1,0,1
+2023-08,Mizzurna Falls,game,1,0,1
+2023-08,Steel Division 2,game,1,0,1
+2023-08,Wartales,game,1,0,1
 2023-09,Ahsoka,film_series,1,1,0
-2023-09,Cyberpunk 2077: Phantom Liberty,game,3,3,0
-2023-09,Starfield,game,5,5,0
+2023-09,Cyberpunk 2077: Phantom Liberty,game,9,3,6
+2023-09,Starfield,game,8,5,3
 2023-09,Japandoku 2022/2023,misc,1,1,0
 2023-09,USB-Sticks,misc,1,1,0
 2023-09,Bob's Burgers,film_series,1,1,0
-2023-09,A Haunting in Venice,film_series,2,2,0
+2023-09,A Haunting in Venice,film_series,3,2,1
 2023-09,Agatha Christie,film_series,1,1,0
 2023-09,Mortal Kombat 1,game,2,2,0
 2023-09,Ad Infinitum,film_series,1,1,0
 2023-09,Amnesia -,film_series,1,1,0
 2023-09,The Bunker,film_series,1,1,0
 2023-09,Max Payne,film_series,1,1,0
-2023-09,"El Paso, Elsewhere",game,2,2,0
-2023-09,Futurama,film_series,1,1,0
+2023-09,"El Paso, Elsewhere",film_series,2,2,0
+2023-09,Futurama,film_series,3,1,2
 2023-09,Eine schrecklich nette Familie,film_series,1,1,0
 2023-09,Hör mal wer da hämmert,film_series,1,1,0
-2023-09,Gamescom,game,1,1,0
+2023-09,Gamescom,misc,1,1,0
 2023-09,The Crew Motorfest,game,1,1,0
 2023-09,Forza Horizon,game,1,1,0
 2023-09,EA Sports FC 24,game,1,1,0
@@ -2729,7 +2767,7 @@ month,item_title,category,count,editor_count,user_count
 2023-09,The Continental,film_series,1,1,0
 2023-09,The Boys,film_series,1,1,0
 2023-09,Gen V,film_series,1,1,0
-2023-09,Baldur's Gate 3,game,1,1,0
+2023-09,Baldur's Gate 3,game,5,1,4
 2023-09,No Hard Feelings,film_series,1,1,0
 2023-09,Indiana Jones und das Rad des Schicksals,film_series,1,1,0
 2023-09,Only Murders In The Building,film_series,1,1,0
@@ -2742,6 +2780,23 @@ month,item_title,category,count,editor_count,user_count
 2023-09,Sea of Stars,game,1,1,0
 2023-09,Lies of P,game,1,1,0
 2023-09,Witchfire,game,1,1,0
+2023-09,The Last of Us Staffel 1,film_series,1,0,1
+2023-09,Star Wars: Ahsoka,film_series,5,0,5
+2023-09,Arielle,film_series,1,0,1
+2023-09,Shadow Gambit: The Cursed Crew,game,3,0,3
+2023-09,F1 23,game,1,0,1
+2023-09,Gran Turismo 7,game,1,0,1
+2023-09,The Bear Staffel 2,film_series,1,0,1
+2023-09,Jack Ryan Staffel 4,film_series,1,0,1
+2023-09,Foundation Staffel 2,film_series,1,0,1
+2023-09,Armored Core VI: Fires of Rubicon,game,1,0,1
+2023-09,Atelier Ryza 3,game,1,0,1
+2023-09,Marvel's Midnight Suns,game,2,0,2
+2023-09,Elite Dangerous,game,1,0,1
+2023-09,"Love, Death & Robots",film_series,1,0,1
+2023-09,Star Trek: Lower Decks,film_series,1,0,1
+2023-09,GhostWire: Tokyo,game,1,0,1
+2023-09,Divinity: Original Sin 2,game,1,0,1
 2023-10,Star Wars: Ahsoka,film_series,4,1,3
 2023-10,Star Wars Andor,film_series,1,1,0
 2023-10,Barbie,film_series,1,1,0
@@ -2815,7 +2870,7 @@ month,item_title,category,count,editor_count,user_count
 2023-11,Rhys Darby,game,1,1,0
 2023-11,Taika Waititi,game,1,1,0
 2023-11,Banishers - Ghost of New Eden,game,1,1,0
-2023-11,Gamescom,game,1,1,0
+2023-11,Gamescom,misc,1,1,0
 2023-11,Like a Dragon Gaiden,game,1,1,0
 2023-11,Persona 5 Tactica,game,4,1,3
 2023-11,The Talos Principle 2,game,2,2,0
@@ -3447,7 +3502,7 @@ month,item_title,category,count,editor_count,user_count
 2024-11,Izabella Scorupco,film_series,1,1,0
 2024-11,Lego Horizon Adventures,game,2,2,0
 2024-11,LS25,game,1,1,0
-2024-11,Gamescom,game,1,1,0
+2024-11,Gamescom,misc,1,1,0
 2024-11,Mario & Luigi - Brothership,game,1,1,0
 2024-11,Return of the King: The Fall and Rise of Elvis Presley,film_series,1,1,0
 2024-11,Dune: Prophecy,film_series,4,1,3
@@ -3567,7 +3622,7 @@ month,item_title,category,count,editor_count,user_count
 2025-02,Kingdom Come: Deliverance 2,game,5,1,4
 2025-02,Pillars of Eternity,game,1,1,0
 2025-02,Elder Scrolls,game,1,1,0
-2025-02,Gamescom,game,1,1,0
+2025-02,Gamescom,misc,1,1,0
 2025-02,Monster Hunter Wilds,game,1,1,0
 2025-02,Monster Hunter Worlds,game,1,1,0
 2025-02,Anthony Mackie,film_series,1,1,0
@@ -3642,7 +3697,7 @@ month,item_title,category,count,editor_count,user_count
 2025-03,Assassin's Creed,game,1,1,0
 2025-03,Origins,game,1,1,0
 2025-03,Atomfall,game,1,1,0
-2025-03,Gamescom,game,1,1,0
+2025-03,Gamescom,misc,1,1,0
 2025-03,Sniper Elite,game,1,1,0
 2025-03,Zombie Army,game,1,1,0
 2025-03,Gladiator 2,film_series,1,1,0
@@ -3715,7 +3770,7 @@ month,item_title,category,count,editor_count,user_count
 2025-04,Shazam!,film_series,1,1,0
 2025-04,Days Gone,game,1,1,0
 2025-04,Mandragora - Whispers of the Witch Tree,game,1,1,0
-2025-04,Gamescom,game,1,1,0
+2025-04,Gamescom,misc,1,1,0
 2025-04,Invincible,film_series,1,1,0
 2025-04,"Gute Zeiten, Schlechte Zeiten",film_series,1,1,0
 2025-04,The Last of Us,film_series,2,2,0
@@ -3950,7 +4005,7 @@ month,item_title,category,count,editor_count,user_count
 2025-07,Diablo 4,game,1,0,1
 2025-08,Foundation,film_series,1,1,0
 2025-08,Mafia: The Old Country,game,6,2,4
-2025-08,Gamescom,game,6,3,3
+2025-08,Gamescom,misc,6,3,3
 2025-08,Metal Gear Solid Delta: Snake Eater,game,4,2,2
 2025-08,Gradius Origins,game,2,2,0
 2025-08,Das Kanu des Manitu,film_series,1,1,0
@@ -4223,7 +4278,7 @@ month,item_title,category,count,editor_count,user_count
 2025-11,Squid Game,film_series,1,1,0
 2025-11,Call of Duty,game,1,1,0
 2025-11,Project Motor Racing,game,2,1,1
-2025-11,Gamescom,game,1,1,0
+2025-11,Gamescom,misc,1,1,0
 2025-11,Project Cars,game,1,1,0
 2025-11,SpongeBob Schwammkopf - Giganten der Gezeiten,game,1,1,0
 2025-11,Predator: Badlands,film_series,3,1,2
