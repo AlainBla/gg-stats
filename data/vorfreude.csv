@@ -2879,16 +2879,16 @@ month,item_title,category,count,editor_count,user_count
 2023-12,Pioneers of Pagonia,game,1,1,0
 2023-12,Siedlern,game,1,1,0
 2023-12,40.000 - Rogue Trader,game,1,1,0
-2024-02,Curb Your Enthusiasm,film_series,1,1,0
+2024-02,Curb Your Enthusiasm,film_series,2,1,1
 2024-02,Dune Part 2,film_series,1,1,0
-2024-02,Shogun,film_series,2,2,0
+2024-02,Shogun,film_series,4,2,2
 2024-02,Battletech Extended,game,1,1,0
 2024-02,Persona 3 Reload,game,3,3,0
 2024-02,Fire Emblem Awakening,game,1,1,0
 2024-02,Fates,game,1,1,0
 2024-02,Super Mario Bros. Wonder,game,1,1,0
 2024-02,Retro Gamer 2/24,misc,1,1,0
-2024-02,Like a Dragon,film_series,1,1,0
+2024-02,Like a Dragon,film_series,2,1,1
 2024-02,Kengan Ashura,film_series,1,1,0
 2024-02,Final Fantasy 7 - Rebirth,game,3,3,0
 2024-02,Banishers,game,1,1,0
@@ -2898,7 +2898,7 @@ month,item_title,category,count,editor_count,user_count
 2024-02,Desperate Housewives,film_series,1,1,0
 2024-02,Napoleon,film_series,1,1,0
 2024-02,Final Fantasy 16,game,1,1,0
-2024-02,Banishers: Ghosts of New Eden,game,1,1,0
+2024-02,Banishers: Ghosts of New Eden,game,3,1,2
 2024-02,Remember Me,game,1,1,0
 2024-02,Vampyr,game,1,1,0
 2024-02,Madame Web,film_series,1,1,0
@@ -2912,7 +2912,7 @@ month,item_title,category,count,editor_count,user_count
 2024-02,The Bear,film_series,1,1,0
 2024-02,Reacher,film_series,1,1,0
 2024-02,Taylor Swift,film_series,1,1,0
-2024-02,Poor Things,film_series,1,1,0
+2024-02,Poor Things,film_series,2,1,1
 2024-02,Argylle,film_series,1,1,0
 2024-02,Suicide Squad Kill the Justice League,game,1,1,0
 2024-02,Kevin Conroy,game,1,1,0
@@ -2931,17 +2931,37 @@ month,item_title,category,count,editor_count,user_count
 2024-02,60 Minuten,film_series,1,1,0
 2024-02,Last Epoch,game,1,1,0
 2024-02,Final Fantasy 7 Rebirth,game,1,1,0
-2024-02,The Thaumaturge,game,1,1,0
+2024-02,The Thaumaturge,game,2,1,1
 2024-02,Nightingale,game,1,1,0
 2024-02,Suicide Squad - Kill the Justice Leagu,game,1,1,0
-2024-03,Shogun,film_series,1,1,0
+2024-02,Winnie-the-Pooh: Blood and Honey 2,film_series,1,0,1
+2024-02,The Holdovers,film_series,1,0,1
+2024-02,Dune: Part Two,film_series,7,0,7
+2024-02,Halo,film_series,2,0,2
+2024-02,Star Trek: Strange New Worlds,film_series,1,0,1
+2024-02,Fargo,film_series,1,0,1
+2024-02,True Detective,film_series,2,0,2
+2024-02,Final Fantasy VII Rebirth,game,1,0,1
+2024-02,Elite Dangerous,game,1,0,1
+2024-02,Le Mans Ultimate,game,1,0,1
+2024-02,Final Fantasy XVI,game,1,0,1
+2024-02,Alan Wake 2,game,1,0,1
+2024-02,What We Do in the Shadows,film_series,1,0,1
+2024-02,Baldur's Gate 3,game,2,0,2
+2024-02,The Brothers Sun,film_series,1,0,1
+2024-02,For All Mankind,film_series,1,0,1
+2024-02,Persona 5 Royal,game,1,0,1
+2024-02,Star Trek: Resurgence,game,1,0,1
+2024-02,Tekken 8,game,1,0,1
+2024-02,Hogwarts Legacy,game,1,0,1
+2024-03,Shogun,film_series,2,1,1
 2024-03,Dune - Part 2,film_series,1,1,0
 2024-03,Donny Darko,film_series,1,1,0
 2024-03,Mad World,film_series,1,1,0
 2024-03,Battletech Extended,game,1,1,0
 2024-03,Final Fantasy 7 Rebirth,game,1,1,0
 2024-03,Rise of the Ronin,game,2,2,0
-2024-03,Dragon's Dogma 2,game,3,3,0
+2024-03,Dragon's Dogma 2,game,4,3,1
 2024-03,Japandoku,misc,1,1,0
 2024-03,Die Tagebücher der Apothekerin,film_series,1,1,0
 2024-03,Alone in the Dark,game,3,3,0
@@ -2949,19 +2969,19 @@ month,item_title,category,count,editor_count,user_count
 2024-03,Mikael Hedberg,game,1,1,0
 2024-03,The Thaumaturge,game,1,1,0
 2024-03,Ghostbusters,film_series,1,1,0
-2024-03,Ghostbusters: Frozen Empire,film_series,1,1,0
+2024-03,Ghostbusters: Frozen Empire,film_series,2,1,1
 2024-03,Legacy,film_series,1,1,0
 2024-03,Stirb langsam,film_series,1,1,0
 2024-03,Desperate Housewives,film_series,1,1,0
 2024-03,Dune,film_series,2,2,0
 2024-03,Denis Villeneuve,film_series,1,1,0
-2024-03,Godzilla x Kong: The New Empire,film_series,1,1,0
+2024-03,Godzilla x Kong: The New Empire,film_series,2,1,1
 2024-03,Godzilla vs. Kong,film_series,1,1,0
 2024-03,Somebody Feed Phil,film_series,1,1,0
 2024-03,Anthony Bourdain: No Reservations,film_series,1,1,0
 2024-03,Invincible,film_series,1,1,0
 2024-03,The Legend of Legacy HD Remastered,game,1,1,0
-2024-03,Unicorn Overlord,game,1,1,0
+2024-03,Unicorn Overlord,game,2,1,1
 2024-03,Triangle Strategy,game,1,1,0
 2024-03,GDC,misc,1,1,0
 2024-03,Injustice: Gods Among Us,misc,1,1,0
@@ -2970,8 +2990,24 @@ month,item_title,category,count,editor_count,user_count
 2024-03,Providence,misc,1,1,0
 2024-03,Void Rivals,misc,1,1,0
 2024-03,The Bear,film_series,1,1,0
-2024-04,Shogun,film_series,1,1,0
-2024-04,Fallout,film_series,3,3,0
+2024-03,Dune: Part Two,film_series,10,0,10
+2024-03,Anno 1800,game,1,0,1
+2024-03,Cyberpunk 2077: Phantom Liberty,game,1,0,1
+2024-03,The Zone of Interest,film_series,1,0,1
+2024-03,Peaky Blinders,film_series,1,0,1
+2024-03,Prince of Persia: The Lost Crown,game,1,0,1
+2024-03,Jordskott,film_series,1,0,1
+2024-03,Final Fantasy XV,game,1,0,1
+2024-03,Final Fantasy VII Remake Intergrade,game,1,0,1
+2024-03,Outcast: A New Beginning,game,1,0,1
+2024-03,Crusader Kings 3,game,1,0,1
+2024-03,Poor Things,film_series,1,0,1
+2024-03,Fargo,film_series,1,0,1
+2024-03,Cyberpunk 2077,game,1,0,1
+2024-03,Persona 3 Reload,game,1,0,1
+2024-03,Final Fantasy VII Rebirth,game,1,0,1
+2024-04,Shogun,film_series,3,1,2
+2024-04,Fallout,film_series,7,3,4
 2024-04,Battletech Extended,game,1,1,0
 2024-04,Millenia,game,1,1,0
 2024-04,Immaculate,film_series,1,1,0
@@ -2987,7 +3023,7 @@ month,item_title,category,count,editor_count,user_count
 2024-04,The Shield,film_series,1,1,0
 2024-04,Walton Goggins,game,1,1,0
 2024-04,The Fall Guy,game,1,1,0
-2024-04,TopSpin 2K25,game,1,1,0
+2024-04,TopSpin 2K25,game,2,1,1
 2024-04,Steffi Graf,game,1,1,0
 2024-04,Pete Sampras,game,1,1,0
 2024-04,Andre Agassi,game,1,1,0
@@ -3002,11 +3038,23 @@ month,item_title,category,count,editor_count,user_count
 2024-04,Eiyuden Chronicle - Hundred Heroes,game,1,1,0
 2024-04,Yoshitaka Murayama,game,1,1,0
 2024-04,Suikoden,game,1,1,0
-2024-04,Stellar Blade,game,1,1,0
+2024-04,Stellar Blade,game,2,1,1
 2024-04,SaGa Emerald Beyond,game,1,1,0
 2024-04,Dream Tactics,game,1,1,0
 2024-04,Three Body Problem,misc,1,1,0
 2024-04,Shōgun,misc,1,1,0
+2024-04,Star Trek: Discovery,film_series,1,0,1
+2024-04,WrestleMania,misc,1,0,1
+2024-04,Harold Halibut,game,2,0,2
+2024-04,Cyberpunk 2077: Phantom Liberty,game,1,0,1
+2024-04,Like a Dragon: Infinite Wealth,game,1,0,1
+2024-04,3 Body Problem,film_series,1,0,1
+2024-04,Kung Fu Panda 4,film_series,1,0,1
+2024-04,Rise of the Ronin,game,1,0,1
+2024-04,American Arcadia,game,1,0,1
+2024-04,Manor Lords,game,1,0,1
+2024-04,Depeche Mode Konzert,misc,1,0,1
+2024-04,Final Fantasy XVI,game,1,0,1
 2024-06,Furiosa,film_series,1,1,0
 2024-06,Mad Max,film_series,1,1,0
 2024-06,Lumberjack The Monster,film_series,1,1,0
@@ -3542,7 +3590,7 @@ month,item_title,category,count,editor_count,user_count
 2025-03,The Stanley Parable,game,1,1,0
 2025-03,The Beginner's Guide,game,1,1,0
 2025-03,Bad Assumption,misc,1,1,0
-2025-03,Like a Dragon - Infinite Wealth,misc,1,1,0
+2025-03,Like a Dragon: Infinite Wealth,misc,1,1,0
 2025-03,Pirate Yakuza in Hawaii,game,1,1,0
 2025-03,Young Sheldon,film_series,1,1,0
 2025-03,The Big Bang Theory,film_series,1,1,0

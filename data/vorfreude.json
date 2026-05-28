@@ -46928,7 +46928,7 @@
     "month": "2024-02",
     "url": "/news/278822/darauf-freut-sich-die-redaktion-im-februar-2024",
     "title": "Darauf freut sich die Redaktion im... Februar 2024",
-    "last_updated": "2026-05-27T19:44:03Z",
+    "last_updated": "2026-05-28T20:05:43Z",
     "comment_count": 122,
     "editors": [
       {
@@ -47364,13 +47364,238 @@
         "text": "Mit Februar sind dann schon mal 2 von 5 sehr stressigen Monate im Jahr auf der Arbeit rum."
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "unregistriert",
+        "items": [
+          {
+            "title": "Winnie-the-Pooh: Blood and Honey 2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "Banishers: Ghosts of New Eden",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "The Holdovers",
+            "category": "film_series"
+          },
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "Banishers: Ghosts of New Eden",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Maestro84",
+        "items": [
+          {
+            "title": "Halo",
+            "category": "film_series"
+          },
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Calmon",
+        "items": [
+          {
+            "title": "Curb Your Enthusiasm",
+            "category": "film_series"
+          },
+          {
+            "title": "Star Trek: Strange New Worlds",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "Poor Things",
+            "category": "film_series"
+          },
+          {
+            "title": "Fargo",
+            "category": "film_series"
+          },
+          {
+            "title": "True Detective",
+            "category": "film_series"
+          },
+          {
+            "title": "Final Fantasy VII Rebirth",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "timeagent",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "Elite Dangerous",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "The Real Maulwurfn",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "Shogun",
+            "category": "film_series"
+          },
+          {
+            "title": "Halo",
+            "category": "film_series"
+          },
+          {
+            "title": "Le Mans Ultimate",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "True Detective",
+            "category": "film_series"
+          },
+          {
+            "title": "Final Fantasy XVI",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "MiLe84",
+        "items": [
+          {
+            "title": "Alan Wake 2",
+            "category": "game"
+          },
+          {
+            "title": "What We Do in the Shadows",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "Shogun",
+            "category": "film_series"
+          },
+          {
+            "title": "Baldur's Gate 3",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "The Brothers Sun",
+            "category": "film_series"
+          },
+          {
+            "title": "For All Mankind",
+            "category": "film_series"
+          },
+          {
+            "title": "Persona 5 Royal",
+            "category": "game"
+          },
+          {
+            "title": "Like a Dragon",
+            "category": "game"
+          },
+          {
+            "title": "Star Trek: Resurgence",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "Tekken 8",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Alter Hase",
+        "items": [
+          {
+            "title": "The Thaumaturge",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "LRod",
+        "items": [
+          {
+            "title": "Hogwarts Legacy",
+            "category": "game"
+          },
+          {
+            "title": "Baldur's Gate 3",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Curb Your Enthusiasm": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:Calmon"
         ]
       },
       "Dune Part 2": {
@@ -47381,11 +47606,13 @@
         ]
       },
       "Shogun": {
-        "count": 2,
+        "count": 4,
         "category": "film_series",
         "mentioners": [
           "editor:jörg_langer",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:The Real Maulwurfn",
+          "user:Danywilde"
         ]
       },
       "Battletech Extended": {
@@ -47433,10 +47660,11 @@
         ]
       },
       "Like a Dragon": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "user:Alain"
         ]
       },
       "Kengan Ashura": {
@@ -47505,10 +47733,12 @@
         ]
       },
       "Banishers: Ghosts of New Eden": {
-        "count": 1,
+        "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Noodles",
+          "user:Green Yoshi"
         ]
       },
       "Remember Me": {
@@ -47603,10 +47833,11 @@
         ]
       },
       "Poor Things": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen"
+          "editor:christian_burtchen",
+          "user:Moe90"
         ]
       },
       "Argylle": {
@@ -47736,10 +47967,11 @@
         ]
       },
       "The Thaumaturge": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:Alter Hase"
         ]
       },
       "Nightingale": {
@@ -47755,6 +47987,155 @@
         "mentioners": [
           "editor:karsten_scholz"
         ]
+      },
+      "Winnie-the-Pooh: Blood and Honey 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:unregistriert"
+        ]
+      },
+      "The Holdovers": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Dune: Part Two": {
+        "count": 7,
+        "category": "film_series",
+        "mentioners": [
+          "user:Green Yoshi",
+          "user:Maestro84",
+          "user:Moe90",
+          "user:timeagent",
+          "user:The Real Maulwurfn",
+          "user:Danywilde",
+          "user:Crizzo"
+        ]
+      },
+      "Halo": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84",
+          "user:The Real Maulwurfn"
+        ]
+      },
+      "Star Trek: Strange New Worlds": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Calmon"
+        ]
+      },
+      "Fargo": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "True Detective": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90",
+          "user:funrox"
+        ]
+      },
+      "Final Fantasy VII Rebirth": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "Elite Dangerous": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:timeagent"
+        ]
+      },
+      "Le Mans Ultimate": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:The Real Maulwurfn"
+        ]
+      },
+      "Final Fantasy XVI": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Alan Wake 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:MiLe84"
+        ]
+      },
+      "What We Do in the Shadows": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:MiLe84"
+        ]
+      },
+      "Baldur's Gate 3": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Danywilde",
+          "user:LRod"
+        ]
+      },
+      "The Brothers Sun": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "For All Mankind": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Persona 5 Royal": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Star Trek: Resurgence": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Tekken 8": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Hogwarts Legacy": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:LRod"
+        ]
       }
     }
   },
@@ -47762,7 +48143,7 @@
     "month": "2024-03",
     "url": "/news/282195/darauf-freut-sich-die-redaktion-im-maerz-2024",
     "title": "Darauf freut sich die Redaktion im... März 2024",
-    "last_updated": "2026-05-27T19:44:04Z",
+    "last_updated": "2026-05-28T20:05:43Z",
     "comment_count": 79,
     "editors": [
       {
@@ -48121,13 +48502,210 @@
         "text": "Diesmal kann ich mitmachen: Dune 2 :)"
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "Lencer",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "Anno 1800",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "Cyberpunk 2077: Phantom Liberty",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "The Zone of Interest",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "Peaky Blinders",
+            "category": "film_series"
+          },
+          {
+            "title": "Prince of Persia: The Lost Crown",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Bruno Lawrie",
+        "items": [
+          {
+            "title": "Jordskott",
+            "category": "film_series"
+          },
+          {
+            "title": "Final Fantasy XV",
+            "category": "game"
+          },
+          {
+            "title": "Final Fantasy VII Remake Intergrade",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Robokopp",
+        "items": [
+          {
+            "title": "Dragon's Dogma 2",
+            "category": "game"
+          },
+          {
+            "title": "Outcast: A New Beginning",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "StefanH",
+        "items": [
+          {
+            "title": "Crusader Kings 3",
+            "category": "game"
+          },
+          {
+            "title": "Unicorn Overlord",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Thomas Schmitz",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "Poor Things",
+            "category": "film_series"
+          },
+          {
+            "title": "Fargo",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "Shogun",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "Godzilla x Kong: The New Empire",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "timeagent",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Henmann",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "Ghostbusters: Frozen Empire",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Jonas S.",
+        "items": [
+          {
+            "title": "Dune: Part Two",
+            "category": "film_series"
+          },
+          {
+            "title": "Cyberpunk 2077",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Desotho",
+        "items": [
+          {
+            "title": "Persona 3 Reload",
+            "category": "game"
+          },
+          {
+            "title": "Final Fantasy VII Rebirth",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Shogun": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:Crizzo"
         ]
       },
       "Dune - Part 2": {
@@ -48169,17 +48747,18 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:benjamin_braun"
         ]
       },
       "Dragon's Dogma 2": {
-        "count": 3,
+        "count": 4,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz",
           "editor:jörg_langer",
-          "editor:michael_hengst"
+          "editor:hagen_gehritz",
+          "editor:michael_hengst",
+          "user:Robokopp"
         ]
       },
       "Japandoku": {
@@ -48200,9 +48779,9 @@
         "count": 3,
         "category": "game",
         "mentioners": [
+          "editor:hagen_gehritz",
           "editor:benjamin_braun",
-          "editor:christian_burtchen",
-          "editor:hagen_gehritz"
+          "editor:christian_burtchen"
         ]
       },
       "Soma": {
@@ -48234,10 +48813,11 @@
         ]
       },
       "Ghostbusters: Frozen Empire": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Henmann"
         ]
       },
       "Legacy": {
@@ -48265,8 +48845,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "editor:christian_burtchen"
         ]
       },
       "Denis Villeneuve": {
@@ -48277,10 +48857,11 @@
         ]
       },
       "Godzilla x Kong: The New Empire": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Ganon"
         ]
       },
       "Godzilla vs. Kong": {
@@ -48319,10 +48900,11 @@
         ]
       },
       "Unicorn Overlord": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:StefanH"
         ]
       },
       "Triangle Strategy": {
@@ -48380,6 +48962,127 @@
         "mentioners": [
           "editor:christian_burtchen"
         ]
+      },
+      "Dune: Part Two": {
+        "count": 10,
+        "category": "film_series",
+        "mentioners": [
+          "user:Lencer",
+          "user:Moe90",
+          "user:euph",
+          "user:Green Yoshi",
+          "user:Thomas Schmitz",
+          "user:Crizzo",
+          "user:Ganon",
+          "user:timeagent",
+          "user:Henmann",
+          "user:Jonas S."
+        ]
+      },
+      "Anno 1800": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Lencer"
+        ]
+      },
+      "Cyberpunk 2077: Phantom Liberty": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "The Zone of Interest": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Peaky Blinders": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Prince of Persia: The Lost Crown": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Jordskott": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Final Fantasy XV": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Final Fantasy VII Remake Intergrade": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Outcast: A New Beginning": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Robokopp"
+        ]
+      },
+      "Crusader Kings 3": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:StefanH"
+        ]
+      },
+      "Poor Things": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Thomas Schmitz"
+        ]
+      },
+      "Fargo": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Thomas Schmitz"
+        ]
+      },
+      "Cyberpunk 2077": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Jonas S."
+        ]
+      },
+      "Persona 3 Reload": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Desotho"
+        ]
+      },
+      "Final Fantasy VII Rebirth": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Desotho"
+        ]
       }
     }
   },
@@ -48387,7 +49090,7 @@
     "month": "2024-04",
     "url": "/news/285536/darauf-freut-sich-die-redaktion-im-april-2024",
     "title": "Darauf freut sich die Redaktion im... April 2024",
-    "last_updated": "2026-05-27T19:44:05Z",
+    "last_updated": "2026-05-28T20:05:43Z",
     "comment_count": 115,
     "editors": [
       {
@@ -48701,22 +49404,163 @@
         "text": "D.h. Nicht allzu lange danach startet dann die Kinderproduktions-Saison wieder?"
       }
     ],
-    "user_items": [],
-    "item_stats": {
-      "Shogun": {
-        "count": 1,
-        "category": "film_series",
-        "mentioners": [
-          "editor:jörg_langer"
+    "user_items": [
+      {
+        "username": "Pomme",
+        "items": [
+          {
+            "title": "Star Trek: Discovery",
+            "category": "film_series"
+          }
         ]
       },
-      "Fallout": {
+      {
+        "username": "unregistriert",
+        "items": [
+          {
+            "title": "Fallout",
+            "category": "film_series"
+          },
+          {
+            "title": "Stellar Blade",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Funatic",
+        "items": [
+          {
+            "title": "WrestleMania",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "Harold Halibut",
+            "category": "game"
+          },
+          {
+            "title": "Cyberpunk 2077: Phantom Liberty",
+            "category": "game"
+          },
+          {
+            "title": "Fallout",
+            "category": "film_series"
+          },
+          {
+            "title": "Like a Dragon: Infinite Wealth",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "LRod",
+        "items": [
+          {
+            "title": "Shogun",
+            "category": "film_series"
+          },
+          {
+            "title": "3 Body Problem",
+            "category": "film_series"
+          },
+          {
+            "title": "Kung Fu Panda 4",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "rammmses",
+        "items": [
+          {
+            "title": "Rise of the Ronin",
+            "category": "game"
+          },
+          {
+            "title": "Shogun",
+            "category": "film_series"
+          },
+          {
+            "title": "Fallout",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "Fallout",
+            "category": "film_series"
+          },
+          {
+            "title": "Harold Halibut",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Dreadxx",
+        "items": [
+          {
+            "title": "TopSpin 2K25",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "American Arcadia",
+            "category": "game"
+          },
+          {
+            "title": "Manor Lords",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "Depeche Mode Konzert",
+            "category": "misc"
+          },
+          {
+            "title": "Final Fantasy XVI",
+            "category": "game"
+          }
+        ]
+      }
+    ],
+    "item_stats": {
+      "Shogun": {
         "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:jörg_langer",
-          "editor:michael_hengst"
+          "user:LRod",
+          "user:rammmses"
+        ]
+      },
+      "Fallout": {
+        "count": 7,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jörg_langer",
+          "editor:benjamin_braun",
+          "editor:michael_hengst",
+          "user:unregistriert",
+          "user:Alain",
+          "user:rammmses",
+          "user:Noodles"
         ]
       },
       "Battletech Extended": {
@@ -48825,10 +49669,11 @@
         ]
       },
       "TopSpin 2K25": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Dreadxx"
         ]
       },
       "Steffi Graf": {
@@ -48930,10 +49775,11 @@
         ]
       },
       "Stellar Blade": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:unregistriert"
         ]
       },
       "SaGa Emerald Beyond": {
@@ -48962,6 +49808,91 @@
         "category": "misc",
         "mentioners": [
           "editor:michael_hengst"
+        ]
+      },
+      "Star Trek: Discovery": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Pomme"
+        ]
+      },
+      "WrestleMania": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Funatic"
+        ]
+      },
+      "Harold Halibut": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Alain",
+          "user:Noodles"
+        ]
+      },
+      "Cyberpunk 2077: Phantom Liberty": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Like a Dragon: Infinite Wealth": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "3 Body Problem": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:LRod"
+        ]
+      },
+      "Kung Fu Panda 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:LRod"
+        ]
+      },
+      "Rise of the Ronin": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:rammmses"
+        ]
+      },
+      "American Arcadia": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Manor Lords": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Depeche Mode Konzert": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Final Fantasy XVI": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
         ]
       }
     }
@@ -57687,7 +58618,7 @@
             "category": "misc"
           },
           {
-            "title": "Like a Dragon - Infinite Wealth",
+            "title": "Like a Dragon: Infinite Wealth",
             "category": "misc"
           },
           {
@@ -58297,7 +59228,7 @@
           "editor:hagen_gehritz"
         ]
       },
-      "Like a Dragon - Infinite Wealth": {
+      "Like a Dragon: Infinite Wealth": {
         "count": 1,
         "category": "misc",
         "mentioners": [
@@ -72065,7 +72996,7 @@
     "month": "2026-04",
     "url": "/news/342446/darauf-freut-sich-die-redaktion-im-april-2026",
     "title": "Darauf freut sich die Redaktion im... April 2026",
-    "last_updated": "2026-05-27T23:01:12Z",
+    "last_updated": "2026-05-28T20:05:47Z",
     "comment_count": 57,
     "editors": [
       {
@@ -73681,7 +74612,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-05-27T23:01:11Z",
+    "last_updated": "2026-05-28T20:05:46Z",
     "comment_count": 62,
     "editors": [
       {
