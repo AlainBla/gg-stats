@@ -1976,7 +1976,7 @@ month,item_title,category,count,editor_count,user_count
 2022-05,Ladder to the Sky,misc,1,1,0
 2022-05,Porridge Radio,misc,1,1,0
 2022-05,Haldern Pop,misc,1,1,0
-2022-06,Stranger Things Staffel 4,film_series,1,1,0
+2022-06,Stranger Things Staffel 4,film_series,2,1,1
 2022-06,"Death, Love + Robots Staffel 3",film_series,1,1,0
 2022-06,Tokyo Vice,film_series,1,1,0
 2022-06,Better Call Saul,film_series,2,2,0
@@ -1986,9 +1986,9 @@ month,item_title,category,count,editor_count,user_count
 2022-06,Diablo Immortal,game,2,2,0
 2022-06,PC-Spieleklassiker,misc,1,1,0
 2022-06,Halo,film_series,1,1,0
-2022-06,Doctor Strange in the Multiverse of Madness,film_series,1,1,0
+2022-06,Doctor Strange in the Multiverse of Madness,film_series,2,1,1
 2022-06,Haikyu!!,film_series,1,1,0
-2022-06,Elden Ring,game,1,1,0
+2022-06,Elden Ring,game,2,1,1
 2022-06,Monster Hunter Rise - Sunbreak,game,1,1,0
 2022-06,Massive Talent,film_series,2,2,0
 2022-06,Nicolas Cage,film_series,2,2,0
@@ -2031,7 +2031,7 @@ month,item_title,category,count,editor_count,user_count
 2022-06,Seth MacFarlane,film_series,1,1,0
 2022-06,Star Trek,film_series,1,1,0
 2022-06,The Orville,film_series,1,1,0
-2022-06,Westworld,film_series,2,2,0
+2022-06,Westworld,film_series,3,2,1
 2022-06,Michael Crichton,film_series,1,1,0
 2022-06,Ralf König,misc,1,1,0
 2022-06,Konrad & Paul - Sie dürfen sich jetzt küssen,misc,1,1,0
@@ -2047,6 +2047,21 @@ month,item_title,category,count,editor_count,user_count
 2022-06,Into the Ice - Nazis of Neuschwabenland,game,1,1,0
 2022-06,Life Is Yours,game,1,1,0
 2022-06,Foals,game,1,1,0
+2022-06,Better Call Saul Staffel 6,film_series,1,0,1
+2022-06,The Orville Staffel 3,film_series,1,0,1
+2022-06,Lagwagon Konzert,misc,1,0,1
+2022-06,Judas Priest Konzert,misc,1,0,1
+2022-06,The Boys Staffel 3,film_series,4,0,4
+2022-06,Obi-Wan Kenobi,film_series,2,0,2
+2022-06,V Rising,game,1,0,1
+2022-06,Everything Everywhere All At Once,film_series,1,0,1
+2022-06,For All Mankind Staffel 3,film_series,1,0,1
+2022-06,Top Gun: Maverick,film_series,1,0,1
+2022-06,Borgen Staffel 4,film_series,1,0,1
+2022-06,Severance,film_series,1,0,1
+2022-06,Peaky Blinders,film_series,1,0,1
+2022-06,French Open,misc,1,0,1
+2022-06,Star Trek: Strange New Worlds,film_series,1,0,1
 2022-07,Stranger Things,film_series,3,3,0
 2022-07,Umbrella Academy,film_series,1,1,0
 2022-07,Better Call Saul,film_series,3,3,0
@@ -2059,9 +2074,9 @@ month,item_title,category,count,editor_count,user_count
 2022-07,Resident Evil,film_series,1,1,0
 2022-07,Ted Danson,film_series,1,1,0
 2022-07,Cheers,film_series,1,1,0
-2022-07,Xenoblade Chronicles 3,game,1,1,0
+2022-07,Xenoblade Chronicles 3,game,3,1,2
 2022-07,The Boys,film_series,1,1,0
-2022-07,Stray,game,2,2,0
+2022-07,Stray,game,6,2,4
 2022-07,Dark Souls 2,game,1,1,0
 2022-07,It Takes Two,game,1,1,0
 2022-07,The Gray Man,film_series,1,1,0
@@ -2071,7 +2086,7 @@ month,item_title,category,count,editor_count,user_count
 2022-07,Spider-Man: Miles Morales,game,1,1,0
 2022-07,Returnal,game,1,1,0
 2022-07,Assassin’s Creed Valhalla,game,1,1,0
-2022-07,Thor: Love and Thunder,film_series,1,1,0
+2022-07,Thor: Love and Thunder,film_series,2,1,1
 2022-07,Natalie Portman,film_series,1,1,0
 2022-07,Breaking Bad-,film_series,1,1,0
 2022-07,Digimon Survive,game,1,1,0
@@ -2089,11 +2104,21 @@ month,item_title,category,count,editor_count,user_count
 2022-07,Jamie T,misc,1,1,0
 2022-07,The Hardest Part,misc,1,1,0
 2022-07,Noah Cyrus,misc,1,1,0
+2022-07,Better Call Saul Staffel 6,film_series,3,0,3
+2022-07,Hooters Konzert,misc,1,0,1
+2022-07,Crowns and Pawns,game,1,0,1
+2022-07,Ms. Marvel,film_series,1,0,1
+2022-07,Only Murders in the Building,film_series,1,0,1
+2022-07,GhostWire: Tokyo,game,1,0,1
+2022-07,For All Mankind Staffel 3,film_series,2,0,2
+2022-07,Borgen,film_series,1,0,1
+2022-07,Stranger Things Staffel 4,film_series,1,0,1
+2022-07,Deathloop,game,1,0,1
 2022-08,Better Call Saul,film_series,2,2,0
 2022-08,King of Stonks,film_series,1,1,0
 2022-08,Two Point Campus,game,2,2,0
 2022-08,Saint's Row,game,1,1,0
-2022-08,Hard West 2,game,1,1,0
+2022-08,Hard West 2,game,2,1,1
 2022-08,Gamescom,misc,6,6,0
 2022-08,Stranger Things,film_series,1,1,0
 2022-08,Food Wars,film_series,1,1,0
@@ -2114,7 +2139,7 @@ month,item_title,category,count,editor_count,user_count
 2022-08,Bullet Train,film_series,2,2,0
 2022-08,David Leitch,film_series,1,1,0
 2022-08,Arcade Paradise,game,1,1,0
-2022-08,F1 Manager 2022,game,1,1,0
+2022-08,F1 Manager 2022,game,2,1,1
 2022-08,Vinland Saga,film_series,1,1,0
 2022-08,The Boys,film_series,1,1,0
 2022-08,Game of Thrones: House of the Dragon,film_series,1,1,0
@@ -2127,26 +2152,37 @@ month,item_title,category,count,editor_count,user_count
 2022-08,THQ Nordic Digital Showcase,misc,1,1,0
 2022-08,QuakeCon,misc,1,1,0
 2022-08,Game of Thrones,film_series,1,1,0
-2022-08,House of the Dragon,film_series,1,1,0
+2022-08,House of the Dragon,film_series,5,1,4
 2022-08,Dr. Who,film_series,1,1,0
 2022-08,Matt Smith,film_series,1,1,0
 2022-08,Neil Gaiman,film_series,1,1,0
 2022-08,Tom Sturridge,film_series,1,1,0
 2022-08,Kirby Howell-Baptiste,film_series,1,1,0
 2022-08,Death,film_series,1,1,0
-2022-08,Xenoblade Chronicles 3,game,1,1,0
+2022-08,Xenoblade Chronicles 3,game,4,1,3
 2022-08,Digimon Survive,game,1,1,0
 2022-08,Blossom Tales 2: The Minotaur Prince,game,1,1,0
 2022-08,Astro City,misc,1,1,0
 2022-08,Kurt Busiek,misc,1,1,0
 2022-08,The Dark Age,misc,1,1,0
 2022-08,Shining Stars,misc,1,1,0
+2022-08,Prey,film_series,1,0,1
+2022-08,Elite Dangerous,game,1,0,1
+2022-08,Better Call Saul Staffel 6,film_series,2,0,2
+2022-08,Red Dead Redemption 2,game,1,0,1
+2022-08,Soul Hackers 2,game,1,0,1
+2022-08,Tocotronic Konzert,misc,1,0,1
+2022-08,The Boys Staffel 3,film_series,1,0,1
+2022-08,For All Mankind Staffel 3,film_series,1,0,1
+2022-08,Stray,game,1,0,1
+2022-08,Only Murders in the Building Staffel 2,film_series,1,0,1
+2022-08,F1 22,game,1,0,1
 2022-09,Bosch Legacy,film_series,1,1,0
 2022-09,Sandman,film_series,1,1,0
-2022-09,House of the Dragon,film_series,1,1,0
+2022-09,House of the Dragon,film_series,3,1,2
 2022-09,Yakuza Princess,film_series,1,1,0
 2022-09,Ringe der Macht,film_series,1,1,0
-2022-09,Immortality,game,1,1,0
+2022-09,Immortality,game,2,1,1
 2022-09,Advance Wars,game,1,1,0
 2022-09,Sim City 2000,game,1,1,0
 2022-09,Immortal Empires,game,1,1,0
@@ -2166,7 +2202,7 @@ month,item_title,category,count,editor_count,user_count
 2022-09,Erich Maria Remarques,film_series,1,1,0
 2022-09,Sam Mendes,film_series,1,1,0
 2022-09,Daniel Brühl,film_series,1,1,0
-2022-09,Return to Monkey Island,game,1,1,0
+2022-09,Return to Monkey Island,game,5,1,4
 2022-09,Ron Gilbert,game,1,1,0
 2022-09,Deathspank,game,1,1,0
 2022-09,The Cave,game,1,1,0
@@ -2190,8 +2226,15 @@ month,item_title,category,count,editor_count,user_count
 2022-09,The DioField Chronicle,game,1,1,0
 2022-09,The Sandman Box Set,misc,1,1,0
 2022-09,Druss: The Legend,misc,1,1,0
-2022-10,Herr der Ringe: Ringe der Macht,film_series,1,1,0
-2022-10,House of the Dragon,film_series,1,1,0
+2022-09,Star Wars: Andor,film_series,5,0,5
+2022-09,Counting Crows Konzert,misc,1,0,1
+2022-09,Herr der Ringe: Ringe der Macht,film_series,6,0,6
+2022-09,Red Dead Redemption 2,game,1,0,1
+2022-09,The Legend of Heroes: Trails from Zero,game,1,0,1
+2022-09,Cobra Kai Staffel 5,film_series,1,0,1
+2022-09,She-Hulk,film_series,2,0,2
+2022-10,Herr der Ringe: Ringe der Macht,film_series,2,1,1
+2022-10,House of the Dragon,film_series,4,1,3
 2022-10,My Small Land,film_series,1,1,0
 2022-10,Drive my Car,film_series,1,1,0
 2022-10,Nope,film_series,1,1,0
@@ -2202,18 +2245,18 @@ month,item_title,category,count,editor_count,user_count
 2022-10,Paul Thomas Anderson,film_series,1,1,0
 2022-10,Yakuza Princess,film_series,1,1,0
 2022-10,Reminescense,film_series,1,1,0
-2022-10,Return to Monkey Island,game,2,2,0
+2022-10,Return to Monkey Island,game,5,2,3
 2022-10,Mario + Rabbids Sparks of Hope,game,1,1,0
 2022-10,Japan-Doku,misc,1,1,0
 2022-10,Galerie+,misc,1,1,0
 2022-10,What We Do In The Shadows,film_series,1,1,0
-2022-10,Bayonetta 3,game,1,1,0
+2022-10,Bayonetta 3,game,4,1,3
 2022-10,Potionomics,game,1,1,0
 2022-10,Recettear,game,1,1,0
 2022-10,Mario + Rabbids: Sparks of Hope,film_series,1,1,0
 2022-10,Fiebertraum,misc,1,1,0
 2022-10,George R. R. Martin,misc,1,1,0
-2022-10,Halloween Ends,film_series,1,1,0
+2022-10,Halloween Ends,film_series,4,1,3
 2022-10,Eine schrecklich nette Familie,film_series,1,1,0
 2022-10,Gamescom,misc,1,1,0
 2022-10,Black Adam,film_series,1,1,0
@@ -2222,7 +2265,7 @@ month,item_title,category,count,editor_count,user_count
 2022-10,Clive Barker,game,1,1,0
 2022-10,Im Westen nichts Neues,film_series,1,1,0
 2022-10,Erich Maria Remarques,film_series,1,1,0
-2022-10,The Legend of Heroes - Trails from Zero,game,1,1,0
+2022-10,The Legend of Heroes: Trails from Zero,game,2,1,1
 2022-10,Trails,game,1,1,0
 2022-10,Kiseki,game,1,1,0
 2022-10,Zero,game,1,1,0
@@ -2235,7 +2278,14 @@ month,item_title,category,count,editor_count,user_count
 2022-10,Murakami Haruki,game,1,1,0
 2022-10,Nicole Byers,film_series,1,1,0
 2022-10,Armando „Arm“ Iannucci,film_series,1,1,0
-2022-10,Star Wars: Andor,film_series,1,1,0
+2022-10,Star Wars: Andor,film_series,2,1,1
+2022-10,Babylon Berlin Staffel 4,film_series,2,0,2
+2022-10,Lost Eidolons,game,1,0,1
+2022-10,Elite Dangerous,game,1,0,1
+2022-10,Scorn,game,1,0,1
+2022-10,A Plague Tale: Requiem,game,2,0,2
+2022-10,Star Trek: Lower Decks Staffel 3,film_series,1,0,1
+2022-10,The Rookie,film_series,1,0,1
 2022-11,The Matrix - Resurrections,film_series,1,1,0
 2022-11,Peripherie,film_series,1,1,0
 2022-11,Tactics Ogre Reborn,game,1,1,0
@@ -2244,7 +2294,7 @@ month,item_title,category,count,editor_count,user_count
 2022-11,Tactics Ogre - The Knight of Lodis,game,1,1,0
 2022-11,Mount & Blade 2 Bannerlord,game,1,1,0
 2022-11,Dark,film_series,1,1,0
-2022-11,1899,film_series,1,1,0
+2022-11,1899,film_series,5,1,4
 2022-11,Chainsaw Man,film_series,1,1,0
 2022-11,Tatsuki Fujimoto,film_series,1,1,0
 2022-11,Fire Punch,film_series,1,1,0
@@ -2259,9 +2309,9 @@ month,item_title,category,count,editor_count,user_count
 2022-11,God of War Ragnarök,game,1,1,0
 2022-11,Pokémon Karmesin und Purpur,game,1,1,0
 2022-11,Dark Pictures Anthology,game,1,1,0
-2022-11,The Devil in Me,game,1,1,0
+2022-11,The Devil in Me,game,2,1,1
 2022-11,Steffen Baumgart,game,1,1,0
-2022-11,The Crown,film_series,1,1,0
+2022-11,The Crown,film_series,3,1,2
 2022-11,Chadwick Boseman,film_series,1,1,0
 2022-11,Black Panther,film_series,1,1,0
 2022-11,Wakanda Forever,film_series,1,1,0
@@ -2270,17 +2320,17 @@ month,item_title,category,count,editor_count,user_count
 2022-11,Warwick Davis,game,2,2,0
 2022-11,Horse Tales – Emerald Valley Ranch,game,1,1,0
 2022-11,Alice Ruppert,game,1,1,0
-2022-11,God of War: Ragnarök,game,2,2,0
-2022-11,Pokémon Scarlet,game,1,1,0
+2022-11,God of War: Ragnarök,game,10,2,8
+2022-11,Pokémon Scarlet,game,2,1,1
 2022-11,Violet,game,1,1,0
-2022-11,Tactics Ogre - Reborn,game,1,1,0
+2022-11,Tactics Ogre: Reborn,game,2,1,1
 2022-11,Saga,misc,1,1,0
 2022-11,Brian K. Vaughan,misc,1,1,0
 2022-11,Fiona Staples,misc,1,1,0
 2022-11,The Elements of Pizza: Unlocking the Secrets to World-Class Pies at Home,misc,1,1,0
 2022-11,Le Guide Culinaire,misc,1,1,0
 2022-11,Auguste Escoffier,misc,1,1,0
-2022-11,Black Panther: Wakanda Forever,film_series,1,1,0
+2022-11,Black Panther: Wakanda Forever,film_series,4,1,3
 2022-11,Ryan Coogler,film_series,1,1,0
 2022-11,Chadwick Bosemans,film_series,1,1,0
 2022-11,Gotham,film_series,1,1,0
@@ -2290,7 +2340,7 @@ month,item_title,category,count,editor_count,user_count
 2022-11,Hadestown,game,1,1,0
 2022-11,Hades,game,1,1,0
 2022-11,Taylor Swifts,misc,1,1,0
-2022-11,House of the Dragon,film_series,1,1,0
+2022-11,House of the Dragon,film_series,2,1,1
 2022-11,Elden Ring,game,1,1,0
 2022-11,Warcraft,game,1,1,0
 2022-11,Starcraft,game,1,1,0
@@ -2298,10 +2348,27 @@ month,item_title,category,count,editor_count,user_count
 2022-11,Star Wars,game,1,1,0
 2022-11,Star Trek,game,1,1,0
 2022-11,Warhammer,game,1,1,0
-2022-11,Pentiment,game,1,1,0
+2022-11,Pentiment,game,2,1,1
 2022-11,Firesong,game,1,1,0
 2022-11,The Elder Scrolls Online,game,1,1,0
 2022-11,Games Insider,misc,1,1,0
+2022-11,Bayonetta 3,game,1,0,1
+2022-11,A Plague Tale: Requiem,game,1,0,1
+2022-11,Steel Division 2,game,1,0,1
+2022-11,Terra Invicta,game,1,0,1
+2022-11,The Peripheral,film_series,4,0,4
+2022-11,Star Wars: Andor,film_series,2,0,2
+2022-11,Front Mission 1st Remake,game,1,0,1
+2022-11,Warhammer 40K: Darktide,game,2,0,2
+2022-11,The Hu Konzert,misc,1,0,1
+2022-11,The Rookie Staffel 5,film_series,1,0,1
+2022-11,Wednesday,film_series,1,0,1
+2022-11,Mythic Quest Staffel 3,film_series,1,0,1
+2022-11,For All Mankind Staffel 3,film_series,1,0,1
+2022-11,Return to Monkey Island,game,1,0,1
+2022-11,The Walking Dead,film_series,1,0,1
+2022-11,Guillermo del Toro's Pinocchio,film_series,1,0,1
+2022-11,Porcupine Tree Konzert,misc,1,0,1
 2022-12,Avatar 2,film_series,5,1,4
 2022-12,Midnight Suns,game,1,1,0
 2022-12,Master of Magic,game,4,1,3
