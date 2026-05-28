@@ -3793,7 +3793,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "F1 2018",
@@ -4053,19 +4053,19 @@
       },
       "Gamescom": {
         "count": 3,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
-          "editor:christoph_vent",
+          "editor:jörg_langer",
           "editor:dennis_hilla",
-          "editor:jörg_langer"
+          "editor:christoph_vent"
         ]
       },
       "Disenchantment": {
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "editor:benjamin_braun"
         ]
       },
       "Sauerkrautkoma": {
@@ -4114,8 +4114,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:christoph_vent",
+          "editor:benjamin_braun",
           "editor:thomas_schmitz"
         ]
       },
@@ -18680,7 +18680,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           }
         ]
       },
@@ -19131,7 +19131,7 @@
       },
       "Gamescom": {
         "count": 1,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
           "editor:benjamin_braun"
         ]
@@ -34771,7 +34771,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "Arcade Paradise",
@@ -34926,7 +34926,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "Blossom Tales 2: The Minotaur Prince",
@@ -35067,8 +35067,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:dennis_hilla",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:dennis_hilla"
         ]
       },
       "King of Stonks": {
@@ -35102,12 +35102,12 @@
       },
       "Gamescom": {
         "count": 6,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:dennis_hilla",
-          "editor:hagen_gehritz",
           "editor:jörg_langer",
+          "editor:dennis_hilla",
+          "editor:benjamin_braun",
+          "editor:hagen_gehritz",
           "editor:karsten_scholz",
           "editor:michael_hengst"
         ]
@@ -35152,8 +35152,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:dennis_hilla",
+          "editor:benjamin_braun",
           "editor:hagen_gehritz"
         ]
       },
@@ -36295,7 +36295,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           }
         ]
       },
@@ -36757,7 +36757,7 @@
       },
       "Gamescom": {
         "count": 1,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
           "editor:benjamin_braun"
         ]
@@ -43407,7 +43407,7 @@
         "items": [
           {
             "title": "Gamescom",
-            "category": "film_series"
+            "category": "misc"
           },
           {
             "title": "Blue Beetle",
@@ -44156,7 +44156,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "The Crew Motorfest",
@@ -44455,8 +44455,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz",
           "editor:jörg_langer",
+          "editor:hagen_gehritz",
           "editor:karsten_scholz"
         ]
       },
@@ -44464,11 +44464,11 @@
         "count": 5,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:hagen_gehritz",
           "editor:jörg_langer",
-          "editor:karsten_scholz",
-          "editor:michael_hengst"
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun",
+          "editor:michael_hengst",
+          "editor:karsten_scholz"
         ]
       },
       "Japandoku 2022/2023": {
@@ -44496,8 +44496,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:christian_burtchen"
         ]
       },
       "Agatha Christie": {
@@ -44511,8 +44511,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun"
         ]
       },
       "Ad Infinitum": {
@@ -44545,10 +44545,10 @@
       },
       "El Paso, Elsewhere": {
         "count": 2,
-        "category": "game",
+        "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:christian_burtchen"
         ]
       },
       "Futurama": {
@@ -44574,7 +44574,7 @@
       },
       "Gamescom": {
         "count": 1,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
           "editor:benjamin_braun"
         ]
@@ -46042,7 +46042,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "Like a Dragon Gaiden",
@@ -46724,7 +46724,7 @@
       },
       "Gamescom": {
         "count": 1,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
           "editor:hagen_gehritz"
         ]
@@ -53143,7 +53143,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           }
         ]
       },
@@ -56412,7 +56412,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "Mario & Luigi - Brothership",
@@ -57145,7 +57145,7 @@
       },
       "Gamescom": {
         "count": 1,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
           "editor:benjamin_braun"
         ]
@@ -58629,7 +58629,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "Monster Hunter Wilds",
@@ -59262,7 +59262,7 @@
       },
       "Gamescom": {
         "count": 1,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
           "editor:benjamin_braun"
         ]
@@ -59756,7 +59756,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "Sniper Elite",
@@ -60378,7 +60378,7 @@
       },
       "Gamescom": {
         "count": 1,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
           "editor:benjamin_braun"
         ]
@@ -60849,7 +60849,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           }
         ]
       },
@@ -61499,7 +61499,7 @@
       },
       "Gamescom": {
         "count": 1,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
           "editor:benjamin_braun"
         ]
@@ -64938,7 +64938,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "Metal Gear Solid Delta: Snake Eater",
@@ -65040,7 +65040,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "Summer Game Fest",
@@ -65048,7 +65048,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           }
         ]
       },
@@ -65490,7 +65490,7 @@
       },
       "Gamescom": {
         "count": 6,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
           "editor:jörg_langer",
           "editor:hagen_gehritz",
@@ -66230,7 +66230,7 @@
         "items": [
           {
             "title": "Gamescom",
-            "category": "film_series"
+            "category": "misc"
           },
           {
             "title": "Billionaire’s Bunker",
@@ -68743,7 +68743,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "Project Cars",
@@ -69448,7 +69448,7 @@
       },
       "Gamescom": {
         "count": 1,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
           "editor:benjamin_braun"
         ]
