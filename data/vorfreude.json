@@ -27466,7 +27466,7 @@
     "month": "2021-11",
     "url": "/news/206778/darauf-freut-sich-die-redaktion-im-november-2021",
     "title": "Darauf freut sich die Redaktion im... November 2021",
-    "last_updated": "2026-05-27T19:43:42Z",
+    "last_updated": "2026-05-28T22:34:32Z",
     "comment_count": 72,
     "editors": [
       {
@@ -27571,7 +27571,7 @@
             "category": "game"
           },
           {
-            "title": "Sherlock Holmes - Chapter One",
+            "title": "Sherlock Holmes: Chapter One",
             "category": "game"
           },
           {
@@ -27915,7 +27915,221 @@
         "text": "Worauf ich mich freue? INTERNET! Soll bald kommen... ;)\n\nDanke :)\n\nIch drücke dir die Daumen. :)"
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Ghostbusters: Legacy",
+            "category": "film_series"
+          },
+          {
+            "title": "Forza Horizon 5",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Berndor",
+        "items": [
+          {
+            "title": "Horizon Forbidden West",
+            "category": "game"
+          },
+          {
+            "title": "Gran Turismo 7",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "Forza Horizon 5",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "No Time to Die",
+            "category": "film_series"
+          },
+          {
+            "title": "Ghostbusters: Legacy",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Bright Memory: Infinite",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Maverick",
+        "items": [
+          {
+            "title": "Forza Horizon 5",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Olphas",
+        "items": [
+          {
+            "title": "Final Fantasy XIV: Endwalker",
+            "category": "game"
+          },
+          {
+            "title": "Shin Megami Tensei V",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Jonas S.",
+        "items": [
+          {
+            "title": "Ghostbusters: Legacy",
+            "category": "film_series"
+          },
+          {
+            "title": "Rad der Zeit",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "unregistriert",
+        "items": [
+          {
+            "title": "Skyrim Anniversary Edition",
+            "category": "game"
+          },
+          {
+            "title": "GTA: The Trilogy",
+            "category": "game"
+          },
+          {
+            "title": "Sherlock Holmes: Chapter One",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Wunderheiler",
+        "items": [
+          {
+            "title": "Animal Crossing: New Horizons 2.0",
+            "category": "game"
+          },
+          {
+            "title": "Forza Horizon 5",
+            "category": "game"
+          },
+          {
+            "title": "Shin Megami Tensei V",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "The Real Maulwurfn",
+        "items": [
+          {
+            "title": "The Expanse Staffel 6",
+            "category": "film_series"
+          },
+          {
+            "title": "Book of Boba Fett",
+            "category": "film_series"
+          },
+          {
+            "title": "The Witcher Staffel 2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "Rad der Zeit",
+            "category": "film_series"
+          },
+          {
+            "title": "The Witcher Staffel 2",
+            "category": "film_series"
+          },
+          {
+            "title": "Hawkeye",
+            "category": "film_series"
+          },
+          {
+            "title": "Book of Boba Fett",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Q-Bert",
+        "items": [
+          {
+            "title": "Hawkeye",
+            "category": "film_series"
+          },
+          {
+            "title": "Blade Runner: Black Lotus",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Slevin",
+        "items": [
+          {
+            "title": "Halo Infinite",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "e5150",
+        "items": [
+          {
+            "title": "Keep It True Rising Festival",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Lefty",
+        "items": [
+          {
+            "title": "Football Manager 2022",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Inso",
+        "items": [
+          {
+            "title": "Cobra Kai Staffel 4",
+            "category": "film_series"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Fargo": {
         "count": 1,
@@ -27925,10 +28139,11 @@
         ]
       },
       "No Time to Die": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:euph"
         ]
       },
       "Daniel Craig": {
@@ -27998,11 +28213,15 @@
         ]
       },
       "Forza Horizon 5": {
-        "count": 2,
+        "count": 6,
         "category": "game",
         "mentioners": [
           "editor:dennis_hilla",
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Green Yoshi",
+          "user:Noodles",
+          "user:Maverick",
+          "user:Wunderheiler"
         ]
       },
       "Yakuza - Like A Dragon": {
@@ -28064,10 +28283,11 @@
         ]
       },
       "Football Manager 2022": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:thomas_schmitz"
+          "editor:thomas_schmitz",
+          "user:Lefty"
         ]
       },
       "Bloodshore": {
@@ -28077,11 +28297,12 @@
           "editor:thomas_schmitz"
         ]
       },
-      "Sherlock Holmes - Chapter One": {
-        "count": 1,
+      "Sherlock Holmes: Chapter One": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:thomas_schmitz"
+          "editor:thomas_schmitz",
+          "user:unregistriert"
         ]
       },
       "José González": {
@@ -28364,6 +28585,139 @@
         "mentioners": [
           "editor:michael_hengst"
         ]
+      },
+      "Ghostbusters: Legacy": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "user:Green Yoshi",
+          "user:euph",
+          "user:Jonas S."
+        ]
+      },
+      "Horizon Forbidden West": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Berndor"
+        ]
+      },
+      "Gran Turismo 7": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Berndor"
+        ]
+      },
+      "Bright Memory: Infinite": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Final Fantasy XIV: Endwalker": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Olphas"
+        ]
+      },
+      "Shin Megami Tensei V": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Olphas",
+          "user:Wunderheiler"
+        ]
+      },
+      "Rad der Zeit": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Jonas S.",
+          "user:Crizzo"
+        ]
+      },
+      "Skyrim Anniversary Edition": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:unregistriert"
+        ]
+      },
+      "GTA: The Trilogy": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:unregistriert"
+        ]
+      },
+      "Animal Crossing: New Horizons 2.0": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Wunderheiler"
+        ]
+      },
+      "The Expanse Staffel 6": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:The Real Maulwurfn"
+        ]
+      },
+      "Book of Boba Fett": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:The Real Maulwurfn",
+          "user:Crizzo"
+        ]
+      },
+      "The Witcher Staffel 2": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:The Real Maulwurfn",
+          "user:Crizzo"
+        ]
+      },
+      "Hawkeye": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Crizzo",
+          "user:Q-Bert"
+        ]
+      },
+      "Blade Runner: Black Lotus": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Q-Bert"
+        ]
+      },
+      "Halo Infinite": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Slevin"
+        ]
+      },
+      "Keep It True Rising Festival": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:e5150"
+        ]
+      },
+      "Cobra Kai Staffel 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Inso"
+        ]
       }
     }
   },
@@ -28371,7 +28725,7 @@
     "month": "2021-12",
     "url": "/news/209551/darauf-freut-sich-die-redaktion-im-dezember-2021",
     "title": "Darauf freut sich die Redaktion im... Dezember 2021",
-    "last_updated": "2026-05-27T19:43:42Z",
+    "last_updated": "2026-05-28T22:34:32Z",
     "comment_count": 73,
     "editors": [
       {
@@ -28541,7 +28895,7 @@
             "category": "game"
           },
           {
-            "title": "Syberia - The World Before",
+            "title": "Syberia: The World Before",
             "category": "game"
           },
           {
@@ -28840,7 +29194,209 @@
         "text": "Spiele: Hab mich nochmal an Red Dead Redemption 2 gewagt, diesmal am PC und diesmal mehr mit Fokus auf entspanntes Gameplay statt nur Missionen abzuarbeiten. Das funktioniert schon deutlich besser. Die idiotische Buttonbelegung ist aber weiterhin ein dauerhaftes Ärgernis. Wenn das Pferde-Inventar im Spiel ist, hat es was von Emacs.\nSerien: da mein vergünstigtes Disney+-Abo im Februar abläuft und ich es nicht verlängern werde, muss ich bis dahin mal The Mandalorian schauen. Ansonsten auch alle angesammelten Weihnachtsfilme, dank Corona bin ich ja jetzt eh jeden Abend zuhause und die Themen Weihnachtsgeschenke und Urlaubsplanung sind auch schon erledigt.\nAllgemein: das weihnachtlichen Familientreffen bei den Eltern. Hoffe nur, dass es für Geimpfte keine störenden Haushaltsbeschränkungen wie letztes Jahr gibt. Da meine Eltern in Bayern leben, weiß man das nie so genau. :-)\nUnd ich bin noch am hadern, ob ich einen Moderna-Booster im Dezember oder einen mit Biontech im Januar nehme. First-World-Problems.\n\nIch hab zwei sichere Möglichkeiten. Entweder noch im Dezember mit Moderna oder eine im Januar, wo ich sicher Biontech bekomme.\nUnd ich frage mich gerade, was besser ist. Moderna hat wohl schlimmere Nebenwirkungen (und die zweite Biontech war schon schlimm genug bei mir), höhere Risiken und der Moderna-Chef sieht die Wirksamkeit seines Impfstoffs gegenüber Omikron kritisch.\nDer Biontech-Chef äußert sich weit optimistischer. Wie weit das nun einfach nur bessere PR ist, weiß ich natürlich nicht, aber Uğur Şahin wirkt für mich schon mehr wie ein Wissenschaftler als ein PR-Bullshitter. Sein Drängen auf eine dritte Impfung vor ein paar Wochen zeigt sich jetzt ja auch als realistisch und nicht nur um mehr Geld zu scheffeln.\nUnd dann versuche ich gerade rauszufinden, was der bessere Impfabstand ist. Meine Zweitimpfung ist vier Monate her. Im Januar wären es entsprechend fünf.\nAn sich würde ich auch lieber geboostert zu meinen Eltern über Weihnachten fahren.\nAlles kompliziert. Morgen muss ich mich festlegen, ich google dann mal weiter herum. :-)\nMein letztes Zögern hat mich vor Astra Zeneca bewahrt und auch nur zwei Wochen längere Wartezeit gekostet, von daher tendiere ich diesmal auch zu Januar. Kann eh durchgehend Homeoffice machen und hab kein Risiko. Mal sehen. First World Problems wie gesagt.\n\nJa, das Minimum beim Angebot im Dezember ist vier Monate, bei dem im Januar fünf. Hab beide nachgefragt, da ich auch dachte, dass sechs Monate generell noch immer das Minimum ist. Beides sind Betriebsarztimpfungen innerhalb der Firmengruppe in der ich arbeite, beide von verschiedenen Firmen. Viele von uns wurden im Juli vom Betriebsarzt zweitgeimpft, von daher hätte es mich aber auch gewundert, wenn man dann eine dritte organisiert, die zeitlich nicht passt. Aber ich hab trotzdem nachgefragt. :-)\nMit Betriebsimpfungen hat man schon einen gewissen Bonus. Mein Vater, der über den Hausarzt gehen muss, hat noch nicht mal einen Termin für den Booster und der hätte die altersbedingt eher nötiger. Er hat aber auch noch keine sechs Monate Abstand erreicht und das scheint bei den Hausärzten noch relevant zu sein.\n\nFür ein Land, das den Ruf hat, sehr organisiert zu sein, läuft das schon arg chaotisch ab. Da finde ich das Vorgehen in Japan besser. Die haben in uns trotz viel späterem Start schon lange überholt.\nDass wir in einer kritischen Phase die Bundestagswahl hatten, war einfach nicht gut. Ich hoffe, es läuft jetzt rationaler ab.\nIch hab mich jetzt übrigens für die Impfung im Januar entschieden. Hat mehr Vorteile und die Wahrscheinlichkeit, dass ich mich vorher infiziere, ist eh praktisch Null, da ich aktuell von zuhause arbeite und nur zum Einkaufen rausgehe.\nIm Gegensatz zu anderen Corona-Phasen genieße ich das gerade sogar etwas. Der normale Dezember mit Weihnachtsmarkttreffen und Weihnachtsfeiern ist schon stressig und kann gern mal etwas besinnlicher sein. :-)"
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "Ghostbusters: Legacy",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "The Real Maulwurfn",
+        "items": [
+          {
+            "title": "The Expanse Staffel 6",
+            "category": "film_series"
+          },
+          {
+            "title": "Book of Boba Fett",
+            "category": "film_series"
+          },
+          {
+            "title": "The Witcher Staffel 2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "Rad der Zeit",
+            "category": "film_series"
+          },
+          {
+            "title": "The Witcher Staffel 2",
+            "category": "film_series"
+          },
+          {
+            "title": "Hawkeye",
+            "category": "film_series"
+          },
+          {
+            "title": "Book of Boba Fett",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "The Witcher Staffel 2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Halo Infinite",
+            "category": "game"
+          },
+          {
+            "title": "The Game Awards",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Olphas",
+        "items": [
+          {
+            "title": "Final Fantasy XIV: Endwalker",
+            "category": "game"
+          },
+          {
+            "title": "Spider-Man: No Way Home",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Trax",
+        "items": [
+          {
+            "title": "Final Fantasy XIV: Endwalker",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Slevin",
+        "items": [
+          {
+            "title": "Halo Infinite",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Guardians of the Galaxy",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "timeagent",
+        "items": [
+          {
+            "title": "Mass Effect Legendary Edition",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Q-Bert",
+        "items": [
+          {
+            "title": "Hawkeye",
+            "category": "film_series"
+          },
+          {
+            "title": "Blade Runner: Black Lotus",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Wuslon",
+        "items": [
+          {
+            "title": "Eternals",
+            "category": "film_series"
+          },
+          {
+            "title": "Spider-Man: No Way Home",
+            "category": "film_series"
+          },
+          {
+            "title": "Don't Look Up",
+            "category": "film_series"
+          },
+          {
+            "title": "Hawkeye",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "Chorus",
+            "category": "game"
+          },
+          {
+            "title": "Syberia: The World Before",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Inso",
+        "items": [
+          {
+            "title": "Cobra Kai Staffel 4",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "e5150",
+        "items": [
+          {
+            "title": "Riddle of Steel Festival",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "NguyenTranLoc",
+        "items": [
+          {
+            "title": "Arcane",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Vidar",
+        "items": [
+          {
+            "title": "Chorus",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Modern Family": {
         "count": 1,
@@ -28850,10 +29406,11 @@
         ]
       },
       "Rad der Zeit": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:Crizzo"
         ]
       },
       "The Matrix Resurrections": {
@@ -28867,10 +29424,10 @@
         "count": 4,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:jörg_langer",
-          "editor:karsten_scholz",
-          "editor:thomas_schmitz"
+          "editor:thomas_schmitz",
+          "editor:benjamin_braun",
+          "editor:karsten_scholz"
         ]
       },
       "The Silent Sea": {
@@ -28881,13 +29438,15 @@
         ]
       },
       "Halo Infinite": {
-        "count": 4,
+        "count": 6,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:dennis_hilla",
           "editor:jörg_langer",
-          "editor:karsten_scholz"
+          "editor:dennis_hilla",
+          "editor:benjamin_braun",
+          "editor:karsten_scholz",
+          "user:Green Yoshi",
+          "user:Slevin"
         ]
       },
       "RDR 2": {
@@ -28922,8 +29481,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:dennis_hilla",
           "editor:jörg_langer",
+          "editor:dennis_hilla",
           "editor:thomas_schmitz"
         ]
       },
@@ -28985,10 +29544,11 @@
         ]
       },
       "Guardians of the Galaxy": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "user:Ganon"
         ]
       },
       "Pokémon Strahlender Diamant": {
@@ -29075,11 +29635,12 @@
           "editor:benjamin_braun"
         ]
       },
-      "Syberia - The World Before": {
-        "count": 1,
+      "Syberia: The World Before": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Noodles"
         ]
       },
       "Syberia 3": {
@@ -29140,10 +29701,13 @@
         ]
       },
       "Hawkeye": {
-        "count": 1,
+        "count": 4,
         "category": "film_series",
         "mentioners": [
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:Crizzo",
+          "user:Q-Bert",
+          "user:Wuslon"
         ]
       },
       "Das Rad der Zeit": {
@@ -29271,6 +29835,117 @@
         "mentioners": [
           "editor:michael_hengst"
         ]
+      },
+      "Ghostbusters: Legacy": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "The Expanse Staffel 6": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:The Real Maulwurfn"
+        ]
+      },
+      "Book of Boba Fett": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:The Real Maulwurfn",
+          "user:Crizzo"
+        ]
+      },
+      "The Witcher Staffel 2": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "user:The Real Maulwurfn",
+          "user:Crizzo",
+          "user:funrox"
+        ]
+      },
+      "The Game Awards": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Final Fantasy XIV: Endwalker": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Olphas",
+          "user:Trax"
+        ]
+      },
+      "Spider-Man: No Way Home": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Olphas",
+          "user:Wuslon"
+        ]
+      },
+      "Mass Effect Legendary Edition": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:timeagent"
+        ]
+      },
+      "Blade Runner: Black Lotus": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Q-Bert"
+        ]
+      },
+      "Eternals": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Wuslon"
+        ]
+      },
+      "Don't Look Up": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Wuslon"
+        ]
+      },
+      "Chorus": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Noodles",
+          "user:Vidar"
+        ]
+      },
+      "Cobra Kai Staffel 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Inso"
+        ]
+      },
+      "Riddle of Steel Festival": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:e5150"
+        ]
+      },
+      "Arcane": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:NguyenTranLoc"
+        ]
       }
     }
   },
@@ -29278,7 +29953,7 @@
     "month": "2022-02",
     "url": "/news/213653/darauf-freut-sich-die-redaktion-im-februar-2022",
     "title": "Darauf freut sich die Redaktion im... Februar 2022",
-    "last_updated": "2026-05-27T19:43:43Z",
+    "last_updated": "2026-05-28T22:34:32Z",
     "comment_count": 70,
     "editors": [
       {
@@ -29743,7 +30418,223 @@
         "text": "Im Kino läuft so einiges, was mich interessieren würde, das spare ich mir atuell aber noch. In Sachen Serien freue ich mich darauf, Vox Machina, eine Aminationsserie im D&D-Universum, auf Prime weiterzuschauen.\nIn Sachen Games warte ich auf Horizon - Forbidden West. Da ich das aber auf der PS5 spielen will (und keine habe), wird das Warten wohl noch länger dauern.\nUnd dann ist da natürlich noch der Superbowl. Nachdem alle Mannschaften, mit denen ich halbwegs was anfangen kann, ausgeschieden sind, hoffe ich einfach auf ein cooles Spiel mit Coach Esume und Icke."
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "unregistriert",
+        "items": [
+          {
+            "title": "Book of Boba Fett",
+            "category": "film_series"
+          },
+          {
+            "title": "Vikings Valhalla",
+            "category": "film_series"
+          },
+          {
+            "title": "Jurassic World: Camp Cretaceous Staffel 5",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Hannes Herrmann",
+        "items": [
+          {
+            "title": "Crusader Kings III: Royal Court",
+            "category": "game"
+          },
+          {
+            "title": "Elden Ring",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "The Real Maulwurfn",
+        "items": [
+          {
+            "title": "Crusader Kings III: Royal Court",
+            "category": "game"
+          },
+          {
+            "title": "Elden Ring",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "Elden Ring",
+            "category": "game"
+          },
+          {
+            "title": "Horizon Forbidden West",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Shake_s_beer",
+        "items": [
+          {
+            "title": "The Cuphead Show!",
+            "category": "film_series"
+          },
+          {
+            "title": "Vikings Valhalla",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "Vikings Valhalla",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "LRod",
+        "items": [
+          {
+            "title": "Total War: Warhammer 3",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Drapondur",
+        "items": [
+          {
+            "title": "Horizon Forbidden West",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Hyperbolic",
+        "items": [
+          {
+            "title": "Brooklyn Nine-Nine Staffel 8",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "Horizon Forbidden West",
+            "category": "game"
+          },
+          {
+            "title": "Elden Ring",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "timeagent",
+        "items": [
+          {
+            "title": "Uncharted",
+            "category": "film_series"
+          },
+          {
+            "title": "Elite Dangerous",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "John of Gaunt",
+        "items": [
+          {
+            "title": "Elden Ring",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Wuslon",
+        "items": [
+          {
+            "title": "Legend of Vox Machina",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "MicBass",
+        "items": [
+          {
+            "title": "The Expanse Staffel 6",
+            "category": "film_series"
+          },
+          {
+            "title": "Book of Boba Fett",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "TSH-Lightning",
+        "items": [
+          {
+            "title": "Horizon Forbidden West",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sciron",
+        "items": [
+          {
+            "title": "Elden Ring",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "1000dinge",
+        "items": [
+          {
+            "title": "Elden Ring",
+            "category": "game"
+          },
+          {
+            "title": "Horizon Forbidden West",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Vampiro",
+        "items": [
+          {
+            "title": "Steel Division 2: Tribute to the Liberation of Italy",
+            "category": "game"
+          },
+          {
+            "title": "Crusader Kings III: Royal Court",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "AlexCartman",
+        "items": [
+          {
+            "title": "Horizon Forbidden West",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "The Expanse": {
         "count": 1,
@@ -29770,14 +30661,21 @@
         ]
       },
       "Elden Ring": {
-        "count": 5,
+        "count": 12,
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
           "editor:dennis_hilla",
           "editor:benjamin_braun",
           "editor:hagen_gehritz",
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:Hannes Herrmann",
+          "user:The Real Maulwurfn",
+          "user:Danywilde",
+          "user:Noodles",
+          "user:John of Gaunt",
+          "user:Sciron",
+          "user:1000dinge"
         ]
       },
       "Jackass Forever": {
@@ -29788,11 +30686,12 @@
         ]
       },
       "Uncharted": {
-        "count": 2,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
           "editor:dennis_hilla",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:timeagent"
         ]
       },
       "The Cuphead Show": {
@@ -29923,12 +30822,18 @@
         ]
       },
       "Horizon Forbidden West": {
-        "count": 3,
+        "count": 9,
         "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
           "editor:karsten_scholz",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Danywilde",
+          "user:Drapondur",
+          "user:Noodles",
+          "user:TSH-Lightning",
+          "user:1000dinge",
+          "user:AlexCartman"
         ]
       },
       "Brooklyn Nine-Nine": {
@@ -29995,17 +30900,21 @@
         ]
       },
       "The Cuphead Show!": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:Shake_s_beer"
         ]
       },
       "Vikings Valhalla": {
-        "count": 1,
+        "count": 4,
         "category": "film_series",
         "mentioners": [
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:unregistriert",
+          "user:Shake_s_beer",
+          "user:funrox"
         ]
       },
       "Lost Ark": {
@@ -30175,6 +31084,72 @@
         "mentioners": [
           "editor:michael_hengst"
         ]
+      },
+      "Book of Boba Fett": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:unregistriert",
+          "user:MicBass"
+        ]
+      },
+      "Jurassic World: Camp Cretaceous Staffel 5": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:unregistriert"
+        ]
+      },
+      "Crusader Kings III: Royal Court": {
+        "count": 3,
+        "category": "game",
+        "mentioners": [
+          "user:Hannes Herrmann",
+          "user:The Real Maulwurfn",
+          "user:Vampiro"
+        ]
+      },
+      "Total War: Warhammer 3": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:LRod"
+        ]
+      },
+      "Brooklyn Nine-Nine Staffel 8": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Hyperbolic"
+        ]
+      },
+      "Elite Dangerous": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:timeagent"
+        ]
+      },
+      "Legend of Vox Machina": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Wuslon"
+        ]
+      },
+      "The Expanse Staffel 6": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:MicBass"
+        ]
+      },
+      "Steel Division 2: Tribute to the Liberation of Italy": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Vampiro"
+        ]
       }
     }
   },
@@ -30182,7 +31157,7 @@
     "month": "2022-03",
     "url": "/news/215606/darauf-freut-sich-die-redaktion-im-maerz-2022",
     "title": "Darauf freut sich die Redaktion im... März 2022",
-    "last_updated": "2026-05-27T19:43:44Z",
+    "last_updated": "2026-05-28T22:34:32Z",
     "comment_count": 62,
     "editors": [
       {
@@ -30535,7 +31510,225 @@
         "text": "Also wegen The Last Duell muss man jetzt nicht gleich nen Oscar zücken. Gute Schauspieler, ansprechende Kulissen, krachende, wenn auch kurze Schlachtszenen machen noch lange keinen guten Film, wenn die Story gerade so für 60 min reichen würde, aber auf 135 min ausgweälzt wird, Auch das Filmische Element der verschiedenen Sichtweisen reisst das nicht raus, weil die sich teils viel zu wenig unterscheiden. 5/10 Punkten"
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "AlexCartman",
+        "items": [
+          {
+            "title": "Horizon Forbidden West",
+            "category": "game"
+          },
+          {
+            "title": "Triangle Strategy",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Desotho",
+        "items": [
+          {
+            "title": "Rune Factory 5",
+            "category": "game"
+          },
+          {
+            "title": "Triangle Strategy",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "The Batman",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "LRod",
+        "items": [
+          {
+            "title": "Wu-Tang: An American Saga Staffel 2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "Gran Turismo 7",
+            "category": "game"
+          },
+          {
+            "title": "Vigil",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "The Last Kingdom Staffel 5",
+            "category": "film_series"
+          },
+          {
+            "title": "Vikings Valhalla",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Gran Turismo 7",
+            "category": "game"
+          },
+          {
+            "title": "Kirby und das vergessene Land",
+            "category": "game"
+          },
+          {
+            "title": "The Batman",
+            "category": "film_series"
+          },
+          {
+            "title": "Severance",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Star Trek: Picard Staffel 2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "John of Gaunt",
+        "items": [
+          {
+            "title": "Gran Turismo 7",
+            "category": "game"
+          },
+          {
+            "title": "Elden Ring",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Player One",
+        "items": [
+          {
+            "title": "Horizon Forbidden West",
+            "category": "game"
+          },
+          {
+            "title": "Elex 2",
+            "category": "game"
+          },
+          {
+            "title": "Triangle Strategy",
+            "category": "game"
+          },
+          {
+            "title": "Gran Turismo 7",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Robokopp",
+        "items": [
+          {
+            "title": "Shadow Warrior 3",
+            "category": "game"
+          },
+          {
+            "title": "Gran Turismo 7",
+            "category": "game"
+          },
+          {
+            "title": "GhostWire: Tokyo",
+            "category": "game"
+          },
+          {
+            "title": "Tiny Tina's Wonderlands",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Olphas",
+        "items": [
+          {
+            "title": "GhostWire: Tokyo",
+            "category": "game"
+          },
+          {
+            "title": "Killing Eve Staffel 4",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "Fargo Staffel 4",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "TSH-Lightning",
+        "items": [
+          {
+            "title": "WARNO",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Vampiro",
+        "items": [
+          {
+            "title": "WARNO",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "GhostWire: Tokyo",
+            "category": "game"
+          },
+          {
+            "title": "Tiny Tina's Wonderlands",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "st4tic -ZG-",
+        "items": [
+          {
+            "title": "Gran Turismo 7",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Matrix Resurrections": {
         "count": 1,
@@ -30566,20 +31759,24 @@
         ]
       },
       "Elden Ring": {
-        "count": 3,
+        "count": 4,
         "category": "game",
         "mentioners": [
-          "editor:dennis_hilla",
           "editor:jörg_langer",
-          "editor:michael_hengst"
+          "editor:dennis_hilla",
+          "editor:michael_hengst",
+          "user:John of Gaunt"
         ]
       },
       "Triangle Strategy": {
-        "count": 2,
+        "count": 5,
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:AlexCartman",
+          "user:Desotho",
+          "user:Player One"
         ]
       },
       "Tactics Ogre": {
@@ -30614,17 +31811,18 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:dennis_hilla",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun"
         ]
       },
       "Kirby und das vergessene Land": {
-        "count": 2,
+        "count": 3,
         "category": "game",
         "mentioners": [
+          "editor:dennis_hilla",
           "editor:benjamin_braun",
-          "editor:dennis_hilla"
+          "user:Green Yoshi"
         ]
       },
       "Zero and Below": {
@@ -30684,10 +31882,12 @@
         ]
       },
       "The Batman": {
-        "count": 1,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Crizzo",
+          "user:Green Yoshi"
         ]
       },
       "Outlander": {
@@ -30796,17 +31996,20 @@
         ]
       },
       "Elex 2": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Player One"
         ]
       },
       "Tiny Tina's Wonderlands": {
-        "count": 1,
+        "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Robokopp",
+          "user:Sokar"
         ]
       },
       "Zoe Kravitz": {
@@ -30815,6 +32018,113 @@
         "mentioners": [
           "editor:thomas_schmitz"
         ]
+      },
+      "Horizon Forbidden West": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:AlexCartman",
+          "user:Player One"
+        ]
+      },
+      "Rune Factory 5": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Desotho"
+        ]
+      },
+      "Wu-Tang: An American Saga Staffel 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:LRod"
+        ]
+      },
+      "Gran Turismo 7": {
+        "count": 6,
+        "category": "game",
+        "mentioners": [
+          "user:Danywilde",
+          "user:Green Yoshi",
+          "user:John of Gaunt",
+          "user:Player One",
+          "user:Robokopp",
+          "user:st4tic -ZG-"
+        ]
+      },
+      "Vigil": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Danywilde"
+        ]
+      },
+      "The Last Kingdom Staffel 5": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Vikings Valhalla": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Severance": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Star Trek: Picard Staffel 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Shadow Warrior 3": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Robokopp"
+        ]
+      },
+      "GhostWire: Tokyo": {
+        "count": 3,
+        "category": "game",
+        "mentioners": [
+          "user:Robokopp",
+          "user:Olphas",
+          "user:Sokar"
+        ]
+      },
+      "Killing Eve Staffel 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Olphas"
+        ]
+      },
+      "Fargo Staffel 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Noodles"
+        ]
+      },
+      "WARNO": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:TSH-Lightning",
+          "user:Vampiro"
+        ]
       }
     }
   },
@@ -30822,7 +32132,7 @@
     "month": "2022-04",
     "url": "/news/217533/darauf-freut-sich-die-redaktion-im-april-2022",
     "title": "Darauf freut sich die Redaktion im... April 2022",
-    "last_updated": "2026-05-27T19:43:45Z",
+    "last_updated": "2026-05-28T22:34:32Z",
     "comment_count": 69,
     "editors": [
       {
@@ -31012,7 +32322,7 @@
             "category": "film_series"
           },
           {
-            "title": "Lego Star Wars - Die Skywalker Saga",
+            "title": "Lego Star Wars: Die Skywalker Saga",
             "category": "game"
           },
           {
@@ -31053,7 +32363,7 @@
             "category": "game"
           },
           {
-            "title": "King Arthur - A Knight's Tale",
+            "title": "King Arthur: A Knight's Tale",
             "category": "game"
           },
           {
@@ -31339,7 +32649,193 @@
         "text": "Bei Games spiele ich derzeit ältere Titel aus dem Backlog und Neuzugänge aus dem GamePass wie das kürzlich releaste Weird West, bald auch PanzerCorps 2.\nZudem freue ich mich auf den Release des TheAmiga500-Mini. Dann wird nicht nur an der Evercade VS mit den zwei neuen Collections alten Retro-Spiele gedaddelt, sondern auch so mancher Amiga 500-Klassiker. :)\nBei Serien/Filme steht die zweite Staffel von Picard auf dem Plan und vielleicht reicht es noch für den ein oder anderen Film-Klassiker."
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "Olphas",
+        "items": [
+          {
+            "title": "Moon Knight",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "unregistriert",
+        "items": [
+          {
+            "title": "Better Call Saul Staffel 6",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "TheLastToKnow",
+        "items": [
+          {
+            "title": "Better Call Saul Staffel 6",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Bruno Lawrie",
+        "items": [
+          {
+            "title": "GhostWire: Tokyo",
+            "category": "game"
+          },
+          {
+            "title": "Elden Ring",
+            "category": "game"
+          },
+          {
+            "title": "Better Call Saul Staffel 6",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Wuslon",
+        "items": [
+          {
+            "title": "Moon Knight",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Slaytanic",
+        "items": [
+          {
+            "title": "King Arthur: A Knight's Tale",
+            "category": "game"
+          },
+          {
+            "title": "Rammstein: Zeit",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "Vikings Valhalla",
+            "category": "film_series"
+          },
+          {
+            "title": "Bridgerton Staffel 2",
+            "category": "film_series"
+          },
+          {
+            "title": "The Batman",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Maverick",
+        "items": [
+          {
+            "title": "Weird West",
+            "category": "game"
+          },
+          {
+            "title": "PanzerCorps 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Tr1nity",
+        "items": [
+          {
+            "title": "Ozark Finale",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Baumkuchen",
+        "items": [
+          {
+            "title": "Chrono Cross: The Radical Dreamers Edition",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "StefanH",
+        "items": [
+          {
+            "title": "Chrono Cross: The Radical Dreamers Edition",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "andima",
+        "items": [
+          {
+            "title": "Ozark Finale",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "AlexCartman",
+        "items": [
+          {
+            "title": "Chrono Cross: The Radical Dreamers Edition",
+            "category": "game"
+          },
+          {
+            "title": "Voice of Cards: The Isle Dragon Roars",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "MicBass",
+        "items": [
+          {
+            "title": "Better Call Saul Staffel 6",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Robokopp",
+        "items": [
+          {
+            "title": "Chrono Cross: The Radical Dreamers Edition",
+            "category": "game"
+          },
+          {
+            "title": "Lego Star Wars: Die Skywalker Saga",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "hotzenrockz",
+        "items": [
+          {
+            "title": "Ozark Finale",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Maestro84",
+        "items": [
+          {
+            "title": "Star Trek: Lower Decks Staffel 2",
+            "category": "film_series"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Last Kingdom": {
         "count": 1,
@@ -31405,13 +32901,14 @@
         ]
       },
       "Elden Ring": {
-        "count": 4,
+        "count": 5,
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
           "editor:dennis_hilla",
           "editor:hagen_gehritz",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Bruno Lawrie"
         ]
       },
       "GTA 5": {
@@ -31459,10 +32956,12 @@
         ]
       },
       "Moon Knight": {
-        "count": 1,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:dennis_hilla"
+          "editor:dennis_hilla",
+          "user:Olphas",
+          "user:Wuslon"
         ]
       },
       "Die Skywalker-Saga": {
@@ -31633,11 +33132,12 @@
           "editor:benjamin_braun"
         ]
       },
-      "Lego Star Wars - Die Skywalker Saga": {
-        "count": 1,
+      "Lego Star Wars: Die Skywalker Saga": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Robokopp"
         ]
       },
       "E3 2019": {
@@ -31696,11 +33196,12 @@
           "editor:hagen_gehritz"
         ]
       },
-      "King Arthur - A Knight's Tale": {
-        "count": 1,
+      "King Arthur: A Knight's Tale": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "user:Slaytanic"
         ]
       },
       "Dark Souls 2": {
@@ -31837,10 +33338,14 @@
         ]
       },
       "Chrono Cross: The Radical Dreamers Edition": {
-        "count": 1,
+        "count": 5,
         "category": "game",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Baumkuchen",
+          "user:StefanH",
+          "user:AlexCartman",
+          "user:Robokopp"
         ]
       },
       "Obi-Wan": {
@@ -31877,6 +33382,88 @@
         "mentioners": [
           "editor:michael_hengst"
         ]
+      },
+      "Better Call Saul Staffel 6": {
+        "count": 4,
+        "category": "film_series",
+        "mentioners": [
+          "user:unregistriert",
+          "user:TheLastToKnow",
+          "user:Bruno Lawrie",
+          "user:MicBass"
+        ]
+      },
+      "GhostWire: Tokyo": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Rammstein: Zeit": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Slaytanic"
+        ]
+      },
+      "Vikings Valhalla": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Bridgerton Staffel 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "The Batman": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Weird West": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Maverick"
+        ]
+      },
+      "PanzerCorps 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Maverick"
+        ]
+      },
+      "Ozark Finale": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "user:Tr1nity",
+          "user:andima",
+          "user:hotzenrockz"
+        ]
+      },
+      "Voice of Cards: The Isle Dragon Roars": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Star Trek: Lower Decks Staffel 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84"
+        ]
       }
     }
   },
@@ -31884,7 +33471,7 @@
     "month": "2022-05",
     "url": "/news/219631/darauf-freut-sich-die-redaktion-im-mai-2022",
     "title": "Darauf freut sich die Redaktion im... Mai 2022",
-    "last_updated": "2026-05-27T19:43:46Z",
+    "last_updated": "2026-05-28T22:34:32Z",
     "comment_count": 67,
     "editors": [
       {
@@ -31960,7 +33547,7 @@
             "category": "game"
           },
           {
-            "title": "Lego Star Wars - Die Skywalker Saga",
+            "title": "Lego Star Wars: Die Skywalker Saga",
             "category": "game"
           },
           {
@@ -32425,7 +34012,174 @@
         "text": "Videospiel-technisch steht bei mir diesen Monat nichts neues an, aber da mein PS+ Anfang Juni und Pokémon-Bank-Abo Ende Juni ausläuft werden ich die zwei Spiele, die damit zusammenhängen höher priorisieren (was seht ihr bestimmt in der DU ;). Muss ja nicht bis auf den letzten Drücker warten. Aber vorher wird Pokémon Legenden Arceus durchgespielt, zumindest die Story und das wichtigste danach.\nDa ich es nicht gewohnt bin, ein Netflix-Abo zu haben, schaue ich auch irgendwie wenig, auch wenn ich eigentlich eine recht ansehnliche Watchlist dafür habe. Muss ich irgendwie besser in den Tag integrieren, also an den Platz, den sonst YouTube einnimmt. Weil wollte das Abo eigentlich nur ein paar Monate haben um die paar Serien, die ich auf dem Zettel habe zu schauen und dann wieder zu kündigen.\nAusnahmsweise habe ich mal wieder Brettspiele auf dem Zettel, gerade frisch ist Dune Imperium erschienen. Ich mag Worker-Placement-Spiele sehr und das Setting hat mich seit dem Kino-Film auch irgendwie gehooked. Allerdings braucht man dafür auch Leute um sie zu spielen. Andererseits sind Brettspiele mittlerweile keine schlechte Wertanlage..."
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "hotzenrockz",
+        "items": [
+          {
+            "title": "Doctor Strange in the Multiverse of Madness",
+            "category": "film_series"
+          },
+          {
+            "title": "Star Trek: Picard Staffel 2",
+            "category": "film_series"
+          },
+          {
+            "title": "Fargo Staffel 4",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Restrictor81",
+        "items": [
+          {
+            "title": "Doctor Strange in the Multiverse of Madness",
+            "category": "film_series"
+          },
+          {
+            "title": "Stranger Things Staffel 4",
+            "category": "film_series"
+          },
+          {
+            "title": "Obi-Wan Kenobi",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Olphas",
+        "items": [
+          {
+            "title": "Doctor Strange in the Multiverse of Madness",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "LRod",
+        "items": [
+          {
+            "title": "Warhammer 40000: Chaos Gate - Daemonhunters",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "French Open",
+            "category": "misc"
+          },
+          {
+            "title": "Champions League Finale",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Tr1nity",
+        "items": [
+          {
+            "title": "Top Gun: Maverick",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "Sniper Elite 5",
+            "category": "game"
+          },
+          {
+            "title": "Vampire: The Masquerade - Swansong",
+            "category": "game"
+          },
+          {
+            "title": "Stranger Things Staffel 4",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Obi-Wan Kenobi",
+            "category": "film_series"
+          },
+          {
+            "title": "Love, Death & Robots Staffel 3",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Baumkuchen",
+        "items": [
+          {
+            "title": "Star Trek: Strange New Worlds",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "John of Gaunt",
+        "items": [
+          {
+            "title": "Love, Death & Robots Staffel 3",
+            "category": "film_series"
+          },
+          {
+            "title": "Better Call Saul Staffel 6",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "Neonschwarz Konzert",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "Obi-Wan Kenobi",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Humpsi",
+        "items": [
+          {
+            "title": "Top Gun: Maverick",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Maverick",
+        "items": [
+          {
+            "title": "Forgotten Fables: Wolves of the Westwind",
+            "category": "game"
+          },
+          {
+            "title": "Sniper Elite 5",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Better Call Saul": {
         "count": 2,
@@ -32533,7 +34287,7 @@
           "editor:michael_hengst"
         ]
       },
-      "Lego Star Wars - Die Skywalker Saga": {
+      "Lego Star Wars: Die Skywalker Saga": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -32548,11 +34302,13 @@
         ]
       },
       "Sniper Elite 5": {
-        "count": 2,
+        "count": 4,
         "category": "game",
         "mentioners": [
           "editor:dennis_hilla",
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Noodles",
+          "user:Maverick"
         ]
       },
       "Angerfist": {
@@ -32584,12 +34340,15 @@
         ]
       },
       "Obi-Wan Kenobi": {
-        "count": 3,
+        "count": 6,
         "category": "film_series",
         "mentioners": [
           "editor:benjamin_braun",
           "editor:karsten_scholz",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Restrictor81",
+          "user:Ganon",
+          "user:Crizzo"
         ]
       },
       "Brooklyn Nine-Nine": {
@@ -32686,11 +34445,14 @@
         ]
       },
       "Doctor Strange in the Multiverse of Madness": {
-        "count": 2,
+        "count": 5,
         "category": "film_series",
         "mentioners": [
           "editor:karsten_scholz",
-          "editor:thomas_schmitz"
+          "editor:thomas_schmitz",
+          "user:hotzenrockz",
+          "user:Restrictor81",
+          "user:Olphas"
         ]
       },
       "Orville": {
@@ -32964,6 +34726,100 @@
         "category": "misc",
         "mentioners": [
           "editor:thomas_schmitz"
+        ]
+      },
+      "Star Trek: Picard Staffel 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:hotzenrockz"
+        ]
+      },
+      "Fargo Staffel 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:hotzenrockz"
+        ]
+      },
+      "Stranger Things Staffel 4": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Restrictor81",
+          "user:Noodles"
+        ]
+      },
+      "Warhammer 40000: Chaos Gate - Daemonhunters": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:LRod"
+        ]
+      },
+      "French Open": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Champions League Finale": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Top Gun: Maverick": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Tr1nity",
+          "user:Humpsi"
+        ]
+      },
+      "Vampire: The Masquerade - Swansong": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Noodles"
+        ]
+      },
+      "Love, Death & Robots Staffel 3": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon",
+          "user:John of Gaunt"
+        ]
+      },
+      "Star Trek: Strange New Worlds": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Baumkuchen"
+        ]
+      },
+      "Better Call Saul Staffel 6": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:John of Gaunt"
+        ]
+      },
+      "Neonschwarz Konzert": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Forgotten Fables: Wolves of the Westwind": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Maverick"
         ]
       }
     }
@@ -78852,7 +80708,7 @@
     "month": "2026-04",
     "url": "/news/342446/darauf-freut-sich-die-redaktion-im-april-2026",
     "title": "Darauf freut sich die Redaktion im... April 2026",
-    "last_updated": "2026-05-28T21:58:13Z",
+    "last_updated": "2026-05-28T22:34:40Z",
     "comment_count": 57,
     "editors": [
       {
@@ -80468,7 +82324,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-05-28T21:58:12Z",
+    "last_updated": "2026-05-28T22:34:39Z",
     "comment_count": 62,
     "editors": [
       {
