@@ -44760,7 +44760,7 @@
     "month": "2023-10",
     "url": "/news/265869/darauf-freut-sich-die-redaktion-im-oktober-2023",
     "title": "Darauf freut sich die Redaktion im... Oktober 2023",
-    "last_updated": "2026-05-27T19:44:00Z",
+    "last_updated": "2026-05-28T20:12:56Z",
     "comment_count": 101,
     "editors": [
       {
@@ -44964,7 +44964,7 @@
             "category": "film_series"
           },
           {
-            "title": "Star Trek - Infinite",
+            "title": "Star Trek: Infinite",
             "category": "game"
           },
           {
@@ -44972,7 +44972,7 @@
             "category": "game"
           },
           {
-            "title": "Cities - Skylines 2",
+            "title": "Cities: Skylines 2",
             "category": "game"
           },
           {
@@ -45164,13 +45164,354 @@
         "text": "Bin überrascht, niemand scheint die Rugby WM zu verfolgen. So grandios guter Sport.\nNächstes WE Viertelfinale mit Irland - Neuseeland und Frankreich - Südafrika. Mehr geht nicht.\n\nKann man auch nur beim Zuschauen lernen. Gibt echt viele Ausnahmen und Einzelregeln, die ich auch noch nicht kapiert habe. Macht dennoch Spass zuzuschauen. Beide Viertelfinals gestern waren jedenfalls spannend bis zuletzt.\n\nJa, genauso ist es. Cricket WM ist auch. In Asien ein Riesenthema, bei uns ohne jede Beachtung.\n\nDa die nicht von Steffen Freund kommentiert wird, würde ich auch da mal ab und an schauen ;-)"
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Marvel's Spider-Man 2",
+            "category": "game"
+          },
+          {
+            "title": "Super Mario Bros. Wonder",
+            "category": "game"
+          },
+          {
+            "title": "Alan Wake 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Maestro84",
+        "items": [
+          {
+            "title": "Sea of Stars",
+            "category": "game"
+          },
+          {
+            "title": "Assassin's Creed Mirage",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "Assassin's Creed Mirage",
+            "category": "game"
+          },
+          {
+            "title": "Alan Wake 2",
+            "category": "game"
+          },
+          {
+            "title": "The Fall of the House of Usher",
+            "category": "film_series"
+          },
+          {
+            "title": "Lupin",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "Cyberpunk 2077: Phantom Liberty",
+            "category": "game"
+          },
+          {
+            "title": "Baldur's Gate 3",
+            "category": "game"
+          },
+          {
+            "title": "Alan Wake 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "Cyberpunk 2077: Phantom Liberty",
+            "category": "game"
+          },
+          {
+            "title": "Marvel's Spider-Man 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Calmon",
+        "items": [
+          {
+            "title": "Cyberpunk 2077",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "JarmuschX",
+        "items": [
+          {
+            "title": "Sea of Stars",
+            "category": "game"
+          },
+          {
+            "title": "Final Fantasy XVI",
+            "category": "game"
+          },
+          {
+            "title": "Assassin's Creed Mirage",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "unregistriert",
+        "items": [
+          {
+            "title": "Assassin's Creed Mirage",
+            "category": "game"
+          },
+          {
+            "title": "Only Murders in the Building",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Admiral Anger",
+        "items": [
+          {
+            "title": "Super Mario Bros. Wonder",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sonry",
+        "items": [
+          {
+            "title": "Lords of the Fallen",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Q-Bert",
+        "items": [
+          {
+            "title": "Gen V",
+            "category": "film_series"
+          },
+          {
+            "title": "Lamplighters League",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "Only Murders in the Building",
+            "category": "film_series"
+          },
+          {
+            "title": "Babylon Berlin",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Cpt. Metal",
+        "items": [
+          {
+            "title": "Alan Wake 2",
+            "category": "game"
+          },
+          {
+            "title": "Marvel's Spider-Man 2",
+            "category": "game"
+          },
+          {
+            "title": "WRC 2023",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "MiLe84",
+        "items": [
+          {
+            "title": "Cities: Skylines 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "StefanH",
+        "items": [
+          {
+            "title": "Loki",
+            "category": "film_series"
+          },
+          {
+            "title": "Super Mario Bros. Wonder",
+            "category": "game"
+          },
+          {
+            "title": "Metal Gear Solid: Master Collection Vol. 1",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "Final Fantasy XVI",
+            "category": "game"
+          },
+          {
+            "title": "Super Mario Bros. Wonder",
+            "category": "game"
+          },
+          {
+            "title": "Lupin",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Baumkuchen",
+        "items": [
+          {
+            "title": "Star Trek: Infinite",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "TSH-Lightning",
+        "items": [
+          {
+            "title": "Sea of Stars",
+            "category": "game"
+          },
+          {
+            "title": "Domina",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Nischenliebhaber",
+        "items": [
+          {
+            "title": "Super Mario Bros. Wonder",
+            "category": "game"
+          },
+          {
+            "title": "Sonic Superstars",
+            "category": "game"
+          },
+          {
+            "title": "Gargoyles Remastered",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Babylon Berlin",
+            "category": "film_series"
+          },
+          {
+            "title": "Loki",
+            "category": "film_series"
+          },
+          {
+            "title": "The Creator",
+            "category": "film_series"
+          },
+          {
+            "title": "Killers of the Flower Moon",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Jonas S.",
+        "items": [
+          {
+            "title": "The Rookie",
+            "category": "film_series"
+          },
+          {
+            "title": "Star Wars: Ahsoka",
+            "category": "film_series"
+          },
+          {
+            "title": "Gen V",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "Super Mario Bros. Wonder",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "DerBesserwisser",
+        "items": [
+          {
+            "title": "Gen V",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "marcw11",
+        "items": [
+          {
+            "title": "Star Wars: Ahsoka",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "LRod",
+        "items": [
+          {
+            "title": "Star Wars: Ahsoka",
+            "category": "film_series"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Star Wars: Ahsoka": {
-        "count": 1,
+        "count": 4,
         "category": "film_series",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:Jonas S.",
+          "user:marcw11",
+          "user:LRod"
         ]
       },
       "Star Wars Andor": {
@@ -45203,10 +45544,14 @@
         ]
       },
       "Assassin's Creed Mirage": {
-        "count": 1,
+        "count": 5,
         "category": "game",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:Maestro84",
+          "user:Noodles",
+          "user:JarmuschX",
+          "user:unregistriert"
         ]
       },
       "AC Odyssey": {
@@ -45224,12 +45569,13 @@
         ]
       },
       "Lords of the Fallen": {
-        "count": 3,
+        "count": 4,
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
           "editor:hagen_gehritz",
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:Sonry"
         ]
       },
       "Total War Pharaoh": {
@@ -45269,18 +45615,24 @@
         ]
       },
       "Alan Wake 2": {
-        "count": 2,
+        "count": 6,
         "category": "game",
         "mentioners": [
           "editor:hagen_gehritz",
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:Green Yoshi",
+          "user:Noodles",
+          "user:Danywilde",
+          "user:Cpt. Metal"
         ]
       },
       "Babylon Berlin": {
-        "count": 1,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Alain",
+          "user:Ganon"
         ]
       },
       "Modern Family": {
@@ -45340,10 +45692,12 @@
         ]
       },
       "Loki": {
-        "count": 1,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:StefanH",
+          "user:Ganon"
         ]
       },
       "The Crown": {
@@ -45354,11 +45708,17 @@
         ]
       },
       "Super Mario Bros. Wonder": {
-        "count": 2,
+        "count": 8,
         "category": "game",
         "mentioners": [
           "editor:michael_hengst",
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:Green Yoshi",
+          "user:Admiral Anger",
+          "user:StefanH",
+          "user:funrox",
+          "user:Nischenliebhaber",
+          "user:Sokar"
         ]
       },
       "Disgaea 7": {
@@ -45404,10 +45764,12 @@
         ]
       },
       "Only Murders in the Building": {
-        "count": 1,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen"
+          "editor:christian_burtchen",
+          "user:unregistriert",
+          "user:Alain"
         ]
       },
       "The West Wing": {
@@ -45452,18 +45814,20 @@
           "editor:karsten_scholz"
         ]
       },
-      "Star Trek - Infinite": {
-        "count": 1,
+      "Star Trek: Infinite": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:Baumkuchen"
         ]
       },
-      "Cities - Skylines 2": {
-        "count": 1,
+      "Cities: Skylines 2": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:MiLe84"
         ]
       },
       "The Lord of the Rings - Return to Moria": {
@@ -45479,6 +45843,141 @@
         "mentioners": [
           "editor:karsten_scholz"
         ]
+      },
+      "Marvel's Spider-Man 2": {
+        "count": 3,
+        "category": "game",
+        "mentioners": [
+          "user:Green Yoshi",
+          "user:euph",
+          "user:Cpt. Metal"
+        ]
+      },
+      "Sea of Stars": {
+        "count": 3,
+        "category": "game",
+        "mentioners": [
+          "user:Maestro84",
+          "user:JarmuschX",
+          "user:TSH-Lightning"
+        ]
+      },
+      "The Fall of the House of Usher": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Noodles"
+        ]
+      },
+      "Lupin": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Noodles",
+          "user:funrox"
+        ]
+      },
+      "Cyberpunk 2077: Phantom Liberty": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Danywilde",
+          "user:euph"
+        ]
+      },
+      "Baldur's Gate 3": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Danywilde"
+        ]
+      },
+      "Cyberpunk 2077": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Calmon"
+        ]
+      },
+      "Final Fantasy XVI": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:JarmuschX",
+          "user:funrox"
+        ]
+      },
+      "Gen V": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "user:Q-Bert",
+          "user:Jonas S.",
+          "user:DerBesserwisser"
+        ]
+      },
+      "Lamplighters League": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Q-Bert"
+        ]
+      },
+      "WRC 2023": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Cpt. Metal"
+        ]
+      },
+      "Metal Gear Solid: Master Collection Vol. 1": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:StefanH"
+        ]
+      },
+      "Domina": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:TSH-Lightning"
+        ]
+      },
+      "Sonic Superstars": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Nischenliebhaber"
+        ]
+      },
+      "Gargoyles Remastered": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Nischenliebhaber"
+        ]
+      },
+      "The Creator": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Killers of the Flower Moon": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "The Rookie": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Jonas S."
+        ]
       }
     }
   },
@@ -45486,7 +45985,7 @@
     "month": "2023-11",
     "url": "/news/269472/darauf-freut-sich-die-redaktion-im-november-2023",
     "title": "Darauf freut sich die Redaktion im... November 2023",
-    "last_updated": "2026-05-27T19:44:01Z",
+    "last_updated": "2026-05-28T20:12:56Z",
     "comment_count": 83,
     "editors": [
       {
@@ -45513,7 +46012,7 @@
             "category": "game"
           },
           {
-            "title": "Like A Dragon Gaiden – The Man Who Erased His Name",
+            "title": "Like a Dragon Gaiden: The Man Who Erased His Name",
             "category": "game"
           },
           {
@@ -45684,7 +46183,7 @@
             "category": "game"
           },
           {
-            "title": "Star Ocean - The Second Story R",
+            "title": "Star Ocean: The Second Story R",
             "category": "game"
           },
           {
@@ -45902,14 +46401,239 @@
         "text": "Hmm, ich habe weder bei Spielen, noch bei Filmen oder Serien etwas. Aber die NBA-Saison läuft wieder, werden heute Abend mal wieder ein Spiel schauen.\n[Buch] Der vorletzte Band der Horus Heresy-Reihe, The End and The Death, Part 2/3 von Dan Abnett. Die Reihe begleitet mich seit 20 Jahren. Mit dieser sehr starken Abschluss-Trilogie endet sie nun leider. Aber ein letzter Band nach diesem hier kommt ja noch."
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "Napoleon",
+            "category": "film_series"
+          },
+          {
+            "title": "Loki",
+            "category": "film_series"
+          },
+          {
+            "title": "Marvel's Spider-Man 2",
+            "category": "game"
+          },
+          {
+            "title": "Cyberpunk 2077: Phantom Liberty",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Olphas",
+        "items": [
+          {
+            "title": "Like a Dragon Gaiden: The Man Who Erased His Name",
+            "category": "game"
+          },
+          {
+            "title": "Marvel's Spider-Man 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "unregistriert",
+        "items": [
+          {
+            "title": "Napoleon",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "Napoleon",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "Alan Wake 2",
+            "category": "game"
+          },
+          {
+            "title": "Cyberpunk 2077: Phantom Liberty",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "Spy x Family",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Sciron",
+        "items": [
+          {
+            "title": "Pluto",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Dennis Hilla",
+        "items": [
+          {
+            "title": "One Piece",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "Lawmen: Bass Reeves",
+            "category": "film_series"
+          },
+          {
+            "title": "Final Fantasy XVI",
+            "category": "game"
+          },
+          {
+            "title": "Super Mario Bros. Wonder",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "Napoleon",
+            "category": "film_series"
+          },
+          {
+            "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+            "category": "film_series"
+          },
+          {
+            "title": "The Handmaid's Tale",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Marvel's Spider-Man 2",
+            "category": "game"
+          },
+          {
+            "title": "Starfield",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Desotho",
+        "items": [
+          {
+            "title": "Star Ocean: The Second Story R",
+            "category": "game"
+          },
+          {
+            "title": "Like a Dragon Gaiden: The Man Who Erased His Name",
+            "category": "game"
+          },
+          {
+            "title": "Persona 5 Tactica",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Baumkuchen",
+        "items": [
+          {
+            "title": "Like a Dragon Gaiden: The Man Who Erased His Name",
+            "category": "game"
+          },
+          {
+            "title": "Persona 5 Tactica",
+            "category": "game"
+          },
+          {
+            "title": "Super Mario RPG",
+            "category": "game"
+          },
+          {
+            "title": "Star Ocean: The Second Story R",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Bruno Lawrie",
+        "items": [
+          {
+            "title": "Attack on Titan",
+            "category": "film_series"
+          },
+          {
+            "title": "Alan Wake 2",
+            "category": "game"
+          },
+          {
+            "title": "Marvel's Spider-Man 2",
+            "category": "game"
+          },
+          {
+            "title": "Super Mario Bros. Wonder",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "Age of Empires 4: The Sultans Ascend",
+            "category": "game"
+          },
+          {
+            "title": "Persona 5 Tactica",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "rammmses",
+        "items": [
+          {
+            "title": "RoboCop: Rogue City",
+            "category": "game"
+          },
+          {
+            "title": "Like a Dragon Gaiden: The Man Who Erased His Name",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Joaquin Phoenix": {
         "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:jörg_langer",
+          "editor:benjamin_braun",
           "editor:michael_hengst"
         ]
       },
@@ -45921,20 +46645,26 @@
         ]
       },
       "Napoleon": {
-        "count": 3,
+        "count": 7,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:jörg_langer",
-          "editor:michael_hengst"
+          "editor:benjamin_braun",
+          "editor:michael_hengst",
+          "user:Crizzo",
+          "user:unregistriert",
+          "user:euph",
+          "user:Noodles"
         ]
       },
       "Alan Wake 2": {
-        "count": 2,
+        "count": 4,
         "category": "game",
         "mentioners": [
+          "editor:jörg_langer",
           "editor:christian_burtchen",
-          "editor:jörg_langer"
+          "user:Danywilde",
+          "user:Bruno Lawrie"
         ]
       },
       "Moonring": {
@@ -45944,19 +46674,24 @@
           "editor:jörg_langer"
         ]
       },
-      "Like A Dragon Gaiden – The Man Who Erased His Name": {
-        "count": 1,
+      "Like a Dragon Gaiden: The Man Who Erased His Name": {
+        "count": 5,
         "category": "game",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:Olphas",
+          "user:Desotho",
+          "user:Baumkuchen",
+          "user:rammmses"
         ]
       },
       "Super Mario RPG": {
-        "count": 2,
+        "count": 3,
         "category": "game",
         "mentioners": [
+          "editor:jörg_langer",
           "editor:benjamin_braun",
-          "editor:jörg_langer"
+          "user:Baumkuchen"
         ]
       },
       "Our Flag Means Death": {
@@ -46002,18 +46737,21 @@
         ]
       },
       "Persona 5 Tactica": {
-        "count": 1,
+        "count": 4,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "user:Desotho",
+          "user:Baumkuchen",
+          "user:Sokar"
         ]
       },
       "The Talos Principle 2": {
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:christian_burtchen",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:christian_burtchen"
         ]
       },
       "Phantom - Unheil über der Stadt": {
@@ -46168,8 +46906,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "editor:christian_burtchen"
         ]
       },
       "Super Mario RPG - Legend of the Seven Stars": {
@@ -46179,11 +46917,13 @@
           "editor:michael_hengst"
         ]
       },
-      "Star Ocean - The Second Story R": {
-        "count": 1,
+      "Star Ocean: The Second Story R": {
+        "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Desotho",
+          "user:Baumkuchen"
         ]
       },
       "Tales of Arise: Beyond the Dawn": {
@@ -46201,10 +46941,11 @@
         ]
       },
       "Loki": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen"
+          "editor:christian_burtchen",
+          "user:Crizzo"
         ]
       },
       "The Eras Tour": {
@@ -46255,6 +46996,109 @@
         "mentioners": [
           "editor:karsten_scholz"
         ]
+      },
+      "Marvel's Spider-Man 2": {
+        "count": 4,
+        "category": "game",
+        "mentioners": [
+          "user:Crizzo",
+          "user:Olphas",
+          "user:Green Yoshi",
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Cyberpunk 2077: Phantom Liberty": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Crizzo",
+          "user:Danywilde"
+        ]
+      },
+      "Spy x Family": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Pluto": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Sciron"
+        ]
+      },
+      "One Piece": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Dennis Hilla"
+        ]
+      },
+      "Lawmen: Bass Reeves": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Final Fantasy XVI": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Super Mario Bros. Wonder": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:funrox",
+          "user:Bruno Lawrie"
+        ]
+      },
+      "The Hunger Games: The Ballad of Songbirds & Snakes": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Noodles"
+        ]
+      },
+      "The Handmaid's Tale": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Noodles"
+        ]
+      },
+      "Starfield": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Attack on Titan": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Age of Empires 4: The Sultans Ascend": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "RoboCop: Rogue City": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:rammmses"
+        ]
       }
     }
   },
@@ -46262,7 +47106,7 @@
     "month": "2023-12",
     "url": "/news/273155/darauf-freut-sich-die-redaktion-im-dezember-2023",
     "title": "Darauf freut sich die Redaktion im... Dezember 2023",
-    "last_updated": "2026-05-27T19:44:02Z",
+    "last_updated": "2026-05-28T20:12:56Z",
     "comment_count": 78,
     "editors": [
       {
@@ -46420,7 +47264,7 @@
             "category": "film_series"
           },
           {
-            "title": "Dragon Quest Monsters - The Dark Prince",
+            "title": "Dragon Quest Monsters: The Dark Prince",
             "category": "game"
           },
           {
@@ -46610,7 +47454,163 @@
         "text": "Ich freue mich auf Weihnachten und vielleicht schaffe ich es dann Like a Dragon Gaiden: The Man Who Erased His Name zu beenden. ;)"
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "LRod",
+        "items": [
+          {
+            "title": "Warhammer 40,000: Rogue Trader",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "StefanH",
+        "items": [
+          {
+            "title": "Bravely Default",
+            "category": "game"
+          },
+          {
+            "title": "Zelda: Tears of the Kingdom",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "Pioneers of Pagonia",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "Final Fantasy XVI",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "Baldur's Gate 3",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Hannes Herrmann",
+        "items": [
+          {
+            "title": "Dragon Quest Monsters: The Dark Prince",
+            "category": "game"
+          },
+          {
+            "title": "Neon Genesis Evangelion",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "God of War: Ragnarök",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "Reacher",
+            "category": "film_series"
+          },
+          {
+            "title": "Red Dead Redemption 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "timeagent",
+        "items": [
+          {
+            "title": "Cyberpunk 2077",
+            "category": "game"
+          },
+          {
+            "title": "Marvel's Midnight Suns",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Indiana Jones und das Rad des Schicksals",
+            "category": "film_series"
+          },
+          {
+            "title": "Godzilla Minus One",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Funatic",
+        "items": [
+          {
+            "title": "1923",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Henmann",
+        "items": [
+          {
+            "title": "Days Gone",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "Shadow Gambit: The Cursed Crew",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Slaytanic",
+        "items": [
+          {
+            "title": "Like a Dragon Gaiden: The Man Who Erased His Name",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Hyperbolic",
+        "items": [
+          {
+            "title": "Godzilla Minus One",
+            "category": "film_series"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Japandoku": {
         "count": 1,
@@ -46651,8 +47651,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun"
         ]
       },
       "Hand of God": {
@@ -46691,10 +47691,11 @@
         ]
       },
       "Cyberpunk 2077": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "user:timeagent"
         ]
       },
       "Phantom Liberty": {
@@ -46782,17 +47783,20 @@
         ]
       },
       "Baldur's Gate 3": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Moe90"
         ]
       },
       "Godzilla Minus One": {
-        "count": 1,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Ganon",
+          "user:Hyperbolic"
         ]
       },
       "Wonka": {
@@ -46831,11 +47835,12 @@
         ]
       },
       "Reacher": {
-        "count": 2,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
+          "editor:michael_hengst",
           "editor:christian_burtchen",
-          "editor:michael_hengst"
+          "user:Noodles"
         ]
       },
       "Marvels What if…?": {
@@ -46845,11 +47850,12 @@
           "editor:michael_hengst"
         ]
       },
-      "Dragon Quest Monsters - The Dark Prince": {
-        "count": 1,
+      "Dragon Quest Monsters: The Dark Prince": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Hannes Herrmann"
         ]
       },
       "The Tributeü": {
@@ -46874,10 +47880,11 @@
         ]
       },
       "Indiana Jones und das Rad des Schicksals": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen"
+          "editor:christian_burtchen",
+          "user:Ganon"
         ]
       },
       "Herr der Ringe": {
@@ -46902,10 +47909,11 @@
         ]
       },
       "Pioneers of Pagonia": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:christian_burtchen"
+          "editor:christian_burtchen",
+          "user:Sokar"
         ]
       },
       "Siedlern": {
@@ -46920,6 +47928,90 @@
         "category": "game",
         "mentioners": [
           "editor:karsten_scholz"
+        ]
+      },
+      "Warhammer 40,000: Rogue Trader": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:LRod"
+        ]
+      },
+      "Bravely Default": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:StefanH"
+        ]
+      },
+      "Zelda: Tears of the Kingdom": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:StefanH"
+        ]
+      },
+      "Final Fantasy XVI": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Neon Genesis Evangelion": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Hannes Herrmann"
+        ]
+      },
+      "God of War: Ragnarök": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Red Dead Redemption 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Noodles"
+        ]
+      },
+      "Marvel's Midnight Suns": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:timeagent"
+        ]
+      },
+      "1923": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Funatic"
+        ]
+      },
+      "Days Gone": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Henmann"
+        ]
+      },
+      "Shadow Gambit: The Cursed Crew": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Like a Dragon Gaiden: The Man Who Erased His Name": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Slaytanic"
         ]
       }
     }
@@ -72996,7 +74088,7 @@
     "month": "2026-04",
     "url": "/news/342446/darauf-freut-sich-die-redaktion-im-april-2026",
     "title": "Darauf freut sich die Redaktion im... April 2026",
-    "last_updated": "2026-05-28T20:05:47Z",
+    "last_updated": "2026-05-28T20:13:03Z",
     "comment_count": 57,
     "editors": [
       {
@@ -74612,7 +75704,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-05-28T20:05:46Z",
+    "last_updated": "2026-05-28T20:13:03Z",
     "comment_count": 62,
     "editors": [
       {

@@ -2742,22 +2742,22 @@ month,item_title,category,count,editor_count,user_count
 2023-09,Sea of Stars,game,1,1,0
 2023-09,Lies of P,game,1,1,0
 2023-09,Witchfire,game,1,1,0
-2023-10,Star Wars: Ahsoka,film_series,1,1,0
+2023-10,Star Wars: Ahsoka,film_series,4,1,3
 2023-10,Star Wars Andor,film_series,1,1,0
 2023-10,Barbie,film_series,1,1,0
 2023-10,Wargroove 2,game,2,2,0
 2023-10,Advance Wars,game,1,1,0
-2023-10,Assassin's Creed Mirage,game,1,1,0
+2023-10,Assassin's Creed Mirage,game,5,1,4
 2023-10,AC Odyssey,game,1,1,0
 2023-10,AC Valhalla,game,1,1,0
-2023-10,Lords of the Fallen,game,3,3,0
+2023-10,Lords of the Fallen,game,4,3,1
 2023-10,Total War Pharaoh,game,1,1,0
 2023-10,Kengan Ashura,film_series,1,1,0
 2023-10,Castlevania Nocturne,film_series,1,1,0
 2023-10,Alan Wake,game,2,2,0
 2023-10,American Nightmare,game,1,1,0
-2023-10,Alan Wake 2,game,2,2,0
-2023-10,Babylon Berlin,film_series,1,1,0
+2023-10,Alan Wake 2,game,6,2,4
+2023-10,Babylon Berlin,film_series,3,1,2
 2023-10,Modern Family,film_series,1,1,0
 2023-10,Bosch,film_series,1,1,0
 2023-10,Assassin's Creed,game,1,1,0
@@ -2766,40 +2766,58 @@ month,item_title,category,count,editor_count,user_count
 2023-10,Spider-Man 2,game,1,1,0
 2023-10,Kraven the Hunter,film_series,1,1,0
 2023-10,The Fall of the House Usher,film_series,1,1,0
-2023-10,Loki,film_series,1,1,0
+2023-10,Loki,film_series,3,1,2
 2023-10,The Crown,film_series,1,1,0
-2023-10,Super Mario Bros. Wonder,game,2,2,0
+2023-10,Super Mario Bros. Wonder,game,8,2,6
 2023-10,Disgaea 7,game,1,1,0
 2023-10,Patrick Stewart,misc,1,1,0
 2023-10,Making It So: A Memoir,misc,1,1,0
 2023-10,Keanu Reeves,game,1,1,0
 2023-10,Matt Kindt,game,1,1,0
 2023-10,BRZRKR,game,1,1,0
-2023-10,Only Murders in the Building,film_series,1,1,0
+2023-10,Only Murders in the Building,film_series,3,1,2
 2023-10,The West Wing,film_series,1,1,0
 2023-10,The Bear,film_series,1,1,0
 2023-10,Babylon,film_series,1,1,0
 2023-10,Love is Blind,film_series,1,1,0
 2023-10,Alone in the Dark,game,1,1,0
 2023-10,Mel Gibson,film_series,1,1,0
-2023-10,Star Trek - Infinite,game,1,1,0
-2023-10,Cities - Skylines 2,game,1,1,0
+2023-10,Star Trek: Infinite,game,2,1,1
+2023-10,Cities: Skylines 2,game,2,1,1
 2023-10,The Lord of the Rings - Return to Moria,game,1,1,0
 2023-10,Marvel’s Spider Man 2,game,1,1,0
+2023-10,Marvel's Spider-Man 2,game,3,0,3
+2023-10,Sea of Stars,game,3,0,3
+2023-10,The Fall of the House of Usher,film_series,1,0,1
+2023-10,Lupin,film_series,2,0,2
+2023-10,Cyberpunk 2077: Phantom Liberty,game,2,0,2
+2023-10,Baldur's Gate 3,game,1,0,1
+2023-10,Cyberpunk 2077,game,1,0,1
+2023-10,Final Fantasy XVI,game,2,0,2
+2023-10,Gen V,film_series,3,0,3
+2023-10,Lamplighters League,game,1,0,1
+2023-10,WRC 2023,game,1,0,1
+2023-10,Metal Gear Solid: Master Collection Vol. 1,game,1,0,1
+2023-10,Domina,film_series,1,0,1
+2023-10,Sonic Superstars,game,1,0,1
+2023-10,Gargoyles Remastered,game,1,0,1
+2023-10,The Creator,film_series,1,0,1
+2023-10,Killers of the Flower Moon,film_series,1,0,1
+2023-10,The Rookie,film_series,1,0,1
 2023-11,Joaquin Phoenix,film_series,3,3,0
 2023-11,Ridley Scotts,film_series,1,1,0
-2023-11,Napoleon,film_series,3,3,0
-2023-11,Alan Wake 2,game,2,2,0
+2023-11,Napoleon,film_series,7,3,4
+2023-11,Alan Wake 2,game,4,2,2
 2023-11,Moonring,game,1,1,0
-2023-11,Like A Dragon Gaiden – The Man Who Erased His Name,game,1,1,0
-2023-11,Super Mario RPG,game,2,2,0
+2023-11,Like a Dragon Gaiden: The Man Who Erased His Name,game,5,1,4
+2023-11,Super Mario RPG,game,3,2,1
 2023-11,Our Flag Means Death,film_series,1,1,0
 2023-11,Rhys Darby,game,1,1,0
 2023-11,Taika Waititi,game,1,1,0
 2023-11,Banishers - Ghost of New Eden,game,1,1,0
 2023-11,Gamescom,game,1,1,0
 2023-11,Like a Dragon Gaiden,game,1,1,0
-2023-11,Persona 5 Tactica,game,1,1,0
+2023-11,Persona 5 Tactica,game,4,1,3
 2023-11,The Talos Principle 2,game,2,2,0
 2023-11,Phantom - Unheil über der Stadt,misc,1,1,0
 2023-11,Dean Koontz,misc,1,1,0
@@ -2824,10 +2842,10 @@ month,item_title,category,count,editor_count,user_count
 2023-11,Fargo,film_series,1,1,0
 2023-11,The Marvels,film_series,2,2,0
 2023-11,Super Mario RPG - Legend of the Seven Stars,game,1,1,0
-2023-11,Star Ocean - The Second Story R,game,1,1,0
+2023-11,Star Ocean: The Second Story R,game,3,1,2
 2023-11,Tales of Arise: Beyond the Dawn,game,1,1,0
 2023-11,Star Wars-,film_series,1,1,0
-2023-11,Loki,film_series,1,1,0
+2023-11,Loki,film_series,2,1,1
 2023-11,The Eras Tour,film_series,1,1,0
 2023-11,Control,game,1,1,0
 2023-11,John Wick,film_series,1,1,0
@@ -2835,6 +2853,20 @@ month,item_title,category,count,editor_count,user_count
 2023-11,WoW,misc,1,1,0
 2023-11,WoW Classic,misc,1,1,0
 2023-11,Chris Metzen,misc,1,1,0
+2023-11,Marvel's Spider-Man 2,game,4,0,4
+2023-11,Cyberpunk 2077: Phantom Liberty,game,2,0,2
+2023-11,Spy x Family,film_series,1,0,1
+2023-11,Pluto,film_series,1,0,1
+2023-11,One Piece,film_series,1,0,1
+2023-11,Lawmen: Bass Reeves,film_series,1,0,1
+2023-11,Final Fantasy XVI,game,1,0,1
+2023-11,Super Mario Bros. Wonder,game,2,0,2
+2023-11,The Hunger Games: The Ballad of Songbirds & Snakes,film_series,1,0,1
+2023-11,The Handmaid's Tale,film_series,1,0,1
+2023-11,Starfield,game,1,0,1
+2023-11,Attack on Titan,film_series,1,0,1
+2023-11,Age of Empires 4: The Sultans Ascend,game,1,0,1
+2023-11,RoboCop: Rogue City,game,1,0,1
 2023-12,Japandoku,film_series,1,1,0
 2023-12,Godzilla,film_series,1,1,0
 2023-12,CP 2077 – Phantom Liberty,game,1,1,0
@@ -2846,7 +2878,7 @@ month,item_title,category,count,editor_count,user_count
 2023-12,A Highland Song,game,1,1,0
 2023-12,80 Days,game,1,1,0
 2023-12,Overboard,game,1,1,0
-2023-12,Cyberpunk 2077,game,1,1,0
+2023-12,Cyberpunk 2077,game,2,1,1
 2023-12,Phantom Liberty,game,1,1,0
 2023-12,Last Man Standing,film_series,1,1,0
 2023-12,Tim Allen,film_series,1,1,0
@@ -2859,26 +2891,38 @@ month,item_title,category,count,editor_count,user_count
 2023-12,Arkham Knight,game,1,1,0
 2023-12,Batman - Arkham Asylum,game,1,1,0
 2023-12,Starfield,game,1,1,0
-2023-12,Baldur's Gate 3,game,1,1,0
-2023-12,Godzilla Minus One,film_series,1,1,0
+2023-12,Baldur's Gate 3,game,2,1,1
+2023-12,Godzilla Minus One,film_series,3,1,2
 2023-12,Wonka,film_series,1,1,0
 2023-12,Timothée Chalamet,film_series,1,1,0
 2023-12,Dune,film_series,1,1,0
 2023-12,Chicken Run - Dawn of the Nugget,film_series,1,1,0
 2023-12,Rebel Moon,film_series,1,1,0
-2023-12,Reacher,film_series,2,2,0
+2023-12,Reacher,film_series,3,2,1
 2023-12,Marvels What if…?,film_series,1,1,0
-2023-12,Dragon Quest Monsters - The Dark Prince,game,1,1,0
+2023-12,Dragon Quest Monsters: The Dark Prince,game,2,1,1
 2023-12,The Tributeü,misc,1,1,0
 2023-12,Benjamin Legrand,misc,1,1,0
 2023-12,Jean-Marc Rochette,misc,1,1,0
-2023-12,Indiana Jones und das Rad des Schicksals,film_series,1,1,0
+2023-12,Indiana Jones und das Rad des Schicksals,film_series,2,1,1
 2023-12,Herr der Ringe,film_series,1,1,0
 2023-12,Tatsächlich… Liebe,film_series,1,1,0
 2023-12,Arkham,game,1,1,0
-2023-12,Pioneers of Pagonia,game,1,1,0
+2023-12,Pioneers of Pagonia,game,2,1,1
 2023-12,Siedlern,game,1,1,0
 2023-12,40.000 - Rogue Trader,game,1,1,0
+2023-12,"Warhammer 40,000: Rogue Trader",game,1,0,1
+2023-12,Bravely Default,game,1,0,1
+2023-12,Zelda: Tears of the Kingdom,game,1,0,1
+2023-12,Final Fantasy XVI,game,1,0,1
+2023-12,Neon Genesis Evangelion,film_series,1,0,1
+2023-12,God of War: Ragnarök,game,1,0,1
+2023-12,Red Dead Redemption 2,game,1,0,1
+2023-12,Marvel's Midnight Suns,game,1,0,1
+2023-12,1923,film_series,1,0,1
+2023-12,Days Gone,game,1,0,1
+2023-12,Shadow Gambit: The Cursed Crew,game,1,0,1
+2023-12,Like a Dragon Gaiden: The Man Who Erased His Name,game,1,0,1
 2024-02,Curb Your Enthusiasm,film_series,2,1,1
 2024-02,Dune Part 2,film_series,1,1,0
 2024-02,Shogun,film_series,4,2,2
