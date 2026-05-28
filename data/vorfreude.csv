@@ -2235,7 +2235,7 @@ month,item_title,category,count,editor_count,user_count
 2022-10,Murakami Haruki,game,1,1,0
 2022-10,Nicole Byers,film_series,1,1,0
 2022-10,Armando „Arm“ Iannucci,film_series,1,1,0
-2022-10,Star Wars - Andor,film_series,1,1,0
+2022-10,Star Wars: Andor,film_series,1,1,0
 2022-11,The Matrix - Resurrections,film_series,1,1,0
 2022-11,Peripherie,film_series,1,1,0
 2022-11,Tactics Ogre Reborn,game,1,1,0
@@ -2280,7 +2280,7 @@ month,item_title,category,count,editor_count,user_count
 2022-11,The Elements of Pizza: Unlocking the Secrets to World-Class Pies at Home,misc,1,1,0
 2022-11,Le Guide Culinaire,misc,1,1,0
 2022-11,Auguste Escoffier,misc,1,1,0
-2022-11,Black Panther - Wakanda Forever,film_series,1,1,0
+2022-11,Black Panther: Wakanda Forever,film_series,1,1,0
 2022-11,Ryan Coogler,film_series,1,1,0
 2022-11,Chadwick Bosemans,film_series,1,1,0
 2022-11,Gotham,film_series,1,1,0
@@ -2302,9 +2302,9 @@ month,item_title,category,count,editor_count,user_count
 2022-11,Firesong,game,1,1,0
 2022-11,The Elder Scrolls Online,game,1,1,0
 2022-11,Games Insider,misc,1,1,0
-2022-12,Avatar 2,film_series,1,1,0
+2022-12,Avatar 2,film_series,5,1,4
 2022-12,Midnight Suns,game,1,1,0
-2022-12,Master of Magic,game,1,1,0
+2022-12,Master of Magic,game,4,1,3
 2022-12,Callisto Protocol,game,1,1,0
 2022-12,Japandoku-Episoden,misc,1,1,0
 2022-12,Weihnachtsaktion 2022,misc,1,1,0
@@ -2320,14 +2320,14 @@ month,item_title,category,count,editor_count,user_count
 2022-12,Vampire - The Masquerade Jams 2022,misc,1,1,0
 2022-12,Ace Attorney,film_series,1,1,0
 2022-12,Professor Layton vs Phoenix Wright,game,1,1,0
-2022-12,The Callisto Protocol,game,3,3,0
-2022-12,High on Life,game,1,1,0
+2022-12,The Callisto Protocol,game,4,3,1
+2022-12,High on Life,game,3,1,2
 2022-12,Prey 2,game,1,1,0
 2022-12,Star Wars 1313,game,1,1,0
 2022-12,1899,film_series,1,1,0
 2022-12,Dark,film_series,1,1,0
 2022-12,Baran bo Odar,film_series,1,1,0
-2022-12,Jack Ryan,film_series,1,1,0
+2022-12,Jack Ryan,film_series,2,1,1
 2022-12,Dead Space,game,1,1,0
 2022-12,Glen Scholfield,game,1,1,0
 2022-12,Need for Speed - Unbound,game,1,1,0
@@ -2339,25 +2339,25 @@ month,item_title,category,count,editor_count,user_count
 2022-12,John Krasinski,film_series,1,1,0
 2022-12,Troll,film_series,1,1,0
 2022-12,Front Mission 1st,game,1,1,0
-2022-12,Dragon Quest Treasures,game,1,1,0
+2022-12,Dragon Quest Treasures,game,2,1,1
 2022-12,Dragon Quest,game,1,1,0
 2022-12,Monstress,misc,1,1,0
 2022-12,Marjorie Liu,misc,1,1,0
 2022-12,Sana Takeda,misc,1,1,0
-2022-12,Glass Onion: A Knives Out Mystery,film_series,1,1,0
+2022-12,Glass Onion: A Knives Out Mystery,film_series,3,1,2
 2022-12,Daniel Craigs,film_series,1,1,0
 2022-12,Leverage,film_series,1,1,0
 2022-12,The West Wing,film_series,1,1,0
 2022-12,Dark Messiah of MIght and Magic,game,1,1,0
 2022-12,Assassin’s Creed - Odyssee,game,1,1,0
-2022-12,The Witcher: Blood Origin,film_series,1,1,0
+2022-12,The Witcher: Blood Origin,film_series,2,1,1
 2022-12,Guillermo del Toros,film_series,1,1,0
 2022-12,Pinocchio,film_series,1,1,0
 2022-12,Glass Onion: A Knives Out,film_series,1,1,0
 2022-12,Mystery,film_series,1,1,0
 2022-12,Knives Out – Mord ist Familiensache,film_series,1,1,0
 2022-12,Sandman,film_series,1,1,0
-2022-12,Wednesday,film_series,1,1,0
+2022-12,Wednesday,film_series,2,1,1
 2022-12,The School for Good and Evil,film_series,1,1,0
 2022-12,World of Warcraft: Dragonflight,game,1,1,0
 2022-12,Battle for Azeroth,game,1,1,0
@@ -2369,10 +2369,23 @@ month,item_title,category,count,editor_count,user_count
 2022-12,As Dusk Falls,game,1,1,0
 2022-12,Sifu,game,1,1,0
 2022-12,Cult of the Lamb,game,1,1,0
+2022-12,Unity of Command 2: Desert Fox,game,1,0,1
+2022-12,Steel Division 2: Blood Feud in Transylvania,game,1,0,1
+2022-12,Evercade EXP,misc,2,0,2
+2022-12,Marvel's Midnight Suns,game,6,0,6
+2022-12,Guillermo del Toro's Pinocchio,film_series,2,0,2
+2022-12,Black Panther: Wakanda Forever,film_series,2,0,2
+2022-12,A Plague Tale: Requiem,game,1,0,1
+2022-12,God of War: Ragnarök,game,1,0,1
+2022-12,Star Wars: Andor,film_series,1,0,1
+2022-12,Alice in Borderland Staffel 2,film_series,1,0,1
+2022-12,Cyberpunk 2077,game,1,0,1
+2022-12,Outriders: Worldslayer,game,1,0,1
+2022-12,Knights of Honor II: Sovereign,game,1,0,1
 2023-02,The Last of Us,film_series,2,2,0
 2023-02,Aggretsuko,film_series,2,2,0
-2023-02,Hogwarts Legacy,game,3,3,0
-2023-02,Company of Heroes 3,game,2,2,0
+2023-02,Hogwarts Legacy,game,9,3,6
+2023-02,Company of Heroes 3,game,3,2,1
 2023-02,Like A Dragon – Ishin!,game,1,1,0
 2023-02,PSVR2,misc,1,1,0
 2023-02,Star Trek Picard,film_series,1,1,0
@@ -2381,7 +2394,7 @@ month,item_title,category,count,editor_count,user_count
 2023-02,Industries of Titan,game,1,1,0
 2023-02,Fire Emblem Engage,game,2,2,0
 2023-02,Pharaoh: A New Era,game,2,2,0
-2023-02,Sons of the Forest,game,1,1,0
+2023-02,Sons of the Forest,game,2,1,1
 2023-02,Vampire Game Jam,game,1,1,0
 2023-02,Record of Ragnarok,film_series,1,1,0
 2023-02,Yakuza,game,1,1,0
@@ -2413,17 +2426,28 @@ month,item_title,category,count,editor_count,user_count
 2023-02,Caesar,game,1,1,0
 2023-02,Zeus,game,1,1,0
 2023-02,BioShock,film_series,1,1,0
-2023-02,Everything Everywhere All At Once,film_series,1,1,0
+2023-02,Everything Everywhere All At Once,film_series,3,1,2
 2023-02,Hogwarts Legacy.,game,1,1,0
 2023-02,SpellForce: Conquest of Eo,film_series,1,1,0
 2023-02,Fantasy General 2,game,1,1,0
-2023-02,Atomic Heart,game,1,1,0
+2023-02,Atomic Heart,game,4,1,3
+2023-02,The Last of Us Staffel 1,film_series,5,0,5
+2023-02,Star Wars: The Bad Batch,film_series,2,0,2
+2023-02,Drive to Survive,film_series,1,0,1
+2023-02,Blood Bowl 3,game,1,0,1
+2023-02,Hi-Fi Rush,game,3,0,3
+2023-02,Ant-Man and the Wasp: Quantumania,film_series,1,0,1
+2023-02,Star Trek: Picard Staffel 3,film_series,2,0,2
+2023-02,Carnival Row Staffel 2,film_series,1,0,1
+2023-02,Dead Space Remake,game,1,0,1
+2023-02,Super Bowl,misc,1,0,1
+2023-02,Octopath Traveler II,game,1,0,1
 2023-03,The Last of Us,film_series,2,2,0
 2023-03,Aggretsuko,film_series,2,2,0
 2023-03,Fauda,film_series,1,1,0
 2023-03,John Wick 4,film_series,1,1,0
 2023-03,Master of Magic Remake,game,1,1,0
-2023-03,The Great War: Western Front,game,3,3,0
+2023-03,The Great War: Western Front,game,4,3,1
 2023-03,System Shock,game,3,3,0
 2023-03,Minidoku,misc,1,1,0
 2023-03,Japan-Doku,game,1,1,0
@@ -2469,13 +2493,30 @@ month,item_title,category,count,editor_count,user_count
 2023-03,Erlend Loe,misc,1,1,0
 2023-03,Pete Buttigieg,misc,1,1,0
 2023-03,Lindsay Ellis,misc,1,1,0
+2023-03,The Last of Us Staffel 1,film_series,3,0,3
+2023-03,Hogwarts Legacy,game,1,0,1
+2023-03,A Plague Tale: Requiem,game,1,0,1
+2023-03,Bloodywood Konzert,misc,1,0,1
+2023-03,Shrinking,film_series,1,0,1
+2023-03,The Mandalorian Staffel 3,film_series,3,0,3
+2023-03,Der Schwarm,film_series,2,0,2
+2023-03,Resident Evil 4 Remake,game,6,0,6
+2023-03,System Shock Remake,game,7,0,7
+2023-03,Ant-Man and the Wasp: Quantumania,film_series,1,0,1
+2023-03,John Wick: Chapter 4,film_series,1,0,1
+2023-03,Star Trek: Picard Staffel 3,film_series,3,0,3
+2023-03,Ted Lasso Staffel 3,film_series,1,0,1
+2023-03,Scream 6,film_series,1,0,1
+2023-03,Elite Dangerous,game,1,0,1
+2023-03,Dungeons & Dragons: Honor Among Thieves,film_series,1,0,1
+2023-03,Forza Horizon 5: Rally Adventure,game,1,0,1
 2023-04,Der Super Mario Bros. Film,film_series,2,2,0
 2023-04,John Wick: Kapitel 4,film_series,1,1,0
 2023-04,Suzume No Tojomari,film_series,1,1,0
 2023-04,Makoto Shinkai,film_series,1,1,0
 2023-04,Fauda,film_series,1,1,0
-2023-04,Wartales,game,2,2,0
-2023-04,Dead Island 2,game,5,5,0
+2023-04,Wartales,game,3,2,1
+2023-04,Dead Island 2,game,6,5,1
 2023-04,Jedi Survivor,game,1,1,0
 2023-04,Advance Wars 1+2 Re-Boot-Camp,game,1,1,0
 2023-04,"Japan-Doku, Folge 5",misc,1,1,0
@@ -2483,7 +2524,7 @@ month,item_title,category,count,editor_count,user_count
 2023-04,Hell's Kitchen,film_series,1,1,0
 2023-04,Gordon Ramsay,film_series,1,1,0
 2023-04,Der Schwarm,film_series,1,1,0
-2023-04,Everspace 2,game,2,2,0
+2023-04,Everspace 2,game,4,2,2
 2023-04,John Wick 4,film_series,1,1,0
 2023-04,Sherlock Holmes and the Awakended,game,1,1,0
 2023-04,H.P. Lovecraft,game,1,1,0
@@ -2497,7 +2538,7 @@ month,item_title,category,count,editor_count,user_count
 2023-04,Super Mario,film_series,1,1,0
 2023-04,GhostWire: Tokyo,game,1,1,0
 2023-04,Homefront - The Revolution,game,1,1,0
-2023-04,Star Wars Jedi: Survivor,game,1,1,0
+2023-04,Star Wars Jedi: Survivor,game,5,1,4
 2023-04,Star Trek: Lower Decks,film_series,1,1,0
 2023-04,Marvelous Mrs. Maisel,film_series,1,1,0
 2023-04,Advance Wars 1+2 Re-Boot Camp,game,1,1,0
@@ -2531,7 +2572,21 @@ month,item_title,category,count,editor_count,user_count
 2023-04,Alicia Vikander,film_series,1,1,0
 2023-04,Joel Edgerton,film_series,1,1,0
 2023-04,Star Wars Jedi - Survivor.,game,1,1,0
-2023-04,Horizon Forbidden West: Burning Shores,game,1,1,0
+2023-04,Horizon Forbidden West: Burning Shores,game,2,1,1
+2023-04,John Wick: Chapter 4,film_series,1,0,1
+2023-04,Dungeons & Dragons: Honor Among Thieves,film_series,1,0,1
+2023-04,Suzume,film_series,3,0,3
+2023-04,Ted Lasso Staffel 3,film_series,1,0,1
+2023-04,Resident Evil 4 Remake,game,2,0,2
+2023-04,The Super Mario Bros. Movie,film_series,1,0,1
+2023-04,Succession Staffel 4,film_series,1,0,1
+2023-04,House of the Dragon,film_series,1,0,1
+2023-04,Days Gone,game,1,0,1
+2023-04,Ghost of Tsushima,game,1,0,1
+2023-04,The Last of Us Staffel 1,film_series,1,0,1
+2023-04,Maneskin Konzert,misc,1,0,1
+2023-04,Hogwarts Legacy,game,1,0,1
+2023-04,The Last of Us Part II,game,1,0,1
 2023-05,Tokio bei Tag,film_series,1,1,0
 2023-05,The Legend of Zelda - Tears of the Kingdom,game,1,1,0
 2023-05,System Shock,game,1,1,0
@@ -2565,20 +2620,39 @@ month,item_title,category,count,editor_count,user_count
 2023-05,Jury Duty,film_series,1,1,0
 2023-05,"*Mit bester Andy-Serkis-Stimme, zu der ich im Stande bin, denken*",game,1,1,0
 2023-05,Gollum,game,1,1,0
+2023-05,Age of Wonders 4,game,1,0,1
+2023-05,Zelda: Tears of the Kingdom,game,8,0,8
+2023-05,Der Pass Staffel 3,film_series,2,0,2
+2023-05,Star Trek: Resurgence,game,2,0,2
+2023-05,Guardians of the Galaxy Vol. 3,film_series,2,0,2
+2023-05,Star Trek: Strange New Worlds,film_series,2,0,2
+2023-05,Jack Ryan Staffel 3,film_series,1,0,1
+2023-05,French Open,misc,1,0,1
+2023-05,Elton John Konzert,misc,1,0,1
+2023-05,A Plague Tale: Requiem,game,1,0,1
+2023-05,Hogwarts Legacy,game,1,0,1
+2023-05,Babylon 5: The Road Home,film_series,1,0,1
+2023-05,Eurovision Song Contest,misc,1,0,1
+2023-05,Age of Empires 2: Return of Rome,game,1,0,1
+2023-05,Warhammer 40K: Boltgun,game,1,0,1
+2023-05,Diablo 4,game,1,0,1
+2023-05,Star Wars Jedi: Survivor,game,2,0,2
+2023-05,System Shock Remake,game,1,0,1
+2023-05,Succession Staffel 4,film_series,1,0,1
 2023-06,Fauda,film_series,1,1,0
-2023-06,Silo,film_series,1,1,0
+2023-06,Silo,film_series,2,1,1
 2023-06,Fubar,film_series,2,2,0
-2023-06,Diablo 4,game,3,3,0
+2023-06,Diablo 4,game,8,3,5
 2023-06,Final Fantasy 16,game,4,4,0
 2023-06,System Shock,game,1,1,0
 2023-06,Japandoku,misc,1,1,0
 2023-06,Critical Role,film_series,1,1,0
 2023-06,Matthew Mercer,game,1,1,0
 2023-06,Tears of the Kingdom,game,1,1,0
-2023-06,Street Fighter 6,game,2,2,0
+2023-06,Street Fighter 6,game,3,2,1
 2023-06,Janne Teller,misc,1,1,0
 2023-06,Avatar,film_series,1,1,0
-2023-06,Indiana Jones und das Rad des Schicksals,film_series,1,1,0
+2023-06,Indiana Jones und das Rad des Schicksals,film_series,4,1,3
 2023-06,Helge Schneider,film_series,1,1,0
 2023-06,The Witcher,film_series,2,2,0
 2023-06,Arnold Schwarzenegger,film_series,1,1,0
@@ -2587,12 +2661,12 @@ month,item_title,category,count,editor_count,user_count
 2023-06,DmC,game,1,1,0
 2023-06,Layers of Fear,game,1,1,0
 2023-06,Immortals of Aveum,misc,1,1,0
-2023-06,Spider-Man: Across the Spider-Verse,film_series,1,1,0
+2023-06,Spider-Man: Across the Spider-Verse,film_series,2,1,1
 2023-06,Michael Bay,film_series,1,1,0
 2023-06,Transformers: Rise of the Beast,film_series,1,1,0
 2023-06,The Flash Movie,film_series,1,1,0
 2023-06,Michael Keaton,film_series,1,1,0
-2023-06,Secret Invasion,film_series,1,1,0
+2023-06,Secret Invasion,film_series,2,1,1
 2023-06,Indiana Jones,film_series,1,1,0
 2023-06,The Dial of Destiny,film_series,1,1,0
 2023-06,The Legend of Zelda - The Tears of the Kingdom,game,1,1,0
@@ -2607,8 +2681,26 @@ month,item_title,category,count,editor_count,user_count
 2023-06,The Elder Scrolls Online,game,1,1,0
 2023-06,Revival -,game,1,1,0
 2023-06,Recolonization,game,1,1,0
-2023-06,Aliens: Dark Descent,game,1,1,0
+2023-06,Aliens: Dark Descent,game,2,1,1
 2023-06,Starfield,misc,1,1,0
+2023-06,Zelda: Tears of the Kingdom,game,3,0,3
+2023-06,The Flash,film_series,1,0,1
+2023-06,Final Fantasy XVI,game,4,0,4
+2023-06,A Plague Tale: Requiem,game,1,0,1
+2023-06,Hogwarts Legacy,game,1,0,1
+2023-06,Jack Ryan Staffel 4,film_series,1,0,1
+2023-06,Succession Staffel 4,film_series,1,0,1
+2023-06,Telltale's The Expanse,game,2,0,2
+2023-06,Iron Maiden Konzert,misc,1,0,1
+2023-06,Blood & Gold,film_series,1,0,1
+2023-06,French Open,misc,1,0,1
+2023-06,Star Trek: Resurgence,game,1,0,1
+2023-06,System Shock Remake,game,1,0,1
+2023-06,Elemental,film_series,1,0,1
+2023-06,F1 23,game,1,0,1
+2023-06,The Witcher Staffel 3,film_series,1,0,1
+2023-06,Borderlands 3,game,1,0,1
+2023-06,Final Fantasy VII,game,1,0,1
 2023-07,Silo,film_series,2,1,1
 2023-07,Seven Kings Must Die,film_series,1,1,0
 2023-07,The Last Kingdom,film_series,1,1,0

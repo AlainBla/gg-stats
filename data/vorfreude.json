@@ -36393,7 +36393,7 @@
         "name": "Karsten Scholz",
         "items": [
           {
-            "title": "Star Wars - Andor",
+            "title": "Star Wars: Andor",
             "category": "film_series"
           }
         ]
@@ -36895,7 +36895,7 @@
           "editor:christian_burtchen"
         ]
       },
-      "Star Wars - Andor": {
+      "Star Wars: Andor": {
         "count": 1,
         "category": "film_series",
         "mentioners": [
@@ -37120,7 +37120,7 @@
         "name": "Christian Burtchen",
         "items": [
           {
-            "title": "Black Panther - Wakanda Forever",
+            "title": "Black Panther: Wakanda Forever",
             "category": "film_series"
           },
           {
@@ -37752,7 +37752,7 @@
           "editor:michael_hengst"
         ]
       },
-      "Black Panther - Wakanda Forever": {
+      "Black Panther: Wakanda Forever": {
         "count": 1,
         "category": "film_series",
         "mentioners": [
@@ -37912,7 +37912,7 @@
     "month": "2022-12",
     "url": "/news/239291/darauf-freut-sich-die-redaktion-im-dezember-2022",
     "title": "Darauf freut sich die Redaktion im... Dezember 2022",
-    "last_updated": "2026-05-27T19:43:52Z",
+    "last_updated": "2026-05-28T21:16:33Z",
     "comment_count": 90,
     "editors": [
       {
@@ -38157,7 +38157,7 @@
         "name": "Karsten Scholz",
         "items": [
           {
-            "title": "The Witcher: Blood Origin",
+            "title": "The Witcher: Blood Origin",
             "category": "film_series"
           },
           {
@@ -38381,13 +38381,256 @@
         "text": "Ich traue mich ans Thema Simracing und werde meine Urlaubszeit dafür aufwenden. Die ersten Versuche waren jedenfalls holprig. :)\n\nNatürlich und dazu noch formschöne Kaltverformungen produziert. Gerade auf der Nordschleife fällt das sehr leicht. :)\n\nAls Einsteiger habe ich mir das Thrustmaster T300 + Pedale von Amazon geholt. Erstmal ausreichend und die Kosten ufern nicht so aus. Mehr ist es noch nicht, denn ich muss mich erstmal austesten, ob es langfristig etwas ist. Dann könnten mehr Investitionen folgen.\n\nBei dem Lenkrad war schon eine Befestigung für den Tisch dabei und die hält wirklich gut. Force Feedback ist je nach eingestellter Stärke schon deutlich spürbar. Bei den Pedalen habe ich Glück: Mein Fußboden hält die Gummifüße des Pedalbretts sehr gut fest. Dafür ist mein Stuhl eher bereit, sich nach hinten zu bewegen, wenn ich mal feste auf die Bremse trete. :)\n\nDie Grafik ist inzwischen echt gut, wenn man einen potenten Rechner hat. Denn dann werden auch die ganzen Designs der Autos korrekt angezeigt. Da es oft die gleichen sind, wie im echten Rennen, kann eben der Eindruck kommen, dass es real sei. Außerdem werden die Rennen inzwischen von den Streckensprechern der echten Rennen kommentiert. Gerade die DNLS (Digitale Nürburgring Langstrecken Serie) lebt auch von den Sprechern der NLS."
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "Maestro84",
+        "items": [
+          {
+            "title": "Avatar 2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Vampiro",
+        "items": [
+          {
+            "title": "Unity of Command 2: Desert Fox",
+            "category": "game"
+          },
+          {
+            "title": "Master of Magic",
+            "category": "game"
+          },
+          {
+            "title": "Steel Division 2: Blood Feud in Transylvania",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Maverick",
+        "items": [
+          {
+            "title": "Evercade EXP",
+            "category": "misc"
+          },
+          {
+            "title": "Master of Magic",
+            "category": "game"
+          },
+          {
+            "title": "Marvel's Midnight Suns",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Slaytanic",
+        "items": [
+          {
+            "title": "Evercade EXP",
+            "category": "misc"
+          },
+          {
+            "title": "Marvel's Midnight Suns",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "LRod",
+        "items": [
+          {
+            "title": "Marvel's Midnight Suns",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "High on Life",
+            "category": "game"
+          },
+          {
+            "title": "Jack Ryan",
+            "category": "film_series"
+          },
+          {
+            "title": "Guillermo del Toro's Pinocchio",
+            "category": "film_series"
+          },
+          {
+            "title": "Glass Onion: A Knives Out Mystery",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "The Witcher: Blood Origin",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Restrictor81",
+        "items": [
+          {
+            "title": "High on Life",
+            "category": "game"
+          },
+          {
+            "title": "Avatar 2",
+            "category": "film_series"
+          },
+          {
+            "title": "Black Panther: Wakanda Forever",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Bruno Lawrie",
+        "items": [
+          {
+            "title": "The Callisto Protocol",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "StefanH",
+        "items": [
+          {
+            "title": "Marvel's Midnight Suns",
+            "category": "game"
+          },
+          {
+            "title": "Dragon Quest Treasures",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "A Plague Tale: Requiem",
+            "category": "game"
+          },
+          {
+            "title": "Wednesday",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "God of War: Ragnarök",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Avatar 2",
+            "category": "film_series"
+          },
+          {
+            "title": "Star Wars: Andor",
+            "category": "film_series"
+          },
+          {
+            "title": "Marvel's Midnight Suns",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Black Panther: Wakanda Forever",
+            "category": "film_series"
+          },
+          {
+            "title": "Avatar 2",
+            "category": "film_series"
+          },
+          {
+            "title": "Glass Onion: A Knives Out Mystery",
+            "category": "film_series"
+          },
+          {
+            "title": "Guillermo del Toro's Pinocchio",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "vanni727",
+        "items": [
+          {
+            "title": "Alice in Borderland Staffel 2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "timeagent",
+        "items": [
+          {
+            "title": "Marvel's Midnight Suns",
+            "category": "game"
+          },
+          {
+            "title": "Cyberpunk 2077",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "AlexCartman",
+        "items": [
+          {
+            "title": "Outriders: Worldslayer",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Zack",
+        "items": [
+          {
+            "title": "Master of Magic",
+            "category": "game"
+          },
+          {
+            "title": "Knights of Honor II: Sovereign",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Avatar 2": {
-        "count": 1,
+        "count": 5,
         "category": "film_series",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:Maestro84",
+          "user:Restrictor81",
+          "user:Green Yoshi",
+          "user:Ganon"
         ]
       },
       "Midnight Suns": {
@@ -38398,10 +38641,13 @@
         ]
       },
       "Master of Magic": {
-        "count": 1,
+        "count": 4,
         "category": "game",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:Vampiro",
+          "user:Maverick",
+          "user:Zack"
         ]
       },
       "Callisto Protocol": {
@@ -38436,17 +38682,17 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:ramona_kiuntke"
+          "editor:ramona_kiuntke",
+          "editor:benjamin_braun"
         ]
       },
       "Brooklyn Nine-Nine": {
         "count": 3,
         "category": "film_series",
         "mentioners": [
+          "editor:ramona_kiuntke",
           "editor:benjamin_braun",
-          "editor:christian_burtchen",
-          "editor:ramona_kiuntke"
+          "editor:christian_burtchen"
         ]
       },
       "Last Chance U: Basketball": {
@@ -38513,19 +38759,22 @@
         ]
       },
       "The Callisto Protocol": {
-        "count": 3,
+        "count": 4,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:hagen_gehritz",
-          "editor:karsten_scholz"
+          "editor:benjamin_braun",
+          "editor:karsten_scholz",
+          "user:Bruno Lawrie"
         ]
       },
       "High on Life": {
-        "count": 1,
+        "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "user:Noodles",
+          "user:Restrictor81"
         ]
       },
       "Prey 2": {
@@ -38564,10 +38813,11 @@
         ]
       },
       "Jack Ryan": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Noodles"
         ]
       },
       "Dead Space": {
@@ -38648,10 +38898,11 @@
         ]
       },
       "Dragon Quest Treasures": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:StefanH"
         ]
       },
       "Dragon Quest": {
@@ -38683,10 +38934,12 @@
         ]
       },
       "Glass Onion: A Knives Out Mystery": {
-        "count": 1,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen"
+          "editor:christian_burtchen",
+          "user:Noodles",
+          "user:Ganon"
         ]
       },
       "Daniel Craigs": {
@@ -38724,11 +38977,12 @@
           "editor:christian_burtchen"
         ]
       },
-      "The Witcher: Blood Origin": {
-        "count": 1,
+      "The Witcher: Blood Origin": {
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:Crizzo"
         ]
       },
       "Guillermo del Toros": {
@@ -38774,10 +39028,11 @@
         ]
       },
       "Wednesday": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:funrox"
         ]
       },
       "The School for Good and Evil": {
@@ -38856,6 +39111,105 @@
         "mentioners": [
           "editor:karsten_scholz"
         ]
+      },
+      "Unity of Command 2: Desert Fox": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Vampiro"
+        ]
+      },
+      "Steel Division 2: Blood Feud in Transylvania": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Vampiro"
+        ]
+      },
+      "Evercade EXP": {
+        "count": 2,
+        "category": "misc",
+        "mentioners": [
+          "user:Maverick",
+          "user:Slaytanic"
+        ]
+      },
+      "Marvel's Midnight Suns": {
+        "count": 6,
+        "category": "game",
+        "mentioners": [
+          "user:Maverick",
+          "user:Slaytanic",
+          "user:LRod",
+          "user:StefanH",
+          "user:Green Yoshi",
+          "user:timeagent"
+        ]
+      },
+      "Guillermo del Toro's Pinocchio": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Noodles",
+          "user:Ganon"
+        ]
+      },
+      "Black Panther: Wakanda Forever": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Restrictor81",
+          "user:Ganon"
+        ]
+      },
+      "A Plague Tale: Requiem": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "God of War: Ragnarök": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "Star Wars: Andor": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Alice in Borderland Staffel 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:vanni727"
+        ]
+      },
+      "Cyberpunk 2077": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:timeagent"
+        ]
+      },
+      "Outriders: Worldslayer": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Knights of Honor II: Sovereign": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Zack"
+        ]
       }
     }
   },
@@ -38863,7 +39217,7 @@
     "month": "2023-02",
     "url": "/news/244374/darauf-freut-sich-die-redaktion-im-februar-2023",
     "title": "Darauf freut sich die Redaktion im... Februar 2023",
-    "last_updated": "2026-05-27T19:43:53Z",
+    "last_updated": "2026-05-28T21:16:33Z",
     "comment_count": 112,
     "editors": [
       {
@@ -39268,7 +39622,206 @@
         "text": "Ich freue mich auf Picard: Staffel 3. Ansonsten nicht viel. Auch die neue Mando nicht, die darf gerne erst einmal durch laufen. Dann hole ich mir wieder mal einen Monat, wenn auch genug anderes Zeugs nachgelaufen ist und ich mich nicht nur von Woche zu Woche mit einer Folge hangel. Prime reicht erst einmal ;)\nAn Spielen werde ich mir nichts neues kaufen, habe ich den Eindruck.  PS5 warte ich noch die Revision mit dem optionalen Laufwerk ab und die VR2 steht damit auch noch auf der Warteliste. Dafür werfe ich vielleicht doch noch einmal meine alte PSVR an. Aber erst einmal spiele ich HITMAN 3/World of Assassins weiter - Ohne den VR-Modus. Noch bin ich bei den Missionen aus Teil 2. Anschließend gibts ne Runde LA Noire und dann Fist Of The North Star, weil ich da auch noch genug in Richtung offenen Yakuza-Ablegern habe, als das ich mir Like A Dragon: Ishin kaufen müsste. Den Teil gibt es dann auf der PS5 irgendwann ^^\n... hach schon traurig irgendwie. Aber muss halt nicht sein :p"
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "Company of Heroes 3",
+            "category": "game"
+          },
+          {
+            "title": "The Last of Us Staffel 1",
+            "category": "film_series"
+          },
+          {
+            "title": "Star Wars: The Bad Batch",
+            "category": "film_series"
+          },
+          {
+            "title": "Drive to Survive",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "LRod",
+        "items": [
+          {
+            "title": "Star Wars: The Bad Batch",
+            "category": "film_series"
+          },
+          {
+            "title": "Blood Bowl 3",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Hogwarts Legacy",
+            "category": "game"
+          },
+          {
+            "title": "Hi-Fi Rush",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Robokopp",
+        "items": [
+          {
+            "title": "Hogwarts Legacy",
+            "category": "game"
+          },
+          {
+            "title": "Atomic Heart",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "Everything Everywhere All At Once",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Restrictor81",
+        "items": [
+          {
+            "title": "Ant-Man and the Wasp: Quantumania",
+            "category": "film_series"
+          },
+          {
+            "title": "Star Trek: Picard Staffel 3",
+            "category": "film_series"
+          },
+          {
+            "title": "Hogwarts Legacy",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "Carnival Row Staffel 2",
+            "category": "film_series"
+          },
+          {
+            "title": "The Last of Us Staffel 1",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "Dead Space Remake",
+            "category": "game"
+          },
+          {
+            "title": "Hi-Fi Rush",
+            "category": "game"
+          },
+          {
+            "title": "Hogwarts Legacy",
+            "category": "game"
+          },
+          {
+            "title": "Atomic Heart",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "Hogwarts Legacy",
+            "category": "game"
+          },
+          {
+            "title": "Atomic Heart",
+            "category": "game"
+          },
+          {
+            "title": "Super Bowl",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "Everything Everywhere All At Once",
+            "category": "film_series"
+          },
+          {
+            "title": "The Last of Us Staffel 1",
+            "category": "film_series"
+          },
+          {
+            "title": "Hi-Fi Rush",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Pomme",
+        "items": [
+          {
+            "title": "The Last of Us Staffel 1",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Baumkuchen",
+        "items": [
+          {
+            "title": "Star Trek: Picard Staffel 3",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Berndor",
+        "items": [
+          {
+            "title": "Octopath Traveler II",
+            "category": "game"
+          },
+          {
+            "title": "Hogwarts Legacy",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "jguillemont",
+        "items": [
+          {
+            "title": "The Last of Us Staffel 1",
+            "category": "film_series"
+          },
+          {
+            "title": "Sons of the Forest",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "The Last of Us": {
         "count": 2,
@@ -39287,20 +39840,27 @@
         ]
       },
       "Hogwarts Legacy": {
+        "count": 9,
+        "category": "game",
+        "mentioners": [
+          "editor:jörg_langer",
+          "editor:ramona_kiuntke",
+          "editor:benjamin_braun",
+          "user:Green Yoshi",
+          "user:Robokopp",
+          "user:Restrictor81",
+          "user:Moe90",
+          "user:Noodles",
+          "user:Berndor"
+        ]
+      },
+      "Company of Heroes 3": {
         "count": 3,
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
           "editor:ramona_kiuntke",
-          "editor:benjamin_braun"
-        ]
-      },
-      "Company of Heroes 3": {
-        "count": 2,
-        "category": "game",
-        "mentioners": [
-          "editor:jörg_langer",
-          "editor:ramona_kiuntke"
+          "user:Crizzo"
         ]
       },
       "Like A Dragon – Ishin!": {
@@ -39362,10 +39922,11 @@
         ]
       },
       "Sons of the Forest": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:ramona_kiuntke"
+          "editor:ramona_kiuntke",
+          "user:jguillemont"
         ]
       },
       "Vampire Game Jam": {
@@ -39586,10 +40147,12 @@
         ]
       },
       "Everything Everywhere All At Once": {
-        "count": 1,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:Alain",
+          "user:euph"
         ]
       },
       "Hogwarts Legacy.": {
@@ -39614,10 +40177,98 @@
         ]
       },
       "Atomic Heart": {
+        "count": 4,
+        "category": "game",
+        "mentioners": [
+          "editor:karsten_scholz",
+          "user:Robokopp",
+          "user:Moe90",
+          "user:Noodles"
+        ]
+      },
+      "The Last of Us Staffel 1": {
+        "count": 5,
+        "category": "film_series",
+        "mentioners": [
+          "user:Crizzo",
+          "user:funrox",
+          "user:euph",
+          "user:Pomme",
+          "user:jguillemont"
+        ]
+      },
+      "Star Wars: The Bad Batch": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Crizzo",
+          "user:LRod"
+        ]
+      },
+      "Drive to Survive": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Blood Bowl 3": {
         "count": 1,
         "category": "game",
         "mentioners": [
-          "editor:karsten_scholz"
+          "user:LRod"
+        ]
+      },
+      "Hi-Fi Rush": {
+        "count": 3,
+        "category": "game",
+        "mentioners": [
+          "user:Green Yoshi",
+          "user:Moe90",
+          "user:euph"
+        ]
+      },
+      "Ant-Man and the Wasp: Quantumania": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Restrictor81"
+        ]
+      },
+      "Star Trek: Picard Staffel 3": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Restrictor81",
+          "user:Baumkuchen"
+        ]
+      },
+      "Carnival Row Staffel 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Dead Space Remake": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "Super Bowl": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Noodles"
+        ]
+      },
+      "Octopath Traveler II": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Berndor"
         ]
       }
     }
@@ -39626,7 +40277,7 @@
     "month": "2023-03",
     "url": "/news/246716/darauf-freut-sich-die-redaktion-im-maerz-2023",
     "title": "Darauf freut sich die Redaktion im... März 2023",
-    "last_updated": "2026-05-27T19:43:54Z",
+    "last_updated": "2026-05-28T21:16:33Z",
     "comment_count": 60,
     "editors": [
       {
@@ -40034,7 +40685,252 @@
         "text": "ok nachdem ich eben Episode 4 von Picard Season 3 gesehen habe kann ich sagen: Klare Empfehlung!\nWem (wie mir) Season 1+2 nicht gefallen haben wird bei Season 3 positiv überrascht werden! Es geht augenscheinlich auch anders und das alte Star Trek Feeling kommt auf. Episode 4 ist nochmal ein Leckerbissen für sich. Weiter so!"
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "The Last of Us Staffel 1",
+            "category": "film_series"
+          },
+          {
+            "title": "Hogwarts Legacy",
+            "category": "game"
+          },
+          {
+            "title": "A Plague Tale: Requiem",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Kinukawa",
+        "items": [
+          {
+            "title": "Bloodywood Konzert",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Q-Bert",
+        "items": [
+          {
+            "title": "Shrinking",
+            "category": "film_series"
+          },
+          {
+            "title": "The Mandalorian Staffel 3",
+            "category": "film_series"
+          },
+          {
+            "title": "Der Schwarm",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "The Mandalorian Staffel 3",
+            "category": "film_series"
+          },
+          {
+            "title": "The Last of Us Staffel 1",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "KampfPlauze",
+        "items": [
+          {
+            "title": "Resident Evil 4 Remake",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Drapondur",
+        "items": [
+          {
+            "title": "System Shock Remake",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Resident Evil 4 Remake",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Ant-Man and the Wasp: Quantumania",
+            "category": "film_series"
+          },
+          {
+            "title": "John Wick: Chapter 4",
+            "category": "film_series"
+          },
+          {
+            "title": "Star Trek: Picard Staffel 3",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Hannes Herrmann",
+        "items": [
+          {
+            "title": "Ted Lasso Staffel 3",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "timeagent",
+        "items": [
+          {
+            "title": "Scream 6",
+            "category": "film_series"
+          },
+          {
+            "title": "Elite Dangerous",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "The Great War: Western Front",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Bruno Lawrie",
+        "items": [
+          {
+            "title": "System Shock Remake",
+            "category": "game"
+          },
+          {
+            "title": "Resident Evil 4 Remake",
+            "category": "game"
+          },
+          {
+            "title": "Star Trek: Picard Staffel 3",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Robokopp",
+        "items": [
+          {
+            "title": "Resident Evil 4 Remake",
+            "category": "game"
+          },
+          {
+            "title": "System Shock Remake",
+            "category": "game"
+          },
+          {
+            "title": "The Mandalorian Staffel 3",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "sneaker23",
+        "items": [
+          {
+            "title": "Der Schwarm",
+            "category": "film_series"
+          },
+          {
+            "title": "System Shock Remake",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Rialdar",
+        "items": [
+          {
+            "title": "Dungeons & Dragons: Honor Among Thieves",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "Forza Horizon 5: Rally Adventure",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "CptTrips",
+        "items": [
+          {
+            "title": "System Shock Remake",
+            "category": "game"
+          },
+          {
+            "title": "Resident Evil 4 Remake",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Slaytanic",
+        "items": [
+          {
+            "title": "System Shock Remake",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "Resident Evil 4 Remake",
+            "category": "game"
+          },
+          {
+            "title": "System Shock Remake",
+            "category": "game"
+          },
+          {
+            "title": "The Last of Us Staffel 1",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Calmon",
+        "items": [
+          {
+            "title": "Star Trek: Picard Staffel 3",
+            "category": "film_series"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "The Last of Us": {
         "count": 2,
@@ -40074,12 +40970,13 @@
         ]
       },
       "The Great War: Western Front": {
-        "count": 3,
+        "count": 4,
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
           "editor:ramona_kiuntke",
-          "editor:christian_burtchen"
+          "editor:christian_burtchen",
+          "user:Sokar"
         ]
       },
       "System Shock": {
@@ -40400,6 +41297,143 @@
         "mentioners": [
           "editor:christian_burtchen"
         ]
+      },
+      "The Last of Us Staffel 1": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "user:funrox",
+          "user:Crizzo",
+          "user:Moe90"
+        ]
+      },
+      "Hogwarts Legacy": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "A Plague Tale: Requiem": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Bloodywood Konzert": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Kinukawa"
+        ]
+      },
+      "Shrinking": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Q-Bert"
+        ]
+      },
+      "The Mandalorian Staffel 3": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "user:Q-Bert",
+          "user:Crizzo",
+          "user:Robokopp"
+        ]
+      },
+      "Der Schwarm": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Q-Bert",
+          "user:sneaker23"
+        ]
+      },
+      "Resident Evil 4 Remake": {
+        "count": 6,
+        "category": "game",
+        "mentioners": [
+          "user:KampfPlauze",
+          "user:Green Yoshi",
+          "user:Bruno Lawrie",
+          "user:Robokopp",
+          "user:CptTrips",
+          "user:Moe90"
+        ]
+      },
+      "System Shock Remake": {
+        "count": 7,
+        "category": "game",
+        "mentioners": [
+          "user:Drapondur",
+          "user:Bruno Lawrie",
+          "user:Robokopp",
+          "user:sneaker23",
+          "user:CptTrips",
+          "user:Slaytanic",
+          "user:Moe90"
+        ]
+      },
+      "Ant-Man and the Wasp: Quantumania": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "John Wick: Chapter 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Star Trek: Picard Staffel 3": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon",
+          "user:Bruno Lawrie",
+          "user:Calmon"
+        ]
+      },
+      "Ted Lasso Staffel 3": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Scream 6": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:timeagent"
+        ]
+      },
+      "Elite Dangerous": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:timeagent"
+        ]
+      },
+      "Dungeons & Dragons: Honor Among Thieves": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Rialdar"
+        ]
+      },
+      "Forza Horizon 5: Rally Adventure": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Noodles"
+        ]
       }
     }
   },
@@ -40407,7 +41441,7 @@
     "month": "2023-04",
     "url": "/news/250046/darauf-freut-sich-die-redaktion-im-april-2023",
     "title": "Darauf freut sich die Redaktion im... April 2023",
-    "last_updated": "2026-05-27T19:43:55Z",
+    "last_updated": "2026-05-28T21:16:33Z",
     "comment_count": 57,
     "editors": [
       {
@@ -40844,7 +41878,177 @@
         "text": "Ich freue mich auf ein paar freie Tage nach Ostern. Wenn alles gut geht wird es für ein einzelnes Spieleprojekt reichen. Wahrscheinlich wird es Shadow of the Tomb Raider. :)"
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "Maestro84",
+        "items": [
+          {
+            "title": "John Wick: Chapter 4",
+            "category": "film_series"
+          },
+          {
+            "title": "Dungeons & Dragons: Honor Among Thieves",
+            "category": "film_series"
+          },
+          {
+            "title": "Suzume",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Olphas",
+        "items": [
+          {
+            "title": "Star Wars Jedi: Survivor",
+            "category": "game"
+          },
+          {
+            "title": "Ted Lasso Staffel 3",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "The Real Maulwurfn",
+        "items": [
+          {
+            "title": "Dead Island 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "Resident Evil 4 Remake",
+            "category": "game"
+          },
+          {
+            "title": "Star Wars Jedi: Survivor",
+            "category": "game"
+          },
+          {
+            "title": "The Super Mario Bros. Movie",
+            "category": "film_series"
+          },
+          {
+            "title": "Suzume",
+            "category": "film_series"
+          },
+          {
+            "title": "Succession Staffel 4",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Vampiro",
+        "items": [
+          {
+            "title": "Everspace 2",
+            "category": "game"
+          },
+          {
+            "title": "Wartales",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Bobafetta1895",
+        "items": [
+          {
+            "title": "House of the Dragon",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "John of Gaunt",
+        "items": [
+          {
+            "title": "Horizon Forbidden West: Burning Shores",
+            "category": "game"
+          },
+          {
+            "title": "Star Wars Jedi: Survivor",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Bruno Lawrie",
+        "items": [
+          {
+            "title": "Suzume",
+            "category": "film_series"
+          },
+          {
+            "title": "Days Gone",
+            "category": "game"
+          },
+          {
+            "title": "Ghost of Tsushima",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "The Last of Us Staffel 1",
+            "category": "film_series"
+          },
+          {
+            "title": "Maneskin Konzert",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Slaytanic",
+        "items": [
+          {
+            "title": "Everspace 2",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "Hogwarts Legacy",
+            "category": "game"
+          },
+          {
+            "title": "The Last of Us Part II",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Cpt. Metal",
+        "items": [
+          {
+            "title": "Resident Evil 4 Remake",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "paule99",
+        "items": [
+          {
+            "title": "Star Wars Jedi: Survivor",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Der Super Mario Bros. Film": {
         "count": 2,
@@ -40883,22 +42087,24 @@
         ]
       },
       "Wartales": {
-        "count": 2,
+        "count": 3,
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
-          "editor:ramona_kiuntke"
+          "editor:ramona_kiuntke",
+          "user:Vampiro"
         ]
       },
       "Dead Island 2": {
-        "count": 5,
+        "count": 6,
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
           "editor:ramona_kiuntke",
           "editor:hagen_gehritz",
           "editor:benjamin_braun",
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:The Real Maulwurfn"
         ]
       },
       "Jedi Survivor": {
@@ -40951,11 +42157,13 @@
         ]
       },
       "Everspace 2": {
-        "count": 2,
+        "count": 4,
         "category": "game",
         "mentioners": [
           "editor:ramona_kiuntke",
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:Vampiro",
+          "user:Slaytanic"
         ]
       },
       "John Wick 4": {
@@ -41050,10 +42258,14 @@
         ]
       },
       "Star Wars Jedi: Survivor": {
-        "count": 1,
+        "count": 5,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Olphas",
+          "user:Moe90",
+          "user:John of Gaunt",
+          "user:paule99"
         ]
       },
       "Star Trek: Lower Decks": {
@@ -41288,10 +42500,112 @@
         ]
       },
       "Horizon Forbidden West: Burning Shores": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "editor:karsten_scholz",
+          "user:John of Gaunt"
+        ]
+      },
+      "John Wick: Chapter 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84"
+        ]
+      },
+      "Dungeons & Dragons: Honor Among Thieves": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84"
+        ]
+      },
+      "Suzume": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84",
+          "user:Moe90",
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Ted Lasso Staffel 3": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Olphas"
+        ]
+      },
+      "Resident Evil 4 Remake": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Moe90",
+          "user:Cpt. Metal"
+        ]
+      },
+      "The Super Mario Bros. Movie": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "Succession Staffel 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "House of the Dragon": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Bobafetta1895"
+        ]
+      },
+      "Days Gone": {
         "count": 1,
         "category": "game",
         "mentioners": [
-          "editor:karsten_scholz"
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Ghost of Tsushima": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "The Last of Us Staffel 1": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Maneskin Konzert": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Hogwarts Legacy": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "The Last of Us Part II": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
         ]
       }
     }
@@ -41300,7 +42614,7 @@
     "month": "2023-05",
     "url": "/news/252321/darauf-freut-sich-die-redaktion-im-mai-2023",
     "title": "Darauf freut sich die Redaktion im... Mai 2023",
-    "last_updated": "2026-05-27T19:43:56Z",
+    "last_updated": "2026-05-28T21:16:33Z",
     "comment_count": 125,
     "editors": [
       {
@@ -41594,7 +42908,217 @@
         "text": "Freue mich ein bisschen auf Zelda, allerdings habe ich Angst vor der recycelten Welt. Warum ist das kein DLC geworden? Monster Hunter Rise hat es doch auch geschafft."
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "Hannes Herrmann",
+        "items": [
+          {
+            "title": "Age of Wonders 4",
+            "category": "game"
+          },
+          {
+            "title": "Zelda: Tears of the Kingdom",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "Zelda: Tears of the Kingdom",
+            "category": "game"
+          },
+          {
+            "title": "Der Pass Staffel 3",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "unregistriert",
+        "items": [
+          {
+            "title": "Star Trek: Resurgence",
+            "category": "game"
+          },
+          {
+            "title": "Guardians of the Galaxy Vol. 3",
+            "category": "film_series"
+          },
+          {
+            "title": "Star Trek: Strange New Worlds",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Maestro84",
+        "items": [
+          {
+            "title": "Jack Ryan Staffel 3",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Zelda: Tears of the Kingdom",
+            "category": "game"
+          },
+          {
+            "title": "French Open",
+            "category": "misc"
+          },
+          {
+            "title": "Elton John Konzert",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "A Plague Tale: Requiem",
+            "category": "game"
+          },
+          {
+            "title": "Hogwarts Legacy",
+            "category": "game"
+          },
+          {
+            "title": "Der Pass Staffel 3",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Nischenliebhaber",
+        "items": [
+          {
+            "title": "Babylon 5: The Road Home",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "advfreak",
+        "items": [
+          {
+            "title": "Star Trek: Resurgence",
+            "category": "game"
+          },
+          {
+            "title": "Eurovision Song Contest",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Bruno Lawrie",
+        "items": [
+          {
+            "title": "Zelda: Tears of the Kingdom",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "CptTrips",
+        "items": [
+          {
+            "title": "Zelda: Tears of the Kingdom",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "Age of Empires 2: Return of Rome",
+            "category": "game"
+          },
+          {
+            "title": "Warhammer 40K: Boltgun",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "KampfPlauze",
+        "items": [
+          {
+            "title": "Zelda: Tears of the Kingdom",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Funatic",
+        "items": [
+          {
+            "title": "Zelda: Tears of the Kingdom",
+            "category": "game"
+          },
+          {
+            "title": "Star Trek: Strange New Worlds",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "paule99",
+        "items": [
+          {
+            "title": "Diablo 4",
+            "category": "game"
+          },
+          {
+            "title": "Star Wars Jedi: Survivor",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Henmann",
+        "items": [
+          {
+            "title": "Zelda: Tears of the Kingdom",
+            "category": "game"
+          },
+          {
+            "title": "Guardians of the Galaxy Vol. 3",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "System Shock Remake",
+            "category": "game"
+          },
+          {
+            "title": "Succession Staffel 4",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Olphas",
+        "items": [
+          {
+            "title": "Star Wars Jedi: Survivor",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Tokio bei Tag": {
         "count": 1,
@@ -41826,6 +43350,151 @@
         "mentioners": [
           "editor:christian_burtchen"
         ]
+      },
+      "Age of Wonders 4": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Zelda: Tears of the Kingdom": {
+        "count": 8,
+        "category": "game",
+        "mentioners": [
+          "user:Hannes Herrmann",
+          "user:euph",
+          "user:Green Yoshi",
+          "user:Bruno Lawrie",
+          "user:CptTrips",
+          "user:KampfPlauze",
+          "user:Funatic",
+          "user:Henmann"
+        ]
+      },
+      "Der Pass Staffel 3": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:euph",
+          "user:funrox"
+        ]
+      },
+      "Star Trek: Resurgence": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:unregistriert",
+          "user:advfreak"
+        ]
+      },
+      "Guardians of the Galaxy Vol. 3": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:unregistriert",
+          "user:Henmann"
+        ]
+      },
+      "Star Trek: Strange New Worlds": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:unregistriert",
+          "user:Funatic"
+        ]
+      },
+      "Jack Ryan Staffel 3": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84"
+        ]
+      },
+      "French Open": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Elton John Konzert": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "A Plague Tale: Requiem": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Hogwarts Legacy": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Babylon 5: The Road Home": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Nischenliebhaber"
+        ]
+      },
+      "Eurovision Song Contest": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:advfreak"
+        ]
+      },
+      "Age of Empires 2: Return of Rome": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Warhammer 40K: Boltgun": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Diablo 4": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:paule99"
+        ]
+      },
+      "Star Wars Jedi: Survivor": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:paule99",
+          "user:Olphas"
+        ]
+      },
+      "System Shock Remake": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "Succession Staffel 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90"
+        ]
       }
     }
   },
@@ -41833,7 +43502,7 @@
     "month": "2023-06",
     "url": "/news/255227/darauf-freut-sich-die-redaktion-im-juni-2023",
     "title": "Darauf freut sich die Redaktion im... Juni 2023",
-    "last_updated": "2026-05-27T19:43:57Z",
+    "last_updated": "2026-05-28T21:16:33Z",
     "comment_count": 87,
     "editors": [
       {
@@ -42212,7 +43881,251 @@
         "text": "Ich freue mich Ende Juni auf meinen Urlaub."
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "StefanH",
+        "items": [
+          {
+            "title": "Zelda: Tears of the Kingdom",
+            "category": "game"
+          },
+          {
+            "title": "Street Fighter 6",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Spider-Man: Across the Spider-Verse",
+            "category": "film_series"
+          },
+          {
+            "title": "The Flash",
+            "category": "film_series"
+          },
+          {
+            "title": "Indiana Jones und das Rad des Schicksals",
+            "category": "film_series"
+          },
+          {
+            "title": "Secret Invasion",
+            "category": "film_series"
+          },
+          {
+            "title": "Zelda: Tears of the Kingdom",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "Silo",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Desotho",
+        "items": [
+          {
+            "title": "Final Fantasy XVI",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "A Plague Tale: Requiem",
+            "category": "game"
+          },
+          {
+            "title": "Hogwarts Legacy",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Maestro84",
+        "items": [
+          {
+            "title": "Jack Ryan Staffel 4",
+            "category": "film_series"
+          },
+          {
+            "title": "Diablo 4",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "Succession Staffel 4",
+            "category": "film_series"
+          },
+          {
+            "title": "Telltale's The Expanse",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "paule99",
+        "items": [
+          {
+            "title": "Iron Maiden Konzert",
+            "category": "misc"
+          },
+          {
+            "title": "Diablo 4",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Robokopp",
+        "items": [
+          {
+            "title": "Final Fantasy XVI",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Funatic",
+        "items": [
+          {
+            "title": "Blood & Gold",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Final Fantasy XVI",
+            "category": "game"
+          },
+          {
+            "title": "French Open",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Olphas",
+        "items": [
+          {
+            "title": "Diablo 4",
+            "category": "game"
+          },
+          {
+            "title": "Final Fantasy XVI",
+            "category": "game"
+          },
+          {
+            "title": "Star Trek: Resurgence",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "LRod",
+        "items": [
+          {
+            "title": "System Shock Remake",
+            "category": "game"
+          },
+          {
+            "title": "Indiana Jones und das Rad des Schicksals",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "MicBass",
+        "items": [
+          {
+            "title": "Diablo 4",
+            "category": "game"
+          },
+          {
+            "title": "Aliens: Dark Descent",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Noodles",
+        "items": [
+          {
+            "title": "Diablo 4",
+            "category": "game"
+          },
+          {
+            "title": "Telltale's The Expanse",
+            "category": "game"
+          },
+          {
+            "title": "Indiana Jones und das Rad des Schicksals",
+            "category": "film_series"
+          },
+          {
+            "title": "Elemental",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "F1 23",
+            "category": "game"
+          },
+          {
+            "title": "The Witcher Staffel 3",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "AlexCartman",
+        "items": [
+          {
+            "title": "Borderlands 3",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "KampfPlauze",
+        "items": [
+          {
+            "title": "Zelda: Tears of the Kingdom",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Baumkuchen",
+        "items": [
+          {
+            "title": "Final Fantasy VII",
+            "category": "game"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Fauda": {
         "count": 1,
@@ -42222,10 +44135,11 @@
         ]
       },
       "Silo": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:Danywilde"
         ]
       },
       "Fubar": {
@@ -42237,12 +44151,17 @@
         ]
       },
       "Diablo 4": {
-        "count": 3,
+        "count": 8,
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
           "editor:michael_hengst",
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:Maestro84",
+          "user:paule99",
+          "user:Olphas",
+          "user:MicBass",
+          "user:Noodles"
         ]
       },
       "Final Fantasy 16": {
@@ -42291,11 +44210,12 @@
         ]
       },
       "Street Fighter 6": {
-        "count": 2,
+        "count": 3,
         "category": "game",
         "mentioners": [
           "editor:hagen_gehritz",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:StefanH"
         ]
       },
       "Janne Teller": {
@@ -42313,10 +44233,13 @@
         ]
       },
       "Indiana Jones und das Rad des Schicksals": {
-        "count": 1,
+        "count": 4,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Ganon",
+          "user:LRod",
+          "user:Noodles"
         ]
       },
       "Helge Schneider": {
@@ -42377,10 +44300,11 @@
         ]
       },
       "Spider-Man: Across the Spider-Verse": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Ganon"
         ]
       },
       "Michael Bay": {
@@ -42412,10 +44336,11 @@
         ]
       },
       "Secret Invasion": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Ganon"
         ]
       },
       "Indiana Jones": {
@@ -42517,10 +44442,11 @@
         ]
       },
       "Aliens: Dark Descent": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:karsten_scholz"
+          "editor:karsten_scholz",
+          "user:MicBass"
         ]
       },
       "Starfield": {
@@ -42528,6 +44454,138 @@
         "category": "misc",
         "mentioners": [
           "editor:karsten_scholz"
+        ]
+      },
+      "Zelda: Tears of the Kingdom": {
+        "count": 3,
+        "category": "game",
+        "mentioners": [
+          "user:StefanH",
+          "user:Ganon",
+          "user:KampfPlauze"
+        ]
+      },
+      "The Flash": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Final Fantasy XVI": {
+        "count": 4,
+        "category": "game",
+        "mentioners": [
+          "user:Desotho",
+          "user:Robokopp",
+          "user:Green Yoshi",
+          "user:Olphas"
+        ]
+      },
+      "A Plague Tale: Requiem": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Hogwarts Legacy": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Jack Ryan Staffel 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84"
+        ]
+      },
+      "Succession Staffel 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Telltale's The Expanse": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Alain",
+          "user:Noodles"
+        ]
+      },
+      "Iron Maiden Konzert": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:paule99"
+        ]
+      },
+      "Blood & Gold": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Funatic"
+        ]
+      },
+      "French Open": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Star Trek: Resurgence": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Olphas"
+        ]
+      },
+      "System Shock Remake": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:LRod"
+        ]
+      },
+      "Elemental": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Noodles"
+        ]
+      },
+      "F1 23": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "The Witcher Staffel 3": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Borderlands 3": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Final Fantasy VII": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Baumkuchen"
         ]
       }
     }
@@ -75206,7 +77264,7 @@
     "month": "2026-04",
     "url": "/news/342446/darauf-freut-sich-die-redaktion-im-april-2026",
     "title": "Darauf freut sich die Redaktion im... April 2026",
-    "last_updated": "2026-05-28T21:07:58Z",
+    "last_updated": "2026-05-28T21:16:43Z",
     "comment_count": 57,
     "editors": [
       {
@@ -76822,7 +78880,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-05-28T21:07:57Z",
+    "last_updated": "2026-05-28T21:16:42Z",
     "comment_count": 62,
     "editors": [
       {
