@@ -5189,13 +5189,13 @@ month,item_title,category,count,editor_count,user_count
 2026-03,Hi/Jack,film_series,1,1,0
 2026-03,Marathon,game,1,1,0
 2026-03,World of Warcraft,game,1,1,0
-2026-03,Life is Strange - Reunion,game,1,1,0
+2026-03,Life is Strange: Reunion,game,2,1,1
 2026-03,John Carpenter's Toxic Commando,game,1,1,0
 2026-03,Daredevil: Born Again,film_series,1,1,0
 2026-03,Invincible,film_series,1,1,0
 2026-03,For All Mankind,film_series,1,1,0
-2026-03,Monster Hunter Stories 3,game,1,1,0
-2026-03,Never Grave - The Witch and The Curse,game,1,1,0
+2026-03,Monster Hunter Stories 3,game,1,1,0
+2026-03,Never Grave - The Witch and The Curse,game,1,1,0
 2026-03,Frank Miller,film_series,1,1,0
 2026-03,Annie Jacobsen,film_series,1,1,0
 2026-03,Ken Follett,film_series,1,1,0
@@ -5224,6 +5224,7 @@ month,item_title,category,count,editor_count,user_count
 2026-03,Under The Island,game,1,0,1
 2026-03,Starfleet Academy,film_series,1,0,1
 2026-03,Star Trek: Discovery,film_series,1,0,1
+2026-03,Craftlings,game,1,0,1
 2026-03,Replaced,game,1,0,1
 2026-03,The Bazaar,game,1,0,1
 2026-03,The Pitt S2,film_series,1,0,1
@@ -5429,7 +5430,7 @@ month,item_title,category,count,editor_count,user_count
 2026-05,Slow Horses,film_series,1,0,1
 2026-05,For All Mankind,film_series,1,0,1
 2026-05,Strange New Worlds Staffel 3,film_series,1,0,1
-2026-05,Craftlinge,game,1,0,1
+2026-05,Craftlings,game,1,0,1
 2026-05,Industria 2,game,1,0,1
 2026-05,Coffee Talk: Tokyo,game,1,0,1
 2026-05,The Remake of the End of the Greatest RPG of All Time,game,1,0,1
