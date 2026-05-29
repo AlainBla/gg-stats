@@ -166,7 +166,9 @@
       "Die Ringe der Macht",
       "Ringe der Macht",
       "Herr der Ringe: Ringe der Macht",
-      "Herr der Ringe: Die Ringe der Macht"
+      "Herr der Ringe: Die Ringe der Macht",
+      "Rings of Power",
+      "The Rings of Power"
     ],
     "The Legend of Zelda: A Link to the Past": [
       "A Link to the Past",
@@ -219,7 +221,8 @@
       "Assassin's Creed - Shadows"
     ],
     "Assassin's Creed: Valhalla": [
-      "Assassin's Creed Valhalla"
+      "Assassin's Creed Valhalla",
+      "Assassins's Creed Valhalla"
     ],
     "Assassin's Creed: Odyssey": [
       "Assassin's Creed Odyssey"
@@ -341,7 +344,8 @@
     "The Legend of Zelda: Tears of the Kingdom": [
       "Zelda: Tears of the Kingdom",
       "Tears of the Kingdom",
-      "TotK"
+      "TotK",
+      "The Legend of Zelda - The Tears of the Kingdom"
     ],
     "The Legend of Zelda: Echoes of Wisdom": [
       "Zelda: Echoes of Wisdom",
@@ -409,6 +413,18 @@
     "Call of Duty: Vanguard": [
       "Call of Duty Vanguard",
       "Call of Duty - Vanguard"
+    ],
+    "Fallout S2": [
+      "Fallout Season 2"
+    ],
+    "World of Warcraft Classic": [
+      "WoW Classic"
+    ],
+    "World of Warcraft": [
+      "WoW"
+    ],
+    "Cyberpunk 2077": [
+      "2077"
     ]
   },
   "categories": {
