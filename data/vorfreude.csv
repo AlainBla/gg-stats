@@ -13,7 +13,7 @@ month,item_title,category,count,editor_count,user_count
 2018-01,Bastian Pastewka,film_series,1,1,0
 2018-01,Pastewka,film_series,1,1,0
 2018-01,Resident Evil 7,game,1,1,0
-2018-01,Cuphead,game,1,1,0
+2018-01,Cuphead,game,2,1,1
 2018-01,Dr. House,film_series,1,1,0
 2018-01,The Good Doctor,film_series,1,1,0
 2018-01,Dirt Rally,game,1,1,0
@@ -30,13 +30,36 @@ month,item_title,category,count,editor_count,user_count
 2018-01,Genyak,misc,1,1,0
 2018-01,Chaos Blast Zone,misc,1,1,0
 2018-01,Antipeewee,misc,1,1,0
+2018-01,NFL Playoffs,misc,1,0,1
+2018-01,Final Fantasy XIV,game,1,0,1
+2018-01,Stranger Things,film_series,1,0,1
+2018-01,Star Trek: Discovery,film_series,1,0,1
+2018-01,Die dunkelste Stunde,film_series,2,0,2
+2018-01,Assassin's Creed: Origins,game,2,0,2
+2018-01,Star Wars: Die letzten Jedi,film_series,1,0,1
+2018-01,Pastewka Staffel 8,film_series,2,0,2
+2018-01,Elementary Staffel 4,film_series,1,0,1
+2018-01,Wrestle Kingdom 12,misc,1,0,1
+2018-01,Life is Strange: Before the Storm,game,1,0,1
+2018-01,Dragon Ball FighterZ,game,1,0,1
+2018-01,Kingdom Come: Deliverance,game,2,0,2
+2018-01,Yakuza 6,game,1,0,1
+2018-01,Wolfenstein 2: The New Colossus,game,1,0,1
+2018-01,Elex,game,1,0,1
+2018-01,Super Mario Odyssey,game,1,0,1
+2018-01,Black Sails,film_series,1,0,1
+2018-01,Pokémon Kristall-Edition,game,1,0,1
+2018-01,The Witcher 3,game,1,0,1
+2018-01,Ni No Kuni 2,game,1,0,1
+2018-01,Shadow of the Colossus Remake,game,1,0,1
+2018-01,Far Cry 5,game,1,0,1
 2018-02,Friends,film_series,1,1,0
 2018-02,Owlboy,game,1,1,0
 2018-02,Shameless - Nicht ganz nüchtern,film_series,1,1,0
 2018-02,The Council,game,1,1,0
 2018-02,Berserk,misc,1,1,0
 2018-02,Kentaro Miura,misc,1,1,0
-2018-02,Black Panther,film_series,2,2,0
+2018-02,Black Panther,film_series,4,2,2
 2018-02,Bates Motel,film_series,1,1,0
 2018-02,The Clone Wars,film_series,1,1,0
 2018-02,Persona 5,game,1,1,0
@@ -48,11 +71,24 @@ month,item_title,category,count,editor_count,user_count
 2018-02,Green Lantern,misc,1,1,0
 2018-02,Band 5: Die Rückkehr der ersten Lantern,game,1,1,0
 2018-02,Secret of Mana,game,1,1,0
+2018-02,Kingdom Come: Deliverance,game,4,0,4
+2018-02,Final Fantasy XII PC,game,1,0,1
+2018-02,Secret of Mana Remake,game,1,0,1
+2018-02,Altered Carbon,film_series,2,0,2
+2018-02,Mute,film_series,2,0,2
+2018-02,Shadow of the Colossus Remake,game,1,0,1
+2018-02,Star Trek: Discovery Staffel 1,film_series,1,0,1
+2018-02,Stellaris DLC,game,1,0,1
+2018-02,Star Trek: Discovery,film_series,1,0,1
+2018-02,Stellaris: Apocalypse,game,1,0,1
+2018-02,Civ 6: Rise and Fall,game,2,0,2
+2018-02,Bayonetta 2 Switch,game,1,0,1
+2018-02,Shape of Water,film_series,1,0,1
 2018-03,Stranger Things,film_series,1,1,0
 2018-03,Altered Carbon,film_series,2,2,0
 2018-03,Suburra,film_series,1,1,0
 2018-03,Gomorrha,film_series,1,1,0
-2018-03,Narcos,film_series,1,1,0
+2018-03,Narcos,film_series,2,1,1
 2018-03,Dark,film_series,1,1,0
 2018-03,freuen,game,1,1,0
 2018-03,Kingdom Come Deliverance,game,1,1,0
@@ -62,7 +98,7 @@ month,item_title,category,count,editor_count,user_count
 2018-03,Sea of Thieves,game,1,1,0
 2018-03,Kirby Star Allies,game,1,1,0
 2018-03,Kadavar,misc,1,1,0
-2018-03,Auslöschung,film_series,1,1,0
+2018-03,Auslöschung,film_series,2,1,1
 2018-03,Natalie Portman,film_series,1,1,0
 2018-03,Moss,game,1,1,0
 2018-03,Ni No Kuni 2 - Schicksal eines Königreichs,game,1,1,0
@@ -70,7 +106,7 @@ month,item_title,category,count,editor_count,user_count
 2018-03,Mehr als die Summe,misc,1,1,0
 2018-03,The Crown,film_series,1,1,0
 2018-03,Downton Abbey,film_series,1,1,0
-2018-03,Ni No Kuni 2,game,1,1,0
+2018-03,Ni No Kuni 2,game,3,1,2
 2018-03,Far Cry 5,game,1,1,0
 2018-03,Q.U.B.E. 2,game,1,1,0
 2018-03,Scribblenauts Showdown,game,1,1,0
@@ -85,14 +121,29 @@ month,item_title,category,count,editor_count,user_count
 2018-03,Offa Rex,game,1,1,0
 2018-03,Olivia Chaney,game,1,1,0
 2018-03,Das schweigende Klassenzimmer,film_series,1,1,0
-2018-03,Warhammer - Vermintide 2,game,1,1,0
+2018-03,Warhammer: Vermintide 2,game,2,1,1
 2018-03,Left 4 Dead,game,1,1,0
-2018-04,Avengers: Infinity War,film_series,1,1,0
+2018-03,Final Fantasy XV PC,game,1,0,1
+2018-03,Pacific Rim: Uprising,film_series,1,0,1
+2018-03,Tomb Raider,film_series,1,0,1
+2018-03,Stranger Things Staffel 2,film_series,2,0,2
+2018-03,Banshee,film_series,1,0,1
+2018-03,Akte X neue Staffel,film_series,1,0,1
+2018-03,Life is Strange: Before the Storm Bonus Episode,game,1,0,1
+2018-03,Kingdom Come: Deliverance,game,2,0,2
+2018-03,Love neue Staffel,film_series,1,0,1
+2018-03,Santa Clarita Diet Staffel 2,film_series,1,0,1
+2018-03,Bad Banks,film_series,1,0,1
+2018-03,Preacher Staffel 2,film_series,1,0,1
+2018-03,Elite Dangerous,game,1,0,1
+2018-03,Shroud of the Avatar,game,1,0,1
+2018-03,Life is Strange: Before the Storm,game,1,0,1
+2018-04,Avengers: Infinity War,film_series,4,1,3
 2018-04,Far Cry 5,game,1,1,0
-2018-04,God of War,game,3,3,0
+2018-04,God of War,game,5,3,2
 2018-04,Trivium,misc,1,1,0
-2018-04,Ready Player One,film_series,1,1,0
-2018-04,Bosch,film_series,2,2,0
+2018-04,Ready Player One,film_series,4,1,3
+2018-04,Bosch,game,2,2,0
 2018-04,Ascension,game,1,1,0
 2018-04,God of War 3,game,1,1,0
 2018-04,Sinner - Sacrifice for Redemption,game,1,1,0
@@ -115,9 +166,17 @@ month,item_title,category,count,editor_count,user_count
 2018-04,Martin Freeman,film_series,1,1,0
 2018-04,Yakuza 6 – The Song of Life,game,1,1,0
 2018-04,Yakuza,game,1,1,0
-2018-04,Battletech,game,1,1,0
+2018-04,Battletech,game,6,1,5
 2018-04,Die Klinge des Schicksals,misc,1,1,0
 2018-04,Markus Heitz,misc,1,1,0
+2018-04,The Expanse Staffel 3,film_series,2,0,2
+2018-04,Deadpool 2,film_series,1,0,1
+2018-04,Timeless Staffel 2,film_series,1,0,1
+2018-04,Bosch Staffel 4,film_series,1,0,1
+2018-04,The Terror,film_series,2,0,2
+2018-04,Ni No Kuni 2,game,1,0,1
+2018-04,Magnum P.I. Staffel 2,film_series,1,0,1
+2018-04,Akte X neue Staffel,film_series,1,0,1
 2018-05,Altered Carbon,film_series,1,1,0
 2018-05,Suburra,film_series,1,1,0
 2018-05,The Terror,film_series,1,1,0
@@ -129,7 +188,7 @@ month,item_title,category,count,editor_count,user_count
 2018-05,Pillars of Eternity 2,game,1,1,0
 2018-05,Avengers: Infinity War,film_series,2,2,0
 2018-05,Solo,film_series,1,1,0
-2018-05,Detroit - Become Human,game,4,4,0
+2018-05,Detroit: Become Human,game,11,4,7
 2018-05,Dark Souls,film_series,1,1,0
 2018-05,Helge Schneider,misc,1,1,0
 2018-05,Sleep,misc,1,1,0
@@ -137,7 +196,7 @@ month,item_title,category,count,editor_count,user_count
 2018-05,Michael C. Hall,film_series,1,1,0
 2018-05,Six Feet Under,game,1,1,0
 2018-05,Dexter,game,1,1,0
-2018-05,Deadpool 2,film_series,2,2,0
+2018-05,Deadpool 2,game,5,2,3
 2018-05,Ryan Reynolds,game,1,1,0
 2018-05,State of Decay 2,game,2,2,0
 2018-05,Forgotton Anne,game,2,2,0
@@ -148,8 +207,21 @@ month,item_title,category,count,editor_count,user_count
 2018-05,Leon Bridges,misc,1,1,0
 2018-05,Good Thing,misc,1,1,0
 2018-05,Isle of Dogs - Akiras Reise,film_series,1,1,0
-2018-05,Solo: A Star Wars Story,film_series,1,1,0
+2018-05,Solo: A Star Wars Story,film_series,2,1,1
 2018-05,The Elder Scrolls Online: Summerset,game,1,1,0
+2018-05,God of War,game,1,0,1
+2018-05,NHL Playoffs,misc,1,0,1
+2018-05,Persona 3: Dancing Moon Night,game,1,0,1
+2018-05,Persona 5: Dancing Star Night,game,1,0,1
+2018-05,Yakuza 6,game,1,0,1
+2018-05,Pillars of Eternity II: Deadfire,game,4,0,4
+2018-05,Hyrule Warriors: Definitive Edition,game,1,0,1
+2018-05,Destiny 2: Warmind,game,1,0,1
+2018-05,Ni No Kuni 2,game,2,0,2
+2018-05,Life is Strange: Before the Storm,game,1,0,1
+2018-05,Dark Souls Remastered,game,1,0,1
+2018-05,Agony,game,1,0,1
+2018-05,Westworld Staffel 2,film_series,1,0,1
 2018-06,Britannia,film_series,1,1,0
 2018-06,Westworld,film_series,1,1,0
 2018-06,Dark Souls,game,1,1,0
@@ -159,7 +231,7 @@ month,item_title,category,count,editor_count,user_count
 2018-06,GG-Grillfest in Salmdorf,game,1,1,0
 2018-06,Deadpool 2,film_series,1,1,0
 2018-06,Tote Mädchen lügen nicht,game,1,1,0
-2018-06,Detroit - Become Human,game,1,1,0
+2018-06,Detroit: Become Human,game,2,1,1
 2018-06,Safe,film_series,1,1,0
 2018-06,The Terror,film_series,1,1,0
 2018-06,Bosch,film_series,1,1,0
@@ -168,7 +240,7 @@ month,item_title,category,count,editor_count,user_count
 2018-06,Mario Tennis Aces,game,1,1,0
 2018-06,Ripper Street,film_series,1,1,0
 2018-06,Veep - Die Vizepräsidentin,film_series,1,1,0
-2018-06,Vampyr,game,2,2,0
+2018-06,Vampyr,game,5,2,3
 2018-06,Life Is Strange,game,1,1,0
 2018-06,Persona 5,game,1,1,0
 2018-06,Divinity: Original Sin 2,game,1,1,0
@@ -185,13 +257,16 @@ month,item_title,category,count,editor_count,user_count
 2018-06,Guild Wars 2,game,1,1,0
 2018-06,Path of Fire,game,1,1,0
 2018-06,Cyberpunk 2077,misc,1,1,0
+2018-06,Jurassic World Evolution,game,3,0,3
+2018-06,E3,misc,1,0,1
+2018-06,Fußball-WM,misc,1,0,1
 2018-07,Californication,film_series,1,1,0
 2018-07,Goliath,film_series,1,1,0
 2018-07,Orange is the New Black,film_series,2,2,0
 2018-07,Dark Souls Remastered,game,2,2,0
-2018-07,Octopath Traveler,game,2,2,0
+2018-07,Octopath Traveler,game,8,2,6
 2018-07,The Persistence,game,1,1,0
-2018-07,Westworld,film_series,1,1,0
+2018-07,Westworld,film_series,2,1,1
 2018-07,Gladius,game,1,1,0
 2018-07,Civilization,game,1,1,0
 2018-07,Six Ages - Ride like the Wind,game,1,1,0
@@ -206,6 +281,12 @@ month,item_title,category,count,editor_count,user_count
 2018-07,Happy!,film_series,1,1,0
 2018-07,Mass Effect: Andromeda,game,1,1,0
 2018-07,Fallout 4,game,1,1,0
+2018-07,Ys VIII: Lacrimosa of DANA,game,1,0,1
+2018-07,Ant-Man and The Wasp,film_series,3,0,3
+2018-07,Shining Resonance Refrain,game,2,0,2
+2018-07,Wynonna Earp Staffel 3,film_series,1,0,1
+2018-07,Tacoma,game,1,0,1
+2018-07,The Red Strings Club,game,1,0,1
 2018-08,Homeland,film_series,1,1,0
 2018-08,The Expanse,film_series,1,1,0
 2018-08,Sicario 2,game,1,1,0
@@ -213,16 +294,16 @@ month,item_title,category,count,editor_count,user_count
 2018-08,Rome 2 - Total War,game,1,1,0
 2018-08,Attila,game,1,1,0
 2018-08,Japan-Dokus 2018,misc,1,1,0
-2018-08,Gamescom,misc,3,3,0
+2018-08,Gamescom,misc,4,3,1
 2018-08,Disenchantment,film_series,2,2,0
 2018-08,Sauerkrautkoma,film_series,1,1,0
 2018-08,Bloodborne,game,1,1,0
-2018-08,Octopath Traveler,game,1,1,0
+2018-08,Octopath Traveler,game,2,1,1
 2018-08,Knochenfabrik,misc,1,1,0
 2018-08,Black Mirror,film_series,1,1,0
 2018-08,Mr Mercedes,film_series,1,1,0
 2018-08,F1 2018,game,3,3,0
-2018-08,Better Call Saul,film_series,1,1,0
+2018-08,Better Call Saul,film_series,2,1,1
 2018-08,State of Mind,game,2,2,0
 2018-08,The Walking Dead,game,1,1,0
 2018-08,PES 2019,game,2,2,0
@@ -233,14 +314,21 @@ month,item_title,category,count,editor_count,user_count
 2018-08,Lincoln im Bardo,misc,1,1,0
 2018-08,Mission: Impossible - Fallout,film_series,1,1,0
 2018-08,Preacher,film_series,1,1,0
-2018-08,WoW: Battle for Azeroth,game,1,1,0
+2018-08,WoW: Battle for Azeroth,game,2,1,1
+2018-08,Yakuza 0,game,1,0,1
+2018-08,Monster Hunter World PC,game,1,0,1
+2018-08,Yakuza Kiwami 2,game,2,0,2
+2018-08,Destiny 2,game,1,0,1
+2018-08,Phantom Doctrine,game,4,0,4
+2018-08,Cloak & Dagger,film_series,1,0,1
+2018-08,The Last of Us PS4,game,1,0,1
 2018-09,Disenchantment,film_series,1,1,0
 2018-09,Orange is the new Black,film_series,1,1,0
 2018-09,Mad Men,film_series,1,1,0
 2018-09,Spider-Man,game,4,4,0
 2018-09,Modern Family,film_series,1,1,0
 2018-09,Sharp Objects,film_series,1,1,0
-2018-09,Shadow of the Tomb Raider,game,2,2,0
+2018-09,Shadow of the Tomb Raider,game,9,2,7
 2018-09,Tom Clancy’s Jack Ryan,film_series,1,1,0
 2018-09,American Horror Story,film_series,1,1,0
 2018-09,Orange is the New Black,film_series,1,1,0
@@ -251,27 +339,39 @@ month,item_title,category,count,editor_count,user_count
 2018-09,Blade Runner 2049,film_series,1,1,0
 2018-09,Lucifer,film_series,1,1,0
 2018-09,FIFA 19,game,1,1,0
-2018-09,Pathfinder: Kingmaker,game,1,1,0
+2018-09,Pathfinder: Kingmaker,game,4,1,3
 2018-09,Life Is Strange,game,1,1,0
 2018-09,Villagers,misc,1,1,0
 2018-09,The Art of Pretending to Swim,misc,1,1,0
 2018-09,Piano & a Microphone 1983,misc,1,1,0
 2018-09,Prince,misc,1,1,0
-2018-09,Die Unglaublichen 2,film_series,1,1,0
+2018-09,Die Unglaublichen 2,film_series,2,1,1
 2018-09,Mission: Impossible - Fallout,film_series,1,1,0
 2018-09,Luke Cage,film_series,1,1,0
 2018-09,WoW: Battle for Azeroth,game,1,1,0
 2018-09,NBA2K19,game,1,1,0
+2018-09,Spider-Man PS4,game,5,0,5
+2018-09,Hollow Knight Switch,game,1,0,1
+2018-09,The Bard's Tale 4,game,5,0,5
+2018-09,Dragon Quest XI,game,2,0,2
+2018-09,Valkyria Chronicles 4,game,2,0,2
+2018-09,Destiny 2: Forsaken,game,2,0,2
+2018-09,Life is Strange 2,game,3,0,3
+2018-09,The Expanse Staffel 3,film_series,1,0,1
+2018-09,Jack Ryan,film_series,1,0,1
+2018-09,Better Call Saul,film_series,2,0,2
+2018-09,Divinity: Original Sin 2 PS4,game,1,0,1
+2018-09,Iron Fist Staffel 2,film_series,1,0,1
 2018-10,Maniac,film_series,1,1,0
 2018-10,True Detective,film_series,1,1,0
-2018-10,Predator,film_series,1,1,0
-2018-10,Red Dead Redemption 2,game,5,5,0
+2018-10,Predator,film_series,2,1,1
+2018-10,Red Dead Redemption 2,game,9,5,4
 2018-10,Assassin's Creed Odyssey,game,2,2,0
 2018-10,Space Hulk Tactics,game,1,1,0
 2018-10,Reigns – Game of Thrones,game,1,1,0
 2018-10,Oktoberfest,misc,1,1,0
 2018-10,Japan-Dokus 2018,misc,1,1,0
-2018-10,Venom,film_series,1,1,0
+2018-10,Venom,film_series,2,1,1
 2018-10,Archer,film_series,1,1,0
 2018-10,Shadow of the Tomb Raider,game,1,1,0
 2018-10,Distemper,misc,1,1,0
@@ -279,13 +379,13 @@ month,item_title,category,count,editor_count,user_count
 2018-10,The Man in the High Castle,film_series,1,1,0
 2018-10,Der Prinz von Bel-Air,film_series,1,1,0
 2018-10,Two and a half Men,film_series,1,1,0
-2018-10,Call of Cthulhu,game,2,2,0
+2018-10,Call of Cthulhu,game,4,2,2
 2018-10,Sherlock Holmes,game,1,1,0
-2018-10,Halloween,film_series,1,1,0
+2018-10,Halloween,film_series,2,1,1
 2018-10,Forza Horizon 4,game,1,1,0
 2018-10,Battlefield V,game,1,1,0
 2018-10,Curb Your Enthusiasm,film_series,1,1,0
-2018-10,Deutschland 86,film_series,1,1,0
+2018-10,Deutschland 86,film_series,2,1,1
 2018-10,Deutschland 83,film_series,1,1,0
 2018-10,My Memory of Us,game,1,1,0
 2018-10,The Occupation,game,1,1,0
@@ -296,23 +396,32 @@ month,item_title,category,count,editor_count,user_count
 2018-10,Peter Licht,misc,1,1,0
 2018-10,Intrigo - Tod eines Autors,film_series,1,1,0
 2018-10,Vagant,misc,1,1,0
+2018-10,Assassin's Creed: Odyssey,game,3,0,3
+2018-10,Super Mario Party,game,1,0,1
+2018-10,The World Ends With You: Final Remix,game,2,0,2
+2018-10,Bohemian Rhapsody,film_series,1,0,1
+2018-10,XCOM 2: War of the Chosen - Tactical Legacy Pack,game,1,0,1
+2018-10,Babylon Berlin,film_series,3,0,3
+2018-10,Versailles,film_series,1,0,1
+2018-10,The Man in the High Castle Staffel 3,film_series,1,0,1
+2018-10,Call of Duty: Black Ops 4,game,1,0,1
 2018-11,Maniac,film_series,1,1,0
 2018-11,Sicario 2,film_series,1,1,0
 2018-11,Japan-Dokus 2018,film_series,1,1,0
 2018-11,Rimworld,game,1,1,0
-2018-11,Mutant Year Zero - Road to Eden,game,1,1,0
-2018-11,Underworld Ascendant,game,2,2,0
+2018-11,Mutant Year Zero: Road to Eden,game,1,1,0
+2018-11,Underworld Ascendant,game,3,2,1
 2018-11,Suits,film_series,1,1,0
 2018-11,Halloween,film_series,1,1,0
-2018-11,Red Dead Redemption 2,game,1,1,0
-2018-11,Darksiders 3,game,1,1,0
+2018-11,Red Dead Redemption 2,game,2,1,1
+2018-11,Darksiders 3,game,3,1,2
 2018-11,Hardshift-Festival,misc,1,1,0
 2018-11,Das Boot,film_series,1,1,0
 2018-11,Narcos,film_series,1,1,0
 2018-11,American Horror Story,film_series,1,1,0
 2018-11,Deutschland 86,film_series,1,1,0
 2018-11,Mr. Robot,film_series,1,1,0
-2018-11,Hitman 2,game,1,1,0
+2018-11,Hitman 2,game,3,1,2
 2018-11,Leisure Suit Larry - Wet Dreams Don't Dry,game,1,1,0
 2018-11,Battlefield 5,game,1,1,0
 2018-11,Modern Family,film_series,1,1,0
@@ -320,12 +429,18 @@ month,item_title,category,count,editor_count,user_count
 2018-11,Red Dead Online,game,1,1,0
 2018-11,Battlefield V,game,1,1,0
 2018-11,J.K. Rowlings,film_series,1,1,0
-2018-11,Phantastische Tierwesen 2,game,1,1,0
+2018-11,Phantastische Tierwesen 2,game,2,1,1
 2018-11,Jack Black,misc,1,1,0
 2018-11,Kyle Gass,misc,1,1,0
 2018-11,Dave Grohl,misc,1,1,0
 2018-11,Post-Apocalypto,misc,1,1,0
 2018-11,Tenacious D,misc,1,1,0
+2018-11,Diablo 3 Switch,game,1,0,1
+2018-11,House of Cards,film_series,1,0,1
+2018-11,Versailles Staffelende,film_series,1,0,1
+2018-11,Assassin's Creed: Odyssey,game,1,0,1
+2018-11,Call of Cthulhu,game,1,0,1
+2018-11,Battletech Linux,game,1,0,1
 2018-12,Das Boot,film_series,1,1,0
 2018-12,Mutant Year Zero,game,1,1,0
 2018-12,Strategic Command WWII World at War,game,1,1,0
@@ -334,17 +449,17 @@ month,item_title,category,count,editor_count,user_count
 2018-12,Bumblebee,film_series,1,1,0
 2018-12,John Cena,film_series,1,1,0
 2018-12,Transformers,film_series,1,1,0
-2018-12,Red Dead Redemption 2,game,2,2,0
+2018-12,Red Dead Redemption 2,game,3,2,1
 2018-12,Super Smash. Bros Ultimate,game,1,1,0
 2018-12,Counter-Strike 1.6,misc,1,1,0
 2018-12,Warcraft 3,misc,1,1,0
 2018-12,Beben 3 Arena,misc,1,1,0
-2018-12,Aquaman,film_series,2,2,0
+2018-12,Aquaman,film_series,4,2,2
 2018-12,Willem Dafoe,film_series,1,1,0
 2018-12,Homeland,film_series,1,1,0
-2018-12,Super Smash Bros. Ultimate,game,2,2,0
+2018-12,Super Smash Bros. Ultimate,game,3,2,1
 2018-12,Just Cause 4,game,1,1,0
-2018-12,Deutschland 86,film_series,1,1,0
+2018-12,Deutschland 86,film_series,2,1,1
 2018-12,Das Boot (2018),film_series,1,1,0
 2018-12,Suspiria,film_series,1,1,0
 2018-12,Battlefield 5,game,1,1,0
@@ -355,8 +470,24 @@ month,item_title,category,count,editor_count,user_count
 2018-12,Mortal Engines,film_series,1,1,0
 2018-12,Daredevil,film_series,1,1,0
 2018-12,Conan Exiles,game,1,1,0
-2018-12,Mutant Year Zero - Road to Eden,game,1,1,0
+2018-12,Mutant Year Zero: Road to Eden,game,3,1,2
 2018-12,Spider-Man,game,1,1,0
+2018-12,Mary Poppins Returns,film_series,1,0,1
+2018-12,Spider-Man: Into the Spider-Verse,film_series,2,0,2
+2018-12,Vikings,film_series,1,0,1
+2018-12,The Bard's Tale 4 Linux,game,1,0,1
+2018-12,Quantum Break,game,1,0,1
+2018-12,Sunset Overdrive,game,1,0,1
+2018-12,Forza Horizon 4,game,1,0,1
+2018-12,Game Awards,misc,1,0,1
+2018-12,Stellaris: MegaCorp,game,1,0,1
+2018-12,Nightflyers,film_series,1,0,1
+2018-12,The Christmas Chronicles,film_series,1,0,1
+2018-12,The Orville Staffel 2,film_series,2,0,2
+2018-12,GRIS,game,2,0,2
+2018-12,Atelier Arland Trilogy Switch,game,1,0,1
+2018-12,Tatortreiniger,film_series,2,0,2
+2018-12,Vikings Staffel 5,film_series,1,0,1
 2019-02,Ted Bundy – Portrait eines Serienmörders,film_series,1,1,0
 2019-02,Anthem,game,3,3,0
 2019-02,Far Cry - New Dawn,game,2,2,0
@@ -1087,7 +1218,7 @@ month,item_title,category,count,editor_count,user_count
 2020-11,Markarth,game,1,1,0
 2020-11,The Elder Scrolls Online,game,1,1,0
 2020-11,Days Gone,game,1,1,0
-2020-11,Detroit - Become Human,game,1,1,0
+2020-11,Detroit: Become Human,game,1,1,0
 2020-11,Resident Evil 7,game,1,1,0
 2020-11,WoW: Shadowlands,misc,1,1,0
 2020-11,WoW-Classic,misc,1,1,0
