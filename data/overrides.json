@@ -88,7 +88,8 @@
       "TLou2",
       "The Last of Us: Part II",
       "The Last of Us - Part 2",
-      "The Last of Us - Part II"
+      "The Last of Us - Part II",
+      "The Last of Us Part 2"
     ],
     "Microsoft Flight Simulator": [
       "Flight Simulator",
@@ -370,6 +371,44 @@
       "Star Trek TNG",
       "Star Trek - The Next Generation",
       "Star Trek: TNG"
+    ],
+    "Dune: Part Two": [
+      "Dune Part 2",
+      "Dune - Part 2"
+    ],
+    "Star Wars Jedi: Survivor": [
+      "Jedi Survivor"
+    ],
+    "Persona 3 FES": [
+      "Persona 3: FES"
+    ],
+    "Armored Core VI: Fires of Rubicon": [
+      "Armored Core 6 - Fires of Rubicon",
+      "Armored Core 6"
+    ],
+    "Tactics Ogre: Reborn": [
+      "Tactics Ogre Reborn"
+    ],
+    "Like a Dragon: Pirate Yakuza in Hawaii": [
+      "Like a Dragon - Pirate Yakuza of Hawaii",
+      "Pirate Yakuza in Hawaii"
+    ],
+    "Vampire: The Masquerade - Swansong": [
+      "Vampire the Masquerade - Swansong"
+    ],
+    "Mario + Rabbids: Sparks of Hope": [
+      "Mario + Rabbids Sparks of Hope"
+    ],
+    "LEGO Star Wars: Die Skywalker Saga": [
+      "Lego Star Wars: Die Skywalker Saga",
+      "Lego Star Wars - The Skywalker Saga"
+    ],
+    "Dune Spice Wars": [
+      "Dune - Spice Wars"
+    ],
+    "Call of Duty: Vanguard": [
+      "Call of Duty Vanguard",
+      "Call of Duty - Vanguard"
     ]
   },
   "categories": {
@@ -755,6 +794,15 @@
     "Andor Staffel 2": "film_series",
     "Tron: Ares": "film_series",
     "Spider-Man Noir": "film_series",
-    "Star Trek: The Next Generation": "film_series"
+    "Star Trek: The Next Generation": "film_series",
+    "Persona 3 FES": "game",
+    "Armored Core VI: Fires of Rubicon": "game",
+    "Tactics Ogre: Reborn": "game",
+    "Like a Dragon: Pirate Yakuza in Hawaii": "game",
+    "Vampire: The Masquerade - Swansong": "game",
+    "Mario + Rabbids: Sparks of Hope": "game",
+    "LEGO Star Wars: Die Skywalker Saga": "game",
+    "Dune Spice Wars": "game",
+    "Call of Duty: Vanguard": "game"
   }
 }

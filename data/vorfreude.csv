@@ -1096,7 +1096,7 @@ month,item_title,category,count,editor_count,user_count
 2020-05,Final Space,film_series,1,1,0
 2020-05,Bosch,film_series,3,2,1
 2020-05,Star Wars Resistance,film_series,1,1,0
-2020-05,The Last of Us 2,game,1,1,0
+2020-05,The Last of Us 2,game,2,2,0
 2020-05,Maneater,misc,2,2,0
 2020-05,The Wonderful 101 Remastered,misc,1,1,0
 2020-05,Call of Duty - Modern Warfare,game,1,1,0
@@ -1120,7 +1120,6 @@ month,item_title,category,count,editor_count,user_count
 2020-05,Xenoblade Chronicles,game,3,1,2
 2020-05,Oculus,film_series,1,1,0
 2020-05,The Vvitch,film_series,1,1,0
-2020-05,The Last of Us Part 2,game,1,1,0
 2020-05,Song of Horror,game,1,1,0
 2020-05,The Persistance,game,1,1,0
 2020-05,Unorthodox,film_series,1,0,1
@@ -2092,7 +2091,7 @@ month,item_title,category,count,editor_count,user_count
 2021-11,Fargo,film_series,1,1,0
 2021-11,No Time to Die,film_series,2,1,1
 2021-11,Daniel Craig,film_series,2,2,0
-2021-11,Call of Duty Vanguard,game,1,1,0
+2021-11,Call of Duty: Vanguard,game,3,3,0
 2021-11,Dark Souls 2,game,1,1,0
 2021-11,Studio-Doku,misc,1,1,0
 2021-11,Eternals,film_series,2,2,0
@@ -2103,7 +2102,6 @@ month,item_title,category,count,editor_count,user_count
 2021-11,Forza Horizon 5,game,6,2,4
 2021-11,Yakuza: Like a Dragon,game,1,1,0
 2021-11,Guardians of the Galaxy,film_series,1,1,0
-2021-11,Call of Duty - Vanguard,game,2,2,0
 2021-11,Bond,film_series,2,2,0
 2021-11,Sense8,film_series,1,1,0
 2021-11,Sex Education,film_series,1,1,0
@@ -2405,7 +2403,7 @@ month,item_title,category,count,editor_count,user_count
 2022-04,Keanu Reeves,film_series,1,1,0
 2022-04,Bill und Ted,film_series,1,1,0
 2022-04,Matrix,film_series,1,1,0
-2022-04,Lego Star Wars: Die Skywalker Saga,game,2,1,1
+2022-04,LEGO Star Wars: Die Skywalker Saga,game,3,2,1
 2022-04,E3 2019,game,1,1,0
 2022-04,MotoGP 22,game,1,1,0
 2022-04,Road 96,game,1,1,0
@@ -2436,7 +2434,6 @@ month,item_title,category,count,editor_count,user_count
 2022-04,Kirby,game,1,1,0
 2022-04,Chrono Cross: The Radical Dreamers Edition,game,5,1,4
 2022-04,Obi-Wan Kenobi,film_series,1,1,0
-2022-04,Lego Star Wars - The Skywalker Saga,game,1,1,0
 2022-04,Bernard Cornwell,film_series,1,1,0
 2022-04,The Saxon Stories,film_series,1,1,0
 2022-04,Better Call Saul Staffel 6,film_series,4,0,4
@@ -2455,7 +2452,7 @@ month,item_title,category,count,editor_count,user_count
 2022-05,Breaking Bad,film_series,2,2,0
 2022-05,Halo,game,1,1,0
 2022-05,Stranger Things 4,game,1,1,0
-2022-05,Dune - Spice Wars,game,1,1,0
+2022-05,Dune Spice Wars,game,1,1,0
 2022-05,Trek to Yomi,game,2,2,0
 2022-05,Salt & Sacrifice,game,1,1,0
 2022-05,Warhammer 40K Chaos Gate Daemonhunters,game,2,2,0
@@ -2465,7 +2462,7 @@ month,item_title,category,count,editor_count,user_count
 2022-05,Star Wars,film_series,3,3,0
 2022-05,Obi-Wan Kenobi,film_series,7,4,3
 2022-05,Elden Ring,game,3,3,0
-2022-05,Lego Star Wars: Die Skywalker Saga,game,1,1,0
+2022-05,LEGO Star Wars: Die Skywalker Saga,game,1,1,0
 2022-05,Sifu,game,1,1,0
 2022-05,Sniper Elite 5,game,4,2,2
 2022-05,Angerfist,misc,1,1,0
@@ -2474,7 +2471,7 @@ month,item_title,category,count,editor_count,user_count
 2022-05,Dubioza Kolektiv,misc,1,1,0
 2022-05,Brooklyn Nine-Nine,film_series,1,1,0
 2022-05,Zombie Army,game,1,1,0
-2022-05,Vampire the Masquerade - Swansong,game,3,3,0
+2022-05,Vampire: The Masquerade - Swansong,game,4,3,1
 2022-05,Spy x Family,film_series,1,1,0
 2022-05,Dr. Strange,game,1,1,0
 2022-05,Spider-Man PS4,game,1,1,0
@@ -2532,7 +2529,6 @@ month,item_title,category,count,editor_count,user_count
 2022-05,French Open,misc,1,0,1
 2022-05,Champions League Finale,misc,1,0,1
 2022-05,Top Gun: Maverick,film_series,2,0,2
-2022-05,Vampire: The Masquerade - Swansong,game,1,0,1
 2022-05,"Love, Death & Robots Staffel 3",film_series,2,0,2
 2022-05,Star Trek: Strange New Worlds,film_series,1,0,1
 2022-05,Better Call Saul Staffel 6,film_series,1,0,1
@@ -2807,14 +2803,13 @@ month,item_title,category,count,editor_count,user_count
 2022-10,Yakuza Princess,film_series,1,1,0
 2022-10,Reminescense,film_series,1,1,0
 2022-10,Return to Monkey Island,game,5,2,3
-2022-10,Mario + Rabbids Sparks of Hope,game,1,1,0
+2022-10,Mario + Rabbids: Sparks of Hope,game,2,2,0
 2022-10,Japan-Doku,misc,1,1,0
 2022-10,Galerie+,misc,1,1,0
 2022-10,What We Do in the Shadows,film_series,1,1,0
 2022-10,Bayonetta 3,game,4,1,3
 2022-10,Potionomics,game,1,1,0
 2022-10,Recettear,game,1,1,0
-2022-10,Mario + Rabbids: Sparks of Hope,film_series,1,1,0
 2022-10,Fiebertraum,misc,1,1,0
 2022-10,George R. R. Martin,misc,1,1,0
 2022-10,Halloween Ends,film_series,4,1,3
@@ -2849,7 +2844,7 @@ month,item_title,category,count,editor_count,user_count
 2022-10,The Rookie,film_series,1,0,1
 2022-11,The Matrix - Resurrections,film_series,1,1,0
 2022-11,Peripherie,film_series,1,1,0
-2022-11,Tactics Ogre Reborn,game,1,1,0
+2022-11,Tactics Ogre: Reborn,game,3,2,1
 2022-11,Tactics Ogre – Let's cling together,game,1,1,0
 2022-11,Tactics Ogre,game,2,2,0
 2022-11,Tactics Ogre - The Knight of Lodis,game,1,1,0
@@ -2883,7 +2878,6 @@ month,item_title,category,count,editor_count,user_count
 2022-11,Alice Ruppert,game,1,1,0
 2022-11,Pokémon Scarlet,game,2,1,1
 2022-11,Violet,game,1,1,0
-2022-11,Tactics Ogre: Reborn,game,2,1,1
 2022-11,Saga,misc,1,1,0
 2022-11,Brian K. Vaughan,misc,1,1,0
 2022-11,Fiona Staples,misc,1,1,0
@@ -3143,7 +3137,7 @@ month,item_title,category,count,editor_count,user_count
 2023-04,Fauda,film_series,1,1,0
 2023-04,Wartales,game,3,2,1
 2023-04,Dead Island 2,game,6,5,1
-2023-04,Jedi Survivor,game,1,1,0
+2023-04,Star Wars Jedi: Survivor,game,6,2,4
 2023-04,Advance Wars 1+2 Re-Boot-Camp,game,1,1,0
 2023-04,"Japan-Doku, Folge 5",misc,1,1,0
 2023-04,Die Redaktion 2022/2023,misc,1,1,0
@@ -3164,7 +3158,6 @@ month,item_title,category,count,editor_count,user_count
 2023-04,Super Mario,film_series,1,1,0
 2023-04,GhostWire: Tokyo,game,1,1,0
 2023-04,Homefront - The Revolution,game,1,1,0
-2023-04,Star Wars Jedi: Survivor,game,5,1,4
 2023-04,Star Trek: Lower Decks,film_series,1,1,0
 2023-04,Marvelous Mrs. Maisel,film_series,1,1,0
 2023-04,Advance Wars 1+2 Re-Boot Camp,game,1,1,0
@@ -3397,7 +3390,7 @@ month,item_title,category,count,editor_count,user_count
 2023-08,Die letzte Fahrt der Demeter,film_series,1,1,0
 2023-08,Bram Stokers,film_series,1,1,0
 2023-08,Divinity: Original Sin 2,game,1,1,0
-2023-08,Armored Core 6 - Fires of Rubicon,game,2,2,0
+2023-08,Armored Core VI: Fires of Rubicon,game,3,2,1
 2023-08,Battletech,game,1,1,0
 2023-08,Wolfstride,game,1,1,0
 2023-08,En Garde! –,game,1,1,0
@@ -3439,7 +3432,6 @@ month,item_title,category,count,editor_count,user_count
 2023-08,US Open,misc,1,0,1
 2023-08,Special Ops: Lioness,film_series,1,0,1
 2023-08,Hanabie Konzert,misc,1,0,1
-2023-08,Armored Core VI: Fires of Rubicon,game,1,0,1
 2023-08,Marvel's Midnight Suns,game,1,0,1
 2023-08,The Legend of Zelda: Tears of the Kingdom,game,1,0,1
 2023-08,A Plague Tale: Requiem,game,1,0,1
@@ -3693,7 +3685,7 @@ month,item_title,category,count,editor_count,user_count
 2023-12,Shadow Gambit: The Cursed Crew,game,1,0,1
 2023-12,Like a Dragon Gaiden: The Man Who Erased His Name,game,1,0,1
 2024-02,Curb Your Enthusiasm,film_series,2,1,1
-2024-02,Dune Part 2,film_series,1,1,0
+2024-02,Dune: Part Two,film_series,8,1,7
 2024-02,Shogun,film_series,4,2,2
 2024-02,Battletech Extended,game,1,1,0
 2024-02,Persona 3 Reload,game,3,3,0
@@ -3748,7 +3740,6 @@ month,item_title,category,count,editor_count,user_count
 2024-02,Suicide Squad - Kill the Justice Leagu,game,1,1,0
 2024-02,Winnie-the-Pooh: Blood and Honey 2,film_series,1,0,1
 2024-02,The Holdovers,film_series,1,0,1
-2024-02,Dune: Part Two,film_series,7,0,7
 2024-02,Halo,game,2,0,2
 2024-02,Star Trek: Strange New Worlds,film_series,1,0,1
 2024-02,Fargo,film_series,1,0,1
@@ -3765,7 +3756,7 @@ month,item_title,category,count,editor_count,user_count
 2024-02,Tekken 8,game,1,0,1
 2024-02,Hogwarts Legacy,game,1,0,1
 2024-03,Shogun,film_series,2,1,1
-2024-03,Dune - Part 2,film_series,1,1,0
+2024-03,Dune: Part Two,film_series,11,1,10
 2024-03,Donny Darko,film_series,1,1,0
 2024-03,Mad World,film_series,1,1,0
 2024-03,Battletech Extended,game,1,1,0
@@ -3800,7 +3791,6 @@ month,item_title,category,count,editor_count,user_count
 2024-03,Providence,misc,1,1,0
 2024-03,Void Rivals,misc,1,1,0
 2024-03,The Bear,film_series,1,1,0
-2024-03,Dune: Part Two,film_series,10,0,10
 2024-03,Anno 1800,game,1,0,1
 2024-03,Cyberpunk 2077: Phantom Liberty,game,1,0,1
 2024-03,The Zone of Interest,film_series,1,0,1
@@ -4167,7 +4157,7 @@ month,item_title,category,count,editor_count,user_count
 2024-10,"In Liebe, Eure Hilde",film_series,1,0,1
 2024-10,ATP Tennis,misc,1,0,1
 2024-10,The Crimson Diamond,game,1,0,1
-2024-10,Persona 3: FES,game,1,0,1
+2024-10,Persona 3 FES,game,1,0,1
 2024-11,Hagen,film_series,1,1,0
 2024-11,"Der Pass, Staffel 3",film_series,1,1,0
 2024-11,Dragon Age: The Veilguard,game,2,1,1
@@ -4304,7 +4294,7 @@ month,item_title,category,count,editor_count,user_count
 2024-12,Der Herr der Ringe,film_series,1,0,1
 2024-12,The Bazaar,game,1,0,1
 2024-12,Star Wars: Outlaws,game,1,0,1
-2024-12,Persona 3: FES,game,1,0,1
+2024-12,Persona 3 FES,game,1,0,1
 2024-12,Der Pass,film_series,1,0,1
 2025-02,Asura,film_series,1,1,0
 2025-02,Severance,film_series,4,2,2
@@ -4316,7 +4306,7 @@ month,item_title,category,count,editor_count,user_count
 2025-02,Like A Dragon,game,1,1,0
 2025-02,What We Do in the Shadows,film_series,2,2,0
 2025-02,Fallout,game,2,2,0
-2025-02,Like a Dragon - Pirate Yakuza of Hawaii,game,1,1,0
+2025-02,Like a Dragon: Pirate Yakuza in Hawaii,game,3,1,2
 2025-02,Urban Myth Dissolution Center,game,1,1,0
 2025-02,Vermis,misc,1,1,0
 2025-02,Der Spitzname,film_series,1,1,0
@@ -4355,7 +4345,6 @@ month,item_title,category,count,editor_count,user_count
 2025-02,Dark Matter,film_series,1,0,1
 2025-02,The Brutalist,film_series,1,0,1
 2025-02,Indiana Jones und der Große Kreis,game,2,0,2
-2025-02,Like a Dragon: Pirate Yakuza in Hawaii,game,2,0,2
 2025-02,Paprika,film_series,1,0,1
 2025-02,Perfect Blue,film_series,1,0,1
 2025-02,Millennium Actress,film_series,1,0,1
@@ -4391,7 +4380,7 @@ month,item_title,category,count,editor_count,user_count
 2025-03,The Beginner's Guide,game,1,1,0
 2025-03,Bad Assumption,misc,1,1,0
 2025-03,Like a Dragon: Infinite Wealth,misc,1,1,0
-2025-03,Pirate Yakuza in Hawaii,game,1,1,0
+2025-03,Like a Dragon: Pirate Yakuza in Hawaii,game,1,1,0
 2025-03,Young Sheldon,film_series,1,1,0
 2025-03,The Big Bang Theory,film_series,1,1,0
 2025-03,Roboforce,film_series,1,1,0
@@ -4871,7 +4860,7 @@ month,item_title,category,count,editor_count,user_count
 2025-10,Liam Hemsworth,film_series,1,1,0
 2025-10,Resident Alien,film_series,1,1,0
 2025-10,Final Fantasy Tactics,game,2,1,1
-2025-10,Tactics Ogre Reborn,game,1,1,0
+2025-10,Tactics Ogre: Reborn,game,1,1,0
 2025-10,Battle Brothers,game,1,1,0
 2025-10,Menace,game,1,1,0
 2025-10,Battletech Extended,misc,1,1,0
