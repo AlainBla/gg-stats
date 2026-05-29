@@ -209,7 +209,8 @@
       "No Time To Die"
     ],
     "Star Wars: Andor": [
-      "Star Wars Andor"
+      "Star Wars Andor",
+      "Andor"
     ],
     "Star Wars: Outlaws": [
       "Star Wars Outlaws"
@@ -425,6 +426,17 @@
     ],
     "Cyberpunk 2077": [
       "2077"
+    ],
+    "John Wick: Chapter 4": [
+      "John Wick 4"
+    ],
+    "The Legend of Zelda: Skyward Sword HD": [
+      "Zelda: Skyward Sword HD",
+      "The Legend of Zelda - Skyward Sword HD",
+      "Zelda - Skyward Sword HD"
+    ],
+    "Advance Wars 1+2 Re-Boot Camp": [
+      "Advance Wars 1+2 Re-Boot-Camp"
     ]
   },
   "categories": {
@@ -819,6 +831,9 @@
     "Mario + Rabbids: Sparks of Hope": "game",
     "LEGO Star Wars: Die Skywalker Saga": "game",
     "Dune Spice Wars": "game",
-    "Call of Duty: Vanguard": "game"
+    "Call of Duty: Vanguard": "game",
+    "John Wick: Chapter 4": "film_series",
+    "The Legend of Zelda: Skyward Sword HD": "game",
+    "Advance Wars 1+2 Re-Boot Camp": "game"
   }
 }

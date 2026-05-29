@@ -1891,7 +1891,7 @@ month,item_title,category,count,editor_count,user_count
 2021-07,World of Warcraft: Shadowlands,game,1,1,0
 2021-07,Roadrunner - A Film About Anthony Bourdain,film_series,1,1,0
 2021-07,No Reservation,game,1,1,0
-2021-07,The Legend of Zelda - Skyward Sword HD,game,1,1,0
+2021-07,The Legend of Zelda: Skyward Sword HD,game,3,1,2
 2021-07,The Corner: A Year in the Life of an Inner-City Neighborhood,misc,1,1,0
 2021-07,David Simon,misc,1,1,0
 2021-07,Edward Burns,misc,1,1,0
@@ -1902,7 +1902,6 @@ month,item_title,category,count,editor_count,user_count
 2021-07,Godzilla vs. Kong,film_series,1,0,1
 2021-07,Judas and the Black Messiah,film_series,1,0,1
 2021-07,The Great Ace Attorney Chronicles,game,1,0,1
-2021-07,Zelda: Skyward Sword HD,game,2,0,2
 2021-07,How to Sell Drugs Online (Fast) Staffel 3,film_series,1,0,1
 2021-07,Microsoft Flight Simulator Xbox,game,2,0,2
 2021-07,The Ascent,game,3,0,3
@@ -2700,7 +2699,7 @@ month,item_title,category,count,editor_count,user_count
 2022-08,The Boys,film_series,1,1,0
 2022-08,Game of Thrones: House of the Dragon,film_series,1,1,0
 2022-08,She-Hulk,film_series,1,1,0
-2022-08,Andor,film_series,1,1,0
+2022-08,Star Wars: Andor,film_series,1,1,0
 2022-08,Tony Hawk’s Pro Skater 1+2,game,1,1,0
 2022-08,Hospital,game,1,1,0
 2022-08,Farthest Frontier,game,1,1,0
@@ -2772,7 +2771,7 @@ month,item_title,category,count,editor_count,user_count
 2022-09,Matt Smith,film_series,1,1,0
 2022-09,Thor: Love and Thunder,film_series,1,1,0
 2022-09,The Handmaid’s Tale,film_series,1,1,0
-2022-09,Andor,film_series,1,1,0
+2022-09,Star Wars: Andor,film_series,6,1,5
 2022-09,Rogue One,film_series,1,1,0
 2022-09,Star Wars,film_series,1,1,0
 2022-09,The Last of Us,game,1,1,0
@@ -2780,7 +2779,6 @@ month,item_title,category,count,editor_count,user_count
 2022-09,The DioField Chronicle,game,1,1,0
 2022-09,The Sandman Box Set,misc,1,1,0
 2022-09,Druss: The Legend,misc,1,1,0
-2022-09,Star Wars: Andor,film_series,5,0,5
 2022-09,Counting Crows Konzert,misc,1,0,1
 2022-09,Red Dead Redemption 2,game,1,0,1
 2022-09,The Legend of Heroes: Trails from Zero,game,1,0,1
@@ -3062,7 +3060,7 @@ month,item_title,category,count,editor_count,user_count
 2023-03,The Last of Us,film_series,2,2,0
 2023-03,Aggretsuko,film_series,2,2,0
 2023-03,Fauda,film_series,1,1,0
-2023-03,John Wick 4,film_series,1,1,0
+2023-03,John Wick: Chapter 4,film_series,2,1,1
 2023-03,Master of Magic Remake,game,1,1,0
 2023-03,The Great War: Western Front,game,4,3,1
 2023-03,System Shock,game,3,3,0
@@ -3120,7 +3118,6 @@ month,item_title,category,count,editor_count,user_count
 2023-03,Resident Evil 4 Remake,game,6,0,6
 2023-03,System Shock Remake,game,7,0,7
 2023-03,Ant-Man and the Wasp: Quantumania,film_series,1,0,1
-2023-03,John Wick: Chapter 4,film_series,1,0,1
 2023-03,Star Trek: Picard Staffel 3,film_series,3,0,3
 2023-03,Ted Lasso Staffel 3,film_series,1,0,1
 2023-03,Scream 6,film_series,1,0,1
@@ -3135,14 +3132,14 @@ month,item_title,category,count,editor_count,user_count
 2023-04,Wartales,game,3,2,1
 2023-04,Dead Island 2,game,6,5,1
 2023-04,Star Wars Jedi: Survivor,game,6,2,4
-2023-04,Advance Wars 1+2 Re-Boot-Camp,game,1,1,0
+2023-04,Advance Wars 1+2 Re-Boot Camp,game,2,2,0
 2023-04,"Japan-Doku, Folge 5",misc,1,1,0
 2023-04,Die Redaktion 2022/2023,misc,1,1,0
 2023-04,Hell's Kitchen,film_series,1,1,0
 2023-04,Gordon Ramsay,film_series,1,1,0
 2023-04,Der Schwarm,film_series,1,1,0
 2023-04,Everspace 2,game,4,2,2
-2023-04,John Wick 4,film_series,1,1,0
+2023-04,John Wick: Chapter 4,film_series,2,1,1
 2023-04,Sherlock Holmes and the Awakended,game,1,1,0
 2023-04,H.P. Lovecraft,game,1,1,0
 2023-04,Signalis,game,1,1,0
@@ -3157,7 +3154,6 @@ month,item_title,category,count,editor_count,user_count
 2023-04,Homefront - The Revolution,game,1,1,0
 2023-04,Star Trek: Lower Decks,film_series,1,1,0
 2023-04,Marvelous Mrs. Maisel,film_series,1,1,0
-2023-04,Advance Wars 1+2 Re-Boot Camp,game,1,1,0
 2023-04,Burning Shores,game,1,1,0
 2023-04,Horizon Forbidden West,game,1,1,0
 2023-04,Three Kingdoms Zhao Yun,game,1,1,0
@@ -3189,7 +3185,6 @@ month,item_title,category,count,editor_count,user_count
 2023-04,Joel Edgerton,film_series,1,1,0
 2023-04,Star Wars Jedi - Survivor.,game,1,1,0
 2023-04,Horizon Forbidden West: Burning Shores,game,2,1,1
-2023-04,John Wick: Chapter 4,film_series,1,0,1
 2023-04,Dungeons & Dragons: Honor Among Thieves,film_series,1,0,1
 2023-04,Suzume,film_series,3,0,3
 2023-04,Ted Lasso Staffel 3,film_series,1,0,1
@@ -4479,7 +4474,7 @@ month,item_title,category,count,editor_count,user_count
 2025-04,Die Tagebücher der Apothekerin,film_series,1,1,0
 2025-04,Dr. Who,film_series,1,1,0
 2025-04,Ncuti Gatwa,film_series,1,1,0
-2025-04,Andor,film_series,1,1,0
+2025-04,Star Wars: Andor,film_series,1,1,0
 2025-04,Xenoblade Chronicles X,game,1,1,0
 2025-04,Definitive Edition,game,1,1,0
 2025-04,The Hundred Line - Last Defense Academy,game,1,1,0
