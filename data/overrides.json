@@ -120,6 +120,38 @@
     "Crusader Kings III": [
       "CK3",
       "Crusader Kings 3"
+    ],
+    "Grand Theft Auto VI": [
+      "GTA VI",
+      "GTA 6"
+    ],
+    "Grand Theft Auto V": [
+      "GTA V",
+      "GTA 5",
+      "GTA Online"
+    ],
+    "Grand Theft Auto: San Andreas": [
+      "GTA San Andreas",
+      "GTA: San Andreas"
+    ],
+    "Grand Theft Auto III": [
+      "GTA 3",
+      "GTA III"
+    ],
+    "Grand Theft Auto: Vice City": [
+      "GTA Vice City",
+      "GTA: Vice City"
+    ],
+    "Grand Theft Auto IV": [
+      "GTA IV",
+      "GTA 4"
+    ],
+    "Grand Theft Auto: The Trilogy": [
+      "GTA Trilogy",
+      "GTA: The Trilogy",
+      "GTA-Trilogy",
+      "GTA: The Trilogy – The Definitive Edition",
+      "Grand Theft Auto Trilogy"
     ]
   },
   "categories": {
@@ -193,6 +225,15 @@
     "I'm Thinking of Ending Things": "film_series",
     "Fairy Tail": "film_series",
     "Der Fall Richard Jewell": "film_series",
-    "Star Wars: The Clone Wars": "film_series"
+    "Star Wars: The Clone Wars": "film_series",
+    "Grand Theft Auto VI": "game",
+    "Grand Theft Auto V": "game",
+    "Grand Theft Auto: San Andreas": "game",
+    "Grand Theft Auto III": "game",
+    "Grand Theft Auto: Vice City": "game",
+    "Grand Theft Auto IV": "game",
+    "Grand Theft Auto: The Trilogy": "game",
+    "Doom": "game",
+    "Doom Eternal": "game"
   }
 }
