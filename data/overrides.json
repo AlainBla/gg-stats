@@ -177,6 +177,127 @@
     "Star Trek: Picard": [
       "Picard",
       "Star Trek - Picard"
+    ],
+    "The Witcher": [
+      "Witcher"
+    ],
+    "God of War: Ragnarök": [
+      "God of War Ragnarök"
+    ],
+    "Horizon Forbidden West": [
+      "Horizon - Forbidden West"
+    ],
+    "The Mandalorian": [
+      "Mandalorian"
+    ],
+    "Indiana Jones und der Große Kreis": [
+      "Indiana Jones und der große Kreis",
+      "Indiana Jones and the Great Circle"
+    ],
+    "Kingdom Come: Deliverance 2": [
+      "Kingdom Come Deliverance 2"
+    ],
+    "Kingdom Come: Deliverance": [
+      "Kingdom Come Deliverance"
+    ],
+    "No Time to Die": [
+      "No Time To Die"
+    ],
+    "Star Wars: Andor": [
+      "Star Wars Andor"
+    ],
+    "Star Wars: Outlaws": [
+      "Star Wars Outlaws"
+    ],
+    "Star Wars": [
+      "Star Wars-"
+    ],
+    "Assassin's Creed Shadows": [
+      "Assassin's Creed - Shadows"
+    ],
+    "Assassin's Creed: Valhalla": [
+      "Assassin's Creed Valhalla"
+    ],
+    "Assassin's Creed: Odyssey": [
+      "Assassin's Creed Odyssey"
+    ],
+    "Avengers: Endgame": [
+      "Avengers Endgame"
+    ],
+    "What We Do in the Shadows": [
+      "What We Do In The Shadows",
+      "What we do in the Shadows"
+    ],
+    "The Book of Boba Fett": [
+      "Book of Boba Fett"
+    ],
+    "Mafia: The Old Country": [
+      "Mafia - The Old Country"
+    ],
+    "Obi-Wan Kenobi": [
+      "Obi Wan Kenobi",
+      "Obi-Wan"
+    ],
+    "The Expanse": [
+      "Expanse"
+    ],
+    "Once Upon a Time in Hollywood": [
+      "Once Upon A Time In Hollywood"
+    ],
+    "Alien: Earth": [
+      "Alien Earth"
+    ],
+    "Alien: Romulus": [
+      "Alien Romulus"
+    ],
+    "Das Rad der Zeit": [
+      "Rad der Zeit"
+    ],
+    "For All Mankind": [
+      "For all Mankind"
+    ],
+    "NieR Replicant": [
+      "Nier Replicant",
+      "Nier: Replicant"
+    ],
+    "The Last Kingdom": [
+      "Last Kingdom"
+    ],
+    "Monster Hunter World": [
+      "Monster Hunter - World"
+    ],
+    "The Callisto Protocol": [
+      "Callisto Protocol"
+    ],
+    "Age of Mythology: Retold": [
+      "Age of Mythology Retold"
+    ],
+    "Dune: Prophecy": [
+      "Dune Prophecy"
+    ],
+    "Die Sopranos": [
+      "Sopranos"
+    ],
+    "The Batman": [
+      "Batman"
+    ],
+    "Life is Strange 2": [
+      "Life Is Strange 2"
+    ],
+    "Breaking Bad": [
+      "Breaking Bad-"
+    ],
+    "John Wick": [
+      "John Wick-"
+    ],
+    "Only Murders in the Building": [
+      "Only Murders In The Building"
+    ],
+    "Tell Me Why": [
+      "Tell me Why"
+    ],
+    "Orange is the New Black": [
+      "Orange is the new Black"
     ]
   },
   "categories": {
@@ -280,13 +401,48 @@
     "Legion": "film_series",
     "Borgen": "film_series",
     "Im Westen nichts Neues": "film_series",
-    "For all Mankind": "film_series",
     "Return to Monkey Island": "game",
     "Pentiment": "game",
     "Attack on Titan": "film_series",
     "Better Call Saul": "film_series",
     "The Nevers": "film_series",
     "The Orville": "film_series",
-    "Days Gone": "game"
+    "Days Gone": "game",
+    "Obi-Wan Kenobi": "film_series",
+    "Das Rad der Zeit": "film_series",
+    "The Last Kingdom": "film_series",
+    "For All Mankind": "film_series",
+    "Once Upon a Time in Hollywood": "film_series",
+    "No Time to Die": "film_series",
+    "The Batman": "film_series",
+    "Die Sopranos": "film_series",
+    "Alien: Earth": "film_series",
+    "Alien: Romulus": "film_series",
+    "Dune: Prophecy": "film_series",
+    "The Book of Boba Fett": "film_series",
+    "What We Do in the Shadows": "film_series",
+    "The Mandalorian": "film_series",
+    "Star Wars: Andor": "film_series",
+    "The Expanse": "film_series",
+    "Only Murders in the Building": "film_series",
+    "Breaking Bad": "film_series",
+    "John Wick": "film_series",
+    "God of War: Ragnarök": "game",
+    "Horizon Forbidden West": "game",
+    "Indiana Jones und der Große Kreis": "game",
+    "Kingdom Come: Deliverance 2": "game",
+    "Kingdom Come: Deliverance": "game",
+    "Star Wars: Outlaws": "game",
+    "Assassin's Creed Shadows": "game",
+    "Assassin's Creed: Valhalla": "game",
+    "Assassin's Creed: Odyssey": "game",
+    "Avengers: Endgame": "film_series",
+    "The Witcher": "film_series",
+    "Mafia: The Old Country": "game",
+    "NieR Replicant": "game",
+    "Monster Hunter World": "game",
+    "The Callisto Protocol": "game",
+    "Age of Mythology: Retold": "game",
+    "Life is Strange 2": "game"
   }
 }
