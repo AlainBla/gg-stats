@@ -995,6 +995,7 @@ month,item_title,category,count,editor_count,user_count
 2020-02,Tokyo Mirage #FE Encore,game,1,0,1
 2020-02,Yakuza 3,game,1,0,1
 2020-02,Civilization VI Switch,game,1,0,1
+2020-02,Die drei Sonnen,misc,1,0,1
 2020-03,Altered Carbon,film_series,1,1,0
 2020-03,Warhammer Total War,game,1,1,0
 2020-03,Alyx,game,2,2,0
@@ -1290,6 +1291,8 @@ month,item_title,category,count,editor_count,user_count
 2020-08,FIFA 20,game,1,0,1
 2020-08,Battle Brothers,game,1,0,1
 2020-08,Battle Brothers: Blazing Deserts,game,1,0,1
+2020-08,The Legend of Zelda: A Link to the Past,game,1,0,1
+2020-08,Devil Survivor: Overclocked,game,1,0,1
 2020-09,Wasteland 3,game,7,1,6
 2020-09,Battle Brothers,game,1,1,0
 2020-09,Blazing Deserts,game,1,1,0
@@ -1644,6 +1647,7 @@ month,item_title,category,count,editor_count,user_count
 2021-03,Mafia: Definitive Edition,game,1,0,1
 2021-03,Twin Mirror,game,1,0,1
 2021-03,Cyber Shadow,game,1,0,1
+2021-03,To the Moon,game,1,0,1
 2021-04,Snowpiercer,film_series,1,1,0
 2021-04,Nier,game,2,2,0
 2021-04,NieR Replicant,game,3,2,1
@@ -1793,6 +1797,9 @@ month,item_title,category,count,editor_count,user_count
 2021-05,Shin Megami Tensei III: Nocturne HD Remaster,game,2,0,2
 2021-05,Mythic Quest Staffel 2,film_series,1,0,1
 2021-05,City on a Hill neue Staffel,film_series,1,0,1
+2021-05,Solasta: Crown of the Magister,game,1,0,1
+2021-05,Shadow and Bones,film_series,1,0,1
+2021-05,The Nevers,film_series,1,0,1
 2021-06,Berserk,film_series,1,1,0
 2021-06,Oxygen,film_series,1,1,0
 2021-06,Followers,film_series,1,1,0
@@ -2084,7 +2091,7 @@ month,item_title,category,count,editor_count,user_count
 2021-10,Deadly Premonition,game,1,1,0
 2021-10,Prodigy,film_series,1,1,0
 2021-10,Star Trek,film_series,1,1,0
-2021-10,Lower Decks,film_series,1,1,0
+2021-10,Star Trek: Lower Decks,film_series,1,1,0
 2021-10,Legends of Tomorrow,film_series,1,1,0
 2021-10,Prime,game,1,1,0
 2021-10,Age of Empire 4,game,1,1,0
@@ -2350,7 +2357,7 @@ month,item_title,category,count,editor_count,user_count
 2022-03,Bill Murray,film_series,1,1,0
 2022-03,The Batman,film_series,3,1,2
 2022-03,Outlander,film_series,1,1,0
-2022-03,Picard,film_series,1,1,0
+2022-03,Star Trek: Picard,film_series,1,1,0
 2022-03,Halo,film_series,1,1,0
 2022-03,Forbidden West,game,1,1,0
 2022-03,Gran Tourismo 7,game,1,1,0
@@ -2507,7 +2514,7 @@ month,item_title,category,count,editor_count,user_count
 2022-05,Doctor Strange in the Multiverse of Madness,film_series,5,2,3
 2022-05,Orville,film_series,1,1,0
 2022-05,Star Trek,film_series,1,1,0
-2022-05,Lower Decks,film_series,1,1,0
+2022-05,Star Trek: Lower Decks,film_series,1,1,0
 2022-05,Forspoken,game,1,1,0
 2022-05,Kurosawa,game,1,1,0
 2022-05,Die sieben Samurai,game,1,1,0
@@ -2762,7 +2769,7 @@ month,item_title,category,count,editor_count,user_count
 2022-09,Sandman,film_series,1,1,0
 2022-09,House of the Dragon,film_series,3,1,2
 2022-09,Yakuza Princess,film_series,1,1,0
-2022-09,Ringe der Macht,film_series,1,1,0
+2022-09,Der Herr der Ringe: Die Ringe der Macht,film_series,11,2,9
 2022-09,Immortality,game,2,1,1
 2022-09,Advance Wars,game,1,1,0
 2022-09,Sim City 2000,game,1,1,0
@@ -2772,13 +2779,12 @@ month,item_title,category,count,editor_count,user_count
 2022-09,Jojo's Bizarre Adventures Stone Ocean,film_series,1,1,0
 2022-09,Meine Wiedergeburt als Schleim in einer anderen Welt,film_series,1,1,0
 2022-09,Guglhupfgeschwader,film_series,1,1,0
-2022-09,Steelrising,game,3,3,0
+2022-09,Steelrising,game,4,3,1
 2022-09,Splatoon 3,game,1,1,0
 2022-09,Metal - Hellsinger,game,2,2,0
 2022-09,Session,game,1,1,0
 2022-09,Herr der Ringe,film_series,1,1,0
 2022-09,Die Rückkehr des Königs,film_series,1,1,0
-2022-09,Der Herr der Ringe: Die Ringe der Macht,film_series,1,1,0
 2022-09,Im Westen nichts Neues,film_series,1,1,0
 2022-09,Erich Maria Remarques,film_series,1,1,0
 2022-09,Sam Mendes,film_series,1,1,0
@@ -2809,12 +2815,12 @@ month,item_title,category,count,editor_count,user_count
 2022-09,Druss: The Legend,misc,1,1,0
 2022-09,Star Wars: Andor,film_series,5,0,5
 2022-09,Counting Crows Konzert,misc,1,0,1
-2022-09,Herr der Ringe: Ringe der Macht,film_series,6,0,6
 2022-09,Red Dead Redemption 2,game,1,0,1
 2022-09,The Legend of Heroes: Trails from Zero,game,1,0,1
 2022-09,Cobra Kai Staffel 5,film_series,1,0,1
 2022-09,She-Hulk,film_series,2,0,2
-2022-10,Herr der Ringe: Ringe der Macht,film_series,2,1,1
+2022-09,Star Trek: Lower Decks,film_series,1,0,1
+2022-10,Der Herr der Ringe: Die Ringe der Macht,film_series,2,1,1
 2022-10,House of the Dragon,film_series,4,1,3
 2022-10,My Small Land,film_series,1,1,0
 2022-10,Drive my Car,film_series,1,1,0
@@ -3089,6 +3095,8 @@ month,item_title,category,count,editor_count,user_count
 2023-02,Dead Space Remake,game,1,0,1
 2023-02,Super Bowl,misc,1,0,1
 2023-02,Octopath Traveler II,game,1,0,1
+2023-02,Pentiment,game,1,0,1
+2023-02,Cunk on Earth,film_series,2,0,2
 2023-03,The Last of Us,film_series,2,2,0
 2023-03,Aggretsuko,film_series,2,2,0
 2023-03,Fauda,film_series,1,1,0
@@ -4041,7 +4049,7 @@ month,item_title,category,count,editor_count,user_count
 2024-08,Jamie Lee Curti,film_series,1,1,0
 2024-08,Umbrella,film_series,1,1,0
 2024-08,Academy,film_series,1,1,0
-2024-08,Ringe der Macht,film_series,1,1,0
+2024-08,Der Herr der Ringe: Die Ringe der Macht,film_series,4,1,3
 2024-08,BlackMyth -Wukong,game,1,1,0
 2024-08,VisionsofMana,game,1,1,0
 2024-08,Frederick Forsyth,misc,1,1,0
@@ -4051,7 +4059,6 @@ month,item_title,category,count,editor_count,user_count
 2024-08,Star Wars: Outlaws,game,5,1,4
 2024-08,Baldur's Gate 3,game,1,0,1
 2024-08,Nintendo World Championships,game,1,0,1
-2024-08,Herr der Ringe: Ringe der Macht,film_series,3,0,3
 2024-08,Fabledom,game,1,0,1
 2024-08,God of War: Ragnarök,game,1,0,1
 2024-08,"Warhammer 40,000: Space Marine 2",game,1,0,1
@@ -4067,7 +4074,7 @@ month,item_title,category,count,editor_count,user_count
 2024-09,Alien Romulus,film_series,1,1,0
 2024-09,Skald,game,1,1,0
 2024-09,House of the Dragon,game,3,1,2
-2024-09,Herr der Ringe: Ringe der Macht,game,6,1,5
+2024-09,Der Herr der Ringe: Die Ringe der Macht,film_series,6,1,5
 2024-09,Age of Mythology Retold,game,2,2,0
 2024-09,Space Marine 2,game,1,1,0
 2024-09,15jährigen Bestehen von GamersGlobal.de,misc,1,1,0
@@ -4128,7 +4135,7 @@ month,item_title,category,count,editor_count,user_count
 2024-09,Nobody Wants to Die,game,1,0,1
 2024-09,Gilmore Girls,film_series,1,0,1
 2024-09,Horizon: An American Saga,film_series,1,0,1
-2024-10,Ringe der Macht,film_series,1,1,0
+2024-10,Der Herr der Ringe: Die Ringe der Macht,film_series,1,1,0
 2024-10,House of the Dragon,film_series,1,1,0
 2024-10,Yakuza,film_series,1,1,0
 2024-10,Starfield: Shattered Space,game,1,1,0

@@ -38,7 +38,8 @@
       "Star Trek Discovery"
     ],
     "Star Trek: Lower Decks": [
-      "Star Trek Lower Decks"
+      "Star Trek Lower Decks",
+      "Lower Decks"
     ],
     "Final Fantasy 7 - Rebirth": [
       "Final Fantasy 7 Rebirth",
@@ -157,6 +158,25 @@
       "Der Astronaut",
       "Project Hail Mary",
       "Der Astronaut (Project Hail Mary)"
+    ],
+    "Der Herr der Ringe: Die Ringe der Macht": [
+      "Die Ringe der Macht",
+      "Ringe der Macht",
+      "Herr der Ringe: Ringe der Macht",
+      "Herr der Ringe: Die Ringe der Macht"
+    ],
+    "The Legend of Zelda: A Link to the Past": [
+      "A Link to the Past",
+      "Zelda: A Link to the Past",
+      "Zelda - A Link to the Past"
+    ],
+    "Solasta: Crown of the Magister": [
+      "Solasta - Crown of the Magister",
+      "Solasta"
+    ],
+    "Star Trek: Picard": [
+      "Picard",
+      "Star Trek - Picard"
     ]
   },
   "categories": {
@@ -240,6 +260,33 @@
     "Grand Theft Auto: The Trilogy": "game",
     "Doom": "game",
     "Doom Eternal": "game",
-    "Der Astronaut - Project Hail Mary": "film_series"
+    "Der Astronaut - Project Hail Mary": "film_series",
+    "The Legend of Zelda: A Link to the Past": "game",
+    "Devil Survivor: Overclocked": "game",
+    "Cunk on Earth": "film_series",
+    "To the Moon": "game",
+    "Shadow and Bones": "film_series",
+    "Solasta: Crown of the Magister": "game",
+    "Der Herr der Ringe: Die Ringe der Macht": "film_series",
+    "Midsommar": "film_series",
+    "Die drei Sonnen": "misc",
+    "Mein Name ist Nobody": "film_series",
+    "Doki Doki Literature Club": "game",
+    "Bioshock Infinite": "game",
+    "Peninsula": "film_series",
+    "High School Musical: The Musical: The Series": "film_series",
+    "Train to Busan": "film_series",
+    "Erased": "film_series",
+    "Legion": "film_series",
+    "Borgen": "film_series",
+    "Im Westen nichts Neues": "film_series",
+    "For all Mankind": "film_series",
+    "Return to Monkey Island": "game",
+    "Pentiment": "game",
+    "Attack on Titan": "film_series",
+    "Better Call Saul": "film_series",
+    "The Nevers": "film_series",
+    "The Orville": "film_series",
+    "Days Gone": "game"
   }
 }
