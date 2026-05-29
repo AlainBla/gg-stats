@@ -548,7 +548,7 @@ month,item_title,category,count,editor_count,user_count
 2019-03,The Expanse Staffel 3,film_series,1,0,1
 2019-03,Game of Thrones Staffel 8,film_series,1,0,1
 2019-03,Iron Sky 2,film_series,1,0,1
-2019-04,Love Death & Robots,film_series,1,1,0
+2019-04,"Love, Death & Robots",film_series,2,1,1
 2019-04,Avengers Endgame,game,1,1,0
 2019-04,Sekiro,game,1,1,0
 2019-04,Days Gone,game,7,4,3
@@ -576,7 +576,6 @@ month,item_title,category,count,editor_count,user_count
 2019-04,Anno 1800,game,4,0,4
 2019-04,Cobra Kai Staffel 2,film_series,1,0,1
 2019-04,Last Kingdom,film_series,1,0,1
-2019-04,"Love, Death + Robots",film_series,1,0,1
 2019-04,Hellboy,film_series,2,0,2
 2019-04,Bosch Staffel 5,film_series,1,0,1
 2019-05,Bosch,film_series,2,2,0
@@ -796,7 +795,7 @@ month,item_title,category,count,editor_count,user_count
 2019-10,Brad Pitt,film_series,1,1,0
 2019-10,Gemini Man,film_series,2,1,1
 2019-10,Will Smith,film_series,1,1,0
-2019-10,"Love, Death and Robots",film_series,1,1,0
+2019-10,"Love, Death & Robots",film_series,1,1,0
 2019-10,World of Warcraft Classic,game,1,1,0
 2019-10,Gears 5,game,1,1,0
 2019-10,The Surge 2,game,1,1,0
@@ -1651,7 +1650,7 @@ month,item_title,category,count,editor_count,user_count
 2021-05,Donkey Kong Country,game,1,1,0
 2021-05,Army of the Dead,film_series,2,1,1
 2021-05,Zack Snyder,film_series,1,1,0
-2021-05,"Love, Death and Robots",film_series,2,2,0
+2021-05,"Love, Death & Robots",film_series,2,2,0
 2021-05,David Fincher,film_series,1,1,0
 2021-05,Tim Miller,film_series,1,1,0
 2021-05,Billions,film_series,1,1,0
@@ -2345,6 +2344,7 @@ month,item_title,category,count,editor_count,user_count
 2022-04,The Saxon Stories,film_series,1,1,0
 2022-04,Better Call Saul Staffel 6,film_series,4,0,4
 2022-04,GhostWire: Tokyo,game,1,0,1
+2022-04,A Taxi Driver,film_series,1,0,1
 2022-04,Rammstein: Zeit,misc,1,0,1
 2022-04,Vikings Valhalla,film_series,1,0,1
 2022-04,Bridgerton Staffel 2,film_series,1,0,1
@@ -4499,6 +4499,8 @@ month,item_title,category,count,editor_count,user_count
 2025-05,Duck Detective: The Ghost of Glamping,game,1,0,1
 2025-05,Blue Prince,game,1,0,1
 2025-05,Final Fantasy 7 - Rebirth,game,1,0,1
+2025-05,Final Fantasy 1 - Pixel Remaster,game,1,0,1
+2025-05,Weak Hero Class 2,film_series,1,0,1
 2025-05,Karate Kid Legends,film_series,1,0,1
 2025-05,Blood & Sinners,film_series,1,0,1
 2025-05,Death Stranding 2,game,2,0,2
@@ -4618,6 +4620,7 @@ month,item_title,category,count,editor_count,user_count
 2025-07,Squid Game Staffel 2,film_series,2,0,2
 2025-07,Terra Invicta,game,1,0,1
 2025-07,Beef,film_series,1,0,1
+2025-07,Final Fantasy 1 - Pixel Remaster,game,1,0,1
 2025-07,Andor Staffel 2,film_series,1,0,1
 2025-07,Judas Priest Konzert,misc,1,0,1
 2025-07,F1,film_series,1,0,1

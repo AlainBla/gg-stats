@@ -47,6 +47,35 @@
       "FF7: Rebirth",
       "FF VII Rebirth",
       "FF Rebirth"
+    ],
+    "Love, Death & Robots": [
+      "Love Death & Robots",
+      "Love, Death and Robots",
+      "Love, Death + Robots"
+    ],
+    "Final Fantasy 1 - Pixel Remaster": [
+      "FF1PR",
+      "Final Fantasy 1 Pixel Remaster"
+    ],
+    "Final Fantasy 2 - Pixel Remaster": [
+      "FF2PR",
+      "Final Fantasy 2 Pixel Remaster"
+    ],
+    "Final Fantasy 3 - Pixel Remaster": [
+      "FF3PR",
+      "Final Fantasy 3 Pixel Remaster"
+    ],
+    "Final Fantasy 4 - Pixel Remaster": [
+      "FF4PR",
+      "Final Fantasy 4 Pixel Remaster"
+    ],
+    "Final Fantasy 5 - Pixel Remaster": [
+      "FF5PR",
+      "Final Fantasy 5 Pixel Remaster"
+    ],
+    "Final Fantasy 6 - Pixel Remaster": [
+      "FF6PR",
+      "Final Fantasy 6 Pixel Remaster"
     ]
   },
   "categories": {
@@ -60,6 +89,20 @@
     "Star Trek": "film_series",
     "Discovery": "film_series",
     "Strange New Worlds": "film_series",
-    "Starfleet Academy": "film_series"
+    "Starfleet Academy": "film_series",
+    "Taxi Driver": "film_series",
+    "A Taxi Driver": "film_series",
+    "Weak Hero": "film_series",
+    "Weak Hero Class 1": "film_series",
+    "Weak Hero Class 2": "film_series",
+    "Blood & Sinners": "film_series",
+    "Thunderbolts": "film_series",
+    "Love, Death & Robots": "film_series",
+    "Final Fantasy 1 - Pixel Remaster": "game",
+    "Final Fantasy 2 - Pixel Remaster": "game",
+    "Final Fantasy 3 - Pixel Remaster": "game",
+    "Final Fantasy 4 - Pixel Remaster": "game",
+    "Final Fantasy 5 - Pixel Remaster": "game",
+    "Final Fantasy 6 - Pixel Remaster": "game"
   }
 }
