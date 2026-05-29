@@ -489,12 +489,12 @@ month,item_title,category,count,editor_count,user_count
 2018-12,Tatortreiniger,film_series,2,0,2
 2018-12,Vikings Staffel 5,film_series,1,0,1
 2019-02,Ted Bundy – Portrait eines Serienmörders,film_series,1,1,0
-2019-02,Anthem,game,3,3,0
+2019-02,Anthem,game,6,3,3
 2019-02,Far Cry - New Dawn,game,2,2,0
 2019-02,Far Cry 5,game,1,1,0
 2019-02,Ghostemane,misc,1,1,0
 2019-02,Mindhunter,film_series,1,1,0
-2019-02,Metro Exodus,game,4,4,0
+2019-02,Metro Exodus,game,8,4,4
 2019-02,Pastewka,film_series,1,1,0
 2019-02,Downton Abbey,film_series,1,1,0
 2019-02,Trials Rising,game,1,1,0
@@ -503,12 +503,22 @@ month,item_title,category,count,editor_count,user_count
 2019-02,Foundation,game,1,1,0
 2019-02,Varshons 2,misc,1,1,0
 2019-02,The Lemonheads,misc,1,1,0
-2019-02,Alita: Battle Angel,film_series,1,1,0
+2019-02,Alita: Battle Angel,film_series,4,1,3
 2019-02,Neuromancer-,misc,1,1,0
 2019-02,William Gibson,misc,1,1,0
 2019-02,Star Trek Discovery,film_series,1,1,0
 2019-02,The Punisher.,film_series,1,1,0
 2019-02,Es war einmal ein Deadpool,film_series,1,1,0
+2019-02,Civilization VI: Gathering Storm,game,3,0,3
+2019-02,Wargroove,game,1,0,1
+2019-02,Star Trek: Discovery,film_series,3,0,3
+2019-02,Etrian Odyssey Nexus,game,1,0,1
+2019-02,Dirt Rally 2.0,game,1,0,1
+2019-02,Bordertown Staffel 2,film_series,1,0,1
+2019-02,True Detective Staffel 3,film_series,1,0,1
+2019-02,The Americans finale Staffel,film_series,1,0,1
+2019-02,The Orville Staffel 2,film_series,1,0,1
+2019-02,Resident Evil 2 Remake,game,1,0,1
 2019-03,Captain Marve,film_series,1,1,0
 2019-03,Iron Sky – The Coming Race,film_series,2,2,0
 2019-03,Bloodborne,game,1,1,0
@@ -518,27 +528,41 @@ month,item_title,category,count,editor_count,user_count
 2019-03,Perturbator,misc,1,1,0
 2019-03,Masters of Hardcore,misc,1,1,0
 2019-03,Formula 1: Drive to Survive,film_series,1,1,0
-2019-03,8 Tage,film_series,1,1,0
-2019-03,The Division 2,game,1,1,0
+2019-03,8 Tage,film_series,2,1,1
+2019-03,The Division 2,game,4,1,3
 2019-03,Yoshi's Crafted World,game,1,1,0
 2019-03,Erased,film_series,1,1,0
 2019-03,B: The Beginning,film_series,1,1,0
 2019-03,Die Farbe,film_series,1,1,0
 2019-03,Arkham Horror,film_series,1,1,0
 2019-03,The Sinking City,film_series,1,1,0
+2019-03,Trüberbrook,game,5,0,5
+2019-03,Baba is You,game,1,0,1
+2019-03,True Detective Staffel 3 Finale,film_series,1,0,1
+2019-03,Devil May Cry 5,game,4,0,4
+2019-03,Captain Marvel,film_series,3,0,3
+2019-03,Sekiro,game,2,0,2
+2019-03,Skifliegen in Vikersund und Planica,misc,1,0,1
+2019-03,Formel-1-Saison,misc,1,0,1
+2019-03,Vikings letzte Staffel,film_series,1,0,1
+2019-03,Anno 1800,game,1,0,1
+2019-03,Star Trek: Discovery neue Folgen,film_series,1,0,1
+2019-03,The Expanse Staffel 3,film_series,1,0,1
+2019-03,Game of Thrones Staffel 8,film_series,1,0,1
+2019-03,Iron Sky 2,film_series,1,0,1
 2019-04,Love Death & Robots,film_series,1,1,0
 2019-04,Avengers Endgame,game,1,1,0
 2019-04,Sekiro,game,1,1,0
-2019-04,Days Gone,game,4,4,0
+2019-04,Days Gone,game,7,4,3
 2019-04,Rise of the Northstar,misc,1,1,0
 2019-04,MC Fitti,misc,1,1,0
 2019-04,Friedhof der Kuscheltiere,film_series,1,1,0
 2019-04,John Lithgow,film_series,1,1,0
-2019-04,Game of Thrones,film_series,4,4,0
+2019-04,Game of Thrones,film_series,15,4,11
 2019-04,Bosch,film_series,2,2,0
 2019-04,Mortal Kombat 11,game,1,1,0
 2019-04,Trüberbrook,game,1,1,0
-2019-04,Avengers: Endgame,film_series,2,2,0
+2019-04,Avengers: Endgame,film_series,8,2,6
 2019-04,Pete Doherty,misc,1,1,0
 2019-04,Jóhann Jóhannsson,misc,1,1,0
 2019-04,Comedy Central News,film_series,1,1,0
@@ -549,6 +573,14 @@ month,item_title,category,count,editor_count,user_count
 2019-04,"Ben ""Yahtzee"" Croshaw",misc,1,1,0
 2019-04,Mogworld,misc,1,1,0
 2019-04,The Expanse,film_series,1,1,0
+2019-04,Shazam,film_series,2,0,2
+2019-04,One Punch Man Staffel 2,film_series,1,0,1
+2019-04,Anno 1800,game,4,0,4
+2019-04,Cobra Kai Staffel 2,film_series,1,0,1
+2019-04,Last Kingdom,film_series,1,0,1
+2019-04,"Love, Death + Robots",film_series,1,0,1
+2019-04,Hellboy,film_series,2,0,2
+2019-04,Bosch Staffel 5,film_series,1,0,1
 2019-05,Bosch,film_series,2,2,0
 2019-05,Black Summer,film_series,1,1,0
 2019-05,Z Nation,film_series,1,1,0
@@ -559,11 +591,11 @@ month,item_title,category,count,editor_count,user_count
 2019-05,OneOKRock,game,1,1,0
 2019-05,Gladiator,game,1,1,0
 2019-05,GDC Doku,film_series,1,1,0
-2019-05,Game of Thrones,film_series,4,4,0
-2019-05,Detektiv Pikachu,film_series,1,1,0
-2019-05,A Plague Tale - Innocence,game,3,3,0
+2019-05,Game of Thrones,film_series,7,4,3
+2019-05,Detektiv Pikachu,film_series,2,1,1
+2019-05,A Plague Tale: Innocence,game,5,3,2
 2019-05,Super Meat Boy Forever,game,2,2,0
-2019-05,Rage 2,game,4,4,0
+2019-05,Rage 2,game,8,4,4
 2019-05,Brujeria,misc,1,1,0
 2019-05,Days 'N' Daze,misc,1,1,0
 2019-05,Life in Pieces,film_series,1,1,0
@@ -579,33 +611,55 @@ month,item_title,category,count,editor_count,user_count
 2019-05,Super Smash. Bros Ultimate,game,1,1,0
 2019-05,Mario Kart 8,game,1,1,0
 2019-05,Sekiro - Shadows Die Twice,game,1,1,0
-2019-06,Dark,film_series,2,2,0
-2019-06,A Plague Tale - Innocence,game,1,1,0
-2019-06,Super Mario Maker 2,game,2,2,0
+2019-05,Life is Strange 2 Episode 3,game,2,0,2
+2019-05,John Wick 3,film_series,5,0,5
+2019-05,Godzilla: King of Monsters,film_series,3,0,3
+2019-05,Days Gone,game,1,0,1
+2019-05,Amon Amarth neues Album,misc,1,0,1
+2019-05,Rammstein neues Album,misc,1,0,1
+2019-05,Avengers: Endgame,film_series,1,0,1
+2019-05,Archer Staffel 10,film_series,1,0,1
+2019-05,Good Omens,film_series,1,0,1
+2019-05,Trails of Cold Steel 2 PS4,game,1,0,1
+2019-06,Dark,film_series,3,2,1
+2019-06,A Plague Tale: Innocence,game,2,1,1
+2019-06,Super Mario Maker 2,game,3,2,1
 2019-06,Rammstein,misc,1,1,0
 2019-06,Black Mirror,film_series,1,1,0
 2019-06,Modern Family Staffel 8,film_series,1,1,0
 2019-06,TKKG,film_series,1,1,0
 2019-06,Call of Cthulhu,game,1,1,0
 2019-06,Sherlock Holmes,game,1,1,0
-2019-06,The Sinking City,game,1,1,0
-2019-06,Judgment,game,1,1,0
+2019-06,The Sinking City,game,3,1,2
+2019-06,Judgment,game,3,1,2
 2019-06,Yakuza,game,1,1,0
 2019-06,Stranger Things,film_series,1,1,0
 2019-06,Designated Survivor,film_series,1,1,0
+2019-06,Stellaris: Ancient Relics DLC,game,1,0,1
+2019-06,Battletech: Urban Warfare DLC,game,1,0,1
+2019-06,Archer Staffel 10,film_series,2,0,2
+2019-06,Final Space Staffel 2,film_series,2,0,2
+2019-06,Jessica Jones Staffel 3,film_series,2,0,2
+2019-06,E3,misc,1,0,1
+2019-06,Trails of Cold Steel 2,game,2,0,2
+2019-06,Bloodstained: Ritual of the Night,game,1,0,1
+2019-06,Final Fantasy XIV: Shadowbringers,game,1,0,1
+2019-06,Heavy Rain PC,game,1,0,1
+2019-06,Chernobyl,film_series,1,0,1
+2019-06,How to Sell Drugs Online (Fast),film_series,1,0,1
 2019-07,Stranger Things 3,film_series,1,1,0
 2019-07,Aggretsuko,film_series,1,1,0
 2019-07,They Are Billions - Empire Campaign,game,1,1,0
 2019-07,Steel Division 2,game,1,1,0
-2019-07,Fire Emblem: Three Houses,game,2,2,0
+2019-07,Fire Emblem: Three Houses,game,4,2,2
 2019-07,Awakening,game,1,1,0
 2019-07,Fates,game,1,1,0
 2019-07,Stranger Things,film_series,3,3,0
 2019-07,Dark,film_series,2,2,0
-2019-07,Orange is the New Black,film_series,2,2,0
+2019-07,Orange is the New Black,film_series,3,2,1
 2019-07,Wolfenstein 2,game,1,1,0
 2019-07,Youngblood,game,1,1,0
-2019-07,Bloodstained - Ritual of the Night,game,1,1,0
+2019-07,Bloodstained: Ritual of the Night,game,1,1,0
 2019-07,Obscene Extreme,misc,1,1,0
 2019-07,Unravel,game,1,1,0
 2019-07,Sea of Solitude,game,1,1,0
@@ -617,6 +671,12 @@ month,item_title,category,count,editor_count,user_count
 2019-07,Matthew Mercer,game,1,1,0
 2019-07,Resident Evil 6,game,1,1,0
 2019-07,Andrzej Sapkowski,misc,1,1,0
+2019-07,Spider-Man: Far from Home,film_series,3,0,3
+2019-07,König der Löwen,film_series,1,0,1
+2019-07,Stranger Things Staffel 3,film_series,4,0,4
+2019-07,Final Fantasy XIV: Shadowbringers,game,1,0,1
+2019-07,Haus des Geldes Staffel 3,film_series,1,0,1
+2019-07,Chernobyl,film_series,1,0,1
 2019-08,Dark,film_series,1,1,0
 2019-08,Another Life,film_series,1,1,0
 2019-08,Katee Sackhoff,game,1,1,0
@@ -628,7 +688,7 @@ month,item_title,category,count,editor_count,user_count
 2019-08,Tarantino,film_series,2,2,0
 2019-08,Leberkäsjunkie,film_series,1,1,0
 2019-08,Quantum Break,game,1,1,0
-2019-08,Control,game,4,4,0
+2019-08,Control,game,5,4,1
 2019-08,The Dark Pictures - Man of Medan,game,2,2,0
 2019-08,Until Dawn,game,3,3,0
 2019-08,Soulfly,misc,1,1,0
@@ -646,14 +706,23 @@ month,item_title,category,count,editor_count,user_count
 2019-08,Der dunkle Kristall: Ära des Widerstands,film_series,1,1,0
 2019-08,Jim Henson,film_series,1,1,0
 2019-08,World of Warcraft Classic,game,1,1,0
+2019-08,Bloodstained: Ritual of the Night,game,1,0,1
+2019-08,Once Upon a Time in Hollywood,film_series,2,0,2
+2019-08,Toy Story 4,film_series,1,0,1
+2019-08,Fire Emblem: Three Houses,game,4,0,4
+2019-08,Der dunkle Kristall,film_series,1,0,1
+2019-08,Astral Chain,game,4,0,4
+2019-08,The Bard's Tale 4 Director's Cut,game,1,0,1
+2019-08,City on a Hill,film_series,1,0,1
+2019-08,Spider-Man PS4,game,1,0,1
 2019-09,The Terror - Infamy,film_series,1,1,0
 2019-09,Another Life,film_series,1,1,0
 2019-09,Green Frontier,film_series,1,1,0
-2019-09,Ad Astra,film_series,1,1,0
+2019-09,Ad Astra,film_series,2,1,1
 2019-09,Rambo 1 - 3,film_series,1,1,0
 2019-09,Rambo - Last Blood,film_series,1,1,0
 2019-09,John Rambo,game,1,1,0
-2019-09,Gears 5,game,3,3,0
+2019-09,Gears 5,game,4,3,1
 2019-09,Tokyo Game Show,misc,1,1,0
 2019-09,zehn Jahre,misc,1,1,0
 2019-09,South Park,film_series,2,2,0
@@ -661,28 +730,42 @@ month,item_title,category,count,editor_count,user_count
 2019-09,Ellen Barkin,film_series,1,1,0
 2019-09,Friends,film_series,1,1,0
 2019-09,FIFA 20,game,1,1,0
-2019-09,Greedfall,game,2,2,0
+2019-09,Greedfall,game,4,2,2
 2019-09,Niels Frevert,game,1,1,0
 2019-09,Hiss Golden Messenger,game,1,1,0
 2019-09,Stephen King,film_series,1,1,0
 2019-09,Tim Curry,film_series,1,1,0
 2019-09,Disenchantment,film_series,1,1,0
 2019-09,Matt Groenings,film_series,1,1,0
-2019-09,The Surge 2,game,2,2,0
-2019-09,Daemon X Machina,game,1,1,0
+2019-09,The Surge 2,game,6,2,4
+2019-09,Daemon X Machina,game,2,1,1
 2019-09,Der dunkle Kristall: Ära des Widerstands,film_series,1,1,0
 2019-09,WoW Classic,film_series,1,1,0
+2019-09,Es Kapitel 2,film_series,3,0,3
+2019-09,Link's Awakening,game,2,0,2
+2019-09,Astral Chain,game,2,0,2
+2019-09,Disenchantment Staffel 2,film_series,3,0,3
+2019-09,Control,game,1,0,1
+2019-09,Borderlands 3,game,1,0,1
+2019-09,Catherine: Full Body,game,1,0,1
+2019-09,AI: The Somnium Files,game,1,0,1
+2019-09,Final Fantasy VIII Remastered,game,1,0,1
+2019-09,Fantasy General 2,game,1,0,1
+2019-09,City on a Hill Staffelende,film_series,1,0,1
+2019-09,Dark Staffel 3,film_series,1,0,1
+2019-09,Haus des Geldes Staffel 3,film_series,1,0,1
+2019-09,Stranger Things Staffel 3,film_series,1,0,1
 2019-10,Disenchantment,film_series,1,1,0
 2019-10,4 Blocks,film_series,1,1,0
-2019-10,Joker,game,2,2,0
-2019-10,The Outer Worlds,game,4,4,0
+2019-10,Joker,game,6,2,4
+2019-10,The Outer Worlds,game,9,4,5
 2019-10,Ghost Recon Breakpoint,game,1,1,0
 2019-10,Breaking Bad,film_series,1,1,0
-2019-10,El Camino,film_series,1,1,0
+2019-10,El Camino,film_series,4,1,3
 2019-10,Peaky Blinders,film_series,1,1,0
 2019-10,Call of Duty,game,1,1,0
 2019-10,Modern Warfare,game,1,1,0
-2019-10,Luigi's Mansion 3,game,2,2,0
+2019-10,Luigi's Mansion 3,game,3,2,1
 2019-10,Gutalax,game,1,1,0
 2019-10,Rise of the Northstar,game,1,1,0
 2019-10,XavlegbmaofffassssitimiwoamndutroabcwapwaeiippohfffX,game,1,1,0
@@ -702,7 +785,7 @@ month,item_title,category,count,editor_count,user_count
 2019-10,Joaquin Phoenix,film_series,1,1,0
 2019-10,Heath Ledger,film_series,1,1,0
 2019-10,Jack Nicholson,film_series,1,1,0
-2019-10,Terminator: Dark Fate,film_series,1,1,0
+2019-10,Terminator: Dark Fate,film_series,2,1,1
 2019-10,Fallout,game,1,1,0
 2019-10,New Vegas,game,1,1,0
 2019-10,Call of Duty - Modern Warfare,game,2,2,0
@@ -713,7 +796,7 @@ month,item_title,category,count,editor_count,user_count
 2019-10,A Hat in Time,game,1,1,0
 2019-10,Ad Astra - Zu den Sternen,film_series,1,1,0
 2019-10,Brad Pitt,film_series,1,1,0
-2019-10,Gemini Man,film_series,1,1,0
+2019-10,Gemini Man,film_series,2,1,1
 2019-10,Will Smith,film_series,1,1,0
 2019-10,"Love, Death and Robots",film_series,1,1,0
 2019-10,World of Warcraft Classic,game,1,1,0
@@ -725,6 +808,14 @@ month,item_title,category,count,editor_count,user_count
 2019-10,Warcraft,misc,1,1,0
 2019-10,Diablo,misc,1,1,0
 2019-10,Starcraft,misc,1,1,0
+2019-10,The Irishman,film_series,1,0,1
+2019-10,South Park Staffel 23,film_series,1,0,1
+2019-10,The Walking Dead neue Staffel,film_series,1,0,1
+2019-10,Downton Abbey Film,film_series,1,0,1
+2019-10,Destiny 2: Shadowkeep,game,1,0,1
+2019-10,Trine 4,game,1,0,1
+2019-10,Jack Ryan Staffel 2,film_series,2,0,2
+2019-10,Carnival Row,film_series,1,0,1
 2019-11,Midnight Diner,film_series,1,1,0
 2019-11,Midnight Diner: Tokyo Stories,film_series,1,1,0
 2019-11,Joker,film_series,1,1,0
@@ -737,20 +828,20 @@ month,item_title,category,count,editor_count,user_count
 2019-11,GDC Doku,misc,1,1,0
 2019-11,Rick and Morty,film_series,1,1,0
 2019-11,Zombieland 2,film_series,1,1,0
-2019-11,Death Stranding,game,4,4,0
-2019-11,Star Wars Jedi - Fallen Order,game,3,3,0
+2019-11,Death Stranding,game,9,4,5
+2019-11,Star Wars Jedi: Fallen Order,game,6,3,3
 2019-11,1328,misc,1,1,0
 2019-11,Angerfist,misc,1,1,0
 2019-11,Dr. Peacock,misc,1,1,0
 2019-11,Deadly Guns,misc,1,1,0
 2019-11,Rick & Morty,film_series,1,1,0
-2019-11,Football Manager 2020,game,1,1,0
+2019-11,Football Manager 2020,game,2,1,1
 2019-11,Hideo Kojima,game,2,2,0
 2019-11,"Bonnie ""Prince"" Billy",game,1,1,0
 2019-11,Terminator,film_series,1,1,0
 2019-11,Zombieland,film_series,1,1,0
 2019-11,The Crown,film_series,1,1,0
-2019-11,Blacksad - Under the Skin,game,1,1,0
+2019-11,Blacksad: Under the Skin,game,3,1,2
 2019-11,Need for Speed,game,1,1,0
 2019-11,NfS Heat,game,1,1,0
 2019-11,Terminator - Resistance,game,1,1,0
@@ -767,9 +858,16 @@ month,item_title,category,count,editor_count,user_count
 2019-11,Robert De Niro,film_series,1,1,0
 2019-11,Al Pacino,film_series,1,1,0
 2019-11,World of Warcraft Classic,game,1,1,0
-2019-11,Planet Zoo,game,1,1,0
+2019-11,Planet Zoo,game,2,1,1
 2019-11,Jurassic World Evolution,game,1,1,0
 2019-11,BlizzCon,misc,1,1,0
+2019-11,Red Dead Redemption 2 PC,game,1,0,1
+2019-11,Lost Ember,game,1,0,1
+2019-11,The Outer Worlds,game,1,0,1
+2019-11,4 Blocks,film_series,1,0,1
+2019-11,Trails of Cold Steel 3,game,1,0,1
+2019-11,Rick & Morty neue Folgen,film_series,1,0,1
+2019-11,Judgment,game,1,0,1
 2019-12,The Irishman,film_series,1,1,0
 2019-12,Martin-Scorsese,film_series,1,1,0
 2019-12,"Robert De Niro, Al Pacino, Joe Pesci",film_series,1,1,0
@@ -777,7 +875,7 @@ month,item_title,category,count,editor_count,user_count
 2019-12,4Blocks,film_series,1,1,0
 2019-12,Sky-Ticket,game,1,1,0
 2019-12,Game of Thrones,game,1,1,0
-2019-12,Phoenix Point,game,2,2,0
+2019-12,Phoenix Point,game,3,2,1
 2019-12,X-Com.,game,1,1,0
 2019-12,Strategic Command - World War I,game,1,1,0
 2019-12,Star Wars: Der Aufstieg Skywalkers,film_series,2,2,0
@@ -807,9 +905,24 @@ month,item_title,category,count,editor_count,user_count
 2019-12,Ghost Recon - Breakpoint,game,1,1,0
 2019-12,Darksiders - Genesis,game,1,1,0
 2019-12,Andrzej Sapkowski,film_series,1,1,0
-2019-12,The Witcher,film_series,1,1,0
+2019-12,The Witcher,film_series,3,1,2
 2019-12,X-COM,game,1,1,0
 2019-12,Julian Gollop,game,1,1,0
+2019-12,The Expanse Staffel 4,film_series,2,0,2
+2019-12,Lost in Space Staffel 2,film_series,1,0,1
+2019-12,Darksiders Genesis,game,2,0,2
+2019-12,Star Wars Episode 9,film_series,3,0,3
+2019-12,Life is Strange 2 letzte Episode,game,2,0,2
+2019-12,Vikings letzte Staffel,film_series,1,0,1
+2019-12,Trails of Cold Steel 3,game,1,0,1
+2019-12,Life is Strange 2,game,2,0,2
+2019-12,The Mandalorian,film_series,1,0,1
+2019-12,Total War: Warhammer II neues Update,game,1,0,1
+2019-12,MechWarrior 5,game,2,0,2
+2019-12,Transport Fever 2,game,1,0,1
+2019-12,Control,game,1,0,1
+2019-12,Star Wars Jedi: Fallen Order,game,1,0,1
+2019-12,The Witcher 3,game,1,0,1
 2020-02,Weathering with you,film_series,1,1,0
 2020-02,Kimi No Na Wa,film_series,1,1,0
 2020-02,"Your Name – gestern, heute und für immer",film_series,1,1,0
@@ -833,12 +946,12 @@ month,item_title,category,count,editor_count,user_count
 2020-02,Guy Ritchie,film_series,1,1,0
 2020-02,"Bube, Dame, König, grAs",film_series,1,1,0
 2020-02,Snatch,film_series,1,1,0
-2020-02,Better Call Saul,film_series,1,1,0
+2020-02,Better Call Saul,film_series,3,1,2
 2020-02,The Suicide of Rachel Foster,game,1,1,0
 2020-02,Gone Home,game,1,1,0
 2020-02,What Remains of Edith Finch,game,1,1,0
 2020-02,Firewatch,game,1,1,0
-2020-02,Dreams,game,2,2,0
+2020-02,Dreams,game,3,2,1
 2020-02,Grimes,misc,1,1,0
 2020-02,Caribou,misc,1,1,0
 2020-02,La Roux,misc,1,1,0
@@ -862,16 +975,29 @@ month,item_title,category,count,editor_count,user_count
 2020-02,Robert Harris,film_series,1,1,0
 2020-02,Altered Carbon,film_series,2,2,0
 2020-02,Fahle Schatten,game,1,1,0
-2020-02,Fire Emblem: Three Houses,game,1,1,0
+2020-02,Fire Emblem: Three Houses,game,2,1,1
 2020-02,Zombie Army 4,game,1,1,0
 2020-02,Das Erlkönig-Manöver,misc,1,1,0
 2020-02,Robert Löhr,misc,1,1,0
 2020-02,Der Krieg der Sänger,game,1,1,0
-2020-02,Star Trek: Picard,film_series,1,1,0
+2020-02,Star Trek: Picard,film_series,5,1,4
 2020-02,Jojo Rabbit,film_series,1,1,0
 2020-02,Taika Waititi,film_series,1,1,0
 2020-02,World of Warcraft Classic,game,1,1,0
 2020-02,Luigi's Mansion 3,game,1,1,0
+2020-02,Jack Ryan Staffel 2,film_series,1,0,1
+2020-02,Vikings letzte Staffel,film_series,1,0,1
+2020-02,Darksiders Genesis PS4,game,1,0,1
+2020-02,Birds of Prey,film_series,1,0,1
+2020-02,Babylon Berlin Staffel 3,film_series,1,0,1
+2020-02,Brooklyn Nine-Nine neue Staffel,film_series,1,0,1
+2020-02,Narcos: Mexico,film_series,1,0,1
+2020-02,Altered Carbon Staffel 2,film_series,2,0,2
+2020-02,The Expanse Staffel 4,film_series,1,0,1
+2020-02,A Plague Tale: Innocence,game,1,0,1
+2020-02,Tokyo Mirage #FE Encore,game,1,0,1
+2020-02,Yakuza 3,game,1,0,1
+2020-02,Civilization VI Switch,game,1,0,1
 2020-03,Altered Carbon,film_series,1,1,0
 2020-03,Warhammer Total War,game,1,1,0
 2020-03,Alyx,game,2,2,0
@@ -995,7 +1121,7 @@ month,item_title,category,count,editor_count,user_count
 2020-06,Til Schweiger,film_series,1,1,0
 2020-06,Parasite,film_series,1,1,0
 2020-06,Liberated,game,1,1,0
-2020-06,Star Wars Jedi - Fallen Order,game,1,1,0
+2020-06,Star Wars Jedi: Fallen Order,game,1,1,0
 2020-06,Phoebe Bridgers,film_series,1,1,0
 2020-06,Punisher,film_series,1,1,0
 2020-06,Rolling Blackouts Coastal Fever,film_series,1,1,0
@@ -2965,7 +3091,7 @@ month,item_title,category,count,editor_count,user_count
 2023-04,Ted Lasso,film_series,1,1,0
 2023-04,Banished,game,1,1,0
 2023-04,Titanfall,game,1,1,0
-2023-04,Star Wars Jedi - Fallen Order,game,1,1,0
+2023-04,Star Wars Jedi: Fallen Order,game,1,1,0
 2023-04,Max Payne 2 - The Fall of Max Payne,game,1,1,0
 2023-04,Katja Hoyer,misc,1,1,0
 2023-04,Blood and Iron,misc,1,1,0
@@ -3389,7 +3515,7 @@ month,item_title,category,count,editor_count,user_count
 2023-11,Danny DeVito,film_series,1,1,0
 2023-11,Gothic 2 Classic Complete,game,1,1,0
 2023-11,Tim & Struppi - Die Zigarren des Pharaos,game,1,1,0
-2023-11,Blacksad - Under the Skin,game,1,1,0
+2023-11,Blacksad: Under the Skin,game,1,1,0
 2023-11,Invincible,film_series,1,1,0
 2023-11,Walking Dead,film_series,1,1,0
 2023-11,Robert Kirkman,film_series,1,1,0
