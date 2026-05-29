@@ -362,6 +362,14 @@
     ],
     "Spider-Man PS4": [
       "Spider-Man"
+    ],
+    "Star Trek: The Next Generation": [
+      "ST:TNG",
+      "TNG",
+      "The Next Generation",
+      "Star Trek TNG",
+      "Star Trek - The Next Generation",
+      "Star Trek: TNG"
     ]
   },
   "categories": {
@@ -746,6 +754,7 @@
     "Paradise": "film_series",
     "Andor Staffel 2": "film_series",
     "Tron: Ares": "film_series",
-    "Spider-Man Noir": "film_series"
+    "Spider-Man Noir": "film_series",
+    "Star Trek: The Next Generation": "film_series"
   }
 }
