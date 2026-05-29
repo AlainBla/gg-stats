@@ -102,7 +102,7 @@ month,item_title,category,count,editor_count,user_count
 2018-03,Natalie Portman,film_series,1,1,0
 2018-03,Moss,game,1,1,0
 2018-03,Ni No Kuni 2 - Schicksal eines Königreichs,game,1,1,0
-2018-03,Star Trek,misc,1,1,0
+2018-03,Star Trek,film_series,1,1,0
 2018-03,Mehr als die Summe,misc,1,1,0
 2018-03,The Crown,film_series,1,1,0
 2018-03,Downton Abbey,film_series,1,1,0
@@ -2814,7 +2814,7 @@ month,item_title,category,count,editor_count,user_count
 2022-11,Starcraft,game,1,1,0
 2022-11,Diablo,game,1,1,0
 2022-11,Star Wars,game,1,1,0
-2022-11,Star Trek,game,1,1,0
+2022-11,Star Trek,film_series,1,1,0
 2022-11,Warhammer,game,1,1,0
 2022-11,Pentiment,game,2,1,1
 2022-11,Firesong,game,1,1,0
@@ -5222,6 +5222,8 @@ month,item_title,category,count,editor_count,user_count
 2026-03,Shrinking,film_series,1,0,1
 2026-03,Slow Horses,film_series,1,0,1
 2026-03,Under The Island,game,1,0,1
+2026-03,Starfleet Academy,film_series,1,0,1
+2026-03,Star Trek: Discovery,film_series,1,0,1
 2026-03,Replaced,game,1,0,1
 2026-03,The Bazaar,game,1,0,1
 2026-03,The Pitt S2,film_series,1,0,1
@@ -5432,6 +5434,7 @@ month,item_title,category,count,editor_count,user_count
 2026-05,Coffee Talk: Tokyo,game,1,0,1
 2026-05,The Remake of the End of the Greatest RPG of All Time,game,1,0,1
 2026-05,Titanium Court,game,1,0,1
+2026-05,Strange New Worlds Staffel 4,film_series,1,0,1
 2026-05,Mina the Hollower,game,1,0,1
 2026-05,Causal Loop,game,1,0,1
 2026-05,Elementalis,game,1,0,1

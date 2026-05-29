@@ -31,6 +31,11 @@
     "The Last of Us Staffel 2": "film_series",
     "Under The Island": "game",
     "The Remake of the End of the Greatest RPG of All Time": "game",
-    "Titanium Court": "game"
+    "Titanium Court": "game",
+    "TOS": "film_series",
+    "Star Trek": "film_series",
+    "Discovery": "film_series",
+    "Strange New Worlds": "film_series",
+    "Starfleet Academy": "film_series"
   }
 }
