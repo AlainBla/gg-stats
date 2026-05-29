@@ -1007,7 +1007,7 @@ month,item_title,category,count,editor_count,user_count
 2020-03,Paradise PD,film_series,2,2,0
 2020-03,The Amazing World of Gumball,film_series,1,1,0
 2020-03,Ori and the Will of the Wisps,game,8,3,5
-2020-03,Doom Eternal,game,10,2,8
+2020-03,Doom Eternal,game,11,2,9
 2020-03,Bleeding Edge,game,1,1,0
 2020-03,Half-Life 3,game,1,1,0
 2020-03,Ghostemane,misc,1,1,0
@@ -1048,14 +1048,16 @@ month,item_title,category,count,editor_count,user_count
 2020-03,Persona 5 Royal,game,1,0,1
 2020-03,Vikings Staffel 6,film_series,1,0,1
 2020-03,The Mandalorian,film_series,2,0,2
-2020-03,Star Trek: Picard,film_series,2,0,2
+2020-03,Star Trek: Picard,film_series,3,0,3
 2020-03,Homeland,film_series,1,0,1
-2020-03,Kingdom Staffel 2,film_series,1,0,1
+2020-03,Kingdom Staffel 2,film_series,2,0,2
 2020-03,Parasite,film_series,1,0,1
 2020-03,Ip Man 4,film_series,1,0,1
 2020-03,Bloodshot,film_series,1,0,1
 2020-03,Mulan,film_series,2,0,2
+2020-03,Der Unsichtbare,film_series,1,0,1
 2020-03,A Quiet Place 2,film_series,1,0,1
+2020-03,The Expanse,film_series,1,0,1
 2020-04,Breaking Bad,film_series,1,1,0
 2020-04,Better Call Saul,film_series,3,2,1
 2020-04,Panzer Corps 2,game,1,1,0
@@ -1092,8 +1094,10 @@ month,item_title,category,count,editor_count,user_count
 2020-04,Final Fantasy VII Remake,game,4,0,4
 2020-04,Haus des Geldes Staffel 2,film_series,1,0,1
 2020-04,Westworld Staffel 3,film_series,1,0,1
+2020-04,Carnival Row,film_series,1,0,1
 2020-04,Yakuza 3 Remastered,game,1,0,1
 2020-04,Dreams,game,1,0,1
+2020-04,Bosch Staffel 6,film_series,2,0,2
 2020-05,Better Call Saul,film_series,1,1,0
 2020-05,James Clavell's Shogun,film_series,1,1,0
 2020-05,The Mandalorian,film_series,3,2,1
@@ -1103,7 +1107,7 @@ month,item_title,category,count,editor_count,user_count
 2020-05,Bosch,film_series,3,2,1
 2020-05,Star Wars Resistance,film_series,1,1,0
 2020-05,The Last of Us - Part 2,game,1,1,0
-2020-05,Maneater,misc,2,2,0
+2020-05,Maneater,game,2,2,0
 2020-05,The Wonderful 101 Remastered,misc,1,1,0
 2020-05,Call of Duty - Modern Warfare,game,1,1,0
 2020-05,Valorant,game,1,1,0
@@ -1139,6 +1143,9 @@ month,item_title,category,count,editor_count,user_count
 2020-05,Snowpiercer,film_series,1,0,1
 2020-05,Rick & Morty Staffel 4,film_series,1,0,1
 2020-05,Harley Quinn Staffel 2,film_series,1,0,1
+2020-05,Last Kingdom,film_series,1,0,1
+2020-05,Westworld Staffel 3,film_series,1,0,1
+2020-05,Mount & Blade II: Bannerlord,game,1,0,1
 2020-06,Space Force,film_series,2,1,1
 2020-06,Steve Carell,film_series,1,1,0
 2020-06,John Malkovich,film_series,1,1,0
@@ -1146,7 +1153,7 @@ month,item_title,category,count,editor_count,user_count
 2020-06,The Last of Us - Part 2,game,5,5,0
 2020-06,Die 100 besten Retrospiele,game,1,1,0
 2020-06,Star Control 2,game,1,1,0
-2020-06,Command & Conquer Remastered,game,1,1,0
+2020-06,Command & Conquer Remastered,game,2,1,1
 2020-06,F is for Family,film_series,1,1,0
 2020-06,Avatar – Herr der Elemente,film_series,1,1,0
 2020-06,Valorant,game,1,1,0
@@ -1155,7 +1162,7 @@ month,item_title,category,count,editor_count,user_count
 2020-06,The Big Lebowski,film_series,1,1,0
 2020-06,Schweinsteiger: Memories,film_series,1,1,0
 2020-06,Til Schweiger,film_series,1,1,0
-2020-06,Parasite,film_series,1,1,0
+2020-06,Parasite,film_series,2,1,1
 2020-06,Liberated,game,1,1,0
 2020-06,Star Wars Jedi: Fallen Order,game,1,1,0
 2020-06,Phoebe Bridgers,film_series,1,1,0
@@ -1177,6 +1184,7 @@ month,item_title,category,count,editor_count,user_count
 2020-06,The Last Dance,film_series,1,0,1
 2020-06,Dark Staffel 3,film_series,3,0,3
 2020-06,Yakuza Kiwami 2,game,1,0,1
+2020-06,The Expanse Staffel 4,film_series,1,0,1
 2020-07,The Expanse,film_series,1,1,0
 2020-07,Space Force,film_series,1,1,0
 2020-07,Snowpiercer,film_series,1,1,0
@@ -1209,7 +1217,7 @@ month,item_title,category,count,editor_count,user_count
 2020-07,Umbrella Academy,film_series,1,1,0
 2020-07,Altered Carbon,film_series,1,1,0
 2020-07,WoW Classic,game,1,1,0
-2020-07,Crysis Remastered,game,1,1,0
+2020-07,Crysis Remastered,game,3,1,2
 2020-07,Infamous - Second Son,game,1,1,0
 2020-07,World of Warcraft: Shadowlands,misc,1,1,0
 2020-07,John Hight,misc,1,1,0
@@ -1219,6 +1227,7 @@ month,item_title,category,count,editor_count,user_count
 2020-07,Paper Mario: The Origami King,game,2,0,2
 2020-07,Star Wars: The Clone Wars,film_series,1,0,1
 2020-07,Deadly Premonition 2,game,2,0,2
+2020-07,Tony Hawk's Pro Skater 1+2,game,1,0,1
 2020-07,Titan Quest,game,1,0,1
 2020-07,Desperados 3,game,1,0,1
 2020-07,The Last of Us 2,game,2,0,2
@@ -1274,19 +1283,20 @@ month,item_title,category,count,editor_count,user_count
 2020-08,Microsoft Flight Simulator,game,3,0,3
 2020-08,Star Trek: Lower Decks,film_series,1,0,1
 2020-08,Doom Patrol Staffel 2,film_series,1,0,1
-2020-08,Beyond a Steel Sky,game,1,0,1
-2020-08,Tenet,film_series,1,0,1
+2020-08,Beyond a Steel Sky,game,2,0,2
+2020-08,Tenet,film_series,2,0,2
 2020-08,Umbrella Academy Staffel 2,film_series,2,0,2
 2020-08,Hearts of Iron IV,game,1,0,1
 2020-08,FIFA 20,game,1,0,1
 2020-08,Battle Brothers,game,1,0,1
-2020-09,Wasteland 3,game,6,1,5
+2020-08,Battle Brothers: Blazing Deserts,game,1,0,1
+2020-09,Wasteland 3,game,7,1,6
 2020-09,Battle Brothers,game,1,1,0
 2020-09,Blazing Deserts,game,1,1,0
 2020-09,GDC-Doku,misc,1,1,0
 2020-09,Archer,film_series,1,1,0
 2020-09,Californication,film_series,1,1,0
-2020-09,Aggretsuko,film_series,1,1,0
+2020-09,Aggretsuko,film_series,2,1,1
 2020-09,Tony Hawk's Pro Skater 1+2,game,7,1,6
 2020-09,Mafia,game,2,2,0
 2020-09,Spelunky 2,game,3,2,1
@@ -1319,14 +1329,17 @@ month,item_title,category,count,editor_count,user_count
 2020-09,Lovecraft Country,film_series,1,0,1
 2020-09,Crusader Kings III,game,2,0,2
 2020-09,Deutschland 89,film_series,1,0,1
+2020-09,Trails of Cold Steel IV,game,3,0,3
 2020-09,Suicide of Rachel Foster,game,1,0,1
 2020-09,Final Fantasy VII Remake,game,1,0,1
 2020-09,Port Royale 4,game,1,0,1
 2020-09,Pathfinder: Kingmaker,game,1,0,1
 2020-09,Star Trek: Lower Decks,film_series,1,0,1
 2020-09,Mass Effect Trilogy,game,1,0,1
-2020-09,Trails of Cold Steel IV,game,2,0,2
 2020-09,13 Sentinels: Aegis Rim,game,1,0,1
+2020-09,Microsoft Flight Simulator,game,2,0,2
+2020-09,Lucifer Staffel 1,film_series,1,0,1
+2020-09,Gotham Staffel 2,film_series,1,0,1
 2020-10,Away,film_series,1,1,0
 2020-10,Hilary Swank,film_series,1,1,0
 2020-10,Tokyo Girl,film_series,1,1,0
@@ -1387,6 +1400,7 @@ month,item_title,category,count,editor_count,user_count
 2020-10,Battle for the Bosporus,game,1,0,1
 2020-10,Little Hope,game,1,0,1
 2020-10,Song of Horror Konsolenversion,game,1,0,1
+2020-10,Remothered,game,1,0,1
 2020-10,Star Trek: Discovery Staffel 3,film_series,2,0,2
 2020-10,South Park: Pandemic Special,misc,1,0,1
 2020-10,Archer Staffel 11,film_series,1,0,1
@@ -1399,9 +1413,10 @@ month,item_title,category,count,editor_count,user_count
 2020-10,Watch Dogs: Legion,game,1,0,1
 2020-10,Age of Empires III: Definitive Edition,game,1,0,1
 2020-10,Doom Eternal DLC,game,1,0,1
+2020-10,Der junge Wallander,film_series,1,0,1
 2020-11,Barbaren,film_series,2,2,0
 2020-11,Suburra,film_series,1,1,0
-2020-11,Yakuza: Like a Dragon,game,5,2,3
+2020-11,Yakuza: Like a Dragon,game,7,2,5
 2020-11,Assassin's Creed Valhalla,game,3,3,0
 2020-11,Total War - Warhammer 2,game,1,1,0
 2020-11,Xbox Series X/S,misc,1,1,0
@@ -1450,9 +1465,11 @@ month,item_title,category,count,editor_count,user_count
 2020-11,Demon's Souls Remake,game,3,0,3
 2020-11,The Mandalorian Staffel 2,film_series,3,0,3
 2020-11,Star Trek: Discovery Staffel 3,film_series,2,0,2
+2020-11,Bugsnax,game,1,0,1
 2020-11,Observer: System Redux,game,1,0,1
+2020-11,Visage,game,1,0,1
 2020-11,Suburra Staffel 3,film_series,1,0,1
-2020-12,Das Damengambit,film_series,4,4,0
+2020-12,Das Damengambit,film_series,6,4,2
 2020-12,Breaking Bad,film_series,1,1,0
 2020-12,Cyberpunk 2077,game,16,5,11
 2020-12,Sopranos,film_series,1,1,0
@@ -1496,6 +1513,7 @@ month,item_title,category,count,editor_count,user_count
 2020-12,NeXt,film_series,1,0,1
 2020-12,Skifliegen Planica,misc,1,0,1
 2020-12,Tell Me Why,game,1,0,1
+2020-12,Ripper Street Staffel 5,film_series,1,0,1
 2020-12,The Last of Us 2,game,1,0,1
 2020-12,Immortals Fenyx Rising,game,1,0,1
 2020-12,Twin Mirror,game,1,0,1
@@ -1560,6 +1578,7 @@ month,item_title,category,count,editor_count,user_count
 2021-02,Imperator: Rome Update,game,1,0,1
 2021-02,Everspace 2,game,1,0,1
 2021-02,Control Ultimate Edition PS5,game,1,0,1
+2021-02,Extracurricular,film_series,1,0,1
 2021-02,Control PS5,game,1,0,1
 2021-02,Mafia: Definitive Edition,game,1,0,1
 2021-02,Twin Mirror,game,1,0,1
