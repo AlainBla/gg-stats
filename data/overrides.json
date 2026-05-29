@@ -76,6 +76,50 @@
     "Final Fantasy 6 - Pixel Remaster": [
       "FF6PR",
       "Final Fantasy 6 Pixel Remaster"
+    ],
+    "Animal Crossing: New Horizons": [
+      "Animal Crossing",
+      "Animal Crossing New Horizons"
+    ],
+    "The Last of Us 2": [
+      "The Last of Us Part II",
+      "TLoU2",
+      "TLou2",
+      "The Last of Us: Part II"
+    ],
+    "Microsoft Flight Simulator": [
+      "Flight Simulator",
+      "Flugsimulator",
+      "MS Flight Simulator",
+      "MS Flightsimulator",
+      "FS2020"
+    ],
+    "Tony Hawk's Pro Skater 1+2": [
+      "Tony Hawk",
+      "Tony Hawks",
+      "Tony Hawk's Pro Skater",
+      "Tony Hawk Pro Skater",
+      "THPS1&2",
+      "THPS 1+2",
+      "Tony Hawk Pro Skater 1+2",
+      "Tony Hawk's Pro Skater 1 & 2"
+    ],
+    "Mafia: Definitive Edition": [
+      "Mafia DE",
+      "Mafia Remake",
+      "Mafia Definitive Edition"
+    ],
+    "Total War Saga: Troy": [
+      "Troy",
+      "Total War: Troy"
+    ],
+    "Crysis Remastered": [
+      "Crysis Remaster",
+      "Crysis"
+    ],
+    "Crusader Kings III": [
+      "CK3",
+      "Crusader Kings 3"
     ]
   },
   "categories": {
@@ -103,6 +147,52 @@
     "Final Fantasy 3 - Pixel Remaster": "game",
     "Final Fantasy 4 - Pixel Remaster": "game",
     "Final Fantasy 5 - Pixel Remaster": "game",
-    "Final Fantasy 6 - Pixel Remaster": "game"
+    "Final Fantasy 6 - Pixel Remaster": "game",
+    "Animal Crossing: New Horizons": "game",
+    "Microsoft Flight Simulator": "game",
+    "Tony Hawk's Pro Skater 1+2": "game",
+    "Mafia: Definitive Edition": "game",
+    "Total War Saga: Troy": "game",
+    "Crysis Remastered": "game",
+    "Crusader Kings III": "game",
+    "The Last of Us 2": "game",
+    "Tell Me Why": "game",
+    "Beyond a Steel Sky": "game",
+    "Ghost of Tsushima": "game",
+    "Wasteland 3": "game",
+    "Iron Harvest": "game",
+    "Spelunky 2": "game",
+    "Superliminal": "game",
+    "Grounded": "game",
+    "Trials of Mana": "game",
+    "Hearts of Iron IV": "game",
+    "Battle Brothers": "game",
+    "Horizon Zero Dawn": "game",
+    "Divinity: Original Sin 2": "game",
+    "Deadly Premonition 2": "game",
+    "Paper Mario: The Origami King": "game",
+    "Doom Patrol Staffel 2": "film_series",
+    "Umbrella Academy Staffel 2": "film_series",
+    "The Boys": "film_series",
+    "The Boys Staffel 2": "film_series",
+    "Lucifer": "film_series",
+    "Tenet": "film_series",
+    "Parasite": "film_series",
+    "Onward": "film_series",
+    "Die Känguru-Chroniken": "film_series",
+    "The Last Dance": "film_series",
+    "Dark Staffel 3": "film_series",
+    "Space Force": "film_series",
+    "Cobra Kai Staffel 2": "film_series",
+    "Das letzte Wort": "film_series",
+    "The Americans": "film_series",
+    "Missing Lisa": "film_series",
+    "Der junge Wallander": "film_series",
+    "Lovecraft Country": "film_series",
+    "Deutschland 89": "film_series",
+    "I'm Thinking of Ending Things": "film_series",
+    "Fairy Tail": "film_series",
+    "Der Fall Richard Jewell": "film_series",
+    "Star Wars: The Clone Wars": "film_series"
   }
 }

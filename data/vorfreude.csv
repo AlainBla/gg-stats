@@ -1001,13 +1001,13 @@ month,item_title,category,count,editor_count,user_count
 2020-03,Half-Life,game,1,1,0
 2020-03,Agency,misc,2,2,0
 2020-03,Neuromancer,misc,1,1,0
-2020-03,Die Känguru-Chroniken,film_series,1,1,0
+2020-03,Die Känguru-Chroniken,film_series,2,1,1
 2020-03,Marc-Uwe Kling,film_series,1,1,0
-2020-03,Castlevania,film_series,1,1,0
+2020-03,Castlevania,film_series,2,1,1
 2020-03,Paradise PD,film_series,2,2,0
 2020-03,The Amazing World of Gumball,film_series,1,1,0
-2020-03,Ori and the Will of the Wisps,game,3,3,0
-2020-03,Doom Eternal,game,2,2,0
+2020-03,Ori and the Will of the Wisps,game,8,3,5
+2020-03,Doom Eternal,game,10,2,8
 2020-03,Bleeding Edge,game,1,1,0
 2020-03,Half-Life 3,game,1,1,0
 2020-03,Ghostemane,misc,1,1,0
@@ -1017,8 +1017,8 @@ month,item_title,category,count,editor_count,user_count
 2020-03,Westworld,film_series,1,1,0
 2020-03,Aaron Paul,film_series,1,1,0
 2020-03,New Amsterdam,film_series,1,1,0
-2020-03,The Outsider,film_series,1,1,0
-2020-03,Half-Life: Alyx,game,1,1,0
+2020-03,The Outsider,film_series,2,1,1
+2020-03,Half-Life: Alyx,game,3,1,2
 2020-03,The Complex,game,1,1,0
 2020-03,Alicia,misc,1,1,0
 2020-03,Alicia Keys,misc,1,1,0
@@ -1028,30 +1028,47 @@ month,item_title,category,count,editor_count,user_count
 2020-03,Glee,film_series,1,1,0
 2020-03,Once Upon a Time in Hollywood,film_series,1,1,0
 2020-03,Ori and the Blind Forest,game,1,1,0
-2020-03,Nioh 2,game,1,1,0
+2020-03,Nioh 2,game,2,1,1
 2020-03,Pokémon,game,1,1,0
-2020-03,Animal Crossing,game,1,1,0
+2020-03,Animal Crossing: New Horizons,game,2,1,1
 2020-03,Kingdom,film_series,1,1,0
-2020-03,"Yes, Your Grace",game,1,1,0
+2020-03,"Yes, Your Grace",game,2,1,1
 2020-03,Reigns,game,1,1,0
 2020-03,Das,misc,1,1,0
 2020-03,Erlkönig-Manöver,misc,1,1,0
 2020-03,Robert Löhr,misc,1,1,0
 2020-03,Simon Scarrow,misc,1,1,0
 2020-03,Peripheral,misc,1,1,0
+2020-03,Onward,film_series,1,0,1
+2020-03,Altered Carbon Staffel 2,film_series,5,0,5
+2020-03,Babylon Berlin,film_series,1,0,1
+2020-03,The Deuce,film_series,1,0,1
+2020-03,His Dark Materials,film_series,1,0,1
+2020-03,Better Call Saul,film_series,2,0,2
+2020-03,Persona 5 Royal,game,1,0,1
+2020-03,Vikings Staffel 6,film_series,1,0,1
+2020-03,The Mandalorian,film_series,2,0,2
+2020-03,Star Trek: Picard,film_series,2,0,2
+2020-03,Homeland,film_series,1,0,1
+2020-03,Kingdom Staffel 2,film_series,1,0,1
+2020-03,Parasite,film_series,1,0,1
+2020-03,Ip Man 4,film_series,1,0,1
+2020-03,Bloodshot,film_series,1,0,1
+2020-03,Mulan,film_series,2,0,2
+2020-03,A Quiet Place 2,film_series,1,0,1
 2020-04,Breaking Bad,film_series,1,1,0
-2020-04,Better Call Saul,film_series,2,2,0
+2020-04,Better Call Saul,film_series,3,2,1
 2020-04,Panzer Corps 2,game,1,1,0
 2020-04,Mount & Blade 2 - Bannerlord,game,1,1,0
 2020-04,Final Fantasy 7 Remake,game,1,1,0
 2020-04,Warhammer 2,game,1,1,0
-2020-04,The Mandalorian,film_series,2,2,0
-2020-04,Animal Crossing - New Horizons,game,1,1,0
+2020-04,The Mandalorian,film_series,5,2,3
+2020-04,Animal Crossing: New Horizons,game,3,1,2
 2020-04,Resident Evil 3,game,2,2,0
 2020-04,Bosch,film_series,1,1,0
 2020-04,Titus Welliver,film_series,1,1,0
 2020-04,Final Fantasy 7,game,3,3,0
-2020-04,Trials of Mana,game,1,1,0
+2020-04,Trials of Mana,game,2,1,1
 2020-04,Minecraft Dungeons,game,1,1,0
 2020-04,Minecraft,game,1,1,0
 2020-04,Altered Carbon Resleeved,film_series,1,1,0
@@ -1065,25 +1082,37 @@ month,item_title,category,count,editor_count,user_count
 2020-04,Das Wandelnde Schloss,film_series,1,1,0
 2020-04,World of Warcraft Classic,game,1,1,0
 2020-04,Ori and the Will of the Wisps,game,1,1,0
+2020-04,Red Dead Redemption 2,game,1,0,1
+2020-04,Disco Elysium,game,1,0,1
+2020-04,Watchmen,film_series,1,0,1
+2020-04,The Crown,film_series,1,0,1
+2020-04,Haus des Geldes Staffel 4,film_series,1,0,1
+2020-04,Harley Quinn Staffel 2,film_series,1,0,1
+2020-04,Persona 5 Royal,game,2,0,2
+2020-04,Final Fantasy VII Remake,game,4,0,4
+2020-04,Haus des Geldes Staffel 2,film_series,1,0,1
+2020-04,Westworld Staffel 3,film_series,1,0,1
+2020-04,Yakuza 3 Remastered,game,1,0,1
+2020-04,Dreams,game,1,0,1
 2020-05,Better Call Saul,film_series,1,1,0
 2020-05,James Clavell's Shogun,film_series,1,1,0
-2020-05,The Mandalorian,film_series,2,2,0
+2020-05,The Mandalorian,film_series,3,2,1
 2020-05,Mount & Blade 2 - Bannerlord,game,1,1,0
 2020-05,Empyrion - Galactic Survival,game,1,1,0
 2020-05,Final Space,film_series,1,1,0
-2020-05,Bosch,film_series,2,2,0
+2020-05,Bosch,film_series,3,2,1
 2020-05,Star Wars Resistance,film_series,1,1,0
 2020-05,The Last of Us - Part 2,game,1,1,0
 2020-05,Maneater,misc,2,2,0
 2020-05,The Wonderful 101 Remastered,misc,1,1,0
 2020-05,Call of Duty - Modern Warfare,game,1,1,0
 2020-05,Valorant,game,1,1,0
-2020-05,Animal Crossing - New Horizons,game,1,1,0
+2020-05,Animal Crossing: New Horizons,game,1,1,0
 2020-05,Days N Daze,misc,1,1,0
 2020-05,Once Upon a Time in Hollywood,film_series,1,1,0
 2020-05,Rick and Morty,film_series,1,1,0
 2020-05,Westworld,film_series,1,1,0
-2020-05,Someday You'll Return,game,1,1,0
+2020-05,Someday You'll Return,game,2,1,1
 2020-05,Disco Elysium,game,1,1,0
 2020-05,Moses Sumney,misc,1,1,0
 2020-05,Græ,misc,1,1,0
@@ -1094,13 +1123,23 @@ month,item_title,category,count,editor_count,user_count
 2020-05,Alf,game,1,1,0
 2020-05,The Last of Us Staffel 2,film_series,1,1,0
 2020-05,Postal,game,1,1,0
-2020-05,Xenoblade Chronicles,game,1,1,0
+2020-05,Xenoblade Chronicles,game,3,1,2
 2020-05,Oculus,film_series,1,1,0
 2020-05,The Vvitch,film_series,1,1,0
 2020-05,The Last of Us Part 2,game,1,1,0
 2020-05,Song of Horror,game,1,1,0
 2020-05,The Persistance,game,1,1,0
-2020-06,Space Force,film_series,1,1,0
+2020-05,Unorthodox,film_series,1,0,1
+2020-05,VirtuaVerse,game,1,0,1
+2020-05,The Expanse Staffel 4,film_series,1,0,1
+2020-05,Gears Tactics,game,1,0,1
+2020-05,Anne with an E,film_series,1,0,1
+2020-05,The Handmaid's Tale,film_series,1,0,1
+2020-05,The Boys,film_series,1,0,1
+2020-05,Snowpiercer,film_series,1,0,1
+2020-05,Rick & Morty Staffel 4,film_series,1,0,1
+2020-05,Harley Quinn Staffel 2,film_series,1,0,1
+2020-06,Space Force,film_series,2,1,1
 2020-06,Steve Carell,film_series,1,1,0
 2020-06,John Malkovich,film_series,1,1,0
 2020-06,Upload,game,1,1,0
@@ -1124,7 +1163,7 @@ month,item_title,category,count,editor_count,user_count
 2020-06,Rolling Blackouts Coastal Fever,film_series,1,1,0
 2020-06,Sideways to New Italy,film_series,1,1,0
 2020-06,Dark,film_series,1,1,0
-2020-06,Desperados 3,game,2,2,0
+2020-06,Desperados 3,game,6,2,4
 2020-06,Arcania,game,1,1,0
 2020-06,Shadow Tactics,game,2,2,0
 2020-06,Daniel Radcliffe,film_series,1,1,0
@@ -1133,11 +1172,16 @@ month,item_title,category,count,editor_count,user_count
 2020-06,Leon Boden,film_series,1,1,0
 2020-06,Denzel Washington,film_series,1,1,0
 2020-06,Commandos,game,1,1,0
+2020-06,The Last of Us 2,game,7,0,7
+2020-06,Anne with an E,film_series,1,0,1
+2020-06,The Last Dance,film_series,1,0,1
+2020-06,Dark Staffel 3,film_series,3,0,3
+2020-06,Yakuza Kiwami 2,game,1,0,1
 2020-07,The Expanse,film_series,1,1,0
 2020-07,Space Force,film_series,1,1,0
 2020-07,Snowpiercer,film_series,1,1,0
-2020-07,Ghost of Tsushima,game,6,6,0
-2020-07,Beyond a Steel Sky,game,2,2,0
+2020-07,Ghost of Tsushima,game,12,6,6
+2020-07,Beyond a Steel Sky,game,4,2,2
 2020-07,GDC Doku,misc,1,1,0
 2020-07,Retro-Gamer,misc,1,1,0
 2020-07,Guns Akimbo,film_series,1,1,0
@@ -1146,13 +1190,13 @@ month,item_title,category,count,editor_count,user_count
 2020-07,Gangs of London,film_series,1,1,0
 2020-07,Der Tatortreiniger,film_series,1,1,0
 2020-07,The Last of Us - Part II,game,1,1,0
-2020-07,Marvel's Iron Man VR,game,2,2,0
+2020-07,Marvel's Iron Man VR,game,3,2,1
 2020-07,Röki,game,1,1,0
 2020-07,Dream Wife,misc,1,1,0
 2020-07,Rufus Wainwright,misc,1,1,0
 2020-07,Protomartyr,misc,1,1,0
 2020-07,Castle,film_series,1,1,0
-2020-07,Parasite,film_series,1,1,0
+2020-07,Parasite,film_series,2,1,1
 2020-07,Infamous,game,1,1,0
 2020-07,Your Name,film_series,1,1,0
 2020-07,Kimi no Na wa,film_series,1,1,0
@@ -1170,10 +1214,26 @@ month,item_title,category,count,editor_count,user_count
 2020-07,World of Warcraft: Shadowlands,misc,1,1,0
 2020-07,John Hight,misc,1,1,0
 2020-07,Ion Hazzikostas,misc,1,1,0
+2020-07,Animal Crossing: New Horizons,game,1,0,1
+2020-07,Catherine: Full Body,game,1,0,1
+2020-07,Paper Mario: The Origami King,game,2,0,2
+2020-07,Star Wars: The Clone Wars,film_series,1,0,1
+2020-07,Deadly Premonition 2,game,2,0,2
+2020-07,Titan Quest,game,1,0,1
+2020-07,Desperados 3,game,1,0,1
+2020-07,The Last of Us 2,game,2,0,2
+2020-07,Stranger Things Staffel 3,film_series,1,0,1
+2020-07,Grounded,game,1,0,1
+2020-07,CastleStorm 2,game,1,0,1
+2020-07,Superliminal,game,1,0,1
+2020-07,Dark Staffel 3,film_series,1,0,1
+2020-07,Fairy Tail,film_series,1,0,1
+2020-07,Der Fall Richard Jewell,film_series,1,0,1
+2020-07,Umbrella Academy Staffel 2,film_series,1,0,1
 2020-08,Umbrella Academy,film_series,1,1,0
 2020-08,Romance Doll,film_series,1,1,0
-2020-08,Horizon Zero Dawn,game,1,1,0
-2020-08,Wasteland 3,game,2,2,0
+2020-08,Horizon Zero Dawn,game,5,1,4
+2020-08,Wasteland 3,game,6,2,4
 2020-08,GDC Doku,misc,1,1,0
 2020-08,Mad Men,film_series,1,1,0
 2020-08,Archer,film_series,1,1,0
@@ -1181,11 +1241,11 @@ month,item_title,category,count,editor_count,user_count
 2020-08,Deadly Premonition 2,game,2,2,0
 2020-08,The Wonderful 101,game,1,1,0
 2020-08,Gamescom Online,misc,2,2,0
-2020-08,Lucifer,film_series,2,2,0
+2020-08,Lucifer,film_series,3,2,1
 2020-08,Zoey's Extraordinary Playlist,film_series,1,1,0
 2020-08,Dead to Me,film_series,1,1,0
 2020-08,The Witcher,film_series,1,1,0
-2020-08,Tell Me Why,game,1,1,0
+2020-08,Tell Me Why,game,5,1,4
 2020-08,Life Is Strange 2,game,1,1,0
 2020-08,The Last of Us Staffel 2,film_series,2,2,0
 2020-08,"Down in the Weeds, Where the World Once Was",misc,1,1,0
@@ -1200,7 +1260,7 @@ month,item_title,category,count,editor_count,user_count
 2020-08,Sword of God,film_series,1,1,0
 2020-08,Black Death,film_series,1,1,0
 2020-08,Gretel & Hänsel,film_series,1,1,0
-2020-08,Total War Saga - Troy,game,1,1,0
+2020-08,Total War Saga: Troy,game,3,1,2
 2020-08,Gamescom,misc,1,1,0
 2020-08,The Old Guard,film_series,1,1,0
 2020-08,Charlize Theron,film_series,1,1,0
@@ -1209,16 +1269,27 @@ month,item_title,category,count,editor_count,user_count
 2020-08,World of Warcraft Classic,game,1,1,0
 2020-08,Necromanus,misc,1,1,0
 2020-08,Falkenfreund87,misc,1,1,0
-2020-09,Wasteland 3,game,1,1,0
+2020-08,Divinity: Original Sin 2,game,1,0,1
+2020-08,The Last of Us 2,game,2,0,2
+2020-08,Microsoft Flight Simulator,game,3,0,3
+2020-08,Star Trek: Lower Decks,film_series,1,0,1
+2020-08,Doom Patrol Staffel 2,film_series,1,0,1
+2020-08,Beyond a Steel Sky,game,1,0,1
+2020-08,Tenet,film_series,1,0,1
+2020-08,Umbrella Academy Staffel 2,film_series,2,0,2
+2020-08,Hearts of Iron IV,game,1,0,1
+2020-08,FIFA 20,game,1,0,1
+2020-08,Battle Brothers,game,1,0,1
+2020-09,Wasteland 3,game,6,1,5
 2020-09,Battle Brothers,game,1,1,0
 2020-09,Blazing Deserts,game,1,1,0
 2020-09,GDC-Doku,misc,1,1,0
 2020-09,Archer,film_series,1,1,0
 2020-09,Californication,film_series,1,1,0
 2020-09,Aggretsuko,film_series,1,1,0
-2020-09,Tony Hawk's Pro Skater 1+2,game,1,1,0
+2020-09,Tony Hawk's Pro Skater 1+2,game,7,1,6
 2020-09,Mafia,game,2,2,0
-2020-09,Spelunky 2,game,2,2,0
+2020-09,Spelunky 2,game,3,2,1
 2020-09,I Know This Much Is True,film_series,1,1,0
 2020-09,Le Mans 66,film_series,1,1,0
 2020-09,Marvel's Avengers,game,1,1,0
@@ -1229,8 +1300,33 @@ month,item_title,category,count,editor_count,user_count
 2020-09,Lucifer,film_series,1,1,0
 2020-09,Deutschland '83,film_series,1,1,0
 2020-09,Great Pretender,film_series,1,1,0
-2020-09,Mafia - Definitive Edition,game,1,1,0
+2020-09,Mafia: Definitive Edition,game,8,1,7
 2020-09,Serious Sam 4 - Planet Badass,game,1,1,0
+2020-09,Crysis Remastered,game,3,0,3
+2020-09,Iron Harvest,game,4,0,4
+2020-09,Cobra Kai Staffel 2,film_series,1,0,1
+2020-09,Das letzte Wort,film_series,1,0,1
+2020-09,Tell Me Why,game,2,0,2
+2020-09,The Americans,film_series,1,0,1
+2020-09,The Boys Staffel 2,film_series,6,0,6
+2020-09,Missing Lisa,film_series,1,0,1
+2020-09,Der junge Wallander,film_series,1,0,1
+2020-09,Beyond a Steel Sky,game,1,0,1
+2020-09,The Legend of Zelda: Link's Awakening,game,1,0,1
+2020-09,I'm Thinking of Ending Things,film_series,1,0,1
+2020-09,Tenet,film_series,1,0,1
+2020-09,Archer Season 11,film_series,1,0,1
+2020-09,Lovecraft Country,film_series,1,0,1
+2020-09,Crusader Kings III,game,2,0,2
+2020-09,Deutschland 89,film_series,1,0,1
+2020-09,Suicide of Rachel Foster,game,1,0,1
+2020-09,Final Fantasy VII Remake,game,1,0,1
+2020-09,Port Royale 4,game,1,0,1
+2020-09,Pathfinder: Kingmaker,game,1,0,1
+2020-09,Star Trek: Lower Decks,film_series,1,0,1
+2020-09,Mass Effect Trilogy,game,1,0,1
+2020-09,Trails of Cold Steel IV,game,2,0,2
+2020-09,13 Sentinels: Aegis Rim,game,1,0,1
 2020-10,Away,film_series,1,1,0
 2020-10,Hilary Swank,film_series,1,1,0
 2020-10,Tokyo Girl,film_series,1,1,0
@@ -1247,7 +1343,7 @@ month,item_title,category,count,editor_count,user_count
 2020-10,Mafia,film_series,1,1,0
 2020-10,Crash Bandicoot 4 - It's about Time,game,1,1,0
 2020-10,Star Wars: Squadrons,game,6,3,3
-2020-10,Paper Mario - The Origami King,game,1,1,0
+2020-10,Paper Mario: The Origami King,game,1,1,0
 2020-10,Mafia 2,game,1,1,0
 2020-10,Mario Kart - Home Circuit,game,1,1,0
 2020-10,Cyberpunk 2077,misc,1,1,0
@@ -1400,7 +1496,7 @@ month,item_title,category,count,editor_count,user_count
 2020-12,NeXt,film_series,1,0,1
 2020-12,Skifliegen Planica,misc,1,0,1
 2020-12,Tell Me Why,game,1,0,1
-2020-12,The Last of Us Part II,game,1,0,1
+2020-12,The Last of Us 2,game,1,0,1
 2020-12,Immortals Fenyx Rising,game,1,0,1
 2020-12,Twin Mirror,game,1,0,1
 2021-02,Disenchantment,film_series,2,2,0
@@ -1465,7 +1561,7 @@ month,item_title,category,count,editor_count,user_count
 2021-02,Everspace 2,game,1,0,1
 2021-02,Control Ultimate Edition PS5,game,1,0,1
 2021-02,Control PS5,game,1,0,1
-2021-02,Mafia - Definitive Edition,game,1,0,1
+2021-02,Mafia: Definitive Edition,game,1,0,1
 2021-02,Twin Mirror,game,1,0,1
 2021-02,Super Mario 3D World,game,1,0,1
 2021-02,Bravely Default II,game,1,0,1
@@ -1526,7 +1622,7 @@ month,item_title,category,count,editor_count,user_count
 2021-03,Valheim,game,1,0,1
 2021-03,Two Weeks to Live,film_series,1,0,1
 2021-03,C.B. Strike Staffel 2,film_series,1,0,1
-2021-03,Mafia - Definitive Edition,game,1,0,1
+2021-03,Mafia: Definitive Edition,game,1,0,1
 2021-03,Twin Mirror,game,1,0,1
 2021-03,Cyber Shadow,game,1,0,1
 2021-04,Snowpiercer,film_series,1,1,0
@@ -1613,7 +1709,7 @@ month,item_title,category,count,editor_count,user_count
 2021-05,Resident Evil 8,game,1,1,0
 2021-05,Biomutant,game,10,5,5
 2021-05,Mass Effect Legendary Edition,game,8,2,6
-2021-05,Battle Brothers,misc,1,1,0
+2021-05,Battle Brothers,game,1,1,0
 2021-05,Live-Event,misc,1,1,0
 2021-05,Mortal Kombat,film_series,3,2,1
 2021-05,Solar Opposites,film_series,1,1,0
@@ -3118,7 +3214,7 @@ month,item_title,category,count,editor_count,user_count
 2023-04,The Last of Us Staffel 1,film_series,1,0,1
 2023-04,Maneskin Konzert,misc,1,0,1
 2023-04,Hogwarts Legacy,game,1,0,1
-2023-04,The Last of Us Part II,game,1,0,1
+2023-04,The Last of Us 2,game,1,0,1
 2023-05,Tokio bei Tag,film_series,1,1,0
 2023-05,The Legend of Zelda - Tears of the Kingdom,game,1,1,0
 2023-05,System Shock,game,1,1,0
@@ -3721,7 +3817,7 @@ month,item_title,category,count,editor_count,user_count
 2024-03,Final Fantasy XV,game,1,0,1
 2024-03,Final Fantasy VII Remake Intergrade,game,1,0,1
 2024-03,Outcast: A New Beginning,game,1,0,1
-2024-03,Crusader Kings 3,game,1,0,1
+2024-03,Crusader Kings III,game,1,0,1
 2024-03,Poor Things,film_series,1,0,1
 2024-03,Fargo,film_series,1,0,1
 2024-03,Cyberpunk 2077,game,1,0,1
@@ -4429,7 +4525,7 @@ month,item_title,category,count,editor_count,user_count
 2025-04,Hideo Kojimas,game,1,1,0
 2025-04,Theo Hilmer,game,1,1,0
 2025-04,Switch 2 Präsentation,misc,1,0,1
-2025-04,The Last of Us Part II,game,1,0,1
+2025-04,The Last of Us 2,game,1,0,1
 2025-04,South of Midnight,game,1,0,1
 2025-04,Der Dunkle Turm,film_series,1,0,1
 2025-04,One Piece,film_series,1,0,1
