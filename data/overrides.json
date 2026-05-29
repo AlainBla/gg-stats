@@ -86,7 +86,9 @@
       "The Last of Us Part II",
       "TLoU2",
       "TLou2",
-      "The Last of Us: Part II"
+      "The Last of Us: Part II",
+      "The Last of Us - Part 2",
+      "The Last of Us - Part II"
     ],
     "Microsoft Flight Simulator": [
       "Flight Simulator",
@@ -298,6 +300,56 @@
     ],
     "Orange is the New Black": [
       "Orange is the new Black"
+    ],
+    "Final Fantasy XVI": [
+      "Final Fantasy 16"
+    ],
+    "Final Fantasy VII": [
+      "Final Fantasy 7"
+    ],
+    "Final Fantasy VII Remake": [
+      "Final Fantasy 7 Remake"
+    ],
+    "Final Fantasy XIV": [
+      "Final Fantasy 14"
+    ],
+    "Final Fantasy XIV: Endwalker": [
+      "Final Fantasy 14: Endwalker"
+    ],
+    "Bravely Default II": [
+      "Bravely Default 2"
+    ],
+    "Age of Empires IV": [
+      "Age of Empires 4"
+    ],
+    "Mortal Kombat II": [
+      "Mortal Kombat 2"
+    ],
+    "Octopath Traveler II": [
+      "Octopath Traveler 2"
+    ],
+    "Battlefield V": [
+      "Battlefield 5"
+    ],
+    "Shin Megami Tensei V": [
+      "Shin Megami Tensei 5"
+    ],
+    "Dragon Quest VII": [
+      "Dragon Quest 7"
+    ],
+    "The Legend of Zelda: Tears of the Kingdom": [
+      "Zelda: Tears of the Kingdom",
+      "Tears of the Kingdom",
+      "TotK"
+    ],
+    "The Legend of Zelda: Echoes of Wisdom": [
+      "Zelda: Echoes of Wisdom",
+      "Echoes of Wisdom"
+    ],
+    "The Legend of Zelda: Breath of the Wild": [
+      "Zelda: Breath of the Wild",
+      "Breath of the Wild",
+      "BotW"
     ]
   },
   "categories": {
@@ -443,6 +495,93 @@
     "Monster Hunter World": "game",
     "The Callisto Protocol": "game",
     "Age of Mythology: Retold": "game",
-    "Life is Strange 2": "game"
+    "Life is Strange 2": "game",
+    "Elden Ring": "game",
+    "Cyberpunk 2077": "game",
+    "Cyberpunk 2077: Phantom Liberty": "game",
+    "Baldur's Gate 3": "game",
+    "Red Dead Redemption 2": "game",
+    "Hogwarts Legacy": "game",
+    "Diablo 4": "game",
+    "Death Stranding": "game",
+    "Death Stranding 2": "game",
+    "Detroit: Become Human": "game",
+    "Final Fantasy XVI": "game",
+    "Final Fantasy XIV": "game",
+    "Final Fantasy XIV: Endwalker": "game",
+    "Final Fantasy VII": "game",
+    "Final Fantasy VII Remake": "game",
+    "Fire Emblem: Three Houses": "game",
+    "Deathloop": "game",
+    "Starfield": "game",
+    "The Legend of Zelda: Tears of the Kingdom": "game",
+    "The Legend of Zelda: Echoes of Wisdom": "game",
+    "The Legend of Zelda: Breath of the Wild": "game",
+    "Alan Wake 2": "game",
+    "Psychonauts 2": "game",
+    "Astro Bot": "game",
+    "Fallout": "game",
+    "Outriders": "game",
+    "Biomutant": "game",
+    "Super Mario Bros. Wonder": "game",
+    "007: First Light": "game",
+    "Control": "game",
+    "Ori and the Will of the Wisps": "game",
+    "Mass Effect Legendary Edition": "game",
+    "Kena: Bridge of Spirits": "game",
+    "Marvel's Midnight Suns": "game",
+    "Zelda: Tears of the Kingdom": "game",
+    "Zelda: Echoes of Wisdom": "game",
+    "Crimson Desert": "game",
+    "Shadow of the Tomb Raider": "game",
+    "The Outer Worlds": "game",
+    "Saros": "game",
+    "Elite Dangerous": "game",
+    "Octopath Traveler": "game",
+    "Octopath Traveler II": "game",
+    "Bravely Default II": "game",
+    "Age of Empires IV": "game",
+    "Battlefield V": "game",
+    "Shin Megami Tensei V": "game",
+    "Dragon Quest VII": "game",
+    "Mortal Kombat II": "game",
+    "Indiana Jones und das Rad des Schicksals": "game",
+    "Spider-Man: Miles Morales": "game",
+    "Resident Evil Village": "game",
+    "Star Wars Jedi: Fallen Order": "game",
+    "System Shock Remake": "game",
+    "Life is Strange: True Colors": "game",
+    "A Plague Tale: Requiem": "game",
+    "Battletech": "game",
+    "Mario Kart World": "game",
+    "Better Call Saul Staffel 6": "film_series",
+    "House of the Dragon": "film_series",
+    "Game of Thrones": "film_series",
+    "Dune": "film_series",
+    "Dune: Part Two": "film_series",
+    "Bosch": "film_series",
+    "Stranger Things": "film_series",
+    "Stranger Things Staffel 5": "film_series",
+    "Star Trek: Discovery": "film_series",
+    "Star Wars: Ahsoka": "film_series",
+    "The Bear": "film_series",
+    "Loki": "film_series",
+    "Shogun": "film_series",
+    "Dark": "film_series",
+    "Fallout S2": "film_series",
+    "Reacher": "film_series",
+    "Brooklyn Nine-Nine": "film_series",
+    "The Last of Us Staffel 1": "film_series",
+    "Slow Horses": "film_series",
+    "Westworld": "film_series",
+    "Modern Family": "film_series",
+    "Invincible": "film_series",
+    "Severance": "film_series",
+    "Vikings Valhalla": "film_series",
+    "Altered Carbon": "film_series",
+    "Star Wars": "film_series",
+    "Napoleon": "film_series",
+    "Deadpool 2": "film_series",
+    "A Plague Tale: Innocence": "game"
   }
 }
