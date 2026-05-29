@@ -6,7 +6,7 @@ month,item_title,category,count,editor_count,user_count
 2018-01,Monster Hunter World,game,2,2,0
 2018-01,Lost Sphear,game,2,2,0
 2018-01,Die Dunkelste Stunde,film_series,1,1,0
-2018-01,Star Trek Discovery,film_series,1,1,0
+2018-01,Star Trek: Discovery,film_series,2,1,1
 2018-01,I Am Setsuna,game,1,1,0
 2018-01,Monster Hunter - World,game,1,1,0
 2018-01,Wochenshow,film_series,1,1,0
@@ -33,7 +33,6 @@ month,item_title,category,count,editor_count,user_count
 2018-01,NFL Playoffs,misc,1,0,1
 2018-01,Final Fantasy XIV,game,1,0,1
 2018-01,Stranger Things,film_series,1,0,1
-2018-01,Star Trek: Discovery,film_series,1,0,1
 2018-01,Die dunkelste Stunde,film_series,2,0,2
 2018-01,Assassin's Creed: Origins,game,2,0,2
 2018-01,Star Wars: Die letzten Jedi,film_series,1,0,1
@@ -506,12 +505,11 @@ month,item_title,category,count,editor_count,user_count
 2019-02,Alita: Battle Angel,film_series,4,1,3
 2019-02,Neuromancer-,misc,1,1,0
 2019-02,William Gibson,misc,1,1,0
-2019-02,Star Trek Discovery,film_series,1,1,0
+2019-02,Star Trek: Discovery,film_series,4,1,3
 2019-02,The Punisher.,film_series,1,1,0
 2019-02,Es war einmal ein Deadpool,film_series,1,1,0
 2019-02,Civilization VI: Gathering Storm,game,3,0,3
 2019-02,Wargroove,game,1,0,1
-2019-02,Star Trek: Discovery,film_series,3,0,3
 2019-02,Etrian Odyssey Nexus,game,1,0,1
 2019-02,Dirt Rally 2.0,game,1,0,1
 2019-02,Bordertown Staffel 2,film_series,1,0,1
@@ -1446,7 +1444,7 @@ month,item_title,category,count,editor_count,user_count
 2021-02,Differently Morphous,misc,1,1,0
 2021-02,Will Destroy the Galaxy for Cash,misc,1,1,0
 2021-02,The Haunting of Hill House,misc,1,1,0
-2021-02,Star Trek Lower Decks,film_series,1,1,0
+2021-02,Star Trek: Lower Decks,film_series,1,1,0
 2021-02,Lupin,film_series,1,1,0
 2021-02,Wanda Vision,film_series,1,1,0
 2021-02,World of Warcraft Classic,game,1,1,0
@@ -2923,7 +2921,7 @@ month,item_title,category,count,editor_count,user_count
 2023-02,Company of Heroes 3,game,3,2,1
 2023-02,Like A Dragon – Ishin!,game,1,1,0
 2023-02,PSVR2,misc,1,1,0
-2023-02,Star Trek Picard,film_series,1,1,0
+2023-02,Star Trek: Picard Staffel 3,film_series,3,1,2
 2023-02,For all Mankind,film_series,1,1,0
 2023-02,Elder Scrolls,game,1,1,0
 2023-02,Industries of Titan,game,1,1,0
@@ -2972,7 +2970,6 @@ month,item_title,category,count,editor_count,user_count
 2023-02,Blood Bowl 3,game,1,0,1
 2023-02,Hi-Fi Rush,game,3,0,3
 2023-02,Ant-Man and the Wasp: Quantumania,film_series,1,0,1
-2023-02,Star Trek: Picard Staffel 3,film_series,2,0,2
 2023-02,Carnival Row Staffel 2,film_series,1,0,1
 2023-02,Dead Space Remake,game,1,0,1
 2023-02,Super Bowl,misc,1,0,1
