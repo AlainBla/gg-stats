@@ -152,6 +152,11 @@
       "GTA-Trilogy",
       "GTA: The Trilogy – The Definitive Edition",
       "Grand Theft Auto Trilogy"
+    ],
+    "Der Astronaut - Project Hail Mary": [
+      "Der Astronaut",
+      "Project Hail Mary",
+      "Der Astronaut (Project Hail Mary)"
     ]
   },
   "categories": {
@@ -234,6 +239,7 @@
     "Grand Theft Auto IV": "game",
     "Grand Theft Auto: The Trilogy": "game",
     "Doom": "game",
-    "Doom Eternal": "game"
+    "Doom Eternal": "game",
+    "Der Astronaut - Project Hail Mary": "film_series"
   }
 }
