@@ -375,11 +375,11 @@
               afterLabel: (ctx) => {
                 const all = mentioners[ctx.dataIndex];
                 if (!all || all.length === 0) return '';
-                const prefix = ctx.dataset.label === 'Redakteure' ? 'editor:'
-                             : ctx.dataset.label === 'User'       ? 'user:'
-                             : null;
-                const list = prefix ? all.filter(m => m.startsWith(prefix)) : all;
-                return list.map(formatMentioner).join('\n');
+                const editors = all.filter(m => m.startsWith('editor:'));
+                const userCount = all.filter(m => m.startsWith('user:')).length;
+                const lines = editors.map(formatMentioner);
+                if (userCount > 0) lines.push(`+${userCount} User`);
+                return lines.join('\n');
               },
             },
           },
