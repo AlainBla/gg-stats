@@ -462,9 +462,9 @@
       "Oblivion Remastered",
       "TES IV: Oblivion"
     ],
-    "007: First Light": [
+    "007 Dying Light": [
+      "007: First Light",
       "007 - First Light",
-      "007 Dying Light",
       "007 - Dying Light"
     ]
   },
@@ -640,7 +640,6 @@
     "Outriders": "game",
     "Biomutant": "game",
     "Super Mario Bros. Wonder": "game",
-    "007: First Light": "game",
     "Control": "game",
     "Ori and the Will of the Wisps": "game",
     "Mass Effect Legendary Edition": "game",
@@ -876,6 +875,7 @@
     "Battletech Extended": "game",
     "The Elder Scrolls IV: Oblivion": "game",
     "Diablo Immortal": "game",
-    "Commandos": "game"
+    "Commandos": "game",
+    "007 Dying Light": "game"
   }
 }
