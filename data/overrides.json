@@ -449,6 +449,18 @@
       "LOL Staffel 7",
       "LOL Staffel 8",
       "LOL Staffel 9"
+    ],
+    "Sekiro: Shadows Die Twice": [
+      "Sekiro"
+    ],
+    "Hunt: Showdown": [
+      "Hunt - Showdown",
+      "Hunt Showdown"
+    ],
+    "The Elder Scrolls IV: Oblivion": [
+      "Oblivion",
+      "Oblivion Remastered",
+      "TES IV: Oblivion"
     ]
   },
   "categories": {
@@ -847,6 +859,18 @@
     "John Wick: Chapter 4": "film_series",
     "The Legend of Zelda: Skyward Sword HD": "game",
     "Advance Wars 1+2 Re-Boot Camp": "game",
-    "LOL: Last One Laughing": "film_series"
+    "LOL: Last One Laughing": "film_series",
+    "Clair Obscur: Expedition 33": "game",
+    "Sekiro: Shadows Die Twice": "game",
+    "Hunt: Showdown": "game",
+    "Phantom Doctrine": "game",
+    "Dreams": "game",
+    "Greedfall": "game",
+    "Blacksad: Under the Skin": "game",
+    "Star Trek: Resurgence": "game",
+    "Battletech Extended": "game",
+    "The Elder Scrolls IV: Oblivion": "game",
+    "Diablo Immortal": "game",
+    "Commandos": "game"
   }
 }

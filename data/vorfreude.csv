@@ -532,7 +532,7 @@ month,item_title,category,count,editor_count,user_count
 2019-03,True Detective Staffel 3 Finale,film_series,1,0,1
 2019-03,Devil May Cry 5,game,4,0,4
 2019-03,Captain Marvel,film_series,3,0,3
-2019-03,Sekiro,game,2,0,2
+2019-03,Sekiro: Shadows Die Twice,game,2,0,2
 2019-03,Skifliegen in Vikersund und Planica,misc,1,0,1
 2019-03,Formel-1-Saison,misc,1,0,1
 2019-03,Vikings letzte Staffel,film_series,1,0,1
@@ -543,7 +543,7 @@ month,item_title,category,count,editor_count,user_count
 2019-03,Iron Sky 2,film_series,1,0,1
 2019-04,"Love, Death & Robots",film_series,2,1,1
 2019-04,Avengers: Endgame,film_series,9,3,6
-2019-04,Sekiro,game,1,1,0
+2019-04,Sekiro: Shadows Die Twice,game,1,1,0
 2019-04,Days Gone,game,7,4,3
 2019-04,Rise of the Northstar,misc,1,1,0
 2019-04,MC Fitti,misc,1,1,0
@@ -689,7 +689,7 @@ month,item_title,category,count,editor_count,user_count
 2019-08,The Inpatient,game,1,1,0
 2019-08,I am Mother,film_series,1,1,0
 2019-08,Max Payne,game,1,1,0
-2019-08,Hunt - Showdown,game,1,1,0
+2019-08,Hunt: Showdown,game,1,1,0
 2019-08,Rom,misc,1,1,0
 2019-08,Simon Scarrow,misc,1,1,0
 2019-08,Der dunkle Kristall: Ära des Widerstands,film_series,1,1,0
@@ -1068,7 +1068,7 @@ month,item_title,category,count,editor_count,user_count
 2020-04,Dai Sato,film_series,1,1,0
 2020-04,Ghost in the Shell - Stand Alone Complex,film_series,1,1,0
 2020-04,Fire Emblem: Three Houses,game,1,1,0
-2020-04,Hunt - Showdown,game,1,1,0
+2020-04,Hunt: Showdown,game,1,1,0
 2020-04,Remake,game,1,1,0
 2020-04,Gears Tactics,game,1,1,0
 2020-04,Agent Carter,game,1,1,0
@@ -1552,7 +1552,7 @@ month,item_title,category,count,editor_count,user_count
 2021-02,BlizzCon Online,misc,1,1,0
 2021-02,World of Warcraft: Shadowlands,misc,1,1,0
 2021-02,Diablo 4,game,1,1,0
-2021-02,Diablo Immortal,misc,1,1,0
+2021-02,Diablo Immortal,game,1,1,0
 2021-02,Hearthstone,misc,1,1,0
 2021-02,Super Mario 3D World + Bowser's Fury,game,2,0,2
 2021-02,Australian Open,misc,1,0,1
@@ -1686,7 +1686,7 @@ month,item_title,category,count,editor_count,user_count
 2021-04,WoW Burning Crusade Classic,game,1,1,0
 2021-04,The Elder Scrolls Online,game,1,1,0
 2021-04,Blackwood,misc,1,1,0
-2021-04,Oblivion,game,1,1,0
+2021-04,The Elder Scrolls IV: Oblivion,game,1,1,0
 2021-04,Zack Snyder,film_series,1,1,0
 2021-04,The Falcon and the Winter Soldier,film_series,2,1,1
 2021-04,SaGa Frontier Remastered,game,1,1,0
@@ -1739,7 +1739,7 @@ month,item_title,category,count,editor_count,user_count
 2021-05,Resident Evil 5,game,1,1,0
 2021-05,Castlevania,film_series,1,1,0
 2021-05,Hood - Outlaws & Legends,game,1,1,0
-2021-05,Hunt - Showdown,game,1,1,0
+2021-05,Hunt: Showdown,game,1,1,0
 2021-05,NieR Replicant,game,1,1,0
 2021-05,Silent Hill,game,1,1,0
 2021-05,Akira Yamaoka,game,1,1,0
@@ -1819,7 +1819,7 @@ month,item_title,category,count,editor_count,user_count
 2021-06,Loki,film_series,5,2,3
 2021-06,World of Warcraft: Burning Crusade Classic,game,1,1,0
 2021-06,The Elder Scrolls Online: Blackwood,game,1,1,0
-2021-06,Oblivion,game,1,1,0
+2021-06,The Elder Scrolls IV: Oblivion,game,1,1,0
 2021-06,Edge of Eternity,game,1,1,0
 2021-06,Yasunori Mitsuda,game,1,1,0
 2021-06,Chrono Trigger,game,1,1,0
@@ -2130,7 +2130,7 @@ month,item_title,category,count,editor_count,user_count
 2021-11,Arcane,film_series,1,1,0
 2021-11,League of Legends,film_series,1,1,0
 2021-11,Star Trek: Discovery,film_series,1,1,0
-2021-11,Oblivion,game,1,1,0
+2021-11,The Elder Scrolls IV: Oblivion,game,1,1,0
 2021-11,Deadlands,game,1,1,0
 2021-11,The Elder Scrolls Online,game,1,1,0
 2021-11,Endwalker,game,1,1,0
@@ -2703,7 +2703,7 @@ month,item_title,category,count,editor_count,user_count
 2022-08,Tony Hawk’s Pro Skater 1+2,game,1,1,0
 2022-08,Hospital,game,1,1,0
 2022-08,Farthest Frontier,game,1,1,0
-2022-08,Sekiro,game,1,1,0
+2022-08,Sekiro: Shadows Die Twice,game,1,1,0
 2022-08,THQ Nordic Digital Showcase,misc,1,1,0
 2022-08,QuakeCon,misc,1,1,0
 2022-08,Game of Thrones,film_series,1,1,0
@@ -4851,11 +4851,11 @@ month,item_title,category,count,editor_count,user_count
 2025-10,Tactics Ogre: Reborn,game,1,1,0
 2025-10,Battle Brothers,game,1,1,0
 2025-10,Menace,game,1,1,0
-2025-10,Battletech Extended,misc,1,1,0
+2025-10,Battletech Extended,game,1,1,0
 2025-10,Amiga 40,misc,1,1,0
 2025-10,One-Punch Man,film_series,1,1,0
 2025-10,Battlefield 6,game,1,1,0
-2025-10,Hunt - Showdown,game,1,1,0
+2025-10,Hunt: Showdown,game,1,1,0
 2025-10,Tormented Souls 2,game,1,1,0
 2025-10,Absolum,game,1,1,0
 2025-10,Daimon Blades,game,1,1,0
@@ -5402,17 +5402,16 @@ month,item_title,category,count,editor_count,user_count
 2026-05,Shadow of the Colossus,game,1,1,0
 2026-05,Nürnberg,film_series,1,1,0
 2026-05,Rami Malek,film_series,1,1,0
-2026-05,Mortal Kombat 2,film_series,2,2,0
+2026-05,Mortal Kombat II,game,3,3,0
 2026-05,Karl Urban,film_series,1,1,0
 2026-05,Directive 8020,game,2,2,0
 2026-05,007 - First Light,game,3,3,0
 2026-05,Hitman,game,1,1,0
 2026-05,Kane & Lynch 2,game,1,1,0
-2026-05,Mortal Kombat II,film_series,1,1,0
 2026-05,The Punisher: One Last Kill,film_series,1,1,0
 2026-05,Fist of the North Star,film_series,1,1,0
 2026-05,Nicolas Cage,film_series,1,1,0
-2026-05,Spider-Noir,film_series,1,1,0
+2026-05,Spider-Man Noir,film_series,1,1,0
 2026-05,Spider-Verse,film_series,1,1,0
 2026-05,Humphrey Bogart,film_series,1,1,0
 2026-05,Jodie Foster,film_series,1,1,0
@@ -5439,7 +5438,7 @@ month,item_title,category,count,editor_count,user_count
 2026-05,Der Astronaut - Project Hail Mary,film_series,1,1,0
 2026-05,Glennkill: Ein Schafskrimi,film_series,1,1,0
 2026-05,Leonie Swann,film_series,1,1,0
-2026-05,Stranger Things,game,1,1,0
+2026-05,Stranger Things,film_series,1,1,0
 2026-05,Forza Horizon,game,1,1,0
 2026-05,Forza Horizon 4,game,1,1,0
 2026-05,Forza Horizon 6,game,1,1,0
