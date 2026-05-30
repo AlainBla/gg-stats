@@ -5392,34 +5392,35 @@ month,item_title,category,count,editor_count,user_count
 2026-04,How to Make a Killing,film_series,1,0,1
 2026-05,The Boroughs,film_series,1,1,0
 2026-05,Cocoon,film_series,1,1,0
-2026-05,Battlestar Galactica – Scattered Hopes,game,2,1,1
+2026-05,Battlestar Galactica – Scattered Hopes,game,1,1,0
 2026-05,007 Dying Light,game,1,1,0
-2026-05,Saros,game,5,1,4
-2026-05,Witch Hat Atelier,film_series,4,1,3
+2026-05,Saros,game,1,1,0
+2026-05,Witch Hat Atelier,film_series,1,1,0
 2026-05,"Inkonbini - One Store, Many Stories",game,1,1,0
 2026-05,Motor Slice,game,1,1,0
 2026-05,Prince of Persia,game,1,1,0
 2026-05,Shadow of the Colossus,game,1,1,0
-2026-05,Nürnberg,film_series,2,1,1
+2026-05,Nürnberg,film_series,1,1,0
 2026-05,Rami Malek,film_series,1,1,0
-2026-05,Mortal Kombat II,game,6,3,3
+2026-05,Mortal Kombat 2,film_series,2,2,0
 2026-05,Karl Urban,film_series,1,1,0
-2026-05,Directive 8020,game,4,2,2
-2026-05,007: First Light,game,11,3,8
+2026-05,Directive 8020,game,2,2,0
+2026-05,007 - First Light,game,3,3,0
 2026-05,Hitman,game,1,1,0
 2026-05,Kane & Lynch 2,game,1,1,0
+2026-05,Mortal Kombat II,film_series,1,1,0
 2026-05,The Punisher: One Last Kill,film_series,1,1,0
 2026-05,Fist of the North Star,film_series,1,1,0
 2026-05,Nicolas Cage,film_series,1,1,0
-2026-05,Spider-Man Noir,film_series,5,1,4
+2026-05,Spider-Noir,film_series,1,1,0
 2026-05,Spider-Verse,film_series,1,1,0
 2026-05,Humphrey Bogart,film_series,1,1,0
 2026-05,Jodie Foster,film_series,1,1,0
 2026-05,Paris Murder Mystery,film_series,1,1,0
 2026-05,007 - Dying Light,game,1,1,0
-2026-05,Lego Batman: Legacy of the Dark Knight,game,3,1,2
+2026-05,Lego Batman - Legacy of the Dark Knight,game,1,1,0
 2026-05,Elden Ring,game,1,1,0
-2026-05,The Mandalorian & Grogu,film_series,6,1,5
+2026-05,The Mandalorian & Grogu,film_series,1,1,0
 2026-05,William Goldings,film_series,1,1,0
 2026-05,Herr der Fliegen,film_series,1,1,0
 2026-05,wie Tom Clancy’s Jack Ryan: Ghost War,film_series,1,1,0
@@ -5428,7 +5429,7 @@ month,item_title,category,count,editor_count,user_count
 2026-05,One Last Kill,film_series,1,1,0
 2026-05,Wandering Sword,game,1,1,0
 2026-05,Kirby und das vergessene Land,game,1,1,0
-2026-05,Yoshi and the Mysterious Book,game,3,1,2
+2026-05,Yoshi and the Mysterious Book,game,1,1,0
 2026-05,Nitro Gen Omega,game,1,1,0
 2026-05,Nimitz Class,misc,1,1,0
 2026-05,Kilo Class,misc,1,1,0
@@ -5438,56 +5439,8 @@ month,item_title,category,count,editor_count,user_count
 2026-05,Der Astronaut - Project Hail Mary,film_series,1,1,0
 2026-05,Glennkill: Ein Schafskrimi,film_series,1,1,0
 2026-05,Leonie Swann,film_series,1,1,0
-2026-05,Stranger Things,film_series,1,1,0
+2026-05,Stranger Things,game,1,1,0
 2026-05,Forza Horizon,game,1,1,0
 2026-05,Forza Horizon 4,game,1,1,0
-2026-05,Forza Horizon 6,game,5,1,4
+2026-05,Forza Horizon 6,game,1,1,0
 2026-05,Dokomi,misc,1,1,0
-2026-05,Zero Parades,game,2,0,2
-2026-05,The Last Contract of Isako,misc,1,0,1
-2026-05,Shogun,film_series,1,0,1
-2026-05,Fallout S2,film_series,1,0,1
-2026-05,Will: Follow the Light,game,1,0,1
-2026-05,Pragmata,game,2,0,2
-2026-05,Retrotink 4K Pro,misc,1,0,1
-2026-05,Kill Bill Final Cut,film_series,1,0,1
-2026-05,Daredevil: Born Again,film_series,1,0,1
-2026-05,Euphoria Staffel 3,film_series,1,0,1
-2026-05,The Boys Staffel 5,film_series,1,0,1
-2026-05,From Staffel 4,film_series,1,0,1
-2026-05,Crooks Staffel 2,film_series,2,0,2
-2026-05,Rick & Morty Staffel 9,film_series,1,0,1
-2026-05,Das Spiel (Stephen King),misc,1,0,1
-2026-05,LOL Staffel 7,film_series,1,0,1
-2026-05,Ted - Die Serie,film_series,1,0,1
-2026-05,The Punisher Special,film_series,2,0,2
-2026-05,The Boys,film_series,1,0,1
-2026-05,French Open,misc,1,0,1
-2026-05,Modern Naval Warfare,game,1,0,1
-2026-05,Got Five,game,1,0,1
-2026-05,Galactic Cruise,game,1,0,1
-2026-05,Das Geisterhaus,film_series,1,0,1
-2026-05,Michael,film_series,1,0,1
-2026-05,The Black Phone 2,film_series,1,0,1
-2026-05,The Strangers: Chapter 2,film_series,1,0,1
-2026-05,Outer Wilds,game,1,0,1
-2026-05,Age of Empires 4 DLC,game,1,0,1
-2026-05,Age of Mythology Retold DLC,game,1,0,1
-2026-05,Re:Zero (neue Staffel),film_series,1,0,1
-2026-05,Microsoft Flight Simulator (PSVR2),game,1,0,1
-2026-05,Mixtape,game,1,0,1
-2026-05,F1 (Monaco/Kanada),misc,1,0,1
-2026-05,Slow Horses,film_series,1,0,1
-2026-05,For All Mankind,film_series,1,0,1
-2026-05,Strange New Worlds Staffel 3,film_series,1,0,1
-2026-05,Craftlings,game,1,0,1
-2026-05,Industria 2,game,1,0,1
-2026-05,Coffee Talk: Tokyo,game,1,0,1
-2026-05,The Remake of the End of the Greatest RPG of All Time,game,1,0,1
-2026-05,Titanium Court,game,1,0,1
-2026-05,Strange New Worlds Staffel 4,film_series,1,0,1
-2026-05,Mina the Hollower,game,1,0,1
-2026-05,Causal Loop,game,1,0,1
-2026-05,Elementalis,game,1,0,1
-2026-05,The Boys (letzte Staffel),film_series,1,0,1
-2026-05,24h Nürburgring,misc,1,0,1

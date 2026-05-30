@@ -437,6 +437,18 @@
     ],
     "Advance Wars 1+2 Re-Boot Camp": [
       "Advance Wars 1+2 Re-Boot-Camp"
+    ],
+    "LOL: Last One Laughing": [
+      "LOL",
+      "LOL Staffel 1",
+      "LOL Staffel 2",
+      "LOL Staffel 3",
+      "LOL Staffel 4",
+      "LOL Staffel 5",
+      "LOL Staffel 6",
+      "LOL Staffel 7",
+      "LOL Staffel 8",
+      "LOL Staffel 9"
     ]
   },
   "categories": {
@@ -834,6 +846,7 @@
     "Call of Duty: Vanguard": "game",
     "John Wick: Chapter 4": "film_series",
     "The Legend of Zelda: Skyward Sword HD": "game",
-    "Advance Wars 1+2 Re-Boot Camp": "game"
+    "Advance Wars 1+2 Re-Boot Camp": "game",
+    "LOL: Last One Laughing": "film_series"
   }
 }
