@@ -93824,7 +93824,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-06-02T18:39:54Z",
+    "last_updated": "2026-06-02T18:41:37Z",
     "comment_count": 66,
     "editors": [
       {
@@ -94589,7 +94589,7 @@
     "month": "2026-06",
     "url": "/news/345475/darauf-freut-sich-die-redaktion-im-juni-2026",
     "title": "Darauf freut sich die Redaktion im... Juni 2026",
-    "last_updated": "2026-06-02T18:39:54Z",
+    "last_updated": "2026-06-02T18:41:36Z",
     "comment_count": 10,
     "editors": [
       {
@@ -94604,7 +94604,7 @@
             "category": "game"
           },
           {
-            "title": "007 First Light",
+            "title": "007: First Light",
             "category": "game"
           }
         ]
@@ -94854,7 +94854,126 @@
         "text": "Ich hoffe, dass Zverev zum ersten Mal ein Grand Slam Turnier gewinnt diesen Monat. Bei der Fußball WM hoffe ich auf einen Gruppensieg Deutschlands, die letzten beiden WM-Turniere waren ziemlich peinlich.\nIn puncto Spielen freue ich mich, dass Nintendo endlich Donkey Kong 64 seinem Online-Abo hinzufügt am 4. Juni. Den Titel habe ich zu Weihnachten 1999 geschenkt bekommen und mit viel Freude durchgespielt. Ansonsten möchte ich 007 First Light, Pragmata und Directive 8020 zu Ende spielen."
       }
     ],
-    "user_items": [],
+    "user_items": [
+      {
+        "username": "Hannes Herrmann",
+        "items": [
+          {
+            "title": "Gothic Remake",
+            "category": "game"
+          },
+          {
+            "title": "Masters of the Universe",
+            "category": "film_series"
+          },
+          {
+            "title": "Path of Exile",
+            "category": "game"
+          },
+          {
+            "title": "Saros",
+            "category": "game"
+          },
+          {
+            "title": "Mina the Hollower",
+            "category": "game"
+          },
+          {
+            "title": "Hime's Quest",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Klexter",
+        "items": [
+          {
+            "title": "Grand Theft Auto VI",
+            "category": "game"
+          },
+          {
+            "title": "Gothic Remake",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sathorien",
+        "items": [
+          {
+            "title": "007: First Light",
+            "category": "game"
+          },
+          {
+            "title": "Pragmata",
+            "category": "game"
+          },
+          {
+            "title": "Marathon",
+            "category": "game"
+          },
+          {
+            "title": "Gothic Remake",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "Clarkson's Farm Staffel 5",
+            "category": "film_series"
+          },
+          {
+            "title": "House of the Dragon Staffel 3",
+            "category": "film_series"
+          },
+          {
+            "title": "007: First Light",
+            "category": "game"
+          },
+          {
+            "title": "Forza Horizon 6",
+            "category": "game"
+          },
+          {
+            "title": "F1 2026",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "Fatekeeper",
+            "category": "game"
+          },
+          {
+            "title": "Gothic Remake",
+            "category": "game"
+          },
+          {
+            "title": "The Adventures of Elliot - The Millennium Tales",
+            "category": "game"
+          },
+          {
+            "title": "Stargate SG-1",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Desotho",
+        "items": [
+          {
+            "title": "Clarkson's Farm",
+            "category": "film_series"
+          }
+        ]
+      }
+    ],
     "item_stats": {
       "Euphoria": {
         "count": 1,
@@ -94864,21 +94983,27 @@
         ]
       },
       "Gothic Remake": {
-        "count": 5,
+        "count": 9,
         "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
           "editor:christian_burtchen",
           "editor:hagen_gehritz",
           "editor:jens_bremicker",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:Hannes Herrmann",
+          "user:Klexter",
+          "user:Sathorien",
+          "user:Sokar"
         ]
       },
-      "007 First Light": {
-        "count": 1,
+      "007: First Light": {
+        "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:Crizzo",
+          "user:Sathorien"
         ]
       },
       "Passenger": {
@@ -94889,10 +95014,11 @@
         ]
       },
       "Mina the Hollower": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "user:Hannes Herrmann"
         ]
       },
       "Link's Awakening": {
@@ -94973,12 +95099,13 @@
         ]
       },
       "Masters of the Universe": {
-        "count": 3,
+        "count": 4,
         "category": "film_series",
         "mentioners": [
           "editor:christian_burtchen",
           "editor:kai_schmidt",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Hannes Herrmann"
         ]
       },
       "Clarkson’s Farm": {
@@ -95060,11 +95187,12 @@
         ]
       },
       "The Adventures of Elliot - The Millennium Tales": {
-        "count": 2,
+        "count": 3,
         "category": "game",
         "mentioners": [
           "editor:jens_bremicker",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Sokar"
         ]
       },
       "The Furious": {
@@ -95135,6 +95263,97 @@
         "category": "game",
         "mentioners": [
           "editor:jens_bremicker"
+        ]
+      },
+      "Path of Exile": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Saros": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Hime's Quest": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hannes Herrmann"
+        ]
+      },
+      "Grand Theft Auto VI": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Klexter"
+        ]
+      },
+      "Pragmata": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sathorien"
+        ]
+      },
+      "Marathon": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sathorien"
+        ]
+      },
+      "Clarkson's Farm Staffel 5": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "House of the Dragon Staffel 3": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Forza Horizon 6": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "F1 2026": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Fatekeeper": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Stargate SG-1": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Clarkson's Farm": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Desotho"
         ]
       }
     }

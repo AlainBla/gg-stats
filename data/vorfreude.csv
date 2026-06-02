@@ -5441,10 +5441,10 @@ month,item_title,category,count,editor_count,user_count
 2026-05,Forza Horizon 6,game,1,1,0
 2026-05,Dokomi,misc,1,1,0
 2026-06,Euphoria,film_series,1,1,0
-2026-06,Gothic Remake,game,5,5,0
-2026-06,007 First Light,game,1,1,0
+2026-06,Gothic Remake,game,9,5,4
+2026-06,007: First Light,game,3,1,2
 2026-06,Passenger,film_series,1,1,0
-2026-06,Mina the Hollower,game,1,1,0
+2026-06,Mina the Hollower,game,2,1,1
 2026-06,Link's Awakening,game,1,1,0
 2026-06,Mystic Quest,game,1,1,0
 2026-06,Denshattack,game,1,1,0
@@ -5456,7 +5456,7 @@ month,item_title,category,count,editor_count,user_count
 2026-06,Gothic,game,1,1,0
 2026-06,UFC 6,game,1,1,0
 2026-06,Julian Nagelsmann,misc,1,1,0
-2026-06,Masters of the Universe,film_series,3,3,0
+2026-06,Masters of the Universe,film_series,4,3,1
 2026-06,Clarkson’s Farm,film_series,1,1,0
 2026-06,Star Fox,game,2,2,0
 2026-06,Frank Millers,misc,1,1,0
@@ -5468,7 +5468,7 @@ month,item_title,category,count,editor_count,user_count
 2026-06,Milly Alcock,film_series,1,1,0
 2026-06,Supergirl,film_series,1,1,0
 2026-06,The Legend of Vox Machina,film_series,1,1,0
-2026-06,The Adventures of Elliot - The Millennium Tales,game,2,2,0
+2026-06,The Adventures of Elliot - The Millennium Tales,game,3,2,1
 2026-06,The Furious,film_series,1,1,0
 2026-06,The Raid,film_series,1,1,0
 2026-06,Joe Taslim,film_series,1,1,0
@@ -5479,3 +5479,16 @@ month,item_title,category,count,editor_count,user_count
 2026-06,Clockwork Revolution,game,1,1,0
 2026-06,Intergalactic - The Heretic Prophet,game,1,1,0
 2026-06,The Duskbloods,game,1,1,0
+2026-06,Path of Exile,game,1,0,1
+2026-06,Saros,game,1,0,1
+2026-06,Hime's Quest,game,1,0,1
+2026-06,Grand Theft Auto VI,game,1,0,1
+2026-06,Pragmata,game,1,0,1
+2026-06,Marathon,game,1,0,1
+2026-06,Clarkson's Farm Staffel 5,film_series,1,0,1
+2026-06,House of the Dragon Staffel 3,film_series,1,0,1
+2026-06,Forza Horizon 6,game,1,0,1
+2026-06,F1 2026,game,1,0,1
+2026-06,Fatekeeper,game,1,0,1
+2026-06,Stargate SG-1,film_series,1,0,1
+2026-06,Clarkson's Farm,film_series,1,0,1
