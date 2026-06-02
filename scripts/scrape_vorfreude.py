@@ -554,10 +554,10 @@ def _scrape_article(url: str, existing_entry: dict | None, enrich: bool, api_key
         print(f"    parsed {len(editors)} editors, {comment_count} comments", flush=True)
 
     # Always preserve manually entered user_items — never wipe them on comment count changes
+    # comments_raw always uses the freshly parsed version so new comments are captured
     user_items = existing_entry.get("user_items", []) if existing_entry else []
     if user_items:
         reuse_user_items = True
-        comments_raw = existing_entry.get("comments_raw", comments_raw)
 
     # LLM enrichment — skip when comment count is unchanged and user_items already exist
     if enrich and comments_raw and not reuse_user_items:

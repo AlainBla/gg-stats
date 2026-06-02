@@ -93824,7 +93824,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-06-02T18:48:22Z",
+    "last_updated": "2026-06-02T19:31:15Z",
     "comment_count": 66,
     "editors": [
       {
@@ -94589,7 +94589,7 @@
     "month": "2026-06",
     "url": "/news/345475/darauf-freut-sich-die-redaktion-im-juni-2026",
     "title": "Darauf freut sich die Redaktion im... Juni 2026",
-    "last_updated": "2026-06-02T18:48:22Z",
+    "last_updated": "2026-06-02T19:31:14Z",
     "comment_count": 11,
     "editors": [
       {
@@ -94852,6 +94852,10 @@
       {
         "username": "Green Yoshi",
         "text": "Ich hoffe, dass Zverev zum ersten Mal ein Grand Slam Turnier gewinnt diesen Monat. Bei der Fußball WM hoffe ich auf einen Gruppensieg Deutschlands, die letzten beiden WM-Turniere waren ziemlich peinlich.\nIn puncto Spielen freue ich mich, dass Nintendo endlich Donkey Kong 64 seinem Online-Abo hinzufügt am 4. Juni. Den Titel habe ich zu Weihnachten 1999 geschenkt bekommen und mit viel Freude durchgespielt. Ansonsten möchte ich 007 First Light, Pragmata und Directive 8020 zu Ende spielen."
+      },
+      {
+        "username": "Alain",
+        "text": "# FILME/SERIEN\n- Wir haben Slow Horses beendet. Gut - aber auch nicht gerade herausragend. Andere Staffeln waren besser. Nun stehen wir vor der Wahl evtl. das Scrubs Reboot anzugehen. Man on the Inside Staffel 2 steht aber auch auf der Liste, sowie ein paar weitere Filme auf Netflix. Noch haben wir uns auf nichts commited.\n- Die LOL Staffel 7 ist bei uns in den letzten Zügen und... entweder hat sich das Format bereits kräftig abgenutzt, oder ich mag es nicht mehr so sehr. Aktuell drücke ich Max Giermann die Daumen.\n- Ich bin inzwischen bei der Serie Utopia Staffel 1 gelandet. Was für ein Fiebertraum! Jaja, 12 Jahre alt, aber wow...\n# SPIELE/BRETTSPIELE\n- Ich hab den JRPG-UrOpa \"Lunar - The Silver Star Remake\" auf der PS angefangen und es macht verdammt Spaß. Wird definitiv weiter gespielt.\n- Titanium Court macht auch sehr viel Spaß ist und ist ein absoluter Fiebertraum vom einem Spiel.\n- \"The Remake of the End of the Greatest RPG of All Time\" ist DAAAAAAAA. Erstes Vorfazit - ja, ganz cool, aber kein Brecher.\n- Ich haben vor einen Monat den GamePass wieder zu reaktivieren, um dann Mixtape, Call of the Elder Gods, Aphelion und Replaced mindestens anzuspielen. Und vielleicht reicht die Zeit noch für inKONBINI.\n# SONSTIGES\n- Die Playstation 5 überhitzt immer häufiger - die muss wohl leider in die Reparatur... Was meine Spielepläne etwas behindert. Tss\n- Das Graspop ruft!\n- mit scripten die Themen hier etwas auswerten: https://alainbla.github.io/gg-stats/vorfreude.html"
       }
     ],
     "user_items": [
@@ -94993,6 +94997,51 @@
             "category": "game"
           }
         ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "LOL: Last One Laughing",
+            "category": "film_series"
+          },
+          {
+            "title": "Man on the Inside Staffel 2",
+            "category": "film_series"
+          },
+          {
+            "title": "Utopia Staffel 1",
+            "category": "film_series"
+          },
+          {
+            "title": "Lunar: The Silver Star Remake",
+            "category": "game"
+          },
+          {
+            "title": "Titanium Court",
+            "category": "game"
+          },
+          {
+            "title": "Mixtape",
+            "category": "game"
+          },
+          {
+            "title": "Call of the Elder Gods",
+            "category": "game"
+          },
+          {
+            "title": "Aphelion",
+            "category": "game"
+          },
+          {
+            "title": "Replaced",
+            "category": "game"
+          },
+          {
+            "title": "inKONBINI",
+            "category": "game"
+          }
+        ]
       }
     ],
     "item_stats": {
@@ -95007,11 +95056,11 @@
         "count": 9,
         "category": "game",
         "mentioners": [
+          "editor:jörg_langer",
+          "editor:hagen_gehritz",
           "editor:benjamin_braun",
           "editor:christian_burtchen",
-          "editor:hagen_gehritz",
           "editor:jens_bremicker",
-          "editor:jörg_langer",
           "user:Hannes Herrmann",
           "user:Klexter",
           "user:Sathorien",
@@ -95023,9 +95072,9 @@
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
+          "user:Sathorien",
           "user:Crizzo",
-          "user:Green Yoshi",
-          "user:Sathorien"
+          "user:Green Yoshi"
         ]
       },
       "Passenger": {
@@ -95124,8 +95173,8 @@
         "count": 4,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen",
           "editor:kai_schmidt",
+          "editor:christian_burtchen",
           "editor:michael_hengst",
           "user:Hannes Herrmann"
         ]
@@ -95212,8 +95261,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:jens_bremicker",
           "editor:michael_hengst",
+          "editor:jens_bremicker",
           "user:Sokar"
         ]
       },
@@ -95319,8 +95368,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Green Yoshi",
-          "user:Sathorien"
+          "user:Sathorien",
+          "user:Green Yoshi"
         ]
       },
       "Marathon": {
@@ -95385,6 +95434,76 @@
         "category": "game",
         "mentioners": [
           "user:Green Yoshi"
+        ]
+      },
+      "LOL: Last One Laughing": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Man on the Inside Staffel 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Utopia Staffel 1": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Lunar: The Silver Star Remake": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Titanium Court": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Mixtape": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Call of the Elder Gods": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Aphelion": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Replaced": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "inKONBINI": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
         ]
       }
     }
