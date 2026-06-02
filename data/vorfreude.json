@@ -93824,7 +93824,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-06-02T19:45:00Z",
+    "last_updated": "2026-06-02T20:21:32Z",
     "comment_count": 66,
     "editors": [
       {
@@ -94589,8 +94589,8 @@
     "month": "2026-06",
     "url": "/news/345475/darauf-freut-sich-die-redaktion-im-juni-2026",
     "title": "Darauf freut sich die Redaktion im... Juni 2026",
-    "last_updated": "2026-06-02T19:44:59Z",
-    "comment_count": 11,
+    "last_updated": "2026-06-02T20:21:31Z",
+    "comment_count": 13,
     "editors": [
       {
         "name": "Jörg Langer",
@@ -94856,6 +94856,14 @@
       {
         "username": "Alain",
         "text": "# FILME/SERIEN\n- Wir haben Slow Horses beendet. Gut - aber auch nicht gerade herausragend. Andere Staffeln waren besser. Nun stehen wir vor der Wahl evtl. das Scrubs Reboot anzugehen. Man on the Inside Staffel 2 steht aber auch auf der Liste, sowie ein paar weitere Filme auf Netflix. Noch haben wir uns auf nichts commited.\n- Die LOL Staffel 7 ist bei uns in den letzten Zügen und... entweder hat sich das Format bereits kräftig abgenutzt, oder ich mag es nicht mehr so sehr. Aktuell drücke ich Max Giermann die Daumen.\n- Ich bin inzwischen bei der Serie Utopia Staffel 1 gelandet. Was für ein Fiebertraum! Jaja, 12 Jahre alt, aber wow...\n# SPIELE/BRETTSPIELE\n- Ich hab den JRPG-UrOpa \"Lunar - The Silver Star Remake\" auf der PS angefangen und es macht verdammt Spaß. Wird definitiv weiter gespielt.\n- Titanium Court macht auch sehr viel Spaß ist und ist ein absoluter Fiebertraum vom einem Spiel.\n- \"The Remake of the End of the Greatest RPG of All Time\" ist DAAAAAAAA. Erstes Vorfazit - ja, ganz cool, aber kein Brecher.\n- Ich haben vor einen Monat den GamePass wieder zu reaktivieren, um dann Mixtape, Call of the Elder Gods, Aphelion und Replaced mindestens anzuspielen. Und vielleicht reicht die Zeit noch für inKONBINI.\n# SONSTIGES\n- Die Playstation 5 überhitzt immer häufiger - die muss wohl leider in die Reparatur... Was meine Spielepläne etwas behindert. Tss\n- Das Graspop ruft!\n- mit scripten die Themen hier etwas auswerten: https://alainbla.github.io/gg-stats/vorfreude.html"
+      },
+      {
+        "username": "Danywilde",
+        "text": "Ich werde mich weiterhin als 007 in First Light verdingen und danach durch Hagens Lets‘s Play inspiriert die schon lange trockene Blutspur in Bloodborne wahrscheinlich wiederaufnehmen."
+      },
+      {
+        "username": "funrox",
+        "text": "[Spiele] Habe jetzt mit Mafia - The old Country angefangen. Gefällt mir wirklich sehr gut bisher.\nDaneben habe ich auf PC und Switch auch noch genug Material. Es wird nicht langweilig.\n[Serien / Film] Wir werden mit der Serienverfilmung von Harry Hole anfangen. Daneben steht die zweite Staffel von Paradise noch auf dem Plan.\nUnd mit meiner Tochter schaue ich dann im Kino die letzte Folge von „Der unglaubliche digitale Zirkus“.\n[Musik] Neben neuen Alben von Placebo und Fury in the Slaughterhouse schauen wir uns das Konzert der Counting Crows an. Eine meiner absoluten Lieblingsbands.\n[Sonstiges] Kurzurlaub im Elsass. Und Ende des Monats gehen hier die Sommerferien los. Da ist dann wieder Nordsee angesagt.\nVorher noch 25-jähriges Abi-Treffen.\nDer Juni ist ausgefüllt."
       }
     ],
     "user_items": [
@@ -95046,6 +95054,40 @@
             "category": "game"
           }
         ]
+      },
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "007: First Light",
+            "category": "game"
+          },
+          {
+            "title": "Bloodborne",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "Mafia: The Old Country",
+            "category": "game"
+          },
+          {
+            "title": "Harry Hole",
+            "category": "film_series"
+          },
+          {
+            "title": "Paradise Staffel 2",
+            "category": "film_series"
+          },
+          {
+            "title": "Der unglaubliche digitale Zirkus",
+            "category": "film_series"
+          }
+        ]
       }
     ],
     "item_stats": {
@@ -95072,11 +95114,12 @@
         ]
       },
       "007: First Light": {
-        "count": 4,
+        "count": 5,
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
           "user:Crizzo",
+          "user:Danywilde",
           "user:Green Yoshi",
           "user:Sathorien"
         ]
@@ -95515,6 +95558,41 @@
         "category": "game",
         "mentioners": [
           "user:Alain"
+        ]
+      },
+      "Bloodborne": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Danywilde"
+        ]
+      },
+      "Mafia: The Old Country": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Harry Hole": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Paradise Staffel 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "Der unglaubliche digitale Zirkus": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:funrox"
         ]
       }
     }
