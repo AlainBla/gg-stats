@@ -93824,7 +93824,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-06-02T18:42:35Z",
+    "last_updated": "2026-06-02T18:48:22Z",
     "comment_count": 66,
     "editors": [
       {
@@ -94589,8 +94589,8 @@
     "month": "2026-06",
     "url": "/news/345475/darauf-freut-sich-die-redaktion-im-juni-2026",
     "title": "Darauf freut sich die Redaktion im... Juni 2026",
-    "last_updated": "2026-06-02T18:42:34Z",
-    "comment_count": 10,
+    "last_updated": "2026-06-02T18:48:22Z",
+    "comment_count": 11,
     "editors": [
       {
         "name": "Jörg Langer",
@@ -94972,6 +94972,27 @@
             "category": "film_series"
           }
         ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Donkey Kong 64",
+            "category": "game"
+          },
+          {
+            "title": "007: First Light",
+            "category": "game"
+          },
+          {
+            "title": "Pragmata",
+            "category": "game"
+          },
+          {
+            "title": "Directive 8020",
+            "category": "game"
+          }
+        ]
       }
     ],
     "item_stats": {
@@ -94998,11 +95019,12 @@
         ]
       },
       "007: First Light": {
-        "count": 3,
+        "count": 4,
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
           "user:Crizzo",
+          "user:Green Yoshi",
           "user:Sathorien"
         ]
       },
@@ -95294,9 +95316,10 @@
         ]
       },
       "Pragmata": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
+          "user:Green Yoshi",
           "user:Sathorien"
         ]
       },
@@ -95348,6 +95371,20 @@
         "category": "film_series",
         "mentioners": [
           "user:Sokar"
+        ]
+      },
+      "Donkey Kong 64": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Directive 8020": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Green Yoshi"
         ]
       }
     }
