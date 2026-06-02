@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GG Sonntagsfrage – Aktive Nutzer</title>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <title>GamersGlobal Stats</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; }
     body {
@@ -14,521 +13,50 @@
       margin: 0;
       padding: 1.5rem;
     }
-    h1 { font-size: 1.2rem; margin-bottom: 1rem; }
-    #year-filter { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
-    .year-btn {
-      padding: 0.3rem 0.8rem;
-      border: 1px solid #555;
-      border-radius: 4px;
-      background: #222;
-      color: #ccc;
-      cursor: pointer;
-      font-size: 0.85rem;
+    h1 { font-size: 1.2rem; margin-bottom: 2rem; }
+    .cards {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
     }
-    .year-btn.active {
-      background: #e8a000;
-      border-color: #e8a000;
-      color: #111;
-      font-weight: bold;
+    .card {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 1.5rem 2rem;
+      text-decoration: none;
+      color: #eee;
+      width: 260px;
+      transition: border-color 0.15s, background 0.15s;
     }
-    #chart-container { position: relative; max-width: 960px; }
-    canvas { width: 100% !important; }
-
-    /* Vorfreude section */
-    #vorfreude-section {
-      margin-top: 3rem;
-      max-width: 960px;
+    .card:hover {
+      border-color: #4fc3f7;
+      background: #1f2a30;
     }
-    #vorfreude-section h2 {
-      font-size: 1.1rem;
-      margin-bottom: 0.25rem;
+    .card h2 {
+      font-size: 1rem;
+      margin: 0 0 0.5rem;
+      color: #4fc3f7;
     }
-    #vorfreude-subtitle {
+    .card p {
       font-size: 0.85rem;
       color: #999;
-      margin-bottom: 1rem;
-    }
-    #vorfreude-month-select {
-      background: #222;
-      color: #ccc;
-      border: 1px solid #555;
-      border-radius: 4px;
-      padding: 0.3rem 0.6rem;
-      font-size: 0.9rem;
-      margin-bottom: 0.75rem;
-      cursor: pointer;
-    }
-    #vorfreude-category-filter,
-    #vorfreude-editor-filter {
-      display: flex;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-      margin-bottom: 0.75rem;
-    }
-    .filter-btn {
-      padding: 0.3rem 0.8rem;
-      border: 1px solid #555;
-      border-radius: 4px;
-      background: #222;
-      color: #ccc;
-      cursor: pointer;
-      font-size: 0.85rem;
-    }
-    .filter-btn.active {
-      background: #4fc3f7;
-      border-color: #4fc3f7;
-      color: #111;
-      font-weight: bold;
-    }
-    #vorfreude-chart-container {
-      position: relative;
-      max-width: 960px;
-    }
-    #vorfreude-empty {
-      color: #888;
-      font-size: 0.9rem;
-      margin-top: 1rem;
-    }
-    #vorfreude-csv-link {
-      display: inline-block;
-      margin-top: 1rem;
-      font-size: 0.85rem;
-      color: #4fc3f7;
-      text-decoration: none;
-    }
-    #vorfreude-csv-link:hover {
-      text-decoration: underline;
+      margin: 0;
+      line-height: 1.5;
     }
   </style>
 </head>
 <body>
-  <h1>GamersGlobal Sonntagsfrage – Abstimmungsbeteiligung</h1>
-  <div id="year-filter"></div>
-  <div id="chart-container">
-    <canvas id="chart"></canvas>
+  <h1>GamersGlobal Stats</h1>
+  <div class="cards">
+    <a class="card" href="sonntagsfrage.html">
+      <h2>Sonntagsfrage</h2>
+      <p>Abstimmungsbeteiligung aller Sonntagsfrage-Umfragen seit 2014.</p>
+    </a>
+    <a class="card" href="vorfreude.html">
+      <h2>Vorfreude-Radar</h2>
+      <p>Welche Spiele, Filme und Serien die Redaktion und User in jedem Monat erwähnen.</p>
+    </a>
   </div>
-
-  <div id="vorfreude-section">
-    <h2>Vorfreude-Radar</h2>
-    <p id="vorfreude-subtitle"></p>
-    <select id="vorfreude-month-select"></select>
-    <div id="vorfreude-category-filter"></div>
-    <div id="vorfreude-editor-filter"></div>
-    <div id="vorfreude-chart-container">
-      <canvas id="vorfreude-chart"></canvas>
-    </div>
-    <p id="vorfreude-empty" style="display:none;"></p>
-    <a id="vorfreude-csv-link" href="data/vorfreude.csv">CSV herunterladen</a>
-  </div>
-
-  <script>
-    const WINDOW = 4;
-
-    function rollingAvg(values, w) {
-      return values.map((_, i) => {
-        const slice = values.slice(Math.max(0, i - w + 1), i + 1);
-        return slice.reduce((a, b) => a + b, 0) / slice.length;
-      });
-    }
-
-    function formatDate(iso) {
-      const [y, m, d] = iso.split('-');
-      return `${d}.${m}.${y}`;
-    }
-
-    let chartInstance = null;
-
-    function renderChart(polls, year) {
-      const currentYear = new Date().getFullYear().toString();
-      const filtered = year === 'YtD'
-        ? polls.filter(p => p.date && p.date.startsWith(currentYear))
-        : polls.filter(p => p.date && p.date.startsWith(year));
-
-      const labels = filtered.map(p => formatDate(p.date));
-      const votes  = filtered.map(p => p.votes);
-      const trend  = rollingAvg(votes, WINDOW);
-
-      const data = {
-        labels,
-        datasets: [
-          {
-            type: 'bar',
-            label: 'Stimmen',
-            data: votes,
-            backgroundColor: 'rgba(232,160,0,0.55)',
-            borderColor: 'rgba(232,160,0,0.9)',
-            borderWidth: 1,
-            order: 2,
-          },
-          {
-            type: 'line',
-            label: `${WINDOW}-Wochen-Schnitt`,
-            data: trend,
-            borderColor: '#4fc3f7',
-            backgroundColor: 'transparent',
-            borderWidth: 2,
-            pointRadius: 0,
-            tension: 0.3,
-            order: 1,
-          },
-        ],
-      };
-
-      const options = {
-        responsive: true,
-        interaction: { mode: 'index', intersect: false },
-        plugins: {
-          legend: { labels: { color: '#ccc' } },
-          tooltip: {
-            callbacks: {
-              title: (items) => {
-                const idx = items[0].dataIndex;
-                return `${filtered[idx].date} – ${filtered[idx].title}`;
-              },
-            },
-          },
-        },
-        scales: {
-          x: {
-            ticks: { color: '#999', maxRotation: 45, autoSkip: true, maxTicksLimit: 20 },
-            grid: { color: '#333' },
-          },
-          y: {
-            ticks: { color: '#999' },
-            grid: { color: '#333' },
-            title: { display: true, text: 'Abstimmungen', color: '#999' },
-          },
-        },
-      };
-
-      if (chartInstance) chartInstance.destroy();
-      chartInstance = new Chart(document.getElementById('chart'), { type: 'bar', data, options });
-    }
-
-    async function main() {
-      const polls = await fetch('data/polls.json').then(r => r.json());
-
-      const currentYear = new Date().getFullYear().toString();
-      const years = [...new Set(
-        polls.filter(p => p.date).map(p => p.date.slice(0, 4))
-      )].sort((a, b) => b - a);
-
-      if (!years.length) {
-        document.getElementById('year-filter').textContent = 'Keine Daten vorhanden.';
-        return;
-      }
-
-      const hasCurrentYear = years.includes(currentYear);
-      const ytdLabel = `YtD (${currentYear})`;
-      let activeYear = hasCurrentYear ? 'YtD' : years[0];
-
-      const container = document.getElementById('year-filter');
-      const buttons = hasCurrentYear
-        ? [ytdLabel, ...years.filter(y => y !== currentYear)]
-        : years;
-
-      buttons.forEach(y => {
-        const key = y === ytdLabel ? 'YtD' : y;
-        const btn = document.createElement('button');
-        btn.className = 'year-btn' + (key === activeYear ? ' active' : '');
-        btn.textContent = y;
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('.year-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          activeYear = key;
-          renderChart(polls, activeYear);
-        });
-        container.appendChild(btn);
-      });
-
-      renderChart(polls, activeYear);
-    }
-
-    main();
-
-    // ── Vorfreude-Radar ──────────────────────────────────────────────────────
-
-    const EDITOR_NAMES = {
-      'editor:joerg_langer':    'Jörg Langer (Red.)',
-      'editor:michael_trier':   'Michael Trier (Red.)',
-      'editor:benjamin_braun':  'Benjamin Braun (Red.)',
-      'editor:mark_wrba':       'Mark Wrba (Red.)',
-      'editor:natalie_grosse':  'Natalie Grosse (Red.)',
-      'editor:peter_bathge':    'Peter Bathge (Red.)',
-      'editor:christoph_vent':  'Christoph Vent (Red.)',
-    };
-
-    function formatMentioner(key) {
-      if (EDITOR_NAMES[key]) return EDITOR_NAMES[key];
-      if (key.startsWith('editor:')) return key.slice(7).replace(/_/g, ' ') + ' (Red.)';
-      if (key.startsWith('user:'))   return key.slice(5) + ' (User)';
-      return key;
-    }
-
-    const CATEGORY_COLOR = {
-      game:        '#4a90d9',
-      film_series: '#e05c5c',
-      misc:        '#6bbf6b',
-      unknown:     '#aaa',
-    };
-
-    function categoryColor(cat) {
-      return CATEGORY_COLOR[cat] || CATEGORY_COLOR.unknown;
-    }
-
-    let vorfreudeChartInstance = null;
-
-    function renderVorfreudeChart(monthData, categoryFilter, sourceFilter) {
-      const emptyEl  = document.getElementById('vorfreude-empty');
-      const canvasEl = document.getElementById('vorfreude-chart');
-
-      const stats = monthData.item_stats || {};
-      const keys  = Object.keys(stats);
-
-      if (keys.length === 0) {
-        emptyEl.textContent = 'Noch keine Daten für diesen Monat.';
-        emptyEl.style.display = 'block';
-        if (vorfreudeChartInstance) { vorfreudeChartInstance.destroy(); vorfreudeChartInstance = null; }
-        canvasEl.style.display = 'none';
-        return;
-      }
-
-      // Apply category filter
-      const filtered = keys.filter(k => {
-        const cat = stats[k].category || 'unknown';
-        if (categoryFilter === 'games')  return cat === 'game';
-        if (categoryFilter === 'films')  return cat === 'film_series';
-        if (categoryFilter === 'misc')   return cat !== 'game' && cat !== 'film_series';
-        return true; // 'all'
-      });
-
-      // Compute counts per source filter
-      const items = filtered.map(k => {
-        const entry = stats[k];
-        const mentioners = entry.mentioners || [];
-        let count;
-        if (sourceFilter === 'editors') {
-          count = mentioners.filter(m => m.startsWith('editor:')).length;
-        } else if (sourceFilter === 'users') {
-          count = mentioners.filter(m => m.startsWith('user:')).length;
-        } else {
-          count = entry.count != null ? entry.count : mentioners.length;
-        }
-        return { name: k, count, category: entry.category || 'unknown', mentioners };
-      }).filter(item => item.count > 0);
-
-      // Sort descending, top 15
-      items.sort((a, b) => b.count - a.count);
-      const top = items.slice(0, 15);
-
-      if (top.length === 0) {
-        emptyEl.textContent = 'Noch keine Daten für diese Auswahl.';
-        emptyEl.style.display = 'block';
-        if (vorfreudeChartInstance) { vorfreudeChartInstance.destroy(); vorfreudeChartInstance = null; }
-        canvasEl.style.display = 'none';
-        return;
-      }
-
-      emptyEl.style.display = 'none';
-      canvasEl.style.display = 'block';
-
-      const labels     = top.map(i => i.name);
-      const mentioners = top.map(i => i.mentioners);
-      const stacked    = sourceFilter === 'all';
-
-      let datasets;
-      if (stacked) {
-        datasets = [
-          {
-            label: 'Redakteure',
-            data:            top.map(i => i.mentioners.filter(m => m.startsWith('editor:')).length),
-            backgroundColor: top.map(i => categoryColor(i.category)),
-            borderWidth: 0,
-          },
-          {
-            label: 'User',
-            data:            top.map(i => i.mentioners.filter(m => m.startsWith('user:')).length),
-            backgroundColor: top.map(i => categoryColor(i.category) + '70'),
-            borderWidth: 0,
-          },
-        ];
-      } else {
-        const colors = top.map(i => categoryColor(i.category));
-        datasets = [{
-          label: 'Nennungen',
-          data:            top.map(i => i.count),
-          backgroundColor: colors,
-          borderColor:     colors.map(c => c + 'cc'),
-          borderWidth: 1,
-        }];
-      }
-
-      const chartData = { labels, datasets };
-
-      const chartOptions = {
-        indexAxis: 'y',
-        responsive: true,
-        plugins: {
-          legend: { display: stacked, labels: { color: '#999', boxWidth: 14 } },
-          tooltip: {
-            callbacks: {
-              afterLabel: (ctx) => {
-                const all = mentioners[ctx.dataIndex];
-                if (!all || all.length === 0) return '';
-                const editors = all.filter(m => m.startsWith('editor:'));
-                const userCount = all.filter(m => m.startsWith('user:')).length;
-                const lines = editors.map(formatMentioner);
-                if (userCount > 0) lines.push(`+${userCount} User`);
-                return lines.join('\n');
-              },
-            },
-          },
-        },
-        scales: {
-          x: {
-            stacked,
-            ticks: { color: '#999' },
-            grid:  { color: '#333' },
-            title: { display: true, text: 'Nennungen', color: '#999' },
-          },
-          y: {
-            stacked,
-            ticks: { color: '#ccc', font: { size: 12 } },
-            grid:  { color: '#333' },
-          },
-        },
-      };
-
-      if (vorfreudeChartInstance) vorfreudeChartInstance.destroy();
-      vorfreudeChartInstance = new Chart(canvasEl, { type: 'bar', data: chartData, options: chartOptions });
-    }
-
-    async function initVorfreude() {
-      const section = document.getElementById('vorfreude-section');
-
-      let months;
-      try {
-        months = await fetch('data/vorfreude.json').then(r => {
-          if (!r.ok) throw new Error('not found');
-          return r.json();
-        });
-      } catch (_) {
-        section.innerHTML = '<h2>Vorfreude-Radar</h2><p id="vorfreude-empty" style="color:#888;font-size:0.9rem;">Vorfreude-Daten noch nicht vorhanden.</p>';
-        return;
-      }
-
-      if (!months || months.length === 0) {
-        section.innerHTML = '<h2>Vorfreude-Radar</h2><p id="vorfreude-empty" style="color:#888;font-size:0.9rem;">Vorfreude-Daten noch nicht vorhanden.</p>';
-        return;
-      }
-
-      // Sort months descending
-      months.sort((a, b) => (b.month || '').localeCompare(a.month || ''));
-
-      // Build year-aggregate entries (merge item_stats across all months in a year)
-      const yearMap = {};
-      months.forEach(m => {
-        const yr = m.month.slice(0, 4);
-        if (!yearMap[yr]) yearMap[yr] = {};
-        const stats = m.item_stats || {};
-        Object.entries(stats).forEach(([title, s]) => {
-          if (!yearMap[yr][title]) yearMap[yr][title] = { category: s.category, mentioners: new Set() };
-          (s.mentioners || []).forEach(mn => yearMap[yr][title].mentioners.add(mn));
-        });
-      });
-      const yearData = {};
-      Object.entries(yearMap).forEach(([yr, items]) => {
-        const finalStats = {};
-        Object.entries(items).forEach(([title, s]) => {
-          const arr = [...s.mentioners];
-          finalStats[title] = { count: arr.length, category: s.category, mentioners: arr };
-        });
-        yearData[`year:${yr}`] = { month: `year:${yr}`, title: `${yr} – Ganzes Jahr`, item_stats: finalStats };
-      });
-
-      function lookupEntry(val) {
-        if (val.startsWith('year:')) return yearData[val];
-        return months.find(x => x.month === val);
-      }
-
-      let activeMonth          = months[0].month;
-      let activeCategoryFilter = 'all';
-      let sourceFilter         = 'all';
-
-      // Month dropdown — insert year header before first month of each year
-      const monthSelectEl = document.getElementById('vorfreude-month-select');
-      let lastYear = null;
-      months.forEach(m => {
-        const yr = m.month.slice(0, 4);
-        if (yr !== lastYear) {
-          lastYear = yr;
-          const yearOpt = document.createElement('option');
-          yearOpt.value = `year:${yr}`;
-          yearOpt.textContent = `${yr} – Ganzes Jahr`;
-          monthSelectEl.appendChild(yearOpt);
-        }
-        const opt = document.createElement('option');
-        opt.value = m.month;
-        opt.textContent = m.month;
-        if (m.month === activeMonth) opt.selected = true;
-        monthSelectEl.appendChild(opt);
-      });
-      monthSelectEl.addEventListener('change', () => {
-        activeMonth = monthSelectEl.value;
-        const md = lookupEntry(activeMonth);
-        document.getElementById('vorfreude-subtitle').textContent = md ? md.title : '';
-        renderVorfreudeChart(md, activeCategoryFilter, sourceFilter);
-      });
-
-      // Subtitle
-      document.getElementById('vorfreude-subtitle').textContent = lookupEntry(activeMonth)?.title || '';
-
-      // Category filter buttons
-      const categoryDefs = [
-        { key: 'all',   label: 'Alle' },
-        { key: 'games', label: 'Spiele' },
-        { key: 'films', label: 'Filme & Serien' },
-        { key: 'misc',  label: 'Sonstiges' },
-      ];
-      const catFilterEl = document.getElementById('vorfreude-category-filter');
-      categoryDefs.forEach(def => {
-        const btn = document.createElement('button');
-        btn.className = 'filter-btn' + (def.key === activeCategoryFilter ? ' active' : '');
-        btn.textContent = def.label;
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('#vorfreude-category-filter .filter-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          activeCategoryFilter = def.key;
-          renderVorfreudeChart(lookupEntry(activeMonth), activeCategoryFilter, sourceFilter);
-        });
-        catFilterEl.appendChild(btn);
-      });
-
-      // Source toggle buttons
-      const sourceDefs = [
-        { key: 'all',     label: 'Alle' },
-        { key: 'editors', label: 'Nur Redakteure' },
-        { key: 'users',   label: 'Nur User' },
-      ];
-      const editorFilterEl = document.getElementById('vorfreude-editor-filter');
-      sourceDefs.forEach(def => {
-        const btn = document.createElement('button');
-        btn.className = 'filter-btn' + (def.key === sourceFilter ? ' active' : '');
-        btn.textContent = def.label;
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('#vorfreude-editor-filter .filter-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          sourceFilter = def.key;
-          renderVorfreudeChart(lookupEntry(activeMonth), activeCategoryFilter, sourceFilter);
-        });
-        editorFilterEl.appendChild(btn);
-      });
-
-      // Initial render
-      renderVorfreudeChart(lookupEntry(activeMonth), activeCategoryFilter, sourceFilter);
-    }
-
-    initVorfreude();
-  </script>
 </body>
 </html>
