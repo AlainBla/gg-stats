@@ -544,28 +544,20 @@ def _scrape_article(url: str, existing_entry: dict | None, enrich: bool, api_key
     parsed = parse_article(html)
     comments_raw = parse_comments(html)
 
-    # Use existing editor items if comment count unchanged and editors already populated
+    # Resolve editors and user_items from existing entry or freshly parsed data
     reuse_user_items = False
-    if (
-        existing_entry
-        and existing_entry.get("editors")
-        and existing_entry.get("comment_count") == comment_count
-    ):
+    if existing_entry and existing_entry.get("comment_count") == comment_count and existing_entry.get("editors"):
         print(f"    comment count unchanged ({comment_count}) — reusing editors", flush=True)
         editors = existing_entry["editors"]
-        user_items = existing_entry.get("user_items", [])
-        # If user_items are already populated, skip re-enrichment and reuse stored comments_raw
-        if user_items:
-            reuse_user_items = True
-            comments_raw = existing_entry.get("comments_raw", comments_raw)
-        # else: keep freshly parsed comments_raw so enrichment can still run
     else:
         editors = parsed["editors"]
-        user_items = []
-        print(
-            f"    parsed {len(editors)} editors, {comment_count} comments",
-            flush=True,
-        )
+        print(f"    parsed {len(editors)} editors, {comment_count} comments", flush=True)
+
+    # Always preserve manually entered user_items — never wipe them on comment count changes
+    user_items = existing_entry.get("user_items", []) if existing_entry else []
+    if user_items:
+        reuse_user_items = True
+        comments_raw = existing_entry.get("comments_raw", comments_raw)
 
     # LLM enrichment — skip when comment count is unchanged and user_items already exist
     if enrich and comments_raw and not reuse_user_items:
