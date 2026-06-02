@@ -93824,7 +93824,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-06-02T18:35:56Z",
+    "last_updated": "2026-06-02T18:39:54Z",
     "comment_count": 66,
     "editors": [
       {
@@ -93843,7 +93843,7 @@
             "category": "game"
           },
           {
-            "title": "007 Dying Light",
+            "title": "007: First Light",
             "category": "game"
           },
           {
@@ -93889,8 +93889,8 @@
             "category": "film_series"
           },
           {
-            "title": "Mortal Kombat 2",
-            "category": "film_series"
+            "title": "Mortal Kombat II",
+            "category": "game"
           },
           {
             "title": "Karl Urban",
@@ -93901,7 +93901,7 @@
             "category": "game"
           },
           {
-            "title": "007 - First Light",
+            "title": "007: First Light",
             "category": "game"
           },
           {
@@ -93919,7 +93919,7 @@
         "items": [
           {
             "title": "Mortal Kombat II",
-            "category": "film_series"
+            "category": "game"
           },
           {
             "title": "The Punisher: One Last Kill",
@@ -93934,7 +93934,7 @@
             "category": "game"
           },
           {
-            "title": "007 - First Light",
+            "title": "007: First Light",
             "category": "game"
           }
         ]
@@ -93947,7 +93947,7 @@
             "category": "film_series"
           },
           {
-            "title": "Spider-Noir",
+            "title": "Spider-Man Noir",
             "category": "film_series"
           },
           {
@@ -93967,7 +93967,7 @@
             "category": "film_series"
           },
           {
-            "title": "007 - Dying Light",
+            "title": "007: First Light",
             "category": "game"
           },
           {
@@ -93984,8 +93984,8 @@
         "name": "Michael Hengst",
         "items": [
           {
-            "title": "Mortal Kombat 2",
-            "category": "film_series"
+            "title": "Mortal Kombat II",
+            "category": "game"
           },
           {
             "title": "The Mandalorian & Grogu",
@@ -94070,7 +94070,7 @@
           },
           {
             "title": "Stranger Things",
-            "category": "game"
+            "category": "film_series"
           },
           {
             "title": "Forza Horizon",
@@ -94085,7 +94085,7 @@
             "category": "game"
           },
           {
-            "title": "007 - First Light",
+            "title": "007: First Light",
             "category": "game"
           },
           {
@@ -94240,11 +94240,15 @@
           "editor:jörg_langer"
         ]
       },
-      "007 Dying Light": {
-        "count": 1,
+      "007: First Light": {
+        "count": 5,
         "category": "game",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:benjamin_braun",
+          "editor:christian_burtchen",
+          "editor:jens_bremicker",
+          "editor:jörg_langer",
+          "editor:kai_schmidt"
         ]
       },
       "Saros": {
@@ -94303,11 +94307,12 @@
           "editor:benjamin_braun"
         ]
       },
-      "Mortal Kombat 2": {
-        "count": 2,
-        "category": "film_series",
+      "Mortal Kombat II": {
+        "count": 3,
+        "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
+          "editor:kai_schmidt",
           "editor:michael_hengst"
         ]
       },
@@ -94326,15 +94331,6 @@
           "editor:kai_schmidt"
         ]
       },
-      "007 - First Light": {
-        "count": 3,
-        "category": "game",
-        "mentioners": [
-          "editor:benjamin_braun",
-          "editor:jens_bremicker",
-          "editor:kai_schmidt"
-        ]
-      },
       "Hitman": {
         "count": 1,
         "category": "game",
@@ -94347,13 +94343,6 @@
         "category": "game",
         "mentioners": [
           "editor:benjamin_braun"
-        ]
-      },
-      "Mortal Kombat II": {
-        "count": 1,
-        "category": "film_series",
-        "mentioners": [
-          "editor:kai_schmidt"
         ]
       },
       "The Punisher: One Last Kill": {
@@ -94377,7 +94366,7 @@
           "editor:christian_burtchen"
         ]
       },
-      "Spider-Noir": {
+      "Spider-Man Noir": {
         "count": 1,
         "category": "film_series",
         "mentioners": [
@@ -94408,13 +94397,6 @@
       "Paris Murder Mystery": {
         "count": 1,
         "category": "film_series",
-        "mentioners": [
-          "editor:christian_burtchen"
-        ]
-      },
-      "007 - Dying Light": {
-        "count": 1,
-        "category": "game",
         "mentioners": [
           "editor:christian_burtchen"
         ]
@@ -94568,7 +94550,7 @@
       },
       "Stranger Things": {
         "count": 1,
-        "category": "game",
+        "category": "film_series",
         "mentioners": [
           "editor:jens_bremicker"
         ]
@@ -94607,8 +94589,8 @@
     "month": "2026-06",
     "url": "/news/345475/darauf-freut-sich-die-redaktion-im-juni-2026",
     "title": "Darauf freut sich die Redaktion im... Juni 2026",
-    "last_updated": "2026-06-02T18:37:17Z",
-    "comment_count": 9,
+    "last_updated": "2026-06-02T18:39:54Z",
+    "comment_count": 10,
     "editors": [
       {
         "name": "Jörg Langer",
@@ -94866,6 +94848,10 @@
       {
         "username": "Desotho",
         "text": "Er ist zwar irgendwie ein Idiot, aber Clarkson’s Farm ist geil und vermittelt durchaus auch wie hart und anspruchsvoll Landwirtschaft ist."
+      },
+      {
+        "username": "Green Yoshi",
+        "text": "Ich hoffe, dass Zverev zum ersten Mal ein Grand Slam Turnier gewinnt diesen Monat. Bei der Fußball WM hoffe ich auf einen Gruppensieg Deutschlands, die letzten beiden WM-Turniere waren ziemlich peinlich.\nIn puncto Spielen freue ich mich, dass Nintendo endlich Donkey Kong 64 seinem Online-Abo hinzufügt am 4. Juni. Den Titel habe ich zu Weihnachten 1999 geschenkt bekommen und mit viel Freude durchgespielt. Ansonsten möchte ich 007 First Light, Pragmata und Directive 8020 zu Ende spielen."
       }
     ],
     "user_items": [],
