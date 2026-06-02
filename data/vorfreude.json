@@ -93824,7 +93824,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-06-02T18:41:37Z",
+    "last_updated": "2026-06-02T18:42:35Z",
     "comment_count": 66,
     "editors": [
       {
@@ -94589,7 +94589,7 @@
     "month": "2026-06",
     "url": "/news/345475/darauf-freut-sich-die-redaktion-im-juni-2026",
     "title": "Darauf freut sich die Redaktion im... Juni 2026",
-    "last_updated": "2026-06-02T18:41:36Z",
+    "last_updated": "2026-06-02T18:42:34Z",
     "comment_count": 10,
     "editors": [
       {
@@ -94922,7 +94922,7 @@
         "username": "Crizzo",
         "items": [
           {
-            "title": "Clarkson's Farm Staffel 5",
+            "title": "Clarkson's Farm",
             "category": "film_series"
           },
           {
@@ -95307,11 +95307,12 @@
           "user:Sathorien"
         ]
       },
-      "Clarkson's Farm Staffel 5": {
-        "count": 1,
+      "Clarkson's Farm": {
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "user:Crizzo"
+          "user:Crizzo",
+          "user:Desotho"
         ]
       },
       "House of the Dragon Staffel 3": {
@@ -95347,13 +95348,6 @@
         "category": "film_series",
         "mentioners": [
           "user:Sokar"
-        ]
-      },
-      "Clarkson's Farm": {
-        "count": 1,
-        "category": "film_series",
-        "mentioners": [
-          "user:Desotho"
         ]
       }
     }
