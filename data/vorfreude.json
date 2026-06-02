@@ -93824,7 +93824,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-06-02T19:31:15Z",
+    "last_updated": "2026-06-02T19:45:00Z",
     "comment_count": 66,
     "editors": [
       {
@@ -94589,7 +94589,7 @@
     "month": "2026-06",
     "url": "/news/345475/darauf-freut-sich-die-redaktion-im-juni-2026",
     "title": "Darauf freut sich die Redaktion im... Juni 2026",
-    "last_updated": "2026-06-02T19:31:14Z",
+    "last_updated": "2026-06-02T19:44:59Z",
     "comment_count": 11,
     "editors": [
       {
@@ -95040,6 +95040,10 @@
           {
             "title": "inKONBINI",
             "category": "game"
+          },
+          {
+            "title": "The Remake of the End of the Greatest RPG of All Time",
+            "category": "game"
           }
         ]
       }
@@ -95056,11 +95060,11 @@
         "count": 9,
         "category": "game",
         "mentioners": [
-          "editor:jörg_langer",
-          "editor:hagen_gehritz",
           "editor:benjamin_braun",
           "editor:christian_burtchen",
+          "editor:hagen_gehritz",
           "editor:jens_bremicker",
+          "editor:jörg_langer",
           "user:Hannes Herrmann",
           "user:Klexter",
           "user:Sathorien",
@@ -95072,9 +95076,9 @@
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
-          "user:Sathorien",
           "user:Crizzo",
-          "user:Green Yoshi"
+          "user:Green Yoshi",
+          "user:Sathorien"
         ]
       },
       "Passenger": {
@@ -95173,8 +95177,8 @@
         "count": 4,
         "category": "film_series",
         "mentioners": [
-          "editor:kai_schmidt",
           "editor:christian_burtchen",
+          "editor:kai_schmidt",
           "editor:michael_hengst",
           "user:Hannes Herrmann"
         ]
@@ -95261,8 +95265,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:michael_hengst",
           "editor:jens_bremicker",
+          "editor:michael_hengst",
           "user:Sokar"
         ]
       },
@@ -95368,8 +95372,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Sathorien",
-          "user:Green Yoshi"
+          "user:Green Yoshi",
+          "user:Sathorien"
         ]
       },
       "Marathon": {
@@ -95500,6 +95504,13 @@
         ]
       },
       "inKONBINI": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "The Remake of the End of the Greatest RPG of All Time": {
         "count": 1,
         "category": "game",
         "mentioners": [
