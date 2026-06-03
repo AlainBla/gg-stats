@@ -93824,7 +93824,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-06-02T20:21:32Z",
+    "last_updated": "2026-06-03T05:30:16Z",
     "comment_count": 66,
     "editors": [
       {
@@ -94589,8 +94589,8 @@
     "month": "2026-06",
     "url": "/news/345475/darauf-freut-sich-die-redaktion-im-juni-2026",
     "title": "Darauf freut sich die Redaktion im... Juni 2026",
-    "last_updated": "2026-06-02T20:21:31Z",
-    "comment_count": 13,
+    "last_updated": "2026-06-03T05:30:16Z",
+    "comment_count": 17,
     "editors": [
       {
         "name": "Jörg Langer",
@@ -94847,7 +94847,7 @@
       },
       {
         "username": "Desotho",
-        "text": "Er ist zwar irgendwie ein Idiot, aber Clarkson’s Farm ist geil und vermittelt durchaus auch wie hart und anspruchsvoll Landwirtschaft ist."
+        "text": "Er ist zwar irgendwie ein Idiot, aber Clarkson’s Farm ist geil und vermittelt durchaus auch wie hart und anspruchsvoll Landwirtschaft ist.\n\nIch dachte erst Harry Hole wäre die Porno Version von Harry Potter, aber da hätte man das \"Harry\" wohl anders geschrieben."
       },
       {
         "username": "Green Yoshi",
@@ -94864,6 +94864,18 @@
       {
         "username": "funrox",
         "text": "[Spiele] Habe jetzt mit Mafia - The old Country angefangen. Gefällt mir wirklich sehr gut bisher.\nDaneben habe ich auf PC und Switch auch noch genug Material. Es wird nicht langweilig.\n[Serien / Film] Wir werden mit der Serienverfilmung von Harry Hole anfangen. Daneben steht die zweite Staffel von Paradise noch auf dem Plan.\nUnd mit meiner Tochter schaue ich dann im Kino die letzte Folge von „Der unglaubliche digitale Zirkus“.\n[Musik] Neben neuen Alben von Placebo und Fury in the Slaughterhouse schauen wir uns das Konzert der Counting Crows an. Eine meiner absoluten Lieblingsbands.\n[Sonstiges] Kurzurlaub im Elsass. Und Ende des Monats gehen hier die Sommerferien los. Da ist dann wieder Nordsee angesagt.\nVorher noch 25-jähriges Abi-Treffen.\nDer Juni ist ausgefüllt."
+      },
+      {
+        "username": "duchess",
+        "text": "Erstmal Plattenabend mit den Jungs und ansonsten brauch ich mal ne Pause von allem."
+      },
+      {
+        "username": "Maestro84",
+        "text": "Die Drachen-Trilogie von Heitz liest sich sehr angenehm runter, kann ich nur empfehlen.\nBei mir steht diesen Monat und Juli Crunchyroll an,  außerdem bin ich noch auf dem 2dsXL an The Legend of Zelda-Phantom Hourglass dran. Hoffentlich ist das Arbeitszimmer nach einem Wasserschaden bald wieder bereit, denn bei World of Warcraft gibt es auch noch genug zu tun,  aber PC-Spielen über den Fernseher gefällt mir nicht wirklich."
+      },
+      {
+        "username": "Flooraimer",
+        "text": "[Spiele] Bin auf das Gothic Remake sowie auf Sinking City 2 gespannt. Zumindest sofern letzteres noch im Juni erscheinen sollte.\n[Filme] Scary Movie 6 ist ein muss. Ansonsten könnte Obsession noch ganz witzig werden."
       }
     ],
     "user_items": [
@@ -95088,6 +95100,40 @@
             "category": "film_series"
           }
         ]
+      },
+      {
+        "username": "Maestro84",
+        "items": [
+          {
+            "title": "The Legend of Zelda: Phantom Hourglass",
+            "category": "game"
+          },
+          {
+            "title": "World of Warcraft",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Flooraimer",
+        "items": [
+          {
+            "title": "Gothic Remake",
+            "category": "game"
+          },
+          {
+            "title": "Sinking City 2",
+            "category": "game"
+          },
+          {
+            "title": "Scary Movie 6",
+            "category": "film_series"
+          },
+          {
+            "title": "Obsession",
+            "category": "film_series"
+          }
+        ]
       }
     ],
     "item_stats": {
@@ -95099,7 +95145,7 @@
         ]
       },
       "Gothic Remake": {
-        "count": 9,
+        "count": 10,
         "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
@@ -95107,6 +95153,7 @@
           "editor:hagen_gehritz",
           "editor:jens_bremicker",
           "editor:jörg_langer",
+          "user:Flooraimer",
           "user:Hannes Herrmann",
           "user:Klexter",
           "user:Sathorien",
@@ -95593,6 +95640,41 @@
         "category": "film_series",
         "mentioners": [
           "user:funrox"
+        ]
+      },
+      "The Legend of Zelda: Phantom Hourglass": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Maestro84"
+        ]
+      },
+      "World of Warcraft": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Maestro84"
+        ]
+      },
+      "Sinking City 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Flooraimer"
+        ]
+      },
+      "Scary Movie 6": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Flooraimer"
+        ]
+      },
+      "Obsession": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Flooraimer"
         ]
       }
     }
