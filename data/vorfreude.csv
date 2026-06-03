@@ -5441,7 +5441,7 @@ month,item_title,category,count,editor_count,user_count
 2026-05,Forza Horizon 6,game,1,1,0
 2026-05,Dokomi,misc,1,1,0
 2026-06,Euphoria,film_series,1,1,0
-2026-06,Gothic Remake,game,10,5,5
+2026-06,Gothic Remake,game,11,5,6
 2026-06,007: First Light,game,5,1,4
 2026-06,Passenger,film_series,1,1,0
 2026-06,Mina the Hollower,game,2,1,1
@@ -5480,7 +5480,7 @@ month,item_title,category,count,editor_count,user_count
 2026-06,Intergalactic - The Heretic Prophet,game,1,1,0
 2026-06,The Duskbloods,game,1,1,0
 2026-06,Path of Exile,game,1,0,1
-2026-06,Saros,game,1,0,1
+2026-06,Saros,game,2,0,2
 2026-06,Hime's Quest,game,1,0,1
 2026-06,Grand Theft Auto VI,game,1,0,1
 2026-06,Pragmata,game,2,0,2
@@ -5514,3 +5514,4 @@ month,item_title,category,count,editor_count,user_count
 2026-06,Sinking City 2,game,1,0,1
 2026-06,Scary Movie 6,film_series,1,0,1
 2026-06,Obsession,film_series,1,0,1
+2026-06,The Pitt,film_series,1,0,1

@@ -93824,7 +93824,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-06-03T05:30:16Z",
+    "last_updated": "2026-06-03T07:32:35Z",
     "comment_count": 66,
     "editors": [
       {
@@ -94589,8 +94589,8 @@
     "month": "2026-06",
     "url": "/news/345475/darauf-freut-sich-die-redaktion-im-juni-2026",
     "title": "Darauf freut sich die Redaktion im... Juni 2026",
-    "last_updated": "2026-06-03T05:30:16Z",
-    "comment_count": 17,
+    "last_updated": "2026-06-03T07:32:34Z",
+    "comment_count": 20,
     "editors": [
       {
         "name": "Jörg Langer",
@@ -94831,7 +94831,7 @@
       },
       {
         "username": "Klexter",
-        "text": "Ich gehe nun für das zweite Halbjahr mein Weltliteratur-Projekt an. Da ist das Ziel bis Ende des Jahres, die meines Erachtens nach wichtigsten Bücher durchzulesen. Insofern muss das Gaming bis 2027 deutlich zurückstecken. Fest eingeplant ist bis dato nur GTA6, der Rest muss bis nächstes Jahr warten. Bei entsprechender Qualität nehme ich mir dann das Gothic Remake aus diesem Monat auch vor.\n* 1984\n* Der Fremde\n* Stolz und Vorurteil\n* Wer die Nachtigall stört\n* Eine kurze Geschichte der Menschheit\n* Selbstbetrachtungen\n* Schuld und Sühne\n* Anna Karenina\n* Faust I\n* Der Prozess\n* Hundert Jahre Einsamkeit\n* Frankenstein\n* Die Verwandlung\n* Der Meister und Margarita"
+        "text": "Ich gehe nun für das zweite Halbjahr mein Weltliteratur-Projekt an. Da ist das Ziel bis Ende des Jahres, die meines Erachtens nach wichtigsten Bücher durchzulesen. Insofern muss das Gaming bis 2027 deutlich zurückstecken. Fest eingeplant ist bis dato nur GTA6, der Rest muss bis nächstes Jahr warten. Bei entsprechender Qualität nehme ich mir dann das Gothic Remake aus diesem Monat auch vor.\n* 1984\n* Der Fremde\n* Stolz und Vorurteil\n* Wer die Nachtigall stört\n* Eine kurze Geschichte der Menschheit\n* Selbstbetrachtungen\n* Schuld und Sühne\n* Anna Karenina\n* Faust I\n* Der Prozess\n* Hundert Jahre Einsamkeit\n* Frankenstein\n* Die Verwandlung\n* Der Meister und Margarita\n\nDanke für den Tipp, werde ich mal ausprobieren. Ich fürchte jedoch, es mangelt dann an Konzentration für den doch tw sehr schweren Stoff."
       },
       {
         "username": "Sathorien",
@@ -94876,6 +94876,14 @@
       {
         "username": "Flooraimer",
         "text": "[Spiele] Bin auf das Gothic Remake sowie auf Sinking City 2 gespannt. Zumindest sofern letzteres noch im Juni erscheinen sollte.\n[Filme] Scary Movie 6 ist ein muss. Ansonsten könnte Obsession noch ganz witzig werden."
+      },
+      {
+        "username": "Harry67",
+        "text": "So viele Spiele, so wenig Zeit. Das großartige Crimson Desert ist nach wie vor mein Favorit, gefolgt von diversen Runden in Forza Horizon und gelegentlichen Tauchgängen in Modern Naval Warfare.\nAnsonsten viel Arbeit und natürlich Hochsaison im Garten, der mir ein emotionales Highlight bescherte, als ich mein erstes Außengewinde für eine zentrale Wasserleitung schneiden durfte. Sport, Spiel, Spannung ..."
+      },
+      {
+        "username": "Moe90",
+        "text": "Im Juni werde ich mich mit Saros weiterbeschäftigen. Bin mittlerweile in Akt 2 angekommen (nicht Biom 2, sondern tatsächlich Akt 2), wobei diese Aktstruktur keine große für mich erkennbare Relevanz hat - zumindest bisher nicht. Habe auch das Gefühl, dass ich vieles schon gesehen habe, und nur noch ~2 weitere Biome vor mir habe.\nDanach will ich sicher in das Gothic Remake reinschauen. Es sei denn die Rezensionen (von Testern und Usern) fallen sehr schlecht aus. Ich hoffe jedoch nicht.\nThe Pitt wird weitergeschaut. Zverev die Daumen bei den French Open gedrückt. Und die WM ist mir, zumindest bisher, völlig egal."
       }
     ],
     "user_items": [
@@ -95134,6 +95142,23 @@
             "category": "film_series"
           }
         ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "Saros",
+            "category": "game"
+          },
+          {
+            "title": "Gothic Remake",
+            "category": "game"
+          },
+          {
+            "title": "The Pitt",
+            "category": "film_series"
+          }
+        ]
       }
     ],
     "item_stats": {
@@ -95145,7 +95170,7 @@
         ]
       },
       "Gothic Remake": {
-        "count": 10,
+        "count": 11,
         "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
@@ -95156,6 +95181,7 @@
           "user:Flooraimer",
           "user:Hannes Herrmann",
           "user:Klexter",
+          "user:Moe90",
           "user:Sathorien",
           "user:Sokar"
         ]
@@ -95438,10 +95464,11 @@
         ]
       },
       "Saros": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Hannes Herrmann"
+          "user:Hannes Herrmann",
+          "user:Moe90"
         ]
       },
       "Hime's Quest": {
@@ -95675,6 +95702,13 @@
         "category": "film_series",
         "mentioners": [
           "user:Flooraimer"
+        ]
+      },
+      "The Pitt": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90"
         ]
       }
     }
