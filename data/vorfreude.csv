@@ -4148,7 +4148,7 @@ month,item_title,category,count,editor_count,user_count
 2024-11,Hagen,film_series,1,1,0
 2024-11,"Der Pass, Staffel 3",film_series,1,1,0
 2024-11,Dragon Age: The Veilguard,game,2,1,1
-2024-11,Stalker 2: Heart of Chornobyl,game,11,4,7
+2024-11,STALKER 2: Heart of Chornobyl,game,11,4,7
 2024-11,Songs of Silence,game,1,1,0
 2024-11,Drova,game,1,1,0
 2024-11,Tokyo Overdrive,film_series,1,1,0
@@ -4273,7 +4273,7 @@ month,item_title,category,count,editor_count,user_count
 2024-12,James Bond,film_series,1,0,1
 2024-12,RoboCop,film_series,1,0,1
 2024-12,Path of Exile 2,game,2,0,2
-2024-12,Stalker 2: Heart of Chornobyl,game,1,0,1
+2024-12,STALKER 2: Heart of Chornobyl,game,1,0,1
 2024-12,Subnautica,game,1,0,1
 2024-12,Delicious in Dungeon,film_series,1,0,1
 2024-12,Neon Genesis Evangelion,film_series,1,0,1
@@ -4632,7 +4632,7 @@ month,item_title,category,count,editor_count,user_count
 2025-07,John Wick,film_series,1,1,0
 2025-07,Continental,film_series,1,1,0
 2025-07,Donkey Kong Bananza,game,3,2,1
-2025-07,Stalker 2: Heart of Chornobyl,game,2,1,1
+2025-07,STALKER 2: Heart of Chornobyl,game,2,1,1
 2025-07,Kingdom Come: Deliverance 2,game,1,1,0
 2025-07,Death Stranding 2,game,2,1,1
 2025-07,Days Gone Remastered,misc,1,1,0
@@ -5029,7 +5029,7 @@ month,item_title,category,count,editor_count,user_count
 2025-12,Stranger Things Staffel 5,film_series,5,1,4
 2025-12,Metroid Prime,game,1,1,0
 2025-12,Kingdom Come: Deliverance 2,game,1,1,0
-2025-12,Stalker 2: Heart of Chornobyl,game,1,1,0
+2025-12,STALKER 2: Heart of Chornobyl,game,1,1,0
 2025-12,Die Pranken des Löwen,game,1,1,0
 2025-12,Retro Gamer Sonderheft,misc,1,1,0
 2025-12,Weihnachtsaktion,misc,1,1,0
@@ -5182,7 +5182,7 @@ month,item_title,category,count,editor_count,user_count
 2026-02,Clair-Obscur Soundtrack,misc,1,0,1
 2026-02,Cylia Journey,game,1,0,1
 2026-02,Lost Judgment,game,1,0,1
-2026-02,Stalker 2: Heart of Chornobyl,game,1,0,1
+2026-02,STALKER 2: Heart of Chornobyl,game,1,0,1
 2026-02,Trails in the Sky 1st Chapter,game,1,0,1
 2026-02,Shadow Warrior 3,game,1,0,1
 2026-02,Evil West,game,1,0,1
@@ -5521,3 +5521,5 @@ month,item_title,category,count,editor_count,user_count
 2026-06,Disclosure Day,film_series,1,0,1
 2026-06,Star Wars: Outlaws,game,1,0,1
 2026-06,The Legend of Zelda: Breath of the Wild,game,1,0,1
+2026-06,STALKER 2: Heart of Chornobyl,game,1,0,1
+2026-06,Fallout Staffel 2,film_series,1,0,1
