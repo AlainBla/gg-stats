@@ -5441,8 +5441,8 @@ month,item_title,category,count,editor_count,user_count
 2026-05,Forza Horizon 6,game,1,1,0
 2026-05,Dokomi,misc,1,1,0
 2026-06,Euphoria,film_series,1,1,0
-2026-06,Gothic Remake,game,11,5,6
-2026-06,007: First Light,game,5,1,4
+2026-06,Gothic Remake,game,13,5,8
+2026-06,007: First Light,game,6,1,5
 2026-06,Passenger,film_series,1,1,0
 2026-06,Mina the Hollower,game,2,1,1
 2026-06,Link's Awakening,game,1,1,0
@@ -5458,7 +5458,7 @@ month,item_title,category,count,editor_count,user_count
 2026-06,Julian Nagelsmann,misc,1,1,0
 2026-06,Masters of the Universe,film_series,4,3,1
 2026-06,Clarkson’s Farm,film_series,1,1,0
-2026-06,Star Fox,game,2,2,0
+2026-06,Star Fox,game,3,2,1
 2026-06,Frank Millers,misc,1,1,0
 2026-06,The Boroughs,film_series,1,1,0
 2026-06,Toy Story,game,1,1,0
@@ -5519,3 +5519,5 @@ month,item_title,category,count,editor_count,user_count
 2026-06,Nemesis: Retaliation,game,1,0,1
 2026-06,The Mandalorian and Grogu,film_series,1,0,1
 2026-06,Disclosure Day,film_series,1,0,1
+2026-06,Star Wars: Outlaws,game,1,0,1
+2026-06,The Legend of Zelda: Breath of the Wild,game,1,0,1
