@@ -93824,7 +93824,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-06-03T07:32:35Z",
+    "last_updated": "2026-06-03T09:59:55Z",
     "comment_count": 66,
     "editors": [
       {
@@ -94589,8 +94589,8 @@
     "month": "2026-06",
     "url": "/news/345475/darauf-freut-sich-die-redaktion-im-juni-2026",
     "title": "Darauf freut sich die Redaktion im... Juni 2026",
-    "last_updated": "2026-06-03T07:32:34Z",
-    "comment_count": 20,
+    "last_updated": "2026-06-03T09:59:54Z",
+    "comment_count": 23,
     "editors": [
       {
         "name": "Jörg Langer",
@@ -94863,7 +94863,7 @@
       },
       {
         "username": "funrox",
-        "text": "[Spiele] Habe jetzt mit Mafia - The old Country angefangen. Gefällt mir wirklich sehr gut bisher.\nDaneben habe ich auf PC und Switch auch noch genug Material. Es wird nicht langweilig.\n[Serien / Film] Wir werden mit der Serienverfilmung von Harry Hole anfangen. Daneben steht die zweite Staffel von Paradise noch auf dem Plan.\nUnd mit meiner Tochter schaue ich dann im Kino die letzte Folge von „Der unglaubliche digitale Zirkus“.\n[Musik] Neben neuen Alben von Placebo und Fury in the Slaughterhouse schauen wir uns das Konzert der Counting Crows an. Eine meiner absoluten Lieblingsbands.\n[Sonstiges] Kurzurlaub im Elsass. Und Ende des Monats gehen hier die Sommerferien los. Da ist dann wieder Nordsee angesagt.\nVorher noch 25-jähriges Abi-Treffen.\nDer Juni ist ausgefüllt."
+        "text": "[Spiele] Habe jetzt mit Mafia - The old Country angefangen. Gefällt mir wirklich sehr gut bisher.\nDaneben habe ich auf PC und Switch auch noch genug Material. Es wird nicht langweilig.\n[Serien / Film] Wir werden mit der Serienverfilmung von Harry Hole anfangen. Daneben steht die zweite Staffel von Paradise noch auf dem Plan.\nUnd mit meiner Tochter schaue ich dann im Kino die letzte Folge von „Der unglaubliche digitale Zirkus“.\n[Musik] Neben neuen Alben von Placebo und Fury in the Slaughterhouse schauen wir uns das Konzert der Counting Crows an. Eine meiner absoluten Lieblingsbands.\n[Sonstiges] Kurzurlaub im Elsass. Und Ende des Monats gehen hier die Sommerferien los. Da ist dann wieder Nordsee angesagt.\nVorher noch 25-jähriges Abi-Treffen.\nDer Juni ist ausgefüllt.\n\n*haha*\nDann würde auch Dirty Harry passen…\nDie Nesbø-Bücher lese ich sehr gerne - da bin ich wirklich auf die Serie gespannt. Es sind zwar schon ein paar Geschichten verfilmt worden . Die sind aber nicht ganz so gut wie ich mir erhofft habe."
       },
       {
         "username": "duchess",
@@ -94884,6 +94884,14 @@
       {
         "username": "Moe90",
         "text": "Im Juni werde ich mich mit Saros weiterbeschäftigen. Bin mittlerweile in Akt 2 angekommen (nicht Biom 2, sondern tatsächlich Akt 2), wobei diese Aktstruktur keine große für mich erkennbare Relevanz hat - zumindest bisher nicht. Habe auch das Gefühl, dass ich vieles schon gesehen habe, und nur noch ~2 weitere Biome vor mir habe.\nDanach will ich sicher in das Gothic Remake reinschauen. Es sei denn die Rezensionen (von Testern und Usern) fallen sehr schlecht aus. Ich hoffe jedoch nicht.\nThe Pitt wird weitergeschaut. Zverev die Daumen bei den French Open gedrückt. Und die WM ist mir, zumindest bisher, völlig egal."
+      },
+      {
+        "username": "Calmon",
+        "text": "[Spiele] Ich bin gerade wieder in Stellaris gelandet und werde das auch mal wieder (fast) durchspielen. Durchspielen ist meist ziemlich hart da es zum Ende nach den Crisis Längen hat, aber mal sehen. Ich bin auf dem neuesten experimental branch.\n[Filme] Ich wollte wieder vermehrt ins Kino gehen. Gestern war im Star Wars Mandalorian Film und fand ihn so eher Mittelfeld (6/10) und nächste Woche Mittwoch steht Disclosure Day an. Kommt nicht auch House of the Dragon Staffel 3?\n[Brettspiele] Dazu bin ich wieder vermehrt Brettspielmäßig unterwegs. Hatte wieder 1 komplette Woche im Mai im Elsaß mit vielen neuen (und alten) Brettspielen. Ausserdem tummel ich mich auf boardgamearena herum und im Juni startet vermutlich die Beta zu Nemesis - Retaliation, die ich zur Zeit kräftig im Alpha Modus teste. Wirklich sehr schönes Spiel. Hatte es schon in real gespielt und für mich das beste der 3 Nemesis Spiele. Kann ich nur empfehlen für alle die die Alien Filme lieben."
+      },
+      {
+        "username": "euph",
+        "text": "Interessant, was habt ihr denn an Brettspielen gespielt?"
       }
     ],
     "user_items": [
@@ -95156,6 +95164,31 @@
           },
           {
             "title": "The Pitt",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Calmon",
+        "items": [
+          {
+            "title": "Stellaris",
+            "category": "game"
+          },
+          {
+            "title": "Nemesis: Retaliation",
+            "category": "game"
+          },
+          {
+            "title": "The Mandalorian and Grogu",
+            "category": "film_series"
+          },
+          {
+            "title": "Disclosure Day",
+            "category": "film_series"
+          },
+          {
+            "title": "House of the Dragon Staffel 3",
             "category": "film_series"
           }
         ]
@@ -95509,9 +95542,10 @@
         ]
       },
       "House of the Dragon Staffel 3": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
+          "user:Calmon",
           "user:Crizzo"
         ]
       },
@@ -95709,6 +95743,34 @@
         "category": "film_series",
         "mentioners": [
           "user:Moe90"
+        ]
+      },
+      "Stellaris": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Calmon"
+        ]
+      },
+      "Nemesis: Retaliation": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Calmon"
+        ]
+      },
+      "The Mandalorian and Grogu": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Calmon"
+        ]
+      },
+      "Disclosure Day": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Calmon"
         ]
       }
     }
