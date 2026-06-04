@@ -5442,7 +5442,7 @@ month,item_title,category,count,editor_count,user_count
 2026-05,Dokomi,misc,1,1,0
 2026-06,Euphoria,film_series,1,1,0
 2026-06,Gothic Remake,game,13,5,8
-2026-06,007: First Light,game,6,1,5
+2026-06,007 First Light,game,1,1,0
 2026-06,Passenger,film_series,1,1,0
 2026-06,Mina the Hollower,game,3,1,2
 2026-06,Link's Awakening,game,1,1,0
@@ -5483,6 +5483,7 @@ month,item_title,category,count,editor_count,user_count
 2026-06,Saros,game,2,0,2
 2026-06,Hime's Quest,game,1,0,1
 2026-06,Grand Theft Auto VI,game,1,0,1
+2026-06,007: First Light,game,5,0,5
 2026-06,Pragmata,game,2,0,2
 2026-06,Marathon,game,1,0,1
 2026-06,Clarkson's Farm,film_series,2,0,2
