@@ -5392,7 +5392,7 @@ month,item_title,category,count,editor_count,user_count
 2026-05,The Boroughs,film_series,1,1,0
 2026-05,Cocoon,film_series,1,1,0
 2026-05,Battlestar Galactica – Scattered Hopes,game,1,1,0
-2026-05,007: First Light,game,5,5,0
+2026-05,007 Dying Light,game,1,1,0
 2026-05,Saros,game,1,1,0
 2026-05,Witch Hat Atelier,film_series,1,1,0
 2026-05,"Inkonbini - One Store, Many Stories",game,1,1,0
@@ -5401,19 +5401,22 @@ month,item_title,category,count,editor_count,user_count
 2026-05,Shadow of the Colossus,game,1,1,0
 2026-05,Nürnberg,film_series,1,1,0
 2026-05,Rami Malek,film_series,1,1,0
-2026-05,Mortal Kombat II,game,3,3,0
+2026-05,Mortal Kombat 2,film_series,2,2,0
 2026-05,Karl Urban,film_series,1,1,0
 2026-05,Directive 8020,game,2,2,0
+2026-05,007 - First Light,game,3,3,0
 2026-05,Hitman,game,1,1,0
 2026-05,Kane & Lynch 2,game,1,1,0
+2026-05,Mortal Kombat II,film_series,1,1,0
 2026-05,The Punisher: One Last Kill,film_series,1,1,0
 2026-05,Fist of the North Star,film_series,1,1,0
 2026-05,Nicolas Cage,film_series,1,1,0
-2026-05,Spider-Man Noir,film_series,1,1,0
+2026-05,Spider-Noir,film_series,1,1,0
 2026-05,Spider-Verse,film_series,1,1,0
 2026-05,Humphrey Bogart,film_series,1,1,0
 2026-05,Jodie Foster,film_series,1,1,0
 2026-05,Paris Murder Mystery,film_series,1,1,0
+2026-05,007 - Dying Light,game,1,1,0
 2026-05,Lego Batman - Legacy of the Dark Knight,game,1,1,0
 2026-05,Elden Ring,game,1,1,0
 2026-05,The Mandalorian & Grogu,film_series,1,1,0
@@ -5435,7 +5438,7 @@ month,item_title,category,count,editor_count,user_count
 2026-05,Der Astronaut - Project Hail Mary,film_series,1,1,0
 2026-05,Glennkill: Ein Schafskrimi,film_series,1,1,0
 2026-05,Leonie Swann,film_series,1,1,0
-2026-05,Stranger Things,film_series,1,1,0
+2026-05,Stranger Things,game,1,1,0
 2026-05,Forza Horizon,game,1,1,0
 2026-05,Forza Horizon 4,game,1,1,0
 2026-05,Forza Horizon 6,game,1,1,0
@@ -5468,7 +5471,7 @@ month,item_title,category,count,editor_count,user_count
 2026-06,Milly Alcock,film_series,1,1,0
 2026-06,Supergirl,film_series,3,1,2
 2026-06,The Legend of Vox Machina,film_series,1,1,0
-2026-06,The Adventures of Elliot - The Millennium Tales,game,4,2,2
+2026-06,The Adventures of Elliot - The Millennium Tales,game,5,2,3
 2026-06,The Furious,film_series,2,1,1
 2026-06,The Raid,film_series,1,1,0
 2026-06,Joe Taslim,film_series,1,1,0
@@ -5530,9 +5533,12 @@ month,item_title,category,count,editor_count,user_count
 2026-06,Stranger Things,film_series,1,0,1
 2026-06,Persona 3 FES,game,1,0,1
 2026-06,Peter Grant,misc,1,0,1
-2026-06,Spider-Man Noir,film_series,1,0,1
+2026-06,Spider-Man Noir,film_series,2,0,2
 2026-06,Ted,film_series,1,0,1
 2026-06,Achtsam Morden,film_series,1,0,1
 2026-06,Jackass - Best and Last,film_series,1,0,1
 2026-06,Doom: The Dark Ages,game,1,0,1
 2026-06,Rock im Park,misc,1,0,1
+2026-06,Final Fantasy 7 - Rebirth,game,1,0,1
+2026-06,Final Fantasy VI,game,1,0,1
+2026-06,The Expanse,film_series,1,0,1

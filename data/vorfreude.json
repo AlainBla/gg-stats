@@ -93824,8 +93824,8 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-06-05T06:31:09Z",
-    "comment_count": 66,
+    "last_updated": "2026-06-08T13:49:09Z",
+    "comment_count": 67,
     "editors": [
       {
         "name": "Jörg Langer",
@@ -93839,7 +93839,7 @@
             "category": "film_series"
           },
           {
-            "title": "Battlestar Galactica – Scattered Hopes",
+            "title": "Battlestar Galactica: Scattered Hopes",
             "category": "game"
           },
           {
@@ -94153,6 +94153,10 @@
         "text": "wow echt saftiges Preisschild vom Retrotink. dann hilfts hoffentlich extraviel!\n\nAI Bros halt"
       },
       {
+        "username": "Maverick",
+        "text": "Daumen sind gedrückt für Zverev heute im HF. ;)\n\nAls Fan der FH-Serie natürlich Forza Horizon 6. Gespannt bin ich auch auf 007 - First Light. Battlestar Galactica -Scattered Hopes finde ich als Fan beider TV-Serien auch sehr interessant.\n\nAch ja, auf die 24 Hrs Nürburgring freue ich mich auch, offizieller Start des Rennens ist ja heute Nachmittag. ;-)"
+      },
+      {
         "username": "euph",
         "text": "Hab passten zum 01.05. mit Saros angefangen, das mich (hoffentlich) im Mai noch beschäftigen wird. Ansonsten spiele ich gerade am Tisch gerne Got Five und werde mich an Galatic Cruise versuchen.\nAn Serien läuft gerade Das Geisterhaus bei uns, die ersten beiden Folgen waren schon mal gut. Zudem möchte ich gerne Nürnberg im Kino und Michael sehen.\nAnsonsten genieße ich das hoffentlich gute Wetter, möglichst viel draußen.\n\nDiese Gartenarbeit bringt aber wirklich verlässlich jedes Jahr eine neue Staffel mit vielen Folgen heraus :-)"
       },
@@ -94211,13 +94215,452 @@
       {
         "username": "DerBesserwisser",
         "text": "[Spiele]\nEigentlich war gar nicht geplant was zu schreiben, aber da gestern die E-Mail mit der Nachfrage kam, für welche Plattform ich den Key haben möchte:\nMina the Hollower kommt am 29.05. raus. Das an sich ist schon toll, aber das Sahnehäubchen ist, dass man sich auch GOG als Plattform aussuchen kann.\nEin bisschen durcheinander diesen Monat: eigentlich war Causal Loop gesetzt, dann kam mir aber Elementalis dazwischen, das werde ich aber sicher nicht bis 29. schaffen.\n[Filme/Serien]\nMit der besseren Hälfte schaue ich grade die 4. Staffel von Stranger Things, mal sehen ob wir bis zu den Sommerferien die Serie abschließen können.\nAllein bin ich jezt in der 6. Folge der letzten Staffel von The Boys, bisher gefällt mir die Staffel nicht ganz so gut wie die letzte, macht aber immer noch viel Spaß.\nDas kann ich leider nicht von Invincible behaupten: Der Nukleus, also der ganze emotionale Teil ist super, aber Gott hab ich diese Superheldenk**ke satt: diese langweiligen Kämpfe, bei denen ich keine Sekunde mitfiebere, weil sich eh alle 5min ändert, wie viel ein Charakter aushält oder nicht, oder wieviel Schaden er verursachen kann. Ich kann auch nicht mehr diesen Running-gag mit der \"Titlecard\" sehen, das geht mir nur noch auf die Nerven. Echt schade, war eine tolle Serie."
+      }
+    ],
+    "user_items": [
+      {
+        "username": "Olphas",
+        "items": [
+          {
+            "title": "007: First Light",
+            "category": "game"
+          },
+          {
+            "title": "Directive 8020",
+            "category": "game"
+          },
+          {
+            "title": "Spider-Man Noir",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Bruno Lawrie",
+        "items": [
+          {
+            "title": "Fallout Staffel 2",
+            "category": "film_series"
+          },
+          {
+            "title": "Will: Follow the Light",
+            "category": "game"
+          },
+          {
+            "title": "Directive 8020",
+            "category": "game"
+          },
+          {
+            "title": "Forza Horizon 6",
+            "category": "game"
+          },
+          {
+            "title": "007: First Light",
+            "category": "game"
+          },
+          {
+            "title": "Pragmata",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "AlexCartman",
+        "items": [
+          {
+            "title": "The Mandalorian and Grogu",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Funatic",
+        "items": [
+          {
+            "title": "Kill Bill Final Cut",
+            "category": "film_series"
+          },
+          {
+            "title": "Mortal Kombat II",
+            "category": "game"
+          },
+          {
+            "title": "Spider-Man Noir",
+            "category": "film_series"
+          },
+          {
+            "title": "Daredevil: Born Again",
+            "category": "film_series"
+          },
+          {
+            "title": "Euphoria Staffel 3",
+            "category": "film_series"
+          },
+          {
+            "title": "The Boys Staffel 5",
+            "category": "film_series"
+          },
+          {
+            "title": "From Staffel 4",
+            "category": "film_series"
+          },
+          {
+            "title": "Crooks Staffel 2",
+            "category": "film_series"
+          },
+          {
+            "title": "Rick & Morty Staffel 9",
+            "category": "film_series"
+          },
+          {
+            "title": "Witch Hat Atelier",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "The Mandalorian and Grogu",
+            "category": "film_series"
+          },
+          {
+            "title": "Mortal Kombat II",
+            "category": "game"
+          },
+          {
+            "title": "Spider-Man Noir",
+            "category": "film_series"
+          },
+          {
+            "title": "LOL: Last One Laughing",
+            "category": "film_series"
+          },
+          {
+            "title": "Ted - Die Serie",
+            "category": "film_series"
+          },
+          {
+            "title": "The Punisher Special",
+            "category": "film_series"
+          },
+          {
+            "title": "Lego Batman",
+            "category": "game"
+          },
+          {
+            "title": "Yoshi and the Mysterious Book",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "John of Gaunt",
+        "items": [
+          {
+            "title": "Saros",
+            "category": "game"
+          },
+          {
+            "title": "007: First Light",
+            "category": "game"
+          },
+          {
+            "title": "Lego Batman",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Käpt'n Iglo",
+        "items": [
+          {
+            "title": "007: First Light",
+            "category": "game"
+          },
+          {
+            "title": "The Punisher Special",
+            "category": "film_series"
+          },
+          {
+            "title": "Spider-Man Noir",
+            "category": "film_series"
+          },
+          {
+            "title": "The Boys Staffel 5",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "007: First Light",
+            "category": "game"
+          },
+          {
+            "title": "Yoshi and the Mysterious Book",
+            "category": "game"
+          },
+          {
+            "title": "Forza Horizon 6",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Harry67",
+        "items": [
+          {
+            "title": "Crimson Desert",
+            "category": "game"
+          },
+          {
+            "title": "Modern Naval Warfare",
+            "category": "game"
+          },
+          {
+            "title": "Forza Horizon 6",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "Saros",
+            "category": "game"
+          },
+          {
+            "title": "Das Geisterhaus",
+            "category": "film_series"
+          },
+          {
+            "title": "Nürnberg",
+            "category": "film_series"
+          },
+          {
+            "title": "Michael",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Flooraimer",
+        "items": [
+          {
+            "title": "Zero Parades",
+            "category": "game"
+          },
+          {
+            "title": "Mortal Kombat II",
+            "category": "game"
+          },
+          {
+            "title": "The Black Phone 2",
+            "category": "film_series"
+          },
+          {
+            "title": "The Strangers: Chapter 2",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "The Mandalorian and Grogu",
+            "category": "film_series"
+          },
+          {
+            "title": "Crooks Staffel 2",
+            "category": "film_series"
+          },
+          {
+            "title": "007: First Light",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "Pragmata",
+            "category": "game"
+          },
+          {
+            "title": "Saros",
+            "category": "game"
+          },
+          {
+            "title": "Outer Wilds",
+            "category": "game"
+          },
+          {
+            "title": "Witch Hat Atelier",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "Age of Empires IV",
+            "category": "game"
+          },
+          {
+            "title": "Age of Mythology: Retold",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Hyperbolic",
+        "items": [
+          {
+            "title": "The Mandalorian and Grogu",
+            "category": "film_series"
+          },
+          {
+            "title": "Re:Zero",
+            "category": "film_series"
+          },
+          {
+            "title": "Witch Hat Atelier",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Baumkuchen",
+        "items": [
+          {
+            "title": "Microsoft Flight Simulator",
+            "category": "game"
+          },
+          {
+            "title": "Mixtape",
+            "category": "game"
+          },
+          {
+            "title": "007: First Light",
+            "category": "game"
+          },
+          {
+            "title": "Yoshi and the Mysterious Book",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Hermann Nasenweier",
+        "items": [
+          {
+            "title": "The Mandalorian and Grogu",
+            "category": "film_series"
+          },
+          {
+            "title": "Gothic 1",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "yesnocancel",
+        "items": [
+          {
+            "title": "Saros",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "007: First Light",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "Slow Horses",
+            "category": "film_series"
+          },
+          {
+            "title": "For All Mankind",
+            "category": "film_series"
+          },
+          {
+            "title": "Star Trek: Strange New Worlds",
+            "category": "film_series"
+          },
+          {
+            "title": "Craftlings",
+            "category": "game"
+          },
+          {
+            "title": "Industria 2",
+            "category": "game"
+          },
+          {
+            "title": "Coffee Talk: Tokyo",
+            "category": "game"
+          },
+          {
+            "title": "Titanium Court",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "DerBesserwisser",
+        "items": [
+          {
+            "title": "Mina the Hollower",
+            "category": "game"
+          },
+          {
+            "title": "Elementalis",
+            "category": "game"
+          },
+          {
+            "title": "Stranger Things Staffel 4",
+            "category": "film_series"
+          },
+          {
+            "title": "The Boys Staffel 6",
+            "category": "film_series"
+          }
+        ]
       },
       {
         "username": "Maverick",
-        "text": "Als Fan der FH-Serie natürlich Forza Horizon 6. Gespannt bin ich auch auf 007 - First Light. Battlestar Galactica -Scattered Hopes finde ich als Fan beider TV-Serien auch sehr interessant.\n\nAch ja, auf die 24 Hrs Nürburgring freue ich mich auch, offizieller Start des Rennens ist ja heute Nachmittag. ;-)"
+        "items": [
+          {
+            "title": "Forza Horizon 6",
+            "category": "game"
+          },
+          {
+            "title": "007: First Light",
+            "category": "game"
+          },
+          {
+            "title": "Battlestar Galactica: Scattered Hopes",
+            "category": "film_series"
+          }
+        ]
       }
     ],
-    "user_items": [],
     "item_stats": {
       "The Boroughs": {
         "count": 1,
@@ -94233,36 +94676,53 @@
           "editor:jörg_langer"
         ]
       },
-      "Battlestar Galactica – Scattered Hopes": {
-        "count": 1,
+      "Battlestar Galactica: Scattered Hopes": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:Maverick"
         ]
       },
       "007: First Light": {
-        "count": 5,
+        "count": 14,
         "category": "game",
         "mentioners": [
+          "editor:jörg_langer",
           "editor:benjamin_braun",
+          "editor:kai_schmidt",
           "editor:christian_burtchen",
           "editor:jens_bremicker",
-          "editor:jörg_langer",
-          "editor:kai_schmidt"
+          "user:Olphas",
+          "user:Bruno Lawrie",
+          "user:John of Gaunt",
+          "user:Käpt'n Iglo",
+          "user:Green Yoshi",
+          "user:Crizzo",
+          "user:Baumkuchen",
+          "user:Danywilde",
+          "user:Maverick"
         ]
       },
       "Saros": {
-        "count": 1,
+        "count": 5,
         "category": "game",
         "mentioners": [
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "user:John of Gaunt",
+          "user:euph",
+          "user:Moe90",
+          "user:yesnocancel"
         ]
       },
       "Witch Hat Atelier": {
-        "count": 1,
+        "count": 4,
         "category": "film_series",
         "mentioners": [
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "user:Funatic",
+          "user:Moe90",
+          "user:Hyperbolic"
         ]
       },
       "Inkonbini - One Store, Many Stories": {
@@ -94294,10 +94754,11 @@
         ]
       },
       "Nürnberg": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:euph"
         ]
       },
       "Rami Malek": {
@@ -94308,12 +94769,15 @@
         ]
       },
       "Mortal Kombat II": {
-        "count": 3,
+        "count": 6,
         "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
           "editor:kai_schmidt",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Funatic",
+          "user:Ganon",
+          "user:Flooraimer"
         ]
       },
       "Karl Urban": {
@@ -94324,11 +94788,13 @@
         ]
       },
       "Directive 8020": {
-        "count": 2,
+        "count": 4,
         "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
-          "editor:kai_schmidt"
+          "editor:kai_schmidt",
+          "user:Olphas",
+          "user:Bruno Lawrie"
         ]
       },
       "Hitman": {
@@ -94367,10 +94833,14 @@
         ]
       },
       "Spider-Man Noir": {
-        "count": 1,
+        "count": 5,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen"
+          "editor:christian_burtchen",
+          "user:Olphas",
+          "user:Funatic",
+          "user:Ganon",
+          "user:Käpt'n Iglo"
         ]
       },
       "Spider-Verse": {
@@ -94479,10 +94949,13 @@
         ]
       },
       "Yoshi and the Mysterious Book": {
-        "count": 1,
+        "count": 4,
         "category": "game",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Ganon",
+          "user:Green Yoshi",
+          "user:Baumkuchen"
         ]
       },
       "Nitro Gen Omega": {
@@ -94570,10 +95043,14 @@
         ]
       },
       "Forza Horizon 6": {
-        "count": 1,
+        "count": 5,
         "category": "game",
         "mentioners": [
-          "editor:jens_bremicker"
+          "editor:jens_bremicker",
+          "user:Bruno Lawrie",
+          "user:Green Yoshi",
+          "user:Harry67",
+          "user:Maverick"
         ]
       },
       "Dokomi": {
@@ -94582,6 +95059,295 @@
         "mentioners": [
           "editor:jens_bremicker"
         ]
+      },
+      "Fallout Staffel 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Will: Follow the Light": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Pragmata": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie",
+          "user:Moe90"
+        ]
+      },
+      "The Mandalorian and Grogu": {
+        "count": 5,
+        "category": "film_series",
+        "mentioners": [
+          "user:AlexCartman",
+          "user:Ganon",
+          "user:Crizzo",
+          "user:Hyperbolic",
+          "user:Hermann Nasenweier"
+        ]
+      },
+      "Kill Bill Final Cut": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Funatic"
+        ]
+      },
+      "Daredevil: Born Again": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Funatic"
+        ]
+      },
+      "Euphoria Staffel 3": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Funatic"
+        ]
+      },
+      "The Boys Staffel 5": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Funatic",
+          "user:Käpt'n Iglo"
+        ]
+      },
+      "From Staffel 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Funatic"
+        ]
+      },
+      "Crooks Staffel 2": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Funatic",
+          "user:Crizzo"
+        ]
+      },
+      "Rick & Morty Staffel 9": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Funatic"
+        ]
+      },
+      "LOL: Last One Laughing": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Ted - Die Serie": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "The Punisher Special": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon",
+          "user:Käpt'n Iglo"
+        ]
+      },
+      "Lego Batman": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Ganon",
+          "user:John of Gaunt"
+        ]
+      },
+      "Crimson Desert": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Harry67"
+        ]
+      },
+      "Modern Naval Warfare": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Harry67"
+        ]
+      },
+      "Das Geisterhaus": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Michael": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Zero Parades": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Flooraimer"
+        ]
+      },
+      "The Black Phone 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Flooraimer"
+        ]
+      },
+      "The Strangers: Chapter 2": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Flooraimer"
+        ]
+      },
+      "Outer Wilds": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "Age of Empires IV": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Age of Mythology: Retold": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Re:Zero": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Hyperbolic"
+        ]
+      },
+      "Microsoft Flight Simulator": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Baumkuchen"
+        ]
+      },
+      "Mixtape": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Baumkuchen"
+        ]
+      },
+      "Gothic 1": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hermann Nasenweier"
+        ]
+      },
+      "Slow Horses": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "For All Mankind": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Star Trek: Strange New Worlds": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Craftlings": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Industria 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Coffee Talk: Tokyo": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Titanium Court": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Mina the Hollower": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:DerBesserwisser"
+        ]
+      },
+      "Elementalis": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:DerBesserwisser"
+        ]
+      },
+      "Stranger Things Staffel 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:DerBesserwisser"
+        ]
+      },
+      "The Boys Staffel 6": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:DerBesserwisser"
+        ]
       }
     }
   },
@@ -94589,8 +95355,8 @@
     "month": "2026-06",
     "url": "/news/345475/darauf-freut-sich-die-redaktion-im-juni-2026",
     "title": "Darauf freut sich die Redaktion im... Juni 2026",
-    "last_updated": "2026-06-05T06:31:08Z",
-    "comment_count": 58,
+    "last_updated": "2026-06-08T13:49:08Z",
+    "comment_count": 66,
     "editors": [
       {
         "name": "Jörg Langer",
@@ -94831,7 +95597,7 @@
       },
       {
         "username": "Klexter",
-        "text": "Ich gehe nun für das zweite Halbjahr mein Weltliteratur-Projekt an. Da ist das Ziel bis Ende des Jahres, die meines Erachtens nach wichtigsten Bücher durchzulesen. Insofern muss das Gaming bis 2027 deutlich zurückstecken. Fest eingeplant ist bis dato nur GTA6, der Rest muss bis nächstes Jahr warten. Bei entsprechender Qualität nehme ich mir dann das Gothic Remake aus diesem Monat auch vor.\n* 1984\n* Der Fremde\n* Stolz und Vorurteil\n* Wer die Nachtigall stört\n* Eine kurze Geschichte der Menschheit\n* Selbstbetrachtungen\n* Schuld und Sühne\n* Anna Karenina\n* Faust I\n* Der Prozess\n* Hundert Jahre Einsamkeit\n* Frankenstein\n* Die Verwandlung\n* Der Meister und Margarita\n\nDanke für den Tipp, werde ich mal ausprobieren. Ich fürchte jedoch, es mangelt dann an Konzentration für den doch tw sehr schweren Stoff.\n\nSteht und fällt am Ende mit den Promis. Die ersten 2-3 Staffeln, da gabs schon ein paar legendäre Sketches aber eine gewisse Abnutzung ist zu spüren finde ich."
+        "text": "Ich gehe nun für das zweite Halbjahr mein Weltliteratur-Projekt an. Da ist das Ziel bis Ende des Jahres, die meines Erachtens nach wichtigsten Bücher durchzulesen. Insofern muss das Gaming bis 2027 deutlich zurückstecken. Fest eingeplant ist bis dato nur GTA6, der Rest muss bis nächstes Jahr warten. Bei entsprechender Qualität nehme ich mir dann das Gothic Remake aus diesem Monat auch vor.\n* 1984\n* Der Fremde\n* Stolz und Vorurteil\n* Wer die Nachtigall stört\n* Eine kurze Geschichte der Menschheit\n* Selbstbetrachtungen\n* Schuld und Sühne\n* Anna Karenina\n* Faust I\n* Der Prozess\n* Hundert Jahre Einsamkeit\n* Frankenstein\n* Die Verwandlung\n* Der Meister und Margarita\n\nDanke für den Tipp, werde ich mal ausprobieren. Ich fürchte jedoch, es mangelt dann an Konzentration für den doch tw sehr schweren Stoff.\n\nTatsächlich ja, Lücke identifiziert und der Wille die zu schließen ist da. Nehme mir ja auch ein halbes Jahr Zeit. Das sollte machbar sein, sind wohl etwa 5.000 Seiten in Summe. Aber da die meisten Werke ja recht komplex sind, ist das Lesetempo schätze ich auch deutlich reduziert.\nWobei noch ein Buch dazugekommen ist: Die Odyssee von Homer, allerdings in der Prosaform. Damit werde ich auch anfangen, arbeite mich chronologisch nach Erscheinungsjahr durch.\nDann ist aber wirklich Schluss.\n\nSteht und fällt am Ende mit den Promis. Die ersten 2-3 Staffeln, da gabs schon ein paar legendäre Sketches aber eine gewisse Abnutzung ist zu spüren finde ich."
       },
       {
         "username": "AlexCartman",
@@ -94840,6 +95606,22 @@
       {
         "username": "Hendrik",
         "text": "Viel Spaß mit 100 Jahre Einsamkeit. Tolles Buch, aber ich würde empfehlen, dem Buch nur Aufmerksamkeit zu schenken, wenn dich zu 100% nichts ablenken könnte. Denn der Roman ist teilweise wild am springen, ohne volle Konzentration hat man bald mehr Fragezeichen als Antworten. Davon ab, sehr schöne Geschichte. Bei mir kam natürlich noch der Lateinamerika Lover Bonus hinzu. :D\n\nIch habe die Demo zu \"The Adventures of Elliot\" gespielt, und die ließ mich etwas ratlos zurück. Ein Teil war angefixt, der andere angeödet. Strange.\nBei mir steht derzeit FF 7 Rebirth an, bin in Kapitel 3, und das Game macht so Bock. Soviel zu tun, zu entdecken. Skurrile Nebenfiguren wie die Becks Gang, welche es im Original nicht gab, einfach toll.\nDas Spiel ist jetzt schon wie vorher Remake eines, welches mich wieder wie früher am Bildschirm kleben lässt. Keine Ahnung ob das am inneren Fanboy liegt, aber ich ziehe so gerne mit Cloud und Co durch die Lande, es ist eins dieser Games wo mich auswalzen null stört, im Gegenteil, dadurch darf ich länger in dieser fantastischen Neuauflage verweilen. :)\nDanach werde ich endlich mal Teil 6 nachholen. Habe die letzten Monate alle Pixel Remaster gespielt. Es war echt faszinierend zu sehen, wie sich die Mechaniken und die Storys von Teil zu Teil mehr verbesserten. Jetzt findet die Zeitreise dann mit dem hochgelobten 6. Teil ihr Ende, und ich bin sehr gespannt, ob ich die  allgemeine Meinung teilen werde. Aber ich denke schon, da Teil 5 sehr gut war. Am miesesten fand ich Teil 2, aber das lag eher am beknackten Kampfsystem.\nLesetechnisch nähere ich mich dem Ende meines Reacher Marathons.Danach will ich mir mal \"The Expanse\" vornehmen.\nSerientechnisch suchte ich gerade Spider Noir, klasse gemacht."
+      },
+      {
+        "username": "Harry67",
+        "text": "Bei den russischen Romanen, wie dem wunderbaren Der Meister und Margerita ist es auf eine andere Art ähnlich.\nWenn sich die einzelnen Charaktere durchs Buch ziehen und man sich fragt, Vasily Iwanowitsch Irgendwas, wer war das gleich noch wieder, kenne ich den schon? ;)\n\nSo viele Spiele, so wenig Zeit. Das großartige Crimson Desert ist nach wie vor mein Favorit, gefolgt von diversen Runden in Forza Horizon und gelegentlichen Tauchgängen in Modern Naval Warfare.\nAnsonsten viel Arbeit und natürlich Hochsaison im Garten, der mir ein emotionales Highlight bescherte, als ich mein erstes Außengewinde für eine zentrale Wasserleitung schneiden durfte. Sport, Spiel, Spannung ...\n\nWow! Krass. Ist das tatsächlich mit einem Refraktor aufgenommen? Bin begeistert!\n\nEigentlich ein Synonym für Reflektor. Falls ich mich nicht täusche.\n\nEigentlich ist ein Newton das klassische Spiegelteleskop. Aber keine Ahnung ob es das auch als Marke gibt?"
+      },
+      {
+        "username": "Ganon",
+        "text": "Alle zum ersten Mal? Nicht schlecht. 1984 müsste ich auch mal wieder lesen, wirkt immer wieder erstaunlich aktuell.\n\nMir ging es bei LOL Staffel 6 so, dass ich das Gefühl hatte, es nutzt sich langsam ab. Staffel 7 fand ich aber wieder besser irgendwie.\n\nKlar. Wobei mich manche viel ersprwchende Namen auch schon enttäuscht haben. In Staffel 7 kamen glaube ich 4 Leute von Staffel 1 zurück, vielleicht war sie deshalb wieder so gut. ;-)\n\nSerien: Bin noch nicht ganz durch mit Spider-Noir und der Ted-Serie, aber beide gefallen mir sehr gut. Ende Mai erschien außerdem Staffel 2 von Achtsam Morden, die ist danach dran.\nKino: So viel! Disclosure Day, Supergirl, The Furious und natürlich Jackass - Best and Last. :D Und im Juli geht's ähnlich spektakulär weiter. Sehr fein.\nSpiele: Zocke gerade Doom - The Dark Ages und es macht viel Spaß. An Neuerscheinungen werde ich Star Fox beobachten, da der Kauf einer Switch 2 schon geplant ist und das Original auf dem N64 echt super war.\nSonstiges: Morgen geht's nach Nürnberg zu Rock im Park. Die WM-Vorfreude kommt noch nicht so richtig auf, aber die Deutschland-Spiele werde ich wohl gucken, soweit möglich."
+      },
+      {
+        "username": "Bruno Lawrie",
+        "text": "Lohnt sich v.a., wenn man es zuletzt in der Schule als Teenager lesen musste. Da fand ich das arg langweilig, aber als ich es vor so zwei Jahren wieder gelesen habe, war das eine völlig andere Erfahrung. Auch dieses „Buch im Buch“ ist mit höherem Alter dann zu ertragen. :-)\nHab am Wochenende auch mal wieder „Welt am Draht“ gesehen, was ich das letzte Mal mit Ende 20 geschaut habe (jetzt bin ich Ende 40). Auch ein ganz anderes Erlebnis, obwohl ich es damals schon nicht schlecht fand. Damals fand ich eher faszinierend, wieviel das Werk 1973 schon hatte, was Matrix dann Ende der 90er erst populär gemacht hat.\nWer es nicht kennt: ist die Fassbender-Verfilmung von Simulacron-3, einem Buch, was vermutlich die Handlung von Matrix massiv inspiriert hat. Also quasi deutscher 70er Jahre Cyberpunk. :-)\n\n[SPIELE]\nIn April und Mai sind so dermaßen viele für mich interessante Spiele erschienen, dass ich eigentlich nichts mehr kaufen dürfte, da ich Material für Monate habe. Aber Gothic Remake und Star Fox Remake werden meine Vernunft nochmal außer Kraft setzen. Danach ist eh für Monate nichts mehr los.\nBeim Gothic Remake plane ich, es parallel zum Original-Remaster zu spielen. Das Original hab ich damals nie durchgespielt, aber neulich erst auf der Switch 2 wieder angefangen. Und dieses Parallelplay von Original und Remake war schon bei Silent Hill 2 ziemlich faszinierend.\n[FILME/SERIEN]\nKeine Zeit dafür übrig, dieser Juni ist in Sachen Medien ein reiner Spielemonat für mich.\n[SONSTIGES]\nUrlaub für August planen und alles buchen, kleine Tour durch Schweden, mir graut es schon vor Malmö, was in Skåne, dem Bayern von Schweden liegt. Ich verstehe Schwedisch an sich sehr gut, aber der Skånska-Dialekt ist der Dark-Souls-Endgegner von Schwedisch."
+      },
+      {
+        "username": "thoohl",
+        "text": "Schönes Projekt. Auf Netflix ist derzeit eh nix mehr zu finden.\nMuss mal schauen, was mich reizen würde."
       },
       {
         "username": "Sathorien",
@@ -94866,10 +95648,6 @@
         "text": "# FILME/SERIEN\n- Wir haben Slow Horses beendet. Gut - aber auch nicht gerade herausragend. Andere Staffeln waren besser. Nun stehen wir vor der Wahl evtl. das Scrubs Reboot anzugehen. Man on the Inside Staffel 2 steht aber auch auf der Liste, sowie ein paar weitere Filme auf Netflix. Noch haben wir uns auf nichts commited.\n- Die LOL Staffel 7 ist bei uns in den letzten Zügen und... entweder hat sich das Format bereits kräftig abgenutzt, oder ich mag es nicht mehr so sehr. Aktuell drücke ich Max Giermann die Daumen.\n- Ich bin inzwischen bei der Serie Utopia Staffel 1 gelandet. Was für ein Fiebertraum! Jaja, 12 Jahre alt, aber wow...\n# SPIELE/BRETTSPIELE\n- Ich hab den JRPG-UrOpa \"Lunar - The Silver Star Remake\" auf der PS angefangen und es macht verdammt Spaß. Wird definitiv weiter gespielt.\n- Titanium Court macht auch sehr viel Spaß ist und ist ein absoluter Fiebertraum vom einem Spiel.\n- \"The Remake of the End of the Greatest RPG of All Time\" ist DAAAAAAAA. Erstes Vorfazit - ja, ganz cool, aber kein Brecher.\n- Ich haben vor einen Monat den GamePass wieder zu reaktivieren, um dann Mixtape, Call of the Elder Gods, Aphelion und Replaced mindestens anzuspielen. Und vielleicht reicht die Zeit noch für inKONBINI.\n# SONSTIGES\n- Die Playstation 5 überhitzt immer häufiger - die muss wohl leider in die Reparatur... Was meine Spielepläne etwas behindert. Tss\n- Das Graspop ruft!\n- mit scripten die Themen hier etwas auswerten: https://alainbla.github.io/gg-stats/vorfreude.html"
       },
       {
-        "username": "Ganon",
-        "text": "Mir ging es bei LOL Staffel 6 so, dass ich das Gefühl hatte, es nutzt sich langsam ab. Staffel 7 fand ich aber wieder besser irgendwie.\n\nSerien: Bin noch nicht ganz durch mit Spider-Noir und der Ted-Serie, aber beide gefallen mir sehr gut. Ende Mai erschien außerdem Staffel 2 von Achtsam Morden, die ist danach dran.\nKino: So viel! Disclosure Day, Supergirl, The Furious und natürlich Jackass - Best and Last. :D Und im Juli geht's ähnlich spektakulär weiter. Sehr fein.\nSpiele: Zocke gerade Doom - The Dark Ages und es macht viel Spaß. An Neuerscheinungen werde ich Star Fox beobachten, da der Kauf einer Switch 2 schon geplant ist und das Original auf dem N64 echt super war.\nSonstiges: Morgen geht's nach Nürnberg zu Rock im Park. Die WM-Vorfreude kommt noch nicht so richtig auf, aber die Deutschland-Spiele werde ich wohl gucken, soweit möglich."
-      },
-      {
         "username": "Danywilde",
         "text": "Ich werde mich weiterhin als 007 in First Light verdingen und danach durch Hagens Lets‘s Play inspiriert die schon lange trockene Blutspur in Bloodborne wahrscheinlich wiederaufnehmen.\n\nIch bin begeistert, ganz tolle Aufnahmen!"
       },
@@ -94890,10 +95668,6 @@
         "text": "[Spiele] Bin auf das Gothic Remake sowie auf Sinking City 2 gespannt. Zumindest sofern letzteres noch im Juni erscheinen sollte.\n[Filme] Scary Movie 6 ist ein muss. Ansonsten könnte Obsession noch ganz witzig werden."
       },
       {
-        "username": "Harry67",
-        "text": "So viele Spiele, so wenig Zeit. Das großartige Crimson Desert ist nach wie vor mein Favorit, gefolgt von diversen Runden in Forza Horizon und gelegentlichen Tauchgängen in Modern Naval Warfare.\nAnsonsten viel Arbeit und natürlich Hochsaison im Garten, der mir ein emotionales Highlight bescherte, als ich mein erstes Außengewinde für eine zentrale Wasserleitung schneiden durfte. Sport, Spiel, Spannung ...\n\nWow! Krass. Ist das tatsächlich mit einem Refraktor aufgenommen? Bin begeistert!\n\nEigentlich ein Synonym für Reflektor. Falls ich mich nicht täusche.\n\nEigentlich ist ein Newton das klassische Spiegelteleskop. Aber keine Ahnung ob es das auch als Marke gibt?"
-      },
-      {
         "username": "Moe90",
         "text": "Im Juni werde ich mich mit Saros weiterbeschäftigen. Bin mittlerweile in Akt 2 angekommen (nicht Biom 2, sondern tatsächlich Akt 2), wobei diese Aktstruktur keine große für mich erkennbare Relevanz hat - zumindest bisher nicht. Habe auch das Gefühl, dass ich vieles schon gesehen habe, und nur noch ~2 weitere Biome vor mir habe.\nDanach will ich sicher in das Gothic Remake reinschauen. Es sei denn die Rezensionen (von Testern und Usern) fallen sehr schlecht aus. Ich hoffe jedoch nicht.\nThe Pitt wird weitergeschaut. Zverev die Daumen bei den French Open gedrückt. Und die WM ist mir, zumindest bisher, völlig egal."
       },
@@ -94906,16 +95680,12 @@
         "text": "Interessant, was habt ihr denn an Brettspielen gespielt?\n\nAh, Danke. Am Herr der Ringe Stichspiel bin ich auch gerade dran. Und Moon Colony steht auf der Wunschliste. Habt ihr auch Hard Rock 1977 gespielt? Mein derzeitiges Lieblings-Workerplacement-Spiel.\n\nWenn man Rockmusik mag einfach sehr schön thematisch umgesetzt und tolles Material.\nBist du Calmon70 auf BGA?"
       },
       {
-        "username": "Bruno Lawrie",
-        "text": "[SPIELE]\nIn April und Mai sind so dermaßen viele für mich interessante Spiele erschienen, dass ich eigentlich nichts mehr kaufen dürfte, da ich Material für Monate habe. Aber Gothic Remake und Star Fox Remake werden meine Vernunft nochmal außer Kraft setzen. Danach ist eh für Monate nichts mehr los.\nBeim Gothic Remake plane ich, es parallel zum Original-Remaster zu spielen. Das Original hab ich damals nie durchgespielt, aber neulich erst auf der Switch 2 wieder angefangen. Und dieses Parallelplay von Original und Remake war schon bei Silent Hill 2 ziemlich faszinierend.\n[FILME/SERIEN]\nKeine Zeit dafür übrig, dieser Juni ist in Sachen Medien ein reiner Spielemonat für mich.\n[SONSTIGES]\nUrlaub für August planen und alles buchen, kleine Tour durch Schweden, mir graut es schon vor Malmö, was in Skåne, dem Bayern von Schweden liegt. Ich verstehe Schwedisch an sich sehr gut, aber der Skånska-Dialekt ist der Dark-Souls-Endgegner von Schwedisch."
-      },
-      {
         "username": "John of Gaunt",
         "text": "Wenn das Gothic Remake gut ist, hole ich mir das. Ansonsten wandert 007 im Juni in die Sammlung. Bis dahin spiele ich noch Star Wars Outlaws (via PS+ Extra) und Breath of the Wild weiter. Ersteres ist besser als erwartet, letzteres absolut fantastisch.\nIch würde mich ansonsten gerne auf die WM freuen, aber irgendwie ist da gar kein Hype da. Wohl auch, weil ich durch die Zeitverschiebung kaum Spiele werde sehen können, aber vor allem, weil viel vom Drumherum keine guten Vibes abgibt, auch was die DFB-Elf angeht (#KoanNeuer)."
       },
       {
         "username": "MicBass",
-        "text": "Spiele: Nach Age of Sail Ultimate Admiral, was sich mit allen drei Kampagnen aber als 100h-Monster entpuppt hat, wenn auch ein großartiges, ist vielleicht Zeit mit Stalker 2 anzufangen. Oder mit was anderem, mal schaun..\nSerien: wir werden weiter Fallout kucken, hab mit meiner Frau nochmal die erste Staffel angefangen um dann zusammen die zweite kucken zu können.\nSonstiges: Hoffe jetzt im Juni auf ein paar sternklare und mondfreie Nächte um die ein oder andere Galaxie fotografieren zu können. Die letzte Maiwoche war zwar super Wetter aber leider viel zu hell wegen des Mondes. Irgendwas ist ja immer...\n\nDa stehen im Moment so einige hoch am Himmel, die drei Klassiker sicherlich M81 Bodes, M51 Whirlpool oder M101 Feuerradgalaxie. Mein letztes Objekt war etwas exotischer Ende April die Krokodilaugengalaxie M94 im Sternbild Jagdhunde. Wen es interessiert: https://app.astrobin.com/u/MicBass\nDa ist auch ein schönes Bild von der Andromedagalaxie dabei. ;-)\n\nJa fast alle, die meisten Mond- und Planetenfotos allerdings mit einem Newton 1200/200. Vielen Dank! :)\n\nJa genau, Refraktor = Linsenteleskop und Reflektor = Spiegelteleskop. Die ganzen Deep Sky Aufnahmen sind mit einem Refraktor entstanden, die Mond- und Planetenbilder mit einem Reflektor der Newton-Bauweise.\n\nWow, vielen Dank für euer Lob! :)"
+        "text": "Spiele: Nach Age of Sail Ultimate Admiral, was sich mit allen drei Kampagnen aber als 100h-Monster entpuppt hat, wenn auch ein großartiges, ist vielleicht Zeit mit Stalker 2 anzufangen. Oder mit was anderem, mal schaun..\nSerien: wir werden weiter Fallout kucken, hab mit meiner Frau nochmal die erste Staffel angefangen um dann zusammen die zweite kucken zu können.\nSonstiges: Hoffe jetzt im Juni auf ein paar sternklare und mondfreie Nächte um die ein oder andere Galaxie fotografieren zu können. Die letzte Maiwoche war zwar super Wetter aber leider viel zu hell wegen des Mondes. Irgendwas ist ja immer...\n\nDa stehen im Moment so einige hoch am Himmel, die drei Klassiker sicherlich M81 Bodes, M51 Whirlpool oder M101 Feuerradgalaxie. Mein letztes Objekt war etwas exotischer Ende April die Krokodilaugengalaxie M94 im Sternbild Jagdhunde. Wen es interessiert: https://app.astrobin.com/u/MicBass\nDa ist auch ein schönes Bild von der Andromedagalaxie dabei. ;-)\n\nJa fast alle, die meisten Mond- und Planetenfotos allerdings mit einem Newton 1200/200. Vielen Dank! :)\n\nJa genau, Refraktor = Linsenteleskop und Reflektor = Spiegelteleskop. Die ganzen Deep Sky Aufnahmen sind mit einem Refraktor entstanden, die Mond- und Planetenbilder mit einem Reflektor der Newton-Bauweise.\n\nWow, vielen Dank für euer Lob! :)\n\nVielen Dank :)"
       },
       {
         "username": "Q-Bert",
@@ -94924,6 +95694,10 @@
       {
         "username": "sneaker23",
         "text": "Cool, vielen Dank! Ein paar neue Desktophintergründe sind in meinem \"All\"-Ordner gelandet :-)"
+      },
+      {
+        "username": "Wuslon",
+        "text": "Bisschen late to the party, aber: Woah, was für brillante Bilder. Hut ab! Danke fürs Teilen."
       },
       {
         "username": "Olphas",
