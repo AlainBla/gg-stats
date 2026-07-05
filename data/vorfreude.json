@@ -97281,21 +97281,305 @@
         "text": "Da der Juli ohne Urlaub ist, werde ich mich wieder auf den Backlog meiner Retrospiele stürzen. Ein PS2 Spiel habe ich gestern begonnen, bei den anderen beiden Titeln bin ich noch etwas unschlüssig, ob ich sie jetzt spiele oder eher Richtung Herbst / Winter packe.\nAnsonsten erfreue ich mich aktuell an House of the Dragons, wobei die ersten beiden Folgen ja eigentlich das Finale der zweiten Staffel sein sollten und dies auch so wirkt, dass es keine „klassischen“ Folgen einer beginnenden Staffel sind."
       }
     ],
-    "user_items": [],
-    "item_stats": {
-      "House of the Dragon": {
-        "count": 1,
-        "category": "film_series",
-        "mentioners": [
-          "editor:jörg_langer"
+    "user_items": [
+      {
+        "username": "AlexCartman",
+        "items": [
+          {
+            "title": "Die Odyssee",
+            "category": "film_series"
+          },
+          {
+            "title": "Moon over Soho",
+            "category": "misc"
+          },
+          {
+            "title": "Persona 3",
+            "category": "game"
+          },
+          {
+            "title": "Final Fantasy IV",
+            "category": "game"
+          },
+          {
+            "title": "Andor",
+            "category": "misc"
+          },
+          {
+            "title": "Aeon's End",
+            "category": "misc"
+          },
+          {
+            "title": "Boss Fighters QR",
+            "category": "misc"
+          }
         ]
       },
-      "Die Odyssee": {
-        "count": 2,
+      {
+        "username": "John of Gaunt",
+        "items": [
+          {
+            "title": "Die Odyssee",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "007: First Light",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "Corsair Cove",
+            "category": "game"
+          },
+          {
+            "title": "Doom - The Dark Ages",
+            "category": "game"
+          },
+          {
+            "title": "Moss: The Forgotten Relic",
+            "category": "game"
+          },
+          {
+            "title": "Stargate SG-1",
+            "category": "film_series"
+          },
+          {
+            "title": "Die Odyssee",
+            "category": "film_series"
+          },
+          {
+            "title": "Stuart Fails to Save the Universe",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "duchess",
+        "items": [
+          {
+            "title": "Lost Records: Bloom & Rage",
+            "category": "game"
+          },
+          {
+            "title": "There Is No Antimemetics Division",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "Silo",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Maestro84",
+        "items": [
+          {
+            "title": "Die Odyssee",
+            "category": "film_series"
+          },
+          {
+            "title": "Supergirl",
+            "category": "film_series"
+          },
+          {
+            "title": "Assassin's Creed - Black Flag Resynced",
+            "category": "game"
+          },
+          {
+            "title": "Minions & Monsters",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "Black Jacket",
+            "category": "game"
+          },
+          {
+            "title": "Spider-Man: Brand New Day",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "007: First Light",
+            "category": "game"
+          },
+          {
+            "title": "Obsessions",
+            "category": "film_series"
+          },
+          {
+            "title": "Die Odyssee",
+            "category": "film_series"
+          },
+          {
+            "title": "The Pitt",
+            "category": "film_series"
+          },
+          {
+            "title": "House of the Dragon",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Supergirl",
+            "category": "film_series"
+          },
+          {
+            "title": "Minions & Monsters",
+            "category": "film_series"
+          },
+          {
+            "title": "Die Odyssee",
+            "category": "film_series"
+          },
+          {
+            "title": "Spider-Man: Brand New Day",
+            "category": "film_series"
+          },
+          {
+            "title": "Doom - The Dark Ages",
+            "category": "game"
+          },
+          {
+            "title": "Pioneers of Pagonia",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "thoohl",
+        "items": [
+          {
+            "title": "Die Odyssee",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Klexter",
+        "items": [
+          {
+            "title": "Die Odyssee",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Bruno Lawrie",
+        "items": [
+          {
+            "title": "Silent Hill 3",
+            "category": "game"
+          },
+          {
+            "title": "Chrono Trigger",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "funrox",
+        "items": [
+          {
+            "title": "Hollow Knight: Silksong",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "Star Trek: Strange New Worlds",
+            "category": "film_series"
+          },
+          {
+            "title": "LOL: Last One Laughing",
+            "category": "misc"
+          },
+          {
+            "title": "Silo",
+            "category": "film_series"
+          },
+          {
+            "title": "Lunar - The Silver Star Remake",
+            "category": "game"
+          },
+          {
+            "title": "Phoenix Wright: Ace Attorney",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Hermann Nasenweier",
+        "items": [
+          {
+            "title": "Gothic Remake",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "KampfPlauze",
+        "items": [
+          {
+            "title": "House of the Dragon",
+            "category": "film_series"
+          }
+        ]
+      }
+    ],
+    "item_stats": {
+      "House of the Dragon": {
+        "count": 3,
         "category": "film_series",
         "mentioners": [
           "editor:jörg_langer",
-          "editor:michael_hengst"
+          "user:KampfPlauze",
+          "user:Moe90"
+        ]
+      },
+      "Die Odyssee": {
+        "count": 10,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jörg_langer",
+          "editor:michael_hengst",
+          "user:AlexCartman",
+          "user:Ganon",
+          "user:John of Gaunt",
+          "user:Klexter",
+          "user:Maestro84",
+          "user:Moe90",
+          "user:Sokar",
+          "user:thoohl"
         ]
       },
       "Christopher Nolan": {
@@ -97420,10 +97704,11 @@
         ]
       },
       "Assassin's Creed - Black Flag Resynced": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun"
+          "editor:benjamin_braun",
+          "user:Maestro84"
         ]
       },
       "Evil Dead Burn": {
@@ -97434,19 +97719,23 @@
         ]
       },
       "Spider-Man: Brand New Day": {
-        "count": 3,
+        "count": 5,
         "category": "film_series",
         "mentioners": [
           "editor:christian_burtchen",
           "editor:kai_schmidt",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Ganon",
+          "user:euph"
         ]
       },
       "Doom - The Dark Ages": {
-        "count": 1,
+        "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:kai_schmidt"
+          "editor:kai_schmidt",
+          "user:Ganon",
+          "user:Sokar"
         ]
       },
       "Masters of the Universe - Dragon Pearl of Destruction": {
@@ -97492,17 +97781,20 @@
         ]
       },
       "Corsair Cove": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:christian_burtchen"
+          "editor:christian_burtchen",
+          "user:Sokar"
         ]
       },
       "Minions & Monsters": {
-        "count": 1,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Ganon",
+          "user:Maestro84"
         ]
       },
       "Mark Ruffalo": {
@@ -97520,17 +97812,20 @@
         ]
       },
       "Silo": {
-        "count": 1,
+        "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Alain",
+          "user:Danywilde"
         ]
       },
       "Star Trek: Strange New Worlds": {
-        "count": 1,
+        "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "user:Alain"
         ]
       },
       "Kyoto Xanadu - The Blooming Phantom": {
@@ -97615,6 +97910,176 @@
         "category": "game",
         "mentioners": [
           "editor:jens_bremicker"
+        ]
+      },
+      "Moon over Soho": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Persona 3": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Final Fantasy IV": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Andor": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Aeon's End": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "Boss Fighters QR": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:AlexCartman"
+        ]
+      },
+      "007: First Light": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Green Yoshi",
+          "user:Moe90"
+        ]
+      },
+      "Moss: The Forgotten Relic": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Stargate SG-1": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Stuart Fails to Save the Universe": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Lost Records: Bloom & Rage": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:duchess"
+        ]
+      },
+      "There Is No Antimemetics Division": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:duchess"
+        ]
+      },
+      "Supergirl": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon",
+          "user:Maestro84"
+        ]
+      },
+      "Black Jacket": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Obsessions": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "The Pitt": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Moe90"
+        ]
+      },
+      "Pioneers of Pagonia": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Silent Hill 3": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Chrono Trigger": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Hollow Knight: Silksong": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:funrox"
+        ]
+      },
+      "LOL: Last One Laughing": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Lunar - The Silver Star Remake": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Phoenix Wright: Ace Attorney": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Gothic Remake": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hermann Nasenweier"
         ]
       }
     }
