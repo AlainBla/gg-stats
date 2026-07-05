@@ -93824,7 +93824,7 @@
     "month": "2026-05",
     "url": "/news/343659/darauf-freut-sich-die-redaktion-im-mai-2026",
     "title": "Darauf freut sich die Redaktion im... Mai 2026",
-    "last_updated": "2026-06-08T13:49:09Z",
+    "last_updated": "2026-06-13T12:30:14Z",
     "comment_count": 67,
     "editors": [
       {
@@ -94678,7 +94678,7 @@
       },
       "Battlestar Galactica: Scattered Hopes": {
         "count": 2,
-        "category": "game",
+        "category": "film_series",
         "mentioners": [
           "editor:jörg_langer",
           "user:Maverick"
@@ -94688,20 +94688,20 @@
         "count": 14,
         "category": "game",
         "mentioners": [
-          "editor:jörg_langer",
           "editor:benjamin_braun",
-          "editor:kai_schmidt",
           "editor:christian_burtchen",
           "editor:jens_bremicker",
-          "user:Olphas",
+          "editor:jörg_langer",
+          "editor:kai_schmidt",
+          "user:Baumkuchen",
           "user:Bruno Lawrie",
+          "user:Crizzo",
+          "user:Danywilde",
+          "user:Green Yoshi",
           "user:John of Gaunt",
           "user:Käpt'n Iglo",
-          "user:Green Yoshi",
-          "user:Crizzo",
-          "user:Baumkuchen",
-          "user:Danywilde",
-          "user:Maverick"
+          "user:Maverick",
+          "user:Olphas"
         ]
       },
       "Saros": {
@@ -94710,8 +94710,8 @@
         "mentioners": [
           "editor:jörg_langer",
           "user:John of Gaunt",
-          "user:euph",
           "user:Moe90",
+          "user:euph",
           "user:yesnocancel"
         ]
       },
@@ -94721,8 +94721,8 @@
         "mentioners": [
           "editor:hagen_gehritz",
           "user:Funatic",
-          "user:Moe90",
-          "user:Hyperbolic"
+          "user:Hyperbolic",
+          "user:Moe90"
         ]
       },
       "Inkonbini - One Store, Many Stories": {
@@ -94775,9 +94775,9 @@
           "editor:benjamin_braun",
           "editor:kai_schmidt",
           "editor:michael_hengst",
+          "user:Flooraimer",
           "user:Funatic",
-          "user:Ganon",
-          "user:Flooraimer"
+          "user:Ganon"
         ]
       },
       "Karl Urban": {
@@ -94793,8 +94793,8 @@
         "mentioners": [
           "editor:benjamin_braun",
           "editor:kai_schmidt",
-          "user:Olphas",
-          "user:Bruno Lawrie"
+          "user:Bruno Lawrie",
+          "user:Olphas"
         ]
       },
       "Hitman": {
@@ -94837,10 +94837,10 @@
         "category": "film_series",
         "mentioners": [
           "editor:christian_burtchen",
-          "user:Olphas",
           "user:Funatic",
           "user:Ganon",
-          "user:Käpt'n Iglo"
+          "user:Käpt'n Iglo",
+          "user:Olphas"
         ]
       },
       "Spider-Verse": {
@@ -94953,9 +94953,9 @@
         "category": "game",
         "mentioners": [
           "editor:michael_hengst",
+          "user:Baumkuchen",
           "user:Ganon",
-          "user:Green Yoshi",
-          "user:Baumkuchen"
+          "user:Green Yoshi"
         ]
       },
       "Nitro Gen Omega": {
@@ -95087,10 +95087,10 @@
         "category": "film_series",
         "mentioners": [
           "user:AlexCartman",
-          "user:Ganon",
           "user:Crizzo",
-          "user:Hyperbolic",
-          "user:Hermann Nasenweier"
+          "user:Ganon",
+          "user:Hermann Nasenweier",
+          "user:Hyperbolic"
         ]
       },
       "Kill Bill Final Cut": {
@@ -95133,8 +95133,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "user:Funatic",
-          "user:Crizzo"
+          "user:Crizzo",
+          "user:Funatic"
         ]
       },
       "Rick & Morty Staffel 9": {
@@ -95355,7 +95355,7 @@
     "month": "2026-06",
     "url": "/news/345475/darauf-freut-sich-die-redaktion-im-juni-2026",
     "title": "Darauf freut sich die Redaktion im... Juni 2026",
-    "last_updated": "2026-06-08T13:49:08Z",
+    "last_updated": "2026-07-05T13:59:22Z",
     "comment_count": 66,
     "editors": [
       {
@@ -96208,19 +96208,19 @@
         "count": 13,
         "category": "game",
         "mentioners": [
-          "editor:jörg_langer",
-          "editor:hagen_gehritz",
           "editor:benjamin_braun",
           "editor:christian_burtchen",
+          "editor:hagen_gehritz",
           "editor:jens_bremicker",
-          "user:Hannes Herrmann",
-          "user:Klexter",
-          "user:Sathorien",
-          "user:Sokar",
-          "user:Flooraimer",
-          "user:Moe90",
+          "editor:jörg_langer",
           "user:Bruno Lawrie",
-          "user:John of Gaunt"
+          "user:Flooraimer",
+          "user:Hannes Herrmann",
+          "user:John of Gaunt",
+          "user:Klexter",
+          "user:Moe90",
+          "user:Sathorien",
+          "user:Sokar"
         ]
       },
       "007: First Light": {
@@ -96228,11 +96228,11 @@
         "category": "game",
         "mentioners": [
           "editor:jörg_langer",
-          "user:Sathorien",
           "user:Crizzo",
-          "user:Green Yoshi",
           "user:Danywilde",
-          "user:John of Gaunt"
+          "user:Green Yoshi",
+          "user:John of Gaunt",
+          "user:Sathorien"
         ]
       },
       "Passenger": {
@@ -96247,8 +96247,8 @@
         "category": "game",
         "mentioners": [
           "editor:hagen_gehritz",
-          "user:Hannes Herrmann",
-          "user:DerBesserwisser"
+          "user:DerBesserwisser",
+          "user:Hannes Herrmann"
         ]
       },
       "Link's Awakening": {
@@ -96332,11 +96332,11 @@
         "count": 5,
         "category": "film_series",
         "mentioners": [
-          "editor:kai_schmidt",
           "editor:christian_burtchen",
+          "editor:kai_schmidt",
           "editor:michael_hengst",
-          "user:Hannes Herrmann",
-          "user:DerBesserwisser"
+          "user:DerBesserwisser",
+          "user:Hannes Herrmann"
         ]
       },
       "Clarkson’s Farm": {
@@ -96411,8 +96411,8 @@
         "category": "film_series",
         "mentioners": [
           "editor:michael_hengst",
-          "user:Olphas",
-          "user:Ganon"
+          "user:Ganon",
+          "user:Olphas"
         ]
       },
       "The Legend of Vox Machina": {
@@ -96426,11 +96426,11 @@
         "count": 5,
         "category": "game",
         "mentioners": [
-          "editor:michael_hengst",
           "editor:jens_bremicker",
-          "user:Sokar",
+          "editor:michael_hengst",
+          "user:Hendrik",
           "user:Olphas",
-          "user:Hendrik"
+          "user:Sokar"
         ]
       },
       "The Furious": {
@@ -96537,8 +96537,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Sathorien",
-          "user:Green Yoshi"
+          "user:Green Yoshi",
+          "user:Sathorien"
         ]
       },
       "Marathon": {
@@ -96560,8 +96560,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "user:Crizzo",
-          "user:Calmon"
+          "user:Calmon",
+          "user:Crizzo"
         ]
       },
       "Forza Horizon 6": {
@@ -96786,10 +96786,10 @@
         "count": 4,
         "category": "film_series",
         "mentioners": [
-          "user:Calmon",
-          "user:Olphas",
           "user:AlexCartman",
-          "user:Ganon"
+          "user:Calmon",
+          "user:Ganon",
+          "user:Olphas"
         ]
       },
       "Star Wars: Outlaws": {
@@ -96924,6 +96924,697 @@
         "category": "film_series",
         "mentioners": [
           "user:Hendrik"
+        ]
+      }
+    }
+  },
+  {
+    "month": "2026-07",
+    "url": "/news/347257/darauf-freut-sich-die-redaktion-im-juli-2026",
+    "title": "Darauf freut sich die Redaktion im... Juli 2026",
+    "last_updated": "2026-07-05T13:59:22Z",
+    "comment_count": 62,
+    "editors": [
+      {
+        "name": "Jörg Langer",
+        "items": [
+          {
+            "title": "House of the Dragon",
+            "category": "film_series"
+          },
+          {
+            "title": "Die Odyssee",
+            "category": "film_series"
+          },
+          {
+            "title": "Christopher Nolan",
+            "category": "film_series"
+          },
+          {
+            "title": "Assassin's Creed - Black Flack Resynced",
+            "category": "game"
+          },
+          {
+            "title": "Kingdom Come Deliverance 2",
+            "category": "game"
+          },
+          {
+            "title": "Commodore 64 Ultimate",
+            "category": "game"
+          },
+          {
+            "title": "Gamescom",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "name": "Hagen Gehritz",
+        "items": [
+          {
+            "title": "Kane Parsons",
+            "category": "film_series"
+          },
+          {
+            "title": "The Backrooms",
+            "category": "film_series"
+          },
+          {
+            "title": "Denshattack",
+            "category": "game"
+          },
+          {
+            "title": "Jet Set Radio",
+            "category": "game"
+          },
+          {
+            "title": "Rhythm Paradise Groove",
+            "category": "game"
+          },
+          {
+            "title": "Splatoon 3",
+            "category": "game"
+          },
+          {
+            "title": "Splatoon Raiders",
+            "category": "game"
+          },
+          {
+            "title": "China Miéville",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "name": "Benjamin Braun",
+        "items": [
+          {
+            "title": "Memento",
+            "category": "film_series"
+          },
+          {
+            "title": "Christopher Nolan",
+            "category": "film_series"
+          },
+          {
+            "title": "The Dark Knight",
+            "category": "film_series"
+          },
+          {
+            "title": "Odyssey",
+            "category": "film_series"
+          },
+          {
+            "title": "Scrubs",
+            "category": "film_series"
+          },
+          {
+            "title": "Assassin's Creed - Black Flag Resynced",
+            "category": "game"
+          },
+          {
+            "title": "Splatoon Raiders",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "name": "Kai Schmidt",
+        "items": [
+          {
+            "title": "Evil Dead Burn",
+            "category": "film_series"
+          },
+          {
+            "title": "Spider-Man: Brand New Day",
+            "category": "film_series"
+          },
+          {
+            "title": "Doom - The Dark Ages",
+            "category": "game"
+          },
+          {
+            "title": "Masters of the Universe - Dragon Pearl of Destruction",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "name": "Christian Burtchen",
+        "items": [
+          {
+            "title": "Emily Wilsons",
+            "category": "film_series"
+          },
+          {
+            "title": "Spider-Man: Brand New Day",
+            "category": "film_series"
+          },
+          {
+            "title": "The Invite",
+            "category": "film_series"
+          },
+          {
+            "title": "Olivia Wilde",
+            "category": "film_series"
+          },
+          {
+            "title": "Hadestown",
+            "category": "film_series"
+          },
+          {
+            "title": "Tom Hiddleston",
+            "category": "film_series"
+          },
+          {
+            "title": "Corsair Cove",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "name": "Michael Hengst",
+        "items": [
+          {
+            "title": "Die Odyssee",
+            "category": "film_series"
+          },
+          {
+            "title": "Minions & Monsters",
+            "category": "film_series"
+          },
+          {
+            "title": "Spider-Man: Brand New Day",
+            "category": "film_series"
+          },
+          {
+            "title": "Mark Ruffalo",
+            "category": "film_series"
+          },
+          {
+            "title": "Jon Bernthal",
+            "category": "film_series"
+          },
+          {
+            "title": "Silo",
+            "category": "film_series"
+          },
+          {
+            "title": "Star Trek: Strange New Worlds",
+            "category": "film_series"
+          },
+          {
+            "title": "Kyoto Xanadu - The Blooming Phantom",
+            "category": "game"
+          },
+          {
+            "title": "Granblue Fantasy - Relink - Endless Ragnarok",
+            "category": "game"
+          },
+          {
+            "title": "Bob Blanton",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "name": "Jens Bremicker",
+        "items": [
+          {
+            "title": "Toy Story",
+            "category": "film_series"
+          },
+          {
+            "title": "Toy Story 4",
+            "category": "film_series"
+          },
+          {
+            "title": "Toy Story 5",
+            "category": "film_series"
+          },
+          {
+            "title": "Hoppers",
+            "category": "film_series"
+          },
+          {
+            "title": "Assassin’s Creed - Black Flag Resynced",
+            "category": "game"
+          },
+          {
+            "title": "Halo - Campaign Evolved",
+            "category": "game"
+          },
+          {
+            "title": "Halo - Infinite",
+            "category": "game"
+          },
+          {
+            "title": "Halo Reach",
+            "category": "game"
+          },
+          {
+            "title": "Palworld",
+            "category": "game"
+          }
+        ]
+      }
+    ],
+    "comments_raw": [
+      {
+        "username": "Jörg Langer",
+        "text": "Und worauf freut ihr euch?\n\nOh, die hatte ich gar nicht auf dem Schirm."
+      },
+      {
+        "username": "AlexCartman",
+        "text": "Bandscheibe ist sch… Ich musste seinerzeit unters Messer! Hoffentlich geht es bei Dir weiter aufwärts.\n\nFilm: Odyssey im IMAX.\nBuch: Moon over Soho aus der Reihe Rivers of London\nSpiele: Bin bei Persona 3 auf der Zielgeraden, danach wahrscheinlich Final Fantasy IV auf dem DS\nBrettspiele: Nehme ein paar Koop-Spiele mit in den Familienurlaub. Andor, Aeon‘s End, Boss Fighters QR\n… und natürlich auf das WM-Finale Mexico-Kanada. Auf dass Trump den Mexikanern dem Pokal überreichen muss.\n\nDarling Harbour?"
+      },
+      {
+        "username": "John of Gaunt",
+        "text": "Mich haben zwar die bisherigen Trailer und Bilder von Die Odyssee nicht wirklich überzeugt, aber es ist griechischer Sagenstoff, daher muss ich ihn sehen - ausnahmsweise auch im Kino, wo ich wählerisch bin und nur in Sachen gehe, bei denen ein optischer und akustischer Mehrwert zu erwarten ist.\nSpiele hab ich mal wieder keine Ahnung was überhaupt erscheint, daher spiele ich wohl was ich habe oder mache Spontankäufe. Vielleicht kommt ja noch ein gescheiter Sony Sommersale."
+      },
+      {
+        "username": "Green Yoshi",
+        "text": "Ich freue mich diesen Monat darauf Wimbledon und die Fußball-WM zu Ende schauen zu können. Vielleicht zappe ich auch mal in der dritten Woche der Tour de France rein, wenn Tadej Pogacar nicht uneinholbar vorne liegt.\nAußerdem werde ich noch für eine Woche meine Eltern besuchen und ein bisschen was im Rheinland unternehmen.\nIn puncto Spielen werde ich 007 First Light weiterspielen, ansonsten habe ich nicht viel vor. Bei der aktuellen Hitze lasse ich die Konsolen oft lieber aus.\n\nAlso ich fand Sandra Hüller in \"Rose\" ziemlich beeindruckend. Aber Geschmäcker können verschieden sein."
+      },
+      {
+        "username": "Sokar",
+        "text": "[SPIELE]\nEnde des Monats erscheint für mich überraschend früh Corsair Cove von Limbic Entertainment. Die Demo hat einen guten Eindruck hinterlassen, wenn auch erst auf den zweiten Blick. Wie üblich bei Aufbauspielen ist die erste Partie sehr suboptimal, weil man noch nicht weiß, was noch kommt und wie groß das alles ist. Zumal das Bauen an den Klippen für mich arg ungewohnt ist und ich noch schlecht abschätzen kann, wo noch was hinpasst. Zumal UE5 und hohe Außentemperaturen nicht so zusammenpassen...\nNicht ganz so überraschend kommt der DLC zu Doom: The Dark Ages. Aber das Hauptspiel ist schon so lange her, das müsste ich nochmal durchspielen, weil ich erwarte, dass der DLC wie bei Doom Eternal deutlich härter wird. Kriege ich aber gerade nicht unter. Genauso wie Moss: The Forgotten Relic. Das Halo-Remake interessiert mich weniger, weil ich die Serie überbewertet finde. IN jedem Fall würde ich eher das Remaster aus der MCC spielen, weil das habe ich schon vor längerem günstig mitgenommen. Ähnliches gilt für das Black-Flag-Remake, da habe ich auch das Original noch ungespielt in meinem Ubisoft-Account herumliegen.\n[FILME/SERIEN]\nHabe bei StarGate SG1 gestern Staffel 6 abgeschlossen. War irgendwie merkwürdig, weil das Kernteam geändert wurde, fühlte sich nicht mehr wie zuvor an. Zudem hatte ich den Eindruck, dass sie in S5 viel von ihrem Pulver verschossen haben und S6 über weite Strecken irgendwie nicht so spektakulär wirkte. Der neue Bösewicht wurde erst ganz am Ende so richtig aufgebaut. Und das sollte wirklich als potentielles Serien-Ende gehen? Für mich gar nicht, da ist viel zu viel offen. Immerhin wissen wir ja, dass es weiter geht.\nIch werde auch bestimmt ins Kino zu Die Odysseey gehen. Filme von Christopher Nolan gehören auf die große Leinwand, selbst der 3h-Laberfilm Oppenheimer.\nEnde des Monats startet auf HBO Max \"Stuart Fails to Save the Universe\", ein weiteres Spin Off zu The Big Bang Theory mit Stuart, dem Inhaber des Comicladens in der Hauptrolle. Dem Trailer nach reist er in parallele Universen und erlebt allerlei verrückte Abenteuer. Ein paar der früheren Nebendarsteller sind auch dabei. Das könnte sogar ganz interessant werden. TBBT und seine Spin Offs waren so Hit or Miss, das scheint mir Potenzial zu haben.\nHier der Trailer, wer reinschauen will: https://www.youtube.com/watch?v=gnmc33Y55YI\n[SONSTIGES]\nDer Sommer ist dieses Jahr schon sehr viel früher im Remstal angekommen als gewohnt. Ist ein einer alten, schlecht isolierten Wohnung kein Zuckerschlecken. Ich bin um jeden Tag froh, an dem die Temperaturen unter 35° bleiben.\n\nIch hatte mich vorher gefragt: \"Was nur zwei Stunden? Ist aber kurz für einen Nolan-Film\". Im Nachhinein war ich froh drüber, hätte das länger wohl kaum ausgehalten. Weil das 2h konstant und stetig leicht ansteigende Anspannung ist. Bei anderen Filme gibt es Spannenden Sequenzen, aber auch ruhige um mal wieder abzuspannen. Das fehlt hier völlig. Dazu fast keine Dialoge, für Nolan auch eher selten. Dark Knight Rises war ein Exposition-Fest und für mich sein schwächster Film."
+      },
+      {
+        "username": "duchess",
+        "text": "Ich hab mir Lost Records: Bloom & Rage und There Is No Antimemetics Division, einem neuen SCP-Roman (mit anderem Namen) und wohl ganz besonderes SciFi-Schmankerl, vorgenommen."
+      },
+      {
+        "username": "Danywilde",
+        "text": "Ich freue mich schon sehr auf die dritte Staffel von Silo. Bin gespannt, wie es nun weitergeht.\n\nMorgen geht’s los!\n\nIch werde die Bücher erst nach Abschluss der TV-Serie lesen…\n\nViel Spaß im Urlaub und pass in London gut auf dein Handy auf.\n\nLondon ist ja leider nicht umsonst die europäischen Handydiebstahlhauptstadt. K"
+      },
+      {
+        "username": "Maestro84",
+        "text": "Ich mochte die Hintergrundgeschichte der Romane. Das Ende war da auch gut. Da könnte ich was erzählen.\n\nMeine 6 Euro-Karte für \"Die Odyssee\" an einem Montag in drei Wochen habe ich schon gekauft,  vorher geht es am Montag rein in \"Supergirl\". Ich mag es, für wenig Geld in einem fast leeren Kinosaal zu sitzen am Montagnachmittag. Spidey ist wohl erst im August dran.\nSpieltechnisch ist halt Sommer, lediglich \"Pirates Creed 2.0\" reizt mich. Da warte ich aber auch vielleicht eher bis zu einem Sale.\nLesetechnisch geht es am Projekt \"One Piece\" weiter. Ich bin schon in 2013, aber es eilt nicht.\nMusiktechnisch hat mit Youtube - wohl wg ua Evanescence - Ella Rey vorgeschlagen. Symphonie Rock (?) wie früher,wenn auch unter zu Hilfenahme von KI. Klingt aber einfach nur geil.\n\nDie ersten Trailer sehen eher wenig nach \"klassischer\" Bronzezeit aus, aber ich bin da auch kein Experte für die Zeit. Wobei ich auch im Kern auch eine andere Interpretation gerne sehen würde. Geprägt bin ich natürlich auch massig von alten Sandalenfilmen, die mal gar nicht korrekt sind.\n\nKirk Douglas war aber eigentlich Niederländer. Wobei selbst ein in Griechenland heute geborener Grieche erst einmal wenig mit deinem Hellenen von vor 3200 Jahren zu tun hat. Außerdem dürfen Interpretationen von Werken auch ihre Darsteller frei wählen - bei den Hellenen spielten ja auch Männer Frauencharakter - diese linksgrünwokengoversifften Schweine !!!einseinself.\n;)\n\nLatürnich, Minions sind auch noch dran. Super Kinomonat."
+      },
+      {
+        "username": "euph",
+        "text": "Fand die erste Staffel nur \"okay\". Hat interessant angefangen wurde dann aber zunehmend schwächer. Vielleicht sollte ich noch mal schauen, ob es wieder besser wird.\n\nWas mich dann irgendwie nicht verleitet, die zweite doch anzusehen :-)\n\nSpielemäßig ist gerade etwas Flaute, nachdem ich lange Death Stranding 2 gespielt habe und das Spielzimmer jetzt wegen der Hitze von meiner Tochter blockiert wird.\nAber da im Juli der Sommerurlaub ansteht und wird zwei Wochen in London und Südengland unterwegs sind, kommt vermutlich die Switch 2 zum Einsatz. Da liebäugle ich mit Black Jacket, da mir Balatro gut gefallen hat und das ja ähnlich zu sein scheint. Oder ich spiele doch endlich mal Octopath Traveller.\nIn Sachen Film will ich den neuen Spider-Man sehen. Ansonsten steht auch da nichts anderes besonders an, irgendwas wird sich da finden :-). Außerdem steht noch das regionale Festival an, 3 Tage Musik mit ein paar interessanten Bands.\n\nVielen Dank :-). In solchen Städten (zuletzt im Rom) achten wir immer besonders auf unsere Wertsachen.\n\nZustimmung bzgl. The DARK Knight"
+      },
+      {
+        "username": "Pomme",
+        "text": "Ich fand die erste ja besser als die zweite ... :/"
+      },
+      {
+        "username": "Moe90",
+        "text": "[Spiele] 007 - First Light weiterspielen. Habe erst ca. 2 Stunden reingesteckt, das Spiel ist noch gar nicht richtig in Fahrt gekommen.\n[Filme] Obsessions schauen am Freitag im Kino. Und zur Mitte des Monats dann The Odyssey. Nolans Filme sind für mich das Beste, was das moderne Hollywood-Blockbusterkino zu bieten hat - noch vor Villeneuve .\n[Serien] The Pitt Staffel 2 fertigschauen. Und dann House of the Dragon Staffel 3.\n[Sonstiges] Ende des Monats geht es nach Kanada. Yukon, British Columbia und Alberta bereisen.\n\nKann es auch kaum nachvollziehen. Dunkirk ist ein super intensiver Film."
+      },
+      {
+        "username": "JensJuchzer",
+        "text": "Also der Prolog Trailer im IMAX vor Avatar war schon richtig gut. Waren glaub ca. 5 Minuten. Auch wenn mich das ganze dahingehend verwirrt zurückgelassen hat dass irgendwie völlig unklar war ob das jetzt eine ARt Trailer ist oder es wirklich der Prolog zum Film ist (letzteres wusste man im Kino nicht, da ich mich dazu vorhe rnicht informiert hatte)\nInsgesamt gings da um Troja und das war dann schon recht schnell abgehandelt. ABer bildlich, soundtechnisch und inszinatorisch war das grandios.\nUnd ich muss hier Benjamin echt widersprechen. The Dark Knight ist einer der besten Actionfilme der letzten Jahrzehnte (vor allem wenn man den im IMAX auf der grössten Leinwand der Welt gesehen hat, da will man direkt nochmals rein). Ich war dann tatsächlich auch erst nach diesem Zweitbesuch dermaßen vom Film gehyped.\nDas gilt auch für den nachfolgenden Inception. Ganz ganz großes Kino..."
+      },
+      {
+        "username": "Ganon",
+        "text": "Benjamin kommt irgendwie keinen Monat mehr aus, ohne irgendeinen anerkannt großartigen Regisseur oder Schauspieler:in zu bashen. Finde ich unnötig, aber wenn er meint...\n\nIch stimme dir übrigens insofern zu, dass Memento nach wie vor mein Lieblingsfilm von ihm ist. Aber dicht dahinter kommen eben The Dark Knight und die meisten der danach erschienen Filme. Sehe da eigentlich nur The Dark Knight Rises und vielleicht noch Dunkirk, die merklich abfallen. Aber dem gegenüber stehen eben Inception, Interstellar, Tenet und Oppenheimer, die teils enorm einflussreich, aber mindestens sehr hochwertig waren.\nDu meinst, \"spätestens seit The Dark Knight wird er nur noch, überwiegend zu unrecht, gehypt\". Das finde ich halt nicht nachvollziehbar. Wäre für sich genommen wohl noch kein Bashing, das stimmt, reiht sich aber in ein paar andere Bemerkungrn der letzten Monate ein, die mir auffielen und ich zumindest seltsam fand. Z.B. über Sandra Hüller.\n\nKlar ist das Geschmackssache, aber Inception war sicherlich einflussreich. Und ebenso wie Tenet vielleicht nicht perfekt, aber äußerst einfallsreich und einzigartig. Und Interstellar ist zweifellos ein Sci-Fi-Meisterwerk, so! :P\nOppenheimer ist etwas untypisch, der ist vor allem tolles Schauspielkino. Da fragt man sich schon mal, warum ein Rami Malek so eine kleine, scheinbar unbedeutende Rolle spielt - bis er dann in einer zentralen Szene eine sensationelle Performance abliefert. Würde auch nicht jeder Regisseur so machen.\n\nNa ja, da werden wir meinungsmäßig nicht zusammenkommen. Ich feiere die Filme nicht, weil sie von Nolan sind. Ich feiere Nolan, weil er so tolle Filme macht. :-)\n\nOh, jetzt machen wir auch noch dieses Fass auf. :D Die meisten Boll-Filme (die ich kenne) sind schon echter Schund. Es gibt sicher schlechtete Regisseure, aber die kennt halt niemand (zurecht). Ich sag mal, in der Preisklasse, in der er operiert und aus irgendeinem Grund auch immer wieder Finanzierungen bekommt, ist er schon echt am unteren Ende.\n\nIch hätte gedacht, das \"so!\" Und ein Smiley dahinter wären genug, um leichte Anflüge von Humor in meiner Argumentation erkennbar zu machen.\n\nJa ja!\nAlso, wenn Benjamin damit argumentiert, dass seine Mutter den Film nicht so toll fand, kann ich dagegen halten, dass mein bester Kumpel Interstellar seinen Lieblingsfilm nennt. Das nützt nur wenig, weil niemand sonst hier die beiden Personen kennt. Ich als Science-Fiction-Fan und Raumfahrt-Begeisterter finde den Film jedenfalls sehr faszinierend. Gerade diese ganzen Zeitanomalien und andere Phänomene, die auf realer - zumindest theoretischer - Physik basieren und in eine spannende Geschichte verpackt wurden, ziehen mich voll rein. Dass die Charaktere dabei menschlich und emotional nicht ganz so ausgearbeitet sind, dafür ist Nolan ja schon berüchtigt. Mich hat es nie groß gestört. Bei Tenet fand ich es schon seltsam, dass der Protagonist keine Miene verzieht bei all den verrückten Dingen, in die er da reingezogen wird, aber gut, der Fokus liegt halt woanders. Wenn mir bei den genial choreographierten Actionszenen, bei denen sich eine Fraktion vorwärts und die andere rückwärts bewegt, und das praktisch ohne Special Effects, der Mund offensteht, brauche ich keine großen Emotionen mehr. :D\nWas The Odyssey angeht, haben mich die Trailer bisher tatsächlich noch nicht so abgeholt. Aber ich habe die Möglichkeit, ihn in IMAX zu sehen, wofür er ja gemacht wurde, und bin vom Schauspiel-Ensemble, das da versammelt wurde, echt begeistert. Ich bin mir schon recht sicher, dass das ein großes Kinoerlebnis werden wird.\n\nWelcher \"todlangweilige Kackfilm\" war das denn? Ich hab Sandra Hüller bisher nur in zwei Filmen gesehen, fand sie in beiden aber super. Und so eine Oscarnominierung bekommt mal als Deutsche in einem französischen Film auch nicht einfach so hinterhergeschmissen. ;-)\n\nMich hat er nicht so abgeholt, aber ich hab's generell nicht so mit Kriegsfilmen.\n\nIm Kino geht es weiter rund. Aus dem Juni fehlt mir noch Supergirl, danach sind die Minions, die Odyssee und Spider-Man dran. Bei den Serien habe ich gerade keine Neuerscheinungen auf dem Schirm, aber das macht nichts, da ich auch da an meinem Backlog arbeite. Nachdem ich meinen Rewatch von Babylon 5 endlich abgeschlossen habe (immer noch große Klasse, wenn man über die Optik hinwegsieht), habe ich mir nun die letzten beiden Staffeln von Agents of SHIELD vorgenommen.\nSpiele: Im Juni habe ich Doom - The Dark Ages durchgespielt, jetzt freue ich mich auf den DLC. Zur Abwechslung spiele ich gerade den DLC zu Pioneers of Pagonia.\nSonstiges fällt mir gerade nichts ein. Mal wieder ein Buch lesen wäre angebracht, schätze ich..."
+      },
+      {
+        "username": "Benjamin Braun",
+        "text": "Der ist nicht \"anerkannt großartig\", er wird von vielen überbewertet, was besonders deshalb idiotisch ist, weil er ja einige gute Sachen gemacht hat. Aber das mag eben auch damit zu tun haben, dass allgemein das Niveau von (westlichen) FIlmproduktionen sinkt und Nolans Werke zu den besseren gehören. Aber es wird ja so getan, als ob der einen Meilenstein nach dem nächsten produziert. Ich mache diesen Hype-Scheiß nicht mit. Wüsste auch nicht, was es mit Bashing zu tun haben soll, wenn ich schreibe, dass jemand überbewertet ist. Aber wenn du meinst...\n\nDa sind zweifellos, vor allem in technischer Hinsicht, viele innovative oder einfach nur gute Sachen dabei, das bestreitet auch niemand. Bzgl. Insterstellar, den ich wirklich gut fand, zeig den Film mal jemand, der nicht (genau) weiß, wer Chris Nolan ist, oder nicht, dass der Film von ihm ist. Habe ich bei meiner Mutter gemacht, wobei natürlich auch die Generationenfrage eine Rolle spielt. Sie hat natürlich coole Elemente wahrgenommen. Aber \"boah, was für ein Film\" wäre ihr nie über die Lippen gekommen. Zurecht! Gut war er, aber der Film wird nur aufgrund des Hypes als Meisterwerk gefeiert, so wie auch Dunkirk und insbesondere Oppenheimer überwiegend abgefeiert wurden. Die Filme sollte man keinefalls schlechter machen als sie sind. Mein Problem ist halt, dass sie wesentlich besser gemacht werden als sie sind. Um mehr geht es mir nicht.\n\nDagegen ist auch nichts einzuwenden, es gefällt, was einem gefällt. Mir missfallen die meisten seiner Filme ja auch nicht, mag sogar einige davon. Aber es läuft da ALLGEMEIN BETRACHTET was aus dem Ruder, wenn da zumeist Okayes bis Gutes, ab und zu auch mal sehr gutes, ständig zum Meisterwerk erklärt wird. Aber das gibt es ja auch umgekehrt. Habe das irgendwo anders schon geschrieben. Die meisten von Uwe Bolls Filmen nicht sonderlich gut. Aber wer bei jedem seiner Filme behauptet, das gehöre zum Miesesten, was es gibt, hat echt nicht viele Filme gesehen. Trotzdem liest man überall, dass es einer der schlechten Regisseure aller Zeiten sei. Das ist einfach völliger Quatsch.\n\nDu kannst das ja anders sehen. Ich habe nicht gesagt, dass Nolan scheiße ist. Ich sage, dass aus einem guten Regisseur ein überragender gemacht wird. In Teilen sind ja auch viele seiner Filme überragend, was Bildgewaltigkeit oder bestimmte technische Finessen gerade auch im Soundediting betrifft. Aber die \"Überfilme\" sehe ich da nicht. Und wo du schon sagst \"vielleicht Dunkirk\", ist Nolan nicht auch dafür flächendeckend über den grünen Klee gelobt worden?\nWas den Rest betrifft: Klar, man könnte es auch anders machen. Aber hier geht es um möglichst nicht zu lange Meinungstexte insbesondere zu den im aktuellen Monat anstehenden Filmen/Serien und Spielen. Ja, ich spitze genau deshalb gerne etwas zu und kritisiere konkrete Personen vielleicht auch mal stärker, als es sein müsste. Aber das sind öffentliche Personen, ich wüsste nicht, weshalb ich da nicht relativ direkt sein sollte. Sandra Hüller ist aus meiner Sicht halt auch überbewertet, noch dazu im Anschluss an einen todlangweiligen Kackfilm. Du kannst die gerne toll finden. Als Schauspielerin ist die bestenfalls eine glatte drei. Aber die Leute kennen heute ja eh nichts mehr zwischen himmelhoch jauchzend und zu Tode betrübt. Muss man erwähnen, dass die als Schauspielerin eher mittelmäßig ist? Nee. Aber man muss es, aus meiner Sicht, wenn die auf einmal auf eine Stufe mit Katharine Hepburn oder so gestellt wird.\nVielleicht haue ich da, wie im Fall Henry Cavill, den ich als Typ übrigens super angenehm finde, manchmal etwas drüber. Mein Problem ist halt, dass ich ein \"boah, ist der toll\" so nicht stehenlassen kann, wenn der als Schauspieler aus meiner Sicht gerade so noch die Versetzung schafft. Als Superman hat der in Man of Steel recht gut funktioniert, weil er halt gut gebaut ist und gleichzeitig diese Mischung aus freakig und bieder mitbringt, was Clark Kent braucht. In The Witcher zündet das weniger und mir fällt das nur auf, was für ein schlechter Schauspieler er ist. Ein Rollenwechsel in einer zentralen Rolle ist für eine Serie oft tödlich. Dass Cavill in The Witcher nicht mehr dabei war, wäre aufgrund von dessen absoluter Ersetzbarkeit aber wohl kaum jemand aufgefallen, wenn nicht größer darüber berichtet worden wäre. Auch das magst du gerne anders sehen."
+      },
+      {
+        "username": "DerBesserwisser",
+        "text": "Ist einfach auch Geschmacksache, meine Bewertungen sind da halt auch eher im braunschen Fahrwasser. Inception:ok, Interstaller:selten einen größeren Schei** gesehen, Tenet: Ok (Oppenheimer keine Wertung da nicht gesehen). Ob die nun so wahnsinnig einflußreich sind müsste auch erstmal aufgezeigt werden).\n\nGenau, da kann eben auch ein Film, dessen Drehbuch ein Kugelhaufen voller massereicher schwarzer Logiklöcher ist, dessen Protagonisten Handlungslogik fast schon auf Prometheus-Niveau zeigen, dessen einzige Protagonistin nur fürs gebähren und gefühldusseligen Quatsch in die Kamera heulen zuständig ist, dessen Drehbuch den Protagonisten am Ende zeigt, dass all ihr Leid und ihre Entbehrung am Ende überflüssig waren und wir uns auf eine lenkende Kraft im Unbekannten/für uns nicht erfassbaren verlassen können, ein Sci-Fi-Meisterwerk sein. Warum? Ist nicht weiter relevant, genau so wie ein Film ohne Begründung einflussreich, einfallsreich und einzigartig sein kann, ein simples \"so!\" reicht. Wobei, würde auch \"so\" reichen oder muss es schon ein \"so!\" sein? Wie ist es eigentlich wenn es ein \"so!!\" ist? Oder gar ein \"so!!!\"? Ist der Film dann noch \"meistewerkiger\" oder \"einflussreicherer\"?\n\nach so(!)"
+      },
+      {
+        "username": "thoohl",
+        "text": "Ich werde Odyssey auf jeden Fall gucken.  Rein vom Trailer her finde ich, dass der Film mediterrane Stimmung und mediterrane Lichtverhältnisse nicht einfängt. Sieht aber als Film dennoch cool aus. Die Schauspieler wirken eher aus dem englischen Mittelalter kommend. Wird aber so oder so geguckt und sehe ich davon ab, macht der Filmtrailer Lust auf mehr.\n\nKirk Douglas war schon ein richtiger Grieche. ... Wenns ein cooler Film wird, wäre mir das auch nicht so wichtig und nach einem \"coolen\" Film siehts derzeit für mich aus. Am ungriechischten schaut R. Pattinson aus....\n\nDas hast du jetzt geschrieben.\nIch habe viele Filme aus einer Zeit geguckt, in welchem in jedem zweiten Abenteuerfilm ein gewisser John Rhys-Davies nicht fehlen durfte. Mir ist das prinzipell eigentlich wurscht.\nKirk Douglas hat Odysseus in so nem Hollywoodschinken gespielt damals.\nAber danke für die Belehrung zur Interpretation von Werken und \"meinem\" Hellenen, was auch immer das bedeuten soll.\n\nIch würde aus Interesse und zu Unterhaltungszwecken gern eine derart negative Filmkritik zu Dark Knight lesen."
+      },
+      {
+        "username": "yesnocancel",
+        "text": "Kenne sie aus Requiem, Toni Erdmann, Zone of Interest und Project Hail Mary - alles super Filme.\n\nBurtchen nicht excited über Taylor’s Hochzeit? Schon auf dem Weg nach New York?"
+      },
+      {
+        "username": "Klexter",
+        "text": "Also ich saß ob der Intensität bei Dunkirk eigentlich im Kino und hab zwischendurch das Atmen vergessen. Nolan hin oder her, aber der Film ist für mich an Intensität kaum zu toppen.\n\nIch denke es gibt solche und solche Werke von ihm. 2-3 Meisterwerke sind sicher dabei, aber es ist auch nicht alles gut. In Summe würde ich aber schon sagen, ist er ein überdurchschnittlich guter Regisseur.\nDennoch halte ich ihn nicht für einen Visionär, wie zB David Lynch einer war. Das ist die Weltklasse.\nMal sehen, wie The Odyssey wird. Hab im Rahmen meines Weltliteratur-Projekts die Odyssee gerade erst gelesen. Ich hätte ja die lieber Die Göttliche Komödie verfilmt gesehen. Wobei, dafür hätte es vermutlich einen David Lynch benötigt ;)"
+      },
+      {
+        "username": "Bruno Lawrie",
+        "text": "[SPIELE]\nErscheint nichts Interessantes (zum Glück), für den Frühjahrs-Pile-of-Shame (Crimson Desert, 007, Pragmata, Gothic usw.) ist die Wohnung noch zu heiß. Ich werde mich wohl auf die kühle PS2 Slim und Handhelds limitieren. Silent Hill 3 reizt mich gerade. Vielleicht auch endlich mal Chrono Trigger auf dem DS.\n[FILME]\nHab mir die DVD-Box vom uralten Nils-Holgersson-Anime aus meiner Kindheit gekauft, da ich das Buch gerade im schwedischen Original lese und mich ständig an Serienszenen aus meiner Kindheit erinnere und Lust habe, die nach wohl über 40 Jahren wieder zu sehen. Mal sehen wie die Werke gealtert sind. :-)\n[SONSTIGES]\nHab meine DIY Steam Machine neu aufgesetzt und will mich v.a. mit GOG Galaxy darauf beschäftigen und das benutzbarer machen (bisher hatte ich Heroic Launcher, den ich sehr unangenehm fand). Artet schon in übelstes Linuxgefrickel aus, aber läuft an sich schon und GOG Galaxy lässt sich halbwegs mit Controller bedienen. Aber der Teufel steckt im Detail.\nAnsonsten meinen August-Urlaub in Schweden planen, Nils Holgersson ist in gewisser Weise auch Recherche. :-) In erster Linie will ich aber mal ein paar Wochen ohne Hitze haben, ich hasse Sommer in Deutschland."
+      },
+      {
+        "username": "funrox",
+        "text": "Ich freue mich darauf, weiter meinen Urlaub an der Nordsee zu genießen. :-)\nDa ruhen dann Serien und auch Videospiele.\nWobei: Die Switch habe ich dabei - und verzweifle am 3. Akt von Hollwow Knight - Silksong. Aber ich gebe nicht auf.\nWM wird natürlich auch geschaut. Aber nachts stehe ich für die Spiele nicht auf. Da sind mir andere Dinge wichtiger."
+      },
+      {
+        "username": "Alain",
+        "text": "# FILME/SERIEN\n- Ich habe Staffel 3 von Strange New Worlds abgeschlossen und erwarte nun gespannt Staffel 4 diesen Monat.\n- Die LOL Staffel 7 ist seit einem Monat bis auf die letzte Folge geschaut... Tja. Sagt auch ein bisschen etwas über das Format aus... Aber die Folge wird noch geschaut. Ganz sicher!\n- Ansonsten: SILO STAFFEL 3!\n# SPIELE/BRETTSPIELE\n- Der JRPG-UrOpa \"Lunar - The Silver Star Remake\" wird weiter gespielt.\n- Auf meiner letzten Reise habe ich Geschmack an Phoenix Wright Ace Attourney gefunden.\n# SONSTIGES\n- Sommerferien starten; viel zu organisieren; Sonne; und vermutlich wenig Zeit zum Spielen."
+      },
+      {
+        "username": "Hermann Nasenweier",
+        "text": "Ich hab diesen  onat garnicht so viel auf dem Schirm. Arbeit ist grad etwas viel, deswegen reduzieren sich meine konkreten Pläne eher auf Gartenarbeit als Ausgleich. Zusätzlich gehen die GamesCom Vorbereitungen los, was zumindest das Probeaufbauen und Anschliessen von alten System einschliesst. Eventuell wieder kleine Instanthaltungsmassnahmen. Mal sehen.\nSpieletechnisch hänge ich im hinteren Teil von Gothic, danach wollte ich das Remake nochmal mit einem anderen Lager spielen. Mal schauen was das Wetter macht und wieviel Zeit und Motivation ich aufbringe."
+      },
+      {
+        "username": "Desotho",
+        "text": "Ich freu mich auf Nahtod Hitze Erlebnisse"
+      },
+      {
+        "username": "Flooraimer",
+        "text": "Halt durch Meister. Ich leide mit."
+      },
+      {
+        "username": "KampfPlauze",
+        "text": "Da der Juli ohne Urlaub ist, werde ich mich wieder auf den Backlog meiner Retrospiele stürzen. Ein PS2 Spiel habe ich gestern begonnen, bei den anderen beiden Titeln bin ich noch etwas unschlüssig, ob ich sie jetzt spiele oder eher Richtung Herbst / Winter packe.\nAnsonsten erfreue ich mich aktuell an House of the Dragons, wobei die ersten beiden Folgen ja eigentlich das Finale der zweiten Staffel sein sollten und dies auch so wirkt, dass es keine „klassischen“ Folgen einer beginnenden Staffel sind."
+      }
+    ],
+    "user_items": [],
+    "item_stats": {
+      "House of the Dragon": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jörg_langer"
+        ]
+      },
+      "Die Odyssee": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jörg_langer",
+          "editor:michael_hengst"
+        ]
+      },
+      "Christopher Nolan": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "editor:benjamin_braun",
+          "editor:jörg_langer"
+        ]
+      },
+      "Assassin's Creed - Black Flack Resynced": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jörg_langer"
+        ]
+      },
+      "Kingdom Come Deliverance 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jörg_langer"
+        ]
+      },
+      "Commodore 64 Ultimate": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jörg_langer"
+        ]
+      },
+      "Gamescom": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "editor:jörg_langer"
+        ]
+      },
+      "Kane Parsons": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "The Backrooms": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Denshattack": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Jet Set Radio": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Rhythm Paradise Groove": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Splatoon 3": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Splatoon Raiders": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "editor:benjamin_braun",
+          "editor:hagen_gehritz"
+        ]
+      },
+      "China Miéville": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Memento": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "The Dark Knight": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Odyssey": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Scrubs": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Assassin's Creed - Black Flag Resynced": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Evil Dead Burn": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:kai_schmidt"
+        ]
+      },
+      "Spider-Man: Brand New Day": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "editor:christian_burtchen",
+          "editor:kai_schmidt",
+          "editor:michael_hengst"
+        ]
+      },
+      "Doom - The Dark Ages": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:kai_schmidt"
+        ]
+      },
+      "Masters of the Universe - Dragon Pearl of Destruction": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:kai_schmidt"
+        ]
+      },
+      "Emily Wilsons": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "The Invite": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Olivia Wilde": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Hadestown": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Tom Hiddleston": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Corsair Cove": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Minions & Monsters": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Mark Ruffalo": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Jon Bernthal": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Silo": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Star Trek: Strange New Worlds": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Kyoto Xanadu - The Blooming Phantom": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Granblue Fantasy - Relink - Endless Ragnarok": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Bob Blanton": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Toy Story": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jens_bremicker"
+        ]
+      },
+      "Toy Story 4": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jens_bremicker"
+        ]
+      },
+      "Toy Story 5": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jens_bremicker"
+        ]
+      },
+      "Hoppers": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jens_bremicker"
+        ]
+      },
+      "Assassin’s Creed - Black Flag Resynced": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jens_bremicker"
+        ]
+      },
+      "Halo - Campaign Evolved": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jens_bremicker"
+        ]
+      },
+      "Halo - Infinite": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jens_bremicker"
+        ]
+      },
+      "Halo Reach": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jens_bremicker"
+        ]
+      },
+      "Palworld": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jens_bremicker"
         ]
       }
     }
