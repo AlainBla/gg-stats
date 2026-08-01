@@ -96932,7 +96932,7 @@
     "month": "2026-07",
     "url": "/news/347257/darauf-freut-sich-die-redaktion-im-juli-2026",
     "title": "Darauf freut sich die Redaktion im... Juli 2026",
-    "last_updated": "2026-08-01T21:36:40Z",
+    "last_updated": "2026-08-01T21:45:15Z",
     "comment_count": 69,
     "editors": [
       {
@@ -98096,6 +98096,1194 @@
         "category": "game",
         "mentioners": [
           "user:Desotho"
+        ]
+      }
+    }
+  },
+  {
+    "month": "2026-08",
+    "url": "/news/348616/darauf-freut-sich-die-redaktion-im-august-2026",
+    "title": "Darauf freut sich die Redaktion im... August 2026",
+    "last_updated": "2026-08-01T23:30:51Z",
+    "comment_count": 53,
+    "editors": [
+      {
+        "name": "Jörg Langer",
+        "items": [
+          {
+            "title": "House of the Dragon",
+            "category": "film_series"
+          },
+          {
+            "title": "Stalker 2",
+            "category": "game"
+          },
+          {
+            "title": "Cost of Hope",
+            "category": "game"
+          },
+          {
+            "title": "Kingdom Come - Deliverance 2",
+            "category": "game"
+          },
+          {
+            "title": "Gamescom",
+            "category": "misc"
+          },
+          {
+            "title": "Gamescom",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "name": "Hagen Gehritz",
+        "items": [
+          {
+            "title": "Teenage Sex and Death at Camp Miasma",
+            "category": "film_series"
+          },
+          {
+            "title": "Gillian Anderson",
+            "category": "film_series"
+          },
+          {
+            "title": "Letsplay Bloodborne",
+            "category": "game"
+          },
+          {
+            "title": "Mortal Shell 2",
+            "category": "game"
+          },
+          {
+            "title": "ReStory",
+            "category": "game"
+          },
+          {
+            "title": "Grave Seasons",
+            "category": "game"
+          },
+          {
+            "title": "Gamescom",
+            "category": "misc"
+          },
+          {
+            "title": "Gamescom Dev",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "name": "Benjamin Braun",
+        "items": [
+          {
+            "title": "Project Hail Mary",
+            "category": "film_series"
+          },
+          {
+            "title": "Ryan Gosling",
+            "category": "film_series"
+          },
+          {
+            "title": "Glennkill - Ein Schafskrimi",
+            "category": "game"
+          },
+          {
+            "title": "Hugh Jackman",
+            "category": "film_series"
+          },
+          {
+            "title": "Beast of Reincarnation",
+            "category": "film_series"
+          },
+          {
+            "title": "Resonance - A Plague Tale Legacy",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "name": "Kai Schmidt",
+        "items": [
+          {
+            "title": "The End of Oak Street",
+            "category": "film_series"
+          },
+          {
+            "title": "Mutiny",
+            "category": "film_series"
+          },
+          {
+            "title": "Jason Statham",
+            "category": "film_series"
+          },
+          {
+            "title": "Reacher",
+            "category": "film_series"
+          },
+          {
+            "title": "Beast of Reincarnation",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "name": "Christian Burtchen",
+        "items": [
+          {
+            "title": "Pompeji: Out of Time",
+            "category": "film_series"
+          },
+          {
+            "title": "Reacher",
+            "category": "film_series"
+          },
+          {
+            "title": "Odyssee",
+            "category": "film_series"
+          },
+          {
+            "title": "Spider-Man: Brand New Day",
+            "category": "film_series"
+          },
+          {
+            "title": "The Sinking City 2",
+            "category": "game"
+          },
+          {
+            "title": "Papers, Please",
+            "category": "game"
+          },
+          {
+            "title": "Security 51",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "name": "Michael Hengst",
+        "items": [
+          {
+            "title": "Gamescom",
+            "category": "film_series"
+          },
+          {
+            "title": "Train to Busan",
+            "category": "film_series"
+          },
+          {
+            "title": "Mutiny",
+            "category": "film_series"
+          },
+          {
+            "title": "Jason Statham",
+            "category": "film_series"
+          },
+          {
+            "title": "The Brink Of War",
+            "category": "film_series"
+          },
+          {
+            "title": "Jeff Daniels",
+            "category": "game"
+          },
+          {
+            "title": "Alan Ritchson",
+            "category": "game"
+          },
+          {
+            "title": "Reacher",
+            "category": "game"
+          },
+          {
+            "title": "Iron Nest - Heavy Turret Simulator",
+            "category": "game"
+          },
+          {
+            "title": "Resonance - A Plague Tale Legacy",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "name": "Jens Bremicker",
+        "items": [
+          {
+            "title": "The End of Oak Street",
+            "category": "film_series"
+          },
+          {
+            "title": "Jurassic Park",
+            "category": "film_series"
+          },
+          {
+            "title": "David Robert Mitchell",
+            "category": "film_series"
+          },
+          {
+            "title": "It Follows",
+            "category": "film_series"
+          },
+          {
+            "title": "Beast of Reincarnation",
+            "category": "game"
+          },
+          {
+            "title": "The Sinking City 2",
+            "category": "game"
+          },
+          {
+            "title": "Mortal Shell 2",
+            "category": "game"
+          },
+          {
+            "title": "Cost of Hope",
+            "category": "game"
+          },
+          {
+            "title": "Stalker 2",
+            "category": "game"
+          },
+          {
+            "title": "Mafia - The Old Country",
+            "category": "game"
+          }
+        ]
+      }
+    ],
+    "comments_raw": [
+      {
+        "username": "Hagen Gehritz",
+        "text": "Und worauf freut ihr euch?"
+      },
+      {
+        "username": "Danywilde",
+        "text": "Wenn ich es diesen Monat neben dem Doppel-Urlaub-Streß schaffe, werde ich endlich meine Home-Arcade bauen. Als großer Lightgun-Fan dann natürlich auch mit Lightguns,  damit House of the Dead seinen Namen dann auch wirklich verdient.\n\nKleiner Trip nach Schweden und Dänemark und dann noch ein kulinarischer Wanderurlaub in die Pfalz.\nUnser geplanter Trip nach Spanien fällt aufgrund der Brände flach.\n\nSind die überdachten Fußgängerwege in Calgary nicht irre?\nWeiterhin viel Spaß in Canada!\n\nDa schließe ich mich vollumfänglich an!\nGuten Start,  Sokar!\n\nDie Kölnarena heißt jetzt aber auch schon fast 20 Jahre lang Lanxess Area. ;)"
+      },
+      {
+        "username": "Moe90",
+        "text": "Wo gehts hin?\n\nDas sind doch sehr schöne Alternativen. Im Sommer meiden wir mittlerweile Südeuropa komplett. Einfach zu heiß (auch in vorherigen Jahren). Südeuropa ist für uns eher was für bis Mai und ab Oktober wieder.\nNach Norwegen wollen wir vermutlich nächstes Jahr im Sommer.\n\nWas willst du dir im Kino anschauen?\n\nDas ist mal ein sehr solider Preis! Und Kino > Heimkino :)\n\nSpielen werde ich diesen Monat nichts mehr, und falls doch, dann nur gegen Ende des Monats. Bei den aktuellen Neuerscheinungen habe ich grundsätzlich Lust auf den Mafia DLC und die Stalker 2 Erweiterung. Aber nicht diesen Monat. Und es kommen dann im September weitere spannende Spiele. Wann soll man das denn alles spielen :)\nSind aktuell im Kanada Urlaub. In Calgary habe ich IMAX 70mm Tickets für The Odyssey erhalten. Also in einem dieser 42 Kinos weltweit, die den Film so abspielen können. Bin schon gespannt. Ich fand den Film bereits im normalen Kino beeindruckend. Die Vorstellung ist in ca. 3 Wochen.\nGgf. schauen wir hier auch den neuen Spider Man im Kino. Wäre der erste Marvel Film seit längerer Zeit.\n\nAktuell noch nicht in Calgary, das ist der Endstopp. Wir sind gerade in Yukon, bei Haines Junction (Kluan National Park).\nKumpel von mir hatte vor Jahren mal einige Monate ein Projekt in Calgary. Im Winter. Da hatte er mir davon berichtet, wie toll es ist, dass man durch die Stadt durchkommt, obwohl es draußen alles voller Schnee ist.\n\nGlückwunsch Sokar!"
+      },
+      {
+        "username": "Flooraimer",
+        "text": "Das sind schöne Tipps. Spanien würd ich aktuell generell eher meiden...\n\nSpiele: Das Halo Remake reizt mich inzwischen sehr, und ich bin gespannt was Beast of Reincarnation so kann. The Sinking City 2 könne ebenfalls cool werden.\nFilme: Freue mich auf Exit 8.\nDas war's ;-)"
+      },
+      {
+        "username": "Maestro84",
+        "text": "Spiel- und Serientechnisch habe ich keine Pläne, da hab ich eh zu Hause keine Ruhe für. Ich werde wohl 2-3 mal wieder ins Kino gehen,  das ist montags schön leer,  ruhig und günstig. Außerdem muss ich den Sommer noch etwas zum Zweiradfahren nutzen. Einfach alleine mit 60 km/h durch die heimatliche Region zuckeln ist schon entspannend. Bei der Gamescom hoffe ich vor Allem auf neue Bilder zu z.B. The Legend of Zelda - Ocarina of Time.\n\nAm Dienstag erstmal den neuen Spinnenmann. Danach mal schauen. Ob ich nun für fünf Euro digital einen Film leihe oder für sechs Euro ins Kino gehe,  macht ja keinen großen Unterschied.\n\nMontags im Cineplex (6,90 Euro abzgl Rabatt durch hohen Punktestand).\n\nDiese jugendlichen, zwanzig Jahre alten Bilder sind schon sehr verstörend.\n\nWobei A Working Man viel zu viel Inhalt hatte. Der Film war überladen.\n\nWATAAAAAA!"
+      },
+      {
+        "username": "Ganon",
+        "text": "Aber echt. Wo kriegt man denn noch Kinokarten für 6 €?\n\nGlückwunsch zur neuen Stelle, hoffentlich was für länger.\nDer Doom-DLC sollte eigentlich mein Spiel für den Juli sein, aber leider hat id Software mit dem dazugehörigen Patch noch etwas an der Engine gedreht und jetzt läuft es bei mir kaum noch spielbar. Klar, ich war schon vorher am Minimum der Anforderungen oder sogar leicht darunter, aber auf geringen Details lief es noch gut. Dass ein Update offenbar die Mindestanforderungen erhöht, finde ich schon ärgerlich. Ich werde noch ein bisschen versuchen, an den Einstellungen zu drehen (es gäbe als minimale Einstellung noch den Handheld-Modus...), außerdem gab's inzwischen noch einen Patch und neue NVidia-Treiber, vielleiht kriege ich es noch hin. Machte nämlich davon abgesehen einen hervorragenden Eindruck.\n\nSerien/Filme: Es gibt eine neue Staffel von Futurama. Zuletzt konnte es mich nicht mehr besonders begeistern, aber anschauen werde ich es mir.\nIm Kino werden kommende Woche Spider-Man und (hoffentlich) The Odyssey nachgeholt. Wir haben ja inzwischen in Frankfurt einen IMAX-Saal, das muss ausgenutzt werden. Neustarts sind diesen Monat etwas dünn, aber ich stimme den Herren Schmidt und Hengst zu: Statham geht immer.\nSpiele: Nichts Neues am Horizont, aber jede Menge Altes, da findet sich schon was.\nSonstiges: Die GamesCom-Berichterstattung werde ich von zu Hause verfolgen. Ansonsten plane ich ein paar neue Anschaffungen im Heimkino-Bereich, da muss ich mir endlich das passende Modell raussuchen...\n\nDen fand ich auch recht schwach, fand einfach die Action einfallslos und alles andere uninteressant. Da fehlte der Humor, den The Beekeeper hatte. Ich hoffe mal, dass Mutiny besser abliefert.\n\nGerne. Ich hatte noch was vergessen: Der Green-Day-Film Nimrods soll an zwei Tagen im August im Kino laufen. Mal sehen, ob ich eine Vorstellung erwische. Der Soundtrack könnte auch den Kauf wert sein.\n\nIst es nicht gerade, wenn man kürzlich das Original gelesen hat, interessant, die Verfilmung zu sehen? Ging mir jedenfalls so, als ich Dracula und Frankenstein vor ein paar Jahren mal gelesen hatte. Da habe ich extra einige der bekannten Umsetzungen geguckt, um zu sehen, wie originalgetreu sie sind."
+      },
+      {
+        "username": "LRod",
+        "text": "Kein Star Wars Zero Company hier? Das ist mein Kandidat für diesen Monat."
+      },
+      {
+        "username": "Calmon",
+        "text": "Hat mich auch etwas gewundert, kommt am 27.8.!\nAllerdings muss ich zugeben das mich als großer XCOM Fan die verschiendenen Meldungen darüber doch etwas die Vorfreude genommen haben. Unter anderem gibt es keinerlei Mod support, sehr lineare Kamapagne ohne viel Wiederspielwert, 30-40 Stunden ist man durch.\nIch werde es mir holen aber ich werde es vermutlich wie Marvels Suns of Midnight handhaben - einmal durch und weglegen. Nichts was man immer wieder mal auspackt."
+      },
+      {
+        "username": "KampfPlauze",
+        "text": "Auf meinen dreiwöchigen Urlaub, der ab übernächste Woche beginnt. Ich habe mir überlegt in der Zeit einige Handheldspiele auf Gameboy, (3)DS und PSP auszuprobieren und hoffentlich das ein oder andere Spiel durchzuspielen.\nAnsonsten fahre ich mit der Familie weg und die jüngsten dürfen sich freuen, dass Papa sie im Fahrradanhänger transportieren wird. Besonders K2 freut sich darauf wie eine Prinzessin in einer Art Kutsche unterwegs zu sein xD"
+      },
+      {
+        "username": "Sokar",
+        "text": "[Spiele]\nAn Releases gibt es diesen Monat nichts Interessantes für mich. Ich werde die Gamescom verfolgen, zumindest das, was mich interessiert. Gibt viel anderes zu tun.\nIm Juli wollte ich eigentlich die Shadow-Warrior-Reboot-Trilogie durchspielen, dass mein Mainboard zumindest meine CPU und vielleicht auch den RAM gegrillt hat, hat das jäh unterbrochen. Sobald es aus der RMA-Hölle zurück ist, will ich das weiter machen. Und aus dem Anlass von letztem Monat hatte ich auch überlegt, mir doch den DLC zu Doom - The Dark Ages anzuschauen. Und das Hauptspiel vorher nochmal durchspielen, damit ich darauf eingestellt bin. Hat sich bei Eternal bewährt.\n[Filme/Serie]\nSG1 Counter steht bei S9E5. War einiges los die letzten Staffeln, die meisten Storystränge wurden abgeschlossen, weil die Serie ja mal nach der achten Staffel enden sollte. Durch die Umbesetzung und dass sie eine komplett neue Story aufmachen mussten, fühlt sich die neunte Staffel noch nicht so vertraut an, trotz einiger bekannter Gesichter. Wirklich mies finde ich aber das neue CGI-Intro, wer dachte sich: \"Das sieht besser aus als real gefilmt\"??!\nIch habe es kurz vor Ende des Monats noch in die Odyssee geschafft und wenn ich den Film mit einem Wort beschreiben soll, dann wäre es \"intensiv\". Ich wusste nicht genau was ich erwarten soll, welchen Spin Nolan für die Geschichte wählt. So düster, plastisch und teils an Horror-Filme erinnernden Szenen hatte ich aber nicht erwartet. In vielerlei Hinsicht hat der Film mich an Dunkirk erinnert, mit den vielen Nahaufnahmen und der allgemeinen Intensität der Szenen. Ich habe den Film mit meiner Schwester gesehen und war ersskeptisch, ob er ihr gefallen hat, aber sie meinte nur \"Nolan knallt halt\". Nur die Unsitte, manchen Szenen so gnadenlos laut zu machen, waren für mich als jemand Lärmempfindlichen mit Tinnitus teils schwer zu ertragen. In Diskotheken gibt es Lautstärkelimits, die sollten im Kino auch her. Und bessere Tonabmischung, dass man auch die Dialoge versteht. Wenn sie schon in der synchronisierten Version teils so schwer zu verstehen sind, wie ist dass dann erst im Original?\n[Sonstiges]\nAm meisten freue ich mich, dass ich am 1.9. wieder einer geregelten Arbeit nachgehe und nicht mehr ziellos in meiner Bude sitze, was seit Mitte November der Fall ist.\nDa ich erstmal eine temporäre Unterkunft beziehen werden, habe ich keinen PC und stationäre Konsole dabei. Gaming-technisch werde ich mich auf mein Notebook und meine Switch 2 beschränken müssen. Vielleicht packe ich meinen DS oder 3Ds auch wieder aus. Das prominenteste Opfer dürfte Dawn of War 4 werden, dem ich mich entsprechend erst später widmen kann. Aber das ist nun mal der Preis dafür. Hatte mir das auch alles mal anders vorgestellt, aber mit dem Chaos in der Welt im ersten Halbjahr hat wohl niemand rechnen können."
+      },
+      {
+        "username": "Michael D.",
+        "text": "Glückwunsch zum neuen Job und ich wünsche dir einen guten, erfolgreichen Start."
+      },
+      {
+        "username": "Chosro",
+        "text": "Jörg hat ne neue Frisur? Ansonsten einziger hoffnungsschimmer a plagues tale. Das ist schon ne durststrecke dieses Jahr. Anderseits sind wir schon arg verwöhnt. Hat sicher jeder noch zig games rumliegen, die gespielt werden sollen. Ich bin grade bei assassins ceed syndicate Auf der switch 2 und finde das richtig gut.\nSo oft wie Jörg house of the dragon erwähnt, könnte man meinen er hat nen Werbedeal. Staffel 1 fand ich genial 9/10. Staffel 2 war dann enttäuschend 5.5/10. Hoffe 3 ist wieder besser.\nOak Street hatte ich noch gar nicht auf dem Schirm. Danke für den Hinweis!"
+      },
+      {
+        "username": "duchess",
+        "text": "Ich spiele Clair Obscure und lese Revelation Space. Wir  wollen wieder anfangen, Mixtapes zu machen und dann werd ich auch mal wieder aktiver Musik hören."
+      },
+      {
+        "username": "Alain",
+        "text": "Futurama??\nFuturama !?!?!?!?\nFuturama !!!!!!!!!!!!!!!!!!!!\nDanke für den Hinweis!!\n\n# FILME/SERIEN\n- Die Atropa Empfehlung im MoMoCa war echt gut.\n- Strange New Worlds Staffel 4\n- SILO Staffel 3 - gefällt mir bisher aber nicht so super.\n- Dark Matter Staffel 2 startet Ende August - Ich dachte ja das Staffel 1 das ganze gut abgerundet hat und bin zumindest interessiert wie sie jetzt Staffel 2 aufziehen. Ich glaube aber nicht, dass nochmal solche Überraschungseffekte wie bei Staffel 1 hinbekommen.\n- Futurama ?!?!!!!!!1!!!!111einseinseinself\n# SPIELE/BRETTSPIELE\n- Der JRPG-UrOpa \"Lunar - The Silver Star Remake\" wird weiter gespielt.\n- Auf meinen letzten Reisen habe ich Geschmack an Phoenix Wright Ace Attourney gefunden.\n- Meine letzten Tages des GamePass-Tests wandern aktuell in Aphelion\n# SONSTIGES\n- Sommerferien laufen; Hitzewelle(n); und vermutlich wenig Zeit zum Spielen."
+      },
+      {
+        "username": "Crizzo",
+        "text": "Filme: Auch House of the Dragon weiterschauen. H wie Habicht und vielleicht Spider Man schauen.\n-\nGezockt wird nicht so viel, weil eben auch unterwegs. Aber LS25 geht immer :D"
+      },
+      {
+        "username": "yesnocancel",
+        "text": "Arbeit nervt aktuell, deshalb hab ich mir in letzter Zeit zwei Spielzeuge als retail therapy gegönnt:\n1. Steam Machine\n2. Boss XS-1 Poly Shifter Pedal für die E-Gitarre, mit dem man einfach per Drehknopf alles einen oder mehrere Halbtöne tiefer stimmt. Wahnsinniges Quality of Life-Upgrade. Nutze ich auch gerne für Rocksmith 2014.\nBeide müssen noch ordentlich eingefahren werden, das wird sicher den ganzen August in Anspruch nehmen.\nAußerdem verschlinge ich gerade den 1. Band von Murdoku, quasi eine Mischung aus Sudoku und Murder Mystery a la Cluedo. Ein Heidenspaß, manchmal etwas zu leicht. Da steht sicher bald Band 2 ins Haus.\n\nGothic Classic lohnt sich auch ohne Nostalgiebrille. Hab es zum ersten Mal vor ca. 2 Jahren mit großer Freude gespielt, so zu 80% auf dem Steam Deck und 20% am PC mit allen Grafikmods auf 10 gedreht.\nIch empfehle die Gamepad-Mod inkl. Button-Belegung on Screen und zUtilities mit diversen QoL-Verbesserungen. Und natürlich In Extremo restaurieren :)"
+      },
+      {
+        "username": "Baumkuchen",
+        "text": "Erstmal auf 3 Wochen Urlaub. Der September und Oktober werden eh schon voll genug.\nAktuell zocke ich Like A Dragon - Ishin. Haut mich bislang (Kapitel 3) leider noch nicht sonderlich vom Hocker. Merke ich spätestens dann, wenn ich mir schon überlege, was ich als nächstes lieber spielen wollen würde. Mir sind die Titel im modernen Japan bislang zumindest deutlich lieber. Der Spielspaß bewegt sich bei mir gerade eher auf Fist Of The Northstar-Niveau. Bin am Ende sicher froh, wenn ich durch bin ;)"
+      },
+      {
+        "username": "Bruno Lawrie",
+        "text": "[SPIELE] Hab gerade viel Spaß mit meiner neu aufgesetzten DIY Steam Machine und einer eGPU (Radeon RX7600M XT) dank der jetzt wirklich alles darauf läuft. Im Moment hab ich Lust auf SciFi und spiele Directive 8020 und das viel gescholtene Aphelion von Dontnod, was mir bisher noch richtig gut gefällt.\nIch hab mir auch das Switch-2-Upgrade für Xenoblade Chronicles 2 gekauft und starte das Spiel gerade neu, aber werde nicht viel dazu kommen. Technisch ist es gut und den Kauf wert.\n[FILME] Schaue gerade nach ca. 44 Jahren wieder den Nils Holgersson Anime. Gut gealtert, macht auch als Erwachsener noch Spaß. Ansonsten werde ich mir übernächste Woche sicher Exit 8 im Kino ansehen.\n[SONSTIGES] Ein sehr überraschender Todesfall hat gerade alle meine Pläne mit Urlaub & Co zerstört. Von daher wird der August nicht so toll, aber wenn man fast 50 ist, gewöhnt man sich leider fast schon daran, dass Todesfälle im Umfeld spürbar zunehmen und lernt auch damit besser umzugehen."
+      },
+      {
+        "username": "Klexter",
+        "text": "Ich mache mein Weltliteratur-Projekt weiter, lese also ausschließlich in der Freizeit und lebe in Gaming- und Filme/Serienaskese. 11 von 40 Büchern sind geschafft. Da ich vor kurzem Die Odyssee aber im Zuge dessen auch erst gelesen habe, gibt mir der Film gerade wenig."
+      },
+      {
+        "username": "Labrador Nelson",
+        "text": "Danke Hagen für den Tipp Teenage Sex and Death at Camp Miasma. :)"
+      },
+      {
+        "username": "euph",
+        "text": "Der August steht voll im Zeichen der Gamescom, seit 2010 bin ich (mit einer Ausnahme 2023) jedes Jahr dort gewesen und werde auch dieses Jahr wieder am Start sein. Und auch wenn es wieder anstrengend wird, freue ich mich, das ich erstmals alle Tage dort sein werde und mit dem super Team der Retro Gamer/GG den Stand unterstütze. Zudem freue ich mich auf das ganze Flair und vielleicht dem ein oder anderen Eindruck von Spielen. Zudem beginnt die Eishockey-Saison mit der Vorbereitung und passenderweise spielt mein Team am Gamescom-Freitag ein Testspiel gegen Köln gegenüber in der Kölnarena, sodass ich mir das ansehen kann. Wenn die Technik mitspielt, sollte die Zeit auch wieder für Fotogalerien hier auf GG reichen.\nIn Sachen Kino und Serien steht nichts besonderes an. Bei Spielen versuche ich mich gerade erstmals an Gothic mit Gothic Classic und spiele nebenbei auf der Switch Boulder Dash 40. Jahre Edition, Black Jacket und Portal.\n\nUnd wird für mich immer die Kölnarena bleiben ;-) - so wie das Waldstation in Frankfurt das Waldstation bleibt und nicht der deutsche Bank Park.\nEdit: Das Spiel findet auch gar nicht in der großen Arena statt, sondern im benachbarten Trainingszentrum \"Kölnarena 2\" genannt. :-)\n\nDa finden sich bestimmt noch mehr in Deutschland :-)\n\nIch spiele auf der PS5, da gibt es wohl eher leider keine Mods.\n\nKeine Hemmungen, wir beißen alle nicht :-)"
+      },
+      {
+        "username": "Drapondur",
+        "text": "Und die Philipshalle, die Philipshalle und nicht die Mitsubishi Electric Halle! :)"
+      },
+      {
+        "username": "Green Yoshi",
+        "text": "Ich freue mich auf den DLC zu Mafia: The Old Country."
+      },
+      {
+        "username": "Hermann Nasenweier",
+        "text": "Aktuell ist die Arbeit echt nur noch eine Katastrophe, kann man sich nicht mehr ausdenken was Manager anstellen. deswegen freue ich mich sehr auf die GamesCom. Einfach mal ne Woche heile Welt und coole Leute. Das wird zwar super anstrengend, aber sicher wieder ein riesiger Spass.\nSpielerisch hab ich Gothic classic durch, dann das Remake. Jetzt starte ich grad nochmal einen Run fürs dritte Lager. Allerdings hab ich mir mit Consolecheats eine Art NG+ gebaut, da mir die eigentliche Mod dafür zu hardcore war.\nder Rest der Zeit geht für Garten und GC Vorbereitung drauf.\n\nJo, wir sind total lieb"
+      },
+      {
+        "username": "Käpt'n Iglo",
+        "text": "Ich habe gemischte GamesCom-Gefühle: Einerseits bin ich kein Freund von Menschenmassen (in die meine Kinder mich unweigerlich ziehen werden), andererseits freue ich mich auf den GG-/RG-Stand. Vielleicht überwinde ich mich dieses Jahr und spreche euch an."
+      }
+    ],
+    "user_items": [
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "House of the Dead",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Moe90",
+        "items": [
+          {
+            "title": "Mafia - The Old Country",
+            "category": "game"
+          },
+          {
+            "title": "Stalker 2",
+            "category": "game"
+          },
+          {
+            "title": "Die Odyssee",
+            "category": "film_series"
+          },
+          {
+            "title": "Spider-Man: Brand New Day",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Flooraimer",
+        "items": [
+          {
+            "title": "Halo Remake",
+            "category": "game"
+          },
+          {
+            "title": "Beast of Reincarnation",
+            "category": "game"
+          },
+          {
+            "title": "The Sinking City 2",
+            "category": "game"
+          },
+          {
+            "title": "Exit 8",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Maestro84",
+        "items": [
+          {
+            "title": "The Legend of Zelda - Ocarina of Time",
+            "category": "game"
+          },
+          {
+            "title": "Spider-Man: Brand New Day",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Ganon",
+        "items": [
+          {
+            "title": "Doom - The Dark Ages",
+            "category": "game"
+          },
+          {
+            "title": "Futurama",
+            "category": "film_series"
+          },
+          {
+            "title": "Die Odyssee",
+            "category": "film_series"
+          },
+          {
+            "title": "Spider-Man: Brand New Day",
+            "category": "film_series"
+          },
+          {
+            "title": "Nimrods",
+            "category": "film_series"
+          },
+          {
+            "title": "Mutiny",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "LRod",
+        "items": [
+          {
+            "title": "Star Wars Zero Company",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Calmon",
+        "items": [
+          {
+            "title": "Star Wars Zero Company",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "Shadow Warrior Trilogy",
+            "category": "game"
+          },
+          {
+            "title": "Doom - The Dark Ages",
+            "category": "game"
+          },
+          {
+            "title": "Stargate SG-1",
+            "category": "film_series"
+          },
+          {
+            "title": "Die Odyssee",
+            "category": "film_series"
+          },
+          {
+            "title": "Dawn of War 4",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Chosro",
+        "items": [
+          {
+            "title": "Resonance - A Plague Tale Legacy",
+            "category": "film_series"
+          },
+          {
+            "title": "Assassin's Creed - Syndicate",
+            "category": "game"
+          },
+          {
+            "title": "House of the Dragon",
+            "category": "film_series"
+          },
+          {
+            "title": "The End of Oak Street",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "duchess",
+        "items": [
+          {
+            "title": "Clair Obscur: Expedition 33",
+            "category": "game"
+          },
+          {
+            "title": "Revelation Space",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Alain",
+        "items": [
+          {
+            "title": "Futurama",
+            "category": "film_series"
+          },
+          {
+            "title": "Strange New Worlds",
+            "category": "film_series"
+          },
+          {
+            "title": "SILO",
+            "category": "film_series"
+          },
+          {
+            "title": "Dark Matter",
+            "category": "film_series"
+          },
+          {
+            "title": "Lunar - The Silver Star Remake",
+            "category": "game"
+          },
+          {
+            "title": "Phoenix Wright Ace Attorney",
+            "category": "game"
+          },
+          {
+            "title": "Aphelion",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "House of the Dragon",
+            "category": "film_series"
+          },
+          {
+            "title": "Spider-Man: Brand New Day",
+            "category": "film_series"
+          },
+          {
+            "title": "Landwirtschafts-Simulator 25",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "yesnocancel",
+        "items": [
+          {
+            "title": "Murdoku",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Baumkuchen",
+        "items": [
+          {
+            "title": "Like A Dragon - Ishin",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Bruno Lawrie",
+        "items": [
+          {
+            "title": "Directive 8020",
+            "category": "game"
+          },
+          {
+            "title": "Aphelion",
+            "category": "game"
+          },
+          {
+            "title": "Xenoblade Chronicles 2",
+            "category": "game"
+          },
+          {
+            "title": "Nils Holgersson",
+            "category": "film_series"
+          },
+          {
+            "title": "Exit 8",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Labrador Nelson",
+        "items": [
+          {
+            "title": "Teenage Sex and Death at Camp Miasma",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "Gothic Classic",
+            "category": "game"
+          },
+          {
+            "title": "Boulder Dash 40. Jahre Edition",
+            "category": "game"
+          },
+          {
+            "title": "Black Jacket",
+            "category": "game"
+          },
+          {
+            "title": "Portal",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Mafia - The Old Country",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Hermann Nasenweier",
+        "items": [
+          {
+            "title": "Gothic Remake",
+            "category": "game"
+          }
+        ]
+      }
+    ],
+    "item_stats": {
+      "House of the Dragon": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jörg_langer",
+          "user:Chosro",
+          "user:Crizzo"
+        ]
+      },
+      "Stalker 2": {
+        "count": 3,
+        "category": "game",
+        "mentioners": [
+          "editor:jens_bremicker",
+          "editor:jörg_langer",
+          "user:Moe90"
+        ]
+      },
+      "Cost of Hope": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "editor:jens_bremicker",
+          "editor:jörg_langer"
+        ]
+      },
+      "Kingdom Come - Deliverance 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jörg_langer"
+        ]
+      },
+      "Gamescom": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "editor:hagen_gehritz",
+          "editor:jörg_langer",
+          "editor:michael_hengst"
+        ]
+      },
+      "Teenage Sex and Death at Camp Miasma": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "editor:hagen_gehritz",
+          "user:Labrador Nelson"
+        ]
+      },
+      "Gillian Anderson": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Letsplay Bloodborne": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Mortal Shell 2": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz",
+          "editor:jens_bremicker"
+        ]
+      },
+      "ReStory": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Grave Seasons": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Gamescom Dev": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Project Hail Mary": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Ryan Gosling": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Glennkill - Ein Schafskrimi": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Hugh Jackman": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Beast of Reincarnation": {
+        "count": 4,
+        "category": "game",
+        "mentioners": [
+          "editor:benjamin_braun",
+          "editor:jens_bremicker",
+          "editor:kai_schmidt",
+          "user:Flooraimer"
+        ]
+      },
+      "Resonance - A Plague Tale Legacy": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "editor:benjamin_braun",
+          "editor:michael_hengst",
+          "user:Chosro"
+        ]
+      },
+      "The End of Oak Street": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jens_bremicker",
+          "editor:kai_schmidt",
+          "user:Chosro"
+        ]
+      },
+      "Mutiny": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "editor:kai_schmidt",
+          "editor:michael_hengst",
+          "user:Ganon"
+        ]
+      },
+      "Jason Statham": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "editor:kai_schmidt",
+          "editor:michael_hengst"
+        ]
+      },
+      "Reacher": {
+        "count": 3,
+        "category": "game",
+        "mentioners": [
+          "editor:christian_burtchen",
+          "editor:kai_schmidt",
+          "editor:michael_hengst"
+        ]
+      },
+      "Pompeji: Out of Time": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Odyssee": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Spider-Man: Brand New Day": {
+        "count": 5,
+        "category": "film_series",
+        "mentioners": [
+          "editor:christian_burtchen",
+          "user:Crizzo",
+          "user:Ganon",
+          "user:Maestro84",
+          "user:Moe90"
+        ]
+      },
+      "The Sinking City 2": {
+        "count": 3,
+        "category": "game",
+        "mentioners": [
+          "editor:christian_burtchen",
+          "editor:jens_bremicker",
+          "user:Flooraimer"
+        ]
+      },
+      "Papers, Please": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Security 51": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Train to Busan": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "The Brink Of War": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Jeff Daniels": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Alan Ritchson": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Iron Nest - Heavy Turret Simulator": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Jurassic Park": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jens_bremicker"
+        ]
+      },
+      "David Robert Mitchell": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jens_bremicker"
+        ]
+      },
+      "It Follows": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jens_bremicker"
+        ]
+      },
+      "Mafia - The Old Country": {
+        "count": 3,
+        "category": "game",
+        "mentioners": [
+          "editor:jens_bremicker",
+          "user:Green Yoshi",
+          "user:Moe90"
+        ]
+      },
+      "House of the Dead": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Danywilde"
+        ]
+      },
+      "Die Odyssee": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon",
+          "user:Moe90",
+          "user:Sokar"
+        ]
+      },
+      "Halo Remake": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Flooraimer"
+        ]
+      },
+      "Exit 8": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Bruno Lawrie",
+          "user:Flooraimer"
+        ]
+      },
+      "The Legend of Zelda - Ocarina of Time": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Maestro84"
+        ]
+      },
+      "Doom - The Dark Ages": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Ganon",
+          "user:Sokar"
+        ]
+      },
+      "Futurama": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain",
+          "user:Ganon"
+        ]
+      },
+      "Nimrods": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Ganon"
+        ]
+      },
+      "Star Wars Zero Company": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Calmon",
+          "user:LRod"
+        ]
+      },
+      "Shadow Warrior Trilogy": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Stargate SG-1": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Dawn of War 4": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "Assassin's Creed - Syndicate": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Chosro"
+        ]
+      },
+      "Clair Obscur: Expedition 33": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:duchess"
+        ]
+      },
+      "Revelation Space": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:duchess"
+        ]
+      },
+      "Strange New Worlds": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "SILO": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Dark Matter": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Lunar - The Silver Star Remake": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Phoenix Wright Ace Attorney": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Alain"
+        ]
+      },
+      "Aphelion": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Alain",
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Landwirtschafts-Simulator 25": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Murdoku": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:yesnocancel"
+        ]
+      },
+      "Like A Dragon - Ishin": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Baumkuchen"
+        ]
+      },
+      "Directive 8020": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Xenoblade Chronicles 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Nils Holgersson": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Bruno Lawrie"
+        ]
+      },
+      "Gothic Classic": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Boulder Dash 40. Jahre Edition": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Black Jacket": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Portal": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Gothic Remake": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hermann Nasenweier"
         ]
       }
     }
