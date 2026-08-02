@@ -339,23 +339,40 @@ def _count_comments_in_html(html: str) -> int:
 # ---------------------------------------------------------------------------
 
 def discover_articles(existing_months: set[str], backfill: bool = False) -> list[dict]:
-    """Discover new 'Darauf freut sich' articles via GG sitemaps.
+    """Discover new 'Darauf freut sich' articles.
+
+    Checks the GG homepage first — new articles show up there immediately,
+    whereas the sitemaps can lag by a day or more. The sitemaps are still
+    consulted (mainly useful for ``backfill``, which needs older articles
+    the homepage no longer links to).
 
     Returns list of ``{"url": str, "month": "YYYY-MM"}`` for months not in
     *existing_months*.
     """
     found: dict[str, str] = {}  # month → url (relative path)
 
-    sitemap_urls = [
-        "https://www.gamersglobal.de/sitemaps_grouped/sitemap_news0.xml",
-        "https://www.gamersglobal.de/sitemaps_grouped/sitemap_news1.xml",
-    ]
-
     # URL slug fragments that identify "Darauf freut sich" articles
     _INCLUDE_PATTERNS = [
         "darauf-freut-sich-die-redaktion-im-",
         "darauf-freuen-wir-uns-im-",
         "der-gg-monat-darauf-freut-sich-die-redaktion-im-",
+    ]
+
+    try:
+        html = fetch_html("/")
+        for path in re.findall(r'href="(/[^"]+)"', html):
+            if any(p in path for p in _INCLUDE_PATTERNS):
+                m = re.search(r'-im-([a-z]+)-(\d{4})(?:/|$|#)', path)
+                if m:
+                    month = _slug_to_month(m.group(1), m.group(2))
+                    if month and month not in found:
+                        found[month] = path.split("#")[0]
+    except Exception as e:
+        print(f"  [warn] homepage fetch failed: {e}")
+
+    sitemap_urls = [
+        "https://www.gamersglobal.de/sitemaps_grouped/sitemap_news0.xml",
+        "https://www.gamersglobal.de/sitemaps_grouped/sitemap_news1.xml",
     ]
 
     for sitemap_url in sitemap_urls:
