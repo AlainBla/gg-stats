@@ -5667,7 +5667,7 @@ month,item_title,category,count,editor_count,user_count
 2026-08,Glennkill - Ein Schafskrimi,game,1,1,0
 2026-08,Hugh Jackman,film_series,1,1,0
 2026-08,Beast of Reincarnation,game,4,3,1
-2026-08,Resonance - A Plague Tale Legacy,film_series,3,2,1
+2026-08,Resonance - A Plague Tale Legacy,game,4,2,2
 2026-08,The End of Oak Street,film_series,3,2,1
 2026-08,Mutiny,film_series,3,2,1
 2026-08,Jason Statham,film_series,2,2,0
@@ -5696,6 +5696,7 @@ month,item_title,category,count,editor_count,user_count
 2026-08,Futurama,film_series,2,0,2
 2026-08,Nimrods,film_series,1,0,1
 2026-08,Star Wars Zero Company,game,2,0,2
+2026-08,Murdoku,misc,3,0,3
 2026-08,Shadow Warrior Trilogy,game,1,0,1
 2026-08,Stargate SG-1,film_series,1,0,1
 2026-08,Dawn of War 4,game,1,0,1
@@ -5709,7 +5710,6 @@ month,item_title,category,count,editor_count,user_count
 2026-08,Phoenix Wright Ace Attorney,game,1,0,1
 2026-08,Aphelion,game,2,0,2
 2026-08,Landwirtschafts-Simulator 25,game,1,0,1
-2026-08,Murdoku,misc,1,0,1
 2026-08,Like A Dragon - Ishin,game,1,0,1
 2026-08,Directive 8020,game,1,0,1
 2026-08,Xenoblade Chronicles 2,game,1,0,1
@@ -5719,3 +5719,9 @@ month,item_title,category,count,editor_count,user_count
 2026-08,Black Jacket,game,1,0,1
 2026-08,Portal,game,1,0,1
 2026-08,Gothic Remake,game,1,0,1
+2026-08,Rivers of London,misc,2,0,2
+2026-08,The Mandalorian,film_series,1,0,1
+2026-08,The Expanse,film_series,1,0,1
+2026-08,Book of Dungeon,misc,1,0,1
+2026-08,Il Civetto,misc,1,0,1
+2026-08,Ted Lasso,film_series,1,0,1
