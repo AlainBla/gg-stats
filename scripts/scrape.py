@@ -103,12 +103,18 @@ def run_initial(data_path: str = str(DATA_PATH)) -> list[dict]:
     return all_polls
 
 
+def _base_url(url: str) -> str:
+    """Strip the '-ergebnis' suffix the site appends once a poll concludes,
+    so the announcement and results pages resolve to the same identity."""
+    return re.sub(r"-ergebnis/?$", "", url.rstrip("/"))
+
+
 def run_incremental(data_path: str = str(DATA_PATH)) -> bool:
     """Check the 2 most recent polls; update votes/title if not yet [Ergebnis]."""
     with open(data_path, encoding="utf-8") as f:
         polls: list[dict] = json.load(f)
 
-    existing = {p["url"]: p for p in polls}
+    existing = {_base_url(p["url"]): p for p in polls}
 
     html = fetch_html("/exklusiv/sonntagsfrage?page=0")
     latest, _ = parse_archive_page(html)
@@ -116,15 +122,17 @@ def run_incremental(data_path: str = str(DATA_PATH)) -> bool:
 
     changed = False
     for c in candidates:
-        if c["url"] in existing and "[Ergebnis]" in existing[c["url"]]["title"]:
+        base = _base_url(c["url"])
+        if base in existing and "[Ergebnis]" in existing[base]["title"]:
             continue  # already final and known — skip
 
         detail = parse_poll_page(fetch_html(c["url"]))
 
-        if c["url"] in existing:
-            p = existing[c["url"]]
+        if base in existing:
+            p = existing[base]
             p["title"] = detail["title"]
             p["votes"] = detail["votes"]
+            p["url"] = c["url"]
             changed = True
         else:
             polls.append({
@@ -133,6 +141,7 @@ def run_incremental(data_path: str = str(DATA_PATH)) -> bool:
                 "votes": detail["votes"],
                 "url": c["url"],
             })
+            existing[base] = polls[-1]
             polls.sort(key=lambda x: x["date"] or "")
             changed = True
 

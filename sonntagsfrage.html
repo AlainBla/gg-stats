@@ -48,6 +48,7 @@
 
   <script>
     const WINDOW = 4;
+    const GG_BASE_URL = 'https://www.gamersglobal.de';
 
     function rollingAvg(values, w) {
       return values.map((_, i) => {
@@ -102,6 +103,16 @@
       const options = {
         responsive: true,
         interaction: { mode: 'index', intersect: false },
+        onClick: (evt, _elements, chart) => {
+          const points = chart.getElementsAtEventForMode('point', evt, { intersect: true, axis: 'x' }, false);
+          if (!points.length) return;
+          const poll = filtered[points[0].index];
+          if (poll && poll.url) window.open(GG_BASE_URL + poll.url, '_blank', 'noopener');
+        },
+        onHover: (evt, _elements, chart) => {
+          const points = chart.getElementsAtEventForMode('point', evt, { intersect: true, axis: 'x' }, false);
+          evt.native.target.style.cursor = points.length ? 'pointer' : 'default';
+        },
         plugins: {
           legend: { labels: { color: '#ccc' } },
           tooltip: {
