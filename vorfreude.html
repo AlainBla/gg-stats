@@ -23,6 +23,14 @@
       color: #999;
       margin-bottom: 1rem;
     }
+    #vorfreude-source-link {
+      display: inline-block;
+      font-size: 0.85rem;
+      color: #4fc3f7;
+      text-decoration: none;
+      margin-bottom: 0.5rem;
+    }
+    #vorfreude-source-link:hover { text-decoration: underline; }
     #vorfreude-month-select {
       background: #222;
       color: #ccc;
@@ -78,6 +86,7 @@
 <body>
   <nav><a href="index.html">← Übersicht</a></nav>
   <h1>Vorfreude-Radar</h1>
+  <a id="vorfreude-source-link" href="#" target="_blank" rel="noopener" style="display:none;">Original-Artikel auf GamersGlobal ↗</a>
   <p id="vorfreude-subtitle"></p>
   <select id="vorfreude-month-select"></select>
   <div id="vorfreude-category-filter"></div>
@@ -89,6 +98,8 @@
   <a id="vorfreude-csv-link" href="data/vorfreude.csv">CSV herunterladen</a>
 
   <script>
+    const GG_BASE_URL = 'https://www.gamersglobal.de';
+
     const EDITOR_NAMES = {
       'editor:joerg_langer':    'Jörg Langer (Red.)',
       'editor:michael_trier':   'Michael Trier (Red.)',
@@ -285,6 +296,16 @@
         return months.find(x => x.month === val);
       }
 
+      const sourceLinkEl = document.getElementById('vorfreude-source-link');
+      function updateSourceLink(entry) {
+        if (entry && entry.url) {
+          sourceLinkEl.href = GG_BASE_URL + entry.url;
+          sourceLinkEl.style.display = 'inline-block';
+        } else {
+          sourceLinkEl.style.display = 'none';
+        }
+      }
+
       let activeMonth          = months[0].month;
       let activeCategoryFilter = 'all';
       let sourceFilter         = 'all';
@@ -310,10 +331,12 @@
         activeMonth = monthSelectEl.value;
         const md = lookupEntry(activeMonth);
         document.getElementById('vorfreude-subtitle').textContent = md ? md.title : '';
+        updateSourceLink(md);
         renderVorfreudeChart(md, activeCategoryFilter, sourceFilter);
       });
 
       document.getElementById('vorfreude-subtitle').textContent = lookupEntry(activeMonth)?.title || '';
+      updateSourceLink(lookupEntry(activeMonth));
 
       const categoryDefs = [
         { key: 'all',   label: 'Alle' },
