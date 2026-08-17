@@ -121,6 +121,12 @@
                 const idx = items[0].dataIndex;
                 return `${filtered[idx].date} – ${filtered[idx].title}`;
               },
+              afterBody: (items) => {
+                const idx = items[0].dataIndex;
+                const opts = filtered[idx].options;
+                if (!opts || opts.length === 0) return '';
+                return opts.map(o => `${o.label}: ${o.percent}% (${o.votes})`);
+              },
             },
           },
         },

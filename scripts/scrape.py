@@ -28,7 +28,7 @@ def parse_archive_page(html: str) -> tuple[list[dict], bool]:
 
 
 def parse_poll_page(html: str) -> dict:
-    """Return {"title": str, "votes": int, "date": str|None}."""
+    """Return {"title": str, "votes": int, "date": str|None, "options": list[dict]}."""
     soup = BeautifulSoup(html, "html.parser")
 
     # Title — strip embedded series-info div
@@ -47,6 +47,23 @@ def parse_poll_page(html: str) -> dict:
         if m:
             votes = int(m.group(1).replace(".", ""))
 
+    # Answer breakdown — div.poll holds alternating div.text (label) /
+    # div.bar (visual, ignored) / div.percent ("29% (124 Stimmen)") per option.
+    options = []
+    poll_div = soup.select_one("div.poll")
+    if poll_div:
+        labels = poll_div.select(":scope > div.text")
+        percents = poll_div.select(":scope > div.percent")
+        for label_el, percent_el in zip(labels, percents):
+            label = label_el.get_text(strip=True)
+            m = re.search(r"([\d.,]+)\s*%\s*\(([\d.]+)\s*Stimmen?\)", percent_el.get_text())
+            if m:
+                options.append({
+                    "label": label,
+                    "votes": int(m.group(2).replace(".", "")),
+                    "percent": float(m.group(1).replace(",", ".")),
+                })
+
     # Date — "24. Mai 2026 - 9:00" in div.voll-wer-wann
     date = None
     wer_wann = soup.select_one("div.voll-wer-wann")
@@ -59,7 +76,7 @@ def parse_poll_page(html: str) -> dict:
             if month:
                 date = f"{year:04d}-{month:02d}-{day:02d}"
 
-    return {"title": title, "votes": votes, "date": date}
+    return {"title": title, "votes": votes, "date": date, "options": options}
 
 
 def fetch_html(url: str) -> str:
@@ -89,6 +106,7 @@ def run_initial(data_path: str = str(DATA_PATH)) -> list[dict]:
                 "title": detail["title"],
                 "votes": detail["votes"],
                 "url": e["url"],
+                "options": detail["options"],
             })
             print(f"  scraped {e['url']} ({detail['votes']} votes)", flush=True)
         print(f"page {page} done ({len(entries)} polls)", flush=True)
@@ -133,6 +151,7 @@ def run_incremental(data_path: str = str(DATA_PATH)) -> bool:
             p["title"] = detail["title"]
             p["votes"] = detail["votes"]
             p["url"] = c["url"]
+            p["options"] = detail["options"]
             changed = True
         else:
             polls.append({
@@ -140,6 +159,7 @@ def run_incremental(data_path: str = str(DATA_PATH)) -> bool:
                 "title": detail["title"],
                 "votes": detail["votes"],
                 "url": c["url"],
+                "options": detail["options"],
             })
             existing[base] = polls[-1]
             polls.sort(key=lambda x: x["date"] or "")
