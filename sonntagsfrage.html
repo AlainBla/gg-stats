@@ -74,16 +74,36 @@
       const votes  = filtered.map(p => p.votes);
       const trend  = rollingAvg(votes, WINDOW);
 
+      // Split each bar into the leading answer's votes vs. the rest, so the
+      // bar itself shows how decisive the result was — works regardless of
+      // how many options a given poll had.
+      const leadVotes = filtered.map(p => {
+        const opts = p.options || [];
+        return opts.length ? Math.max(...opts.map(o => o.votes)) : p.votes;
+      });
+      const restVotes = filtered.map((p, i) => p.votes - leadVotes[i]);
+
       const data = {
         labels,
         datasets: [
           {
             type: 'bar',
-            label: 'Stimmen',
-            data: votes,
-            backgroundColor: 'rgba(232,160,0,0.55)',
-            borderColor: 'rgba(232,160,0,0.9)',
+            label: 'Führende Antwort',
+            data: leadVotes,
+            backgroundColor: 'rgba(232,160,0,0.85)',
+            borderColor: 'rgba(232,160,0,1)',
             borderWidth: 1,
+            stack: 'votes',
+            order: 2,
+          },
+          {
+            type: 'bar',
+            label: 'Weitere Antworten',
+            data: restVotes,
+            backgroundColor: 'rgba(232,160,0,0.3)',
+            borderColor: 'rgba(232,160,0,0.5)',
+            borderWidth: 1,
+            stack: 'votes',
             order: 2,
           },
           {
@@ -132,10 +152,12 @@
         },
         scales: {
           x: {
+            stacked: true,
             ticks: { color: '#999', maxRotation: 45, autoSkip: true, maxTicksLimit: 20 },
             grid: { color: '#333' },
           },
           y: {
+            stacked: true,
             ticks: { color: '#999' },
             grid: { color: '#333' },
             title: { display: true, text: 'Abstimmungen', color: '#999' },
