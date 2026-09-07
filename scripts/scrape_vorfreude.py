@@ -480,7 +480,7 @@ def enrich_comments(
                 },
                 json={
                     "model": model,
-                    "max_tokens": 512,
+                    "max_tokens": 4096,
                     "messages": [
                         {"role": "system", "content": system_text},
                         {"role": "user", "content": text},
