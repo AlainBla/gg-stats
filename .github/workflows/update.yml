@@ -1,4 +1,4 @@
-name: Update Sonntagsfrage Data
+name: Update GG Stats Data
 
 on:
   schedule:
@@ -23,13 +23,18 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Run scraper
+      - name: Run Sonntagsfrage scraper
         run: python scripts/scrape.py
+
+      - name: Run Vorfreude-Radar scraper
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python scripts/scrape_vorfreude.py --enrich
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/polls.json
+          git add data/polls.json data/vorfreude.json data/vorfreude.csv
           git diff --cached --exit-code && echo "No changes." || \
-            git commit -m "data: update Sonntagsfrage polls [skip ci]" && git push
+            git commit -m "data: update Sonntagsfrage polls and Vorfreude-Radar [skip ci]" && git push
