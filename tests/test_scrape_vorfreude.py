@@ -458,7 +458,7 @@ def test_scrape_article_skips_reenrichment_when_count_unchanged_and_user_items_e
     def _fake_parse_comments(html):
         return [{"username": "alice", "text": "I love My Game!"}]
 
-    def _fake_enrich_comments(comments, editors, api_key):
+    def _fake_enrich_comments(comments, editors, api_key, model=None):
         enrich_called.append(True)
         return [{"username": "alice", "items": [{"title": "New Item", "category": "game"}]}]
 
@@ -496,7 +496,7 @@ def test_scrape_article_does_reenrich_when_count_unchanged_but_user_items_empty(
     def _fake_parse_comments(html):
         return [{"username": "alice", "text": "I love My Game!"}]
 
-    def _fake_enrich_comments(comments, editors, api_key):
+    def _fake_enrich_comments(comments, editors, api_key, model=None):
         enrich_called.append(True)
         return [{"username": "alice", "items": [{"title": "My Game", "category": "game"}]}]
 
@@ -532,7 +532,7 @@ def test_scrape_article_does_reenrich_when_count_changed(monkeypatch):
     def _fake_parse_comments(html):
         return [{"username": "alice", "text": "I love My Game!"}, {"username": "bob", "text": "Me too!"}]
 
-    def _fake_enrich_comments(comments, editors, api_key):
+    def _fake_enrich_comments(comments, editors, api_key, model=None):
         enrich_called.append(True)
         return [{"username": "alice", "items": [{"title": "My Game", "category": "game"}]}]
 

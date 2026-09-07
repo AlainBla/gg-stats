@@ -3,7 +3,7 @@
 Usage:
     python scrape_freude.py               # incremental (current + previous month)
     python scrape_freude.py --backfill    # discover and scrape all historical articles
-    python scrape_freude.py --enrich      # also run LLM enrichment on comments
+    python scrape_freude.py --enrich      # also run LLM enrichment on comments (via OpenRouter)
 """
 
 from __future__ import annotations
@@ -428,20 +428,21 @@ def discover_articles(existing_months: set[str], backfill: bool = False) -> list
 # LLM enrichment
 # ---------------------------------------------------------------------------
 
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+DEFAULT_ENRICH_MODEL = "google/gemma-4-31b-it"
+
+
 def enrich_comments(
     comments: list[dict],
     editor_items: list[dict],
     api_key: str,
+    model: str = DEFAULT_ENRICH_MODEL,
 ) -> list[dict]:
-    """Use Claude Haiku to extract items from comments.
+    """Use an OpenRouter-hosted LLM to extract items from comments.
 
     Returns list of ``{"username": str, "items": [{"title": str, "category": str}]}``.
     Only non-empty comments are processed; users with no extracted items are omitted.
     """
-    import anthropic  # noqa: PLC0415 — imported only when --enrich is used
-
-    client = anthropic.Anthropic(api_key=api_key)
-
     # Build seed context listing known editor items
     seed_lines = []
     for editor in editor_items:
@@ -471,21 +472,24 @@ def enrich_comments(
             continue
 
         try:
-            response = client.messages.create(
-                model="claude-haiku-4-5-20251001",
-                max_tokens=512,
-                system=[
-                    {
-                        "type": "text",
-                        "text": system_text,
-                        "cache_control": {"type": "ephemeral"},
-                    }
-                ],
-                messages=[
-                    {"role": "user", "content": text}
-                ],
+            response = requests.post(
+                OPENROUTER_URL,
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
+                json={
+                    "model": model,
+                    "max_tokens": 512,
+                    "messages": [
+                        {"role": "system", "content": system_text},
+                        {"role": "user", "content": text},
+                    ],
+                },
+                timeout=60,
             )
-            raw = response.content[0].text.strip()
+            response.raise_for_status()
+            raw = response.json()["choices"][0]["message"]["content"].strip()
             raw = re.sub(r'^```[a-z]*\n?|\n?```$', '', raw).strip()
             items = json.loads(raw)
             if not isinstance(items, list):
@@ -552,7 +556,13 @@ def _save_csv(path: Path, data: list[dict]) -> None:
 # Main scraping logic
 # ---------------------------------------------------------------------------
 
-def _scrape_article(url: str, existing_entry: dict | None, enrich: bool, api_key: str) -> dict:
+def _scrape_article(
+    url: str,
+    existing_entry: dict | None,
+    enrich: bool,
+    api_key: str,
+    model: str = DEFAULT_ENRICH_MODEL,
+) -> dict:
     """Fetch and parse a single article, returning a complete entry dict."""
     print(f"  fetching {url} …", flush=True)
     html = fetch_html(url)
@@ -579,7 +589,7 @@ def _scrape_article(url: str, existing_entry: dict | None, enrich: bool, api_key
     # LLM enrichment — skip when comment count is unchanged and user_items already exist
     if enrich and comments_raw and not reuse_user_items:
         print(f"    enriching {len(comments_raw)} user comments …", flush=True)
-        user_items = enrich_comments(comments_raw, editors, api_key)
+        user_items = enrich_comments(comments_raw, editors, api_key, model)
         print(f"    extracted items from {len(user_items)} users", flush=True)
     elif enrich and reuse_user_items:
         print(
@@ -609,6 +619,7 @@ def run(
     backfill: bool = False,
     enrich: bool = False,
     api_key: str = "",
+    model: str = DEFAULT_ENRICH_MODEL,
 ) -> None:
     """Main entry point."""
     existing_data = _load_data(data_path)
@@ -628,7 +639,7 @@ def run(
         url = article["url"]
         month = article["month"]
         existing_entry = existing_by_month.get(month)
-        entry = _scrape_article(url, existing_entry, enrich, api_key)
+        entry = _scrape_article(url, existing_entry, enrich, api_key, model)
 
         # Upsert
         if existing_entry:
@@ -654,7 +665,7 @@ def run(
                 if not url:
                     continue
                 print(f"Checking existing entry {month_str} for updates …", flush=True)
-                entry = _scrape_article(url, existing_entry, enrich, api_key)
+                entry = _scrape_article(url, existing_entry, enrich, api_key, model)
                 idx = next(i for i, e in enumerate(updated_data) if e["month"] == month_str)
                 updated_data[idx] = entry
 
@@ -686,7 +697,7 @@ def main() -> None:
     parser.add_argument(
         "--enrich",
         action="store_true",
-        help="Use Claude Haiku to extract items from user comments.",
+        help="Use an OpenRouter-hosted LLM to extract items from user comments.",
     )
     parser.add_argument(
         "--no-enrich",
@@ -696,7 +707,12 @@ def main() -> None:
     parser.add_argument(
         "--api-key",
         default="",
-        help="Anthropic API key (or set ANTHROPIC_API_KEY env var).",
+        help="OpenRouter API key (or set OPENROUTER_API_KEY env var).",
+    )
+    parser.add_argument(
+        "--model",
+        default=DEFAULT_ENRICH_MODEL,
+        help=f"OpenRouter model slug to use for enrichment (default: {DEFAULT_ENRICH_MODEL}).",
     )
     args = parser.parse_args()
 
@@ -706,14 +722,15 @@ def main() -> None:
     api_key = args.api_key
     if not api_key and enrich:
         import os
-        api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+        api_key = os.environ.get("OPENROUTER_API_KEY", "")
         if not api_key:
-            parser.error("--enrich requires ANTHROPIC_API_KEY env var or --api-key flag.")
+            parser.error("--enrich requires OPENROUTER_API_KEY env var or --api-key flag.")
 
     run(
         backfill=args.backfill,
         enrich=enrich,
         api_key=api_key,
+        model=args.model,
     )
 
 
