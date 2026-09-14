@@ -22962,9 +22962,58 @@
   },
   {
     "date": "2026-09-06",
-    "title": "Sonntagsfrage: Wie gefällt euch das vorgestellte Gameplay von GTA 6?",
-    "votes": 0,
-    "url": "/news/351514/sonntagsfrage-wie-gefaellt-euch-das-vorgestellte-gameplay-von-gta-6",
-    "options": []
+    "title": "Sonntagsfrage: Wie gefällt euch das vorgestellte Gameplay von GTA 6? [Ergebnis]",
+    "votes": 494,
+    "url": "/news/351514/sonntagsfrage-wie-gefaellt-euch-das-vorgestellte-gameplay-von-gta-6-ergebnis",
+    "options": [
+      {
+        "label": "Fantastisch",
+        "votes": 71,
+        "percent": 14.0
+      },
+      {
+        "label": "Gut",
+        "votes": 150,
+        "percent": 30.0
+      },
+      {
+        "label": "Geht so",
+        "votes": 76,
+        "percent": 15.0
+      },
+      {
+        "label": "Enttäuschend!",
+        "votes": 16,
+        "percent": 3.0
+      },
+      {
+        "label": "GTA reizt mich nicht und die Nummer 6 wird das nicht ändern",
+        "votes": 181,
+        "percent": 37.0
+      }
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "title": "Sonntagsfrage: Wie gefällt euch der Grafikstil der Neuauflage von Ocarina of Time?",
+    "votes": 414,
+    "url": "/news/351985/sonntagsfrage-wie-gefaellt-euch-der-grafikstil-der-neuauflage-von-ocarina-of-time",
+    "options": [
+      {
+        "label": "Klasse",
+        "votes": 304,
+        "percent": 73.0
+      },
+      {
+        "label": "Na ja",
+        "votes": 62,
+        "percent": 15.0
+      },
+      {
+        "label": "Trifft nicht meinen Geschmack",
+        "votes": 48,
+        "percent": 12.0
+      }
+    ]
   }
 ]
