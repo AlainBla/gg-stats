@@ -23015,5 +23015,28 @@
         "percent": 12.0
       }
     ]
+  },
+  {
+    "date": "2026-09-20",
+    "title": "Sonntagsfrage: Findest du es gut, dass sich die Wertung ausblenden lässt und wir in Comments keine Wertungsnennung wollen?",
+    "votes": 431,
+    "url": "/news/352294/sonntagsfrage-findest-du-es-gut-dass-sich-die-wertung-ausblenden-laesst-und-wir-in-comme",
+    "options": [
+      {
+        "label": "Nein, weg mit der doofen Regel",
+        "votes": 152,
+        "percent": 35.0
+      },
+      {
+        "label": "Nein, aber ich kann damit leben",
+        "votes": 157,
+        "percent": 36.0
+      },
+      {
+        "label": "Ja",
+        "votes": 122,
+        "percent": 28.0
+      }
+    ]
   }
 ]
