@@ -23038,5 +23038,28 @@
         "percent": 28.0
       }
     ]
+  },
+  {
+    "date": "2026-09-27",
+    "title": "Sonntagsfrage: Besitzt ihr eine Konsole/einen PC mit speziellem Spiele-Design?",
+    "votes": 413,
+    "url": "/news/352889/sonntagsfrage-besitzt-ihr-eine-konsoleeinen-pc-mit-speziellem-spiele-design",
+    "options": [
+      {
+        "label": "Ja",
+        "votes": 59,
+        "percent": 14.0
+      },
+      {
+        "label": "Früher mal, habe ich aber verkauft",
+        "votes": 26,
+        "percent": 6.0
+      },
+      {
+        "label": "Nein",
+        "votes": 328,
+        "percent": 79.0
+      }
+    ]
   }
 ]
