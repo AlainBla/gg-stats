@@ -49,6 +49,7 @@
     .entry .text { font-size: .9rem; line-height: 1.55; color: #ddd; }
     .entry .text div:empty { display: none; }
     .entry .links { font-size: .8rem; margin-top: .75rem; }
+    .prev + .prev { border-top-style: dashed; }
     .prev { border-top: 1px solid var(--border); padding: .75rem 1.25rem; font-size: .82rem; background: var(--surface-2); }
     .prev b { color: var(--text-secondary); font-weight: 600; margin-right: .25rem; }
     .chip { display: inline-flex; gap: .3rem; align-items: baseline; border: 1px solid var(--border); border-radius: 999px; padding: .1rem .6rem; margin: .2rem .25rem .2rem 0; background: var(--surface-1); white-space: nowrap; }
@@ -302,11 +303,13 @@
     document.getElementById('month-head').innerHTML =
       `<h2>${esc(g.title)}</h2><span class="muted">${g.slides.length} Beiträge</span><a href="${GG}${g.url}" target="_blank" rel="noopener">Original-Galerie auf GamersGlobal ↗</a>`;
 
+    const chip = id => {
+      const p = slideIndex[id];
+      return `<span class="chip"><a href="#${id}" title="${esc(p.s.game)} — ${esc(p.s.user || '?')}">DU ${fmtMonth(p.g.month)} · ${esc(p.s.user || '?')}</a><a class="orig" href="${origUrl(p.g, id)}" target="_blank" rel="noopener" title="Original auf GamersGlobal">↗</a></span>`;
+    };
     document.getElementById('entries').innerHTML = g.slides.map(s => {
-      const prev = s.previous.map(id => {
-        const p = slideIndex[id];
-        return `<span class="chip"><a href="#${id}" title="${esc(p.s.game)} — ${esc(p.s.user || '?')}">DU ${fmtMonth(p.g.month)} · ${esc(p.s.user || '?')}</a><a class="orig" href="${origUrl(p.g, id)}" target="_blank" rel="noopener" title="Original auf GamersGlobal">↗</a></span>`;
-      }).join('');
+      const prev = s.previous.map(chip).join('');
+      const same = (s.same_month || []).map(chip).join('');
       return `<article class="entry" id="${s.id}">
         ${s.image ? `<img src="${esc(s.image)}" alt="${esc(s.game)}" loading="lazy">` : ''}
         <div class="body">
@@ -314,6 +317,7 @@
           <div class="text">${rewriteTextLinks(s.text_html)}</div>
           <div class="links"><a href="${origUrl(g, s.id)}" target="_blank" rel="noopener">Beitrag auf GamersGlobal ↗</a> · <a href="#${s.id}">Link hierher</a></div>
         </div>
+        ${same ? `<div class="prev"><b>Ebenfalls in dieser Ausgabe:</b>${same}</div>` : ''}
         ${prev ? `<div class="prev"><b>Frühere DU-Nennungen (${s.previous.length}):</b>${prev}</div>` : ''}
       </article>`;
     }).join('');

@@ -247,6 +247,10 @@ def test_build_applies_renames_previous_mentions_and_stats():
     assert mario["previous"] == [old_slide["id"]]
     assert sheer["previous"] == [old_slide["id"]]
     assert old_slide["previous"] == []
+    # same game twice in one issue: linked to each other, not counted as "previous"
+    assert mario["same_month"] == [sheer["id"]]
+    assert sheer["same_month"] == [mario["id"]]
+    assert old_slide["same_month"] == []
 
     key = game_key("Tunic")
     jan = {r["key"]: r for r in out["stats"]["games_per_month"]["2025-01"]}
