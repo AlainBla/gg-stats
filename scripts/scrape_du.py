@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Scrape GG's monthly "Das spielen unsere User" (DU) galleries.
 
-Writes:
-  data/du.json           — galleries with slides (+ previous DU mentions), stats
-  data/du_comments.json  — user comments per month with matched game keys
+Writes (data/du/):
+  index.json             — galleries with slide metadata (+ DU mentions), stats; loaded by du.html
+  games_per_month.json   — game ranking per month (loaded on demand)
+  texts/YYYY-MM.json     — slide texts per month (loaded on demand)
+  comments/YYYY-MM.json  — user comments per month with matched game keys (loaded on demand)
 
 Raw fields (``user_raw``, ``game``, ``systems``, comment ``text`` …) are stored as
 scraped; everything else (canonical users, game keys, previous mentions, stats)
@@ -27,8 +29,7 @@ from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.gamersglobal.de"
 INDEX_PATH = "/exklusiv/das-spielen-unsere-user"
-DATA_PATH = Path("data/du.json")
-COMMENTS_PATH = Path("data/du_comments.json")
+DATA_DIR = Path("data/du")
 OVERRIDES_PATH = Path("data/du_overrides.json")
 
 # "Vor 10 Jahren"/"im Jahr 2009" retrospectives are not monthly issues
@@ -478,25 +479,58 @@ def discover_galleries(known_urls: set[str], backfill: bool) -> list[str]:
     return urls
 
 
-def _load_raw(data_path: Path, comments_path: Path) -> list[dict]:
-    if not data_path.exists():
-        return []
-    data = json.loads(data_path.read_text())
-    comments = json.loads(comments_path.read_text()) if comments_path.exists() else {}
-    derived_slide = {"user", "game_key", "previous", "same_month"}
-    derived_comment = {"user", "games"}
+_DERIVED_SLIDE = {"user", "game_key", "previous", "same_month"}
+_DERIVED_COMMENT = {"user", "games"}
+
+
+def _dump(path: Path, obj) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")))
+
+
+def save_outputs(out: dict, base: Path, now: str) -> None:
+    """Split build() output into a small index plus per-month texts and comments."""
     galleries = []
-    for g in data["galleries"]:
+    for g in out["galleries"]:
+        _dump(base / "texts" / f"{g['month']}.json", {s["id"]: s.get("text_html", "") for s in g["slides"]})
+        _dump(base / "comments" / f"{g['month']}.json", out["comments"].get(g["month"], []))
+        slides = [{k: v for k, v in s.items() if k != "text_html"} for s in g["slides"]]
+        galleries.append({**g, "slides": slides, "comment_count": len(out["comments"].get(g["month"], []))})
+    stats = dict(out["stats"])
+    _dump(base / "games_per_month.json", stats.pop("games_per_month"))  # only needed by one tab
+    _dump(base / "index.json", {
+        "last_updated": now,
+        "galleries": galleries,
+        "games": out["games"],
+        "user_aliases": out["user_aliases"],
+        "stats": stats,
+    })
+
+
+def load_raw(base: Path) -> list[dict]:
+    """Inverse of save_outputs: raw galleries (derived fields stripped) for re-building."""
+    index_path = base / "index.json"
+    if not index_path.exists():
+        return []
+    galleries = []
+    for g in json.loads(index_path.read_text())["galleries"]:
+        month = g["month"]
+        texts_path, comments_path = base / "texts" / f"{month}.json", base / "comments" / f"{month}.json"
+        texts = json.loads(texts_path.read_text()) if texts_path.exists() else {}
+        comments = json.loads(comments_path.read_text()) if comments_path.exists() else []
         galleries.append({
-            **g,
-            "slides": [{k: v for k, v in s.items() if k not in derived_slide} for s in g["slides"]],
-            "comments": [{k: v for k, v in c.items() if k not in derived_comment} for c in comments.get(g["month"], [])],
+            **{k: v for k, v in g.items() if k != "comment_count"},
+            "slides": [
+                {**{k: v for k, v in s.items() if k not in _DERIVED_SLIDE}, "text_html": texts.get(s["id"], "")}
+                for s in g["slides"]
+            ],
+            "comments": [{k: v for k, v in c.items() if k not in _DERIVED_COMMENT} for c in comments],
         })
     return galleries
 
 
 def run(backfill: bool = False, cache_dir: Path | None = None, refresh_latest: int = 2) -> None:
-    galleries = {g["url"]: g for g in _load_raw(DATA_PATH, COMMENTS_PATH)}
+    galleries = {g["url"]: g for g in load_raw(DATA_DIR)}
     print(f"Loaded {len(galleries)} existing galleries.", flush=True)
 
     urls = discover_galleries(set(galleries), backfill)
@@ -531,17 +565,9 @@ def run(backfill: bool = False, cache_dir: Path | None = None, refresh_latest: i
     if out["user_aliases"]:
         print(f"  user renames: {out['user_aliases']}", flush=True)
 
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    DATA_PATH.write_text(json.dumps({
-        "last_updated": now,
-        "galleries": out["galleries"],
-        "games": out["games"],
-        "user_aliases": out["user_aliases"],
-        "stats": out["stats"],
-    }, ensure_ascii=False, indent=1))
-    COMMENTS_PATH.write_text(json.dumps(out["comments"], ensure_ascii=False, indent=1))
+    save_outputs(out, DATA_DIR, now=datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
     n_slides = sum(len(g["slides"]) for g in out["galleries"])
-    print(f"Saved {len(out['galleries'])} galleries / {n_slides} slides to {DATA_PATH}", flush=True)
+    print(f"Saved {len(out['galleries'])} galleries / {n_slides} slides to {DATA_DIR}/", flush=True)
 
 
 def main() -> None:

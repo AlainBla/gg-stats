@@ -11,6 +11,8 @@ from scrape_du import (
     build_title_matcher,
     match_games,
     build,
+    save_outputs,
+    load_raw,
 )
 
 
@@ -262,3 +264,28 @@ def test_build_applies_renames_previous_mentions_and_stats():
     assert out["stats"]["systems_per_month"]["2026-09"] == {"PlayStation 5": 1, "Switch": 1}
     assert out["stats"]["systems_per_user"]["Sheerluck"] == {"2025-01": {"PC": 1}, "2026-09": {"Switch": 1}}
     assert out["user_aliases"] == {"StefanH": "Sheerluck"}
+
+
+def test_save_outputs_splits_texts_and_comments_and_load_raw_roundtrips(tmp_path):
+    galleries = [
+        _gallery("2025-01", slides=[("Mario", "Tunic", ["PC"])], comments=[(7, "Bob", "Tunic!")]),
+        _gallery("2025-02", slides=[("Sokar", "Hades", ["Switch"])]),
+    ]
+    galleries[0]["slides"][0]["text_html"] = "<div>Langer Text</div>"
+    out = build(galleries, overrides={})
+
+    save_outputs(out, tmp_path, now="2026-10-03T00:00:00Z")
+
+    import json
+    index = json.loads((tmp_path / "index.json").read_text())
+    assert "text_html" not in index["galleries"][0]["slides"][0]
+    assert index["galleries"][0]["slides"][0]["previous"] == []
+    assert "games_per_month" not in index["stats"]
+    assert json.loads((tmp_path / "games_per_month.json").read_text())["2025-01"][0]["key"] == "tunic"
+    assert json.loads((tmp_path / "texts" / "2025-01.json").read_text()) == {
+        galleries[0]["slides"][0]["id"]: "<div>Langer Text</div>"
+    }
+    assert json.loads((tmp_path / "comments" / "2025-01.json").read_text())[0]["games"] == ["tunic"]
+    assert json.loads((tmp_path / "comments" / "2025-02.json").read_text()) == []
+
+    assert load_raw(tmp_path) == sorted(galleries, key=lambda g: g["month"])
