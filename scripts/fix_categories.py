@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Apply overrides from data/overrides.json to vorfreude.json and recompute item_stats.
+"""Apply overrides from data/overrides.json to vorfreude.json, recompute item_stats
+and regenerate vorfreude.csv.
 
 overrides.json schema:
   aliases:    { canonical_title: [variant, ...] }  — merge variants into canonical
@@ -17,7 +18,10 @@ import json
 import re
 from pathlib import Path
 
+from scrape_vorfreude import _save_csv
+
 DATA_FILE      = Path("data/vorfreude.json")
+CSV_FILE       = Path("data/vorfreude.csv")
 OVERRIDES_FILE = Path("data/overrides.json")
 
 # Matches separator variants: " - ", " – ", " -<NBSP>", " –<NBSP>", ": "
@@ -180,6 +184,7 @@ def main():
             print(f"  {entry['month']}: recomputed item_stats")
 
     DATA_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2))
+    _save_csv(CSV_FILE, data)
     print(f"Done. {months_changed} month(s) updated.")
 
 

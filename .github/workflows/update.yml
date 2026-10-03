@@ -31,6 +31,9 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python scripts/scrape_vorfreude.py --enrich
 
+      - name: Apply Vorfreude-Radar overrides
+        run: python scripts/fix_categories.py
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
