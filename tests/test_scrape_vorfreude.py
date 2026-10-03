@@ -517,8 +517,9 @@ def test_scrape_article_does_reenrich_when_count_unchanged_but_user_items_empty(
 
 
 def test_scrape_article_preserves_user_items_when_count_changed(monkeypatch):
-    """When comment_count changes but user_items exist, keep them (may be hand-curated)
-    instead of re-enriching; comments_raw is still refreshed."""
+    """When comment_count changes but there are no stored comments_raw to diff against,
+    keep user_items as-is (may be hand-curated) instead of re-enriching everything;
+    comments_raw is still refreshed."""
     existing_user_items = [{"username": "alice", "items": [{"title": "My Game", "category": "game"}]}]
     existing_entry = _make_existing_entry(comment_count=3, user_items=existing_user_items)
 
@@ -555,6 +556,75 @@ def test_scrape_article_preserves_user_items_when_count_changed(monkeypatch):
     assert entry["user_items"] == existing_user_items
     assert entry["comments_raw"] == fresh_comments
     assert entry["comment_count"] == 5
+
+
+def _run_scrape_with_new_comments(monkeypatch, existing_entry, fresh_comments, enrich_result):
+    """Run _scrape_article against an article whose comment count went up; return (entry, enrich calls)."""
+    import scrape_vorfreude
+
+    enrich_calls = []
+
+    def _fake_enrich_comments(comments, editors, api_key, model=None):
+        enrich_calls.append(comments)
+        return enrich_result
+
+    monkeypatch.setattr(scrape_vorfreude, "fetch_html", lambda url: _FakeHTML.ARTICLE)
+    monkeypatch.setattr(scrape_vorfreude, "_count_comments_in_html", lambda html: len(fresh_comments))
+    monkeypatch.setattr(scrape_vorfreude, "parse_comments", lambda html: fresh_comments)
+    monkeypatch.setattr(scrape_vorfreude, "enrich_comments", _fake_enrich_comments)
+
+    entry = _scrape_article(url="/news/99999/x", existing_entry=existing_entry, enrich=True, api_key="fake-key")
+    return entry, enrich_calls
+
+
+def test_scrape_article_enriches_only_new_comments_and_appends_new_user(monkeypatch):
+    """New comments are enriched on their own; their items are appended, existing ones untouched."""
+    alice = {"username": "alice", "text": "Ich freue mich sehr auf My Game diesen Monat!"}
+    bob = {"username": "bob", "text": "Bei mir steht Other Game ganz oben auf der Liste."}
+    existing_user_items = [{"username": "alice", "items": [{"title": "My Game (fixed)", "category": "game"}]}]
+    existing_entry = _make_existing_entry(comment_count=1, user_items=existing_user_items)
+    existing_entry["comments_raw"] = [alice]
+
+    entry, enrich_calls = _run_scrape_with_new_comments(
+        monkeypatch,
+        existing_entry,
+        fresh_comments=[alice, bob],
+        enrich_result=[{"username": "bob", "items": [{"title": "Other Game", "category": "game"}]}],
+    )
+
+    assert enrich_calls == [[bob]]
+    assert entry["user_items"] == [
+        {"username": "alice", "items": [{"title": "My Game (fixed)", "category": "game"}]},
+        {"username": "bob", "items": [{"title": "Other Game", "category": "game"}]},
+    ]
+    assert "Other Game" in entry["item_stats"]
+
+
+def test_scrape_article_merges_new_items_into_existing_user(monkeypatch):
+    """A second comment by an existing user adds only titles that user doesn't have yet."""
+    first = {"username": "alice", "text": "Ich freue mich sehr auf My Game diesen Monat!"}
+    second = {"username": "alice", "text": "Nachtrag: my game und Third Game natürlich auch."}
+    existing_user_items = [{"username": "alice", "items": [{"title": "My Game", "category": "game"}]}]
+    existing_entry = _make_existing_entry(comment_count=1, user_items=existing_user_items)
+    existing_entry["comments_raw"] = [first]
+
+    entry, enrich_calls = _run_scrape_with_new_comments(
+        monkeypatch,
+        existing_entry,
+        fresh_comments=[first, second],
+        enrich_result=[{"username": "alice", "items": [
+            {"title": "my game", "category": "misc"},
+            {"title": "Third Game", "category": "game"},
+        ]}],
+    )
+
+    assert enrich_calls == [[second]]
+    assert entry["user_items"] == [{"username": "alice", "items": [
+        {"title": "My Game", "category": "game"},
+        {"title": "Third Game", "category": "game"},
+    ]}]
+    # existing entry must not be mutated in place
+    assert existing_user_items == [{"username": "alice", "items": [{"title": "My Game", "category": "game"}]}]
 
 
 # ---------------------------------------------------------------------------

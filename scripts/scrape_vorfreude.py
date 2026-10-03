@@ -556,6 +556,28 @@ def _save_csv(path: Path, data: list[dict]) -> None:
 # Main scraping logic
 # ---------------------------------------------------------------------------
 
+def _merge_user_items(existing: list[dict], new: list[dict]) -> list[dict]:
+    """Append *new* user items to *existing* without modifying existing items.
+
+    Users not yet present are appended; for known users only titles they don't
+    already have (case-insensitive) are added. Returns a new list.
+    """
+    merged = [{**u, "items": list(u.get("items", []))} for u in existing]
+    by_user = {u["username"]: u for u in merged}
+    for u in new:
+        target = by_user.get(u["username"])
+        if target is None:
+            target = {"username": u["username"], "items": []}
+            merged.append(target)
+            by_user[u["username"]] = target
+        have = {i["title"].casefold() for i in target["items"]}
+        for item in u.get("items", []):
+            if item["title"].casefold() not in have:
+                target["items"].append(item)
+                have.add(item["title"].casefold())
+    return merged
+
+
 def _scrape_article(
     url: str,
     existing_entry: dict | None,
@@ -580,22 +602,31 @@ def _scrape_article(
         editors = parsed["editors"]
         print(f"    parsed {len(editors)} editors, {comment_count} comments", flush=True)
 
-    # Always preserve manually entered user_items — never wipe them on comment count changes
+    # Always preserve existing user_items (may be hand-curated) — never wipe them on comment count changes
     # comments_raw always uses the freshly parsed version so new comments are captured
     user_items = existing_entry.get("user_items", []) if existing_entry else []
     if user_items:
         reuse_user_items = True
 
-    # LLM enrichment — skip when comment count is unchanged and user_items already exist
+    # LLM enrichment — full run when there are no user_items yet; otherwise only enrich
+    # comments not seen before and merge their items in
     if enrich and comments_raw and not reuse_user_items:
         print(f"    enriching {len(comments_raw)} user comments …", flush=True)
         user_items = enrich_comments(comments_raw, editors, api_key, model)
         print(f"    extracted items from {len(user_items)} users", flush=True)
     elif enrich and reuse_user_items:
-        print(
-            f"    skipping enrichment — comment count unchanged and user_items already populated",
-            flush=True,
-        )
+        seen_raw = existing_entry.get("comments_raw") or []
+        seen = {(c.get("username"), c.get("text")) for c in seen_raw}
+        new_comments = [c for c in comments_raw if (c.get("username"), c.get("text")) not in seen]
+        if not seen_raw:
+            print("    skipping enrichment — user_items populated but no stored comments to diff against", flush=True)
+        elif not new_comments:
+            print("    skipping enrichment — no new comments", flush=True)
+        else:
+            print(f"    enriching {len(new_comments)} new user comments …", flush=True)
+            new_items = enrich_comments(new_comments, editors, api_key, model)
+            user_items = _merge_user_items(user_items, new_items)
+            print(f"    merged items from {len(new_items)} users", flush=True)
 
     item_stats = compute_stats(editors, user_items)
 
