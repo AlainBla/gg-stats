@@ -135,6 +135,28 @@ def apply_aliases(entry, alias_map):
     return changed
 
 
+def dedupe_items(entry):
+    """Drop repeated titles (case-insensitive) within each editor/user, keeping the first.
+
+    Renames (aliases, Staffel stripping) can turn two distinct titles into the same one,
+    e.g. when an edited comment is re-extracted with a typo that an alias already fixed.
+    Returns True if changed.
+    """
+    changed = False
+    for src in [*entry.get("editors", []), *entry.get("user_items", [])]:
+        seen = set()
+        kept = []
+        for item in src["items"]:
+            key = item["title"].casefold()
+            if key not in seen:
+                seen.add(key)
+                kept.append(item)
+        if len(kept) != len(src["items"]):
+            src["items"] = kept
+            changed = True
+    return changed
+
+
 def apply_categories(entry, cat_fixes):
     """Fix category for named titles in editors + user_items. Returns True if changed."""
     changed = False
@@ -177,6 +199,7 @@ def main():
         changed  = strip_trailing_commas(entry)
         changed |= apply_aliases(entry, alias_map)
         changed |= strip_staffel_parens(entry)
+        changed |= dedupe_items(entry)
         changed |= apply_categories(entry, cat_fixes)
         if changed:
             entry["item_stats"] = compute_stats(entry["editors"], entry.get("user_items", []))
