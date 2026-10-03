@@ -379,6 +379,7 @@ def build(galleries: list[dict], overrides: dict) -> dict:
     for g in out_galleries:
         for s in g["slides"]:
             s["previous"] = [sid for (m, sid) in slides_by_key[s["game_key"]] if m < g["month"]]
+            s["same_month"] = [o["id"] for o in g["slides"] if o["game_key"] == s["game_key"] and o["id"] != s["id"]]
         for s in g["slides"]:
             slides_by_key[s["game_key"]].append((g["month"], s["id"]))
 
@@ -482,7 +483,7 @@ def _load_raw(data_path: Path, comments_path: Path) -> list[dict]:
         return []
     data = json.loads(data_path.read_text())
     comments = json.loads(comments_path.read_text()) if comments_path.exists() else {}
-    derived_slide = {"user", "game_key", "previous"}
+    derived_slide = {"user", "game_key", "previous", "same_month"}
     derived_comment = {"user", "games"}
     galleries = []
     for g in data["galleries"]:
