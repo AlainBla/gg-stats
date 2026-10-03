@@ -516,12 +516,14 @@ def test_scrape_article_does_reenrich_when_count_unchanged_but_user_items_empty(
     assert enrich_called == [True], "enrich_comments should have been called when user_items was empty"
 
 
-def test_scrape_article_does_reenrich_when_count_changed(monkeypatch):
-    """F1: When comment_count increases, enrich SHOULD run even if user_items exist."""
+def test_scrape_article_preserves_user_items_when_count_changed(monkeypatch):
+    """When comment_count changes but user_items exist, keep them (may be hand-curated)
+    instead of re-enriching; comments_raw is still refreshed."""
     existing_user_items = [{"username": "alice", "items": [{"title": "My Game", "category": "game"}]}]
     existing_entry = _make_existing_entry(comment_count=3, user_items=existing_user_items)
 
     enrich_called = []
+    fresh_comments = [{"username": "alice", "text": "I love My Game!"}, {"username": "bob", "text": "Me too!"}]
 
     def _fake_fetch_html(url):
         return _FakeHTML.ARTICLE
@@ -530,11 +532,11 @@ def test_scrape_article_does_reenrich_when_count_changed(monkeypatch):
         return 5  # changed from 3 → 5
 
     def _fake_parse_comments(html):
-        return [{"username": "alice", "text": "I love My Game!"}, {"username": "bob", "text": "Me too!"}]
+        return fresh_comments
 
     def _fake_enrich_comments(comments, editors, api_key, model=None):
         enrich_called.append(True)
-        return [{"username": "alice", "items": [{"title": "My Game", "category": "game"}]}]
+        return []
 
     import scrape_vorfreude
     monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch_html)
@@ -542,14 +544,17 @@ def test_scrape_article_does_reenrich_when_count_changed(monkeypatch):
     monkeypatch.setattr(scrape_vorfreude, "parse_comments", _fake_parse_comments)
     monkeypatch.setattr(scrape_vorfreude, "enrich_comments", _fake_enrich_comments)
 
-    _scrape_article(
+    entry = _scrape_article(
         url="/news/99999/x",
         existing_entry=existing_entry,
         enrich=True,
         api_key="fake-key",
     )
 
-    assert enrich_called == [True], "enrich_comments should run when comment_count changed"
+    assert enrich_called == [], "enrich_comments must not overwrite existing user_items"
+    assert entry["user_items"] == existing_user_items
+    assert entry["comments_raw"] == fresh_comments
+    assert entry["comment_count"] == 5
 
 
 # ---------------------------------------------------------------------------
@@ -606,20 +611,38 @@ SITEMAP_HTML_WITH_FALSE_POSITIVES = """<?xml version="1.0" encoding="UTF-8"?>
 """
 
 
+def _fake_fetch_for(sitemap: str, homepage: str = "<html></html>"):
+    """fetch_html fake: *homepage* for "/", *sitemap* for the first news sitemap, empty otherwise."""
+    def _fake_fetch(url):
+        if url == "/":
+            return homepage
+        if url.endswith("sitemap_news0.xml"):
+            return sitemap
+        return "<urlset></urlset>"
+    return _fake_fetch
+
+
+def test_discover_articles_finds_homepage_link_before_sitemap(monkeypatch):
+    """discover_articles picks up the current article from the homepage even if sitemaps lag."""
+    import scrape_vorfreude
+
+    homepage = '<a href="/news/352892/darauf-freut-sich-die-redaktion-im-oktober-2026#comments">x</a>'
+    monkeypatch.setattr(
+        scrape_vorfreude, "fetch_html", _fake_fetch_for("<urlset></urlset>", homepage=homepage)
+    )
+
+    result = discover_articles(set(), backfill=False)
+
+    assert result == [
+        {"month": "2026-10", "url": "/news/352892/darauf-freut-sich-die-redaktion-im-oktober-2026"}
+    ]
+
+
 def test_discover_articles_finds_modern_format_urls(monkeypatch):
     """discover_articles extracts month/url correctly from modern -im-{month}-{year} URLs."""
     import scrape_vorfreude
 
-    call_count = [0]
-
-    def _fake_fetch(url):
-        call_count[0] += 1
-        # Return first sitemap for first call, empty for second
-        if call_count[0] == 1:
-            return SITEMAP_HTML_MODERN
-        return "<urlset></urlset>"
-
-    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch)
+    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch_for(SITEMAP_HTML_MODERN))
 
     result = discover_articles(set(), backfill=False)
 
@@ -634,15 +657,7 @@ def test_discover_articles_correct_url_paths(monkeypatch):
     """discover_articles stores relative URL paths (not full absolute URLs)."""
     import scrape_vorfreude
 
-    call_count = [0]
-
-    def _fake_fetch(url):
-        call_count[0] += 1
-        if call_count[0] == 1:
-            return SITEMAP_HTML_MODERN
-        return "<urlset></urlset>"
-
-    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch)
+    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch_for(SITEMAP_HTML_MODERN))
 
     result = discover_articles(set(), backfill=False)
 
@@ -658,15 +673,7 @@ def test_discover_articles_filters_false_positives(monkeypatch):
     """discover_articles excludes press-release and special articles with 'darauf' in slug."""
     import scrape_vorfreude
 
-    call_count = [0]
-
-    def _fake_fetch(url):
-        call_count[0] += 1
-        if call_count[0] == 1:
-            return SITEMAP_HTML_WITH_FALSE_POSITIVES
-        return "<urlset></urlset>"
-
-    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch)
+    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch_for(SITEMAP_HTML_WITH_FALSE_POSITIVES))
 
     result = discover_articles(set(), backfill=False)
 
@@ -687,15 +694,7 @@ def test_discover_articles_excludes_existing_months(monkeypatch):
     """discover_articles filters out months already in existing_months."""
     import scrape_vorfreude
 
-    call_count = [0]
-
-    def _fake_fetch(url):
-        call_count[0] += 1
-        if call_count[0] == 1:
-            return SITEMAP_HTML_MODERN
-        return "<urlset></urlset>"
-
-    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch)
+    monkeypatch.setattr(scrape_vorfreude, "fetch_html", _fake_fetch_for(SITEMAP_HTML_MODERN))
 
     existing = {"2026-05", "2026-04"}
     result = discover_articles(existing, backfill=False)
