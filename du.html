@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Das spielen unsere User</title>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <link rel="preload" href="data/du/index.json" as="fetch" crossorigin>
   <style>
     :root {
       --surface-0: #111;
@@ -16,7 +16,7 @@
       --text-muted: #777;
       --accent: #4fc3f7;
       --highlight: #2b3a42;
-      /* categorical slots (validated, dark surface) */
+      /* categorical slots in validated order (dark surface) */
       --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70; --series-4: #c98500;
       --series-5: #d55181; --series-6: #008300; --series-7: #9085e9; --series-8: #e66767;
       --series-other: #6b6b66;
@@ -28,39 +28,53 @@
     .sub { color: var(--text-secondary); font-size: .85rem; margin: 0 0 1.25rem; }
     .back { font-size: .85rem; color: var(--text-secondary); text-decoration: none; }
     .tabs { display: flex; gap: .5rem; flex-wrap: wrap; margin: 1rem 0 1.25rem; }
-    .tabs button, .btn { background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--border); border-radius: 6px; padding: .45rem .9rem; cursor: pointer; font: inherit; font-size: .9rem; }
-    .tabs button[aria-selected="true"] { border-color: var(--accent); color: var(--accent); }
+    .tabs button, .btn, .seg button { background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--border); border-radius: 6px; padding: .45rem .9rem; cursor: pointer; font: inherit; font-size: .9rem; }
+    .tabs button[aria-selected="true"], .seg button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
     .btn:disabled { opacity: .4; cursor: default; }
+    .btn.small { padding: .2rem .6rem; font-size: .8rem; }
+    .seg { display: inline-flex; gap: .25rem; }
     select, input[type="search"] { background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--border); border-radius: 6px; padding: .4rem .6rem; font: inherit; font-size: .9rem; max-width: 100%; }
     .controls { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; margin-bottom: 1rem; }
-    .panel[hidden] { display: none; }
-    .month-head { display: flex; gap: 1rem; align-items: baseline; flex-wrap: wrap; margin: .5rem 0 1rem; }
-    .month-head h2 { font-size: 1.05rem; margin: 0; }
+    .panel[hidden], .view[hidden] { display: none; }
+    .head { display: flex; gap: 1rem; align-items: baseline; flex-wrap: wrap; margin: .5rem 0 1rem; }
+    .head h2 { font-size: 1.05rem; margin: 0; }
     .muted { color: var(--text-muted); font-size: .85rem; }
 
-    .entries { display: grid; gap: 1.25rem; max-width: 980px; }
-    .entry { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; scroll-margin-top: 1rem; }
-    .entry.flash { border-color: var(--accent); background: var(--highlight); }
-    .entry img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; background: var(--surface-2); }
-    .entry .body { padding: 1rem 1.25rem; }
-    .entry h3 { font-size: 1rem; margin: 0 0 .5rem; }
-    .entry h3 .sys { color: var(--text-secondary); font-weight: normal; }
-    .entry .guess { color: var(--text-muted); font-size: .75rem; }
-    .entry .text { font-size: .9rem; line-height: 1.55; color: #ddd; }
-    .entry .text div:empty { display: none; }
-    .entry .links { font-size: .8rem; margin-top: .75rem; }
-    .prev + .prev { border-top-style: dashed; }
-    .prev { border-top: 1px solid var(--border); padding: .75rem 1.25rem; font-size: .82rem; background: var(--surface-2); }
-    .prev b { color: var(--text-secondary); font-weight: 600; margin-right: .25rem; }
-    .chip { display: inline-flex; gap: .3rem; align-items: baseline; border: 1px solid var(--border); border-radius: 999px; padding: .1rem .6rem; margin: .2rem .25rem .2rem 0; background: var(--surface-1); white-space: nowrap; }
+    /* compact rows */
+    .rows { display: grid; gap: .5rem; max-width: 1000px; }
+    .row { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; scroll-margin-top: 1rem; }
+    .row.flash { border-color: var(--accent); background: var(--highlight); }
+    .row-head { display: flex; gap: .75rem; align-items: flex-start; padding: .6rem .9rem; }
+    .row-main { flex: 1; min-width: 0; }
+    .row-title { font-weight: 600; font-size: .95rem; }
+    .row-title a { color: inherit; text-decoration: none; }
+    .row-title a:hover { text-decoration: underline; }
+    .row-title .who { color: var(--text-secondary); font-weight: normal; }
+    .row-title .sys { color: var(--text-secondary); font-weight: normal; font-size: .85rem; }
+    .guess { color: var(--text-muted); font-size: .75rem; font-weight: normal; }
+    .seen { font-size: .8rem; margin-top: .25rem; color: var(--text-secondary); }
+    .seen b { font-weight: 600; margin-right: .2rem; }
+    .chip { display: inline-flex; gap: .3rem; align-items: baseline; border: 1px solid var(--border); border-radius: 999px; padding: .05rem .55rem; margin: .15rem .2rem .15rem 0; background: var(--surface-2); white-space: nowrap; font-size: .78rem; }
     .chip a { text-decoration: none; }
     .chip .orig { color: var(--text-muted); }
+    .chip.same { border-style: dashed; }
+    .toggle { flex: none; }
 
-    details.comments { max-width: 980px; margin-top: 1.5rem; background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: .75rem 1.25rem; }
+    .article { border-top: 1px solid var(--border); }
+    .article img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; background: var(--surface-2); }
+    .article .body { padding: 1rem 1.25rem; }
+    .article .text { font-size: .9rem; line-height: 1.55; color: #ddd; }
+    .article .text div:empty { display: none; }
+    .article .links { font-size: .8rem; margin-top: .75rem; }
+    .article .label { font-size: .8rem; color: var(--text-secondary); padding: .6rem 1.25rem 0; }
+
+    .pager { display: flex; gap: .5rem; align-items: center; margin: 1rem 0; flex-wrap: wrap; }
+
+    details.comments { max-width: 1000px; margin-top: 1.5rem; background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: .75rem 1.25rem; }
     details.comments summary { cursor: pointer; font-weight: 600; }
     .comment { border-top: 1px solid var(--border); padding: .6rem 0; font-size: .88rem; line-height: 1.5; }
     .comment:first-of-type { border-top: 0; }
-    .comment .who { color: var(--text-secondary); font-size: .8rem; }
+    .comment .by { color: var(--text-secondary); font-size: .8rem; }
     .comment .games { margin-top: .25rem; }
     .comment .games span { font-size: .75rem; color: var(--text-secondary); border: 1px solid var(--border); border-radius: 999px; padding: 0 .5rem; margin-right: .25rem; }
 
@@ -71,17 +85,21 @@
     td.bar { width: 30%; }
     .bar span { display: block; height: 8px; border-radius: 0 4px 4px 0; background: var(--series-1); }
 
-    .chart-card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; max-width: 1100px; }
-    .chart-wrap { position: relative; height: 420px; }
+    .chart-card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; max-width: 1200px; }
+    .chart-wrap { position: relative; height: 440px; }
     .chart-card h2 { font-size: 1rem; margin: 0 0 .25rem; }
+    .legend { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: .4rem 1rem; margin-top: .9rem; font-size: .8rem; }
+    .legend .fam { color: var(--text-secondary); font-weight: 600; margin-right: .2rem; }
+    .legend button { background: none; border: 0; color: var(--text-primary); font: inherit; cursor: pointer; padding: .1rem .2rem; display: inline-flex; gap: .3rem; align-items: center; }
+    .legend button.off { opacity: .35; text-decoration: line-through; }
+    .legend i { width: 11px; height: 11px; border-radius: 2px; display: inline-block; }
     details.table-view { margin-top: 1rem; font-size: .85rem; }
     details.table-view summary { cursor: pointer; color: var(--text-secondary); }
     .table-scroll { overflow-x: auto; }
-    .search-results { max-width: 980px; margin-bottom: 1rem; font-size: .88rem; }
-    .search-results li { margin: .2rem 0; }
     @media (max-width: 600px) {
       body { padding: 1rem; }
-      .chart-wrap { height: 340px; }
+      .chart-wrap { height: 360px; }
+      .row-head { flex-direction: column; }
     }
   </style>
 </head>
@@ -100,25 +118,47 @@
   <!-- Galerie -->
   <section class="panel" id="panel-gallery">
     <div class="controls">
-      <button class="btn" id="prev-month" title="Vorheriger Monat">←</button>
-      <select id="month-select" aria-label="Monat"></select>
-      <button class="btn" id="next-month" title="Nächster Monat">→</button>
-      <input type="search" id="game-search" placeholder="Spiel suchen …" aria-label="Spiel suchen">
+      <div class="seg" role="group" aria-label="Ansicht">
+        <button data-view="issue" aria-pressed="true">Nach Ausgabe</button>
+        <button data-view="games" aria-pressed="false">Nach Spiel</button>
+      </div>
     </div>
-    <ul class="search-results" id="search-results" hidden></ul>
-    <div class="month-head" id="month-head"></div>
-    <div class="entries" id="entries"></div>
-    <details class="comments" id="comments">
-      <summary id="comments-summary">Kommentare</summary>
-      <div id="comments-list"><p class="muted">Lade Kommentare …</p></div>
-    </details>
+
+    <div class="view" id="view-issue">
+      <div class="controls">
+        <button class="btn" id="prev-month" title="Vorherige Ausgabe">←</button>
+        <select id="month-select" aria-label="Ausgabe"></select>
+        <button class="btn" id="next-month" title="Nächste Ausgabe">→</button>
+        <button class="btn" id="expand-all">Alle Artikel aufklappen</button>
+      </div>
+      <div class="head" id="issue-head"></div>
+      <div class="rows" id="issue-rows"></div>
+      <details class="comments" id="comments">
+        <summary id="comments-summary">Kommentare</summary>
+        <div id="comments-list"></div>
+      </details>
+    </div>
+
+    <div class="view" id="view-games" hidden>
+      <div class="controls">
+        <input type="search" id="game-search" placeholder="Spiel suchen …" aria-label="Spiel suchen">
+        <select id="game-sort" aria-label="Sortierung">
+          <option value="count">Meiste DU-Beiträge</option>
+          <option value="recent">Zuletzt vorgestellt</option>
+          <option value="alpha">A–Z</option>
+        </select>
+        <span class="muted" id="games-count"></span>
+      </div>
+      <div class="rows" id="game-rows"></div>
+      <div class="pager" id="game-pager"></div>
+    </div>
   </section>
 
   <!-- Spiele pro Monat -->
   <section class="panel" id="panel-monthly" hidden>
     <div class="controls">
-      <select id="stats-month" aria-label="Monat"></select>
-      <span class="muted">Jeder Nutzer zählt pro Spiel und Monat nur einmal — egal ob DU-Beitrag, Kommentar oder beides.</span>
+      <select id="stats-month" aria-label="Ausgabe"></select>
+      <span class="muted">Jeder User zählt pro Spiel und Monat nur einmal — egal ob DU-Beitrag, Kommentar oder beides.</span>
     </div>
     <div class="table-scroll"><table id="stats-table"></table></div>
   </section>
@@ -130,15 +170,21 @@
         <option value="systems">Einzelne Systeme</option>
         <option value="families">Plattform-Familien</option>
       </select>
+      <select id="sys-period" aria-label="Zeitraum">
+        <option value="year">pro Jahr</option>
+        <option value="quarter">pro Quartal</option>
+        <option value="month">pro Monat</option>
+      </select>
       <select id="sys-mode" aria-label="Darstellung">
         <option value="share">Anteil in %</option>
-        <option value="count">Anzahl Beiträge</option>
+        <option value="count">Anzahl</option>
       </select>
     </div>
     <div class="chart-card">
-      <h2>Systeme aller DU-Beiträge pro Jahr</h2>
+      <h2 id="sys-title">Systeme aller DU-Beiträge</h2>
       <p class="muted" id="sys-note"></p>
-      <div class="chart-wrap"><canvas id="sys-chart" role="img" aria-label="Verlauf der Systeme pro Jahr"></canvas></div>
+      <div class="chart-wrap"><canvas id="sys-chart" role="img" aria-label="Verlauf der Systeme"></canvas></div>
+      <div class="legend" id="sys-legend"></div>
       <details class="table-view"><summary>Als Tabelle</summary><div class="table-scroll"><table id="sys-table"></table></div></details>
     </div>
   </section>
@@ -151,10 +197,16 @@
         <option value="systems">Einzelne Systeme</option>
         <option value="families">Plattform-Familien</option>
       </select>
+      <select id="user-period" aria-label="Zeitraum">
+        <option value="year">pro Jahr</option>
+        <option value="quarter">pro Quartal</option>
+        <option value="month">pro Monat</option>
+      </select>
     </div>
     <div class="chart-card">
-      <h2 id="user-chart-title">Systeme pro Jahr</h2>
-      <div class="chart-wrap"><canvas id="user-chart" role="img" aria-label="Systeme des Users pro Jahr"></canvas></div>
+      <h2 id="user-chart-title">Systeme</h2>
+      <div class="chart-wrap"><canvas id="user-chart" role="img" aria-label="Systeme des Users"></canvas></div>
+      <div class="legend" id="user-legend"></div>
       <details class="table-view"><summary>Als Tabelle</summary><div class="table-scroll"><table id="user-table"></table></div></details>
     </div>
     <h3 style="font-size:1rem;margin:1.5rem 0 .5rem">Alle DU-Beiträge</h3>
@@ -163,32 +215,50 @@
 
   <script>
   const GG = 'https://www.gamersglobal.de';
-  const SLOTS = [1, 2, 3, 4, 5, 6, 7, 8].map(i => getComputedStyle(document.documentElement).getPropertyValue(`--series-${i}`).trim());
-  const OTHER = getComputedStyle(document.documentElement).getPropertyValue('--series-other').trim();
-  const SURFACE = getComputedStyle(document.documentElement).getPropertyValue('--surface-1').trim();
-  const FAMILIES = [
-    ['PC', s => s === 'PC' || s === 'Mac'],
-    ['Linux & Steam Deck', s => s === 'Linux' || s === 'Steam Deck'],
-    ['PlayStation', s => s.startsWith('PlayStation') || s === 'PS Vita' || s === 'PSP'],
-    ['Xbox', s => s.startsWith('Xbox')],
-    ['Nintendo', s => /^(Switch|Wii|GameCube|N64|SNES|NES|Nintendo|Game Boy|Game & Watch|DS|3DS)/.test(s)],
-    ['Mobile', s => s === 'iOS' || s === 'Android'],
-  ];
-  const familyOf = s => (FAMILIES.find(([, f]) => f(s)) || ['Sonstige'])[0];
+  const CHART_JS = 'https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js';
+  const css = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  const SLOT = i => css(`--series-${i}`);
+  const OTHER = css('--series-other');
+  const SURFACE = css('--surface-1');
+  const PAGE_SIZE = 50;
+  const MIN_OWN_SEGMENT = 5;   // systems with fewer entries overall fold into "<Familie> (übrige)"
+  const MAX_OWN_PER_FAMILY = 5; // + one "übrige" step = 6 distinct lightness steps per hue
 
-  let data, galleries, byMonth, slideIndex, keyToSlides, commentsPromise;
-  let currentMonth = null;
+  // Families in validated palette order (adjacent stack pairs pass the CVD checks);
+  // systems inside a family are lightness steps of the family hue.
+  const FAMILIES = [
+    { name: 'PC', slot: 1, test: s => s === 'PC' || s === 'Mac' },
+    { name: 'PlayStation', slot: 2, test: s => s.startsWith('PlayStation') || s === 'PS Vita' || s === 'PSP' },
+    { name: 'Linux & Steam Deck', slot: 3, test: s => s === 'Linux' || s === 'Steam Deck' },
+    { name: 'Nintendo', slot: 4, test: s => /^(Switch|Wii|GameCube|N64|SNES|NES|Nintendo|Game Boy|Game & Watch|DS|3DS)/.test(s) },
+    { name: 'Mobile', slot: 5, test: s => s === 'iOS' || s === 'Android' },
+    { name: 'Xbox', slot: 6, test: s => s.startsWith('Xbox') },
+    { name: 'Retro & Heimcomputer', slot: 7, test: s => /^(C64|Amiga|Atari|Arcade|PC-98|Mega Drive)/.test(s) },
+    { name: 'Cloud-Gaming', slot: 8, test: s => s === 'Cloud-Gaming' },
+  ];
+  const familyOf = s => FAMILIES.find(f => f.test(s));
+
+  let data, galleries, byMonth, slideIndex, keyToSlides;
+  let currentMonth = null, currentView = 'issue';
+  const cache = {};
   const charts = {};
+  let chartJsPromise;
 
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const fmtMonth = m => { const [y, mo] = m.split('-'); return `${+mo}/${y}`; };
   const origUrl = (g, id) => `${GG}${g.url}?h=${id}`;
+  const getJSON = url => (cache[url] ||= fetch(url).then(r => { if (!r.ok) throw new Error(`${url}: ${r.status}`); return r.json(); }));
+  const loadChartJs = () => chartJsPromise ||= new Promise((res, rej) => {
+    const s = document.createElement('script');
+    s.src = CHART_JS; s.onload = res; s.onerror = rej;
+    document.head.appendChild(s);
+  });
 
   async function init() {
     try {
-      data = await fetch('data/du.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+      data = await getJSON('data/du/index.json');
     } catch (e) {
-      document.getElementById('summary').textContent = 'Daten konnten nicht geladen werden (data/du.json).';
+      document.getElementById('summary').textContent = 'Daten konnten nicht geladen werden (data/du/index.json).';
       return;
     }
     galleries = data.galleries.slice().sort((a, b) => a.month.localeCompare(b.month));
@@ -202,14 +272,15 @@
     const nSlides = galleries.reduce((n, g) => n + g.slides.length, 0);
     const users = new Set(galleries.flatMap(g => g.slides.map(s => s.user).filter(Boolean)));
     document.getElementById('summary').textContent =
-      `${galleries.length} Ausgaben (${fmtMonth(galleries[0].month)} – ${fmtMonth(galleries.at(-1).month)}) · ${nSlides} Beiträge · ${users.size} User · Stand ${data.last_updated.slice(0, 10)}`;
+      `${galleries.length} Ausgaben (${fmtMonth(galleries[0].month)} – ${fmtMonth(galleries.at(-1).month)}) · ${nSlides} Beiträge · ${Object.keys(keyToSlides).length} Spiele · ${users.size} User · Stand ${data.last_updated.slice(0, 10)}`;
 
     const monthOpts = galleries.slice().reverse().map(g => `<option value="${g.month}">${esc(g.title)}</option>`).join('');
     document.getElementById('month-select').innerHTML = monthOpts;
     document.getElementById('stats-month').innerHTML = monthOpts;
 
     setupTabs();
-    setupGallery();
+    setupIssueView();
+    setupGamesView();
     setupMonthly();
     setupSystems();
     setupUsers();
@@ -217,70 +288,67 @@
     window.addEventListener('hashchange', route);
   }
 
-  // ---------------------------------------------------------------- tabs
+  // ------------------------------------------------------------------ navigation
   function showTab(name) {
     document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.tab === name));
     document.querySelectorAll('.panel').forEach(p => p.hidden = p.id !== `panel-${name}`);
+    if (name === 'monthly') renderMonthly();
     if (name === 'systems') renderSystems();
     if (name === 'users') renderUser();
   }
+  function showView(view) {
+    currentView = view;
+    document.querySelectorAll('.seg button[data-view]').forEach(b => b.setAttribute('aria-pressed', b.dataset.view === view));
+    document.getElementById('view-issue').hidden = view !== 'issue';
+    document.getElementById('view-games').hidden = view !== 'games';
+    if (view === 'games') renderGames();
+  }
   function setupTabs() {
     document.querySelectorAll('.tabs button').forEach(b => b.addEventListener('click', () => {
-      showTab(b.dataset.tab);
-      if (b.dataset.tab === 'gallery' && currentMonth) history.replaceState(null, '', `#m-${currentMonth}`);
-      else if (b.dataset.tab !== 'gallery') history.replaceState(null, '', `#${b.dataset.tab}`);
+      if (b.dataset.tab === 'gallery') location.hash = currentView === 'games' ? 'spiele' : `m-${currentMonth || galleries.at(-1).month}`;
+      else location.hash = b.dataset.tab;
+    }));
+    document.querySelectorAll('.seg button[data-view]').forEach(b => b.addEventListener('click', () => {
+      location.hash = b.dataset.view === 'games' ? 'spiele' : `m-${currentMonth || galleries.at(-1).month}`;
     }));
   }
 
-  function route() {
+  async function route() {
     const h = decodeURIComponent(location.hash.slice(1));
     if (h.startsWith('slide-') && slideIndex[h]) {
-      showTab('gallery');
-      renderMonth(slideIndex[h].g.month);
-      const el = document.getElementById(h);
-      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      document.querySelectorAll('.entry.flash').forEach(e => e.classList.remove('flash'));
-      el.classList.add('flash');
+      showTab('gallery'); showView('issue');
+      renderIssue(slideIndex[h].g.month);
+      const row = document.getElementById(h);
+      await expandRow(row, true);
+      document.querySelectorAll('.row.flash').forEach(e => e.classList.remove('flash'));
+      row.classList.add('flash');
+      row.scrollIntoView({ block: 'start' });
       return;
     }
-    if (h.startsWith('m-') && byMonth[h.slice(2)]) { showTab('gallery'); renderMonth(h.slice(2)); return; }
-    if (['monthly', 'systems', 'users'].includes(h)) { showTab(h); if (!currentMonth) renderMonth(galleries.at(-1).month); return; }
-    showTab('gallery');
-    renderMonth(galleries.at(-1).month);
+    if (h.startsWith('m-') && byMonth[h.slice(2)]) { showTab('gallery'); showView('issue'); renderIssue(h.slice(2)); return; }
+    if (h === 'spiele' || h.startsWith('spiel=')) {
+      showTab('gallery'); showView('games');
+      if (h.startsWith('spiel=')) {
+        const key = h.slice(6);
+        document.getElementById('game-search').value = data.games[key] || key;
+        gamesPage = 0; renderGames(key);
+      }
+      return;
+    }
+    if (['monthly', 'systems', 'users'].includes(h)) { showTab(h); return; }
+    showTab('gallery'); showView('issue');
+    renderIssue(galleries.at(-1).month);
   }
 
-  // ---------------------------------------------------------------- gallery
-  function setupGallery() {
-    const sel = document.getElementById('month-select');
-    sel.addEventListener('change', () => { location.hash = `m-${sel.value}`; });
-    const step = d => {
-      const i = galleries.findIndex(g => g.month === currentMonth) + d;
-      if (galleries[i]) location.hash = `m-${galleries[i].month}`;
-    };
-    document.getElementById('prev-month').addEventListener('click', () => step(-1));
-    document.getElementById('next-month').addEventListener('click', () => step(1));
-    document.getElementById('comments').addEventListener('toggle', e => { if (e.target.open) renderComments(); });
-
-    const input = document.getElementById('game-search');
-    const results = document.getElementById('search-results');
-    input.addEventListener('input', () => {
-      const q = input.value.trim().toLowerCase();
-      if (q.length < 2) { results.hidden = true; return; }
-      const hits = [];
-      for (const g of galleries) for (const s of g.slides) if (s.game.toLowerCase().includes(q)) hits.push({ g, s });
-      results.hidden = false;
-      results.innerHTML = hits.length
-        ? hits.slice(-60).reverse().map(({ g, s }) => `<li><a href="#${s.id}">${esc(s.game)}</a> <span class="muted">— ${esc(s.user || '?')}, DU ${fmtMonth(g.month)}</span></li>`).join('')
-          + (hits.length > 60 ? `<li class="muted">… ${hits.length - 60} weitere</li>` : '')
-        : '<li class="muted">Keine Treffer</li>';
-    });
+  // ------------------------------------------------------------------ shared pieces
+  function chip(id, cls = '') {
+    const p = slideIndex[id];
+    return `<span class="chip ${cls}"><a href="#${id}" title="${esc(p.s.game)} — ${esc(p.s.user || '?')}">DU ${fmtMonth(p.g.month)} · ${esc(p.s.user || '?')}</a><a class="orig" href="${origUrl(p.g, id)}" target="_blank" rel="noopener" title="Original auf GamersGlobal">↗</a></span>`;
   }
-
   function systemsLabel(s) {
     if (!s.systems.length) return '';
     return ` <span class="sys">(${esc(s.systems.join(', '))})</span>` + (s.system_source === 'text' ? ' <span class="guess" title="Nicht im Titel angegeben, aus dem Text ermittelt">· System geraten</span>' : '');
   }
-
   function rewriteTextLinks(html) {
     const tpl = document.createElement('template');
     tpl.innerHTML = html;
@@ -291,8 +359,77 @@
     });
     return tpl.innerHTML;
   }
+  const loadTexts = month => getJSON(`data/du/texts/${month}.json`);
 
-  function renderMonth(month) {
+  // Row = compact line (who, game, system, where else) + collapsible article
+  function rowHtml(s, g, { showIssue = false, showSeen = true, withId = true } = {}) {
+    const same = (s.same_month || []).map(id => chip(id, 'same')).join('');
+    const prev = s.previous.map(id => chip(id)).join('');
+    const later = showSeen ? (keyToSlides[s.game_key] || []).filter(id => slideIndex[id].g.month > g.month).map(id => chip(id)).join('') : '';
+    const seen = showSeen ? [
+      same && `<div><b>Ebenfalls in dieser Ausgabe:</b>${same}</div>`,
+      prev && `<div><b>Früher (${s.previous.length}):</b>${prev}</div>`,
+      later && `<div><b>Später:</b>${later}</div>`,
+    ].filter(Boolean).join('') : '';
+    return `<div class="row"${withId ? ` id="${s.id}"` : ''} data-slide="${s.id}">
+      <div class="row-head">
+        <div class="row-main">
+          <div class="row-title">${showIssue ? `<span class="who">DU ${fmtMonth(g.month)} · </span>` : ''}<span class="who">${esc(s.user || '?')}:</span> <a href="#spiel=${encodeURIComponent(s.game_key)}" title="Alle Beiträge zu diesem Spiel">${esc(s.game)}</a>${systemsLabel(s)}</div>
+          ${seen ? `<div class="seen">${seen}</div>` : ''}
+        </div>
+        <button class="btn small toggle" data-toggle aria-expanded="false">Artikel ▾</button>
+      </div>
+    </div>`;
+  }
+  async function expandRow(row, open) {
+    const btn = row.querySelector('[data-toggle]');
+    let art = row.querySelector('.article');
+    if (!open) { if (art) art.hidden = true; btn.setAttribute('aria-expanded', 'false'); btn.textContent = 'Artikel ▾'; return; }
+    btn.setAttribute('aria-expanded', 'true'); btn.textContent = 'Artikel ▴';
+    if (art) { art.hidden = false; return; }
+    const { g, s } = slideIndex[row.dataset.slide];
+    art = document.createElement('div');
+    art.className = 'article';
+    art.innerHTML = '<div class="body muted">Lade Artikel …</div>';
+    row.appendChild(art);
+    const texts = await loadTexts(g.month);
+    art.innerHTML = `${s.image ? `<img src="${esc(s.image)}" alt="${esc(s.game)}" loading="lazy">` : ''}
+      <div class="body">
+        <div class="text">${rewriteTextLinks(texts[s.id] || '')}</div>
+        <div class="links"><a href="${origUrl(g, s.id)}" target="_blank" rel="noopener">Beitrag auf GamersGlobal ↗</a> · <a href="#${s.id}">Link hierher</a></div>
+      </div>`;
+  }
+  function wireRows(container) {
+    container.addEventListener('click', e => {
+      const btn = e.target.closest('[data-toggle]');
+      if (!btn) return;
+      const row = btn.closest('.row');
+      expandRow(row, btn.getAttribute('aria-expanded') !== 'true');
+    });
+  }
+
+  // ------------------------------------------------------------------ view: by issue
+  function setupIssueView() {
+    const sel = document.getElementById('month-select');
+    sel.addEventListener('change', () => { location.hash = `m-${sel.value}`; });
+    const step = d => {
+      const i = galleries.findIndex(g => g.month === currentMonth) + d;
+      if (galleries[i]) location.hash = `m-${galleries[i].month}`;
+    };
+    document.getElementById('prev-month').addEventListener('click', () => step(-1));
+    document.getElementById('next-month').addEventListener('click', () => step(1));
+    const rows = document.getElementById('issue-rows');
+    wireRows(rows);
+    document.getElementById('expand-all').addEventListener('click', e => {
+      const open = e.target.dataset.open !== '1';
+      e.target.dataset.open = open ? '1' : '';
+      e.target.textContent = open ? 'Alle Artikel zuklappen' : 'Alle Artikel aufklappen';
+      rows.querySelectorAll('.row').forEach(r => expandRow(r, open));
+    });
+    document.getElementById('comments').addEventListener('toggle', e => { if (e.target.open) renderComments(); });
+  }
+
+  function renderIssue(month) {
     if (month === currentMonth) return;
     currentMonth = month;
     const g = byMonth[month];
@@ -300,108 +437,184 @@
     const i = galleries.indexOf(g);
     document.getElementById('prev-month').disabled = i === 0;
     document.getElementById('next-month').disabled = i === galleries.length - 1;
-    document.getElementById('month-head').innerHTML =
-      `<h2>${esc(g.title)}</h2><span class="muted">${g.slides.length} Beiträge</span><a href="${GG}${g.url}" target="_blank" rel="noopener">Original-Galerie auf GamersGlobal ↗</a>`;
-
-    const chip = id => {
-      const p = slideIndex[id];
-      return `<span class="chip"><a href="#${id}" title="${esc(p.s.game)} — ${esc(p.s.user || '?')}">DU ${fmtMonth(p.g.month)} · ${esc(p.s.user || '?')}</a><a class="orig" href="${origUrl(p.g, id)}" target="_blank" rel="noopener" title="Original auf GamersGlobal">↗</a></span>`;
-    };
-    document.getElementById('entries').innerHTML = g.slides.map(s => {
-      const prev = s.previous.map(chip).join('');
-      const same = (s.same_month || []).map(chip).join('');
-      return `<article class="entry" id="${s.id}">
-        ${s.image ? `<img src="${esc(s.image)}" alt="${esc(s.game)}" loading="lazy">` : ''}
-        <div class="body">
-          <h3>${esc(s.user || '?')}: ${esc(s.game)}${systemsLabel(s)}</h3>
-          <div class="text">${rewriteTextLinks(s.text_html)}</div>
-          <div class="links"><a href="${origUrl(g, s.id)}" target="_blank" rel="noopener">Beitrag auf GamersGlobal ↗</a> · <a href="#${s.id}">Link hierher</a></div>
-        </div>
-        ${same ? `<div class="prev"><b>Ebenfalls in dieser Ausgabe:</b>${same}</div>` : ''}
-        ${prev ? `<div class="prev"><b>Frühere DU-Nennungen (${s.previous.length}):</b>${prev}</div>` : ''}
-      </article>`;
-    }).join('');
-
+    const ea = document.getElementById('expand-all');
+    ea.dataset.open = ''; ea.textContent = 'Alle Artikel aufklappen';
+    const repeats = g.slides.filter(s => s.previous.length).length;
+    document.getElementById('issue-head').innerHTML =
+      `<h2>${esc(g.title)}</h2><span class="muted">${g.slides.length} Beiträge · ${repeats} davon schon früher in der DU</span><a href="${GG}${g.url}" target="_blank" rel="noopener">Original-Galerie ↗</a>`;
+    document.getElementById('issue-rows').innerHTML = g.slides.map(s => rowHtml(s, g)).join('');
     const det = document.getElementById('comments');
     det.open = false;
-    document.getElementById('comments-summary').textContent = 'Kommentare zu dieser Ausgabe';
-    document.getElementById('comments-list').innerHTML = '<p class="muted">Lade Kommentare …</p>';
+    document.getElementById('comments-summary').textContent = `Kommentare zu dieser Ausgabe (${g.comment_count ?? '…'})`;
+    document.getElementById('comments-list').innerHTML = '';
     if (!location.hash.startsWith('#slide-')) window.scrollTo({ top: 0 });
-  }
-
-  function loadComments() {
-    return commentsPromise ||= fetch('data/du_comments.json').then(r => r.json());
   }
 
   async function renderComments() {
     const month = currentMonth;
-    const all = await loadComments();
+    document.getElementById('comments-list').innerHTML = '<p class="muted">Lade Kommentare …</p>';
+    const list = await getJSON(`data/du/comments/${month}.json`);
     if (month !== currentMonth) return;
-    const list = all[month] || [];
-    document.getElementById('comments-summary').textContent = `Kommentare zu dieser Ausgabe (${list.length})`;
     document.getElementById('comments-list').innerHTML = list.length ? list.map(c => `
       <div class="comment">
-        <div class="who">${esc(c.user || '?')}${c.date ? ` · ${esc(c.date)}` : ''} · <a href="${GG}${byMonth[month].url}#comment-${c.cid}" target="_blank" rel="noopener">↗</a></div>
+        <div class="by">${esc(c.user || '?')}${c.date ? ` · ${esc(c.date)}` : ''} · <a href="${GG}${byMonth[month].url}#comment-${c.cid}" target="_blank" rel="noopener">↗</a></div>
         <div>${esc(c.text).replace(/\n/g, '<br>')}</div>
         ${c.games.length ? `<div class="games">${c.games.map(k => `<span>${esc(data.games[k] || k)}</span>`).join('')}</div>` : ''}
       </div>`).join('') : '<p class="muted">Keine Kommentare.</p>';
   }
 
-  // ---------------------------------------------------------------- monthly stats
-  function setupMonthly() {
-    const sel = document.getElementById('stats-month');
-    sel.addEventListener('change', () => renderMonthly(sel.value));
-    renderMonthly(sel.value);
+  // ------------------------------------------------------------------ view: by game
+  let gamesPage = 0;
+  function setupGamesView() {
+    const input = document.getElementById('game-search');
+    let t;
+    input.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => { gamesPage = 0; renderGames(); }, 150); });
+    document.getElementById('game-sort').addEventListener('change', () => { gamesPage = 0; renderGames(); });
+    const rows = document.getElementById('game-rows');
+    rows.addEventListener('click', e => {
+      const btn = e.target.closest('[data-game-toggle]');
+      if (!btn) return;
+      const box = btn.closest('.row').querySelector('.game-articles');
+      const open = btn.getAttribute('aria-expanded') !== 'true';
+      btn.setAttribute('aria-expanded', open);
+      btn.textContent = open ? 'Artikel ▴' : 'Artikel anzeigen ▾';
+      box.hidden = !open;
+      if (open && !box.dataset.loaded) {
+        box.dataset.loaded = '1';
+        box.innerHTML = keyToSlides[btn.dataset.gameToggle].slice().reverse().map(id => {
+          const { g, s } = slideIndex[id];
+          return rowHtml(s, g, { showIssue: true, showSeen: false, withId: false });
+        }).join('');
+      }
+    });
+    wireRows(rows);
   }
-  function renderMonthly(month) {
-    const rows = data.stats.games_per_month[month] || [];
+
+  function renderGames(exactKey) {
+    const q = document.getElementById('game-search').value.trim().toLowerCase();
+    const sort = document.getElementById('game-sort').value;
+    let keys = Object.keys(keyToSlides);
+    if (exactKey && keyToSlides[exactKey]) keys = [exactKey];
+    else if (q) keys = keys.filter(k => (data.games[k] || k).toLowerCase().includes(q) || k.includes(q));
+    const last = k => slideIndex[keyToSlides[k].at(-1)].g.month;
+    const name = k => (data.games[k] || k);
+    keys.sort(sort === 'alpha' ? (a, b) => name(a).localeCompare(name(b), 'de')
+      : sort === 'recent' ? (a, b) => last(b).localeCompare(last(a)) || name(a).localeCompare(name(b), 'de')
+      : (a, b) => keyToSlides[b].length - keyToSlides[a].length || last(b).localeCompare(last(a)));
+    const pages = Math.max(1, Math.ceil(keys.length / PAGE_SIZE));
+    gamesPage = Math.min(gamesPage, pages - 1);
+    const pageKeys = keys.slice(gamesPage * PAGE_SIZE, (gamesPage + 1) * PAGE_SIZE);
+    document.getElementById('games-count').textContent = `${keys.length} Spiele`;
+    document.getElementById('game-rows').innerHTML = pageKeys.map(k => {
+      const ids = keyToSlides[k];
+      return `<div class="row">
+        <div class="row-head">
+          <div class="row-main">
+            <div class="row-title"><a href="#spiel=${encodeURIComponent(k)}">${esc(name(k))}</a> <span class="sys">· ${ids.length} DU-Beitr${ids.length === 1 ? 'ag' : 'äge'}</span></div>
+            <div class="seen">${ids.slice().reverse().map(id => chip(id)).join('')}</div>
+          </div>
+          <button class="btn small toggle" data-game-toggle="${esc(k)}" aria-expanded="false">Artikel anzeigen ▾</button>
+        </div>
+        <div class="game-articles rows" style="padding:0 .75rem .75rem" hidden></div>
+      </div>`;
+    }).join('') || '<p class="muted">Keine Treffer.</p>';
+    const pager = document.getElementById('game-pager');
+    pager.innerHTML = pages > 1 ? `
+      <button class="btn small" data-page="${gamesPage - 1}" ${gamesPage === 0 ? 'disabled' : ''}>← Zurück</button>
+      <span class="muted">Seite ${gamesPage + 1} von ${pages}</span>
+      <button class="btn small" data-page="${gamesPage + 1}" ${gamesPage >= pages - 1 ? 'disabled' : ''}>Weiter →</button>` : '';
+    pager.onclick = e => {
+      const b = e.target.closest('[data-page]');
+      if (!b || b.disabled) return;
+      gamesPage = +b.dataset.page; renderGames();
+      document.getElementById('view-games').scrollIntoView();
+    };
+  }
+
+  // ------------------------------------------------------------------ monthly game stats
+  function setupMonthly() {
+    document.getElementById('stats-month').addEventListener('change', renderMonthly);
+  }
+  async function renderMonthly() {
+    const month = document.getElementById('stats-month').value;
+    const table = document.getElementById('stats-table');
+    if (!cache['data/du/games_per_month.json']) table.innerHTML = '<tr><td class="muted">Lade …</td></tr>';
+    const all = await getJSON('data/du/games_per_month.json');
+    const rows = all[month] || [];
     const max = Math.max(1, ...rows.map(r => r.total));
     const slideFor = key => byMonth[month].slides.find(s => s.game_key === key);
-    document.getElementById('stats-table').innerHTML = `
-      <thead><tr><th class="num">#</th><th>Spiel</th><th class="num">DU-Beiträge</th><th class="num">Kommentar-Nennungen</th><th class="num">Nutzer gesamt</th><th></th></tr></thead>
+    table.innerHTML = `
+      <thead><tr><th class="num">#</th><th>Spiel</th><th class="num">DU-Beiträge</th><th class="num">Kommentar-Nennungen</th><th class="num">User gesamt</th><th></th></tr></thead>
       <tbody>${rows.map((r, i) => {
         const s = slideFor(r.key);
-        const name = s ? `<a href="#${s.id}">${esc(r.game)}</a>` : esc(r.game);
+        const name = s ? `<a href="#${s.id}">${esc(r.game)}</a>` : keyToSlides[r.key] ? `<a href="#spiel=${encodeURIComponent(r.key)}">${esc(r.game)}</a>` : esc(r.game);
         return `<tr><td class="num">${i + 1}</td><td>${name}</td><td class="num">${r.du || ''}</td><td class="num">${r.comments || ''}</td><td class="num">${r.total}</td><td class="bar"><span style="width:${(r.total / max) * 100}%"></span></td></tr>`;
       }).join('')}</tbody>`;
   }
 
-  // ---------------------------------------------------------------- system charts
-  let topSystems = null;
-  function seriesKeys(grouping) {
-    if (grouping === 'families') return [...FAMILIES.map(f => f[0]), 'Sonstige'];
-    if (!topSystems) {
-      // rank by peak yearly share, so newer systems (Switch 2 …) aren't buried under "Sonstige"
-      const years = {};
-      for (const [m, counts] of Object.entries(data.stats.systems_per_month))
-        for (const [s, n] of Object.entries(counts)) if (s !== 'unbekannt') {
-          const y = (years[m.slice(0, 4)] ||= {});
-          y[s] = (y[s] || 0) + n;
-        }
-      const peak = {};
-      for (const y of Object.values(years)) {
-        const t = Object.values(y).reduce((a, b) => a + b, 0);
-        for (const [s, n] of Object.entries(y)) peak[s] = Math.max(peak[s] || 0, n / t);
+  // ------------------------------------------------------------------ system charts
+  function mix(hex, target, t) {
+    const p = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+    const a = p(hex), b = p(target);
+    return '#' + a.map((v, i) => Math.round(v + (b[i] - v) * t).toString(16).padStart(2, '0')).join('');
+  }
+  // lightness steps around the family hue: base, lighter, darker, lighter, …
+  const SHADE_STEPS = [0, 0.32, -0.3, 0.55, -0.5, 0.72];
+  const shade = (base, i) => {
+    const t = SHADE_STEPS[i % SHADE_STEPS.length];
+    return t >= 0 ? mix(base, '#ffffff', t) : mix(base, '#000000', -t);
+  };
+
+  // Series definitions (computed once over all data so colors follow the system everywhere)
+  let SERIES = null;
+  function buildSeries() {
+    const totals = {};
+    for (const counts of Object.values(data.stats.systems_per_month))
+      for (const [s, n] of Object.entries(counts)) if (s !== 'unbekannt') totals[s] = (totals[s] || 0) + n;
+    const systems = [], families = [];
+    const map = { systems: {}, families: {} };
+    for (const f of FAMILIES) {
+      const base = SLOT(f.slot);
+      families.push({ key: f.name, label: f.name, family: f.name, color: base });
+      const members = Object.keys(totals).filter(f.test).sort((a, b) => totals[b] - totals[a]);
+      const own = members.filter(s => totals[s] >= MIN_OWN_SEGMENT).slice(0, MAX_OWN_PER_FAMILY);
+      own.forEach((s, i) => { systems.push({ key: s, label: s, family: f.name, color: shade(base, i) }); map.systems[s] = s; });
+      const rest = members.filter(s => !own.includes(s));
+      if (rest.length) {
+        const key = `${f.name} (übrige)`;
+        systems.push({ key, label: `übrige (${rest.join(', ')})`, family: f.name, color: shade(base, own.length) });
+        rest.forEach(s => { map.systems[s] = key; });
       }
-      topSystems = Object.entries(peak).sort((a, b) => b[1] - a[1]).slice(0, 8).map(e => e[0]);
+      members.forEach(s => { map.families[s] = f.name; });
     }
-    return [...topSystems, 'Sonstige'];
+    const other = Object.keys(totals).filter(s => !familyOf(s)).sort((a, b) => totals[b] - totals[a]);
+    systems.push({ key: 'Sonstige', label: `Sonstige (${other.join(', ')})`, family: 'Sonstige', color: OTHER });
+    families.push({ key: 'Sonstige', label: 'Sonstige', family: 'Sonstige', color: OTHER });
+    SERIES = { systems, families, map };
   }
-  const bucketOf = (s, grouping) => grouping === 'families' ? familyOf(s) : (topSystems.includes(s) ? s : 'Sonstige');
+  const bucketKey = (month, period) => period === 'year' ? month.slice(0, 4)
+    : period === 'quarter' ? `${month.slice(0, 4)}-Q${Math.ceil(+month.slice(5) / 3)}` : month;
+  const bucketLabel = (k, period) => period === 'month' ? fmtMonth(k) : period === 'quarter' ? k.replace('-', ' ') : k;
 
-  // perMonth: {month: {system: n}} → {year: {series: n}}
-  function aggregateYears(perMonth, grouping) {
-    const keys = seriesKeys(grouping);
-    const years = {};
+  // perMonth {month: {system: n}} → {buckets: [...], values: {bucket: {seriesKey: n}}}
+  function aggregate(perMonth, grouping, period, allMonths) {
+    const seriesMap = SERIES.map[grouping];
+    const values = {};
+    for (const m of allMonths) values[bucketKey(m, period)] ||= {};
     for (const [m, counts] of Object.entries(perMonth)) {
-      const y = m.slice(0, 4);
-      years[y] ||= Object.fromEntries(keys.map(k => [k, 0]));
-      for (const [s, n] of Object.entries(counts)) if (s !== 'unbekannt') years[y][bucketOf(s, grouping)] += n;
+      const b = values[bucketKey(m, period)] ||= {};
+      for (const [s, n] of Object.entries(counts)) {
+        if (s === 'unbekannt') continue;
+        const k = seriesMap[s] || 'Sonstige';
+        b[k] = (b[k] || 0) + n;
+      }
     }
-    return { keys, years };
+    return { buckets: Object.keys(values).sort(), values };
   }
 
-  // direct labels inside stacked segments that are tall enough
+  const shortName = s => ({ 'PlayStation 4': 'PS4', 'PlayStation 5': 'PS5', 'PlayStation 3': 'PS3', 'PlayStation 2': 'PS2',
+    'Xbox Series X|S': 'XSX', 'Xbox One': 'XOne', 'Xbox 360': 'X360', 'Switch 2': 'Sw2', 'Steam Deck': 'Deck',
+    'Linux & Steam Deck': 'Linux/Deck', 'PlayStation': 'PS', 'Retro & Heimcomputer': 'Retro', 'Cloud-Gaming': 'Cloud' }[s] || s);
   const segmentLabels = {
     id: 'segmentLabels',
     afterDatasetsDraw(chart) {
@@ -415,73 +628,100 @@
         if (meta.hidden) return;
         meta.data.forEach((bar, i) => {
           const h = Math.abs(bar.base - bar.y);
-          if (h < 18 || bar.width < 34 || !ds.data[i]) return;
+          const label = shortName(ds.key);
+          if (h < 16 || !ds.data[i] || ctx.measureText(label).width > bar.width - 6 || ds.key.endsWith('(übrige)') || ds.key === 'Sonstige') return;
           ctx.fillStyle = '#fff';
-          ctx.fillText(shortName(ds.label), bar.x, (bar.y + bar.base) / 2);
+          ctx.fillText(label, bar.x, (bar.y + bar.base) / 2);
         });
       });
       ctx.restore();
     },
   };
-  const shortName = s => ({ 'PlayStation 4': 'PS4', 'PlayStation 5': 'PS5', 'PlayStation 3': 'PS3', 'Xbox Series X|S': 'XSX', 'Switch 2': 'Sw2', 'Linux & Steam Deck': 'Linux/SD', 'PlayStation': 'PS', 'Nintendo': 'Nintendo' }[s] || s);
 
-  function drawStacked(canvasId, keys, years, mode, tableId) {
-    const labels = Object.keys(years).sort();
-    const totals = Object.fromEntries(labels.map(y => [y, keys.reduce((n, k) => n + years[y][k], 0)]));
-    const datasets = keys.map((k, i) => ({
-      label: k,
-      data: labels.map(y => mode === 'share' ? (totals[y] ? +(100 * years[y][k] / totals[y]).toFixed(1) : 0) : years[y][k]),
-      raw: labels.map(y => years[y][k]),
-      backgroundColor: k === 'Sonstige' ? OTHER : SLOTS[i],
+  async function drawStacked({ canvasId, legendId, tableId, perMonth, grouping, period, mode, allMonths }) {
+    await loadChartJs();
+    const defs = SERIES[grouping];
+    const { buckets, values } = aggregate(perMonth, grouping, period, allMonths);
+    const used = defs.filter(d => buckets.some(b => values[b][d.key]));
+    const totals = Object.fromEntries(buckets.map(b => [b, Object.values(values[b]).reduce((a, c) => a + c, 0)]));
+    const datasets = used.map(d => ({
+      key: d.key,
+      label: d.key === 'Sonstige' || d.key.endsWith('(übrige)') ? d.label : d.key,
+      data: buckets.map(b => mode === 'share' ? (totals[b] ? +(100 * (values[b][d.key] || 0) / totals[b]).toFixed(1) : 0) : (values[b][d.key] || 0)),
+      raw: buckets.map(b => values[b][d.key] || 0),
+      backgroundColor: d.color,
       borderColor: SURFACE,
-      borderWidth: { top: 2 },
+      borderWidth: { top: period === 'month' ? 1 : 2 },
       borderSkipped: false,
-      borderRadius: 2,
+      borderRadius: period === 'month' ? 0 : 2,
+      categoryPercentage: period === 'month' ? 0.95 : 0.8,
+      barPercentage: period === 'month' ? 1 : 0.9,
     }));
     if (charts[canvasId]) charts[canvasId].destroy();
     charts[canvasId] = new Chart(document.getElementById(canvasId), {
       type: 'bar',
-      data: { labels, datasets },
+      data: { labels: buckets.map(b => bucketLabel(b, period)), datasets },
       plugins: [segmentLabels],
       options: {
         maintainAspectRatio: false,
         animation: false,
         interaction: { mode: 'index', intersect: false },
         scales: {
-          x: { stacked: true, grid: { display: false }, ticks: { color: '#aaa' } },
+          x: { stacked: true, grid: { display: false }, ticks: { color: '#aaa', autoSkip: true, maxRotation: 0 } },
           y: { stacked: true, max: mode === 'share' ? 100 : undefined, grid: { color: '#2a2a2a' }, border: { display: false },
                ticks: { color: '#aaa', callback: v => mode === 'share' ? `${v} %` : v } },
         },
         plugins: {
-          legend: { position: 'bottom', labels: { color: '#ddd', boxWidth: 12, boxHeight: 12 } },
+          legend: { display: false },
           tooltip: {
-            itemSort: (a, b) => b.datasetIndex - a.datasetIndex,
+            itemSort: (a, b) => b.dataset.raw[b.dataIndex] - a.dataset.raw[a.dataIndex],
             filter: item => item.dataset.raw[item.dataIndex] > 0,
             callbacks: {
-              title: items => `${items[0].label} · ${totals[items[0].label]} Systemangaben`,
+              title: items => `${items[0].label} · ${totals[buckets[items[0].dataIndex]]} Systemangaben`,
               label: item => `${item.dataset.label}: ${item.dataset.raw[item.dataIndex]}` + (mode === 'share' ? ` (${item.formattedValue} %)` : ''),
             },
           },
         },
       },
     });
+
+    // grouped legend; click toggles a series
+    const fams = [...new Set(used.map(d => d.family))];
+    const legend = document.getElementById(legendId);
+    legend.innerHTML = fams.map(f => `<div><span class="fam">${esc(f)}:</span>${used.map((d, i) => d.family !== f ? '' :
+      `<button data-i="${i}" title="Ein-/ausblenden"><i style="background:${d.color}"></i>${esc(grouping === 'families' ? '' : (d.key.endsWith('(übrige)') ? d.label : d.key === 'Sonstige' ? d.label.replace(/^Sonstige /, '') : d.key))}</button>`).join('')}</div>`).join('');
+    legend.onclick = e => {
+      const b = e.target.closest('button[data-i]');
+      if (!b) return;
+      const ds = charts[canvasId].data.datasets[+b.dataset.i];
+      ds.hidden = !ds.hidden;
+      b.classList.toggle('off', ds.hidden);
+      charts[canvasId].update();
+    };
+
     document.getElementById(tableId).innerHTML =
-      `<thead><tr><th>Jahr</th>${keys.map(k => `<th class="num">${esc(k)}</th>`).join('')}<th class="num">Summe</th></tr></thead><tbody>` +
-      labels.map(y => `<tr><td>${y}</td>${keys.map(k => `<td class="num">${years[y][k] || ''}</td>`).join('')}<td class="num">${totals[y]}</td></tr>`).join('') + '</tbody>';
+      `<thead><tr><th>Zeitraum</th>${used.map(d => `<th class="num">${esc(d.key)}</th>`).join('')}<th class="num">Summe</th></tr></thead><tbody>` +
+      buckets.map(b => `<tr><td>${bucketLabel(b, period)}</td>${used.map(d => `<td class="num">${values[b][d.key] || ''}</td>`).join('')}<td class="num">${totals[b]}</td></tr>`).join('') + '</tbody>';
   }
 
   function setupSystems() {
-    ['sys-grouping', 'sys-mode'].forEach(id => document.getElementById(id).addEventListener('change', renderSystems));
+    buildSeries();
+    ['sys-grouping', 'sys-mode', 'sys-period'].forEach(id => document.getElementById(id).addEventListener('change', renderSystems));
     let unknown = 0, guessed = 0;
     for (const g of galleries) for (const s of g.slides) { if (!s.systems.length) unknown++; else if (s.system_source === 'text') guessed++; }
     document.getElementById('sys-note').textContent =
-      `Jede Systemangabe eines Beitrags zählt einmal (Beiträge mit mehreren Systemen zählen mehrfach). ${guessed} Systeme wurden aus dem Text geraten, ${unknown} Beiträge ohne erkennbares System sind nicht enthalten.` +
-      ' Hinweis: 2026 enthält nur Januar–September.';
+      `Jede Systemangabe eines Beitrags zählt einmal (Beiträge mit mehreren Systemen zählen mehrfach). Systeme einer Familie sind Helligkeitsstufen derselben Farbe; Legende anklicken blendet aus. ${guessed} Systeme aus dem Text geraten, ${unknown} Beiträge ohne erkennbares System fehlen.`;
   }
   function renderSystems() {
-    const grouping = document.getElementById('sys-grouping').value;
-    const { keys, years } = aggregateYears(data.stats.systems_per_month, grouping);
-    drawStacked('sys-chart', keys, years, document.getElementById('sys-mode').value, 'sys-table');
+    const period = document.getElementById('sys-period').value;
+    document.getElementById('sys-title').textContent = `Systeme aller DU-Beiträge ${{ year: 'pro Jahr', quarter: 'pro Quartal', month: 'pro Monat' }[period]}`;
+    drawStacked({
+      canvasId: 'sys-chart', legendId: 'sys-legend', tableId: 'sys-table',
+      perMonth: data.stats.systems_per_month,
+      grouping: document.getElementById('sys-grouping').value,
+      period, mode: document.getElementById('sys-mode').value,
+      allMonths: galleries.map(g => g.month),
+    });
   }
 
   function setupUsers() {
@@ -490,32 +730,26 @@
     const sel = document.getElementById('user-select');
     sel.innerHTML = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
       .map(([u, n]) => `<option value="${esc(u)}">${esc(u)} (${n})</option>`).join('');
-    sel.addEventListener('change', renderUser);
-    document.getElementById('user-grouping').addEventListener('change', renderUser);
+    ['user-select', 'user-grouping', 'user-period'].forEach(id => document.getElementById(id).addEventListener('change', renderUser));
   }
   function renderUser() {
     const user = document.getElementById('user-select').value;
-    const grouping = document.getElementById('user-grouping').value;
-    const { keys, years } = aggregateYears(data.stats.systems_per_user[user] || {}, grouping);
-    const used = keys.filter(k => Object.values(years).some(y => y[k]));
-    // keep colors tied to the system, not to its position among this user's systems
-    const allKeys = seriesKeys(grouping);
+    const period = document.getElementById('user-period').value;
+    const perMonth = data.stats.systems_per_user[user] || {};
+    const months = Object.keys(perMonth).sort();
     const renamed = Object.entries(data.user_aliases).filter(([, c]) => c === user).map(([o]) => o);
     document.getElementById('user-chart-title').textContent =
-      `Systeme von ${user} pro Jahr (Anzahl DU-Beiträge)` + (renamed.length ? ` — früher: ${renamed.join(', ')}` : '');
-    drawStackedFixed('user-chart', allKeys, used, years, 'user-table');
+      `Systeme von ${user} ${{ year: 'pro Jahr', quarter: 'pro Quartal', month: 'pro Monat' }[period]} (Anzahl DU-Beiträge)` + (renamed.length ? ` — früher: ${renamed.join(', ')}` : '');
+    // fill the user's active span so gaps show as empty buckets
+    const span = months.length ? galleries.map(g => g.month).filter(m => m >= months[0] && m <= months.at(-1)) : [];
+    drawStacked({ canvasId: 'user-chart', legendId: 'user-legend', tableId: 'user-table', perMonth,
+      grouping: document.getElementById('user-grouping').value, period, mode: 'count', allMonths: span });
 
     const rows = [];
     for (const g of galleries) for (const s of g.slides) if (s.user === user) rows.push({ g, s });
     document.getElementById('user-entries').innerHTML =
       `<thead><tr><th>Ausgabe</th><th>Spiel</th><th>System</th><th></th></tr></thead><tbody>` +
       rows.reverse().map(({ g, s }) => `<tr><td>DU ${fmtMonth(g.month)}</td><td><a href="#${s.id}">${esc(s.game)}</a>${s.user_raw !== s.user ? ` <span class="muted">(als ${esc(s.user_raw)})</span>` : ''}</td><td>${esc(s.systems.join(', ') || '–')}</td><td><a href="${origUrl(g, s.id)}" target="_blank" rel="noopener">↗</a></td></tr>`).join('') + '</tbody>';
-  }
-  function drawStackedFixed(canvasId, allKeys, used, years, tableId) {
-    drawStacked(canvasId, allKeys, years, 'count', tableId);
-    charts[canvasId].data.datasets.forEach(ds => { ds.hidden = !used.includes(ds.label); });
-    charts[canvasId].options.plugins.legend.labels.filter = item => used.includes(item.text);
-    charts[canvasId].update();
   }
 
   init();

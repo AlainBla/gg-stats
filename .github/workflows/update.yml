@@ -41,6 +41,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/polls.json data/vorfreude.json data/vorfreude.csv data/du.json data/du_comments.json
+          git add data/polls.json data/vorfreude.json data/vorfreude.csv data/du/
           git diff --cached --exit-code && echo "No changes." || \
             git commit -m "data: update Sonntagsfrage polls, Vorfreude-Radar and DU [skip ci]" && git push
