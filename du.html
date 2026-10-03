@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Das spielen unsere User</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --surface-0: #111;
+      --surface-1: #1a1a1a;
+      --surface-2: #222;
+      --border: #333;
+      --text-primary: #eee;
+      --text-secondary: #aaa;
+      --text-muted: #777;
+      --accent: #4fc3f7;
+      --highlight: #2b3a42;
+      /* categorical slots (validated, dark surface) */
+      --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70; --series-4: #c98500;
+      --series-5: #d55181; --series-6: #008300; --series-7: #9085e9; --series-8: #e66767;
+      --series-other: #6b6b66;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background: var(--surface-0); color: var(--text-primary); margin: 0; padding: 1.5rem; }
+    a { color: var(--accent); }
+    h1 { font-size: 1.2rem; margin: 0 0 .25rem; }
+    .sub { color: var(--text-secondary); font-size: .85rem; margin: 0 0 1.25rem; }
+    .back { font-size: .85rem; color: var(--text-secondary); text-decoration: none; }
+    .tabs { display: flex; gap: .5rem; flex-wrap: wrap; margin: 1rem 0 1.25rem; }
+    .tabs button, .btn { background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--border); border-radius: 6px; padding: .45rem .9rem; cursor: pointer; font: inherit; font-size: .9rem; }
+    .tabs button[aria-selected="true"] { border-color: var(--accent); color: var(--accent); }
+    .btn:disabled { opacity: .4; cursor: default; }
+    select, input[type="search"] { background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--border); border-radius: 6px; padding: .4rem .6rem; font: inherit; font-size: .9rem; max-width: 100%; }
+    .controls { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; margin-bottom: 1rem; }
+    .panel[hidden] { display: none; }
+    .month-head { display: flex; gap: 1rem; align-items: baseline; flex-wrap: wrap; margin: .5rem 0 1rem; }
+    .month-head h2 { font-size: 1.05rem; margin: 0; }
+    .muted { color: var(--text-muted); font-size: .85rem; }
+
+    .entries { display: grid; gap: 1.25rem; max-width: 980px; }
+    .entry { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; scroll-margin-top: 1rem; }
+    .entry.flash { border-color: var(--accent); background: var(--highlight); }
+    .entry img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; background: var(--surface-2); }
+    .entry .body { padding: 1rem 1.25rem; }
+    .entry h3 { font-size: 1rem; margin: 0 0 .5rem; }
+    .entry h3 .sys { color: var(--text-secondary); font-weight: normal; }
+    .entry .guess { color: var(--text-muted); font-size: .75rem; }
+    .entry .text { font-size: .9rem; line-height: 1.55; color: #ddd; }
+    .entry .text div:empty { display: none; }
+    .entry .links { font-size: .8rem; margin-top: .75rem; }
+    .prev { border-top: 1px solid var(--border); padding: .75rem 1.25rem; font-size: .82rem; background: var(--surface-2); }
+    .prev b { color: var(--text-secondary); font-weight: 600; margin-right: .25rem; }
+    .chip { display: inline-flex; gap: .3rem; align-items: baseline; border: 1px solid var(--border); border-radius: 999px; padding: .1rem .6rem; margin: .2rem .25rem .2rem 0; background: var(--surface-1); white-space: nowrap; }
+    .chip a { text-decoration: none; }
+    .chip .orig { color: var(--text-muted); }
+
+    details.comments { max-width: 980px; margin-top: 1.5rem; background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: .75rem 1.25rem; }
+    details.comments summary { cursor: pointer; font-weight: 600; }
+    .comment { border-top: 1px solid var(--border); padding: .6rem 0; font-size: .88rem; line-height: 1.5; }
+    .comment:first-of-type { border-top: 0; }
+    .comment .who { color: var(--text-secondary); font-size: .8rem; }
+    .comment .games { margin-top: .25rem; }
+    .comment .games span { font-size: .75rem; color: var(--text-secondary); border: 1px solid var(--border); border-radius: 999px; padding: 0 .5rem; margin-right: .25rem; }
+
+    table { border-collapse: collapse; font-size: .88rem; width: 100%; max-width: 780px; }
+    th, td { text-align: left; padding: .4rem .6rem; border-bottom: 1px solid var(--border); }
+    th { color: var(--text-secondary); font-weight: 600; }
+    td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+    td.bar { width: 30%; }
+    .bar span { display: block; height: 8px; border-radius: 0 4px 4px 0; background: var(--series-1); }
+
+    .chart-card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; max-width: 1100px; }
+    .chart-wrap { position: relative; height: 420px; }
+    .chart-card h2 { font-size: 1rem; margin: 0 0 .25rem; }
+    details.table-view { margin-top: 1rem; font-size: .85rem; }
+    details.table-view summary { cursor: pointer; color: var(--text-secondary); }
+    .table-scroll { overflow-x: auto; }
+    .search-results { max-width: 980px; margin-bottom: 1rem; font-size: .88rem; }
+    .search-results li { margin: .2rem 0; }
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      .chart-wrap { height: 340px; }
+    }
+  </style>
+</head>
+<body>
+  <a class="back" href="index.html">← GamersGlobal Stats</a>
+  <h1>Das spielen unsere User</h1>
+  <p class="sub" id="summary">Lade Daten …</p>
+
+  <div class="tabs" role="tablist">
+    <button role="tab" data-tab="gallery" aria-selected="true">Galerie</button>
+    <button role="tab" data-tab="monthly">Spiele pro Monat</button>
+    <button role="tab" data-tab="systems">Systeme</button>
+    <button role="tab" data-tab="users">Systeme pro User</button>
+  </div>
+
+  <!-- Galerie -->
+  <section class="panel" id="panel-gallery">
+    <div class="controls">
+      <button class="btn" id="prev-month" title="Vorheriger Monat">←</button>
+      <select id="month-select" aria-label="Monat"></select>
+      <button class="btn" id="next-month" title="Nächster Monat">→</button>
+      <input type="search" id="game-search" placeholder="Spiel suchen …" aria-label="Spiel suchen">
+    </div>
+    <ul class="search-results" id="search-results" hidden></ul>
+    <div class="month-head" id="month-head"></div>
+    <div class="entries" id="entries"></div>
+    <details class="comments" id="comments">
+      <summary id="comments-summary">Kommentare</summary>
+      <div id="comments-list"><p class="muted">Lade Kommentare …</p></div>
+    </details>
+  </section>
+
+  <!-- Spiele pro Monat -->
+  <section class="panel" id="panel-monthly" hidden>
+    <div class="controls">
+      <select id="stats-month" aria-label="Monat"></select>
+      <span class="muted">Jeder Nutzer zählt pro Spiel und Monat nur einmal — egal ob DU-Beitrag, Kommentar oder beides.</span>
+    </div>
+    <div class="table-scroll"><table id="stats-table"></table></div>
+  </section>
+
+  <!-- Systeme -->
+  <section class="panel" id="panel-systems" hidden>
+    <div class="controls">
+      <select id="sys-grouping" aria-label="Gruppierung">
+        <option value="systems">Einzelne Systeme</option>
+        <option value="families">Plattform-Familien</option>
+      </select>
+      <select id="sys-mode" aria-label="Darstellung">
+        <option value="share">Anteil in %</option>
+        <option value="count">Anzahl Beiträge</option>
+      </select>
+    </div>
+    <div class="chart-card">
+      <h2>Systeme aller DU-Beiträge pro Jahr</h2>
+      <p class="muted" id="sys-note"></p>
+      <div class="chart-wrap"><canvas id="sys-chart" role="img" aria-label="Verlauf der Systeme pro Jahr"></canvas></div>
+      <details class="table-view"><summary>Als Tabelle</summary><div class="table-scroll"><table id="sys-table"></table></div></details>
+    </div>
+  </section>
+
+  <!-- Systeme pro User -->
+  <section class="panel" id="panel-users" hidden>
+    <div class="controls">
+      <select id="user-select" aria-label="User"></select>
+      <select id="user-grouping" aria-label="Gruppierung">
+        <option value="systems">Einzelne Systeme</option>
+        <option value="families">Plattform-Familien</option>
+      </select>
+    </div>
+    <div class="chart-card">
+      <h2 id="user-chart-title">Systeme pro Jahr</h2>
+      <div class="chart-wrap"><canvas id="user-chart" role="img" aria-label="Systeme des Users pro Jahr"></canvas></div>
+      <details class="table-view"><summary>Als Tabelle</summary><div class="table-scroll"><table id="user-table"></table></div></details>
+    </div>
+    <h3 style="font-size:1rem;margin:1.5rem 0 .5rem">Alle DU-Beiträge</h3>
+    <div class="table-scroll"><table id="user-entries"></table></div>
+  </section>
+
+  <script>
+  const GG = 'https://www.gamersglobal.de';
+  const SLOTS = [1, 2, 3, 4, 5, 6, 7, 8].map(i => getComputedStyle(document.documentElement).getPropertyValue(`--series-${i}`).trim());
+  const OTHER = getComputedStyle(document.documentElement).getPropertyValue('--series-other').trim();
+  const SURFACE = getComputedStyle(document.documentElement).getPropertyValue('--surface-1').trim();
+  const FAMILIES = [
+    ['PC', s => s === 'PC' || s === 'Mac'],
+    ['Linux & Steam Deck', s => s === 'Linux' || s === 'Steam Deck'],
+    ['PlayStation', s => s.startsWith('PlayStation') || s === 'PS Vita' || s === 'PSP'],
+    ['Xbox', s => s.startsWith('Xbox')],
+    ['Nintendo', s => /^(Switch|Wii|GameCube|N64|SNES|NES|Nintendo|Game Boy|Game & Watch|DS|3DS)/.test(s)],
+    ['Mobile', s => s === 'iOS' || s === 'Android'],
+  ];
+  const familyOf = s => (FAMILIES.find(([, f]) => f(s)) || ['Sonstige'])[0];
+
+  let data, galleries, byMonth, slideIndex, keyToSlides, commentsPromise;
+  let currentMonth = null;
+  const charts = {};
+
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const fmtMonth = m => { const [y, mo] = m.split('-'); return `${+mo}/${y}`; };
+  const origUrl = (g, id) => `${GG}${g.url}?h=${id}`;
+
+  async function init() {
+    try {
+      data = await fetch('data/du.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+    } catch (e) {
+      document.getElementById('summary').textContent = 'Daten konnten nicht geladen werden (data/du.json).';
+      return;
+    }
+    galleries = data.galleries.slice().sort((a, b) => a.month.localeCompare(b.month));
+    byMonth = Object.fromEntries(galleries.map(g => [g.month, g]));
+    slideIndex = {};
+    keyToSlides = {};
+    for (const g of galleries) for (const s of g.slides) {
+      slideIndex[s.id] = { g, s };
+      (keyToSlides[s.game_key] ||= []).push(s.id);
+    }
+    const nSlides = galleries.reduce((n, g) => n + g.slides.length, 0);
+    const users = new Set(galleries.flatMap(g => g.slides.map(s => s.user).filter(Boolean)));
+    document.getElementById('summary').textContent =
+      `${galleries.length} Ausgaben (${fmtMonth(galleries[0].month)} – ${fmtMonth(galleries.at(-1).month)}) · ${nSlides} Beiträge · ${users.size} User · Stand ${data.last_updated.slice(0, 10)}`;
+
+    const monthOpts = galleries.slice().reverse().map(g => `<option value="${g.month}">${esc(g.title)}</option>`).join('');
+    document.getElementById('month-select').innerHTML = monthOpts;
+    document.getElementById('stats-month').innerHTML = monthOpts;
+
+    setupTabs();
+    setupGallery();
+    setupMonthly();
+    setupSystems();
+    setupUsers();
+    route();
+    window.addEventListener('hashchange', route);
+  }
+
+  // ---------------------------------------------------------------- tabs
+  function showTab(name) {
+    document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.tab === name));
+    document.querySelectorAll('.panel').forEach(p => p.hidden = p.id !== `panel-${name}`);
+    if (name === 'systems') renderSystems();
+    if (name === 'users') renderUser();
+  }
+  function setupTabs() {
+    document.querySelectorAll('.tabs button').forEach(b => b.addEventListener('click', () => {
+      showTab(b.dataset.tab);
+      if (b.dataset.tab === 'gallery' && currentMonth) history.replaceState(null, '', `#m-${currentMonth}`);
+      else if (b.dataset.tab !== 'gallery') history.replaceState(null, '', `#${b.dataset.tab}`);
+    }));
+  }
+
+  function route() {
+    const h = decodeURIComponent(location.hash.slice(1));
+    if (h.startsWith('slide-') && slideIndex[h]) {
+      showTab('gallery');
+      renderMonth(slideIndex[h].g.month);
+      const el = document.getElementById(h);
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      document.querySelectorAll('.entry.flash').forEach(e => e.classList.remove('flash'));
+      el.classList.add('flash');
+      return;
+    }
+    if (h.startsWith('m-') && byMonth[h.slice(2)]) { showTab('gallery'); renderMonth(h.slice(2)); return; }
+    if (['monthly', 'systems', 'users'].includes(h)) { showTab(h); if (!currentMonth) renderMonth(galleries.at(-1).month); return; }
+    showTab('gallery');
+    renderMonth(galleries.at(-1).month);
+  }
+
+  // ---------------------------------------------------------------- gallery
+  function setupGallery() {
+    const sel = document.getElementById('month-select');
+    sel.addEventListener('change', () => { location.hash = `m-${sel.value}`; });
+    const step = d => {
+      const i = galleries.findIndex(g => g.month === currentMonth) + d;
+      if (galleries[i]) location.hash = `m-${galleries[i].month}`;
+    };
+    document.getElementById('prev-month').addEventListener('click', () => step(-1));
+    document.getElementById('next-month').addEventListener('click', () => step(1));
+    document.getElementById('comments').addEventListener('toggle', e => { if (e.target.open) renderComments(); });
+
+    const input = document.getElementById('game-search');
+    const results = document.getElementById('search-results');
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase();
+      if (q.length < 2) { results.hidden = true; return; }
+      const hits = [];
+      for (const g of galleries) for (const s of g.slides) if (s.game.toLowerCase().includes(q)) hits.push({ g, s });
+      results.hidden = false;
+      results.innerHTML = hits.length
+        ? hits.slice(-60).reverse().map(({ g, s }) => `<li><a href="#${s.id}">${esc(s.game)}</a> <span class="muted">— ${esc(s.user || '?')}, DU ${fmtMonth(g.month)}</span></li>`).join('')
+          + (hits.length > 60 ? `<li class="muted">… ${hits.length - 60} weitere</li>` : '')
+        : '<li class="muted">Keine Treffer</li>';
+    });
+  }
+
+  function systemsLabel(s) {
+    if (!s.systems.length) return '';
+    return ` <span class="sys">(${esc(s.systems.join(', '))})</span>` + (s.system_source === 'text' ? ' <span class="guess" title="Nicht im Titel angegeben, aus dem Text ermittelt">· System geraten</span>' : '');
+  }
+
+  function rewriteTextLinks(html) {
+    const tpl = document.createElement('template');
+    tpl.innerHTML = html;
+    tpl.content.querySelectorAll('a[href]').forEach(a => {
+      const m = a.getAttribute('href').match(/[?&]h=(slide-[\w-]+)/);
+      if (m && slideIndex[m[1]]) { a.title = 'Zum Beitrag auf dieser Seite'; a.setAttribute('href', `#${m[1]}`); }
+      else { a.target = '_blank'; a.rel = 'noopener'; }
+    });
+    return tpl.innerHTML;
+  }
+
+  function renderMonth(month) {
+    if (month === currentMonth) return;
+    currentMonth = month;
+    const g = byMonth[month];
+    document.getElementById('month-select').value = month;
+    const i = galleries.indexOf(g);
+    document.getElementById('prev-month').disabled = i === 0;
+    document.getElementById('next-month').disabled = i === galleries.length - 1;
+    document.getElementById('month-head').innerHTML =
+      `<h2>${esc(g.title)}</h2><span class="muted">${g.slides.length} Beiträge</span><a href="${GG}${g.url}" target="_blank" rel="noopener">Original-Galerie auf GamersGlobal ↗</a>`;
+
+    document.getElementById('entries').innerHTML = g.slides.map(s => {
+      const prev = s.previous.map(id => {
+        const p = slideIndex[id];
+        return `<span class="chip"><a href="#${id}" title="${esc(p.s.game)} — ${esc(p.s.user || '?')}">DU ${fmtMonth(p.g.month)} · ${esc(p.s.user || '?')}</a><a class="orig" href="${origUrl(p.g, id)}" target="_blank" rel="noopener" title="Original auf GamersGlobal">↗</a></span>`;
+      }).join('');
+      return `<article class="entry" id="${s.id}">
+        ${s.image ? `<img src="${esc(s.image)}" alt="${esc(s.game)}" loading="lazy">` : ''}
+        <div class="body">
+          <h3>${esc(s.user || '?')}: ${esc(s.game)}${systemsLabel(s)}</h3>
+          <div class="text">${rewriteTextLinks(s.text_html)}</div>
+          <div class="links"><a href="${origUrl(g, s.id)}" target="_blank" rel="noopener">Beitrag auf GamersGlobal ↗</a> · <a href="#${s.id}">Link hierher</a></div>
+        </div>
+        ${prev ? `<div class="prev"><b>Frühere DU-Nennungen (${s.previous.length}):</b>${prev}</div>` : ''}
+      </article>`;
+    }).join('');
+
+    const det = document.getElementById('comments');
+    det.open = false;
+    document.getElementById('comments-summary').textContent = 'Kommentare zu dieser Ausgabe';
+    document.getElementById('comments-list').innerHTML = '<p class="muted">Lade Kommentare …</p>';
+    if (!location.hash.startsWith('#slide-')) window.scrollTo({ top: 0 });
+  }
+
+  function loadComments() {
+    return commentsPromise ||= fetch('data/du_comments.json').then(r => r.json());
+  }
+
+  async function renderComments() {
+    const month = currentMonth;
+    const all = await loadComments();
+    if (month !== currentMonth) return;
+    const list = all[month] || [];
+    document.getElementById('comments-summary').textContent = `Kommentare zu dieser Ausgabe (${list.length})`;
+    document.getElementById('comments-list').innerHTML = list.length ? list.map(c => `
+      <div class="comment">
+        <div class="who">${esc(c.user || '?')}${c.date ? ` · ${esc(c.date)}` : ''} · <a href="${GG}${byMonth[month].url}#comment-${c.cid}" target="_blank" rel="noopener">↗</a></div>
+        <div>${esc(c.text).replace(/\n/g, '<br>')}</div>
+        ${c.games.length ? `<div class="games">${c.games.map(k => `<span>${esc(data.games[k] || k)}</span>`).join('')}</div>` : ''}
+      </div>`).join('') : '<p class="muted">Keine Kommentare.</p>';
+  }
+
+  // ---------------------------------------------------------------- monthly stats
+  function setupMonthly() {
+    const sel = document.getElementById('stats-month');
+    sel.addEventListener('change', () => renderMonthly(sel.value));
+    renderMonthly(sel.value);
+  }
+  function renderMonthly(month) {
+    const rows = data.stats.games_per_month[month] || [];
+    const max = Math.max(1, ...rows.map(r => r.total));
+    const slideFor = key => byMonth[month].slides.find(s => s.game_key === key);
+    document.getElementById('stats-table').innerHTML = `
+      <thead><tr><th class="num">#</th><th>Spiel</th><th class="num">DU-Beiträge</th><th class="num">Kommentar-Nennungen</th><th class="num">Nutzer gesamt</th><th></th></tr></thead>
+      <tbody>${rows.map((r, i) => {
+        const s = slideFor(r.key);
+        const name = s ? `<a href="#${s.id}">${esc(r.game)}</a>` : esc(r.game);
+        return `<tr><td class="num">${i + 1}</td><td>${name}</td><td class="num">${r.du || ''}</td><td class="num">${r.comments || ''}</td><td class="num">${r.total}</td><td class="bar"><span style="width:${(r.total / max) * 100}%"></span></td></tr>`;
+      }).join('')}</tbody>`;
+  }
+
+  // ---------------------------------------------------------------- system charts
+  let topSystems = null;
+  function seriesKeys(grouping) {
+    if (grouping === 'families') return [...FAMILIES.map(f => f[0]), 'Sonstige'];
+    if (!topSystems) {
+      // rank by peak yearly share, so newer systems (Switch 2 …) aren't buried under "Sonstige"
+      const years = {};
+      for (const [m, counts] of Object.entries(data.stats.systems_per_month))
+        for (const [s, n] of Object.entries(counts)) if (s !== 'unbekannt') {
+          const y = (years[m.slice(0, 4)] ||= {});
+          y[s] = (y[s] || 0) + n;
+        }
+      const peak = {};
+      for (const y of Object.values(years)) {
+        const t = Object.values(y).reduce((a, b) => a + b, 0);
+        for (const [s, n] of Object.entries(y)) peak[s] = Math.max(peak[s] || 0, n / t);
+      }
+      topSystems = Object.entries(peak).sort((a, b) => b[1] - a[1]).slice(0, 8).map(e => e[0]);
+    }
+    return [...topSystems, 'Sonstige'];
+  }
+  const bucketOf = (s, grouping) => grouping === 'families' ? familyOf(s) : (topSystems.includes(s) ? s : 'Sonstige');
+
+  // perMonth: {month: {system: n}} → {year: {series: n}}
+  function aggregateYears(perMonth, grouping) {
+    const keys = seriesKeys(grouping);
+    const years = {};
+    for (const [m, counts] of Object.entries(perMonth)) {
+      const y = m.slice(0, 4);
+      years[y] ||= Object.fromEntries(keys.map(k => [k, 0]));
+      for (const [s, n] of Object.entries(counts)) if (s !== 'unbekannt') years[y][bucketOf(s, grouping)] += n;
+    }
+    return { keys, years };
+  }
+
+  // direct labels inside stacked segments that are tall enough
+  const segmentLabels = {
+    id: 'segmentLabels',
+    afterDatasetsDraw(chart) {
+      const { ctx } = chart;
+      ctx.save();
+      ctx.font = '11px system-ui, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      chart.data.datasets.forEach((ds, di) => {
+        const meta = chart.getDatasetMeta(di);
+        if (meta.hidden) return;
+        meta.data.forEach((bar, i) => {
+          const h = Math.abs(bar.base - bar.y);
+          if (h < 18 || bar.width < 34 || !ds.data[i]) return;
+          ctx.fillStyle = '#fff';
+          ctx.fillText(shortName(ds.label), bar.x, (bar.y + bar.base) / 2);
+        });
+      });
+      ctx.restore();
+    },
+  };
+  const shortName = s => ({ 'PlayStation 4': 'PS4', 'PlayStation 5': 'PS5', 'PlayStation 3': 'PS3', 'Xbox Series X|S': 'XSX', 'Switch 2': 'Sw2', 'Linux & Steam Deck': 'Linux/SD', 'PlayStation': 'PS', 'Nintendo': 'Nintendo' }[s] || s);
+
+  function drawStacked(canvasId, keys, years, mode, tableId) {
+    const labels = Object.keys(years).sort();
+    const totals = Object.fromEntries(labels.map(y => [y, keys.reduce((n, k) => n + years[y][k], 0)]));
+    const datasets = keys.map((k, i) => ({
+      label: k,
+      data: labels.map(y => mode === 'share' ? (totals[y] ? +(100 * years[y][k] / totals[y]).toFixed(1) : 0) : years[y][k]),
+      raw: labels.map(y => years[y][k]),
+      backgroundColor: k === 'Sonstige' ? OTHER : SLOTS[i],
+      borderColor: SURFACE,
+      borderWidth: { top: 2 },
+      borderSkipped: false,
+      borderRadius: 2,
+    }));
+    if (charts[canvasId]) charts[canvasId].destroy();
+    charts[canvasId] = new Chart(document.getElementById(canvasId), {
+      type: 'bar',
+      data: { labels, datasets },
+      plugins: [segmentLabels],
+      options: {
+        maintainAspectRatio: false,
+        animation: false,
+        interaction: { mode: 'index', intersect: false },
+        scales: {
+          x: { stacked: true, grid: { display: false }, ticks: { color: '#aaa' } },
+          y: { stacked: true, max: mode === 'share' ? 100 : undefined, grid: { color: '#2a2a2a' }, border: { display: false },
+               ticks: { color: '#aaa', callback: v => mode === 'share' ? `${v} %` : v } },
+        },
+        plugins: {
+          legend: { position: 'bottom', labels: { color: '#ddd', boxWidth: 12, boxHeight: 12 } },
+          tooltip: {
+            itemSort: (a, b) => b.datasetIndex - a.datasetIndex,
+            filter: item => item.dataset.raw[item.dataIndex] > 0,
+            callbacks: {
+              title: items => `${items[0].label} · ${totals[items[0].label]} Systemangaben`,
+              label: item => `${item.dataset.label}: ${item.dataset.raw[item.dataIndex]}` + (mode === 'share' ? ` (${item.formattedValue} %)` : ''),
+            },
+          },
+        },
+      },
+    });
+    document.getElementById(tableId).innerHTML =
+      `<thead><tr><th>Jahr</th>${keys.map(k => `<th class="num">${esc(k)}</th>`).join('')}<th class="num">Summe</th></tr></thead><tbody>` +
+      labels.map(y => `<tr><td>${y}</td>${keys.map(k => `<td class="num">${years[y][k] || ''}</td>`).join('')}<td class="num">${totals[y]}</td></tr>`).join('') + '</tbody>';
+  }
+
+  function setupSystems() {
+    ['sys-grouping', 'sys-mode'].forEach(id => document.getElementById(id).addEventListener('change', renderSystems));
+    let unknown = 0, guessed = 0;
+    for (const g of galleries) for (const s of g.slides) { if (!s.systems.length) unknown++; else if (s.system_source === 'text') guessed++; }
+    document.getElementById('sys-note').textContent =
+      `Jede Systemangabe eines Beitrags zählt einmal (Beiträge mit mehreren Systemen zählen mehrfach). ${guessed} Systeme wurden aus dem Text geraten, ${unknown} Beiträge ohne erkennbares System sind nicht enthalten.` +
+      ' Hinweis: 2026 enthält nur Januar–September.';
+  }
+  function renderSystems() {
+    const grouping = document.getElementById('sys-grouping').value;
+    const { keys, years } = aggregateYears(data.stats.systems_per_month, grouping);
+    drawStacked('sys-chart', keys, years, document.getElementById('sys-mode').value, 'sys-table');
+  }
+
+  function setupUsers() {
+    const counts = {};
+    for (const g of galleries) for (const s of g.slides) if (s.user) counts[s.user] = (counts[s.user] || 0) + 1;
+    const sel = document.getElementById('user-select');
+    sel.innerHTML = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .map(([u, n]) => `<option value="${esc(u)}">${esc(u)} (${n})</option>`).join('');
+    sel.addEventListener('change', renderUser);
+    document.getElementById('user-grouping').addEventListener('change', renderUser);
+  }
+  function renderUser() {
+    const user = document.getElementById('user-select').value;
+    const grouping = document.getElementById('user-grouping').value;
+    const { keys, years } = aggregateYears(data.stats.systems_per_user[user] || {}, grouping);
+    const used = keys.filter(k => Object.values(years).some(y => y[k]));
+    // keep colors tied to the system, not to its position among this user's systems
+    const allKeys = seriesKeys(grouping);
+    const renamed = Object.entries(data.user_aliases).filter(([, c]) => c === user).map(([o]) => o);
+    document.getElementById('user-chart-title').textContent =
+      `Systeme von ${user} pro Jahr (Anzahl DU-Beiträge)` + (renamed.length ? ` — früher: ${renamed.join(', ')}` : '');
+    drawStackedFixed('user-chart', allKeys, used, years, 'user-table');
+
+    const rows = [];
+    for (const g of galleries) for (const s of g.slides) if (s.user === user) rows.push({ g, s });
+    document.getElementById('user-entries').innerHTML =
+      `<thead><tr><th>Ausgabe</th><th>Spiel</th><th>System</th><th></th></tr></thead><tbody>` +
+      rows.reverse().map(({ g, s }) => `<tr><td>DU ${fmtMonth(g.month)}</td><td><a href="#${s.id}">${esc(s.game)}</a>${s.user_raw !== s.user ? ` <span class="muted">(als ${esc(s.user_raw)})</span>` : ''}</td><td>${esc(s.systems.join(', ') || '–')}</td><td><a href="${origUrl(g, s.id)}" target="_blank" rel="noopener">↗</a></td></tr>`).join('') + '</tbody>';
+  }
+  function drawStackedFixed(canvasId, allKeys, used, years, tableId) {
+    drawStacked(canvasId, allKeys, years, 'count', tableId);
+    charts[canvasId].data.datasets.forEach(ds => { ds.hidden = !used.includes(ds.label); });
+    charts[canvasId].options.plugins.legend.labels.filter = item => used.includes(item.text);
+    charts[canvasId].update();
+  }
+
+  init();
+  </script>
+</body>
+</html>

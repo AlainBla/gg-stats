@@ -34,10 +34,13 @@ jobs:
       - name: Apply Vorfreude-Radar overrides
         run: python scripts/fix_categories.py
 
+      - name: Run "Das spielen unsere User" scraper
+        run: python scripts/scrape_du.py
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/polls.json data/vorfreude.json data/vorfreude.csv
+          git add data/polls.json data/vorfreude.json data/vorfreude.csv data/du.json data/du_comments.json
           git diff --cached --exit-code && echo "No changes." || \
-            git commit -m "data: update Sonntagsfrage polls and Vorfreude-Radar [skip ci]" && git push
+            git commit -m "data: update Sonntagsfrage polls, Vorfreude-Radar and DU [skip ci]" && git push

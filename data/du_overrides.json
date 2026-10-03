@@ -1,0 +1,78 @@
+{
+  "user_aliases": {
+    "Sheerluck": [
+      "StefanH"
+    ]
+  },
+  "game_aliases": {
+    "The Witcher": [
+      "The Witcher - Enhanced Edition",
+      "The Witcher Enhanced Edition"
+    ],
+    "Dark Souls": [
+      "Dark Souls Remastered",
+      "Dark Souls - Remastered"
+    ],
+    "Blade Runner": [
+      "Blade Runner - Enhanced Edition",
+      "Blade Runner Enhanced Edition"
+    ],
+    "Bioshock": [
+      "Bioshock Remastered",
+      "Bioshock - Remastered"
+    ],
+    "Bioshock 2": [
+      "Bioshock 2 Remastered",
+      "Bioshock 2 - Remastered"
+    ],
+    "The Last of Us": [
+      "The Last of Us Remastered",
+      "The Last of Us - Remastered"
+    ],
+    "The Last of Us Part 2": [
+      "The Last of Us Part 2 Remastered",
+      "The Last of Us Part 2 - Remastered"
+    ],
+    "Grim Fandango": [
+      "Grim Fandango Remastered",
+      "Grim Fandango - Remastered"
+    ],
+    "CrossCode": [
+      "Cross Code"
+    ],
+    "Ring Fit Adventure": [
+      "Ringfit Adventure"
+    ],
+    "Warhammer 40.000 - Kill Team": [
+      "Warhammer 40000 - Kill Team",
+      "Warhammer 40000: Kill Team"
+    ],
+    "Marvel's Guardians of the Galaxy - The Telltale Series": [
+      "Marvels' Guardians of the Galaxy - The Telltale Series"
+    ]
+  },
+  "comment_match_stopwords": [
+    "GamersGlobal",
+    "Black",
+    "Grid",
+    "Rage",
+    "Foundation",
+    "Destiny",
+    "Unreal",
+    "Mirror",
+    "Lake",
+    "Prim",
+    "Pathway",
+    "Swing",
+    "Silence",
+    "Dispatch",
+    "Observer",
+    "Judgment",
+    "Caravan",
+    "Detention",
+    "Immortality",
+    "Menace",
+    "Stray",
+    "Tell me Why"
+  ]
+}
