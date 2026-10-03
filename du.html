@@ -156,6 +156,12 @@
 
   <!-- Spiele pro Monat -->
   <section class="panel" id="panel-monthly" hidden>
+    <div class="chart-card" style="margin-bottom:1.25rem">
+      <h2>Spiele pro DU-Ausgabe</h2>
+      <p class="muted">Klick auf einen Monat zeigt unten dessen Rangliste.</p>
+      <div class="chart-wrap" style="height:260px"><canvas id="count-chart" role="img" aria-label="Anzahl Spiele und Beiträge pro DU-Ausgabe"></canvas></div>
+      <details class="table-view"><summary>Als Tabelle</summary><div class="table-scroll"><table id="count-table"></table></div></details>
+    </div>
     <div class="controls">
       <select id="stats-month" aria-label="Ausgabe"></select>
       <span class="muted">Jeder User zählt pro Spiel und Monat nur einmal — egal ob DU-Beitrag, Kommentar oder beides.</span>
@@ -534,9 +540,58 @@
   // ------------------------------------------------------------------ monthly game stats
   function setupMonthly() {
     document.getElementById('stats-month').addEventListener('change', renderMonthly);
+    document.getElementById('count-table').innerHTML =
+      '<thead><tr><th>Ausgabe</th><th class="num">Spiele</th><th class="num">Beiträge</th></tr></thead><tbody>' +
+      galleries.slice().reverse().map(g => `<tr><td>DU ${fmtMonth(g.month)}</td><td class="num">${new Set(g.slides.map(s => s.game_key)).size}</td><td class="num">${g.slides.length}</td></tr>`).join('') + '</tbody>';
   }
+
+  async function renderCountChart(selected) {
+    await loadChartJs();
+    const idx = galleries.findIndex(g => g.month === selected);
+    const radius = galleries.map((_, i) => i === idx ? 6 : 0);
+    if (charts['count-chart']) {
+      charts['count-chart'].data.datasets.forEach(ds => { ds.pointRadius = radius; });
+      charts['count-chart'].update();
+      return;
+    }
+    const line = (label, values, color) => ({
+      label, data: values, borderColor: color, backgroundColor: color,
+      borderWidth: 2, tension: 0.2, pointRadius: radius, pointHoverRadius: 5,
+      pointBorderColor: SURFACE, pointBorderWidth: 2,
+    });
+    charts['count-chart'] = new Chart(document.getElementById('count-chart'), {
+      type: 'line',
+      data: {
+        labels: galleries.map(g => fmtMonth(g.month)),
+        datasets: [
+          line('Spiele (verschiedene)', galleries.map(g => new Set(g.slides.map(s => s.game_key)).size), SLOT(1)),
+          line('Beiträge', galleries.map(g => g.slides.length), SLOT(2)),
+        ],
+      },
+      options: {
+        maintainAspectRatio: false,
+        animation: false,
+        interaction: { mode: 'index', intersect: false },
+        onClick: (e, els, chart) => {
+          const i = chart.scales.x.getValueForPixel(e.x);
+          if (galleries[i]) { document.getElementById('stats-month').value = galleries[i].month; renderMonthly(); }
+        },
+        onHover: (e, els) => { e.native.target.style.cursor = els.length ? 'pointer' : 'default'; },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: '#aaa', autoSkip: true, maxRotation: 0 } },
+          y: { beginAtZero: true, grid: { color: '#2a2a2a' }, border: { display: false }, ticks: { color: '#aaa', precision: 0 } },
+        },
+        plugins: {
+          legend: { position: 'top', align: 'start', labels: { color: '#ddd', boxWidth: 12, boxHeight: 2 } },
+          tooltip: { callbacks: { title: items => `DU ${items[0].label}` } },
+        },
+      },
+    });
+  }
+
   async function renderMonthly() {
     const month = document.getElementById('stats-month').value;
+    renderCountChart(month);
     const table = document.getElementById('stats-table');
     if (!cache['data/du/games_per_month.json']) table.innerHTML = '<tr><td class="muted">Lade …</td></tr>';
     const all = await getJSON('data/du/games_per_month.json');
