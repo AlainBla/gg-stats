@@ -471,6 +471,28 @@
     "Clarkson's Farm": [
       "Clarkson's Farm Staffel 5",
       "Clarksons Farm"
+    ],
+    "The Blood of Dawnwalker": [
+      "Blood of Dawnwalke"
+    ],
+    "Neagley": [
+      "Neaghley"
+    ],
+    "Cloudpunk": [
+      "Cloud Punk"
+    ],
+    "Fauda": [
+      "FAUDA"
+    ],
+    "Dungeon Crawler Carl": [
+      "Dungeon Crawler-Carl"
+    ],
+    "Gears of War: E-Day": [
+      "Gears of War - E-Day",
+      "Gears E-Day"
+    ],
+    "Butcher, Baker, Candlestickmaker": [
+      "Butcher: Baker, Candlestickmaker"
     ]
   },
   "categories": {
@@ -881,6 +903,8 @@
     "The Elder Scrolls IV: Oblivion": "game",
     "Diablo Immortal": "game",
     "Commandos": "game",
-    "007 Dying Light": "game"
+    "007 Dying Light": "game",
+    "Gears of War: E-Day": "game",
+    "Fire Emblem: Fortune's Weave": "game"
   }
 }

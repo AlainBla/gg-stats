@@ -96955,7 +96955,7 @@
             "category": "game"
           },
           {
-            "title": "Kingdom Come Deliverance 2",
+            "title": "Kingdom Come: Deliverance 2",
             "category": "game"
           },
           {
@@ -97050,7 +97050,7 @@
             "category": "film_series"
           },
           {
-            "title": "Doom - The Dark Ages",
+            "title": "Doom: The Dark Ages",
             "category": "game"
           },
           {
@@ -97302,8 +97302,8 @@
             "category": "game"
           },
           {
-            "title": "Andor",
-            "category": "misc"
+            "title": "Star Wars: Andor",
+            "category": "film_series"
           },
           {
             "title": "Aeon's End",
@@ -97341,7 +97341,7 @@
             "category": "game"
           },
           {
-            "title": "Doom - The Dark Ages",
+            "title": "Doom: The Dark Ages",
             "category": "game"
           },
           {
@@ -97463,7 +97463,7 @@
             "category": "film_series"
           },
           {
-            "title": "Doom - The Dark Ages",
+            "title": "Doom: The Dark Ages",
             "category": "game"
           },
           {
@@ -97521,14 +97521,14 @@
           },
           {
             "title": "LOL: Last One Laughing",
-            "category": "misc"
+            "category": "film_series"
           },
           {
             "title": "Silo",
             "category": "film_series"
           },
           {
-            "title": "Lunar - The Silver Star Remake",
+            "title": "Lunar: The Silver Star Remake",
             "category": "game"
           },
           {
@@ -97571,8 +97571,8 @@
         "category": "film_series",
         "mentioners": [
           "editor:jörg_langer",
-          "user:KampfPlauze",
-          "user:Moe90"
+          "user:Moe90",
+          "user:KampfPlauze"
         ]
       },
       "Die Odyssee": {
@@ -97582,21 +97582,21 @@
           "editor:jörg_langer",
           "editor:michael_hengst",
           "user:AlexCartman",
-          "user:Ganon",
           "user:John of Gaunt",
-          "user:Klexter",
+          "user:Sokar",
           "user:Maestro84",
           "user:Moe90",
-          "user:Sokar",
-          "user:thoohl"
+          "user:Ganon",
+          "user:thoohl",
+          "user:Klexter"
         ]
       },
       "Christopher Nolan": {
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:benjamin_braun"
         ]
       },
       "Assassin's Creed - Black Flack Resynced": {
@@ -97606,7 +97606,7 @@
           "editor:jörg_langer"
         ]
       },
-      "Kingdom Come Deliverance 2": {
+      "Kingdom Come: Deliverance 2": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -97673,8 +97673,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun"
         ]
       },
       "China Miéville": {
@@ -97731,20 +97731,20 @@
         "count": 5,
         "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen",
           "editor:kai_schmidt",
+          "editor:christian_burtchen",
           "editor:michael_hengst",
-          "user:Ganon",
-          "user:euph"
+          "user:euph",
+          "user:Ganon"
         ]
       },
-      "Doom - The Dark Ages": {
+      "Doom: The Dark Ages": {
         "count": 3,
         "category": "game",
         "mentioners": [
           "editor:kai_schmidt",
-          "user:Ganon",
-          "user:Sokar"
+          "user:Sokar",
+          "user:Ganon"
         ]
       },
       "Masters of the Universe - Dragon Pearl of Destruction": {
@@ -97802,8 +97802,8 @@
         "category": "film_series",
         "mentioners": [
           "editor:michael_hengst",
-          "user:Ganon",
-          "user:Maestro84"
+          "user:Maestro84",
+          "user:Ganon"
         ]
       },
       "Mark Ruffalo": {
@@ -97825,8 +97825,8 @@
         "category": "film_series",
         "mentioners": [
           "editor:michael_hengst",
-          "user:Alain",
-          "user:Danywilde"
+          "user:Danywilde",
+          "user:Alain"
         ]
       },
       "Star Trek: Strange New Worlds": {
@@ -97942,9 +97942,9 @@
           "user:AlexCartman"
         ]
       },
-      "Andor": {
+      "Star Wars: Andor": {
         "count": 1,
-        "category": "misc",
+        "category": "film_series",
         "mentioners": [
           "user:AlexCartman"
         ]
@@ -98010,8 +98010,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "user:Ganon",
-          "user:Maestro84"
+          "user:Maestro84",
+          "user:Ganon"
         ]
       },
       "Black Jacket": {
@@ -98065,12 +98065,12 @@
       },
       "LOL: Last One Laughing": {
         "count": 1,
-        "category": "misc",
+        "category": "film_series",
         "mentioners": [
           "user:Alain"
         ]
       },
-      "Lunar - The Silver Star Remake": {
+      "Lunar: The Silver Star Remake": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -98115,7 +98115,7 @@
             "category": "film_series"
           },
           {
-            "title": "Stalker 2",
+            "title": "STALKER 2: Heart of Chornobyl",
             "category": "game"
           },
           {
@@ -98123,7 +98123,7 @@
             "category": "game"
           },
           {
-            "title": "Kingdom Come - Deliverance 2",
+            "title": "Kingdom Come: Deliverance 2",
             "category": "game"
           },
           {
@@ -98177,7 +98177,7 @@
         "name": "Benjamin Braun",
         "items": [
           {
-            "title": "Project Hail Mary",
+            "title": "Der Astronaut - Project Hail Mary",
             "category": "film_series"
           },
           {
@@ -98185,7 +98185,7 @@
             "category": "film_series"
           },
           {
-            "title": "Glennkill - Ein Schafskrimi",
+            "title": "Glennkill: Ein Schafskrimi",
             "category": "game"
           },
           {
@@ -98265,7 +98265,7 @@
         "items": [
           {
             "title": "Gamescom",
-            "category": "film_series"
+            "category": "misc"
           },
           {
             "title": "Train to Busan",
@@ -98293,7 +98293,7 @@
           },
           {
             "title": "Reacher",
-            "category": "game"
+            "category": "film_series"
           },
           {
             "title": "Iron Nest - Heavy Turret Simulator",
@@ -98341,11 +98341,11 @@
             "category": "game"
           },
           {
-            "title": "Stalker 2",
+            "title": "STALKER 2: Heart of Chornobyl",
             "category": "game"
           },
           {
-            "title": "Mafia - The Old Country",
+            "title": "Mafia: The Old Country",
             "category": "game"
           }
         ]
@@ -98491,11 +98491,11 @@
         "username": "Moe90",
         "items": [
           {
-            "title": "Mafia - The Old Country",
+            "title": "Mafia: The Old Country",
             "category": "game"
           },
           {
-            "title": "Stalker 2",
+            "title": "STALKER 2: Heart of Chornobyl",
             "category": "game"
           },
           {
@@ -98546,7 +98546,7 @@
         "username": "Ganon",
         "items": [
           {
-            "title": "Doom - The Dark Ages",
+            "title": "Doom: The Dark Ages",
             "category": "game"
           },
           {
@@ -98601,7 +98601,7 @@
             "category": "game"
           },
           {
-            "title": "Doom - The Dark Ages",
+            "title": "Doom: The Dark Ages",
             "category": "game"
           },
           {
@@ -98672,7 +98672,7 @@
             "category": "film_series"
           },
           {
-            "title": "Lunar - The Silver Star Remake",
+            "title": "Lunar: The Silver Star Remake",
             "category": "game"
           },
           {
@@ -98779,7 +98779,7 @@
         "username": "Green Yoshi",
         "items": [
           {
-            "title": "Mafia - The Old Country",
+            "title": "Mafia: The Old Country",
             "category": "game"
           }
         ]
@@ -98865,12 +98865,12 @@
           "user:Crizzo"
         ]
       },
-      "Stalker 2": {
+      "STALKER 2: Heart of Chornobyl": {
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:jens_bremicker",
           "editor:jörg_langer",
+          "editor:jens_bremicker",
           "user:Moe90"
         ]
       },
@@ -98878,11 +98878,11 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "editor:jens_bremicker",
-          "editor:jörg_langer"
+          "editor:jörg_langer",
+          "editor:jens_bremicker"
         ]
       },
-      "Kingdom Come - Deliverance 2": {
+      "Kingdom Come: Deliverance 2": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -98891,10 +98891,10 @@
       },
       "Gamescom": {
         "count": 3,
-        "category": "film_series",
+        "category": "misc",
         "mentioners": [
-          "editor:hagen_gehritz",
           "editor:jörg_langer",
+          "editor:hagen_gehritz",
           "editor:michael_hengst"
         ]
       },
@@ -98949,7 +98949,7 @@
           "editor:hagen_gehritz"
         ]
       },
-      "Project Hail Mary": {
+      "Der Astronaut - Project Hail Mary": {
         "count": 1,
         "category": "film_series",
         "mentioners": [
@@ -98963,7 +98963,7 @@
           "editor:benjamin_braun"
         ]
       },
-      "Glennkill - Ein Schafskrimi": {
+      "Glennkill: Ein Schafskrimi": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -98979,17 +98979,17 @@
       },
       "Beast of Reincarnation": {
         "count": 4,
-        "category": "game",
+        "category": "film_series",
         "mentioners": [
           "editor:benjamin_braun",
-          "editor:jens_bremicker",
           "editor:kai_schmidt",
+          "editor:jens_bremicker",
           "user:Flooraimer"
         ]
       },
       "Resonance - A Plague Tale Legacy": {
         "count": 4,
-        "category": "game",
+        "category": "film_series",
         "mentioners": [
           "editor:benjamin_braun",
           "editor:michael_hengst",
@@ -99001,8 +99001,8 @@
         "count": 3,
         "category": "film_series",
         "mentioners": [
-          "editor:jens_bremicker",
           "editor:kai_schmidt",
+          "editor:jens_bremicker",
           "user:Chosro"
         ]
       },
@@ -99025,10 +99025,10 @@
       },
       "Reacher": {
         "count": 3,
-        "category": "game",
+        "category": "film_series",
         "mentioners": [
-          "editor:christian_burtchen",
           "editor:kai_schmidt",
+          "editor:christian_burtchen",
           "editor:michael_hengst"
         ]
       },
@@ -99051,10 +99051,10 @@
         "category": "film_series",
         "mentioners": [
           "editor:christian_burtchen",
-          "user:Crizzo",
-          "user:Ganon",
+          "user:Moe90",
           "user:Maestro84",
-          "user:Moe90"
+          "user:Ganon",
+          "user:Crizzo"
         ]
       },
       "The Sinking City 2": {
@@ -99136,13 +99136,13 @@
           "editor:jens_bremicker"
         ]
       },
-      "Mafia - The Old Country": {
+      "Mafia: The Old Country": {
         "count": 3,
         "category": "game",
         "mentioners": [
           "editor:jens_bremicker",
-          "user:Green Yoshi",
-          "user:Moe90"
+          "user:Moe90",
+          "user:Green Yoshi"
         ]
       },
       "House of the Dead": {
@@ -99156,8 +99156,8 @@
         "count": 3,
         "category": "film_series",
         "mentioners": [
-          "user:Ganon",
           "user:Moe90",
+          "user:Ganon",
           "user:Sokar"
         ]
       },
@@ -99172,8 +99172,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "user:Bruno Lawrie",
-          "user:Flooraimer"
+          "user:Flooraimer",
+          "user:Bruno Lawrie"
         ]
       },
       "The Legend of Zelda - Ocarina of Time": {
@@ -99183,7 +99183,7 @@
           "user:Maestro84"
         ]
       },
-      "Doom - The Dark Ages": {
+      "Doom: The Dark Ages": {
         "count": 2,
         "category": "game",
         "mentioners": [
@@ -99195,8 +99195,8 @@
         "count": 2,
         "category": "film_series",
         "mentioners": [
-          "user:Alain",
-          "user:Ganon"
+          "user:Ganon",
+          "user:Alain"
         ]
       },
       "Nimrods": {
@@ -99210,8 +99210,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Calmon",
-          "user:LRod"
+          "user:LRod",
+          "user:Calmon"
         ]
       },
       "Murdoku": {
@@ -99219,8 +99219,8 @@
         "category": "misc",
         "mentioners": [
           "user:Calmon",
-          "user:Olphas",
-          "user:yesnocancel"
+          "user:yesnocancel",
+          "user:Olphas"
         ]
       },
       "Shadow Warrior Trilogy": {
@@ -99286,7 +99286,7 @@
           "user:Alain"
         ]
       },
-      "Lunar - The Silver Star Remake": {
+      "Lunar: The Silver Star Remake": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -99495,8 +99495,8 @@
             "category": "film_series"
           },
           {
-            "title": "Fire Emblem - Fortune's Weave",
-            "category": "film_series"
+            "title": "Fire Emblem: Fortune's Weave",
+            "category": "game"
           },
           {
             "title": "Silent Hill - Townfall",
@@ -99826,7 +99826,7 @@
             "category": "game"
           },
           {
-            "title": "GTA 6",
+            "title": "Grand Theft Auto VI",
             "category": "game"
           }
         ]
@@ -100021,7 +100021,7 @@
           },
           {
             "title": "Switch 2",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "Fire Emblem - Fortunes Weave",
@@ -100045,7 +100045,7 @@
           },
           {
             "title": "The Expanse",
-            "category": "misc"
+            "category": "film_series"
           }
         ]
       },
@@ -100108,7 +100108,7 @@
         "username": "funrox",
         "items": [
           {
-            "title": "Indiana Jones und der große Kreis",
+            "title": "Indiana Jones und der Große Kreis",
             "category": "game"
           },
           {
@@ -100408,8 +100408,8 @@
         "category": "film_series",
         "mentioners": [
           "editor:hagen_gehritz",
-          "editor:jens_bremicker",
-          "editor:michael_hengst"
+          "editor:michael_hengst",
+          "editor:jens_bremicker"
         ]
       },
       "Barbarian": {
@@ -100432,9 +100432,9 @@
         "category": "film_series",
         "mentioners": [
           "editor:hagen_gehritz",
-          "editor:jens_bremicker",
           "editor:kai_schmidt",
           "editor:michael_hengst",
+          "editor:jens_bremicker",
           "user:Ganon",
           "user:Moe90"
         ]
@@ -100451,14 +100451,14 @@
         "count": 8,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:hagen_gehritz",
+          "editor:benjamin_braun",
           "editor:jens_bremicker",
-          "user:Flooraimer",
-          "user:Green Yoshi",
           "user:Jimmy",
           "user:Moe90",
-          "user:Sokar"
+          "user:Sokar",
+          "user:Green Yoshi",
+          "user:Flooraimer"
         ]
       },
       "Control - Resonant": {
@@ -100483,16 +100483,17 @@
           "editor:hagen_gehritz"
         ]
       },
-      "Fire Emblem - Fortune's Weave": {
-        "count": 1,
-        "category": "film_series",
+      "Fire Emblem: Fortune's Weave": {
+        "count": 2,
+        "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz"
+          "editor:hagen_gehritz",
+          "editor:michael_hengst"
         ]
       },
       "Silent Hill - Townfall": {
         "count": 2,
-        "category": "game",
+        "category": "film_series",
         "mentioners": [
           "editor:hagen_gehritz",
           "editor:jens_bremicker"
@@ -100572,13 +100573,6 @@
           "editor:michael_hengst"
         ]
       },
-      "Fire Emblem: Fortune's Weave": {
-        "count": 1,
-        "category": "game",
-        "mentioners": [
-          "editor:michael_hengst"
-        ]
-      },
       "Trails in the Sky - 2nd Chapter": {
         "count": 3,
         "category": "game",
@@ -100594,8 +100588,8 @@
         "mentioners": [
           "editor:jens_bremicker",
           "user:Ganon",
-          "user:Green Yoshi",
-          "user:Klexter"
+          "user:Klexter",
+          "user:Green Yoshi"
         ]
       },
       "Nivalis Nights": {
@@ -100662,7 +100656,7 @@
           "user:Jimmy"
         ]
       },
-      "GTA 6": {
+      "Grand Theft Auto VI": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -100708,8 +100702,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "user:Bruno Lawrie",
           "user:Cyd",
+          "user:Bruno Lawrie",
           "user:Flooraimer"
         ]
       },
@@ -100717,17 +100711,17 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "user:Bruno Lawrie",
           "user:Cyd",
-          "user:Sokar"
+          "user:Sokar",
+          "user:Bruno Lawrie"
         ]
       },
       "The Witcher 3: Wild Hunt Remastered": {
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Baumkuchen",
-          "user:Cyd"
+          "user:Cyd",
+          "user:Baumkuchen"
         ]
       },
       "Clive Barker’s Hellraiser: Revival": {
@@ -100916,9 +100910,9 @@
         "count": 3,
         "category": "misc",
         "mentioners": [
+          "user:Sokar",
           "user:AlexCartman",
-          "user:Baumkuchen",
-          "user:Sokar"
+          "user:Baumkuchen"
         ]
       },
       "Fire Emblem - Fortunes Weave": {
@@ -100958,7 +100952,7 @@
       },
       "The Expanse": {
         "count": 1,
-        "category": "misc",
+        "category": "film_series",
         "mentioners": [
           "user:Sokar"
         ]
@@ -101020,7 +101014,7 @@
           "user:Q-Bert"
         ]
       },
-      "Indiana Jones und der große Kreis": {
+      "Indiana Jones und der Große Kreis": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -101277,7 +101271,7 @@
             "category": "film_series"
           },
           {
-            "title": "Cloud Punk",
+            "title": "Cloudpunk",
             "category": "game"
           },
           {
@@ -101315,7 +101309,7 @@
           },
           {
             "title": "Gamescom",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "Castlevania - Belmont's Curse",
@@ -101375,7 +101369,7 @@
             "category": "game"
           },
           {
-            "title": "GTA 6",
+            "title": "Grand Theft Auto VI",
             "category": "game"
           },
           {
@@ -101412,8 +101406,8 @@
             "category": "film_series"
           },
           {
-            "title": "Gears of War - E-Day",
-            "category": "film_series"
+            "title": "Gears of War: E-Day",
+            "category": "game"
           },
           {
             "title": "Hellraiser - Revival",
@@ -101421,7 +101415,7 @@
           },
           {
             "title": "Reacher",
-            "category": "misc"
+            "category": "film_series"
           }
         ]
       },
@@ -101429,7 +101423,7 @@
         "name": "Christian Burtchen",
         "items": [
           {
-            "title": "Neaghley",
+            "title": "Neagley",
             "category": "film_series"
           },
           {
@@ -101482,7 +101476,7 @@
             "category": "game"
           },
           {
-            "title": "Butcher: Baker, Candlestickmaker",
+            "title": "Butcher, Baker, Candlestickmaker",
             "category": "misc"
           },
           {
@@ -101595,7 +101589,7 @@
             "category": "game"
           },
           {
-            "title": "Blood of Dawnwalke",
+            "title": "The Blood of Dawnwalker",
             "category": "game"
           },
           {
@@ -101607,7 +101601,7 @@
             "category": "game"
           },
           {
-            "title": "Dungeon Crawler-Carl",
+            "title": "Dungeon Crawler Carl",
             "category": "misc"
           },
           {
@@ -101620,7 +101614,7 @@
         "username": "Moe90",
         "items": [
           {
-            "title": "Onimusha - Way of the Sword",
+            "title": "Onimusha: Way of the Sword",
             "category": "game"
           },
           {
@@ -101733,7 +101727,7 @@
           },
           {
             "title": "Switch 2",
-            "category": "game"
+            "category": "misc"
           },
           {
             "title": "Vampire Chronicles",
@@ -101744,7 +101738,7 @@
             "category": "game"
           },
           {
-            "title": "FAUDA",
+            "title": "Fauda",
             "category": "film_series"
           },
           {
@@ -101948,7 +101942,7 @@
             "category": "film_series"
           },
           {
-            "title": "Gears E-Day",
+            "title": "Gears of War: E-Day",
             "category": "game"
           },
           {
@@ -101965,7 +101959,7 @@
         "username": "Sokar",
         "items": [
           {
-            "title": "Fire Emblem - Fortune's Weave",
+            "title": "Fire Emblem: Fortune's Weave",
             "category": "game"
           },
           {
@@ -102006,7 +102000,7 @@
           "user:KampfPlauze"
         ]
       },
-      "Cloud Punk": {
+      "Cloudpunk": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -102066,7 +102060,7 @@
       },
       "Gamescom": {
         "count": 1,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
           "editor:hagen_gehritz"
         ]
@@ -102075,14 +102069,14 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:hagen_gehritz",
+          "editor:benjamin_braun",
           "user:Sheerluck"
         ]
       },
       "Reacher": {
         "count": 2,
-        "category": "misc",
+        "category": "film_series",
         "mentioners": [
           "editor:benjamin_braun",
           "editor:kai_schmidt"
@@ -102165,7 +102159,7 @@
           "editor:benjamin_braun"
         ]
       },
-      "GTA 6": {
+      "Grand Theft Auto VI": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -102200,8 +102194,8 @@
         "mentioners": [
           "editor:kai_schmidt",
           "editor:michael_hengst",
-          "user:Flooraimer",
-          "user:Hannes Herrmann"
+          "user:Hannes Herrmann",
+          "user:Flooraimer"
         ]
       },
       "Van Damme": {
@@ -102218,11 +102212,12 @@
           "editor:kai_schmidt"
         ]
       },
-      "Gears of War - E-Day": {
-        "count": 1,
-        "category": "film_series",
+      "Gears of War: E-Day": {
+        "count": 2,
+        "category": "game",
         "mentioners": [
-          "editor:kai_schmidt"
+          "editor:kai_schmidt",
+          "user:Flooraimer"
         ]
       },
       "Hellraiser - Revival": {
@@ -102232,7 +102227,7 @@
           "editor:kai_schmidt"
         ]
       },
-      "Neaghley": {
+      "Neagley": {
         "count": 1,
         "category": "film_series",
         "mentioners": [
@@ -102303,7 +102298,7 @@
           "editor:michael_hengst"
         ]
       },
-      "Butcher: Baker, Candlestickmaker": {
+      "Butcher, Baker, Candlestickmaker": {
         "count": 1,
         "category": "misc",
         "mentioners": [
@@ -102352,11 +102347,12 @@
           "user:Hannes Herrmann"
         ]
       },
-      "Blood of Dawnwalke": {
-        "count": 1,
+      "The Blood of Dawnwalker": {
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Hannes Herrmann"
+          "user:Hannes Herrmann",
+          "user:Moe90"
         ]
       },
       "Grim-Dawn-Addon": {
@@ -102373,7 +102369,7 @@
           "user:Hannes Herrmann"
         ]
       },
-      "Dungeon Crawler-Carl": {
+      "Dungeon Crawler Carl": {
         "count": 1,
         "category": "misc",
         "mentioners": [
@@ -102387,14 +102383,7 @@
           "user:Hannes Herrmann"
         ]
       },
-      "Onimusha - Way of the Sword": {
-        "count": 1,
-        "category": "game",
-        "mentioners": [
-          "user:Moe90"
-        ]
-      },
-      "The Blood of Dawnwalker": {
+      "Onimusha: Way of the Sword": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -102433,8 +102422,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Bruno Lawrie",
-          "user:Moe90"
+          "user:Moe90",
+          "user:Bruno Lawrie"
         ]
       },
       "Widow's Bay": {
@@ -102544,7 +102533,7 @@
       },
       "Switch 2": {
         "count": 1,
-        "category": "game",
+        "category": "misc",
         "mentioners": [
           "user:euph"
         ]
@@ -102563,7 +102552,7 @@
           "user:euph"
         ]
       },
-      "FAUDA": {
+      "Fauda": {
         "count": 1,
         "category": "film_series",
         "mentioners": [
@@ -102588,8 +102577,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Robokopp",
-          "user:euph"
+          "user:euph",
+          "user:Robokopp"
         ]
       },
       "Crusader Kings 3 AddOn": {
@@ -102810,13 +102799,6 @@
           "user:Flooraimer"
         ]
       },
-      "Gears E-Day": {
-        "count": 1,
-        "category": "game",
-        "mentioners": [
-          "user:Flooraimer"
-        ]
-      },
       "Thank you Bus Driver": {
         "count": 1,
         "category": "game",
@@ -102824,7 +102806,7 @@
           "user:Flooraimer"
         ]
       },
-      "Fire Emblem - Fortune's Weave": {
+      "Fire Emblem: Fortune's Weave": {
         "count": 1,
         "category": "game",
         "mentioners": [
