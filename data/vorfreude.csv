@@ -5740,7 +5740,7 @@ month,item_title,category,count,editor_count,user_count
 2026-09,Sam Lake,game,1,1,0
 2026-09,Mathew Porettea,film_series,1,1,0
 2026-09,Fire Emblem: Fortune's Weave,game,2,2,0
-2026-09,Silent Hill - Townfall,film_series,2,2,0
+2026-09,Silent Hill - Townfall,game,2,2,0
 2026-09,Reacher,film_series,1,1,0
 2026-09,Sex and the City,film_series,1,1,0
 2026-09,Band of Brothers,film_series,1,1,0
@@ -5847,7 +5847,7 @@ month,item_title,category,count,editor_count,user_count
 2026-09,Nintendo Direct zu Zelda,misc,1,0,1
 2026-10,4 Blocks Zero,film_series,1,1,0
 2026-10,Kida Khodr Ramadan,film_series,1,1,0
-2026-10,Resident Evil,film_series,2,1,1
+2026-10,Resident Evil,film_series,3,1,2
 2026-10,Cloudpunk,game,1,1,0
 2026-10,Nivalis Nights,game,2,1,1
 2026-10,Menace,game,1,1,0
@@ -5874,20 +5874,20 @@ month,item_title,category,count,editor_count,user_count
 2026-10,Valor Mortis,game,2,1,1
 2026-10,Gamescom 2025,game,1,1,0
 2026-10,Ghostrunner,game,1,1,0
-2026-10,Street Fighter,film_series,4,2,2
+2026-10,Street Fighter,film_series,5,2,3
 2026-10,Van Damme,film_series,1,1,0
 2026-10,The Terminal List,film_series,1,1,0
 2026-10,Gears of War: E-Day,game,2,1,1
 2026-10,Hellraiser - Revival,film_series,1,1,0
 2026-10,Neagley,film_series,1,1,0
-2026-10,VisionQuest,film_series,1,1,0
+2026-10,VisionQuest,film_series,2,1,1
 2026-10,James Spader,film_series,1,1,0
 2026-10,Emily Hampshire,film_series,1,1,0
 2026-10,Planet Zoo 2,game,1,1,0
 2026-10,Carrie,film_series,1,1,0
 2026-10,Trails of the Sky SC,game,1,1,0
 2026-10,Fire Emblem,game,2,1,1
-2026-10,Final Fantasy Resonance,game,1,1,0
+2026-10,Final Fantasy Resonance,game,2,1,1
 2026-10,Tales of Eternia Remastered,game,1,1,0
 2026-10,"Butcher, Baker, Candlestickmaker",misc,1,1,0
 2026-10,303,misc,1,1,0
@@ -5912,6 +5912,8 @@ month,item_title,category,count,editor_count,user_count
 2026-10,The Furious,film_series,1,0,1
 2026-10,Sardinien,misc,1,0,1
 2026-10,Treffen mit Jörg und anderen Usern in München,misc,1,0,1
+2026-10,Eine Woche Sardinien,misc,1,0,1
+2026-10,Besuch bei Genzel in Salzburg,misc,1,0,1
 2026-10,Townfall,game,1,0,1
 2026-10,Call of Duty in Korea,game,1,0,1
 2026-10,Silent Hill Townfall,game,1,0,1
@@ -5928,7 +5930,7 @@ month,item_title,category,count,editor_count,user_count
 2026-10,Fauda,film_series,1,0,1
 2026-10,DEL-Saison,misc,1,0,1
 2026-10,Brettspiele,misc,1,0,1
-2026-10,Castlevania,game,2,0,2
+2026-10,Castlevania,game,3,0,3
 2026-10,Crusader Kings 3 AddOn,game,1,0,1
 2026-10,Civ7,game,1,0,1
 2026-10,Trails of the Sky 1st Chapter,game,1,0,1
@@ -5942,11 +5944,11 @@ month,item_title,category,count,editor_count,user_count
 2026-10,Tulsa King Staffel 3,film_series,1,0,1
 2026-10,Dark Matter Staffel 2,film_series,1,0,1
 2026-10,City of Blood,film_series,1,0,1
-2026-10,Slow Horses,film_series,2,0,2
+2026-10,Slow Horses,film_series,3,0,3
 2026-10,Schul-Herbstferien,misc,1,0,1
 2026-10,Kurzurlaub,misc,1,0,1
 2026-10,Normandie-Urlaub,misc,1,0,1
-2026-10,Well Dweller,game,1,0,1
+2026-10,Well Dweller,game,2,0,2
 2026-10,Ted Lasso,film_series,1,0,1
 2026-10,Scream 7,film_series,1,0,1
 2026-10,Civilization 7,game,1,0,1
@@ -5959,9 +5961,31 @@ month,item_title,category,count,editor_count,user_count
 2026-10,Stargate,film_series,1,0,1
 2026-10,Order of the Sinking Star,game,1,0,1
 2026-10,Beware Boiúna,film_series,1,0,1
-2026-10,Clayface,film_series,1,0,1
+2026-10,Clayface,film_series,2,0,2
 2026-10,Thank you Bus Driver,game,1,0,1
 2026-10,Fire Emblem: Fortune's Weave,game,1,0,1
 2026-10,Stargate Atlantis,film_series,1,0,1
 2026-10,Scrubs Reboot,film_series,1,0,1
 2026-10,BlueBrixx-Adventskalender,misc,1,0,1
+2026-10,Two Point Museum: Attraktionen & Relikte-DLC,game,1,0,1
+2026-10,Tales Of Eternia Remastered,game,1,0,1
+2026-10,Dragon's Dogma 2,game,1,0,1
+2026-10,No Man's Sky Expedition,game,1,0,1
+2026-10,Blood of Dawnwalker,game,1,0,1
+2026-10,Witcher 3 Remaster,game,1,0,1
+2026-10,Städtetrip nach Wien,misc,1,0,1
+2026-10,Treffen mit Jörg & Co in München,misc,1,0,1
+2026-10,Simpsons,film_series,1,0,1
+2026-10,Digger,film_series,1,0,1
+2026-10,Switch Sports Resort,game,1,0,1
+2026-10,Japan,misc,1,0,1
+2026-10,Karate-Training im JKA-Dojo,misc,1,0,1
+2026-10,Paris,misc,1,0,1
+2026-10,Star Wars: Galactic Racer,game,1,0,1
+2026-10,Hellraiser Revival,film_series,1,0,1
+2026-10,Witcher 3 Remastered,game,1,0,1
+2026-10,Shrinking,film_series,1,0,1
+2026-10,Star Trek,film_series,1,0,1
+2026-10,The Saboteur,game,1,0,1
+2026-10,Mole,game,1,0,1
+2026-10,Kommisar Gennat ermittelt,misc,1,0,1

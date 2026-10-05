@@ -23061,5 +23061,78 @@
         "percent": 79.0
       }
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "title": "Sonntagsfrage: Auf welches Spiel im 4. Quartal 2026 freut ihr euch am meisten?",
+    "votes": 398,
+    "url": "/news/353334/sonntagsfrage-auf-welches-spiel-im-4-quartal-2026-freut-ihr-euch-am-meisten",
+    "options": [
+      {
+        "label": "Gears of War - E-Day",
+        "votes": 16,
+        "percent": 4.0
+      },
+      {
+        "label": "Star Wars - Galactic Racer",
+        "votes": 10,
+        "percent": 3.0
+      },
+      {
+        "label": "Planet Zoo 2",
+        "votes": 9,
+        "percent": 2.0
+      },
+      {
+        "label": "Valor Mortis",
+        "votes": 5,
+        "percent": 1.0
+      },
+      {
+        "label": "Castlevania - Belmont's Curse",
+        "votes": 14,
+        "percent": 4.0
+      },
+      {
+        "label": "Enshrouded 1.0",
+        "votes": 16,
+        "percent": 4.0
+      },
+      {
+        "label": "Final Fantasy Resonance",
+        "votes": 14,
+        "percent": 4.0
+      },
+      {
+        "label": "Phantom Blade Zero",
+        "votes": 6,
+        "percent": 2.0
+      },
+      {
+        "label": "The Legend of Zelda - Ocarina of Time Remake",
+        "votes": 106,
+        "percent": 27.0
+      },
+      {
+        "label": "GTA 6",
+        "votes": 105,
+        "percent": 26.0
+      },
+      {
+        "label": "Rayman Legends Retold",
+        "votes": 16,
+        "percent": 4.0
+      },
+      {
+        "label": "Dawn of War 4",
+        "votes": 30,
+        "percent": 8.0
+      },
+      {
+        "label": "Anderes",
+        "votes": 51,
+        "percent": 13.0
+      }
+    ]
   }
 ]
