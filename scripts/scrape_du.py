@@ -4,8 +4,12 @@
 Writes (data/du/):
   index.json             — galleries with slide metadata (+ DU mentions), stats; loaded by du.html
   games_per_month.json   — game ranking per month (loaded on demand)
-  texts/YYYY-MM.json     — slide texts per month (loaded on demand)
-  comments/YYYY-MM.json  — user comments per month with matched game keys (loaded on demand)
+  texts/YYYY-MM.json     — slide texts per month            ┐ local only: git-ignored, never
+  comments/YYYY-MM.json  — user comments + matched games    ┘ committed or fetched by CI
+
+Run locally only (not part of the CI workflow); commit index.json and
+games_per_month.json. To read articles/comments, serve the repo locally,
+e.g. ``python3 -m http.server`` and open http://localhost:8000/du.html.
 
 Raw fields (``user_raw``, ``game``, ``systems``, comment ``text`` …) are stored as
 scraped; everything else (canonical users, game keys, previous mentions, stats)
@@ -507,6 +511,14 @@ def save_outputs(out: dict, base: Path, now: str) -> None:
     })
 
 
+def months_missing_local_content(base: Path, months) -> set[str]:
+    """Months whose texts or comments are not on disk (they are not in git, e.g. fresh clone)."""
+    return {
+        m for m in months
+        if not (base / "texts" / f"{m}.json").exists() or not (base / "comments" / f"{m}.json").exists()
+    }
+
+
 def load_raw(base: Path) -> list[dict]:
     """Inverse of save_outputs: raw galleries (derived fields stripped) for re-building."""
     index_path = base / "index.json"
@@ -537,6 +549,10 @@ def run(backfill: bool = False, cache_dir: Path | None = None, refresh_latest: i
     newest_known = sorted(galleries.values(), key=lambda g: g["month"])[-refresh_latest:] if galleries else []
     to_fetch = [u for u in urls if backfill or u not in galleries]
     to_fetch += [g["url"] for g in newest_known if g["url"] not in to_fetch]
+    # texts/comments are kept local only; refetch months that lack them instead of
+    # rebuilding stats from empty comments
+    missing = months_missing_local_content(DATA_DIR, [g["month"] for g in galleries.values()])
+    to_fetch += [g["url"] for g in galleries.values() if g["month"] in missing and g["url"] not in to_fetch]
 
     for url in to_fetch:
         refresh = url in galleries  # comments may have grown → bypass cache

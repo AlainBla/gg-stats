@@ -398,7 +398,12 @@
     art.className = 'article';
     art.innerHTML = '<div class="body muted">Lade Artikel …</div>';
     row.appendChild(art);
-    const texts = await loadTexts(g.month);
+    let texts;
+    try { texts = await loadTexts(g.month); } catch {
+      // texts are kept out of the public repo; only a local run has them
+      art.innerHTML = `<div class="body muted">Artikeltexte gibt es nur in der lokalen Version. <a href="${origUrl(g, s.id)}" target="_blank" rel="noopener">Beitrag auf GamersGlobal lesen ↗</a></div>`;
+      return;
+    }
     art.innerHTML = `${s.image ? `<img src="${esc(s.image)}" alt="${esc(s.game)}" loading="lazy">` : ''}
       <div class="body">
         <div class="text">${rewriteTextLinks(texts[s.id] || '')}</div>
@@ -459,7 +464,13 @@
   async function renderComments() {
     const month = currentMonth;
     document.getElementById('comments-list').innerHTML = '<p class="muted">Lade Kommentare …</p>';
-    const list = await getJSON(`data/du/comments/${month}.json`);
+    let list;
+    try { list = await getJSON(`data/du/comments/${month}.json`); } catch {
+      if (month !== currentMonth) return;
+      document.getElementById('comments-list').innerHTML =
+        `<p class="muted">Kommentare gibt es nur in der lokalen Version. <a href="${GG}${byMonth[month].url}#comments" target="_blank" rel="noopener">Kommentare auf GamersGlobal lesen ↗</a></p>`;
+      return;
+    }
     if (month !== currentMonth) return;
     document.getElementById('comments-list').innerHTML = list.length ? list.map(c => `
       <div class="comment">

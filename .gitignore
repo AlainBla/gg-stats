@@ -3,3 +3,7 @@ __pycache__/
 .venv/
 venv/
 .env
+
+# DU article texts and comments: local only, never on GitHub
+data/du/texts/
+data/du/comments/

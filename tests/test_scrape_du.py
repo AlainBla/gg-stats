@@ -13,6 +13,7 @@ from scrape_du import (
     build,
     save_outputs,
     load_raw,
+    months_missing_local_content,
 )
 
 
@@ -289,3 +290,12 @@ def test_save_outputs_splits_texts_and_comments_and_load_raw_roundtrips(tmp_path
     assert json.loads((tmp_path / "comments" / "2025-02.json").read_text()) == []
 
     assert load_raw(tmp_path) == sorted(galleries, key=lambda g: g["month"])
+
+
+def test_months_missing_local_content_detects_absent_texts_or_comments(tmp_path):
+    galleries = [_gallery("2025-01"), _gallery("2025-02"), _gallery("2025-03")]
+    save_outputs(build(galleries, overrides={}), tmp_path, now="x")
+    (tmp_path / "texts" / "2025-02.json").unlink()
+    (tmp_path / "comments" / "2025-03.json").unlink()
+
+    assert months_missing_local_content(tmp_path, ["2025-01", "2025-02", "2025-03"]) == {"2025-02", "2025-03"}
