@@ -99383,7 +99383,7 @@
     "month": "2026-09",
     "url": "/news/351449/darauf-freut-sich-die-redaktion-im-september-2026",
     "title": "Darauf freut sich die Redaktion im... September 2026",
-    "last_updated": "2026-10-05T18:21:07Z",
+    "last_updated": "2026-10-07T12:10:46Z",
     "comment_count": 94,
     "editors": [
       {
@@ -101208,8 +101208,8 @@
     "month": "2026-10",
     "url": "/news/352892/darauf-freut-sich-die-redaktion-im-oktober-2026",
     "title": "Darauf freut sich die Redaktion im... Oktober 2026",
-    "last_updated": "2026-10-05T18:21:06Z",
-    "comment_count": 43,
+    "last_updated": "2026-10-07T12:10:45Z",
+    "comment_count": 45,
     "editors": [
       {
         "name": "Jörg Langer",
@@ -101540,6 +101540,10 @@
         "text": "Serien: Ich freue mich auf VisionQuest. Und eine neue Simpsons-Staffel gibt's auch auf Disney+.\nFilme: Digger hat teils vernichtende Kritiken und ich mochte die bisherigen Filme des Regisseurs nicht. Aber auf den habe ich irgendwie Bock bzw. bin neugierig, was wirklich dahintersteckt. Resident Evil wird vielleicht noch nachgeholt, Street Fighter könnte ganz lustig sein und auf Clayface bin ich sehr gespannt.\nSpiele: Freue mich auf Switch Sports Resort, aber da es kurz vor meinem Urlaub (s. unten) erscheint, komme ich wahrscheinlich erst im November dazu. Auf Castlevania bin ich auch gespannt, ein guter neuer Tel der Reihe wäre fein.\nSonstiges: Ende Oktober/Anfang November geht es zum ersten Mal nach Japan!!! Da freue ich mich wahnsinnig drauf. Neben den üblichen Touristen-Hotspots stehen außerdem Teilnahem am Karate-Training im JKA-Dojo in Tokio und auf Okinawa an!\n\nDer hat ja auch das Masterschwert, so ist das kein fairer Kampf."
       },
       {
+        "username": "Brunt",
+        "text": "Tipp von mir:\nFalls Du auch Kyoto besuchst dann unbedingt auch den Tempel mit den 1001 Statuen (lebensgroße!) ansehen.\nFand ich sehr beeindruckend."
+      },
+      {
         "username": "Green Yoshi",
         "text": "Ich freue mich im Oktober darauf mit meinem Bruder, Schwägerin und Neffen ein paar Tage in Paris zu verbringen.\nIn puncto Spielen werde ich mir Star Wars: Galactic Racer mal anschauen."
       },
@@ -101550,6 +101554,10 @@
       {
         "username": "DerBesserwisser",
         "text": "[Filme/Serien]\nDie neue Staffel Slow Horses hat angefangen und macht wieder viel Spaß (auch wenn mir, die schon in der letzten Staffel verspürte, stärkere Hinwendung zum Albernen, nicht so ganz gefällt).\nMit der Angetrauten bin ich inzwischen in der dritten Staffel von Shrinking gelandet, sehr schöne Serie. Ist mir eigentlich etwas zu sehr FriedeFreudeEierkuchen, aber in der heutigen Zeit hat das inzwischen etwas mehr Reiz als früher.\nLastbutnotleast sehe ich Lichte am vorläufigen Ende des Tunnels mit meinem Hadern mit der orginalen Star Trek Serie. Aufgrund eines Wunsches von Nachuchs #3 machen wir eine Star Trek Retrospektive. Alles (halbwegs) chronologisch bis Voyager, mal sehen wie weit wir kommen. Ich sehe die Orginalserie jetzt auch zum ersten Mal und ich kann nur sagen #NotMyStarTrek. Den latenten Sexismus kann ich problemlos ignorieren (war halt eine andere Zeit) aber die halbgaren Plots sind oftmals schwer erträglich, besonders die Angewohnheit noch offene Handlungsfäden am Episodenende mit einem Nebensatz abzuwürgen. Aber immerhin korrigiert das Unterfangen so einige Falschannahmen meinerseits.\nAuf jeden Fall hat der Countdown für TOS begonnnen, noch 9 Folgen bis zum Ende der dritten Staffel, dann gehts mit der Animated Series weiter.\nAber noch kurz ein Lob an Paramount: Das man bei der Bluray-Box von TOS dem Kunden die Wahl lässt ob er die Serie im Orginal schauen möchten oder in der (mMn überflüssigen) überarbeiteten Variante , ist schon echt toll.\n[Spiele]\nDie aktuelle Herbstaktion bei gog hat meine Bibliothek schon um \"The Saboteur\", \"Mole\" und \"Well Dweller\" anschwellen lassen. Da Mole eher ein kurzes Vergüngen sein soll und ich in \"The Saboteur\" wahrscheinlich nur kurz reinspielen werde, werde ich wahrscheinlich den Großteil des Monats mit \"Well Dweller\" verbringen *freu*.\n[Buch]\nIch habe \"Kommisar Gennat ermittelt\" an die oberste Stelle meiner Wunschliste gesetzt und auch noch mit einem kleinen Ausrufezeichen versehen, habe also entsprechende Erwartungen, dass ich es neben dem Geburtstagskuchen vorfinden werde."
+      },
+      {
+        "username": "Maverick",
+        "text": "[Spiele] Gears of War - E-Day ab heute, in ein paar Tagen dann Valor Mortis, jeweils über den Ultimate GamePass auf Xbox Series X. Dazwischen noch paar Indie und Retro-Titel (weiter-)spielen auf Steam/Konsole/Evercade.\n[Filme/Serien] Project Hail Mary via Amazon Prime nachholen und ein paar Film-Klassiker (er)neu(t) anschauen auf Blu-Ray/4K-Ultra HD.\n[Sonstiges] GamersGlobal mit Inhalten befüllen (mit 100% Fan-Rabatt an der Zapfstelle). ^^"
       }
     ],
     "user_items": [
@@ -102125,6 +102133,27 @@
             "category": "misc"
           }
         ]
+      },
+      {
+        "username": "Maverick",
+        "items": [
+          {
+            "title": "Gears of War: E-Day",
+            "category": "game"
+          },
+          {
+            "title": "Valor Mortis",
+            "category": "game"
+          },
+          {
+            "title": "Der Astronaut - Project Hail Mary",
+            "category": "film_series"
+          },
+          {
+            "title": "GamersGlobal",
+            "category": "misc"
+          }
+        ]
       }
     ],
     "item_stats": {
@@ -102318,11 +102347,12 @@
         ]
       },
       "Valor Mortis": {
-        "count": 2,
+        "count": 3,
         "category": "game",
         "mentioners": [
           "editor:benjamin_braun",
-          "user:Flooraimer"
+          "user:Flooraimer",
+          "user:Maverick"
         ]
       },
       "Gamescom 2025": {
@@ -102365,11 +102395,12 @@
         ]
       },
       "Gears of War: E-Day": {
-        "count": 2,
+        "count": 3,
         "category": "game",
         "mentioners": [
           "editor:kai_schmidt",
-          "user:Flooraimer"
+          "user:Flooraimer",
+          "user:Maverick"
         ]
       },
       "Hellraiser - Revival": {
@@ -103158,6 +103189,20 @@
         "category": "misc",
         "mentioners": [
           "user:DerBesserwisser"
+        ]
+      },
+      "Der Astronaut - Project Hail Mary": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maverick"
+        ]
+      },
+      "GamersGlobal": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Maverick"
         ]
       }
     }

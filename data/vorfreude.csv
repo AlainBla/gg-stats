@@ -5871,13 +5871,13 @@ month,item_title,category,count,editor_count,user_count
 2026-10,Futurama,film_series,1,1,0
 2026-10,Marisa Tomei,game,1,1,0
 2026-10,Grand Theft Auto VI,game,1,1,0
-2026-10,Valor Mortis,game,2,1,1
+2026-10,Valor Mortis,game,3,1,2
 2026-10,Gamescom 2025,game,1,1,0
 2026-10,Ghostrunner,game,1,1,0
 2026-10,Street Fighter,film_series,5,2,3
 2026-10,Van Damme,film_series,1,1,0
 2026-10,The Terminal List,film_series,1,1,0
-2026-10,Gears of War: E-Day,game,2,1,1
+2026-10,Gears of War: E-Day,game,3,1,2
 2026-10,Hellraiser - Revival,film_series,1,1,0
 2026-10,Neagley,film_series,1,1,0
 2026-10,VisionQuest,film_series,2,1,1
@@ -5989,3 +5989,5 @@ month,item_title,category,count,editor_count,user_count
 2026-10,The Saboteur,game,1,0,1
 2026-10,Mole,game,1,0,1
 2026-10,Kommisar Gennat ermittelt,misc,1,0,1
+2026-10,Der Astronaut - Project Hail Mary,film_series,1,0,1
+2026-10,GamersGlobal,misc,1,0,1
