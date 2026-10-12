@@ -23064,9 +23064,9 @@
   },
   {
     "date": "2026-10-04",
-    "title": "Sonntagsfrage: Auf welches Spiel im 4. Quartal 2026 freut ihr euch am meisten?",
+    "title": "Sonntagsfrage: Auf welches Spiel im 4. Quartal 2026 freut ihr euch am meisten? [Ergebnis]",
     "votes": 398,
-    "url": "/news/353334/sonntagsfrage-auf-welches-spiel-im-4-quartal-2026-freut-ihr-euch-am-meisten",
+    "url": "/news/353334/sonntagsfrage-auf-welches-spiel-im-4-quartal-2026-freut-ihr-euch-am-meisten-ergebnis",
     "options": [
       {
         "label": "Gears of War - E-Day",
@@ -23132,6 +23132,29 @@
         "label": "Anderes",
         "votes": 51,
         "percent": 13.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "title": "Sonntagsfrage: Bestellt ihr Spiele vor?",
+    "votes": 394,
+    "url": "/news/353837/sonntagsfrage-bestellt-ihr-spiele-vor",
+    "options": [
+      {
+        "label": "Ja, kommt vor",
+        "votes": 189,
+        "percent": 48.0
+      },
+      {
+        "label": "Ausschließlich limitierte Editionen",
+        "votes": 47,
+        "percent": 12.0
+      },
+      {
+        "label": "Nein, noch nie",
+        "votes": 158,
+        "percent": 40.0
       }
     ]
   }
