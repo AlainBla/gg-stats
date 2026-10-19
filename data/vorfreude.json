@@ -99383,7 +99383,7 @@
     "month": "2026-09",
     "url": "/news/351449/darauf-freut-sich-die-redaktion-im-september-2026",
     "title": "Darauf freut sich die Redaktion im... September 2026",
-    "last_updated": "2026-10-12T18:55:47Z",
+    "last_updated": "2026-10-19T16:24:36Z",
     "comment_count": 94,
     "editors": [
       {
@@ -101208,7 +101208,7 @@
     "month": "2026-10",
     "url": "/news/352892/darauf-freut-sich-die-redaktion-im-oktober-2026",
     "title": "Darauf freut sich die Redaktion im... Oktober 2026",
-    "last_updated": "2026-10-12T18:55:46Z",
+    "last_updated": "2026-10-19T16:24:34Z",
     "comment_count": 52,
     "editors": [
       {
@@ -102193,8 +102193,8 @@
         "category": "film_series",
         "mentioners": [
           "editor:jörg_langer",
-          "user:KampfPlauze",
-          "user:Ganon"
+          "user:Ganon",
+          "user:KampfPlauze"
         ]
       },
       "Cloudpunk": {
@@ -102266,8 +102266,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:hagen_gehritz",
           "editor:benjamin_braun",
+          "editor:hagen_gehritz",
           "user:Sheerluck"
         ]
       },
@@ -102392,9 +102392,9 @@
         "mentioners": [
           "editor:kai_schmidt",
           "editor:michael_hengst",
-          "user:Hannes Herrmann",
           "user:Flooraimer",
-          "user:Ganon"
+          "user:Ganon",
+          "user:Hannes Herrmann"
         ]
       },
       "Van Damme": {
@@ -102624,8 +102624,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Moe90",
-          "user:Bruno Lawrie"
+          "user:Bruno Lawrie",
+          "user:Moe90"
         ]
       },
       "Widow's Bay": {
@@ -102793,9 +102793,9 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "user:euph",
+          "user:Ganon",
           "user:Robokopp",
-          "user:Ganon"
+          "user:euph"
         ]
       },
       "Crusader Kings 3 AddOn": {
@@ -102894,8 +102894,8 @@
         "category": "film_series",
         "mentioners": [
           "user:Alain",
-          "user:funrox",
-          "user:DerBesserwisser"
+          "user:DerBesserwisser",
+          "user:funrox"
         ]
       },
       "Schul-Herbstferien": {
@@ -102923,8 +102923,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:funrox",
-          "user:DerBesserwisser"
+          "user:DerBesserwisser",
+          "user:funrox"
         ]
       },
       "Ted Lasso": {

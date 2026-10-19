@@ -23137,9 +23137,9 @@
   },
   {
     "date": "2026-10-11",
-    "title": "Sonntagsfrage: Bestellt ihr Spiele vor?",
+    "title": "Sonntagsfrage: Bestellt ihr Spiele vor? [Ergebnis]",
     "votes": 394,
-    "url": "/news/353837/sonntagsfrage-bestellt-ihr-spiele-vor",
+    "url": "/news/353837/sonntagsfrage-bestellt-ihr-spiele-vor-ergebnis",
     "options": [
       {
         "label": "Ja, kommt vor",
@@ -23155,6 +23155,29 @@
         "label": "Nein, noch nie",
         "votes": 158,
         "percent": 40.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Sonntagsfrage: Qualitäts- oder Performance-Modus, was bevorzugt ihr?",
+    "votes": 401,
+    "url": "/news/354365/sonntagsfrage-qualitaets-oder-performance-modus-was-bevorzugt-ihr",
+    "options": [
+      {
+        "label": "Grafikqualität schlägt alles",
+        "votes": 132,
+        "percent": 33.0
+      },
+      {
+        "label": "Performance ist am wichtigsten",
+        "votes": 156,
+        "percent": 39.0
+      },
+      {
+        "label": "Ich wähle wenn möglich \"Ausgeglichen\" mit 40 fps",
+        "votes": 113,
+        "percent": 28.0
       }
     ]
   }
