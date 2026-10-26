@@ -23160,9 +23160,9 @@
   },
   {
     "date": "2026-10-18",
-    "title": "Sonntagsfrage: Qualitäts- oder Performance-Modus, was bevorzugt ihr?",
+    "title": "Sonntagsfrage: Qualitäts- oder Performance-Modus, was bevorzugt ihr? [Ergebnis]",
     "votes": 401,
-    "url": "/news/354365/sonntagsfrage-qualitaets-oder-performance-modus-was-bevorzugt-ihr",
+    "url": "/news/354365/sonntagsfrage-qualitaets-oder-performance-modus-was-bevorzugt-ihr-ergebnis",
     "options": [
       {
         "label": "Grafikqualität schlägt alles",
@@ -23178,6 +23178,29 @@
         "label": "Ich wähle wenn möglich \"Ausgeglichen\" mit 40 fps",
         "votes": 113,
         "percent": 28.0
+      }
+    ]
+  },
+  {
+    "date": "2026-10-25",
+    "title": "Sonntagsfrage: Auf welchem Schwierigkeitsgrad spielt ihr meistens?",
+    "votes": 513,
+    "url": "/news/354943/sonntagsfrage-auf-welchem-schwierigkeitsgrad-spielt-ihr-meistens",
+    "options": [
+      {
+        "label": "Schwerer als Standard",
+        "votes": 50,
+        "percent": 10.0
+      },
+      {
+        "label": "Standard",
+        "votes": 343,
+        "percent": 67.0
+      },
+      {
+        "label": "Leichter als Standard",
+        "votes": 120,
+        "percent": 23.0
       }
     ]
   }
