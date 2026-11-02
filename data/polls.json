@@ -23203,5 +23203,98 @@
         "percent": 23.0
       }
     ]
+  },
+  {
+    "date": "2026-11-01",
+    "title": "Sonntagsfrage: Welches The Legend of Zelda war bisher das beste?",
+    "votes": 424,
+    "url": "/news/355411/sonntagsfrage-welches-the-legend-of-zelda-war-bisher-das-beste",
+    "options": [
+      {
+        "label": "The Legend of Zelda",
+        "votes": 9,
+        "percent": 2.0
+      },
+      {
+        "label": "Zelda 2 - The Adventure of Link",
+        "votes": 1,
+        "percent": 0.0
+      },
+      {
+        "label": "A Link to the Past",
+        "votes": 104,
+        "percent": 25.0
+      },
+      {
+        "label": "Link's Awakening",
+        "votes": 29,
+        "percent": 7.0
+      },
+      {
+        "label": "Ocarina of Time",
+        "votes": 58,
+        "percent": 14.0
+      },
+      {
+        "label": "Majora's Mask",
+        "votes": 6,
+        "percent": 1.0
+      },
+      {
+        "label": "Oracle of Seasons/Ages",
+        "votes": 1,
+        "percent": 0.0
+      },
+      {
+        "label": "The Wind Waker",
+        "votes": 15,
+        "percent": 4.0
+      },
+      {
+        "label": "The Minish Cap",
+        "votes": 6,
+        "percent": 1.0
+      },
+      {
+        "label": "Twilight Princess",
+        "votes": 13,
+        "percent": 3.0
+      },
+      {
+        "label": "Phantom Hourglass/Spirit Tracks",
+        "votes": 2,
+        "percent": 0.0
+      },
+      {
+        "label": "Skyward Sword",
+        "votes": 1,
+        "percent": 0.0
+      },
+      {
+        "label": "A Link Between Worlds",
+        "votes": 6,
+        "percent": 1.0
+      },
+      {
+        "label": "Breath of the Wild",
+        "votes": 80,
+        "percent": 19.0
+      },
+      {
+        "label": "Tears of the Kingdom",
+        "votes": 11,
+        "percent": 3.0
+      },
+      {
+        "label": "Ein anderes Zelda-Spiel",
+        "votes": 1,
+        "percent": 0.0
+      },
+      {
+        "label": "Hab ich nie gespielt / Werde damit nicht warm",
+        "votes": 81,
+        "percent": 19.0
+      }
+    ]
   }
 ]

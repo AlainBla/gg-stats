@@ -101208,7 +101208,7 @@
     "month": "2026-10",
     "url": "/news/352892/darauf-freut-sich-die-redaktion-im-oktober-2026",
     "title": "Darauf freut sich die Redaktion im... Oktober 2026",
-    "last_updated": "2026-10-26T16:03:55Z",
+    "last_updated": "2026-11-02T19:26:02Z",
     "comment_count": 52,
     "editors": [
       {
@@ -101908,7 +101908,7 @@
             "category": "game"
           },
           {
-            "title": "World of Warcraft-Forever",
+            "title": "World of WarCraft - Forever",
             "category": "game"
           },
           {
@@ -102193,8 +102193,8 @@
         "category": "film_series",
         "mentioners": [
           "editor:jörg_langer",
-          "user:Ganon",
-          "user:KampfPlauze"
+          "user:KampfPlauze",
+          "user:Ganon"
         ]
       },
       "Cloudpunk": {
@@ -102266,8 +102266,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:hagen_gehritz",
+          "editor:benjamin_braun",
           "user:Sheerluck"
         ]
       },
@@ -102392,9 +102392,9 @@
         "mentioners": [
           "editor:kai_schmidt",
           "editor:michael_hengst",
+          "user:Hannes Herrmann",
           "user:Flooraimer",
-          "user:Ganon",
-          "user:Hannes Herrmann"
+          "user:Ganon"
         ]
       },
       "Van Damme": {
@@ -102624,8 +102624,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Bruno Lawrie",
-          "user:Moe90"
+          "user:Moe90",
+          "user:Bruno Lawrie"
         ]
       },
       "Widow's Bay": {
@@ -102793,9 +102793,9 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "user:Ganon",
+          "user:euph",
           "user:Robokopp",
-          "user:euph"
+          "user:Ganon"
         ]
       },
       "Crusader Kings 3 AddOn": {
@@ -102894,8 +102894,8 @@
         "category": "film_series",
         "mentioners": [
           "user:Alain",
-          "user:DerBesserwisser",
-          "user:funrox"
+          "user:funrox",
+          "user:DerBesserwisser"
         ]
       },
       "Schul-Herbstferien": {
@@ -102923,8 +102923,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:DerBesserwisser",
-          "user:funrox"
+          "user:funrox",
+          "user:DerBesserwisser"
         ]
       },
       "Ted Lasso": {
@@ -102962,7 +102962,7 @@
           "user:Maestro84"
         ]
       },
-      "World of Warcraft-Forever": {
+      "World of WarCraft - Forever": {
         "count": 1,
         "category": "game",
         "mentioners": [
@@ -103234,6 +103234,1304 @@
         "category": "misc",
         "mentioners": [
           "user:AlexCartman"
+        ]
+      }
+    }
+  },
+  {
+    "month": "2026-11",
+    "url": "/news/354802/darauf-freut-sich-die-redaktion-im-november-2026",
+    "title": "Darauf freut sich die Redaktion im... November 2026",
+    "last_updated": "2026-11-02T19:26:01Z",
+    "comment_count": 27,
+    "editors": [
+      {
+        "name": "Jörg Langer",
+        "items": [
+          {
+            "title": "4 Blocks Zero",
+            "category": "film_series"
+          },
+          {
+            "title": "Godzilla Minus Zero",
+            "category": "film_series"
+          },
+          {
+            "title": "Godzilla Minus One",
+            "category": "film_series"
+          },
+          {
+            "title": "20th Anniversary Edition",
+            "category": "game"
+          },
+          {
+            "title": "War of the Rings",
+            "category": "game"
+          },
+          {
+            "title": "Hardy Heßdörfer",
+            "category": "game"
+          },
+          {
+            "title": "APB",
+            "category": "game"
+          },
+          {
+            "title": "Ocarina of Time",
+            "category": "game"
+          },
+          {
+            "title": "Die 80er Jahre",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "name": "Hagen Gehritz",
+        "items": [
+          {
+            "title": "Wildwood",
+            "category": "film_series"
+          },
+          {
+            "title": "The Legend of Zelda - Ocarina of Time",
+            "category": "game"
+          },
+          {
+            "title": "Grand Theft Auto VI",
+            "category": "game"
+          },
+          {
+            "title": "Derelikt",
+            "category": "game"
+          },
+          {
+            "title": "Problaby Stolen - Cyberpunk Shopkeeper Simulator",
+            "category": "game"
+          },
+          {
+            "title": "Papers Please",
+            "category": "game"
+          },
+          {
+            "title": "Gothic Remake Letsplay",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "name": "Benjamin Braun",
+        "items": [
+          {
+            "title": "I Play Rocky",
+            "category": "film_series"
+          },
+          {
+            "title": "Sylvester Stallone",
+            "category": "film_series"
+          },
+          {
+            "title": "Peter Farrelly",
+            "category": "film_series"
+          },
+          {
+            "title": "Scrubs",
+            "category": "film_series"
+          },
+          {
+            "title": "The Legend of Zelda - Ocarina of Time",
+            "category": "game"
+          },
+          {
+            "title": "Grand Theft Auto VI",
+            "category": "game"
+          },
+          {
+            "title": "Grand Theft Auto III",
+            "category": "game"
+          },
+          {
+            "title": "Grand Theft Auto IV",
+            "category": "game"
+          },
+          {
+            "title": "Red Dead Redemption 2",
+            "category": "game"
+          },
+          {
+            "title": "Grand Theft Auto V",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "name": "Kai Schmidt",
+        "items": [
+          {
+            "title": "Godzilla Minus Zero",
+            "category": "film_series"
+          },
+          {
+            "title": "Beware Boiúna",
+            "category": "film_series"
+          },
+          {
+            "title": "The Legend of Zelda - Ocarina of Time",
+            "category": "game"
+          },
+          {
+            "title": "Grand Theft Auto VI",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "name": "Christian Burtchen",
+        "items": [
+          {
+            "title": "How to",
+            "category": "film_series"
+          },
+          {
+            "title": "Rob a Bank",
+            "category": "film_series"
+          },
+          {
+            "title": "Der Herr der Ringe: Die Ringe der Macht",
+            "category": "film_series"
+          },
+          {
+            "title": "Grand Theft Auto VI",
+            "category": "game"
+          },
+          {
+            "title": "Dawn of War 4",
+            "category": "game"
+          },
+          {
+            "title": "World of WarCraft - Forever",
+            "category": "game"
+          },
+          {
+            "title": "Football Manager",
+            "category": "game"
+          },
+          {
+            "title": "Copa City",
+            "category": "game"
+          },
+          {
+            "title": "Faust 2",
+            "category": "misc"
+          },
+          {
+            "title": "Autobiography of Red",
+            "category": "misc"
+          },
+          {
+            "title": "Make me",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "name": "Michael Hengst",
+        "items": [
+          {
+            "title": "Jimmy",
+            "category": "film_series"
+          },
+          {
+            "title": "James „Jimmy“ Stewart",
+            "category": "game"
+          },
+          {
+            "title": "KJ Apa",
+            "category": "game"
+          },
+          {
+            "title": "Blade Runner 2099",
+            "category": "film_series"
+          },
+          {
+            "title": "Harrison Ford",
+            "category": "game"
+          },
+          {
+            "title": "Der Herr der Ringe: Die Ringe der Macht",
+            "category": "film_series"
+          },
+          {
+            "title": "Ocarina of Time",
+            "category": "game"
+          },
+          {
+            "title": "Frederick Forsyth",
+            "category": "misc"
+          },
+          {
+            "title": "This Immortal",
+            "category": "misc"
+          },
+          {
+            "title": "Roger Zelanzy",
+            "category": "misc"
+          },
+          {
+            "title": "Dune",
+            "category": "film_series"
+          },
+          {
+            "title": "Frank Herbert",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "name": "Jens Bremicker",
+        "items": [
+          {
+            "title": "Wildwood",
+            "category": "film_series"
+          },
+          {
+            "title": "Coraline",
+            "category": "game"
+          },
+          {
+            "title": "World of WarCraft - Forever",
+            "category": "game"
+          },
+          {
+            "title": "Grand Theft Auto VI",
+            "category": "game"
+          },
+          {
+            "title": "Games Ground",
+            "category": "misc"
+          }
+        ]
+      }
+    ],
+    "comments_raw": [
+      {
+        "username": "Hagen Gehritz",
+        "text": "Und worauf freut ihr euch?\n\nAh, von dem Autor schlummert noch Hologrammatica auf dem eReader."
+      },
+      {
+        "username": "Toxoplasmaa",
+        "text": "Ganz einfach! WoW Forever! For the Alliance!"
+      },
+      {
+        "username": "Mario",
+        "text": "Auf Ocarina of Time. Den Pro Controller und die Ocarina habe ich schon zuhause und mich allein darüber schon sehr gefreut. Jetzt folgt in Kürze das Spiel.\n\nIch hab die Deekec Alt C 12 Loch Ocarina in schönem Dunkelblau mit Zelda Liederbuch genommen. Ich bin kein Experte für instrumente und hab die einfach auf gut Glück gekauft. Dachte mir die 25€ kann ich schon mal riskieren. Ist ganz lustig. Das feature hat mich bei der Nintendo Direct überrascht :)"
+      },
+      {
+        "username": "Harry67",
+        "text": "Welch Ocarina hast du denn gewählt? Da scheint es doch einige Anbieter zu geben..."
+      },
+      {
+        "username": "euph",
+        "text": "Der November steht vermutlich im Zeichen von Link. Ocarina of Time sollte am Donnerstag hier eintreffen und mich endlich von\nVampire Crawlers: The Turbo Wildcard from Vampire Survivors losreißen. Ansonsten hole ich nebenbei Shadow of the Colossos nach.\nIn Sachen Serien sind wir noch bei der vierten Staffel von FAUDA, die auch immer noch gut unterhält.\nBei den Brettspielen bin ich noch in Heredity dabei Swan zu retten und freue mich auf das neue Batman City Crimes von Kosmos, das diese Woche auch kommen soll."
+      },
+      {
+        "username": "Sheerluck",
+        "text": "Im November steht bei mir eigentlich nur Zelda - Ocarina of Time an. Die Switch 2 im passenden Look ist schon da und das aktuelle Fire Emblem muss für Link natürlich eine Weile pausieren :) Zumindest für mich wird das ein ruhiger Monat."
+      },
+      {
+        "username": "Danywilde",
+        "text": "Im November freue ich mich auf den neuen Xavier Kieffer Roman von Tom Hillenbrand.\nSpieltechnisch werde ich mir wohl Silver Pines und Opinionated Pool, einen Pool of Radiance Remake mit modernerer Grafik und einiges QoL-Verbesserungen, anschauen.\n\nDas finde ich auch sehr gut, im gleichen Universum spielen dann auch Crasher und Qube. Der letzte Buch in dem Universum Thanaropia gefiel mir dann leider nicht so gut, es war irgendwie zerfasert.\n\nIch drücke Dir fest die Daumen für die Wohnungssuche!"
+      },
+      {
+        "username": "Hermann Nasenweier",
+        "text": "Danke für den Hinweis auf Opinionated Pool, das sieht interessant aus.\n\nDer November ist bei mir erstmal Gammelmonat. Nach mehreren Monaten gefüllt mit Arbeit, will ich mal etwas kürzer treten. Vermutlich klappt das nicht lange, aber vielleicht halte ich es noch etwas durch um mich dann in den Urlaub zu flüchten.\nAnsonsten stehen einige Lebenserhaltende Massnahmen an. Ein Amiga 2000 mit Batterieschaden ist wiederzubeleben, Bei zwei Commodorer PET gilt es das Netzteil zu chekcne (Entstörkondensatoren) und zu schauen was sonst noch zu reparieren ist. Achja, ich müsste meinem Bruder noch das GameGear Layout raussuchen, damit er einen ReCap für mich machen kann. Hm, doch wieder viel zu tun ….\nSpieleseitig bin ich noch unschlüssig. Battle Isle auf dem Amiga wartet noch auf den Abschluss, auch wollte ich nochmal in Monkey Island 1 reinschauen. Auf modernerer Seite hab ich vor einer Woche mal wieder in World of Tanks geschaut und plane einige Runden darin zu verbringen.\nUnd das Evercade Nexus ist verfügbar und ich bin sehr begeistert davon. Zeit mal wieder einige Cartridges einzuwerfen und etwas in Nostalgie schwelgen.\nZum Lesen freue ich mich auf die neue RetroGamer, die ja bald kommen sollte. Und ich lese das Monkey Island Buch, was mich gut unterhält. Deswegen auch der Trip zurück am Amiga. Fun Fakt: Ich hab es auch malkurz auf einem 286er mit Hercules Grafik und PC Piepser angespielt. War …. äh …. interessant :)"
+      },
+      {
+        "username": "Crizzo",
+        "text": "GTA 6 definitiv...also falls die PS5 Version nicht totaler Quark ist. Ansonsten freue ich mich auf meinen neuen Racing Seat. Bin wohl im Komfortliebenden Alter angekommen :D\n--\nSerien definitiv die neue Staffel von Die Ringe der Macht. Und dank Jörg schau ich mal in 4 Blocks Zero rein. Zudem ist aktuell ein Rewatch von Breaking Bad dran.\n--\nDer Herr der Ringe wird weitergelesen und im Kino vielleicht Clayface"
+      },
+      {
+        "username": "KampfPlauze",
+        "text": "TLoZ: OoT Remake, meine Zelda Switch 2 steht schon parat :)"
+      },
+      {
+        "username": "Klexter",
+        "text": "Ich warte bei GTA 6 auf die PC Version, 30 FPS tue ich mir sicher nicht mehr an. Es sei denn, sie bieten mindestens 40 auf der Pro an, dann überlege ich mir das nochmal. Glaube ich aber nicht. Gerade so ein Spiel muss man einfach mit mindestens 60 FPS genießen in meinen Augen.\nDa mich Zelda nicht interessiert, ist der November tatsächlich langweilig.\nBei den Serien freue ich mich aber sehr auf die weiteren neuen Folgen der 2. Staffel von Dexter Resurrection."
+      },
+      {
+        "username": "Green Yoshi",
+        "text": "Ich fahre am Samstag mit den Kollegen aus dem Nachwuchskreis des Ministeriums für eine Woche nach Wien. An einem Tag geht es auch nach Bratislava. Hab einen Besuch bei ESET organisiert. Darauf freue ich mich.\nAnsonsten freue ich mich diesen Monat noch auf das ATP Masters in Paris und die ATP Finals in Turin. Nach über 35 Jahren ist wieder ein Deutscher an der Spitze der Weltrangliste im Tennis. Außerdem beginnt Ende November die neue Weltcup-Saison im Skispringen.\nIn puncto Spiele werden mich vor allem Ocarine of Time und GTA VI beschäftigen. Außerdem habe ich mit dem Evercade Nexus neue Hardware, auf der ich aktuell einen ganz neuen Port von Banjo & Kazooie spiele.\n\nWir sind leider nur mittlerer und gehobener Dienst. ;-)"
+      },
+      {
+        "username": "Maestro84",
+        "text": "Welche Farbe wird dein Armband haben?\n\nDer November ist der beste Monat, dieses Jahr besonders, weil mit The Legend of Zelda - Ocarina of Time die dritte Inkarnation des besten Spiels aller Zeiten erscheint. Ich bin ja nur alle drei Ewigkeiten gehypt, jetzt ist es soweit. Ebenfalls freue ich mich auf World of Warcraft - Forever, was eigentlich traurig ist, denn moderne Spiele packen mich kaum noch, aber zwei alte \"Klassiker\" schon. GTA 6 lässt mich hingegen kalt wie der fünfte Teil, da nervt mich der Hype, nach dem angeblich Jeder und seine MILF auf das, ebenfalls angeblich, beste Spiel seit Jesu Geburt warten. Wird wohl genug Podcasts im November geben, die ich erst gar nicht runterladen brauche.\nSerientechnisch wird da nicht viel laufen bis auf die das erneute Schauen der dritten Staffel von Stargate SG1. Außerdem ist dieses Jahr mal wieder das Doppel Blade Runner samt 2049 dran, da nehme ich sicher im Dezember die neue Miniserie mit. Im Kino habe ich bislang keine Pläne, aber Dank mehrerer Blutspendefreikarten kann ich da spontan für lau hin. Vielleicht sogar in den neuen Panem und Godzilla."
+      },
+      {
+        "username": "Tschingderassa Bumm",
+        "text": "Bezieht sich die BUMS-fröhliche Kaffeefahrt der Ergo-Versicherung nach Budapest? :-D"
+      },
+      {
+        "username": "Keppel",
+        "text": "Erstmal kommt übermorgen WoW Forever. Ocarina of Time kommt erst unter dem Weihnachtsbaum.\nBei Filmen und Serien muss ich erstmal einiges abarbeiten, bevor Platz für neues da ist -;) Die letzte Staffel von Reacher und Visionquest steht erst noch an."
+      },
+      {
+        "username": "Berndor",
+        "text": "Ich freue mich auf Underkeep am Donnerstag, den Rest des Monats bestreite ich ansonsten erstmal weiter mit Legend of Heroes SC. Die anderen hier genannten Hype-Titel interessieren mich tatsächlich überhaupt nicht."
+      },
+      {
+        "username": "John of Gaunt",
+        "text": "Spiele: Ocarina of Time ist Pflichtprogramm. Und je nachdem wie lange mich das beschäftigt hole ich mir noch im November GTA 6 oder erst dann für den Weihnachtsurlaub - wobei ich sogar fast generell dazu neige, letzteres zu machen und die Zwischenzeit mit etwas anderem zu füllen.\nFilme/Serien: Habe mir vorgenommen Haus des Geldes nochmal zu schauen, da fehlt mir noch die letzte Staffel und ich kann mich an den Rest nicht mehr erinnern."
+      },
+      {
+        "username": "Q-Bert",
+        "text": "Das Highlight im Oktober war, dass ich zufällig GG-User Jürgen auf der StayForever Con in Hannover getroffen habe. Ein Fest! :) Ob der November das toppen kann?\n[BUCH]\n\"He who fights with monsters\", inzwischen Band 3 von 13. Und das sind richtig dicker Bücher, aber es macht Spaß, jeden Abend 1-2 Kapitel zu lesen.\n[GAME]\nMal schauen... GTA V ist ja ein Akronym für für \"Geht Total Amarsch Vorbei\". GTA VI ist dann dasselbe mit kapitalem I (VorbeI). Aber es kommen ein paar interessante kleine Rundentaktiktitel, die hier keiner kennt. Vielleicht komme ich mal wieder dazu, ein paar davon im Rahmen der DU vorzustellen.\n[BEWEGTBILD]\nMal in VisionQuest reinschauen."
+      },
+      {
+        "username": "Sokar",
+        "text": "[SPIELE/BRETTSPIELE]\nKeine Änderung in dieser Hinsicht, weil immer noch ohne eigene Wohnung/PC und Fire Emblem Fortune'^s Weave will einfach nicht weiter enden. Ich jetzt 47h drin und habe den Pfad von Theodora abgeschlossen und bin bei Dietrich in Kapitel 8. Ich will zumindest noch den Pfad von Leda spielen, ob ich mich zu Cai durchringen kann, weiß ich noch nicht. Weil der zweite Teil kommt ja auch noch. Alles, was mit Story zu tun hat, finde ich gut, wenn auch nicht auf dem Niveau von Three Houses. Alles zwischen ist anstrengendes abarbeiten von eintönigen Aufgaben.\nEinzig neues wäre Theos, was am 4.11. erscheint. Demo hat mir gefallen, aber läuft nicht so toll auf meinem Notebook (muss da immer aufpassen, dass die Spiele nicht nativ laufen, weil die Bildschirmauflösung so hoch ist - mit meiner Schmerzgrenze Full-HD wurde es aber nur marginal besser). Je nach Preis könnte ich trotzdem zuschlagen, aber dann eher als Support für die Entwickler, spielen wird erst nächstes Jahr drin sein.\n[FILME/SERIEN]\nWeiter mit StarGate: Atlatnis, der Episoden-Counter steht bei S3E16. Hat sich auch nichts geändert: Gegenüber SG1 zu viel Fi und zu wenig Sci, die Erdung fehlt mir. Und mit dem Team werde ich weiter nicht so richtig warm, ist nicht dieselbe Chemie wie bei SG1. Gibt gelegentliche Lichtblicke, aber nichts Dauerhaftes.\n[SONSTIGES]\nWohnungssuche ist überall ein Glücksspiel. Sieht aktuell aber gut aus, dass ich ab nächstes Jahr wieder in eigenen Wänden wohne. In Miete natürlich.\nUnd mit einer ehemaligen Firma zu sprechen kann ziemlich desillusionieren sein.\n\nHab noch vergessen, dass ich die Zeit im ÖPNV aktuell mit dem zweiten Roman von The Expanse verbringe. Bin gehooked."
+      }
+    ],
+    "user_items": [
+      {
+        "username": "Hagen Gehritz",
+        "items": [
+          {
+            "title": "Hologrammatica",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Toxoplasmaa",
+        "items": [
+          {
+            "title": "World of WarCraft - Forever",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Mario",
+        "items": [
+          {
+            "title": "Ocarina of Time",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "euph",
+        "items": [
+          {
+            "title": "Ocarina of Time",
+            "category": "game"
+          },
+          {
+            "title": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+            "category": "game"
+          },
+          {
+            "title": "Shadow of the Colossos",
+            "category": "game"
+          },
+          {
+            "title": "Fauda",
+            "category": "film_series"
+          },
+          {
+            "title": "Heredity",
+            "category": "game"
+          },
+          {
+            "title": "Batman City Crimes",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Sheerluck",
+        "items": [
+          {
+            "title": "Zelda - Ocarina of Time",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Danywilde",
+        "items": [
+          {
+            "title": "Xavier Kieffer Roman von Tom Hillenbrand",
+            "category": "misc"
+          },
+          {
+            "title": "Silver Pines",
+            "category": "game"
+          },
+          {
+            "title": "Opinionated Pool",
+            "category": "game"
+          },
+          {
+            "title": "Pool of Radiance Remake",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Hermann Nasenweier",
+        "items": [
+          {
+            "title": "Opinionated Pool",
+            "category": "game"
+          },
+          {
+            "title": "Battle Isle",
+            "category": "game"
+          },
+          {
+            "title": "Monkey Island 1",
+            "category": "game"
+          },
+          {
+            "title": "World of Tanks",
+            "category": "game"
+          },
+          {
+            "title": "Evercade Nexus",
+            "category": "game"
+          },
+          {
+            "title": "RetroGamer",
+            "category": "misc"
+          },
+          {
+            "title": "Monkey Island Buch",
+            "category": "misc"
+          }
+        ]
+      },
+      {
+        "username": "Crizzo",
+        "items": [
+          {
+            "title": "Grand Theft Auto VI",
+            "category": "game"
+          },
+          {
+            "title": "Racing Seat",
+            "category": "misc"
+          },
+          {
+            "title": "Der Herr der Ringe: Die Ringe der Macht",
+            "category": "film_series"
+          },
+          {
+            "title": "4 Blocks Zero",
+            "category": "film_series"
+          },
+          {
+            "title": "Breaking Bad",
+            "category": "film_series"
+          },
+          {
+            "title": "Der Herr der Ringe",
+            "category": "misc"
+          },
+          {
+            "title": "Clayface",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "KampfPlauze",
+        "items": [
+          {
+            "title": "TLoZ: OoT Remake",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Klexter",
+        "items": [
+          {
+            "title": "Grand Theft Auto VI",
+            "category": "game"
+          },
+          {
+            "title": "Dexter Resurrection",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Green Yoshi",
+        "items": [
+          {
+            "title": "Ocarine of Time",
+            "category": "game"
+          },
+          {
+            "title": "Grand Theft Auto VI",
+            "category": "game"
+          },
+          {
+            "title": "Evercade Nexus",
+            "category": "misc"
+          },
+          {
+            "title": "Banjo & Kazooie",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "Maestro84",
+        "items": [
+          {
+            "title": "The Legend of Zelda - Ocarina of Time",
+            "category": "game"
+          },
+          {
+            "title": "World of WarCraft - Forever",
+            "category": "game"
+          },
+          {
+            "title": "Stargate SG1",
+            "category": "film_series"
+          },
+          {
+            "title": "Blade Runner",
+            "category": "film_series"
+          },
+          {
+            "title": "Blade Runner 2049",
+            "category": "film_series"
+          },
+          {
+            "title": "Panem",
+            "category": "film_series"
+          },
+          {
+            "title": "Godzilla",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Keppel",
+        "items": [
+          {
+            "title": "WoW Forever",
+            "category": "game"
+          },
+          {
+            "title": "Ocarina of Time",
+            "category": "game"
+          },
+          {
+            "title": "Reacher",
+            "category": "film_series"
+          },
+          {
+            "title": "Visionquest",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Berndor",
+        "items": [
+          {
+            "title": "Underkeep",
+            "category": "game"
+          },
+          {
+            "title": "Legend of Heroes SC",
+            "category": "game"
+          }
+        ]
+      },
+      {
+        "username": "John of Gaunt",
+        "items": [
+          {
+            "title": "Ocarina of Time",
+            "category": "game"
+          },
+          {
+            "title": "Grand Theft Auto VI",
+            "category": "game"
+          },
+          {
+            "title": "Haus des Geldes",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Q-Bert",
+        "items": [
+          {
+            "title": "He who fights with monsters",
+            "category": "misc"
+          },
+          {
+            "title": "VisionQuest",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "Sokar",
+        "items": [
+          {
+            "title": "Theos",
+            "category": "game"
+          },
+          {
+            "title": "The Expanse",
+            "category": "film_series"
+          }
+        ]
+      }
+    ],
+    "item_stats": {
+      "4 Blocks Zero": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jörg_langer",
+          "user:Crizzo"
+        ]
+      },
+      "Godzilla Minus Zero": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jörg_langer",
+          "editor:kai_schmidt"
+        ]
+      },
+      "Godzilla Minus One": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:jörg_langer"
+        ]
+      },
+      "20th Anniversary Edition": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jörg_langer"
+        ]
+      },
+      "War of the Rings": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jörg_langer"
+        ]
+      },
+      "Hardy Heßdörfer": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jörg_langer"
+        ]
+      },
+      "APB": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jörg_langer"
+        ]
+      },
+      "Ocarina of Time": {
+        "count": 6,
+        "category": "game",
+        "mentioners": [
+          "editor:jörg_langer",
+          "editor:michael_hengst",
+          "user:Mario",
+          "user:euph",
+          "user:Keppel",
+          "user:John of Gaunt"
+        ]
+      },
+      "Die 80er Jahre": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jörg_langer"
+        ]
+      },
+      "Wildwood": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "editor:hagen_gehritz",
+          "editor:jens_bremicker"
+        ]
+      },
+      "The Legend of Zelda - Ocarina of Time": {
+        "count": 4,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun",
+          "editor:kai_schmidt",
+          "user:Maestro84"
+        ]
+      },
+      "Grand Theft Auto VI": {
+        "count": 9,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz",
+          "editor:benjamin_braun",
+          "editor:kai_schmidt",
+          "editor:christian_burtchen",
+          "editor:jens_bremicker",
+          "user:Crizzo",
+          "user:Klexter",
+          "user:Green Yoshi",
+          "user:John of Gaunt"
+        ]
+      },
+      "Derelikt": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Problaby Stolen - Cyberpunk Shopkeeper Simulator": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Papers Please": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "Gothic Remake Letsplay": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:hagen_gehritz"
+        ]
+      },
+      "I Play Rocky": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Sylvester Stallone": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Peter Farrelly": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Scrubs": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Grand Theft Auto III": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Grand Theft Auto IV": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Red Dead Redemption 2": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Grand Theft Auto V": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:benjamin_braun"
+        ]
+      },
+      "Beware Boiúna": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:kai_schmidt"
+        ]
+      },
+      "How to": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Rob a Bank": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Der Herr der Ringe: Die Ringe der Macht": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "editor:christian_burtchen",
+          "editor:michael_hengst",
+          "user:Crizzo"
+        ]
+      },
+      "Dawn of War 4": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "World of WarCraft - Forever": {
+        "count": 4,
+        "category": "game",
+        "mentioners": [
+          "editor:christian_burtchen",
+          "editor:jens_bremicker",
+          "user:Toxoplasmaa",
+          "user:Maestro84"
+        ]
+      },
+      "Football Manager": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Copa City": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Faust 2": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Autobiography of Red": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Make me": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "editor:christian_burtchen"
+        ]
+      },
+      "Jimmy": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "James „Jimmy“ Stewart": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "KJ Apa": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Blade Runner 2099": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Harrison Ford": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Frederick Forsyth": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "This Immortal": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Roger Zelanzy": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Dune": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Frank Herbert": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "editor:michael_hengst"
+        ]
+      },
+      "Coraline": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "editor:jens_bremicker"
+        ]
+      },
+      "Games Ground": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "editor:jens_bremicker"
+        ]
+      },
+      "Hologrammatica": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Hagen Gehritz"
+        ]
+      },
+      "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Shadow of the Colossos": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Fauda": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Heredity": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Batman City Crimes": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:euph"
+        ]
+      },
+      "Zelda - Ocarina of Time": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sheerluck"
+        ]
+      },
+      "Xavier Kieffer Roman von Tom Hillenbrand": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Danywilde"
+        ]
+      },
+      "Silver Pines": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Danywilde"
+        ]
+      },
+      "Opinionated Pool": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Danywilde",
+          "user:Hermann Nasenweier"
+        ]
+      },
+      "Pool of Radiance Remake": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Danywilde"
+        ]
+      },
+      "Battle Isle": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hermann Nasenweier"
+        ]
+      },
+      "Monkey Island 1": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hermann Nasenweier"
+        ]
+      },
+      "World of Tanks": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Hermann Nasenweier"
+        ]
+      },
+      "Evercade Nexus": {
+        "count": 2,
+        "category": "game",
+        "mentioners": [
+          "user:Hermann Nasenweier",
+          "user:Green Yoshi"
+        ]
+      },
+      "RetroGamer": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Hermann Nasenweier"
+        ]
+      },
+      "Monkey Island Buch": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Hermann Nasenweier"
+        ]
+      },
+      "Racing Seat": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Breaking Bad": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Der Herr der Ringe": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "Clayface": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Crizzo"
+        ]
+      },
+      "TLoZ: OoT Remake": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:KampfPlauze"
+        ]
+      },
+      "Dexter Resurrection": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Klexter"
+        ]
+      },
+      "Ocarine of Time": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Banjo & Kazooie": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Green Yoshi"
+        ]
+      },
+      "Stargate SG1": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84"
+        ]
+      },
+      "Blade Runner": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84"
+        ]
+      },
+      "Blade Runner 2049": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84"
+        ]
+      },
+      "Panem": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84"
+        ]
+      },
+      "Godzilla": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84"
+        ]
+      },
+      "WoW Forever": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Keppel"
+        ]
+      },
+      "Reacher": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Keppel"
+        ]
+      },
+      "Visionquest": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Keppel"
+        ]
+      },
+      "Underkeep": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Berndor"
+        ]
+      },
+      "Legend of Heroes SC": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Berndor"
+        ]
+      },
+      "Haus des Geldes": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:John of Gaunt"
+        ]
+      },
+      "He who fights with monsters": {
+        "count": 1,
+        "category": "misc",
+        "mentioners": [
+          "user:Q-Bert"
+        ]
+      },
+      "VisionQuest": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Q-Bert"
+        ]
+      },
+      "Theos": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:Sokar"
+        ]
+      },
+      "The Expanse": {
+        "count": 1,
+        "category": "film_series",
+        "mentioners": [
+          "user:Sokar"
         ]
       }
     }
