@@ -6000,13 +6000,13 @@ month,item_title,category,count,editor_count,user_count
 2026-11,War of the Rings,game,1,1,0
 2026-11,Hardy Heßdörfer,game,1,1,0
 2026-11,APB,game,1,1,0
-2026-11,Ocarina of Time,game,6,2,4
+2026-11,Ocarina of Time,game,7,2,5
 2026-11,Die 80er Jahre,game,1,1,0
-2026-11,Wildwood,film_series,2,2,0
+2026-11,Wildwood,film_series,3,2,1
 2026-11,The Legend of Zelda - Ocarina of Time,game,4,3,1
-2026-11,Grand Theft Auto VI,game,9,5,4
+2026-11,Grand Theft Auto VI,game,13,5,8
 2026-11,Derelikt,game,1,1,0
-2026-11,Problaby Stolen - Cyberpunk Shopkeeper Simulator,game,1,1,0
+2026-11,Probably Stolen - Cyberpunk Shopkeeper Simulator,game,1,1,0
 2026-11,Papers Please,game,1,1,0
 2026-11,Gothic Remake Letsplay,game,1,1,0
 2026-11,I Play Rocky,film_series,1,1,0
@@ -6020,7 +6020,7 @@ month,item_title,category,count,editor_count,user_count
 2026-11,Beware Boiúna,film_series,1,1,0
 2026-11,How to,film_series,1,1,0
 2026-11,Rob a Bank,film_series,1,1,0
-2026-11,Der Herr der Ringe: Die Ringe der Macht,film_series,3,2,1
+2026-11,Der Herr der Ringe: Die Ringe der Macht,film_series,4,2,2
 2026-11,Dawn of War 4,game,1,1,0
 2026-11,World of WarCraft - Forever,game,4,2,2
 2026-11,Football Manager,game,1,1,0
@@ -6046,9 +6046,10 @@ month,item_title,category,count,editor_count,user_count
 2026-11,Fauda,film_series,1,0,1
 2026-11,Heredity,game,1,0,1
 2026-11,Batman City Crimes,game,1,0,1
+2026-11,Dungeon Crawler Carl,misc,1,0,1
 2026-11,Zelda - Ocarina of Time,game,1,0,1
 2026-11,Xavier Kieffer Roman von Tom Hillenbrand,misc,1,0,1
-2026-11,Silver Pines,game,1,0,1
+2026-11,Silver Pines,game,2,0,2
 2026-11,Opinionated Pool,game,2,0,2
 2026-11,Pool of Radiance Remake,game,1,0,1
 2026-11,Battle Isle,game,1,0,1
@@ -6060,7 +6061,7 @@ month,item_title,category,count,editor_count,user_count
 2026-11,Racing Seat,misc,1,0,1
 2026-11,Breaking Bad,film_series,1,0,1
 2026-11,Der Herr der Ringe,misc,1,0,1
-2026-11,Clayface,film_series,1,0,1
+2026-11,Clayface,film_series,2,0,2
 2026-11,TLoZ: OoT Remake,game,1,0,1
 2026-11,Dexter Resurrection,film_series,1,0,1
 2026-11,Ocarine of Time,game,1,0,1
@@ -6069,14 +6070,55 @@ month,item_title,category,count,editor_count,user_count
 2026-11,Blade Runner,film_series,1,0,1
 2026-11,Blade Runner 2049,film_series,1,0,1
 2026-11,Panem,film_series,1,0,1
-2026-11,Godzilla,film_series,1,0,1
+2026-11,Godzilla,film_series,2,0,2
 2026-11,WoW Forever,game,1,0,1
 2026-11,Reacher,film_series,1,0,1
 2026-11,Visionquest,film_series,1,0,1
 2026-11,Underkeep,game,1,0,1
 2026-11,Legend of Heroes SC,game,1,0,1
+2026-11,Trails in the Sky SC,game,2,0,2
 2026-11,Haus des Geldes,film_series,1,0,1
 2026-11,He who fights with monsters,misc,1,0,1
-2026-11,VisionQuest,film_series,1,0,1
+2026-11,VisionQuest,film_series,2,0,2
 2026-11,Theos,game,1,0,1
 2026-11,The Expanse,film_series,1,0,1
+2026-11,GTA,game,1,0,1
+2026-11,Awoved,game,1,0,1
+2026-11,Hayday,game,1,0,1
+2026-11,Ocarina of Time Remake II,game,1,0,1
+2026-11,US-Midterm-Wahlen,misc,1,0,1
+2026-11,Spindizzy,game,1,0,1
+2026-11,Retroarch Frontend,misc,1,0,1
+2026-11,M-Vave FM1 Synthesizer,misc,1,0,1
+2026-11,Retrotink 4K Update,misc,1,0,1
+2026-11,Revelation Space,misc,1,0,1
+2026-11,Zelda,game,2,0,2
+2026-11,Slow Horses,film_series,1,0,1
+2026-11,Star Trek,film_series,1,0,1
+2026-11,Star Trek: Picard,film_series,1,0,1
+2026-11,Escape Academy 2,game,1,0,1
+2026-11,Nivalis Nights,game,1,0,1
+2026-11,Wool,misc,1,0,1
+2026-11,Mission Impossible,film_series,1,0,1
+2026-11,Robocop 2,film_series,1,0,1
+2026-11,Xcom 2,game,1,0,1
+2026-11,Ebeneezer,film_series,1,0,1
+2026-11,Crystal Lake Serie,film_series,1,0,1
+2026-11,You can See everything,film_series,1,0,1
+2026-11,I hate this Place,game,1,0,1
+2026-11,Twisted Tower,game,1,0,1
+2026-11,Probably Stolen - Cyberpunk Pawnshop Simulator,game,1,0,1
+2026-11,World of Warcraft Forever - RP Server,game,1,0,1
+2026-11,Hero Quest,game,1,0,1
+2026-11,Skyrim,game,1,0,1
+2026-11,Split Fiction,misc,1,0,1
+2026-11,Puzzle,misc,1,0,1
+2026-11,Ocarina of Time Remake,game,1,0,1
+2026-11,Gothic Remake,game,1,0,1
+2026-11,Wild Horse Nine,film_series,1,0,1
+2026-11,Dexter: Resurrection Staffel 2,film_series,1,0,1
+2026-11,Dune Part III,film_series,1,0,1
+2026-11,Street Fighter,film_series,1,0,1
+2026-11,Pragmata,game,1,0,1
+2026-11,Switch Sports Resort,game,1,0,1
+2026-11,Das Geisterhaus,misc,1,0,1
