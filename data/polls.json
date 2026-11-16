@@ -23299,9 +23299,9 @@
   },
   {
     "date": "2026-11-08",
-    "title": "Sonntagsfrage: Habt ihr je eine Brettspielumsetzung eines Games gespielt?",
+    "title": "Sonntagsfrage: Habt ihr je eine Brettspielumsetzung eines Games gespielt? [Ergebnis]",
     "votes": 370,
-    "url": "/news/355911/sonntagsfrage-habt-ihr-je-eine-brettspielumsetzung-eines-games-gespielt",
+    "url": "/news/355911/sonntagsfrage-habt-ihr-je-eine-brettspielumsetzung-eines-games-gespielt-ergebnis",
     "options": [
       {
         "label": "Ja",
@@ -23312,6 +23312,34 @@
         "label": "Nein",
         "votes": 246,
         "percent": 66.0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "title": "Sonntagsfrage: Welches dieser aktuellen Eingabegeräte ist das beste?",
+    "votes": 460,
+    "url": "/news/356298/sonntagsfrage-welches-dieser-aktuellen-eingabegeraete-ist-das-beste",
+    "options": [
+      {
+        "label": "Maus und Tastatur",
+        "votes": 217,
+        "percent": 47.0
+      },
+      {
+        "label": "Switch 2 Joy-Cons / Pro Contoller",
+        "votes": 33,
+        "percent": 7.0
+      },
+      {
+        "label": "Playstation Dualsense Controller",
+        "votes": 116,
+        "percent": 25.0
+      },
+      {
+        "label": "Xbox Series Gamepad",
+        "votes": 94,
+        "percent": 20.0
       }
     ]
   }
