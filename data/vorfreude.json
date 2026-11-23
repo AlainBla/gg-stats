@@ -101208,7 +101208,7 @@
     "month": "2026-10",
     "url": "/news/352892/darauf-freut-sich-die-redaktion-im-oktober-2026",
     "title": "Darauf freut sich die Redaktion im... Oktober 2026",
-    "last_updated": "2026-11-16T19:30:43Z",
+    "last_updated": "2026-11-23T21:13:29Z",
     "comment_count": 52,
     "editors": [
       {
@@ -101500,7 +101500,7 @@
         "text": "Ich freue mich auf unseren Normandie-Urlaub, der heute beginnt. Wir sind schon auf dem Weg. :-)\nFürs Zocken zwischendurch habe ich meine Switch dabei und habe gerade „Well Dweller” angefangen und bin sehr fasziniert. Mal sehen, wie es sich so entwickelt.\nNach dem Urlaub hole ich mir dann mal Apple TV für die neuesten Staffeln von Ted Lasso und Slow Horses.\nUnd Scream 7 muss auch noch nachgeholt werden.\n\nMerci beaucoup! :-)"
       },
       {
-        "username": "Maestro84",
+        "username": "unregistriert",
         "text": "Spieltechnisch schaue ich aktuell in Civilization 7 rein nach all den Änderungen. Außerdem hab ich mir gestern mal für 1,49 Euro Airline Tycoon auf Steam geholt. Hab ich irgendwie Bock drauf nach meiner Fliegerei letztens nach Irland und zurück. Ansonsten warte ich auf den November mit The Legend of Zelda - Ocarina of Time (Switch 2) und World of Warcraft-Forever.\nSerientechnisch habe ich mal keinen Dienst aktiv. Aktuell schaue ich Saber Rider und die Star Sheriffs. Retroflash. Im Kino reizt mich Nichts, aber mein MoJ an Filmen ist eh groß genug. Wenigstens einer pro Woche ist mein Ziel, allen voran hänge ich beim Pixelkino bald zwei Folgen hinterher (James Bond und demnächst Wargames).\nAnsonsten endet so langsam die Gartensaison und auch die Zweiradsaison, dafür geht es wieder alle drei Tage zum Sport. Bei Japanese Dark Trap ab aufs Laufband und danach mithilfe diverser Podcaster zum Pumpen, Zeit wirds.\n\nDie Frage ist, wo du eine Wohnung suchst :D Bzgl. Stargate hab ich zuletzt bei der guten Nerdzika ein paar nette Videos gesehen. Diese mag das Franchise auch und hat als Schauspielerin/Sprecherin auch eine sehr angenehme Stimme.\n\nDany auf Deutschlandreise. In Wien war ich seit 2023 nicht mehr,  aber Salzburg steht 27 endlich mal an.\n\nSelbst mit mehr Training wirst Du Link nicht besiegen."
       },
       {
@@ -102171,6 +102171,27 @@
             "category": "misc"
           }
         ]
+      },
+      {
+        "username": "unregistriert",
+        "items": [
+          {
+            "title": "Civilization 7",
+            "category": "game"
+          },
+          {
+            "title": "Airline Tycoon",
+            "category": "game"
+          },
+          {
+            "title": "The Legend of Zelda - Ocarina of Time (Switch 2)",
+            "category": "game"
+          },
+          {
+            "title": "World of WarCraft - Forever",
+            "category": "game"
+          }
+        ]
       }
     ],
     "item_stats": {
@@ -102193,8 +102214,8 @@
         "category": "film_series",
         "mentioners": [
           "editor:jörg_langer",
-          "user:Ganon",
-          "user:KampfPlauze"
+          "user:KampfPlauze",
+          "user:Ganon"
         ]
       },
       "Cloudpunk": {
@@ -102266,8 +102287,8 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "editor:benjamin_braun",
           "editor:hagen_gehritz",
+          "editor:benjamin_braun",
           "user:Sheerluck"
         ]
       },
@@ -102392,9 +102413,9 @@
         "mentioners": [
           "editor:kai_schmidt",
           "editor:michael_hengst",
+          "user:Hannes Herrmann",
           "user:Flooraimer",
-          "user:Ganon",
-          "user:Hannes Herrmann"
+          "user:Ganon"
         ]
       },
       "Van Damme": {
@@ -102624,8 +102645,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Bruno Lawrie",
-          "user:Moe90"
+          "user:Moe90",
+          "user:Bruno Lawrie"
         ]
       },
       "Widow's Bay": {
@@ -102793,9 +102814,9 @@
         "count": 3,
         "category": "game",
         "mentioners": [
-          "user:Ganon",
+          "user:euph",
           "user:Robokopp",
-          "user:euph"
+          "user:Ganon"
         ]
       },
       "Crusader Kings 3 AddOn": {
@@ -102894,8 +102915,8 @@
         "category": "film_series",
         "mentioners": [
           "user:Alain",
-          "user:DerBesserwisser",
-          "user:funrox"
+          "user:funrox",
+          "user:DerBesserwisser"
         ]
       },
       "Schul-Herbstferien": {
@@ -102923,8 +102944,8 @@
         "count": 2,
         "category": "game",
         "mentioners": [
-          "user:DerBesserwisser",
-          "user:funrox"
+          "user:funrox",
+          "user:DerBesserwisser"
         ]
       },
       "Ted Lasso": {
@@ -102942,17 +102963,19 @@
         ]
       },
       "Civilization 7": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Maestro84"
+          "user:Maestro84",
+          "user:unregistriert"
         ]
       },
       "Airline Tycoon": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Maestro84"
+          "user:Maestro84",
+          "user:unregistriert"
         ]
       },
       "The Legend of Zelda - Ocarina of Time": {
@@ -102963,10 +102986,11 @@
         ]
       },
       "World of WarCraft - Forever": {
-        "count": 1,
+        "count": 2,
         "category": "game",
         "mentioners": [
-          "user:Maestro84"
+          "user:Maestro84",
+          "user:unregistriert"
         ]
       },
       "Saber Rider und die Star Sheriffs": {
@@ -103235,6 +103259,13 @@
         "mentioners": [
           "user:AlexCartman"
         ]
+      },
+      "The Legend of Zelda - Ocarina of Time (Switch 2)": {
+        "count": 1,
+        "category": "game",
+        "mentioners": [
+          "user:unregistriert"
+        ]
       }
     }
   },
@@ -103242,7 +103273,7 @@
     "month": "2026-11",
     "url": "/news/354802/darauf-freut-sich-die-redaktion-im-november-2026",
     "title": "Darauf freut sich die Redaktion im... November 2026",
-    "last_updated": "2026-11-16T19:30:41Z",
+    "last_updated": "2026-11-23T21:13:27Z",
     "comment_count": 86,
     "editors": [
       {
@@ -103563,7 +103594,7 @@
         "text": "Ich fahre am Samstag mit den Kollegen aus dem Nachwuchskreis des Ministeriums für eine Woche nach Wien. An einem Tag geht es auch nach Bratislava. Hab einen Besuch bei ESET organisiert. Darauf freue ich mich.\nAnsonsten freue ich mich diesen Monat noch auf das ATP Masters in Paris und die ATP Finals in Turin. Nach über 35 Jahren ist wieder ein Deutscher an der Spitze der Weltrangliste im Tennis. Außerdem beginnt Ende November die neue Weltcup-Saison im Skispringen.\nIn puncto Spiele werden mich vor allem Ocarine of Time und GTA VI beschäftigen. Außerdem habe ich mit dem Evercade Nexus neue Hardware, auf der ich aktuell einen ganz neuen Port von Banjo & Kazooie spiele.\n\nWir sind leider nur mittlerer und gehobener Dienst. ;-)"
       },
       {
-        "username": "Maestro84",
+        "username": "unregistriert",
         "text": "Welche Farbe wird dein Armband haben?\n\nDer November ist der beste Monat, dieses Jahr besonders, weil mit The Legend of Zelda - Ocarina of Time die dritte Inkarnation des besten Spiels aller Zeiten erscheint. Ich bin ja nur alle drei Ewigkeiten gehypt, jetzt ist es soweit. Ebenfalls freue ich mich auf World of Warcraft - Forever, was eigentlich traurig ist, denn moderne Spiele packen mich kaum noch, aber zwei alte \"Klassiker\" schon. GTA 6 lässt mich hingegen kalt wie der fünfte Teil, da nervt mich der Hype, nach dem angeblich Jeder und seine MILF auf das, ebenfalls angeblich, beste Spiel seit Jesu Geburt warten. Wird wohl genug Podcasts im November geben, die ich erst gar nicht runterladen brauche.\nSerientechnisch wird da nicht viel laufen bis auf die das erneute Schauen der dritten Staffel von Stargate SG1. Außerdem ist dieses Jahr mal wieder das Doppel Blade Runner samt 2049 dran, da nehme ich sicher im Dezember die neue Miniserie mit. Im Kino habe ich bislang keine Pläne, aber Dank mehrerer Blutspendefreikarten kann ich da spontan für lau hin. Vielleicht sogar in den neuen Panem und Godzilla.\n\nFür Männer wie dich gibt es doch Männerhäuser. ;)\n\nEin Männerhaus ist kein (!) Freudenhaus.\n\nEin \"Frauenhaus\", aber halt nur für Männer."
       },
       {
@@ -104262,7 +104293,7 @@
             "category": "game"
           },
           {
-            "title": "Stalker 2: Heart of Chornobyl",
+            "title": "STALKER 2: Heart of Chornobyl",
             "category": "game"
           },
           {
@@ -104309,6 +104340,39 @@
         "items": [
           {
             "title": "Der Herr der Ringe: Die Ringe der Macht",
+            "category": "film_series"
+          }
+        ]
+      },
+      {
+        "username": "unregistriert",
+        "items": [
+          {
+            "title": "The Legend of Zelda - Ocarina of Time",
+            "category": "game"
+          },
+          {
+            "title": "World of WarCraft - Forever",
+            "category": "game"
+          },
+          {
+            "title": "Stargate SG1",
+            "category": "film_series"
+          },
+          {
+            "title": "Blade Runner",
+            "category": "film_series"
+          },
+          {
+            "title": "Blade Runner 2049",
+            "category": "film_series"
+          },
+          {
+            "title": "Panem",
+            "category": "film_series"
+          },
+          {
+            "title": "Godzilla",
             "category": "film_series"
           }
         ]
@@ -104396,13 +104460,14 @@
         ]
       },
       "The Legend of Zelda - Ocarina of Time": {
-        "count": 4,
+        "count": 5,
         "category": "game",
         "mentioners": [
           "editor:hagen_gehritz",
           "editor:benjamin_braun",
           "editor:kai_schmidt",
-          "user:Maestro84"
+          "user:Maestro84",
+          "user:unregistriert"
         ]
       },
       "Grand Theft Auto VI": {
@@ -104548,13 +104613,14 @@
         ]
       },
       "World of WarCraft - Forever": {
-        "count": 4,
+        "count": 5,
         "category": "game",
         "mentioners": [
           "editor:christian_burtchen",
           "editor:jens_bremicker",
           "user:Toxoplasmaa",
-          "user:Maestro84"
+          "user:Maestro84",
+          "user:unregistriert"
         ]
       },
       "Football Manager": {
@@ -104864,39 +104930,44 @@
         ]
       },
       "Stargate SG1": {
-        "count": 1,
-        "category": "film_series",
-        "mentioners": [
-          "user:Maestro84"
-        ]
-      },
-      "Blade Runner": {
-        "count": 1,
-        "category": "film_series",
-        "mentioners": [
-          "user:Maestro84"
-        ]
-      },
-      "Blade Runner 2049": {
-        "count": 1,
-        "category": "film_series",
-        "mentioners": [
-          "user:Maestro84"
-        ]
-      },
-      "Panem": {
-        "count": 1,
-        "category": "film_series",
-        "mentioners": [
-          "user:Maestro84"
-        ]
-      },
-      "Godzilla": {
         "count": 2,
         "category": "film_series",
         "mentioners": [
           "user:Maestro84",
-          "user:Ganon"
+          "user:unregistriert"
+        ]
+      },
+      "Blade Runner": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84",
+          "user:unregistriert"
+        ]
+      },
+      "Blade Runner 2049": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84",
+          "user:unregistriert"
+        ]
+      },
+      "Panem": {
+        "count": 2,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84",
+          "user:unregistriert"
+        ]
+      },
+      "Godzilla": {
+        "count": 3,
+        "category": "film_series",
+        "mentioners": [
+          "user:Maestro84",
+          "user:Ganon",
+          "user:unregistriert"
         ]
       },
       "WoW Forever": {
@@ -105283,7 +105354,7 @@
           "user:MicBass"
         ]
       },
-      "Stalker 2: Heart of Chornobyl": {
+      "STALKER 2: Heart of Chornobyl": {
         "count": 1,
         "category": "game",
         "mentioners": [

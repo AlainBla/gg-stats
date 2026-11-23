@@ -5951,10 +5951,10 @@ month,item_title,category,count,editor_count,user_count
 2026-10,Well Dweller,game,2,0,2
 2026-10,Ted Lasso,film_series,1,0,1
 2026-10,Scream 7,film_series,1,0,1
-2026-10,Civilization 7,game,1,0,1
-2026-10,Airline Tycoon,game,1,0,1
+2026-10,Civilization 7,game,2,0,2
+2026-10,Airline Tycoon,game,2,0,2
 2026-10,The Legend of Zelda - Ocarina of Time,game,1,0,1
-2026-10,World of WarCraft - Forever,game,1,0,1
+2026-10,World of WarCraft - Forever,game,2,0,2
 2026-10,Saber Rider und die Star Sheriffs,film_series,1,0,1
 2026-10,James Bond,film_series,1,0,1
 2026-10,Wargames,film_series,1,0,1
@@ -5993,6 +5993,7 @@ month,item_title,category,count,editor_count,user_count
 2026-10,GamersGlobal,misc,1,0,1
 2026-10,Watch Dogs,game,1,0,1
 2026-10,Tauchen,misc,1,0,1
+2026-10,The Legend of Zelda - Ocarina of Time (Switch 2),game,1,0,1
 2026-11,4 Blocks Zero,film_series,2,1,1
 2026-11,Godzilla Minus Zero,film_series,2,2,0
 2026-11,Godzilla Minus One,film_series,1,1,0
@@ -6003,7 +6004,7 @@ month,item_title,category,count,editor_count,user_count
 2026-11,Ocarina of Time,game,7,2,5
 2026-11,Die 80er Jahre,game,1,1,0
 2026-11,Wildwood,film_series,3,2,1
-2026-11,The Legend of Zelda - Ocarina of Time,game,4,3,1
+2026-11,The Legend of Zelda - Ocarina of Time,game,5,3,2
 2026-11,Grand Theft Auto VI,game,13,5,8
 2026-11,Derelikt,game,1,1,0
 2026-11,Probably Stolen - Cyberpunk Shopkeeper Simulator,game,1,1,0
@@ -6022,7 +6023,7 @@ month,item_title,category,count,editor_count,user_count
 2026-11,Rob a Bank,film_series,1,1,0
 2026-11,Der Herr der Ringe: Die Ringe der Macht,film_series,5,2,3
 2026-11,Dawn of War 4,game,1,1,0
-2026-11,World of WarCraft - Forever,game,4,2,2
+2026-11,World of WarCraft - Forever,game,5,2,3
 2026-11,Football Manager,game,1,1,0
 2026-11,Copa City,game,1,1,0
 2026-11,Faust 2,misc,1,1,0
@@ -6066,11 +6067,11 @@ month,item_title,category,count,editor_count,user_count
 2026-11,Dexter Resurrection,film_series,1,0,1
 2026-11,Ocarine of Time,game,1,0,1
 2026-11,Banjo & Kazooie,game,1,0,1
-2026-11,Stargate SG1,film_series,1,0,1
-2026-11,Blade Runner,film_series,1,0,1
-2026-11,Blade Runner 2049,film_series,1,0,1
-2026-11,Panem,film_series,1,0,1
-2026-11,Godzilla,film_series,2,0,2
+2026-11,Stargate SG1,film_series,2,0,2
+2026-11,Blade Runner,film_series,2,0,2
+2026-11,Blade Runner 2049,film_series,2,0,2
+2026-11,Panem,film_series,2,0,2
+2026-11,Godzilla,film_series,3,0,3
 2026-11,WoW Forever,game,1,0,1
 2026-11,Reacher,film_series,1,0,1
 2026-11,Visionquest,film_series,1,0,1
@@ -6125,7 +6126,7 @@ month,item_title,category,count,editor_count,user_count
 2026-11,Das Geisterhaus,misc,1,0,1
 2026-11,Witcher 3,game,1,0,1
 2026-11,Blood & Wine,game,1,0,1
-2026-11,Stalker 2: Heart of Chornobyl,game,1,0,1
+2026-11,STALKER 2: Heart of Chornobyl,game,1,0,1
 2026-11,Mr. Mercedes,film_series,1,0,1
 2026-11,The Road,misc,1,0,1
 2026-11,Switch 2 Zelda LE,game,1,0,1
